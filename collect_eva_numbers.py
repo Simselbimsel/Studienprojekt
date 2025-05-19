@@ -20,7 +20,7 @@ if not client_id:
 headers = {
     "DB-Api-Key": api_key,
     "DB-Client-Id": client_id,
-    "accept": "application/xml",
+    "accept": "application/json",
 }
 
 #callAPI Function
