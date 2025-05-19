@@ -32,7 +32,7 @@ def call_api(url, path, max_retries=3):
         try:
             
             #HTTP-GET Call
-            response = requests.get(url, headers=header, timeout=15)
+            response = requests.get(url, headers=headers, timeout=15)
             
             #throws HTTP-Error like 404 
             response.raise_for_status()             
