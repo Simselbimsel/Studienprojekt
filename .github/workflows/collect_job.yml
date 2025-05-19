@@ -23,9 +23,9 @@ jobs:
       - name: Install Dependencies
         run: pip install -r requirements.txt # installiert die notwendigen Python-Bibliotheken
       - name: Fetch Data # führt die zwei Python skripte aus im run
-        # env: # setzt die Umgebungsvariablen aus dem GitHub Secrets, welche nicht öffentlich sichtbar sind im Repository
-          # DB_API_KEY: ${{ secrets.API_KEY }}
-          # DB_CLIENT_ID: ${{ secrets.CLIENT_ID }}
+        env: # setzt die Umgebungsvariablen aus dem GitHub Secrets, welche nicht öffentlich sichtbar sind im Repository
+          DB_API_KEY: ${{ secrets.DB_API_KEY }}
+          DB_CLIENT_ID: ${{ secrets.DB_CLIENT_ID }}
         run: |
           python collect_eva_numbers.py
           python collect_api_data.py
