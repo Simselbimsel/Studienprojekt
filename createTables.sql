@@ -11,7 +11,7 @@ CREATE TABLE IF NOT EXISTS train_types (
 
 CREATE TABLE IF NOT EXISTS trains (
     train_id SERIAL PRIMARY KEY,
-    train_name VARCHAR(50) NOT NULL,
+    train_name VARCHAR(50) UNIQUE NOT NULL,
     train_type_id INT NOT NULL REFERENCES train_types (train_type_id)
 );
 
