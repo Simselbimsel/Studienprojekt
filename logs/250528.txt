@@ -66,3 +66,22 @@
 2025-05-28 16:55:53 ERROR Failed to collect data for https://apis.deutschebahn.com/db-api-marketplace/apis/timetables/v1/plan/8083368/250528/23
 2025-05-28 17:29:19 INFO Data collection completed.
 ----- [collect_api_data.py] End:2025-05-28 19:29:19 ------
+----- [neon_inserts.py] Start:2025-05-28 22:31:06 ------
+2025-05-28 20:31:06 INFO Starting daily data load script
+2025-05-28 20:31:06 INFO Using database URL from environment
+2025-05-28 20:31:06 INFO Creating database engine
+2025-05-28 20:31:06 INFO Database engine created successfully
+2025-05-28 20:31:08 INFO Database connection established
+2025-05-28 20:31:08 INFO Found parquet file: daily_data/250527.parquet
+2025-05-28 20:31:08 INFO Read dataframe with 81001 rows
+2025-05-28 20:31:08 INFO Processing stations
+2025-05-28 20:31:10 INFO No new stations to insert
+2025-05-28 20:31:10 INFO No new stations to insert
+2025-05-28 20:31:10 INFO Processing train types
+2025-05-28 20:31:11 INFO No new train types to insert
+2025-05-28 20:31:11 INFO Processing train rides
+2025-05-28 20:31:14 INFO No new train rides to insert
+2025-05-28 20:31:14 INFO Processing stops
+2025-05-28 20:31:20 INFO No new stops to insert
+2025-05-28 20:31:20 INFO Daily data load script completed successfully
+----- [neon_inserts.py] End:2025-05-28 22:31:20 ------
