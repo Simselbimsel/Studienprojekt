@@ -22,5 +22,18 @@ jobs:
           pip install -r requirements.txt
 
       - name: Run insert script
-        run: python neon_inserts.py
+        run: |
+          python neon_inserts.py || echo "Script failed"
 
+      - name: Configure Git
+        run: |
+          git config --local user.email "noreply@github.com"
+          git config --local user.name "GitHub Actions Bot"
+          
+      - name: Commit and Push # zuständig für das updaten der Repository
+        run: |
+          git fetch origin
+          git add --sparse *
+          git commit -m "data update" || echo "No changes to commit"
+          git pull --rebase origin main
+          git push
