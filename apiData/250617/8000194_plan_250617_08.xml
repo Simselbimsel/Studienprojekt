@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<timetable station="Kaufbeuren">
+	<s id="-2812804889090316297-2506170659-10">
+		<tl f="D" t="p" o="Y8" c="BRB" n="62701"/>
+		<ar pt="2506170757" pp="3" l="RB68" ppth="Füssen|Weizern-Hopferau|Seeg|Lengenwang|Leuterschach|Marktoberdorf Schule|Marktoberdorf|Ebenhofen|Biessenhofen"/>
+		<dp pt="2506170818" pp="3" l="RB68" ppth="Buchloe|Kaufering|Geltendorf"/>
+	</s>
+	<s id="-8772801821702667425-2506170745-8">
+		<tl f="D" t="p" o="Y8" c="BRB" n="62726"/>
+		<ar pt="2506170842" pp="1" l="RB77" ppth="Augsburg Hbf|Augsburg Morellstr.|Augsburg Messe|Inningen|Bobingen|Schwabmünchen|Buchloe"/>
+		<dp pt="2506170845" pp="1" l="RB77" ppth="Biessenhofen|Ebenhofen|Marktoberdorf|Marktoberdorf Schule|Leuterschach|Lengenwang|Seeg|Weizern-Hopferau|Füssen"/>
+	</s>
+	<s id="5569320375823738877-2506170720-6">
+		<tl f="N" t="p" o="8007D5" c="RE" n="7874"/>
+		<ar pt="2506170817" pp="1" l="76" ppth="München Hbf Gl.27-36|München-Pasing|Geltendorf|Kaufering|Buchloe"/>
+		<dp pt="2506170817" pp="1" l="76" ppth="Kempten(Allgäu)Hbf|Immenstadt|Blaichach(Allgäu)|Sonthofen|Fischen|Oberstdorf"/>
+	</s>
+	<s id="-1757625946298451438-2506170720-6">
+		<tl f="N" t="p" o="8007D5" c="RE" n="3874"/>
+		<ar pt="2506170817" pp="1" l="70" wings="5569320375823738877-2506170720" ppth="München Hbf Gl.27-36|München-Pasing|Geltendorf|Kaufering|Buchloe"/>
+		<dp pt="2506170817" pp="1" l="70" wings="5569320375823738877-2506170720" ppth="Kempten(Allgäu)Hbf|Immenstadt|Oberstaufen|Röthenbach(Allgäu)|Heimenkirch|Hergatz|Lindau-Reutin|Lindau-Insel"/>
+	</s>
+	<s id="8055672715264792657-2506170703-9">
+		<tl f="N" t="p" o="8007D5" c="RE" n="3285"/>
+		<ar pt="2506170841" pp="2" l="7" wings="-738050704620135753-2506170658" ppth="Lindau-Insel|Lindau-Reutin|Hergatz|Heimenkirch|Röthenbach(Allgäu)|Oberstaufen|Immenstadt|Kempten(Allgäu)Hbf"/>
+		<dp pt="2506170842" pp="2" l="7" wings="-738050704620135753-2506170658" ppth="Buchloe|Augsburg Hbf"/>
+	</s>
+	<s id="4562228920219103769-2506170809-5">
+		<tl f="N" t="p" o="8007D4" c="RE" n="57406"/>
+		<ar pt="2506170850" pp="1" l="79" ppth="Augsburg Hbf|Bobingen|Schwabmünchen|Buchloe"/>
+		<dp pt="2506170851" pp="1" l="79" ppth="Biessenhofen|Günzach|Kempten(Allgäu)Hbf"/>
+	</s>
+	<s id="-738050704620135753-2506170658-9">
+		<tl f="N" t="p" o="8007D5" c="RE" n="3385"/>
+		<ar pt="2506170841" pp="2" l="17" ppth="Oberstdorf|Langenwang(Schwab)|Fischen|Altstädten(Allgäu)|Sonthofen|Blaichach(Allgäu)|Immenstadt|Kempten(Allgäu)Hbf"/>
+		<dp pt="2506170842" pp="2" l="17" ppth="Buchloe|Augsburg Hbf"/>
+	</s>
+	<s id="-1151245201290196444-2506170735-4">
+		<tl f="N" t="p" o="8007D4" c="RE" n="57409"/>
+		<ar pt="2506170803" pp="2" l="79" ppth="Kempten(Allgäu)Hbf|Günzach|Biessenhofen"/>
+		<dp pt="2506170804" pp="2" l="79" ppth="Buchloe|Schwabmünchen|Bobingen|Augsburg Hbf"/>
+	</s>
+</timetable>
