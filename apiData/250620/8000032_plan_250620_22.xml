@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<timetable station="Schweinfurt Hbf">
+	<s id="5605830381281528832-2506202143-7">
+		<tl f="N" t="p" o="800714" c="RB" n="58275"/>
+		<ar pt="2506202217" pp="7" l="53" ppth="Würzburg Hbf|Rottendorf|Seligenstadt(b Würzburg)|Bergtheim|Eßleben|Waigolshausen"/>
+		<dp pt="2506202219" pp="7" l="53" ppth="Schweinfurt Mitte|Schweinfurt Stadt|Schonungen|Haßfurt|Zeil|Ebelsbach-Eltmann|Oberhaid|Bamberg"/>
+	</s>
+	<s id="-5516896756132872421-2506202141-9">
+		<tl f="N" t="p" o="800772" c="RE" n="58404"/>
+		<ar pt="2506202219" pp="6" l="55" ppth="Bamberg|Oberhaid|Ebelsbach-Eltmann|Zeil|Haßfurt|Schonungen|Schweinfurt Stadt|Schweinfurt Mitte"/>
+		<dp pt="2506202220" pp="6" l="55" ppth="Waigolshausen|Eßleben|Bergtheim|Seligenstadt(b Würzburg)|Rottendorf|Würzburg Hbf"/>
+	</s>
+	<s id="-6395705189988026585-2506202110-14">
+		<tl f="N" t="p" o="EB" c="RB" n="80761"/>
+		<ar pt="2506202236" pp="3" l="40" ppth="Meiningen|Untermaßfeld|Grimmenthal|Wölfershausen|Bibra|Rentwertshausen|Mellrichstadt Bf|Bad Neustadt(Saale)|Burglauer|Münnerstadt|Rottershausen|Ebenhausen(Unterfr)|Poppenhausen"/>
+		<dp pt="2506202237" pp="3" l="40" ppth="Schweinfurt Mitte|Schweinfurt Stadt"/>
+	</s>
+	<s id="-8941685151122192918-2506202113-18">
+		<tl f="N" t="p" o="EB" c="RB" n="80703"/>
+		<ar pt="2506202236" pp="3" l="50" wings="-6395705189988026585-2506202110" ppth="Gemünden(Main)|Kleingemünden|Wolfsmünster|Gräfendorf|Michelaubrück|Weickersgrüben|Morlesau|Diebach|Hammelburg|Hammelburg Ost|Westheim-Langendorf|Elfershausen-Trimberg|Euerdorf|Bad Kissingen|Oerlenbach|Ebenhausen(Unterfr)|Poppenhausen"/>
+		<dp pt="2506202237" pp="3" l="50" wings="-6395705189988026585-2506202110" ppth="Schweinfurt Mitte|Schweinfurt Stadt"/>
+	</s>
+	<s id="-8728315404525185962-2506202235-2">
+		<tl f="N" t="p" o="800755" c="RE" n="4797"/>
+		<ar pt="2506202259" pp="7" l="20" ppth="Würzburg Hbf"/>
+		<dp pt="2506202300" pp="7" l="20" ppth="Haßfurt|Bamberg"/>
+	</s>
+	<s id="3412232468278720897-2506202224-1">
+		<tl f="N" t="p" o="EB" c="RB" n="80702"/>
+		<dp pt="2506202224" pp="3" l="50" wings="-7549510594241487704-2506202224" ppth="Oberwerrn|Poppenhausen|Ebenhausen(Unterfr)|Oerlenbach|Bad Kissingen"/>
+	</s>
+	<s id="-7549510594241487704-2506202224-1">
+		<tl f="N" t="p" o="EB" c="RB" n="80764"/>
+		<dp pt="2506202224" pp="3" l="40" ppth="Oberwerrn|Poppenhausen|Ebenhausen(Unterfr)|Rottershausen|Münnerstadt|Burglauer|Bad Neustadt(Saale)|Mellrichstadt Bf|Rentwertshausen|Bibra|Wölfershausen|Grimmenthal|Meiningen"/>
+	</s>
+</timetable>
