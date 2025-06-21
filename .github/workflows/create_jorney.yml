@@ -30,7 +30,7 @@ jobs:
 
       - name: Run Vendo Client Script
         run: |
-          node jorney/jorney_script.js "${{ github.event.inputs.fromName }}" "${{ github.event.inputs.toName }}"
+          node jorney/jorney_script.cjs "${{ github.event.inputs.fromName }}" "${{ github.event.inputs.toName }}"
 
       - name: Upload JSON output
         uses: actions/upload-artifact@v4
