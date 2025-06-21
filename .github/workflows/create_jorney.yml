@@ -3,13 +3,13 @@ name: jorney
 on:
   workflow_dispatch:
     inputs:
-      param1:
+      from:
         description: "from_station"
-        required: true
+        required: false
         default: "Berlin Hbf"
-      param2:
+      to:
         description: "to_station"
-        required: true
+        required: false
         default: "München Hbf"
 
 jobs:
