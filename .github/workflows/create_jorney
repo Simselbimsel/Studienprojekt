@@ -1,0 +1,35 @@
+name: jorney
+
+on:
+  workflow_dispatch:
+    inputs:
+      param1:
+        description: "first parameter"
+        required: true
+        default: "Berlin Hbf"
+      param2:
+        description: "second parameterr"
+        required: true
+        default: "München Hbf"
+
+jobs:
+  run-vendo:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Run vendo-client with inputs
+        run: |
+          node vendo-client.js "${{ github.event.inputs.param1 }}" "${{ github.event.inputs.param2 }}" > output.json
+
+      - name: Upload result as artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: vendo-output
+          path: output.json
