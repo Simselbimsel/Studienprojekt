@@ -4,32 +4,36 @@ on:
   workflow_dispatch:
     inputs:
       param1:
-        description: "first parameter"
+        description: "from_station"
         required: true
         default: "Berlin Hbf"
       param2:
-        description: "second parameterr"
+        description: "to_station"
         required: true
         default: "München Hbf"
 
 jobs:
-  run-vendo:
+  run-script:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout Repo
+        uses: actions/checkout@v3
 
-      - name: Setup Node.js
+      - name: Install Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: "20"
+          node-version: '20'
 
-      - name: Run vendo-client with inputs
+      - name: Install Dependencies
+        run: npm install
+
+      - name: Run Vendo Client Script
         run: |
-          node vendo-client.js "${{ github.event.inputs.param1 }}" "${{ github.event.inputs.param2 }}" > output.json
+          node jorney/jorney_script.js "${{ github.event.inputs.fromName }}" "${{ github.event.inputs.toName }}"
 
-      - name: Upload result as artifact
+      - name: Upload JSON output
         uses: actions/upload-artifact@v3
         with:
-          name: vendo-output
-          path: output.json
+          name: journey-output
+          path: output/journeys.json
