@@ -19,6 +19,12 @@ jobs:
     steps:
       - name: Checkout Repo
         uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            package.json
+            jorney/jorney_script.cjs
+          sparse-checkout-cone-mode: false
+          fetch-depth: 1
 
       - name: Install Node.js
         uses: actions/setup-node@v4
