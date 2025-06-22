@@ -65,6 +65,6 @@ jobs:
             echo "No changes to commit"
           else
             git commit -m "Daily data update"
-            git pull --rebase origin main
+            git pull --rebase origin main --no-rebase
             git push origin main || echo "Push failed – possibly a race condition"
           fi
