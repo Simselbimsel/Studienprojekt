@@ -13,3 +13,13 @@
 2025-06-21 23:02:51 ERROR Failed to collect data for https://apis.deutschebahn.com/db-api-marketplace/apis/timetables/v1/plan/8083368/250622/05
 2025-06-21 23:31:23 INFO Data collection completed.
 ----- [collect_api_data.py] End:2025-06-22 01:31:23 ------
+----- [neon_inserts.py] Start:2025-06-22 05:14:17 ------
+2025-06-22 03:14:17 INFO Starting daily data load script
+2025-06-22 03:14:17 INFO Using database URL from environment
+2025-06-22 03:14:17 INFO Creating database engine
+2025-06-22 03:14:17 INFO Database engine created successfully
+2025-06-22 03:14:30 INFO Database connection established
+2025-06-22 03:14:30 ERROR Parquet file not found: daily_data/250621.parquet
+----- [neon_inserts.py] End:2025-06-22 05:14:30 ------
+2025-06-22 03:14:30 ERROR Unhandled exception: Parquet file not found: daily_data/250621.parquet
+----- [neon_inserts.py] End:2025-06-22 05:14:30 ------
