@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<timetable station="Gerlenhofen">
+	<s id="-7537191865808722685-2506251838-6">
+		<tl t="p" o="8007DU" c="N" n="57484"/>
+		<ar pt="2506251854" pp="2" l="RS71" ppth="Weißenhorn|Weißenhorn-Eschach|Witzighausen|Wullenstetten|Senden"/>
+		<dp pt="2506251854" pp="2" l="RS71" ppth="Finningerstraße|Neu-Ulm|Ulm Hbf"/>
+	</s>
+	<s id="3640729379924936106-2506251759-4">
+		<tl t="p" o="8007DU" c="N" n="57679"/>
+		<ar pt="2506251808" pp="2" l="RS7" ppth="Ulm Hbf|Neu-Ulm|Finningerstraße"/>
+		<dp pt="2506251808" pp="2" l="RS7" ppth="Senden|Vöhringen"/>
+	</s>
+	<s id="-6232134953941967069-2506251759-4">
+		<tl t="p" o="8007DU" c="N" n="57481"/>
+		<ar pt="2506251808" pp="2" l="RS71" wings="3640729379924936106-2506251759" ppth="Ulm Hbf|Neu-Ulm|Finningerstraße"/>
+		<dp pt="2506251808" pp="2" l="RS71" wings="3640729379924936106-2506251759" ppth="Senden|Wullenstetten|Witzighausen|Weißenhorn-Eschach|Weißenhorn"/>
+	</s>
+</timetable>
