@@ -29,6 +29,11 @@ jobs:
         run: |
           git config --local user.email "noreply@github.com"
           git config --local user.name "GitHub Actions Bot"
+    
+      - name: Pull latest changes
+        run: |
+          git fetch origin
+          git rebase origin/main 
           
       - name: Commit and Push # zuständig für das updaten der Repository
         run: |
