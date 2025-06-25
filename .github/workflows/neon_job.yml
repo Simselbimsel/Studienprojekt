@@ -37,7 +37,6 @@ jobs:
           
       - name: Commit and Push # zuständig für das updaten der Repository
         run: |
-          git fetch origin
           git add --sparse *
           git commit -m "data update" || echo "No changes to commit"
           git pull --rebase origin main
