@@ -135,7 +135,7 @@ const main = async () => {
       }
     });
 
-    saveToFile(enriched, 'output/journeys.json');
+    saveToFile(enriched, 'jorney/output/journeys.json');
   } catch (err) {
     process.exit(1);
   }
