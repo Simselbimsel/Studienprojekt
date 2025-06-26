@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<timetable station="München-Fasanerie">
+	<s id="-3491726522093562117-2506262156-7">
+		<tl t="p" o="B7" c="Bus" n="98121"/>
+		<ar pt="2506262246" pp="" l="S1" ppth="Neufahrn(b Freising)|Eching|Lohhof|Unterschleißheim|Oberschleißheim|München-Feldmoching"/>
+		<dp pt="2506262246" pp="" l="S1" ppth="München-Moosach"/>
+	</s>
+	<s id="-60177152005778849-2506262131-13">
+		<tl f="S" t="p" o="800725" c="S" n="8912"/>
+		<ar pt="2506262212" pp="2" l="1" ppth="München Leuchtenbergring|München Ost|München Rosenheimer Platz|München Isartor|München Marienplatz|München Karlsplatz|München Hbf (tief)|München Hackerbrücke|München Donnersbergerbrücke|München Hirschgarten|München-Laim|München-Moosach"/>
+		<dp pt="2506262212" pp="2" l="1" ppth="München-Feldmoching|Oberschleißheim|Unterschleißheim|Lohhof|Eching|Neufahrn(b Freising)|München Flughafen Besucherpark|München Flughafen Terminal"/>
+	</s>
+	<s id="7931610559795307786-2506262229-2">
+		<tl t="p" o="B7" c="Bus" n="98112"/>
+		<ar pt="2506262237" pp="" l="S1" ppth="München-Moosach"/>
+		<dp pt="2506262237" pp="" l="S1" ppth="München-Feldmoching|Oberschleißheim|Unterschleißheim|Lohhof|Eching|Neufahrn(b Freising)"/>
+	</s>
+	<s id="2258325323395573670-2506262131-13">
+		<tl f="S" t="p" o="800725" c="S" n="8160"/>
+		<ar pt="2506262212" pp="2" l="1" wings="-60177152005778849-2506262131" ppth="München Leuchtenbergring|München Ost|München Rosenheimer Platz|München Isartor|München Marienplatz|München Karlsplatz|München Hbf (tief)|München Hackerbrücke|München Donnersbergerbrücke|München Hirschgarten|München-Laim|München-Moosach"/>
+		<dp pt="2506262212" pp="2" l="1" wings="-60177152005778849-2506262131" ppth="München-Feldmoching|Oberschleißheim|Unterschleißheim|Lohhof|Eching|Neufahrn(b Freising)|Pulling(b Freising)|Freising"/>
+	</s>
+	<s id="3040335584895770813-2506262131-9">
+		<tl f="S" t="p" o="800725" c="S" n="8177"/>
+		<ar pt="2506262201" pp="1" l="1" wings="94679079604957141-2506262134" ppth="München Flughafen Terminal|München Flughafen Besucherpark|Neufahrn(b Freising)|Eching|Lohhof|Unterschleißheim|Oberschleißheim|München-Feldmoching"/>
+		<dp pt="2506262201" pp="1" l="1" wings="94679079604957141-2506262134" ppth="München-Moosach|München-Laim|München Hirschgarten|München Donnersbergerbrücke|München Hbf Gl.27-36"/>
+	</s>
+	<s id="94679079604957141-2506262134-9">
+		<tl f="S" t="p" o="800725" c="S" n="8917"/>
+		<ar pt="2506262201" pp="1" l="1" ppth="Freising|Pulling(b Freising)|Neufahrn(b Freising)|Eching|Lohhof|Unterschleißheim|Oberschleißheim|München-Feldmoching"/>
+		<dp pt="2506262201" pp="1" l="1" ppth="München-Moosach|München-Laim|München Hirschgarten|München Donnersbergerbrücke|München Hbf Gl.27-36"/>
+	</s>
+</timetable>
