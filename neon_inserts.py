@@ -29,7 +29,7 @@ def main():
         with engine.connect() as connection:
             logger('info', 'Database connection established')
             # Encrypted DB connection
-            yesterday = (datetime.now(ZoneInfo("Europe/Berlin")) - timedelta(days=1)).strftime('%y%m%d')
+            yesterday = (datetime.now(ZoneInfo("Europe/Berlin")) - timedelta(days=2)).strftime('%y%m%d')
             file_path = Path("daily_data")/f"{yesterday}.parquet"
             #file_path = Path("daily_data")/"250516.parquet"
             logger('debug', f'Looking for parquet file: {file_path}')
