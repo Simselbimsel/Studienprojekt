@@ -31,7 +31,7 @@ def main():
             # Encrypted DB connection
             yesterday = (datetime.now(ZoneInfo("Europe/Berlin")) - timedelta(days=1)).strftime('%y%m%d')
             #file_path = Path("daily_data")/f"{yesterday}.parquet"
-            file_path = Path("daily_data")/"250627.parquet"
+            file_path = Path("daily_data")/"250628.parquet"
             logger('debug', f'Looking for parquet file: {file_path}')
 
             if not file_path.exists():
