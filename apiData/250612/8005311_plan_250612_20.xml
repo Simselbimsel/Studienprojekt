@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<timetable station="Schaftlach">
+	<s id="2305342536925822167-2506122002-7">
+		<tl f="D" t="p" o="T8" c="BRB" n="86947"/>
+		<ar pt="2506122045" pp="1" l="RB57" ppth="München Hbf Gl.27-36|München Donnersbergerbrücke|München Harras|München Siemenswerke|Holzkirchen|Warngau"/>
+		<dp pt="2506122048" pp="1" l="RB57" ppth="Moosrain|Finsterwald|Gmund(Tegernsee)|Tegernsee"/>
+	</s>
+	<s id="3754115637227895128-2506121952-5">
+		<tl f="D" t="p" o="T8" c="BRB" n="86946"/>
+		<ar pt="2506122013" pp="2" l="RB57" ppth="Tegernsee|Gmund(Tegernsee)|Finsterwald|Moosrain"/>
+		<dp pt="2506122017" pp="2" l="RB57" ppth="Warngau|Holzkirchen|München Siemenswerke|München Harras|München Donnersbergerbrücke|München Hbf Gl.27-36"/>
+	</s>
+	<s id="1668719807996817871-2506121926-7">
+		<tl f="D" t="p" o="T8" c="BRB" n="86945"/>
+		<ar pt="2506122012" pp="1" l="RB57" ppth="München Hbf Gl.27-36|München Donnersbergerbrücke|München Harras|München Siemenswerke|Holzkirchen|Warngau"/>
+		<dp pt="2506122018" pp="1" l="RB57" ppth="Moosrain|Finsterwald|Gmund(Tegernsee)|Tegernsee"/>
+	</s>
+	<s id="1156783200673777625-2506121926-7">
+		<tl f="D" t="p" o="T8" c="BRB" n="86845"/>
+		<ar pt="2506122012" pp="1" l="RB56" wings="1668719807996817871-2506121926" ppth="München Hbf Gl.27-36|München Donnersbergerbrücke|München Harras|München Siemenswerke|Holzkirchen|Warngau"/>
+		<dp pt="2506122018" pp="1" l="RB56" ppth="Reichersbeuern|Bad Tölz|Gaißach|Obergries|Lenggries"/>
+	</s>
+	<s id="784179812601465369-2506122002-7">
+		<tl f="D" t="p" o="T8" c="BRB" n="86847"/>
+		<ar pt="2506122045" pp="1" l="RB56" wings="2305342536925822167-2506122002" ppth="München Hbf Gl.27-36|München Donnersbergerbrücke|München Harras|München Siemenswerke|Holzkirchen|Warngau"/>
+		<dp pt="2506122048" pp="1" l="RB56" ppth="Reichersbeuern|Bad Tölz|Gaißach|Obergries|Lenggries"/>
+	</s>
+	<s id="-3859289401799646293-2506121947-6">
+		<tl f="D" t="p" o="T8" c="BRB" n="86846"/>
+		<ar pt="2506122010" pp="2" l="RB56" ppth="Lenggries|Obergries|Gaißach|Bad Tölz|Reichersbeuern"/>
+		<dp pt="2506122017" pp="2" l="RB56" wings="3754115637227895128-2506121952" ppth="Warngau|Holzkirchen|München Siemenswerke|München Harras|München Donnersbergerbrücke|München Hbf Gl.27-36"/>
+	</s>
+</timetable>

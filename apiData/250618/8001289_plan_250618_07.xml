@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<timetable station="Burgkunstadt">
+	<s id="8703126243214021133-2506180623-11">
+		<tl f="N" t="p" o="800759" c="RE" n="3002"/>
+		<ar pt="2506180741" pp="1" l="35" wings="-1014592381127973184-2506180559" ppth="Hof Hbf|Oberkotzau|Schwarzenbach(Saale)|Förbau|Münchberg|Stammbach|Marktschorgast|Neuenmarkt-Wirsberg|Untersteinach(b Stadtsteinach)|Kulmbach"/>
+		<dp pt="2506180742" pp="1" l="35" wings="-1014592381127973184-2506180559" ppth="Lichtenfels|Bad Staffelstein|Bamberg"/>
+	</s>
+	<s id="-1014592381127973184-2506180559-14">
+		<tl f="N" t="p" o="800759" c="RE" n="3403"/>
+		<ar pt="2506180741" pp="1" l="32" ppth="Nürnberg Hbf|Lauf(rechts Pegnitz)|Hersbruck(r Pegnitz)|Neuhaus(Pegnitz)|Pegnitz|Schnabelwaid|Creußen(Oberfr)|Bayreuth Hbf|Harsdorf|Trebgast|Neuenmarkt-Wirsberg|Untersteinach(b Stadtsteinach)|Kulmbach"/>
+		<dp pt="2506180742" pp="1" l="32" pde="Coburg" ppth="Lichtenfels"/>
+	</s>
+	<s id="3643530280569690631-2506180640-5">
+		<tl f="N" t="p" o="800759" c="RE" n="3001"/>
+		<ar pt="2506180713" pp="2" l="35" ppth="Bamberg|Bad Staffelstein|Lichtenfels|Hochstadt-Marktzeuln"/>
+		<dp pt="2506180714" pp="2" l="35" ppth="Mainleus|Kulmbach|Neuenmarkt-Wirsberg|Marktschorgast|Stammbach|Münchberg|Schwarzenbach(Saale)|Hof Hbf"/>
+	</s>
+	<s id="402064761487430313-2506180629-12">
+		<tl f="D" t="p" o="A9" c="ag" n="84600"/>
+		<ar pt="2506180715" pp="1" l="RB24" ppth="Bayreuth Hbf|Bindlach|Ramsenthal|Harsdorf|Trebgast|Neuenmarkt-Wirsberg|Ludwigschorgast|Untersteinach(b Stadtsteinach)|Kulmbach|Mainleus|Mainroth"/>
+		<dp pt="2506180715" pp="1" l="RB24" ppth="Hochstadt-Marktzeuln|Lichtenfels"/>
+	</s>
+	<s id="8294584516510842367-2506180640-5">
+		<tl f="N" t="p" o="800759" c="RE" n="3400"/>
+		<ar pt="2506180713" pp="2" l="38" wings="3643530280569690631-2506180640" ppth="Bamberg|Bad Staffelstein|Lichtenfels|Hochstadt-Marktzeuln"/>
+		<dp pt="2506180714" pp="2" l="38" wings="3643530280569690631-2506180640" ppth="Mainleus|Kulmbach|Neuenmarkt-Wirsberg|Trebgast|Bayreuth Hbf|Pegnitz|Hersbruck(r Pegnitz)|Nürnberg Hbf"/>
+	</s>
+	<s id="2527540167095360919-2506180735-3">
+		<tl f="D" t="p" o="A9" c="ag" n="84593"/>
+		<ar pt="2506180745" pp="2" l="RB24" ppth="Lichtenfels|Hochstadt-Marktzeuln"/>
+		<dp pt="2506180746" pp="2" l="RB24" ppth="Mainroth|Mainleus|Kulmbach|Untersteinach(b Stadtsteinach)|Ludwigschorgast|Neuenmarkt-Wirsberg|Trebgast|Harsdorf|Ramsenthal|Bindlach|Bayreuth Hbf"/>
+	</s>
+</timetable>

@@ -1,0 +1,45 @@
+name: jorney
+
+on:
+  workflow_dispatch:
+    inputs:
+      from:
+        description: "from_station"
+        required: true
+        default: "Berlin Hbf"
+      to:
+        description: "to_station"
+        required: true
+        default: "München Hbf"
+
+jobs:
+  run-script:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            package.json
+            jorney/jorney_script.cjs
+          sparse-checkout-cone-mode: false
+          fetch-depth: 1
+
+      - name: Install Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install Dependencies
+        run: npm install
+
+      - name: Run Vendo Client Script
+        run: |
+          node jorney/jorney_script.cjs "${{ github.event.inputs.from }}" "${{ github.event.inputs.to }}"
+
+      - name: Upload JSON output
+        uses: actions/upload-artifact@v4
+        with:
+          name: journey-output
+          path: jorney/output/journeys.json

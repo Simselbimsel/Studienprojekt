@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<timetable station="Hersbruck(r Pegnitz)">
+	<s id="3529990650119402245-2505272214-1">
+		<tl f="N" t="p" o="800759" c="RE" n="77594"/>
+		<dp pt="2505272309" pp="3" l="32" tra="-6961549754330085842-2505272214-5" ppth="Nürnberg Hbf"/>
+	</s>
+	<s id="7854231548437622910-2505272340-1">
+		<tl f="N" t="p" o="800759" c="RE" n="77588"/>
+		<dp pt="2505272340" pp="3" l="40" ppth="Nürnberg Hbf"/>
+	</s>
+	<s id="-8445941638583478201-2505272315-10">
+		<tl f="N" t="p" o="800720" c="RB" n="58565"/>
+		<ar pt="2505272345" pp="2" l="30" ppth="Nürnberg Hbf|Nürnberg Ost|Nürnberg-Erlenstegen|Behringersdorf|Rückersdorf(Mfr)|Ludwigshöhe|Lauf(rechts Pegnitz)|Neunkirchen a Sand|Reichenschwand"/>
+		<dp pt="2505272346" pp="2" l="30" ppth="Hohenstadt(Mittelfr)|Vorra(Pegnitz)|Rupprechtstegen|Velden(b Hersbruck)|Neuhaus(Pegnitz)"/>
+	</s>
+	<s id="2576943603088395002-2505272334-1">
+		<tl t="p" o="B7" c="Bus" n="43589"/>
+		<dp pt="2505272334" pp="" l="EV" ppth="Hersbruck(l Pegnitz)|Hartmannshof|Etzelwang|Neukirchen(b Sulzb)"/>
+	</s>
+	<s id="3104549025973143698-2505272140-9">
+		<tl f="N" t="p" o="800759" c="RE" n="4894"/>
+		<ar pt="2505272306" pp="3" l="31" ppth="Hof Hbf|Oberkotzau|Marktredwitz|Neusorg|Immenreuth|Kirchenlaibach|Pegnitz|Neuhaus(Pegnitz)"/>
+		<dp pt="2505272309" pp="3" l="31" ppth="Nürnberg Hbf"/>
+	</s>
+	<s id="-2613597036987682746-2505272311-2">
+		<tl f="N" t="p" o="800759" c="RE" n="3039"/>
+		<ar pt="2505272326" pp="2" l="30" ppth="Nürnberg Hbf"/>
+		<dp pt="2505272327" pp="2" l="30" ppth="Neuhaus(Pegnitz)|Pegnitz|Creußen(Oberfr)|Bayreuth Hbf"/>
+	</s>
+	<s id="-6961549754330085842-2505272214-5">
+		<tl f="N" t="p" o="800759" c="RE" n="3094"/>
+		<ar pt="2505272306" pp="3" l="32" wings="3104549025973143698-2505272140" tra="3529990650119402245-2505272214-1" ppth="Bayreuth Hbf|Creußen(Oberfr)|Pegnitz|Neuhaus(Pegnitz)"/>
+	</s>
+	<s id="-4976264760643296987-2505272301-6">
+		<tl f="N" t="p" o="800720" c="RB" n="58552"/>
+		<ar pt="2505272320" pp="3" l="30" ppth="Neuhaus(Pegnitz)|Velden(b Hersbruck)|Rupprechtstegen|Vorra(Pegnitz)|Hohenstadt(Mittelfr)"/>
+		<dp pt="2505272321" pp="3" l="30" ppth="Reichenschwand|Neunkirchen a Sand|Lauf(rechts Pegnitz)|Ludwigshöhe|Rückersdorf(Mfr)|Behringersdorf|Nürnberg-Erlenstegen|Nürnberg Ost|Nürnberg Hbf"/>
+	</s>
+</timetable>

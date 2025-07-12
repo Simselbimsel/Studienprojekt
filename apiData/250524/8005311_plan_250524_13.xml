@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<timetable station="Schaftlach">
+	<s id="5311172845394278204-2505241302-7">
+		<tl f="D" t="p" o="T8" c="BRB" n="86975"/>
+		<ar pt="2505241345" pp="1" l="RB57" ppth="München Hbf Gl.27-36|München Donnersbergerbrücke|München Harras|München-Solln|Holzkirchen|Warngau"/>
+	</s>
+	<s id="8580314874233432187-2505241317-1">
+		<tl f="D" t="p" o="T8" c="BRB" n="86982"/>
+		<dp pt="2505241317" pp="2" l="RB57" ppth="Warngau|Holzkirchen|München-Solln|München Harras|München Donnersbergerbrücke|München Hbf Gl.27-36"/>
+	</s>
+	<s id="1829054597748442486-2505241247-6">
+		<tl f="D" t="p" o="T8" c="BRB" n="86882"/>
+		<ar pt="2505241310" pp="2" l="RB56" ppth="Lenggries|Obergries|Gaißach|Bad Tölz|Reichersbeuern"/>
+		<dp pt="2505241317" pp="2" l="RB56" wings="8580314874233432187-2505241317" ppth="Warngau|Holzkirchen|München-Solln|München Harras|München Donnersbergerbrücke|München Hbf Gl.27-36"/>
+	</s>
+	<s id="7027546393192833605-2505241350-1">
+		<tl t="p" o="T8" c="Bus" n="60025"/>
+		<dp pt="2505241350" pp="" l="EV" ppth="Moosrain|Finsterwald|Gmund(Tegernsee)|Tegernsee"/>
+	</s>
+	<s id="-5509344870120271574-2505241238-5">
+		<tl t="p" o="T8" c="Bus" n="60030"/>
+		<ar pt="2505241312" pp="" l="EV" ppth="Tegernsee|Gmund(Tegernsee)|Finsterwald|Moosrain"/>
+	</s>
+	<s id="7062494004737105432-2505241302-7">
+		<tl f="D" t="p" o="T8" c="BRB" n="86875"/>
+		<ar pt="2505241345" pp="1" l="RB56" wings="5311172845394278204-2505241302" ppth="München Hbf Gl.27-36|München Donnersbergerbrücke|München Harras|München-Solln|Holzkirchen|Warngau"/>
+		<dp pt="2505241348" pp="1" l="RB56" ppth="Reichersbeuern|Bad Tölz|Gaißach|Obergries|Lenggries"/>
+	</s>
+	<s id="-3430160940430629227-2505241317-6">
+		<tl f="D" t="p" o="T8" c="BRB" n="86884"/>
+		<ar pt="2505241340" pp="2" l="RB56" ppth="Lenggries|Obergries|Gaißach|Bad Tölz|Reichersbeuern"/>
+		<dp pt="2505241349" pp="2" l="RB56" ppth="Warngau|Holzkirchen|München-Solln|München Harras|München Donnersbergerbrücke|München Hbf Gl.27-36"/>
+	</s>
+</timetable>

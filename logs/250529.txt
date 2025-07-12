@@ -1,0 +1,97 @@
+----- [collect_eva_numbers.py] Start:2025-05-29 00:15:58 ------
+2025-05-28 22:15:58 INFO started collecting EVA-Numbers
+2025-05-28 22:16:01 INFO 200: Connection successfull after 0 attempts
+2025-05-28 22:16:01 INFO Successfully collected EVA-Numbers
+----- [collect_eva_numbers.py] End:2025-05-29 00:16:01 ------
+----- [collect_api_data.py] Start:2025-05-29 00:16:02 ------
+2025-05-28 22:16:02 INFO Data collection started.
+2025-05-28 22:35:35 ERROR Failed to collect data for https://apis.deutschebahn.com/db-api-marketplace/apis/timetables/v1/plan/8083368/250529/00
+2025-05-28 22:35:39 ERROR Failed to collect data for https://apis.deutschebahn.com/db-api-marketplace/apis/timetables/v1/plan/8083368/250529/01
+2025-05-28 22:35:42 ERROR Failed to collect data for https://apis.deutschebahn.com/db-api-marketplace/apis/timetables/v1/plan/8083368/250529/02
+2025-05-28 22:35:45 ERROR Failed to collect data for https://apis.deutschebahn.com/db-api-marketplace/apis/timetables/v1/plan/8083368/250529/03
+2025-05-28 22:35:48 ERROR Failed to collect data for https://apis.deutschebahn.com/db-api-marketplace/apis/timetables/v1/plan/8083368/250529/04
+2025-05-28 22:35:52 ERROR Failed to collect data for https://apis.deutschebahn.com/db-api-marketplace/apis/timetables/v1/plan/8083368/250529/05
+2025-05-28 23:01:40 INFO Data collection completed.
+----- [collect_api_data.py] End:2025-05-29 01:01:40 ------
+----- [combine_data.py] Start:2025-05-29 04:29:01 ------
+2025-05-29 02:29:01 INFO Combining Data started.
+2025-05-29 02:29:09 INFO File saved as daily_data/250528.parquet
+2025-05-29 02:29:09 INFO Combining Data completed.
+----- [combine_data.py] End:2025-05-29 04:29:09 ------
+----- [neon_inserts.py] Start:2025-05-29 04:59:04 ------
+2025-05-29 02:59:04 INFO Starting daily data load script
+2025-05-29 02:59:04 INFO Using database URL from environment
+2025-05-29 02:59:04 INFO Creating database engine
+2025-05-29 02:59:04 INFO Database engine created successfully
+2025-05-29 02:59:06 INFO Database connection established
+2025-05-29 02:59:06 INFO Found parquet file: daily_data/250528.parquet
+2025-05-29 02:59:06 INFO Read dataframe with 81370 rows
+2025-05-29 02:59:06 INFO Processing stations
+2025-05-29 02:59:07 INFO No new stations to insert
+2025-05-29 02:59:07 INFO No new stations to insert
+2025-05-29 02:59:07 INFO Processing train types
+2025-05-29 02:59:08 INFO Inserting 0 new train types
+2025-05-29 02:59:09 INFO Processing train rides
+2025-05-29 02:59:11 INFO Inserting 20625 new train rides
+2025-05-29 02:59:17 INFO Processing stops
+2025-05-29 02:59:24 INFO Inserting 81338 new stops
+2025-05-29 02:59:37 INFO Daily data load script completed successfully
+----- [neon_inserts.py] End:2025-05-29 04:59:37 ------
+----- [collect_eva_numbers.py] Start:2025-05-29 06:21:53 ------
+2025-05-29 04:21:53 INFO started collecting EVA-Numbers
+2025-05-29 04:21:56 INFO 200: Connection successfull after 0 attempts
+2025-05-29 04:21:56 INFO Successfully collected EVA-Numbers
+----- [collect_eva_numbers.py] End:2025-05-29 06:21:56 ------
+----- [collect_api_data.py] Start:2025-05-29 06:21:57 ------
+2025-05-29 04:21:57 INFO Data collection started.
+2025-05-29 04:25:33 ERROR Failed to collect data for https://apis.deutschebahn.com/db-api-marketplace/apis/timetables/v1/fchg/8083368
+2025-05-29 04:48:56 ERROR Failed to collect data for https://apis.deutschebahn.com/db-api-marketplace/apis/timetables/v1/plan/8083368/250529/06
+2025-05-29 04:48:59 ERROR Failed to collect data for https://apis.deutschebahn.com/db-api-marketplace/apis/timetables/v1/plan/8083368/250529/07
+2025-05-29 04:49:03 ERROR Failed to collect data for https://apis.deutschebahn.com/db-api-marketplace/apis/timetables/v1/plan/8083368/250529/08
+2025-05-29 04:49:06 ERROR Failed to collect data for https://apis.deutschebahn.com/db-api-marketplace/apis/timetables/v1/plan/8083368/250529/09
+2025-05-29 04:49:09 ERROR Failed to collect data for https://apis.deutschebahn.com/db-api-marketplace/apis/timetables/v1/plan/8083368/250529/10
+2025-05-29 04:49:12 ERROR Failed to collect data for https://apis.deutschebahn.com/db-api-marketplace/apis/timetables/v1/plan/8083368/250529/11
+2025-05-29 05:14:09 INFO Data collection completed.
+----- [collect_api_data.py] End:2025-05-29 07:14:09 ------
+----- [collect_eva_numbers.py] Start:2025-05-29 12:18:17 ------
+2025-05-29 10:18:17 INFO started collecting EVA-Numbers
+2025-05-29 10:18:22 INFO 200: Connection successfull after 0 attempts
+2025-05-29 10:18:22 INFO Successfully collected EVA-Numbers
+----- [collect_eva_numbers.py] End:2025-05-29 12:18:22 ------
+----- [collect_api_data.py] Start:2025-05-29 12:18:22 ------
+2025-05-29 10:18:22 INFO Data collection started.
+2025-05-29 10:24:36 ERROR Failed to collect data for https://apis.deutschebahn.com/db-api-marketplace/apis/timetables/v1/fchg/8083368
+2025-05-29 11:04:03 ERROR Failed to collect data for https://apis.deutschebahn.com/db-api-marketplace/apis/timetables/v1/plan/8083368/250529/12
+2025-05-29 11:04:07 ERROR Failed to collect data for https://apis.deutschebahn.com/db-api-marketplace/apis/timetables/v1/plan/8083368/250529/13
+2025-05-29 11:04:11 ERROR Failed to collect data for https://apis.deutschebahn.com/db-api-marketplace/apis/timetables/v1/plan/8083368/250529/14
+2025-05-29 11:04:15 ERROR Failed to collect data for https://apis.deutschebahn.com/db-api-marketplace/apis/timetables/v1/plan/8083368/250529/15
+2025-05-29 11:04:19 ERROR Failed to collect data for https://apis.deutschebahn.com/db-api-marketplace/apis/timetables/v1/plan/8083368/250529/16
+2025-05-29 11:04:23 ERROR Failed to collect data for https://apis.deutschebahn.com/db-api-marketplace/apis/timetables/v1/plan/8083368/250529/17
+2025-05-29 11:46:24 INFO Data collection completed.
+----- [collect_api_data.py] End:2025-05-29 13:46:24 ------
+----- [collect_eva_numbers.py] Start:2025-05-29 18:19:44 ------
+2025-05-29 16:19:44 INFO started collecting EVA-Numbers
+2025-05-29 16:19:47 INFO 200: Connection successfull after 0 attempts
+2025-05-29 16:19:47 INFO Successfully collected EVA-Numbers
+----- [collect_eva_numbers.py] End:2025-05-29 18:19:47 ------
+----- [collect_api_data.py] Start:2025-05-29 18:19:48 ------
+2025-05-29 16:19:48 INFO Data collection started.
+2025-05-29 16:23:45 ERROR Failed to collect data for https://apis.deutschebahn.com/db-api-marketplace/apis/timetables/v1/fchg/8083368
+2025-05-29 16:48:44 ERROR Failed to collect data for https://apis.deutschebahn.com/db-api-marketplace/apis/timetables/v1/plan/8083368/250529/18
+2025-05-29 16:48:47 ERROR Failed to collect data for https://apis.deutschebahn.com/db-api-marketplace/apis/timetables/v1/plan/8083368/250529/19
+2025-05-29 16:48:51 ERROR Failed to collect data for https://apis.deutschebahn.com/db-api-marketplace/apis/timetables/v1/plan/8083368/250529/20
+2025-05-29 16:48:54 ERROR Failed to collect data for https://apis.deutschebahn.com/db-api-marketplace/apis/timetables/v1/plan/8083368/250529/21
+2025-05-29 16:48:57 ERROR Failed to collect data for https://apis.deutschebahn.com/db-api-marketplace/apis/timetables/v1/plan/8083368/250529/22
+2025-05-29 16:49:00 ERROR Failed to collect data for https://apis.deutschebahn.com/db-api-marketplace/apis/timetables/v1/plan/8083368/250529/23
+2025-05-29 17:15:28 INFO Data collection completed.
+----- [collect_api_data.py] End:2025-05-29 19:15:28 ------
+----- [collect_eva_numbers.py] Start:2025-05-29 23:16:33 ------
+2025-05-29 21:16:33 INFO started collecting EVA-Numbers
+2025-05-29 21:16:37 INFO 200: Connection successfull after 0 attempts
+2025-05-29 21:16:37 INFO Successfully collected EVA-Numbers
+----- [collect_eva_numbers.py] End:2025-05-29 23:16:37 ------
+----- [collect_api_data.py] Start:2025-05-29 23:16:37 ------
+2025-05-29 21:16:37 INFO Data collection started.
+2025-05-29 21:21:03 ERROR Failed to collect data for https://apis.deutschebahn.com/db-api-marketplace/apis/timetables/v1/fchg/8083368
+2025-05-29 21:26:40 INFO Data collection completed.
+----- [collect_api_data.py] End:2025-05-29 23:26:40 ------

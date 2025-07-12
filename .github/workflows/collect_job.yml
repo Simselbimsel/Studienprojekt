@@ -1,0 +1,40 @@
+name: collect job # name des jobs
+on: # wann es ausgeführt wird
+  schedule:        
+    - cron: '1 3,9,15,21,22 * * *'      # - cron: 1 4,10,16,21,22 * * *
+  workflow_dispatch: # ermöglicht es ihn manuel zu starten
+jobs:
+  run-python: # job python basiert
+    runs-on: ubuntu-latest # betriebssystem der GitHub VM
+    steps: # beschreibt die aufgabenschritte
+      - name: Checkout Code # holt Code aus Repository
+        uses: actions/checkout@v4 # lädt Code in GitHub VM
+        with: # nur um bestimmte Teile des Repositories zu laden für effizienz ((!)<Datei> werden nicht geladen, <datei> werden geladen)
+          sparse-checkout: |   # holen uns die current_eva_list.csv
+            /*
+            !apiData
+            !daily_data
+            evaNumbers/evaNumbers.json
+          sparse-checkout-cone-mode: false # Modi von sparse-checkout, erlaubt es einzelne Dateien auszuwählen, kostet aber effizienz
+      - name: Setup Python
+        uses: actions/setup-python@v5 # installiert python auf der GitHub VM
+        with:
+          python-version: '3.12' # python version
+      - name: Install Dependencies
+        run: pip install -r requirements.txt # installiert die notwendigen Python-Bibliotheken
+      - name: Fetch Data # führt die zwei Python skripte aus im run
+        env: # setzt die Umgebungsvariablen aus dem GitHub Secrets, welche nicht öffentlich sichtbar sind im Repository
+          DB_API_KEY: ${{ secrets.DB_API_KEY }}
+          DB_CLIENT_ID: ${{ secrets.DB_CLIENT_ID }}
+        run: |
+          python collect_eva_numbers.py
+          python collect_api_data.py
+      - name: Commit and Push # zuständig für das updaten der Repository mittels GitHub Action Bot
+        run: |
+          git config --local user.email "noreply@github.com"
+          git config --local user.name "GitHub Actions Bot"
+          git fetch origin
+          git add --sparse *
+          git commit -m "data update" || echo "No changes to commit"
+          git pull --rebase origin main
+          git push

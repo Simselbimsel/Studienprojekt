@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<timetable station="Schweinfurt Hbf">
+	<s id="1321601267443617543-2506302107-3">
+		<tl f="N" t="p" o="EB" c="RB" n="80758"/>
+		<ar pt="2506302112" pp="5" l="40" ppth="Schweinfurt Stadt|Schweinfurt Mitte"/>
+		<dp pt="2506302113" pp="5" l="40" ppth="Poppenhausen|Ebenhausen(Unterfr)|Rottershausen|Münnerstadt|Burglauer|Bad Neustadt(Saale)|Mellrichstadt Bf|Rentwertshausen|Bibra|Wölfershausen|Grimmenthal"/>
+	</s>
+	<s id="6628828134093893366-2506302035-2">
+		<tl f="N" t="p" o="800755" c="RE" n="4795"/>
+		<ar pt="2506302059" pp="7" l="20" ppth="Würzburg Hbf"/>
+		<dp pt="2506302100" pp="7" l="20" ppth="Haßfurt|Bamberg"/>
+	</s>
+	<s id="3306061671101330672-2506302107-3">
+		<tl f="N" t="p" o="EB" c="RB" n="80700"/>
+		<ar pt="2506302112" pp="5" l="50" wings="1321601267443617543-2506302107" ppth="Schweinfurt Stadt|Schweinfurt Mitte"/>
+		<dp pt="2506302113" pp="5" l="50" wings="1321601267443617543-2506302107" ppth="Poppenhausen|Ebenhausen(Unterfr)|Oerlenbach|Bad Kissingen"/>
+	</s>
+	<s id="-5406854671062109561-2506302042-9">
+		<tl f="N" t="p" o="800714" c="RB" n="58268"/>
+		<ar pt="2506302118" pp="6" l="53" ppth="Bamberg|Oberhaid|Ebelsbach-Eltmann|Zeil|Haßfurt|Schonungen|Schweinfurt Stadt|Schweinfurt Mitte"/>
+		<dp pt="2506302119" pp="6" l="53" ppth="Waigolshausen|Eßleben|Bergtheim|Seligenstadt(b Würzburg)|Rottendorf|Würzburg Hbf"/>
+	</s>
+	<s id="2258467216439828113-2506301935-13">
+		<tl f="N" t="p" o="8004NT" c="RE" n="3767"/>
+		<ar pt="2506302126" pp="8" l="7" wings="-2634757867894125038-2506302100" ppth="Erfurt Hbf|Neudietendorf|Arnstadt Hbf|Plaue(Thür)|Gräfenroda|Zella-Mehlis|Suhl|Grimmenthal|Mellrichstadt Bf|Bad Neustadt(Saale)|Münnerstadt|Ebenhausen(Unterfr)"/>
+	</s>
+	<s id="-2634757867894125038-2506302100-4">
+		<tl f="N" t="p" o="8004NT" c="RE" n="3787"/>
+		<ar pt="2506302126" pp="8" l="57" ppth="Bad Kissingen|Oerlenbach|Ebenhausen(Unterfr)"/>
+	</s>
+	<s id="6708406819133575602-2506302135-1">
+		<tl t="p" o="SD" c="Bus" n="3767"/>
+		<dp pt="2506302135" pp="" l="RE7" ppth="Würzburg Hbf"/>
+	</s>
+</timetable>

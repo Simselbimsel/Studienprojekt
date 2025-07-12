@@ -1,0 +1,70 @@
+name: combine api data
+on:
+  schedule:
+    - cron: '45 0 * * *'
+  workflow_dispatch:
+jobs:
+  create-monthly-release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Get yesterdays date
+        id: get-yesterday
+        run: |
+          yesterday=$(date -d "yesterday" '+%Y-%m-%d')
+          echo "yesterday=$yesterday" >> $GITHUB_OUTPUT
+          
+      - name: Sparse Checkout
+        uses: actions/checkout@v3
+        with:
+          sparse-checkout: |
+            .github/workflows/
+            /
+            .gitignore
+            alternative_station_name_to_station_name.json
+            combine_data.py
+            logger_utils.py
+            requirements.txt
+            daily_data/
+            logs/
+            apiData/
+            apiData/${{ steps.get-yesterday.outputs.yesterday }}-*
+          sparse-checkout-cone-mode: false
+      
+      - name: List root directory contents
+        run: ls daily_data/
+      
+      - name: List data directory contents
+        run: ls apiData/
+      
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+      
+      - name: Install Dependencies
+        run: pip install -r requirements.txt
+      
+      - name: Run combine Script
+        run: python combine_data.py
+
+      - name: Show output files
+        run: ls -lah daily_data/
+
+      - name: Check Git Status
+        run: git status
+      
+      - name: Commit and Push
+        run: |
+          git config --local user.email "noreply@github.com"
+          git config --local user.name "GitHub Actions Bot"
+          git fetch origin
+
+          git add daily_data/* logs/* || true
+      
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Daily data update"
+            git pull --rebase origin main --no-rebase
+            git push origin main || echo "Push failed – possibly a race condition"
+          fi

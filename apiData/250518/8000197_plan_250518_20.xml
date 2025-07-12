@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<timetable station="Kempten(Allgäu)Hbf">
+	<s id="5644507107065941975-2505182005-7">
+		<tl t="p" o="B7" c="Bus" n="57834"/>
+		<ar pt="2505182026" pp="" l="EV" ppth="Oy-Mittelberg|Zollhaus-Petersthal|Bodelsberg|Sulzberg|Durach|St Mang"/>
+	</s>
+	<s id="5225512015513870595-2505182033-1">
+		<tl t="p" o="B7" c="Bus" n="57837"/>
+		<dp pt="2505182033" pp="" l="EV" ppth="St Mang|Durach|Sulzberg|Bodelsberg|Zollhaus-Petersthal|Oy-Mittelberg"/>
+	</s>
+	<s id="-4615310082632640061-2505181939-5">
+		<tl f="N" t="p" o="8007D4" c="RE" n="57428"/>
+		<ar pt="2505182022" pp="2" l="79" ppth="Buchloe|Kaufbeuren|Biessenhofen|Günzach"/>
+	</s>
+	<s id="-345463020167973715-2505181915-8">
+		<tl f="N" t="p" o="8007D5" c="RE" n="57669"/>
+		<ar pt="2505182018" pp="4" l="17" ppth="Oberstdorf|Langenwang(Schwab)|Fischen|Altstädten(Allgäu)|Sonthofen|Blaichach(Allgäu)|Immenstadt"/>
+		<dp pt="2505182019" pp="4" l="17" ppth="Kaufbeuren|Buchloe|Schwabmünchen|Bobingen|Inningen|Augsburg Hbf"/>
+	</s>
+	<s id="-7257075862986747932-2505181937-6">
+		<tl f="N" t="p" o="8007D4" c="RE" n="57607"/>
+		<ar pt="2505182030" pp="3" l="75" ppth="Illertissen|Memmingen|Bad Grönenbach|Dietmannsried|Kempten(Allgäu)Ost"/>
+	</s>
+	<s id="-384975893550853352-2505181920-7">
+		<tl f="N" t="p" o="8007D5" c="RE" n="7892"/>
+		<ar pt="2505182040" pp="3" l="76" ppth="München Hbf Gl.27-36|München-Pasing|Geltendorf|Kaufering|Buchloe|Kaufbeuren"/>
+		<dp pt="2505182042" pp="3" l="76" ppth="Martinszell(Allgäu)|Immenstadt|Blaichach(Allgäu)|Sonthofen|Altstädten(Allgäu)|Fischen|Langenwang(Schwab)|Oberstdorf"/>
+	</s>
+	<s id="-6729088596633389548-2505182033-1">
+		<tl f="N" t="p" o="8007D4" c="RE" n="57612"/>
+		<dp pt="2505182033" pp="4" l="75" ppth="Dietmannsried|Bad Grönenbach|Memmingen|Illertissen"/>
+	</s>
+	<s id="-4667119200943935404-2505182037-1">
+		<tl f="N" t="p" o="8007D4" c="RE" n="57435"/>
+		<dp pt="2505182037" pp="2" l="79" ppth="Günzach|Biessenhofen|Kaufbeuren|Buchloe"/>
+	</s>
+	<s id="6523266399399988461-2505181920-7">
+		<tl f="N" t="p" o="8007D5" c="RE" n="3892"/>
+		<ar pt="2505182040" pp="3" l="70" wings="-384975893550853352-2505181920" ppth="München Hbf Gl.27-36|München-Pasing|Geltendorf|Kaufering|Buchloe|Kaufbeuren"/>
+		<dp pt="2505182042" pp="3" l="70" wings="-384975893550853352-2505181920" ppth="Martinszell(Allgäu)|Immenstadt|Oberstaufen|Röthenbach(Allgäu)|Heimenkirch|Hergatz|Lindau-Reutin|Lindau-Insel"/>
+	</s>
+	<s id="1425332657056383321-2505181904-8">
+		<tl f="N" t="p" o="8007D5" c="RE" n="3287"/>
+		<ar pt="2505182018" pp="4" l="7" wings="-345463020167973715-2505181915" ppth="Lindau-Insel|Lindau-Reutin|Hergatz|Heimenkirch|Röthenbach(Allgäu)|Oberstaufen|Immenstadt"/>
+		<dp pt="2505182019" pp="4" l="7" wings="-345463020167973715-2505181915" ppth="Kaufbeuren|Buchloe|Schwabmünchen|Bobingen|Inningen|Augsburg Hbf"/>
+	</s>
+</timetable>
