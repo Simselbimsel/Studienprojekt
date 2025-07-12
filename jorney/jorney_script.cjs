@@ -51,6 +51,16 @@ const getDelayInMinutes = (actual, planned) => {
   return Math.round((actualDate - plannedDate) / 60000);
 };
 
+const getDurationInMinutes = (journey) => {
+  try {
+    const departure = new Date(journey.legs[0].departure);
+    const arrival = new Date(journey.legs[journey.legs.length - 1].arrival);
+    return (arrival - departure) / 60000;
+  } catch {
+    return 1000000;
+  }
+};
+
 // Deutsches Datums-Format
 const formatTime = (isoString) => {
   if (!isoString) return '?';
