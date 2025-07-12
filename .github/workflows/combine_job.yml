@@ -10,7 +10,7 @@ jobs:
       - name: Get yesterdays date
         id: get-yesterday
         run: |
-          yesterday=$(date -d "yesterday" '+%Y%m%d')
+          yesterday=$(date -d "yesterday" '+%y%m%d')
           echo "yesterday=$yesterday" >> $GITHUB_OUTPUT
           
       - name: Sparse Checkout
@@ -30,6 +30,9 @@ jobs:
       
       - name: List root directory contents
         run: ls daily_data/
+
+      - name: List data directory contents
+        run: ls apiData/
       
       - name: Setup Python
         uses: actions/setup-python@v4
