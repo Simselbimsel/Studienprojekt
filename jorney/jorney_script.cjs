@@ -83,12 +83,16 @@ const main = async () => {
     if (!journeys || journeys.length === 0) {
     }
 
-    // jorneys nach Ankunftszeit soriteren
-    journeys.sort((a, b) => {
-      const aArrival = new Date(a.legs[a.legs.length - 1].arrival);
-      const bArrival = new Date(b.legs[b.legs.length - 1].arrival);
-      return aArrival - bArrival;
-    });
+    //jorney nach Dauer sortieren
+    journeys.sort((a, b) => getDurationInMinutes(a) - getDurationInMinutes(b));
+	  
+    // jorneys nach Ankunftszeit sortieren
+    // journeys.sort((a, b) => {
+    //   const aArrival = new Date(a.legs[a.legs.length - 1].arrival);
+    //   const bArrival = new Date(b.legs[b.legs.length - 1].arrival);
+    //   return aArrival - bArrival;
+    // });
+
 
     const enriched = [];
 
@@ -126,6 +130,7 @@ const main = async () => {
             delay_arrival: getDelayInMinutes(leg.arrival, leg.plannedArrival),
             duration: getDurationFormatted(journey),
             train: leg.line?.name,
+	    train_type: leg.line?.product,
             mode: leg.mode,
             direction: leg.direction,
             stop_name: stop.stop?.name,
