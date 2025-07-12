@@ -31,9 +31,6 @@ jobs:
       - name: List root directory contents
         run: ls daily_data/
       
-      - name: List data directory contents
-        run: ls apiData/
-      
       - name: Setup Python
         uses: actions/setup-python@v4
         with:
