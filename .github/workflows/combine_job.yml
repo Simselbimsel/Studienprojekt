@@ -10,7 +10,7 @@ jobs:
       - name: Get yesterdays date
         id: get-yesterday
         run: |
-          yesterday=$(date -d "yesterday" '+%Y-%m-%d')
+          yesterday=$(date -d "yesterday" '+%Y%m%d')
           echo "yesterday=$yesterday" >> $GITHUB_OUTPUT
           
       - name: Sparse Checkout
@@ -25,8 +25,7 @@ jobs:
             requirements.txt
             daily_data/
             logs/
-            apiData/
-            apiData/${{ steps.get-yesterday.outputs.yesterday }}-*
+            apiData/${{ steps.get-yesterday.outputs.yesterday }}/
           sparse-checkout-cone-mode: false
       
       - name: List root directory contents
