@@ -65,25 +65,8 @@ def log_footer():
         handler.stream.write(f"----- [{caller_script}] End:{now} ------\n")
         handler.flush()
 
-
-# def log_header2():
-    # timestamp = datetime.now(ZoneInfo("Europe/Berlin")).strftime("%Y-%m-%d %H:%M:%S")
-    # header = f"----- [{caller_script}] Start:{timestamp} ------"
-    # print(header)
-    # logging.info(header)  # write it to file and terminal
-
-
-
-# def log_footer2():
-    # timestamp = datetime.now(ZoneInfo("Europe/Berlin")).strftime("%Y-%m-%d %H:%M:%S")
-    # footer = f"----- [{caller_script}] End:{timestamp} ------"
-    # print(footer)
-    # logging.info(footer)
-    # logging.info(footer)
-
-
 def checklogs():
-    #create path to a folder if not existing
+    #erstellt ordner falls nicht vorhanden
     folder = Path("logs")
     folder.mkdir(exist_ok=True, parents=True)
 	
@@ -96,7 +79,6 @@ def checklogs():
     else:
         print(f"{file_path.name} does not exist.")
 	
-    #setup plan url
     url = plan_url.format(eva=eva, date=date, hour=f"{hour:02}")
     file_path = folder/f"{date}.txt"
 
@@ -104,11 +86,11 @@ def checklogs():
 	
 def check_connection(url):
     try:
-        response = requests.get(url, timeout=10)  # Timeout in case the request takes too long
+        response = requests.get(url, timeout=10)
         if response.status_code == 200:
             logger("info", f"Successfully connected to {url}")
         else:
             logger("error", f"Failed to connect to {url} with status code {response.status_code}")
     except requests.exceptions.RequestException as e:
-        # This will catch any exception related to the request (e.g., network issues, invalid URL)
+        # fängt request exceptions ab
         logger("error", f"Error occurred while connecting to {url}: {e}")
