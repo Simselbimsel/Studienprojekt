@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<timetable station="Schaftlach">
+	<s id="-2888911876963927921-2507121952-5">
+		<tl f="D" t="p" o="T8" c="BRB" n="87032"/>
+		<ar pt="2507122013" pp="2" l="RB57" ppth="Tegernsee|Gmund(Tegernsee)|Finsterwald|Moosrain"/>
+		<dp pt="2507122017" pp="2" l="RB57" ppth="Warngau|Holzkirchen"/>
+	</s>
+	<s id="-5840426660771033692-2507122022-5">
+		<tl f="D" t="p" o="T8" c="BRB" n="87034"/>
+		<ar pt="2507122043" pp="2" l="RB57" ppth="Tegernsee|Gmund(Tegernsee)|Finsterwald|Moosrain"/>
+		<dp pt="2507122049" pp="2" l="RB57" ppth="Warngau|Holzkirchen"/>
+	</s>
+	<s id="8190383800043769218-2507122002-3">
+		<tl f="D" t="p" o="T8" c="BRB" n="86999"/>
+		<ar pt="2507122011" pp="1" l="RB57" ppth="Holzkirchen|Warngau"/>
+		<dp pt="2507122018" pp="1" l="RB57" ppth="Moosrain|Finsterwald|Gmund(Tegernsee)|Tegernsee"/>
+	</s>
+	<s id="-5217596702600446506-2507122002-3">
+		<tl f="D" t="p" o="T8" c="BRB" n="86899"/>
+		<ar pt="2507122011" pp="1" l="RB56" wings="8190383800043769218-2507122002" ppth="Holzkirchen|Warngau"/>
+		<dp pt="2507122018" pp="1" l="RB56" ppth="Reichersbeuern|Bad Tölz|Gaißach|Obergries|Lenggries"/>
+	</s>
+	<s id="7157947873241370671-2507122017-6">
+		<tl f="D" t="p" o="T8" c="BRB" n="87014"/>
+		<ar pt="2507122040" pp="2" l="RB56" ppth="Lenggries|Obergries|Gaißach|Bad Tölz|Reichersbeuern"/>
+		<dp pt="2507122049" pp="2" l="RB56" wings="-5840426660771033692-2507122022" ppth="Warngau|Holzkirchen"/>
+	</s>
+	<s id="4449190537251186931-2507122035-3">
+		<tl f="D" t="p" o="T8" c="BRB" n="87027"/>
+		<ar pt="2507122045" pp="1" l="RB57" ppth="Holzkirchen|Warngau"/>
+		<dp pt="2507122048" pp="1" l="RB57" ppth="Moosrain|Finsterwald|Gmund(Tegernsee)|Tegernsee"/>
+	</s>
+	<s id="7456571467910192877-2507121947-6">
+		<tl f="D" t="p" o="T8" c="BRB" n="87012"/>
+		<ar pt="2507122010" pp="2" l="RB56" ppth="Lenggries|Obergries|Gaißach|Bad Tölz|Reichersbeuern"/>
+		<dp pt="2507122017" pp="2" l="RB56" wings="-2888911876963927921-2507121952" ppth="Warngau|Holzkirchen"/>
+	</s>
+	<s id="351725315598952166-2507122035-3">
+		<tl f="D" t="p" o="T8" c="BRB" n="87007"/>
+		<ar pt="2507122045" pp="1" l="RB56" wings="4449190537251186931-2507122035" ppth="Holzkirchen|Warngau"/>
+		<dp pt="2507122048" pp="1" l="RB56" ppth="Reichersbeuern|Bad Tölz|Gaißach|Obergries|Lenggries"/>
+	</s>
+</timetable>
