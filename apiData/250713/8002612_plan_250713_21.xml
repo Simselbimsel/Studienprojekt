@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<timetable station="Hartmannshof">
+	<s id="-2118549741343140443-2507132125-1">
+		<tl t="p" o="B7" c="Bus" n="39678"/>
+		<dp pt="2507132125" pp="" l="EV" ppth="Pommelsbrunn|Happurg|Hersbruck(l Pegnitz)|Henfenfeld|Ottensoos|Lauf(links Pegnitz)|Lauf West|Röthenbach-Seespitze|Röthenbach-Steinberg|Röthenbach(Pegnitz)|Schwaig|Nürnberg-Laufamholz|Nürnberg-Rehhof|Nürnberg-Mögeldorf|Nürnberg Ostring|Nürnberg-Dürrenhof|Nürnberg Hbf (Nelson-Mandela-Platz/Südausgang)"/>
+	</s>
+	<s id="6755787351836338256-2507132058-4">
+		<tl t="p" o="B7" c="Bus" n="39667"/>
+		<ar pt="2507132118" pp="" l="EV" ppth="Hersbruck(l Pegnitz)|Happurg|Pommelsbrunn"/>
+	</s>
+	<s id="-6379876737835516962-2507132037-3">
+		<tl f="N" t="p" o="800759" c="RE" n="3583"/>
+		<ar pt="2507132105" pp="1" l="40" ppth="Nürnberg Hbf|Hersbruck(r Pegnitz)"/>
+		<dp pt="2507132106" pp="1" l="40" ppth="Etzelwang|Neukirchen(b Sulzb)|Sulzbach-Rosenberg|Amberg|Schwandorf"/>
+	</s>
+	<s id="-3065119898410683589-2507132108-6">
+		<tl f="N" t="p" o="800759" c="RE" n="3584"/>
+		<ar pt="2507132151" pp="2" l="40" wings="-3921464174190691896-2507132056" ppth="Schwandorf|Amberg|Sulzbach-Rosenberg|Neukirchen(b Sulzb)|Etzelwang"/>
+		<dp pt="2507132152" pp="2" l="40" wings="-3921464174190691896-2507132056" ppth="Hersbruck(r Pegnitz)|Nürnberg Hbf"/>
+	</s>
+	<s id="-8824020438503591764-2507132037-3">
+		<tl f="N" t="p" o="800759" c="RE" n="3483"/>
+		<ar pt="2507132105" pp="1" l="41" wings="-6379876737835516962-2507132037" ppth="Nürnberg Hbf|Hersbruck(r Pegnitz)"/>
+		<dp pt="2507132106" pp="1" l="41" wings="-6379876737835516962-2507132037" ppth="Etzelwang|Neukirchen(b Sulzb)|Vilseck|Freihung|Weiherhammer|Weiden(Oberpf)|Altenstadt(Waldnaab)|Neustadt(Waldnaab)"/>
+	</s>
+	<s id="-3921464174190691896-2507132056-9">
+		<tl f="N" t="p" o="800759" c="RE" n="3484"/>
+		<ar pt="2507132151" pp="2" l="41" ppth="Neustadt(Waldnaab)|Altenstadt(Waldnaab)|Weiden(Oberpf)|Weiherhammer|Freihung|Vilseck|Neukirchen(b Sulzb)|Etzelwang"/>
+		<dp pt="2507132152" pp="2" l="41" ppth="Hersbruck(r Pegnitz)|Nürnberg Hbf"/>
+	</s>
+</timetable>
