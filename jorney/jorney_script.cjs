@@ -150,6 +150,7 @@ const main = async () => {
             stop_departure: formatTime(stop.departure),
             delay_stop_departure: getDelayInMinutes(stop.departure, stop.plannedDeparture),
             loadFactor: leg.loadFactor || null,
+            occupancy: stop.occupancy?.secondClass || null,
           });
           lastArrivalTime = stop.arrival;		  
         });
