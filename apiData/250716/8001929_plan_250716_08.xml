@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<timetable station="Etzelwang">
+	<s id="1760651181840931029-2507160743-4">
+		<tl f="N" t="p" o="800759" c="RE" n="3557"/>
+		<ar pt="2507160810" pp="2" l="40" ppth="Nürnberg Hbf|Hersbruck(r Pegnitz)|Hartmannshof"/>
+		<dp pt="2507160811" pp="2" l="40" ppth="Neukirchen(b Sulzb)|Sulzbach-Rosenberg|Amberg|Schwandorf"/>
+	</s>
+	<s id="7690851159434266061-2507160806-6">
+		<tl f="N" t="p" o="800759" c="RE" n="3458"/>
+		<ar pt="2507160846" pp="1" l="41" ppth="Weiden(Oberpf)|Weiherhammer|Freihung|Vilseck|Neukirchen(b Sulzb)"/>
+		<dp pt="2507160847" pp="1" l="41" ppth="Hartmannshof|Hersbruck(r Pegnitz)|Nürnberg Hbf"/>
+	</s>
+	<s id="7113350740459500162-2507160743-4">
+		<tl f="N" t="p" o="800759" c="RE" n="3457"/>
+		<ar pt="2507160810" pp="2" l="41" wings="1760651181840931029-2507160743" ppth="Nürnberg Hbf|Hersbruck(r Pegnitz)|Hartmannshof"/>
+		<dp pt="2507160811" pp="2" l="41" wings="1760651181840931029-2507160743" ppth="Neukirchen(b Sulzb)|Vilseck|Freihung|Thansüß|Weiherhammer|Weiden(Oberpf)|Altenstadt(Waldnaab)|Neustadt(Waldnaab)"/>
+	</s>
+	<s id="-6191080370628291469-2507160808-5">
+		<tl f="N" t="p" o="800759" c="RE" n="3558"/>
+		<ar pt="2507160846" pp="1" l="40" wings="7690851159434266061-2507160806" ppth="Schwandorf|Amberg|Sulzbach-Rosenberg|Neukirchen(b Sulzb)"/>
+		<dp pt="2507160847" pp="1" l="40" wings="7690851159434266061-2507160806" ppth="Hartmannshof|Hersbruck(r Pegnitz)|Nürnberg Hbf"/>
+	</s>
+</timetable>
