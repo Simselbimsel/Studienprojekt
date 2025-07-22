@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<timetable station="Neuenmarkt-Wirsberg">
+	<s id="3643530280569690631-2507220640-8">
+		<tl f="N" t="p" o="800759" c="RE" n="3001"/>
+		<ar pt="2507220734" pp="4" l="35" ppth="Bamberg|Bad Staffelstein|Lichtenfels|Hochstadt-Marktzeuln|Burgkunstadt|Mainleus|Kulmbach"/>
+		<dp pt="2507220738" pp="4" l="35" ppth="Marktschorgast|Stammbach|Münchberg|Schwarzenbach(Saale)|Hof Hbf"/>
+	</s>
+	<s id="-616229479945175978-2507220728-6">
+		<tl f="D" t="p" o="A9" c="ag" n="84602"/>
+		<ar pt="2507220748" pp="5" l="RB24" ppth="Bayreuth Hbf|Bindlach|Ramsenthal|Harsdorf|Trebgast"/>
+		<dp pt="2507220748" pp="5" l="RB24" ppth="Ludwigschorgast|Untersteinach(b Stadtsteinach)|Kulmbach|Mainleus|Mainroth|Burgkunstadt|Hochstadt-Marktzeuln|Lichtenfels|Schney|Ebersdorf(b Coburg)|Grub am Forst|Creidlitz|Coburg"/>
+	</s>
+	<s id="-1014592381127973184-2507220559-11">
+		<tl f="N" t="p" o="800759" c="RE" n="3403"/>
+		<ar pt="2507220720" pp="5" l="32" ppth="Nürnberg Hbf|Lauf(rechts Pegnitz)|Hersbruck(r Pegnitz)|Neuhaus(Pegnitz)|Pegnitz|Schnabelwaid|Creußen(Oberfr)|Bayreuth Hbf|Harsdorf|Trebgast"/>
+		<dp pt="2507220723" pp="5" l="32" pde="Coburg" ppth="Untersteinach(b Stadtsteinach)|Kulmbach|Burgkunstadt|Lichtenfels"/>
+	</s>
+	<s id="8703126243214021133-2507220623-8">
+		<tl f="N" t="p" o="800759" c="RE" n="3002"/>
+		<ar pt="2507220716" pp="5" l="35" ppth="Hof Hbf|Oberkotzau|Schwarzenbach(Saale)|Förbau|Münchberg|Stammbach|Marktschorgast"/>
+		<dp pt="2507220723" pp="5" l="35" wings="-1014592381127973184-2507220559" ppth="Untersteinach(b Stadtsteinach)|Kulmbach|Burgkunstadt|Lichtenfels|Bad Staffelstein|Bamberg"/>
+	</s>
+	<s id="8294584516510842367-2507220640-8">
+		<tl f="N" t="p" o="800759" c="RE" n="3400"/>
+		<ar pt="2507220734" pp="4" l="38" wings="3643530280569690631-2507220640" ppth="Bamberg|Bad Staffelstein|Lichtenfels|Hochstadt-Marktzeuln|Burgkunstadt|Mainleus|Kulmbach"/>
+		<dp pt="2507220736" pp="4" l="38" ppth="Trebgast|Bayreuth Hbf|Pegnitz|Hersbruck(r Pegnitz)|Nürnberg Hbf"/>
+	</s>
+	<s id="6517733646812712323-2507220704-1">
+		<tl f="D" t="p" o="A9" c="ag" n="84489"/>
+		<dp pt="2507220704" pp="3" l="RB99" ppth="Marktschorgast|Stammbach|Münchberg|Seulbitz|Förbau|Schwarzenbach(Saale)|Oberkotzau|Hof Hbf|Hof-Neuhof"/>
+	</s>
+</timetable>
