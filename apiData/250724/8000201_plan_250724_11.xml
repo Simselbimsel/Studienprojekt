@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<timetable station="Kirchenlaibach">
+	<s id="3372749525435767073-2507241109-2">
+		<tl f="N" t="p" o="800759" c="RE" n="3828"/>
+		<ar pt="2507241125" pp="2" l="31" ppth="Marktredwitz"/>
+		<dp pt="2507241126" pp="2" l="31" ppth="Pegnitz|Neuhaus(Pegnitz)|Nürnberg Hbf"/>
+	</s>
+	<s id="-7411294519639984476-2507241037-4">
+		<tl f="N" t="p" o="800759" c="RE" n="5285"/>
+		<ar pt="2507241134" pp="5" l="33" ppth="Nürnberg Hbf|Neuhaus(Pegnitz)|Pegnitz"/>
+		<dp pt="2507241134" pp="5" l="33" ppth="Marktredwitz|Schirnding|Cheb"/>
+	</s>
+	<s id="-3165454093599261426-2507241037-4">
+		<tl f="N" t="p" o="800759" c="RE" n="4885"/>
+		<ar pt="2507241134" pp="5" l="31" wings="-7411294519639984476-2507241037" ppth="Nürnberg Hbf|Neuhaus(Pegnitz)|Pegnitz"/>
+		<dp pt="2507241134" pp="5" l="31" wings="-7411294519639984476-2507241037" ppth="Marktredwitz|Oberkotzau|Hof Hbf"/>
+	</s>
+	<s id="1028584986744217283-2507241118-4">
+		<tl f="D" t="p" o="A9" c="ag" n="84559"/>
+		<ar pt="2507241139" pp="4" l="RB97" ppth="Bayreuth Hbf|Stockau|Seybothenreuth"/>
+		<dp pt="2507241141" pp="4" l="RB97" ppth="Haidenaab-Göppmannsbühl|Immenreuth|Neusorg|Waldershof|Marktredwitz|Wunsiedel-Holenbrunn|Röslau|Marktleuthen|Kirchenlamitz Ost|Martinlamitz|Oberkotzau|Hof Hbf|Hof-Neuhof|Köditz|Stegenwaldhaus|Selbitz|Naila|Marxgrün|Höllenthal|Bad Steben"/>
+	</s>
+	<s id="8251521462443065156-2507241106-6">
+		<tl f="D" t="p" o="A9" c="ag" n="84648"/>
+		<ar pt="2507241138" pp="5" l="RB34" ppth="Weiden(Oberpf)|Schwarzenbach(b Pressath)|Pressath|Trabitz|Kemnath-Neustadt"/>
+		<dp pt="2507241142" pp="5" l="RB34" pde="Weidenberg" ppth="Seybothenreuth|Bayreuth Hbf"/>
+	</s>
+	<s id="-8662436602277438220-2507240939-21">
+		<tl f="D" t="p" o="A9" c="ag" n="84560"/>
+		<ar pt="2507241118" pp="2" l="RB97" ppth="Bad Steben|Höllenthal|Marxgrün|Naila|Selbitz|Stegenwaldhaus|Köditz|Hof-Neuhof|Hof Hbf|Oberkotzau|Martinlamitz|Kirchenlamitz Ost|Marktleuthen|Röslau|Wunsiedel-Holenbrunn|Marktredwitz|Waldershof|Neusorg|Immenreuth|Haidenaab-Göppmannsbühl"/>
+		<dp pt="2507241119" pp="2" l="RB97" ppth="Seybothenreuth|Stockau|Bayreuth Hbf"/>
+	</s>
+	<s id="633205170085943133-2507241036-10">
+		<tl f="D" t="p" o="A9" c="ag" n="84645"/>
+		<ar pt="2507241115" pp="3" l="RB34" ppth="Weidenberg|Görschnitz|Untersteinach(Bayr)|Döhlau|Friedrichsthal(b Bayreuth)|Laineck|Bayreuth-St Georgen|Bayreuth Hbf|Seybothenreuth"/>
+		<dp pt="2507241122" pp="3" l="RB34" ppth="Kemnath-Neustadt|Trabitz|Pressath|Schwarzenbach(b Pressath)|Weiden(Oberpf)"/>
+	</s>
+</timetable>
