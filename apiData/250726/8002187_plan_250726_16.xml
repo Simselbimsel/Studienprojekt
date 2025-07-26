@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<timetable station="Garmisch-Partenkirchen">
+	<s id="2806224213462396995-2507261602-1">
+		<tl f="S" t="p" o="800790" c="S" n="5427"/>
+		<dp pt="2507261602" pp="2" l="6" ppth="Klais|Mittenwald"/>
+	</s>
+	<s id="6024049495099900062-2507261530-12">
+		<tl f="N" t="p" o="800790" c="RB" n="5526"/>
+		<ar pt="2507261655" pp="3" l="60" ppth="München Hbf Gl.27-36|München-Pasing|Tutzing|Weilheim(Oberbay)|Huglfing|Uffing a Staffelsee|Murnau|Ohlstadt|Eschenlohe|Oberau|Farchant"/>
+		<dp pt="2507261704" pp="3" l="60" pde="Pfronten-Steinach" ppth="Garmisch-Partenkirchen Hausberg|Untergrainau|Ehrwald Zugspitzbahn"/>
+	</s>
+	<s id="7389033637485895194-2507261605-1">
+		<tl f="N" t="p" o="800790" c="RB" n="59476"/>
+		<dp pt="2507261605" pp="4" l="6" ppth="Farchant|Oberau|Eschenlohe|Ohlstadt|Murnau|Uffing a Staffelsee|Huglfing|Weilheim(Oberbay)|Tutzing|München-Pasing|München Hbf Gl.27-36"/>
+	</s>
+	<s id="-2956408755300225756-2507261604-1">
+		<tl f="N" t="p" o="800790" c="RB" n="5522"/>
+		<dp pt="2507261604" pp="3" l="60" tra="1956394058279110383-2507261432-12" ppth="Garmisch-Partenkirchen Hausberg|Untergrainau|Griesen(Oberbay)|Ehrwald Zugspitzbahn"/>
+	</s>
+	<s id="-4098926441499116097-2507261536-4">
+		<tl f="N" t="p" o="800790" c="RB" n="5523"/>
+		<ar pt="2507261659" pp="2" l="60" pde="Pfronten-Steinach" ppth="Ehrwald Zugspitzbahn|Untergrainau|Garmisch-Partenkirchen Hausberg"/>
+		<dp pt="2507261705" pp="2" l="60" ppth="Farchant|Oberau|Eschenlohe|Ohlstadt|Murnau|Uffing a Staffelsee|Huglfing|Weilheim(Oberbay)|Tutzing|München-Pasing|München Hbf Gl.27-36"/>
+	</s>
+	<s id="-1420534755961659384-2507261634-3">
+		<tl f="N" t="p" o="800790" c="RB" n="5422"/>
+		<ar pt="2507261656" pp="2" l="6" ppth="Mittenwald|Klais"/>
+		<dp pt="2507261705" pp="2" l="6" wings="-4098926441499116097-2507261536" ppth="Farchant|Oberau|Eschenlohe|Ohlstadt|Murnau|Uffing a Staffelsee|Huglfing|Weilheim(Oberbay)|Tutzing|München-Pasing|München Hbf Gl.27-36"/>
+	</s>
+	<s id="-4376796942515647789-2507261530-12">
+		<tl f="N" t="p" o="800790" c="RB" n="5429"/>
+		<ar pt="2507261655" pp="3" l="6" wings="6024049495099900062-2507261530" ppth="München Hbf Gl.27-36|München-Pasing|Tutzing|Weilheim(Oberbay)|Huglfing|Uffing a Staffelsee|Murnau|Ohlstadt|Eschenlohe|Oberau|Farchant"/>
+		<dp pt="2507261702" pp="3" l="6" ppth="Klais|Mittenwald"/>
+	</s>
+</timetable>
