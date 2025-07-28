@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<timetable station="Poppenhausen">
+	<s id="-3686141708586979678-2507281411-17">
+		<tl f="N" t="p" o="EB" c="RB" n="80691"/>
+		<ar pt="2507281533" pp="1" l="50" ppth="Gemünden(Main)|Kleingemünden|Wolfsmünster|Gräfendorf|Michelaubrück|Weickersgrüben|Morlesau|Diebach|Hammelburg|Hammelburg Ost|Westheim-Langendorf|Elfershausen-Trimberg|Euerdorf|Bad Kissingen|Oerlenbach|Ebenhausen(Unterfr)"/>
+		<dp pt="2507281534" pp="1" l="50" ppth="Oberwerrn|Schweinfurt Hbf"/>
+	</s>
+	<s id="-5664857664372063898-2507281512-2">
+		<tl f="N" t="p" o="EB" c="RB" n="80748"/>
+		<ar pt="2507281524" pp="1" l="40" ppth="Schweinfurt Hbf"/>
+		<dp pt="2507281525" pp="1" l="40" ppth="Ebenhausen(Unterfr)|Rottershausen|Münnerstadt|Burglauer|Bad Neustadt(Saale)|Mellrichstadt Bf|Rentwertshausen|Bibra|Wölfershausen|Grimmenthal|Untermaßfeld|Meiningen"/>
+	</s>
+	<s id="3602852118069300608-2507281512-2">
+		<tl f="N" t="p" o="EB" c="RB" n="80688"/>
+		<ar pt="2507281524" pp="1" l="50" wings="-5664857664372063898-2507281512" ppth="Schweinfurt Hbf"/>
+		<dp pt="2507281525" pp="1" l="50" wings="-5664857664372063898-2507281512" ppth="Ebenhausen(Unterfr)|Oerlenbach|Bad Kissingen|Euerdorf|Elfershausen-Trimberg|Westheim-Langendorf|Hammelburg Ost|Hammelburg|Diebach|Morlesau|Weickersgrüben|Michelaubrück|Gräfendorf|Wolfsmünster|Kleingemünden|Gemünden(Main)"/>
+	</s>
+	<s id="297578401570940615-2507281543-3">
+		<tl f="N" t="p" o="EB" c="RB" n="80720"/>
+		<ar pt="2507281551" pp="1" l="50" wings="5443631476153446078-2507281543" ppth="Schweinfurt Hbf|Oberwerrn"/>
+		<dp pt="2507281552" pp="1" l="50" wings="5443631476153446078-2507281543" ppth="Ebenhausen(Unterfr)|Oerlenbach|Bad Kissingen"/>
+	</s>
+	<s id="5443631476153446078-2507281543-3">
+		<tl f="N" t="p" o="EB" c="RB" n="80750"/>
+		<ar pt="2507281551" pp="1" l="40" ppth="Schweinfurt Hbf|Oberwerrn"/>
+		<dp pt="2507281552" pp="1" l="40" ppth="Ebenhausen(Unterfr)|Rottershausen|Münnerstadt|Burglauer|Bad Neustadt(Saale)|Mellrichstadt Bf"/>
+	</s>
+</timetable>
