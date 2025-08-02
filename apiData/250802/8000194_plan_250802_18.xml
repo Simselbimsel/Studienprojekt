@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<timetable station="Kaufbeuren">
+	<s id="9004722026389089824-2508021746-8">
+		<tl f="D" t="p" o="Y8" c="BRB" n="62764"/>
+		<ar pt="2508021843" pp="1" l="RB77" ppth="Augsburg Hbf|Augsburg Morellstr.|Augsburg Messe|Inningen|Bobingen|Schwabmünchen|Buchloe"/>
+		<dp pt="2508021845" pp="1" l="RB77" ppth="Biessenhofen|Ebenhofen|Marktoberdorf|Marktoberdorf Schule|Leuterschach|Lengenwang|Seeg|Weizern-Hopferau|Füssen"/>
+	</s>
+	<s id="-2559331019782740405-2508021720-10">
+		<tl f="D" t="p" o="Y8" c="BRB" n="62709"/>
+		<ar pt="2508021815" pp="2" l="RB68" ppth="Füssen|Weizern-Hopferau|Seeg|Lengenwang|Leuterschach|Marktoberdorf Schule|Marktoberdorf|Ebenhofen|Biessenhofen"/>
+		<dp pt="2508021818" pp="2" l="RB68" ppth="Buchloe|Kaufering|Geltendorf|München-Pasing|München Hbf Gl.27-36"/>
+	</s>
+	<s id="-1983387901959448030-2508021720-6">
+		<tl f="N" t="p" o="8007D5" c="RE" n="7890"/>
+		<ar pt="2508021818" pp="1" l="76" ppth="München Hbf Gl.27-36|München-Pasing|Geltendorf|Kaufering|Buchloe"/>
+		<dp pt="2508021819" pp="1" l="76" ppth="Kempten(Allgäu)Hbf|Immenstadt|Blaichach(Allgäu)|Sonthofen|Fischen|Oberstdorf"/>
+	</s>
+	<s id="7194008138994506942-2508021720-6">
+		<tl f="N" t="p" o="8007D5" c="RE" n="3890"/>
+		<ar pt="2508021818" pp="1" l="70" wings="-1983387901959448030-2508021720" ppth="München Hbf Gl.27-36|München-Pasing|Geltendorf|Kaufering|Buchloe"/>
+		<dp pt="2508021819" pp="1" l="70" wings="-1983387901959448030-2508021720" ppth="Kempten(Allgäu)Hbf|Immenstadt|Oberstaufen|Röthenbach(Allgäu)|Heimenkirch|Hergatz|Lindau-Reutin|Lindau-Insel"/>
+	</s>
+	<s id="-7525148401455668068-2508021737-4">
+		<tl f="N" t="p" o="8007D4" c="RE" n="57429"/>
+		<ar pt="2508021805" pp="2" l="79" ppth="Kempten(Allgäu)Hbf|Günzach|Biessenhofen"/>
+		<dp pt="2508021806" pp="2" l="79" ppth="Buchloe"/>
+	</s>
+	<s id="-2684232165437648261-2508021705-9">
+		<tl f="N" t="p" o="8007D5" c="RE" n="57657"/>
+		<ar pt="2508021841" pp="2" l="17" ppth="Oberstdorf|Langenwang(Schwab)|Fischen|Altstädten(Allgäu)|Sonthofen|Blaichach(Allgäu)|Immenstadt|Kempten(Allgäu)Hbf"/>
+		<dp pt="2508021842" pp="2" l="17" ppth="Buchloe|Augsburg Hbf|Donauwörth|Treuchtlingen|Nürnberg Hbf"/>
+	</s>
+	<s id="4778301632625277433-2508021704-9">
+		<tl f="N" t="p" o="8007D5" c="RE" n="3299"/>
+		<ar pt="2508021841" pp="2" l="7" wings="-2684232165437648261-2508021705" ppth="Lindau-Insel|Lindau-Reutin|Hergatz|Heimenkirch|Röthenbach(Allgäu)|Oberstaufen|Immenstadt|Kempten(Allgäu)Hbf"/>
+		<dp pt="2508021842" pp="2" l="7" wings="-2684232165437648261-2508021705" ppth="Buchloe|Augsburg Hbf|Donauwörth|Treuchtlingen|Nürnberg Hbf"/>
+	</s>
+	<s id="-7130285193807920003-2508021809-5">
+		<tl f="N" t="p" o="8007D4" c="RE" n="57426"/>
+		<ar pt="2508021850" pp="1" l="79" ppth="Augsburg Hbf|Bobingen|Schwabmünchen|Buchloe"/>
+		<dp pt="2508021851" pp="1" l="79" ppth="Biessenhofen|Günzach|Kempten(Allgäu)Hbf"/>
+	</s>
+</timetable>
