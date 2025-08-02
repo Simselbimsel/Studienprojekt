@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+<timetable station="Neuhaus(Pegnitz)">
+	<s id="7352616276675608754-2508021532-2">
+		<tl f="N" t="p" o="800759" c="RE" n="3831"/>
+		<ar pt="2508021603" pp="2" l="31" ppth="Nürnberg Hbf"/>
+		<dp pt="2508021604" pp="2" l="31" ppth="Pegnitz|Kirchenlaibach|Marktredwitz"/>
+	</s>
+	<s id="-8470640232915051400-2508021532-2">
+		<tl f="N" t="p" o="800759" c="RE" n="3031"/>
+		<ar pt="2508021603" pp="2" l="30" wings="7352616276675608754-2508021532" ppth="Nürnberg Hbf"/>
+		<dp pt="2508021604" pp="2" l="30" wings="7352616276675608754-2508021532" ppth="Pegnitz|Bayreuth Hbf|Trebgast|Münchberg|Hof Hbf"/>
+	</s>
+	<s id="-3571223648551099438-2508021545-6">
+		<tl t="p" o="B7" c="Bus" n="58535"/>
+		<ar pt="2508021627" pp="" l="EV" ppth="Hersbruck(r Pegnitz)|Hohenstadt(Mittelfr)|Vorra(Pegnitz)|Rupprechtstegen|Velden(b Hersbruck)"/>
+	</s>
+	<s id="-4476692342612945088-2508021506-8">
+		<tl f="N" t="p" o="800759" c="RE" n="3408"/>
+		<ar pt="2508021628" pp="1" l="32" ppth="Lichtenfels|Hochstadt-Marktzeuln|Burgkunstadt|Kulmbach|Neuenmarkt-Wirsberg|Bayreuth Hbf|Pegnitz"/>
+		<dp pt="2508021632" pp="1" l="32" ppth="Hersbruck(r Pegnitz)|Nürnberg Hbf"/>
+	</s>
+	<s id="-5076339091532431383-2508021600-3">
+		<tl f="N" t="p" o="800759" c="RE" n="3443"/>
+		<ar pt="2508021631" pp="2" l="38" ppth="Nürnberg Hbf|Hersbruck(r Pegnitz)"/>
+		<dp pt="2508021632" pp="2" l="38" ppth="Pegnitz|Creußen(Oberfr)|Bayreuth Hbf|Trebgast|Neuenmarkt-Wirsberg|Untersteinach(b Stadtsteinach)|Kulmbach|Burgkunstadt|Hochstadt-Marktzeuln"/>
+	</s>
+	<s id="-4787210122123598568-2508021540-6">
+		<tl f="N" t="p" o="800759" c="RE" n="4888"/>
+		<ar pt="2508021654" pp="1" l="31" ppth="Hof Hbf|Oberkotzau|Marktredwitz|Kirchenlaibach|Pegnitz"/>
+		<dp pt="2508021655" pp="1" l="31" ppth="Nürnberg Hbf"/>
+	</s>
+	<s id="4304720895022611934-2508021632-1">
+		<tl t="p" o="B7" c="Bus" n="58538"/>
+		<dp pt="2508021632" pp="" l="EV" ppth="Velden(b Hersbruck)|Rupprechtstegen|Vorra(Pegnitz)|Hohenstadt(Mittelfr)|Hersbruck(r Pegnitz)"/>
+	</s>
+	<s id="-1948470150708871413-2508021537-6">
+		<tl f="N" t="p" o="800759" c="RE" n="5288"/>
+		<ar pt="2508021654" pp="1" l="33" wings="-4787210122123598568-2508021540|2510501151892201657-2508021616" ppth="Cheb|Arzberg(Oberfr)|Marktredwitz|Kirchenlaibach|Pegnitz"/>
+		<dp pt="2508021655" pp="1" l="33" wings="-4787210122123598568-2508021540|2510501151892201657-2508021616" ppth="Nürnberg Hbf"/>
+	</s>
+	<s id="2510501151892201657-2508021616-5">
+		<tl f="N" t="p" o="800759" c="RE" n="3088"/>
+		<ar pt="2508021654" pp="1" l="30" ppth="Bayreuth Hbf|Creußen(Oberfr)|Schnabelwaid|Pegnitz"/>
+		<dp pt="2508021655" pp="1" l="30" ppth="Nürnberg Hbf"/>
+	</s>
+</timetable>
