@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<timetable station="Breitengüßbach">
+	<s id="6884037479481050134-2508031155-18">
+		<tl f="N" t="p" o="800755" c="RE" n="4987"/>
+		<ar pt="2508031323" pp="2" l="14" ppth="Saalfeld(Saale)|Breternitz|Kaulsdorf(Saale)|Unterloquitz|Probstzella|Ludwigsstadt|Steinbach am Wald|Förtschendorf|Pressig-Rothenkirchen|Stockheim(Oberfr)|Gundelsdorf|Kronach|Hochstadt-Marktzeuln|Lichtenfels|Bad Staffelstein|Ebensfeld|Zapfendorf"/>
+		<dp pt="2508031324" pp="2" l="14" pde="Nürnberg Hbf" ppth="Bamberg"/>
+	</s>
+	<s id="5191204177480055702-2508031238-7">
+		<tl f="N" t="p" o="800755" c="RE" n="4948"/>
+		<ar pt="2508031327" pp="3" l="28" ppth="Nürnberg Hbf|Fürth(Bay)Hbf|Erlangen|Forchheim(Oberfr)|Hirschaid|Bamberg"/>
+		<dp pt="2508031327" pp="3" l="28" ppth="Ebing|Zapfendorf|Ebensfeld|Bad Staffelstein|Lichtenfels|Ebersdorf(b Coburg)|Grub am Forst|Coburg"/>
+	</s>
+	<s id="7820453276416715184-2508031238-7">
+		<tl f="N" t="p" o="800755" c="RE" n="4968"/>
+		<ar pt="2508031327" pp="3" l="14" wings="5191204177480055702-2508031238" ppth="Nürnberg Hbf|Fürth(Bay)Hbf|Erlangen|Forchheim(Oberfr)|Hirschaid|Bamberg"/>
+		<dp pt="2508031327" pp="3" l="14" wings="5191204177480055702-2508031238" ppth="Ebing|Zapfendorf|Ebensfeld|Bad Staffelstein|Lichtenfels|Küps|Kronach|Gundelsdorf|Stockheim(Oberfr)|Pressig-Rothenkirchen|Förtschendorf|Steinbach am Wald|Ludwigsstadt|Probstzella"/>
+	</s>
+	<s id="-4475137126238623035-2508031304-3">
+		<tl f="N" t="p" o="800755" c="RB" n="59342"/>
+		<ar pt="2508031310" pp="3" l="25" ppth="Bamberg|Hallstadt(b Bamberg)"/>
+		<dp pt="2508031311" pp="3" l="25" ppth="Ebing|Zapfendorf|Ebensfeld|Bad Staffelstein|Lichtenfels|Michelau(Oberfr)|Hochstadt-Marktzeuln|Redwitz(Rodach)|Küps|Neuses(b Kronach)|Kronach"/>
+	</s>
+	<s id="-702311678472072893-2508031308-12">
+		<tl f="N" t="p" o="800755" c="RB" n="59343"/>
+		<ar pt="2508031351" pp="2" l="25" ppth="Kronach|Neuses(b Kronach)|Küps|Redwitz(Rodach)|Hochstadt-Marktzeuln|Michelau(Oberfr)|Lichtenfels|Bad Staffelstein|Ebensfeld|Zapfendorf|Ebing"/>
+		<dp pt="2508031352" pp="2" l="25" ppth="Hallstadt(b Bamberg)|Bamberg"/>
+	</s>
+	<s id="2370026198634565219-2508031303-6">
+		<tl f="D" t="p" o="A9" c="ag" n="84397"/>
+		<ar pt="2508031327" pp="2" l="RB26" ppth="Ebern|Rentweinsdorf|Manndorf|Reckendorf|Baunach"/>
+		<dp pt="2508031328" pp="2" l="RB26" ppth="Hallstadt(b Bamberg)|Bamberg"/>
+	</s>
+	<s id="-7666793888559942672-2508031325-3">
+		<tl f="D" t="p" o="A9" c="ag" n="84400"/>
+		<ar pt="2508031331" pp="3" l="RB26" ppth="Bamberg|Hallstadt(b Bamberg)"/>
+		<dp pt="2508031333" pp="3" l="RB26" ppth="Baunach|Reckendorf|Manndorf|Rentweinsdorf|Ebern"/>
+	</s>
+</timetable>

@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<timetable station="Eschenlohe">
+	<s id="7389033637485895194-2508031605-4">
+		<tl f="N" t="p" o="800790" c="RB" n="59476"/>
+		<ar pt="2508031620" pp="1" l="6" pde="Ehrwald Zugspitzbahn" ppth="Garmisch-Partenkirchen|Farchant|Oberau"/>
+		<dp pt="2508031621" pp="1" l="6" ppth="Ohlstadt|Murnau|Uffing a Staffelsee|Huglfing|Weilheim(Oberbay)|Tutzing|München-Pasing|München Hbf Gl.27-36"/>
+	</s>
+	<s id="6024049495099900062-2508031530-9">
+		<tl f="N" t="p" o="800790" c="RB" n="5526"/>
+		<ar pt="2508031637" pp="1" l="60" ppth="München Hbf Gl.27-36|München-Pasing|Tutzing|Weilheim(Oberbay)|Huglfing|Uffing a Staffelsee|Murnau|Ohlstadt"/>
+		<dp pt="2508031638" pp="1" l="60" pde="Pfronten-Steinach" ppth="Oberau|Farchant|Garmisch-Partenkirchen|Garmisch-Partenkirchen Hausberg|Untergrainau|Ehrwald Zugspitzbahn"/>
+	</s>
+	<s id="-4376796942515647789-2508031530-9">
+		<tl f="N" t="p" o="800790" c="RB" n="5429"/>
+		<ar pt="2508031637" pp="1" l="6" wings="6024049495099900062-2508031530" ppth="München Hbf Gl.27-36|München-Pasing|Tutzing|Weilheim(Oberbay)|Huglfing|Uffing a Staffelsee|Murnau|Ohlstadt"/>
+		<dp pt="2508031638" pp="1" l="6" wings="6024049495099900062-2508031530" ppth="Oberau|Farchant|Garmisch-Partenkirchen|Klais|Mittenwald"/>
+	</s>
+</timetable>
