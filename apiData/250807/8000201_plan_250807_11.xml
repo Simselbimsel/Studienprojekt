@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<timetable station="Kirchenlaibach">
+	<s id="-6568923542957617367-2508071119-1">
+		<tl f="D" t="p" o="A9" c="ag" n="99020"/>
+		<dp pt="2508071119" pp="2" l="RB97" ppth="Seybothenreuth|Stockau|Bayreuth Hbf"/>
+	</s>
+	<s id="-7411294519639984476-2508071037-4">
+		<tl f="N" t="p" o="800759" c="RE" n="5285"/>
+		<ar pt="2508071134" pp="5" l="33" ppth="Nürnberg Hbf|Neuhaus(Pegnitz)|Pegnitz"/>
+		<dp pt="2508071134" pp="5" l="33" ppth="Marktredwitz|Schirnding|Cheb"/>
+	</s>
+	<s id="-3165454093599261426-2508071037-4">
+		<tl f="N" t="p" o="800759" c="RE" n="4885"/>
+		<ar pt="2508071134" pp="5" l="31" wings="-7411294519639984476-2508071037" ppth="Nürnberg Hbf|Neuhaus(Pegnitz)|Pegnitz"/>
+		<dp pt="2508071134" pp="5" l="31" wings="-7411294519639984476-2508071037" ppth="Marktredwitz|Oberkotzau|Hof Hbf"/>
+	</s>
+	<s id="8251521462443065156-2508071106-6">
+		<tl f="D" t="p" o="A9" c="ag" n="84648"/>
+		<ar pt="2508071138" pp="5" l="RB34" ppth="Weiden(Oberpf)|Schwarzenbach(b Pressath)|Pressath|Trabitz|Kemnath-Neustadt"/>
+		<dp pt="2508071142" pp="5" l="RB34" pde="Weidenberg" ppth="Seybothenreuth|Bayreuth Hbf"/>
+	</s>
+	<s id="633205170085943133-2508071036-10">
+		<tl f="D" t="p" o="A9" c="ag" n="84645"/>
+		<ar pt="2508071115" pp="3" l="RB34" ppth="Weidenberg|Görschnitz|Untersteinach(Bayr)|Döhlau|Friedrichsthal(b Bayreuth)|Laineck|Bayreuth-St Georgen|Bayreuth Hbf|Seybothenreuth"/>
+		<dp pt="2508071122" pp="3" l="RB34" ppth="Kemnath-Neustadt|Trabitz|Pressath|Schwarzenbach(b Pressath)|Weiden(Oberpf)"/>
+	</s>
+	<s id="7679816346071677377-2508071118-4">
+		<tl f="D" t="p" o="A9" c="ag" n="99019"/>
+		<ar pt="2508071139" pp="4" l="RB97" ppth="Bayreuth Hbf|Stockau|Seybothenreuth"/>
+	</s>
+	<s id="3372749525435767073-2508071109-2">
+		<tl f="N" t="p" o="800759" c="RE" n="3828"/>
+		<ar pt="2508071125" pp="2" l="31" ppth="Marktredwitz"/>
+		<dp pt="2508071126" pp="2" l="31" ppth="Pegnitz|Neuhaus(Pegnitz)|Nürnberg Hbf"/>
+	</s>
+</timetable>
