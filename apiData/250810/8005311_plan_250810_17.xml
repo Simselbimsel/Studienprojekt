@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<timetable station="Schaftlach">
+	<s id="2049899301697990191-2508101722-5">
+		<tl f="D" t="p" o="T8" c="BRB" n="86998"/>
+		<ar pt="2508101743" pp="2" l="RB57" ppth="Tegernsee|Gmund(Tegernsee)|Finsterwald|Moosrain"/>
+		<dp pt="2508101748" pp="2" l="RB57" ppth="Warngau|Holzkirchen|München Ost"/>
+	</s>
+	<s id="-5061138445670666364-2508101652-5">
+		<tl f="D" t="p" o="T8" c="BRB" n="86996"/>
+		<ar pt="2508101713" pp="2" l="RB57" ppth="Tegernsee|Gmund(Tegernsee)|Finsterwald|Moosrain"/>
+		<dp pt="2508101717" pp="2" l="RB57" ppth="Warngau|Holzkirchen|München-Solln|München Siemenswerke"/>
+	</s>
+	<s id="912318952455194524-2508101717-6">
+		<tl f="D" t="p" o="T8" c="BRB" n="86898"/>
+		<ar pt="2508101740" pp="2" l="RB56" ppth="Lenggries|Obergries|Gaißach|Bad Tölz|Reichersbeuern"/>
+		<dp pt="2508101748" pp="2" l="RB56" wings="2049899301697990191-2508101722" ppth="Warngau|Holzkirchen|München Ost"/>
+	</s>
+	<s id="-4709298287756697643-2508101735-3">
+		<tl f="D" t="p" o="T8" c="BRB" n="86889"/>
+		<ar pt="2508101745" pp="1" l="RB56" wings="-5806587512360281858-2508101708" ppth="Holzkirchen|Warngau"/>
+		<dp pt="2508101748" pp="1" l="RB56" ppth="Reichersbeuern|Bad Tölz|Gaißach|Obergries|Lenggries"/>
+	</s>
+	<s id="5984940295895491423-2508101647-6">
+		<tl f="D" t="p" o="T8" c="BRB" n="86896"/>
+		<ar pt="2508101710" pp="2" l="RB56" ppth="Lenggries|Obergries|Gaißach|Bad Tölz|Reichersbeuern"/>
+		<dp pt="2508101717" pp="2" l="RB56" wings="-5061138445670666364-2508101652" ppth="Warngau|Holzkirchen|München-Solln|München Siemenswerke"/>
+	</s>
+	<s id="-8889553738484331166-2508101638-5">
+		<tl f="D" t="p" o="T8" c="BRB" n="86887"/>
+		<ar pt="2508101711" pp="1" l="RB56" wings="-4539715140264768070-2508101638" ppth="München Siemenswerke|München-Solln|Holzkirchen|Warngau"/>
+		<dp pt="2508101718" pp="1" l="RB56" ppth="Reichersbeuern|Bad Tölz|Gaißach|Obergries|Lenggries"/>
+	</s>
+	<s id="-4539715140264768070-2508101638-5">
+		<tl f="D" t="p" o="T8" c="BRB" n="86987"/>
+		<ar pt="2508101711" pp="1" l="RB57" ppth="München Siemenswerke|München-Solln|Holzkirchen|Warngau"/>
+		<dp pt="2508101718" pp="1" l="RB57" ppth="Moosrain|Finsterwald|Gmund(Tegernsee)|Tegernsee"/>
+	</s>
+	<s id="-5806587512360281858-2508101708-4">
+		<tl f="D" t="p" o="T8" c="BRB" n="86989"/>
+		<ar pt="2508101745" pp="1" l="RB57" ppth="München Ost|Holzkirchen|Warngau"/>
+		<dp pt="2508101748" pp="1" l="RB57" ppth="Moosrain|Finsterwald|Gmund(Tegernsee)|Tegernsee"/>
+	</s>
+</timetable>
