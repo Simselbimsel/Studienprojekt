@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<timetable station="Hartmannshof">
+	<s id="2286177155356731755-2508101033-1">
+		<tl f="S" t="p" o="800721" c="S" n="58428"/>
+		<dp pt="2508101033" pp="3" l="2" ppth="Pommelsbrunn|Happurg|Hersbruck(l Pegnitz)|Henfenfeld|Ottensoos|Lauf(links Pegnitz)"/>
+	</s>
+	<s id="-4999207402908356838-2508100943-3">
+		<tl f="N" t="p" o="800759" c="RE" n="3561"/>
+		<ar pt="2508101005" pp="1" l="40" ppth="Nürnberg Hbf|Hersbruck(r Pegnitz)"/>
+		<dp pt="2508101006" pp="1" l="40" ppth="Etzelwang|Neukirchen(b Sulzb)|Sulzbach-Rosenberg|Amberg|Schwandorf"/>
+	</s>
+	<s id="8293627630509084306-2508101008-6">
+		<tl f="N" t="p" o="800759" c="RE" n="3562"/>
+		<ar pt="2508101051" pp="2" l="40" wings="3039384046342491593-2508100956" ppth="Schwandorf|Amberg|Sulzbach-Rosenberg|Neukirchen(b Sulzb)|Etzelwang"/>
+		<dp pt="2508101052" pp="2" l="40" wings="3039384046342491593-2508100956" ppth="Hersbruck(r Pegnitz)|Nürnberg Hbf"/>
+	</s>
+	<s id="-9187613764905561246-2508101005-7">
+		<tl f="S" t="p" o="800721" c="S" n="58423"/>
+		<ar pt="2508101026" pp="3" l="2" ppth="Lauf(links Pegnitz)|Ottensoos|Henfenfeld|Hersbruck(l Pegnitz)|Happurg|Pommelsbrunn"/>
+	</s>
+	<s id="-3744061260748535403-2508100943-3">
+		<tl f="N" t="p" o="800759" c="RE" n="3461"/>
+		<ar pt="2508101005" pp="1" l="41" wings="-4999207402908356838-2508100943" ppth="Nürnberg Hbf|Hersbruck(r Pegnitz)"/>
+		<dp pt="2508101006" pp="1" l="41" wings="-4999207402908356838-2508100943" ppth="Etzelwang|Neukirchen(b Sulzb)|Vilseck|Freihung|Weiherhammer|Weiden(Oberpf)|Altenstadt(Waldnaab)|Neustadt(Waldnaab)"/>
+	</s>
+	<s id="3039384046342491593-2508100956-9">
+		<tl f="N" t="p" o="800759" c="RE" n="3462"/>
+		<ar pt="2508101051" pp="2" l="41" ppth="Neustadt(Waldnaab)|Altenstadt(Waldnaab)|Weiden(Oberpf)|Weiherhammer|Freihung|Vilseck|Neukirchen(b Sulzb)|Etzelwang"/>
+		<dp pt="2508101052" pp="2" l="41" ppth="Hersbruck(r Pegnitz)|Nürnberg Hbf"/>
+	</s>
+</timetable>
