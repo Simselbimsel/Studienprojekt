@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<timetable station="Neuenmarkt-Wirsberg">
+	<s id="-616229479945175978-2508120728-6">
+		<tl f="D" t="p" o="A9" c="ag" n="84602"/>
+		<ar pt="2508120748" pp="5" l="RB24" ppth="Bayreuth Hbf|Bindlach|Ramsenthal|Harsdorf|Trebgast"/>
+		<dp pt="2508120748" pp="5" l="RB24" ppth="Ludwigschorgast|Untersteinach(b Stadtsteinach)|Kulmbach|Mainleus|Mainroth|Burgkunstadt|Hochstadt-Marktzeuln"/>
+	</s>
+	<s id="-1014592381127973184-2508120559-11">
+		<tl f="N" t="p" o="800759" c="RE" n="3403"/>
+		<ar pt="2508120720" pp="5" l="32" ppth="Nürnberg Hbf|Lauf(rechts Pegnitz)|Hersbruck(r Pegnitz)|Neuhaus(Pegnitz)|Pegnitz|Schnabelwaid|Creußen(Oberfr)|Bayreuth Hbf|Harsdorf|Trebgast"/>
+		<dp pt="2508120723" pp="5" l="32" ppth="Untersteinach(b Stadtsteinach)|Kulmbach|Burgkunstadt|Hochstadt-Marktzeuln"/>
+	</s>
+	<s id="6517733646812712323-2508120704-1">
+		<tl f="D" t="p" o="A9" c="ag" n="84489"/>
+		<dp pt="2508120704" pp="3" l="RB99" ppth="Marktschorgast|Stammbach|Münchberg|Seulbitz|Förbau|Schwarzenbach(Saale)|Oberkotzau|Hof Hbf|Hof-Neuhof"/>
+	</s>
+	<s id="8703126243214021133-2508120623-8">
+		<tl f="N" t="p" o="800759" c="RE" n="3002"/>
+		<ar pt="2508120716" pp="5" l="35" ppth="Hof Hbf|Oberkotzau|Schwarzenbach(Saale)|Förbau|Münchberg|Stammbach|Marktschorgast"/>
+		<dp pt="2508120723" pp="5" l="35" wings="-1014592381127973184-2508120559" ppth="Untersteinach(b Stadtsteinach)|Kulmbach|Burgkunstadt|Hochstadt-Marktzeuln"/>
+	</s>
+	<s id="2193137881964222923-2508120709-5">
+		<tl f="N" t="p" o="800759" c="RE" n="3400"/>
+		<ar pt="2508120734" pp="4" l="38" wings="-8247443954088952500-2508120709" ppth="Hochstadt-Marktzeuln|Burgkunstadt|Mainleus|Kulmbach"/>
+		<dp pt="2508120736" pp="4" l="38" ppth="Trebgast|Bayreuth Hbf|Pegnitz|Hersbruck(r Pegnitz)|Nürnberg Hbf"/>
+	</s>
+	<s id="-8247443954088952500-2508120709-5">
+		<tl f="N" t="p" o="800759" c="RE" n="3001"/>
+		<ar pt="2508120734" pp="4" l="35" ppth="Hochstadt-Marktzeuln|Burgkunstadt|Mainleus|Kulmbach"/>
+		<dp pt="2508120738" pp="4" l="35" ppth="Marktschorgast|Stammbach|Münchberg|Schwarzenbach(Saale)|Hof Hbf"/>
+	</s>
+</timetable>
