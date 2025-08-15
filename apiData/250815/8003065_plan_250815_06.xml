@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<timetable station="Immenstadt">
+	<s id="-865873330850806893-2508150641-3">
+		<tl f="N" t="p" o="8007D5" c="RE" n="7872"/>
+		<ar pt="2508150655" pp="1" l="76" ppth="Kempten(Allgäu)Hbf|Martinszell(Allgäu)"/>
+		<dp pt="2508150705" pp="1" l="76" ppth="Blaichach(Allgäu)|Sonthofen|Altstädten(Allgäu)|Fischen|Langenwang(Schwab)|Oberstdorf"/>
+	</s>
+	<s id="5049074848771974195-2508150612-7">
+		<tl f="N" t="p" o="8007D5" c="RE" n="7875"/>
+		<ar pt="2508150642" pp="3" l="76" ppth="Oberstdorf|Langenwang(Schwab)|Fischen|Altstädten(Allgäu)|Sonthofen|Blaichach(Allgäu)"/>
+		<dp pt="2508150654" pp="3" l="76" ppth="Martinszell(Allgäu)|Kempten(Allgäu)Hbf|Günzach|Kaufbeuren|Buchloe|Kaufering|Geltendorf|München-Pasing|München Hbf Gl.27-36"/>
+	</s>
+	<s id="-620797754893301702-2508150546-7">
+		<tl f="N" t="p" o="8007D5" c="RE" n="3875"/>
+		<ar pt="2508150651" pp="3" l="70" ppth="Lindau-Insel|Lindau-Reutin|Hergatz|Heimenkirch|Röthenbach(Allgäu)|Oberstaufen"/>
+		<dp pt="2508150654" pp="3" l="70" wings="5049074848771974195-2508150612" ppth="Martinszell(Allgäu)|Kempten(Allgäu)Hbf|Günzach|Kaufbeuren|Buchloe|Kaufering|Geltendorf|München-Pasing|München Hbf Gl.27-36"/>
+	</s>
+	<s id="1801758045708913671-2508150641-3">
+		<tl f="N" t="p" o="8007D5" c="RE" n="3872"/>
+		<ar pt="2508150655" pp="1" l="70" wings="-865873330850806893-2508150641" ppth="Kempten(Allgäu)Hbf|Martinszell(Allgäu)"/>
+		<dp pt="2508150657" pp="1" l="70" ppth="Oberstaufen|Röthenbach(Allgäu)|Heimenkirch|Hergatz|Lindau-Reutin|Lindau-Insel"/>
+	</s>
+</timetable>
