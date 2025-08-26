@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<timetable station="Neuenmarkt-Wirsberg">
+	<s id="-7233572301848382149-2508261237-6">
+		<tl f="D" t="p" o="A9" c="ag" n="84612"/>
+		<ar pt="2508261258" pp="5" l="RB24" ppth="Bayreuth Hbf|Bindlach|Ramsenthal|Harsdorf|Trebgast"/>
+		<dp pt="2508261259" pp="5" l="RB24" ppth="Ludwigschorgast|Untersteinach(b Stadtsteinach)|Kulmbach|Mainleus|Mainroth|Burgkunstadt|Hochstadt-Marktzeuln|Lichtenfels|Schney|Ebersdorf(b Coburg)|Grub am Forst|Creidlitz|Coburg"/>
+	</s>
+	<s id="-2097386101407019285-2508261105-5">
+		<tl f="N" t="p" o="800759" c="RE" n="3409"/>
+		<ar pt="2508261222" pp="5" l="32" tra="4114057845763603569-2508261224-1" ppth="Nürnberg Hbf|Hersbruck(r Pegnitz)|Pegnitz|Bayreuth Hbf"/>
+	</s>
+	<s id="4114057845763603569-2508261224-1">
+		<tl f="N" t="p" o="800759" c="RE" n="3008"/>
+		<dp pt="2508261224" pp="5" l="35" tra="-2097386101407019285-2508261105-5" ppth="Kulmbach|Burgkunstadt|Hochstadt-Marktzeuln|Lichtenfels|Bad Staffelstein|Bamberg"/>
+	</s>
+	<s id="-8556369344620109998-2508261136-6">
+		<tl f="N" t="p" o="800759" c="RE" n="56762"/>
+		<ar pt="2508261218" pp="5" l="35" tra="-6931422232422961037-2508261235-1" ppth="Hof Hbf|Schwarzenbach(Saale)|Münchberg|Stammbach|Marktschorgast"/>
+	</s>
+	<s id="-1123987015543007655-2508261110-14">
+		<tl f="D" t="p" o="A9" c="ag" n="84601"/>
+		<ar pt="2508261209" pp="4" l="RB24" ppth="Coburg|Creidlitz|Grub am Forst|Ebersdorf(b Coburg)|Schney|Lichtenfels|Hochstadt-Marktzeuln|Burgkunstadt|Mainroth|Mainleus|Kulmbach|Untersteinach(b Stadtsteinach)|Ludwigschorgast"/>
+		<dp pt="2508261210" pp="4" l="RB24" ppth="Trebgast|Harsdorf|Ramsenthal|Bindlach|Bayreuth Hbf"/>
+	</s>
+	<s id="-3438667318859342793-2508261156-10">
+		<tl f="D" t="p" o="A9" c="ag" n="84510"/>
+		<ar pt="2508261253" pp="3" l="RB99" ppth="Hof-Neuhof|Hof Hbf|Oberkotzau|Schwarzenbach(Saale)|Förbau|Seulbitz|Münchberg|Stammbach|Marktschorgast"/>
+	</s>
+	<s id="-6931422232422961037-2508261235-1">
+		<tl f="N" t="p" o="800759" c="RE" n="3438"/>
+		<dp pt="2508261235" pp="4" l="38" tra="-8556369344620109998-2508261136-6" ppth="Trebgast|Bayreuth Hbf|Creußen(Oberfr)|Pegnitz|Neuhaus(Pegnitz)|Nürnberg Hbf"/>
+	</s>
+</timetable>
