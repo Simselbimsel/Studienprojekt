@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<timetable station="Pegnitz">
+	<s id="991569860533734287-2508281755-1">
+		<tl t="p" o="B7" c="Bus" n="3833"/>
+		<dp pt="2508281755" pp="" l="EV" ppth="Kirchenlaibach|Marktredwitz"/>
+	</s>
+	<s id="6969478781875532009-2508281636-5">
+		<tl f="N" t="p" o="800759" c="RE" n="3034"/>
+		<ar pt="2508281744" pp="2" l="30" tra="5935737454695275850-2508281746-1" ppth="Hof Hbf|Münchberg|Trebgast|Bayreuth Hbf"/>
+	</s>
+	<s id="5935737454695275850-2508281746-1">
+		<tl f="N" t="p" o="800759" c="RE" n="3834"/>
+		<dp pt="2508281746" pp="2" l="31" tra="6969478781875532009-2508281636-5" ppth="Neuhaus(Pegnitz)|Nürnberg Hbf"/>
+	</s>
+	<s id="5769442059287135687-2508281536-10">
+		<tl f="N" t="p" o="800759" c="RE" n="56770"/>
+		<ar pt="2508281718" pp="2" l="35" ppth="Hof Hbf|Schwarzenbach(Saale)|Münchberg|Stammbach|Marktschorgast|Neuenmarkt-Wirsberg|Trebgast|Bayreuth Hbf|Creußen(Oberfr)"/>
+		<dp pt="2508281719" pp="2" l="35" ppth="Hersbruck(r Pegnitz)|Nürnberg Hbf"/>
+	</s>
+	<s id="-2753957614413638980-2508281705-3">
+		<tl f="N" t="p" o="800759" c="RE" n="3415"/>
+		<ar pt="2508281743" pp="1" l="32" ppth="Nürnberg Hbf|Hersbruck(r Pegnitz)"/>
+		<dp pt="2508281744" pp="1" l="32" pde="Bamberg" ppth="Bayreuth Hbf|Neuenmarkt-Wirsberg"/>
+	</s>
+	<s id="-2579229728982164799-2508281637-3">
+		<tl f="N" t="p" o="800759" c="RE" n="3091"/>
+		<ar pt="2508281714" pp="1" l="30" ppth="Nürnberg Hbf|Neuhaus(Pegnitz)"/>
+		<dp pt="2508281716" pp="1" l="30" ppth="Schnabelwaid|Creußen(Oberfr)|Bayreuth Hbf"/>
+	</s>
+	<s id="4289875069109015707-2508281546-11">
+		<tl f="N" t="p" o="800759" c="RE" n="3442"/>
+		<ar pt="2508281718" pp="2" l="38" wings="5769442059287135687-2508281536" ppth="Bamberg|Bad Staffelstein|Lichtenfels|Burgkunstadt|Kulmbach|Untersteinach(b Stadtsteinach)|Neuenmarkt-Wirsberg|Trebgast|Bayreuth Hbf|Creußen(Oberfr)"/>
+		<dp pt="2508281719" pp="2" l="38" wings="5769442059287135687-2508281536" ppth="Hersbruck(r Pegnitz)|Nürnberg Hbf"/>
+	</s>
+	<s id="4342741435042689562-2508281540-3">
+		<tl t="p" o="B7" c="Bus" n="5288"/>
+		<ar pt="2508281708" pp="" l="EV" ppth="Marktredwitz|Kirchenlaibach"/>
+	</s>
+</timetable>
