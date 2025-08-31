@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<timetable station="Miesbach">
+	<s id="-1486245236922987460-2508310902-6">
+		<tl f="D" t="p" o="T8" c="BRB" n="77361"/>
+		<ar pt="2508310941" pp="1" l="RB55" ppth="München Hbf Gl.27-36|München Donnersbergerbrücke|München Harras|München-Solln|Holzkirchen"/>
+		<dp pt="2508310945" pp="1" l="RB55" ppth="Agatharied|Hausham|Schliersee"/>
+	</s>
+	<s id="-9074479233512795367-2508310930-4">
+		<tl f="D" t="p" o="T8" c="BRB" n="77368"/>
+		<ar pt="2508310939" pp="2" l="RB55" pde="Bayrischzell" ppth="Schliersee|Hausham|Agatharied"/>
+		<dp pt="2508310943" pp="2" l="RB55" ppth="Darching|Holzkirchen|München-Solln|München Harras|München Donnersbergerbrücke|München Hbf Gl.27-36"/>
+	</s>
+	<s id="-3258102918481658428-2508310830-4">
+		<tl f="D" t="p" o="T8" c="BRB" n="55803"/>
+		<ar pt="2508310913" pp="1" l="RB55" ppth="München Ost|Holzkirchen|Darching"/>
+		<dp pt="2508310915" pp="1" l="RB55" ppth="Agatharied|Hausham|Schliersee"/>
+	</s>
+	<s id="-1268169326758852981-2508310830-4">
+		<tl f="D" t="p" o="T8" c="BRB" n="77359"/>
+		<ar pt="2508310913" pp="1" l="RB55" wings="-3258102918481658428-2508310830" ppth="München Ost|Holzkirchen|Darching"/>
+		<dp pt="2508310915" pp="1" l="RB55" wings="-3258102918481658428-2508310830" pde="Bayrischzell" ppth="Agatharied|Hausham|Schliersee"/>
+	</s>
+</timetable>

@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<timetable station="Darching">
+	<s id="-9074479233512795367-2508310930-5">
+		<tl f="D" t="p" o="T8" c="BRB" n="77368"/>
+		<ar pt="2508310951" pp="1" l="RB55" pde="Bayrischzell" ppth="Schliersee|Hausham|Agatharied|Miesbach"/>
+		<dp pt="2508310951" pp="1" l="RB55" ppth="Holzkirchen|München-Solln|München Harras|München Donnersbergerbrücke|München Hbf Gl.27-36"/>
+	</s>
+	<s id="-3258102918481658428-2508310830-3">
+		<tl f="D" t="p" o="T8" c="BRB" n="55803"/>
+		<ar pt="2508310905" pp="1" l="RB55" ppth="München Ost|Holzkirchen"/>
+		<dp pt="2508310905" pp="1" l="RB55" ppth="Miesbach|Agatharied|Hausham|Schliersee"/>
+	</s>
+	<s id="-1268169326758852981-2508310830-3">
+		<tl f="D" t="p" o="T8" c="BRB" n="77359"/>
+		<ar pt="2508310905" pp="1" l="RB55" wings="-3258102918481658428-2508310830" ppth="München Ost|Holzkirchen"/>
+		<dp pt="2508310905" pp="1" l="RB55" wings="-3258102918481658428-2508310830" pde="Bayrischzell" ppth="Miesbach|Agatharied|Hausham|Schliersee"/>
+	</s>
+</timetable>
