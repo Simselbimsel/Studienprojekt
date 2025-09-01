@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<timetable station="Mainleus">
+	<s id="2527540167095360919-2509010735-5">
+		<tl f="D" t="p" o="A9" c="ag" n="84593"/>
+		<ar pt="2509010753" pp="1" l="RB24" ppth="Lichtenfels|Hochstadt-Marktzeuln|Burgkunstadt|Mainroth"/>
+		<dp pt="2509010754" pp="1" l="RB24" ppth="Kulmbach|Untersteinach(b Stadtsteinach)|Ludwigschorgast|Neuenmarkt-Wirsberg|Trebgast|Harsdorf|Ramsenthal|Bindlach|Bayreuth Hbf"/>
+	</s>
+	<s id="1239491461641103858-2509010652-5">
+		<tl f="D" t="p" o="A9" c="ag" n="84600"/>
+		<ar pt="2509010706" pp="2" l="RB24" ppth="Neuenmarkt-Wirsberg|Ludwigschorgast|Untersteinach(b Stadtsteinach)|Kulmbach"/>
+		<dp pt="2509010707" pp="2" l="RB24" ppth="Mainroth|Burgkunstadt|Hochstadt-Marktzeuln|Lichtenfels"/>
+	</s>
+	<s id="-7373863158113686080-2509010703-4">
+		<tl f="N" t="p" o="800759" c="RE" n="3001"/>
+		<ar pt="2509010720" pp="1" l="35" ppth="Lichtenfels|Hochstadt-Marktzeuln|Burgkunstadt"/>
+		<dp pt="2509010721" pp="1" l="35" ppth="Kulmbach|Neuenmarkt-Wirsberg|Marktschorgast|Stammbach|Münchberg|Schwarzenbach(Saale)|Hof Hbf"/>
+	</s>
+	<s id="1074653477918300288-2509010703-4">
+		<tl f="N" t="p" o="800759" c="RE" n="3400"/>
+		<ar pt="2509010720" pp="1" l="38" wings="-7373863158113686080-2509010703" ppth="Lichtenfels|Hochstadt-Marktzeuln|Burgkunstadt"/>
+		<dp pt="2509010721" pp="1" l="38" wings="-7373863158113686080-2509010703" ppth="Kulmbach|Neuenmarkt-Wirsberg|Trebgast|Bayreuth Hbf|Pegnitz|Hersbruck(r Pegnitz)|Nürnberg Hbf"/>
+	</s>
+</timetable>
