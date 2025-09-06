@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<timetable station="Pegnitz">
+	<s id="8458824405240291696-2509060635-2">
+		<tl f="N" t="p" o="800759" c="RE" n="4881"/>
+		<ar pt="2509060714" pp="1" l="31" ppth="Nürnberg Hbf"/>
+	</s>
+	<s id="-3574126350774949173-2509060550-15">
+		<tl f="N" t="p" o="800759" c="RE" n="3432"/>
+		<ar pt="2509060719" pp="2" l="32" ppth="Lichtenfels|Hochstadt-Marktzeuln|Burgkunstadt|Mainleus|Kulmbach|Untersteinach(b Stadtsteinach)|Ludwigschorgast|Neuenmarkt-Wirsberg|Trebgast|Harsdorf|Ramsenthal|Bindlach|Bayreuth Hbf|Creußen(Oberfr)"/>
+		<dp pt="2509060720" pp="2" l="32" ppth="Hersbruck(r Pegnitz)|Nürnberg Hbf"/>
+	</s>
+	<s id="-2907827480423404112-2509060703-3">
+		<tl f="N" t="p" o="800759" c="RE" n="3405"/>
+		<ar pt="2509060739" pp="1" l="32" ppth="Nürnberg Hbf|Hersbruck(r Pegnitz)"/>
+		<dp pt="2509060740" pp="1" l="32" pde="Hochstadt-Marktzeuln" ppth="Schnabelwaid|Creußen(Oberfr)|Bayreuth Hbf|Neuenmarkt-Wirsberg"/>
+	</s>
+	<s id="561986465337997352-2509060535-7">
+		<tl t="p" o="B7" c="Bus" n="3820"/>
+		<ar pt="2509060712" pp="" l="EV" ppth="Marktredwitz|Waldershof|Neusorg|Immenreuth|Haidenaab-Göppmannsbühl|Kirchenlaibach"/>
+	</s>
+	<s id="-30992579074242027-2509060632-9">
+		<tl f="N" t="p" o="800759" c="RE" n="3022"/>
+		<ar pt="2509060744" pp="2" l="30" tra="467003970285820823-2509060750-1" ppth="Hof Hbf|Oberkotzau|Schwarzenbach(Saale)|Münchberg|Stammbach|Marktschorgast|Trebgast|Bayreuth Hbf"/>
+	</s>
+	<s id="-2218750246769221464-2509060755-1">
+		<tl t="p" o="B7" c="Bus" n="3823"/>
+		<dp pt="2509060755" pp="" l="EV" ppth="Kirchenlaibach|Marktredwitz"/>
+	</s>
+	<s id="467003970285820823-2509060750-1">
+		<tl f="N" t="p" o="800759" c="RE" n="3824"/>
+		<dp pt="2509060750" pp="2" l="31" tra="-30992579074242027-2509060632-9" ppth="Neuhaus(Pegnitz)|Nürnberg Hbf"/>
+	</s>
+</timetable>
