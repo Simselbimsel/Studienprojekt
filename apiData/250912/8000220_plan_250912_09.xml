@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<timetable station="Weilheim(Oberbay)">
+	<s id="4557566789112405514-2509120952-1">
+		<tl t="p" o="Y8" c="Bus" n="60621"/>
+		<dp pt="2509120952" pp="" l="EV" ppth="Raisting|Dießen"/>
+	</s>
+	<s id="-2989103447085308228-2509120916-1">
+		<tl f="D" t="p" o="Y8" c="BRB" n="86519"/>
+		<dp pt="2509120916" pp="5" l="RB67" ppth="Peißenberg Nord|Peißenberg|Hohenpeißenberg|Peiting Ost|Peiting Nord|Schongau"/>
+	</s>
+	<s id="-6006510969522138198-2509120919-3">
+		<tl t="p" o="Y8" c="Bus" n="60572"/>
+		<ar pt="2509120944" pp="" l="EV" ppth="Dießen|Raisting"/>
+	</s>
+	<s id="-5446374531362888054-2509120853-3">
+		<tl f="N" t="p" o="800790" c="RB" n="5512"/>
+		<ar pt="2509120910" pp="1" l="60" ppth="Starnberg|Tutzing"/>
+		<dp pt="2509120912" pp="1" l="60" pde="Pfronten-Steinach" ppth="Huglfing|Uffing a Staffelsee|Murnau|Ohlstadt|Eschenlohe|Oberau|Farchant|Garmisch-Partenkirchen|Garmisch-Partenkirchen Hausberg|Untergrainau|Griesen(Oberbay)|Ehrwald Zugspitzbahn"/>
+	</s>
+	<s id="-4681147653066139994-2509120918-3">
+		<tl f="N" t="p" o="800790" c="RB" n="59511"/>
+		<ar pt="2509120942" pp="2" l="65" ppth="Starnberg|Tutzing"/>
+	</s>
+	<s id="5760963621262882417-2509120915-1">
+		<tl f="N" t="p" o="800790" c="RB" n="59510"/>
+		<dp pt="2509120915" pp="2" l="65" ppth="Tutzing|Starnberg"/>
+	</s>
+	<s id="-4020900793425356070-2509120904-7">
+		<tl f="D" t="p" o="Y8" c="BRB" n="86534"/>
+		<ar pt="2509120944" pp="4" l="RB67" ppth="Schongau|Peiting Nord|Peiting Ost|Hohenpeißenberg|Peißenberg|Peißenberg Nord"/>
+	</s>
+	<s id="1570208561756592153-2509120853-3">
+		<tl f="N" t="p" o="800790" c="RB" n="5413"/>
+		<ar pt="2509120910" pp="1" l="6" wings="-5446374531362888054-2509120853" ppth="Starnberg|Tutzing"/>
+		<dp pt="2509120912" pp="1" l="6" wings="-5446374531362888054-2509120853" pde="Innsbruck Hbf" ppth="Huglfing|Uffing a Staffelsee|Murnau|Ohlstadt|Eschenlohe|Oberau|Farchant|Garmisch-Partenkirchen|Klais|Mittenwald"/>
+	</s>
+	<s id="-7483588337029616535-2509120750-12">
+		<tl f="N" t="p" o="800790" c="RB" n="5507"/>
+		<ar pt="2509120947" pp="1" l="60" pde="Reutte in Tirol" ppth="Ehrwald Zugspitzbahn|Untergrainau|Garmisch-Partenkirchen Hausberg|Garmisch-Partenkirchen|Farchant|Oberau|Eschenlohe|Ohlstadt|Murnau|Uffing a Staffelsee|Huglfing"/>
+		<dp pt="2509120949" pp="1" l="60" ppth="Tutzing|Starnberg"/>
+	</s>
+	<s id="-2188448807969956112-2509120836-11">
+		<tl f="N" t="p" o="800790" c="RB" n="59456"/>
+		<ar pt="2509120947" pp="1" l="6" wings="-7483588337029616535-2509120750" ppth="Mittenwald|Klais|Garmisch-Partenkirchen|Farchant|Oberau|Eschenlohe|Ohlstadt|Murnau|Uffing a Staffelsee|Huglfing"/>
+		<dp pt="2509120949" pp="1" l="6" wings="-7483588337029616535-2509120750" ppth="Tutzing|Starnberg"/>
+	</s>
+</timetable>
