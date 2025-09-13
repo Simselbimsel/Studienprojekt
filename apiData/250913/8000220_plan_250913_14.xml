@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<timetable station="Weilheim(Oberbay)">
+	<s id="1072718787783097845-2509131416-1">
+		<tl f="D" t="p" o="Y8" c="BRB" n="86539"/>
+		<dp pt="2509131416" pp="4" l="RB67" ppth="Peißenberg Nord|Peißenberg|Hohenpeißenberg|Peiting Ost|Peiting Nord|Schongau"/>
+	</s>
+	<s id="8842056087979543702-2509131419-3">
+		<tl t="p" o="Y8" c="Bus" n="60505"/>
+		<ar pt="2509131444" pp="" l="EV" ppth="Dießen|Raisting"/>
+	</s>
+	<s id="-375981902218544162-2509131351-3">
+		<tl f="N" t="p" o="800790" c="RB" n="5520"/>
+		<ar pt="2509131410" pp="1" l="60" ppth="Starnberg|Tutzing"/>
+		<dp pt="2509131412" pp="1" l="60" pde="Pfronten-Steinach" ppth="Huglfing|Uffing a Staffelsee|Murnau|Ohlstadt|Eschenlohe|Oberau|Farchant|Garmisch-Partenkirchen|Garmisch-Partenkirchen Hausberg|Untergrainau|Ehrwald Zugspitzbahn"/>
+	</s>
+	<s id="6343790191480751747-2509131351-3">
+		<tl f="N" t="p" o="800790" c="RB" n="5423"/>
+		<ar pt="2509131410" pp="1" l="6" wings="-375981902218544162-2509131351" ppth="Starnberg|Tutzing"/>
+		<dp pt="2509131412" pp="1" l="6" wings="-375981902218544162-2509131351" pde="Seefeld in Tirol" ppth="Huglfing|Uffing a Staffelsee|Murnau|Ohlstadt|Eschenlohe|Oberau|Farchant|Garmisch-Partenkirchen|Klais|Mittenwald"/>
+	</s>
+	<s id="2571996670752321400-2509131236-12">
+		<tl f="N" t="p" o="800790" c="RB" n="5519"/>
+		<ar pt="2509131447" pp="1" l="60" pde="Pfronten-Steinach" ppth="Ehrwald Zugspitzbahn|Untergrainau|Garmisch-Partenkirchen Hausberg|Garmisch-Partenkirchen|Farchant|Oberau|Eschenlohe|Ohlstadt|Murnau|Uffing a Staffelsee|Huglfing"/>
+		<dp pt="2509131449" pp="1" l="60" ppth="Tutzing|Starnberg"/>
+	</s>
+	<s id="-893224250150370367-2509131238-11">
+		<tl f="N" t="p" o="81" c="RB" n="5416"/>
+		<ar pt="2509131447" pp="1" l="6" wings="2571996670752321400-2509131236" pde="Innsbruck Hbf" ppth="Mittenwald|Klais|Garmisch-Partenkirchen|Farchant|Oberau|Eschenlohe|Ohlstadt|Murnau|Uffing a Staffelsee|Huglfing"/>
+		<dp pt="2509131449" pp="1" l="6" wings="2571996670752321400-2509131236" ppth="Tutzing|Starnberg"/>
+	</s>
+	<s id="6793304632290824149-2509131404-7">
+		<tl f="D" t="p" o="Y8" c="BRB" n="86560"/>
+		<ar pt="2509131444" pp="4" l="RB67" ppth="Schongau|Peiting Nord|Peiting Ost|Hohenpeißenberg|Peißenberg|Peißenberg Nord"/>
+	</s>
+	<s id="-2609118920134951649-2509131452-1">
+		<tl t="p" o="Y8" c="Bus" n="60546"/>
+		<dp pt="2509131452" pp="" l="EV" ppth="Raisting|Dießen"/>
+	</s>
+	<s id="-2599470916340853974-2509131415-1">
+		<tl f="N" t="p" o="800790" c="RB" n="59520"/>
+		<dp pt="2509131415" pp="2" l="65" ppth="Tutzing|Starnberg"/>
+	</s>
+	<s id="6876905235127626872-2509131417-3">
+		<tl f="N" t="p" o="800790" c="RB" n="59521"/>
+		<ar pt="2509131442" pp="2" l="65" ppth="Starnberg|Tutzing"/>
+	</s>
+</timetable>
