@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<timetable station="Augsburg-Hochzoll">
+	<s id="6449613228243482585-2509192353-4">
+		<tl f="D" t="p" o="Y8" c="BRB" n="86595"/>
+		<ar pt="2509200004" pp="4" l="RB67" ppth="Augsburg-Oberhausen|Augsburg Hbf|Augsburg Haunstetterstraße"/>
+		<dp pt="2509200005" pp="4" l="RB67" ppth="Kissing|Mering-St Afra|Mering|Merching|Schmiechen(Schwab)|Egling"/>
+	</s>
+	<s id="82164619670102103-2509200005-3">
+		<tl t="p" o="Y8" c="Bus" n="60728"/>
+		<ar pt="2509200026" pp="" l="EV" ppth="Dasing|Friedberg(Augsburg)"/>
+		<dp pt="2509200026" pp="" l="EV" ppth="Augsburg Haunstetterstraße|Augsburg Hbf"/>
+	</s>
+	<s id="2227939957273981757-2509200005-9">
+		<tl f="N" t="p" o="GYRB" c="RB" n="57100"/>
+		<ar pt="2509200047" pp="3" l="87" ppth="München Hbf|München-Pasing|Mammendorf|Haspelmoor|Althegnenberg|Mering|Mering-St Afra|Kissing"/>
+		<dp pt="2509200047" pp="3" l="87" ppth="Augsburg Haunstetterstraße|Augsburg Hbf|Augsburg-Oberhausen|Gersthofen|Gablingen|Langweid(Lech)|Herbertshofen|Meitingen|Westendorf|Nordendorf|Mertingen Bahnhof|Bäumenheim|Donauwörth"/>
+	</s>
+	<s id="-1621672876699348789-2509200005-9">
+		<tl f="N" t="p" o="GYRE" c="RE" n="57000"/>
+		<ar pt="2509200047" pp="3" l="9" wings="2227939957273981757-2509200005" ppth="München Hbf|München-Pasing|Mammendorf|Haspelmoor|Althegnenberg|Mering|Mering-St Afra|Kissing"/>
+		<dp pt="2509200047" pp="3" l="9" wings="2227939957273981757-2509200005" ppth="Augsburg Haunstetterstraße|Augsburg Hbf|Augsburg-Oberhausen|Neusäß|Westheim(Schwab)"/>
+	</s>
+	<s id="-7698159087079988721-2509200006-9">
+		<tl f="D" t="p" o="Y8" c="BRB" n="86602"/>
+		<ar pt="2509200037" pp="3" l="RB67" ppth="Geltendorf|Walleshausen|Egling|Schmiechen(Schwab)|Merching|Mering|Mering-St Afra|Kissing"/>
+		<dp pt="2509200038" pp="3" l="RB67" ppth="Augsburg Haunstetterstraße|Augsburg Hbf|Augsburg-Oberhausen"/>
+	</s>
+</timetable>
