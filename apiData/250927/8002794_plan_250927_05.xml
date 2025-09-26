@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<timetable station="Hersbruck(r Pegnitz)">
+	<s id="1158930178477391191-2509270459-10">
+		<tl f="N" t="p" o="800720" c="RB" n="58501"/>
+		<ar pt="2509270529" pp="2" l="30" ppth="Nürnberg Hbf|Nürnberg Ost|Nürnberg-Erlenstegen|Behringersdorf|Rückersdorf(Mfr)|Ludwigshöhe|Lauf(rechts Pegnitz)|Neunkirchen a Sand|Reichenschwand"/>
+	</s>
+	<s id="5119406175748841559-2509270529-2">
+		<tl f="N" t="p" o="800759" c="RE" n="3553"/>
+		<ar pt="2509270544" pp="2" l="40" ppth="Nürnberg Hbf"/>
+		<dp pt="2509270545" pp="2" l="40" ppth="Hartmannshof|Etzelwang|Neukirchen(b Sulzb)|Sulzbach-Rosenberg|Amberg"/>
+	</s>
+	<s id="-247837270689987358-2509270536-1">
+		<tl t="p" o="B7" c="Bus" n="1001"/>
+		<dp pt="2509270536" pp="" l="EV" ppth="Hohenstadt(Mittelfr)|Vorra(Pegnitz)|Rupprechtstegen|Velden(b Hersbruck)|Neuhaus(Pegnitz)|Pegnitz"/>
+	</s>
+	<s id="8224206016566671402-2509270519-6">
+		<tl f="N" t="p" o="800759" c="RE" n="3552"/>
+		<ar pt="2509270558" pp="3" l="40" ppth="Amberg|Sulzbach-Rosenberg|Neukirchen(b Sulzb)|Etzelwang|Hartmannshof"/>
+		<dp pt="2509270559" pp="3" l="40" ppth="Nürnberg Hbf"/>
+	</s>
+	<s id="-3647678690168377485-2509270529-2">
+		<tl f="N" t="p" o="800759" c="RE" n="57871"/>
+		<ar pt="2509270544" pp="2" l="41" wings="5119406175748841559-2509270529" tra="4893720318638193620-2509270529-1" ppth="Nürnberg Hbf"/>
+	</s>
+	<s id="2859884644065935486-2509270521-1">
+		<tl f="N" t="p" o="800720" c="RB" n="58504"/>
+		<dp pt="2509270521" pp="3" l="30" ppth="Reichenschwand|Neunkirchen a Sand|Lauf(rechts Pegnitz)|Ludwigshöhe|Rückersdorf(Mfr)|Behringersdorf|Nürnberg-Erlenstegen|Nürnberg Ost|Nürnberg Hbf"/>
+	</s>
+	<s id="766599750569994517-2509270405-7">
+		<tl t="p" o="B7" c="Bus" n="1002"/>
+		<ar pt="2509270514" pp="" l="EV" ppth="Pegnitz|Neuhaus(Pegnitz)|Velden(b Hersbruck)|Rupprechtstegen|Vorra(Pegnitz)|Hohenstadt(Mittelfr)"/>
+	</s>
+	<s id="-3502086072247062619-2509270534-1">
+		<tl t="p" o="B7" c="Bus" n="1500"/>
+		<dp pt="2509270534" pp="" l="EV" ppth="Neuhaus(Pegnitz)|Pegnitz"/>
+	</s>
+	<s id="4893720318638193620-2509270529-1">
+		<tl f="N" t="p" o="800759" c="RE" n="3453"/>
+		<dp pt="2509270545" pp="2" l="41" tra="-3647678690168377485-2509270529-2" ppth="Hartmannshof|Etzelwang|Neukirchen(b Sulzb)|Vilseck|Freihung|Thansüß|Weiherhammer|Weiden(Oberpf)|Altenstadt(Waldnaab)|Neustadt(Waldnaab)"/>
+	</s>
+</timetable>
