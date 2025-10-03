@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<timetable station="Weilheim(Oberbay)">
+	<s id="5050493099335803296-2510031719-3">
+		<tl t="p" o="Y8" c="Bus" n="60511"/>
+		<ar pt="2510031744" pp="" l="EV" ppth="Dießen|Raisting"/>
+	</s>
+	<s id="-3784304662915997710-2510031752-1">
+		<tl t="p" o="Y8" c="Bus" n="60552"/>
+		<dp pt="2510031752" pp="" l="EV" ppth="Raisting|Dießen"/>
+	</s>
+	<s id="4462192766098928090-2510031659-5">
+		<tl f="N" t="p" o="800790" c="RB" n="59527"/>
+		<ar pt="2510031742" pp="2" l="65" ppth="München Hbf Gl.27-36|München-Pasing|Starnberg|Tutzing"/>
+	</s>
+	<s id="-5738811061281326974-2510031632-4">
+		<tl f="N" t="p" o="800790" c="RB" n="5528"/>
+		<ar pt="2510031709" pp="1" l="60" ppth="München Hbf Gl.27-36|München-Pasing|Tutzing"/>
+		<dp pt="2510031712" pp="1" l="60" pde="Pfronten-Steinach" ppth="Huglfing|Uffing a Staffelsee|Murnau|Ohlstadt|Eschenlohe|Oberau|Farchant|Garmisch-Partenkirchen|Garmisch-Partenkirchen Hausberg|Untergrainau|Griesen(Oberbay)|Ehrwald Zugspitzbahn"/>
+	</s>
+	<s id="6085071700775417908-2510031716-1">
+		<tl f="D" t="p" o="Y8" c="BRB" n="86553"/>
+		<dp pt="2510031716" pp="4" l="RB67" ppth="Peißenberg Nord|Peißenberg|Hohenpeißenberg|Peiting Ost|Peiting Nord|Schongau"/>
+	</s>
+	<s id="5111774224362867641-2510031715-1">
+		<tl f="N" t="p" o="800790" c="RB" n="59528"/>
+		<dp pt="2510031715" pp="2" l="65" ppth="Tutzing|Starnberg|München-Pasing|München Hbf Gl.27-36"/>
+	</s>
+	<s id="7836956670407548467-2510031632-4">
+		<tl f="N" t="p" o="800790" c="RB" n="5431"/>
+		<ar pt="2510031709" pp="1" l="6" wings="-5738811061281326974-2510031632" ppth="München Hbf Gl.27-36|München-Pasing|Tutzing"/>
+		<dp pt="2510031712" pp="1" l="6" wings="-5738811061281326974-2510031632" pde="Innsbruck Hbf" ppth="Huglfing|Uffing a Staffelsee|Murnau|Ohlstadt|Eschenlohe|Oberau|Farchant|Garmisch-Partenkirchen|Klais|Mittenwald"/>
+	</s>
+	<s id="862464147585044720-2510031704-7">
+		<tl f="D" t="p" o="Y8" c="BRB" n="86578"/>
+		<ar pt="2510031744" pp="4" l="RB67" ppth="Schongau|Peiting Nord|Peiting Ost|Hohenpeißenberg|Peißenberg|Peißenberg Nord"/>
+	</s>
+	<s id="-4098926441499116097-2510031536-12">
+		<tl f="N" t="p" o="800790" c="RB" n="5523"/>
+		<ar pt="2510031748" pp="1" l="60" pde="Pfronten-Steinach" ppth="Ehrwald Zugspitzbahn|Untergrainau|Garmisch-Partenkirchen Hausberg|Garmisch-Partenkirchen|Farchant|Oberau|Eschenlohe|Ohlstadt|Murnau|Uffing a Staffelsee|Huglfing"/>
+		<dp pt="2510031749" pp="1" l="60" ppth="Tutzing|München-Pasing|München Hbf Gl.27-36"/>
+	</s>
+	<s id="7585738635908651271-2510031604-11">
+		<tl f="N" t="p" o="800790" c="RB" n="5422"/>
+		<ar pt="2510031748" pp="1" l="6" wings="-4098926441499116097-2510031536" pde="Seefeld in Tirol" ppth="Mittenwald|Klais|Garmisch-Partenkirchen|Farchant|Oberau|Eschenlohe|Ohlstadt|Murnau|Uffing a Staffelsee|Huglfing"/>
+		<dp pt="2510031749" pp="1" l="6" wings="-4098926441499116097-2510031536" ppth="Tutzing|München-Pasing|München Hbf Gl.27-36"/>
+	</s>
+</timetable>
