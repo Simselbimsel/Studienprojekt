@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<timetable station="Passau Hbf">
+	<s id="4221091336841218203-2510110600-8">
+		<tl t="p" o="8013D" c="Bus" n="46207"/>
+		<ar pt="2510110702" pp="" l="RB46" ppth="Pocking|Ruhstorf|Sulzbach(Inn)|Engertsham|Bad Höhenstadt|Fürstenzell Aspertsham|Neukirchen(Inn)"/>
+	</s>
+	<s id="-4775919377312079274-2510101906-10">
+		<tl t="p" o="81" c="NJ" n="40425"/>
+		<ar pt="2510110743" pp="" hi="1" ppth="Bruxelles Midi|Bruxelles-Nord|Liège-Guillemins|Aachen Hbf|Köln-Ehrenfeld|Bonn Hbf|Koblenz Hbf|Mainz Hbf|Mannheim Hbf"/>
+		<dp pt="2510110745" pp="" hi="1" ppth="Linz Hbf|St.Pölten Hbf|Wien Meidling|Wien Hbf"/>
+	</s>
+	<s id="6629481759970504309-2510110511-16">
+		<tl t="p" o="81" c="R" n="5902"/>
+		<ar pt="2510110727" pp="2" l="50" pde="St. Valentin" ppth="Wels Hbf|Haiding|Bad Schallerbach-Wallern|Schlüßlberg|Grieskirchen-Gallspach|Obertrattnach-Markt Hofkirchen|Neumarkt-Kallham|Kimpling|Kumpfmühl|Riedau|Zell/Pram|Andorf|Taufkirchen an der Pram|Schärding|Wernstein"/>
+	</s>
+	<s id="5878629898609316029-2510110752-1">
+		<tl t="p" o="81" c="R" n="5911"/>
+		<dp pt="2510110752" pp="2" l="50" pde="Linz Hbf" ppth="Wernstein|Schärding|Taufkirchen an der Pram|Andorf|Zell/Pram|Riedau|Kumpfmühl|Kimpling|Neumarkt-Kallham|Obertrattnach-Markt Hofkirchen|Grieskirchen-Gallspach|Schlüßlberg|Bad Schallerbach-Wallern|Haiding|Wels Hbf"/>
+	</s>
+	<s id="-5573979147885518855-2510110732-1">
+		<tl f="D" t="p" o="I9" c="P" n="28046"/>
+		<dp pt="2510110732" pp="1a" ppth="Tiefenbach(b Passau)|Fischhaus|Kalteneck|Fürsteneck|Neuhausmühle|Röhrnbach|Waldkirchen(Niederbay.)|Freyung Bf"/>
+	</s>
+	<s id="2445748007328325452-2510101912-4">
+		<tl t="p" o="81" c="NJ" n="469"/>
+		<ar pt="2510110743" pp="" hi="1" wings="-4775919377312079274-2510101906" ppth="Paris Est|Strasbourg|Mannheim Hbf"/>
+		<dp pt="2510110745" pp="" hi="1" wings="-4775919377312079274-2510101906" ppth="Linz Hbf|St.Pölten Hbf|Wien Meidling|Wien Hbf"/>
+	</s>
+	<s id="-9017035741597530855-2510110706-1">
+		<tl f="N" t="p" o="800767" c="RE" n="63491"/>
+		<dp pt="2510110706" pp="5" l="3" ppth="Vilshofen(Niederbay)|Osterhofen(Nby)|Plattling|Wallersdorf|Landau(Isar)|Dingolfing|Wörth(Isar)"/>
+	</s>
+	<s id="1226320446344092497-2510110627-8">
+		<tl f="N" t="p" o="800767" c="RE" n="4054"/>
+		<ar pt="2510110742" pp="3" l="3" ppth="Wörth(Isar)|Dingolfing|Landau(Isar)|Wallersdorf|Plattling|Osterhofen(Nby)|Vilshofen(Niederbay)"/>
+	</s>
+</timetable>
