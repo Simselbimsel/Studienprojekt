@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<timetable station="Passau Hbf">
+	<s id="4267963665719370526-2510190616-1">
+		<tl f="N" t="p" o="800767" c="RE" n="63357"/>
+		<dp pt="2510190616" pp="1a" l="3" ppth="Vilshofen(Niederbay)|Osterhofen(Nby)|Plattling"/>
+	</s>
+	<s id="-4272298498907669914-2510181830-9">
+		<tl t="p" o="81" c="NJ" n="40421"/>
+		<ar pt="2510190613" pp="5" ppth="Amsterdam Centraal|Amersfoort Centraal|Deventer|Hannover Hbf|Kassel-Wilhelmshöhe|Würzburg Hbf|Nürnberg Hbf|Regensburg Hbf"/>
+		<dp pt="2510190615" pp="5" ppth="Wels Hbf|Linz Hbf|St.Pölten Hbf|Wien Meidling|Wien Hbf"/>
+	</s>
+	<s id="-2044723357159653206-2510181956-10">
+		<tl t="p" o="81" c="NJ" n="491"/>
+		<ar pt="2510190613" pp="5" wings="-4272298498907669914-2510181830" ppth="Hamburg-Altona|Hamburg Hbf|Hamburg-Harburg|Hannover Hbf|Göttingen|Kassel-Wilhelmshöhe|Würzburg Hbf|Nürnberg Hbf|Regensburg Hbf"/>
+		<dp pt="2510190615" pp="5" wings="-4272298498907669914-2510181830" ppth="Wels Hbf|Linz Hbf|St.Pölten Hbf|Wien Meidling|Wien Hbf"/>
+	</s>
+	<s id="-5768066386499837300-2510190650-1">
+		<tl t="p" o="81" c="R" n="5909"/>
+		<dp pt="2510190650" pp="3" l="50" pde="Linz Hbf" ppth="Wernstein|Schärding|Taufkirchen an der Pram|Andorf|Zell/Pram|Riedau|Kumpfmühl|Kimpling|Neumarkt-Kallham|Obertrattnach-Markt Hofkirchen|Grieskirchen-Gallspach|Schlüßlberg|Bad Schallerbach-Wallern|Haiding|Wels Hbf"/>
+	</s>
+</timetable>
