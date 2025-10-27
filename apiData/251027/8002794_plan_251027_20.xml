@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<timetable station="Hersbruck(r Pegnitz)">
+	<s id="4903915711738429223-2510272046-1">
+		<tl t="p" o="B7" c="Bus" n="58559"/>
+		<dp pt="2510272046" pp="" l="EV" ppth="Hohenstadt(Mittelfr)|Vorra(Pegnitz)|Rupprechtstegen|Velden(b Hersbruck)|Neuhaus(Pegnitz)|Pegnitz"/>
+	</s>
+	<s id="353068136717899726-2510272044-4">
+		<tl f="N" t="p" o="800759" c="RE" n="3582"/>
+		<ar pt="2510272058" pp="3" l="40" pde="Neustadt(Waldnaab)" ppth="Neukirchen(b Sulzb)|Etzelwang|Hartmannshof"/>
+		<dp pt="2510272059" pp="3" l="40" ppth="Nürnberg Hbf"/>
+	</s>
+	<s id="-3635035289852495462-2510272058-1">
+		<tl f="N" t="p" o="800759" c="RE" n="3483"/>
+		<dp pt="2510272058" pp="2" l="41" tra="-3001664824344938860-2510272037-2" ppth="Hartmannshof|Etzelwang|Neukirchen(b Sulzb)|Vilseck|Freihung|Weiherhammer|Weiden(Oberpf)|Altenstadt(Waldnaab)|Neustadt(Waldnaab)"/>
+	</s>
+	<s id="1233461425051690340-2510271905-7">
+		<tl t="p" o="B7" c="Bus" n="1032"/>
+		<ar pt="2510272014" pp="" l="EV" ppth="Pegnitz|Neuhaus(Pegnitz)|Velden(b Hersbruck)|Rupprechtstegen|Vorra(Pegnitz)|Hohenstadt(Mittelfr)"/>
+	</s>
+	<s id="-2834156515411004172-2510271944-4">
+		<tl f="N" t="p" o="800759" c="RE" n="3580"/>
+		<ar pt="2510271959" pp="3" l="40" pde="Neustadt(Waldnaab)" ppth="Neukirchen(b Sulzb)|Etzelwang|Hartmannshof"/>
+		<dp pt="2510272000" pp="3" l="40" ppth="Nürnberg Hbf"/>
+	</s>
+	<s id="3502828446067009715-2510272021-1">
+		<tl f="N" t="p" o="800720" c="RB" n="58546"/>
+		<dp pt="2510272021" pp="1" l="30" ppth="Reichenschwand|Neunkirchen a Sand|Lauf(rechts Pegnitz)|Ludwigshöhe|Rückersdorf(Mfr)|Behringersdorf|Nürnberg-Erlenstegen|Nürnberg Ost|Nürnberg Hbf"/>
+	</s>
+	<s id="2628463176121204314-2510272008-10">
+		<tl f="N" t="p" o="800720" c="RB" n="58559"/>
+		<ar pt="2510272042" pp="1" l="30" ppth="Nürnberg Hbf|Nürnberg Ost|Nürnberg-Erlenstegen|Behringersdorf|Rückersdorf(Mfr)|Ludwigshöhe|Lauf(rechts Pegnitz)|Neunkirchen a Sand|Reichenschwand"/>
+	</s>
+	<s id="-3001664824344938860-2510272037-2">
+		<tl f="N" t="p" o="800759" c="RE" n="57877"/>
+		<ar pt="2510272052" pp="" l="41" tra="-3635035289852495462-2510272058-1" ppth="Nürnberg Hbf"/>
+	</s>
+</timetable>
