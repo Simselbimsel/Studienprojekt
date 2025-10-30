@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<timetable station="Mering-St Afra">
+	<s id="71897037107857983-2510300531-7">
+		<tl f="D" t="p" o="Y8" c="BRB" n="28800"/>
+		<ar pt="2510300554" pp="3" l="RB67" ppth="Geltendorf|Walleshausen|Egling|Schmiechen(Schwab)|Merching|Mering"/>
+		<dp pt="2510300554" pp="3" l="RB67" ppth="Kissing|Augsburg-Hochzoll|Augsburg Haunstetterstraße|Augsburg Hbf"/>
+	</s>
+	<s id="-7072675174493931063-2510300519-2">
+		<tl f="D" t="p" o="Y8" c="BRB" n="86500"/>
+		<ar pt="2510300522" pp="3" l="RB67" ppth="Mering"/>
+		<dp pt="2510300522" pp="3" l="RB67" ppth="Kissing|Augsburg-Hochzoll|Augsburg Haunstetterstraße|Augsburg Hbf|Augsburg-Oberhausen|Neusäß|Westheim(Schwab)|Diedorf(Schwab)|Gessertshausen"/>
+	</s>
+	<s id="1261775079518102950-2510300444-8">
+		<tl f="N" t="p" o="GYRB" c="RB" n="57105"/>
+		<ar pt="2510300514" pp="4" l="87" ppth="Gablingen|Gersthofen|Augsburg-Oberhausen|Augsburg Hbf|Augsburg Haunstetterstraße|Augsburg-Hochzoll|Kissing"/>
+		<dp pt="2510300515" pp="4" l="87" ppth="Mering|Althegnenberg|Haspelmoor|Mammendorf|München-Pasing|München Hbf"/>
+	</s>
+	<s id="4061735120889363778-2510300502-12">
+		<tl f="N" t="p" o="GYRB" c="RB" n="57107"/>
+		<ar pt="2510300546" pp="4" l="86" ppth="Dinkelscherben|Kutzenhausen|Gessertshausen|Diedorf(Schwab)|Westheim(Schwab)|Neusäß|Augsburg-Oberhausen|Augsburg Hbf|Augsburg Haunstetterstraße|Augsburg-Hochzoll|Kissing"/>
+		<dp pt="2510300547" pp="4" l="86" ppth="Mering|München-Pasing|München Hbf"/>
+	</s>
+	<s id="-1654272298271554824-2510300511-8">
+		<tl f="N" t="p" o="GYRB" c="RB" n="57007"/>
+		<ar pt="2510300546" pp="4" l="87" wings="4061735120889363778-2510300502" ppth="Gablingen|Gersthofen|Augsburg-Oberhausen|Augsburg Hbf|Augsburg Haunstetterstraße|Augsburg-Hochzoll|Kissing"/>
+		<dp pt="2510300547" pp="4" l="87" wings="4061735120889363778-2510300502" ppth="Mering|München-Pasing|München Hbf"/>
+	</s>
+	<s id="-2394412459609983872-2510300536-6">
+		<tl f="D" t="p" o="Y8" c="BRB" n="28803"/>
+		<ar pt="2510300557" pp="4" l="RB67" ppth="Augsburg-Oberhausen|Augsburg Hbf|Augsburg Haunstetterstraße|Augsburg-Hochzoll|Kissing"/>
+		<dp pt="2510300558" pp="4" l="RB67" ppth="Mering|Merching|Schmiechen(Schwab)|Egling|Walleshausen|Geltendorf"/>
+	</s>
+	<s id="-4818673389474582712-2510300425-12">
+		<tl f="N" t="p" o="GYRB" c="RB" n="57005"/>
+		<ar pt="2510300514" pp="4" l="86" wings="1261775079518102950-2510300444" ppth="Dinkelscherben|Kutzenhausen|Gessertshausen|Diedorf(Schwab)|Westheim(Schwab)|Neusäß|Augsburg-Oberhausen|Augsburg Hbf|Augsburg Haunstetterstraße|Augsburg-Hochzoll|Kissing"/>
+		<dp pt="2510300515" pp="4" l="86" wings="1261775079518102950-2510300444" ppth="Mering|Althegnenberg|Haspelmoor|Mammendorf|München-Pasing|München Hbf"/>
+	</s>
+</timetable>
