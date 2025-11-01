@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<timetable station="Mittenwald">
+	<s id="-5886273726398291880-2511010938-13">
+		<tl f="N" t="p" o="800790" c="RB" n="5415"/>
+		<ar pt="2511011123" pp="1" l="6" tra="193229699442363197-2511010938-1" ppth="München-Pasing|Tutzing|Weilheim(Oberbay)|Huglfing|Uffing a Staffelsee|Murnau|Ohlstadt|Eschenlohe|Oberau|Farchant|Garmisch-Partenkirchen|Klais"/>
+	</s>
+	<s id="8075695920928360346-2511011038-12">
+		<tl f="S" t="p" o="81" c="S" n="5412"/>
+		<ar pt="2511011135" pp="3" l="6" ppth="Innsbruck Hbf|Innsbruck Westbahnhof|Innsbruck Hötting|Allerheiligenhöfe|Kranebitten|Hochzirl|Leithen b.Seefeld|Reith b.Seefeld|Seefeld in Tirol|Gießenbach in Tirol|Scharnitz"/>
+		<dp pt="2511011136" pp="3" l="6" ppth="Klais|Garmisch-Partenkirchen"/>
+	</s>
+	<s id="193229699442363197-2511010938-1">
+		<tl f="S" t="p" o="800790" c="S" n="5415"/>
+		<dp pt="2511011136" pp="1" l="6" tra="-5886273726398291880-2511010938-13" ppth="Scharnitz|Gießenbach in Tirol|Seefeld in Tirol"/>
+	</s>
+	<s id="-3983398794259337464-2511011018-3">
+		<tl f="F" t="p" o="81" c="ICE" n="1206"/>
+		<ar pt="2511011122" pp="3" ppth="Innsbruck Hbf|Seefeld in Tirol"/>
+		<dp pt="2511011127" pp="3" ppth="Garmisch-Partenkirchen|Murnau|Weilheim(Oberbay)|Tutzing|München Hbf|Nürnberg Hbf|Würzburg Hbf|Fulda|Kassel-Wilhelmshöhe|Göttingen|Hannover Hbf|Celle|Uelzen|Lüneburg|Hamburg-Harburg|Hamburg Hbf|Hamburg-Altona"/>
+	</s>
+</timetable>
