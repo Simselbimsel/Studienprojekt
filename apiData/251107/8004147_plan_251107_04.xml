@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<timetable station="München-Feldmoching">
+	<s id="-3377530909710621567-2511070434-8">
+		<tl f="S" t="p" o="800725" c="S" n="6915"/>
+		<ar pt="2511070458" pp="1" l="1" ppth="Freising|Pulling(b Freising)|Neufahrn(b Freising)|Eching|Lohhof|Unterschleißheim|Oberschleißheim"/>
+		<dp pt="2511070459" pp="1" l="1" ppth="München-Fasanerie|München-Moosach"/>
+	</s>
+	<s id="6394883873034534751-2511070436-3">
+		<tl f="S" t="p" o="800725" c="S" n="6906"/>
+		<ar pt="2511070440" pp="3" l="1" ppth="München-Moosach|München-Fasanerie"/>
+		<dp pt="2511070441" pp="3" l="1" ppth="Oberschleißheim|Unterschleißheim|Lohhof|Eching|Neufahrn(b Freising)|München Flughafen Besucherpark|München Flughafen Terminal"/>
+	</s>
+	<s id="-7284645759343213243-2511070436-3">
+		<tl f="S" t="p" o="800725" c="S" n="6106"/>
+		<ar pt="2511070440" pp="3" l="1" wings="6394883873034534751-2511070436" ppth="München-Moosach|München-Fasanerie"/>
+		<dp pt="2511070441" pp="3" l="1" wings="6394883873034534751-2511070436" ppth="Oberschleißheim|Unterschleißheim|Lohhof|Eching|Neufahrn(b Freising)|Pulling(b Freising)|Freising"/>
+	</s>
+	<s id="-8433091555863870291-2511070356-3">
+		<tl f="S" t="p" o="800725" c="S" n="6902"/>
+		<ar pt="2511070400" pp="3" l="1" ppth="München-Moosach|München-Fasanerie"/>
+		<dp pt="2511070401" pp="3" l="1" ppth="Oberschleißheim|Unterschleißheim|Lohhof|Eching|Neufahrn(b Freising)|München Flughafen Besucherpark|München Flughafen Terminal"/>
+	</s>
+</timetable>
