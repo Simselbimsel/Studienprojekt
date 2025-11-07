@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<timetable station="Ohlstadt">
+	<s id="4849203187736792256-2511071133-8">
+		<tl f="N" t="p" o="800790" c="RB" n="5515"/>
+		<ar pt="2511071324" pp="1" l="60" pde="Pfronten-Steinach" ppth="Ehrwald Zugspitzbahn|Untergrainau|Garmisch-Partenkirchen Hausberg|Garmisch-Partenkirchen|Farchant|Oberau|Eschenlohe"/>
+		<dp pt="2511071325" pp="1" l="60" ppth="Murnau"/>
+	</s>
+	<s id="3787643707338127945-2511071328-2">
+		<tl f="N" t="p" o="800790" c="RB" n="5518"/>
+		<ar pt="2511071333" pp="1" l="60" ppth="Murnau"/>
+		<dp pt="2511071334" pp="1" l="60" pde="Pfronten-Steinach" ppth="Eschenlohe|Oberau|Farchant|Garmisch-Partenkirchen|Garmisch-Partenkirchen Hausberg|Untergrainau|Griesen(Oberbay)|Ehrwald Zugspitzbahn"/>
+	</s>
+	<s id="-5384877989023942908-2511071236-7">
+		<tl f="N" t="p" o="800790" c="RB" n="5414"/>
+		<ar pt="2511071324" pp="1" l="6" wings="4849203187736792256-2511071133" ppth="Mittenwald|Klais|Garmisch-Partenkirchen|Farchant|Oberau|Eschenlohe"/>
+		<dp pt="2511071325" pp="1" l="6" wings="4849203187736792256-2511071133" ppth="Murnau"/>
+	</s>
+	<s id="-3908904702164935034-2511071328-2">
+		<tl f="N" t="p" o="800790" c="RB" n="5421"/>
+		<ar pt="2511071333" pp="1" l="6" wings="3787643707338127945-2511071328" ppth="Murnau"/>
+		<dp pt="2511071334" pp="1" l="6" wings="3787643707338127945-2511071328" pde="Innsbruck Hbf" ppth="Eschenlohe|Oberau|Farchant|Garmisch-Partenkirchen|Klais|Mittenwald|Scharnitz"/>
+	</s>
+</timetable>
