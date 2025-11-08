@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<timetable station="Farchant">
+	<s id="-8985617272570929870-2511080801-6">
+		<tl f="N" t="p" o="800790" c="RB" n="5509"/>
+		<ar pt="2511080908" pp="1" l="60" pde="Reutte in Tirol" ppth="Ehrwald Zugspitzbahn|Griesen(Oberbay)|Untergrainau|Garmisch-Partenkirchen Hausberg|Garmisch-Partenkirchen"/>
+		<dp pt="2511080909" pp="1" l="60" ppth="Oberau|Eschenlohe|Ohlstadt|Murnau"/>
+	</s>
+	<s id="3408073723919710840-2511080928-5">
+		<tl f="N" t="p" o="800790" c="RB" n="5512"/>
+		<ar pt="2511080947" pp="1" l="60" ppth="Murnau|Ohlstadt|Eschenlohe|Oberau"/>
+		<dp pt="2511080948" pp="1" l="60" pde="Pfronten-Steinach" ppth="Garmisch-Partenkirchen|Garmisch-Partenkirchen Hausberg|Untergrainau|Griesen(Oberbay)|Ehrwald Zugspitzbahn"/>
+	</s>
+	<s id="-8283154855836768035-2511080928-5">
+		<tl f="N" t="p" o="800790" c="RB" n="5413"/>
+		<ar pt="2511080947" pp="1" l="6" wings="3408073723919710840-2511080928" ppth="Murnau|Ohlstadt|Eschenlohe|Oberau"/>
+		<dp pt="2511080948" pp="1" l="6" wings="3408073723919710840-2511080928" pde="Innsbruck Hbf" ppth="Garmisch-Partenkirchen|Klais|Mittenwald"/>
+	</s>
+	<s id="-2941573636396949337-2511080836-4">
+		<tl f="N" t="p" o="800790" c="RB" n="59472"/>
+		<ar pt="2511080908" pp="1" l="6" wings="-8985617272570929870-2511080801" ppth="Mittenwald|Klais|Garmisch-Partenkirchen"/>
+		<dp pt="2511080909" pp="1" l="6" wings="-8985617272570929870-2511080801" ppth="Oberau|Eschenlohe|Ohlstadt|Murnau"/>
+	</s>
+</timetable>
