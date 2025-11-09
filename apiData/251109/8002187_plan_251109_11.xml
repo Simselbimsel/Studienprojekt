@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<timetable station="Garmisch-Partenkirchen">
+	<s id="-6160319820039217204-2511091025-5">
+		<tl f="N" t="p" o="800790" c="RB" n="5537"/>
+		<ar pt="2511091059" pp="4" l="60" pde="Lermoos" ppth="Ehrwald Zugspitzbahn|Griesen(Oberbay)|Untergrainau|Garmisch-Partenkirchen Hausberg"/>
+		<dp pt="2511091107" pp="4" l="60" ppth="Farchant|Oberau|Eschenlohe|Ohlstadt|Murnau"/>
+	</s>
+	<s id="688673520922509221-2511091036-5">
+		<tl f="N" t="p" o="800790" c="RB" n="5513"/>
+		<ar pt="2511091157" pp="4" l="60" pde="Pfronten-Steinach" ppth="Ehrwald Zugspitzbahn|Griesen(Oberbay)|Untergrainau|Garmisch-Partenkirchen Hausberg"/>
+	</s>
+	<s id="4716507531457658866-2511091128-6">
+		<tl f="N" t="p" o="800790" c="RB" n="59473"/>
+		<ar pt="2511091154" pp="3" l="60" ppth="Murnau|Ohlstadt|Eschenlohe|Oberau|Farchant"/>
+	</s>
+	<s id="8075695920928360346-2511091038-14">
+		<tl f="S" t="p" o="81" c="S" n="5412"/>
+		<ar pt="2511091157" pp="2" l="6" ppth="Innsbruck Hbf|Innsbruck Westbahnhof|Innsbruck Hötting|Allerheiligenhöfe|Kranebitten|Hochzirl|Leithen b.Seefeld|Reith b.Seefeld|Seefeld in Tirol|Gießenbach in Tirol|Scharnitz|Mittenwald|Klais"/>
+	</s>
+	<s id="-497653425318978494-2511091004-3">
+		<tl f="N" t="p" o="800790" c="RB" n="5410"/>
+		<ar pt="2511091057" pp="4" l="6" pde="Seefeld in Tirol" ppth="Mittenwald|Klais"/>
+		<dp pt="2511091107" pp="4" l="6" wings="-6160319820039217204-2511091025" ppth="Farchant|Oberau|Eschenlohe|Ohlstadt|Murnau"/>
+	</s>
+	<s id="-8645480986679754913-2511091028-6">
+		<tl f="N" t="p" o="800790" c="RB" n="5538"/>
+		<ar pt="2511091055" pp="3" l="60" ppth="Murnau|Ohlstadt|Eschenlohe|Oberau|Farchant"/>
+		<dp pt="2511091104" pp="3" l="60" pde="Pfronten-Steinach" ppth="Garmisch-Partenkirchen Hausberg|Untergrainau|Ehrwald Zugspitzbahn"/>
+	</s>
+	<s id="598543835743893377-2511091028-6">
+		<tl f="N" t="p" o="800790" c="RB" n="5415"/>
+		<ar pt="2511091055" pp="3" l="6" wings="-8645480986679754913-2511091028" ppth="Murnau|Ohlstadt|Eschenlohe|Oberau|Farchant"/>
+		<dp pt="2511091102" pp="3" l="6" pde="Seefeld in Tirol" ppth="Klais|Mittenwald"/>
+	</s>
+</timetable>
