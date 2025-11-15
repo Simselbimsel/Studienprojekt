@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<timetable station="Neukirchen(b Sulzb)">
+	<s id="1951254267361121197-2511150900-3">
+		<tl t="p" o="B7" c="Bus" n="3560"/>
+		<ar pt="2511150936" pp="" l="EV" ppth="Amberg|Sulzbach-Rosenberg"/>
+	</s>
+	<s id="-6889903246242589763-2511150843-5">
+		<tl f="N" t="p" o="800759" c="RE" n="3459"/>
+		<ar pt="2511150913" pp="3" l="41" ppth="Nürnberg Hbf|Hersbruck(r Pegnitz)|Hartmannshof|Etzelwang"/>
+		<dp pt="2511150916" pp="3" l="41" ppth="Vilseck|Freihung|Weiherhammer|Weiden(Oberpf)|Altenstadt(Waldnaab)|Neustadt(Waldnaab)"/>
+	</s>
+	<s id="-4323869309280443515-2511150856-7">
+		<tl f="N" t="p" o="800759" c="RE" n="3460"/>
+		<ar pt="2511150941" pp="2" l="41" tra="-6076707772795196169-2511150944-1" ppth="Neustadt(Waldnaab)|Altenstadt(Waldnaab)|Weiden(Oberpf)|Weiherhammer|Freihung|Vilseck"/>
+	</s>
+	<s id="5656310254854064609-2511150920-1">
+		<tl t="p" o="B7" c="Bus" n="3559"/>
+		<dp pt="2511150920" pp="" l="EV" ppth="Sulzbach-Rosenberg|Amberg"/>
+	</s>
+	<s id="-6076707772795196169-2511150944-1">
+		<tl f="N" t="p" o="800759" c="RE" n="3560"/>
+		<dp pt="2511150944" pp="2" l="40" tra="-4323869309280443515-2511150856-7" ppth="Etzelwang|Hartmannshof|Hersbruck(r Pegnitz)|Nürnberg Hbf"/>
+	</s>
+</timetable>
