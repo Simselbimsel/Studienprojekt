@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<timetable station="München Hbf Gl.5-10">
+	<s id="-6787252959983318285-2511151530-1">
+		<tl f="D" t="p" o="3236" c="WB" n="967"/>
+		<dp pt="2511151530" pp="23" ppth="Passau Hbf|Wels Hbf|Linz Hbf|Amstetten NÖ|St.Pölten Hbf|Wien Hütteldorf|Wien Westbahnhof"/>
+	</s>
+	<s id="7561757803291504796-2511151402-10">
+		<tl f="D" t="p" o="M8" c="BRB" n="79078"/>
+		<ar pt="2511151531" pp="10" l="RB54" ppth="Kufstein|Kiefersfelden|Oberaudorf|Flintsbach|Brannenburg|Raubling|Rosenheim|Grafing Bahnhof|München Ost"/>
+	</s>
+	<s id="2855812262651092904-2511151414-5">
+		<tl f="D" t="p" o="M8" c="BRB" n="63576"/>
+		<ar pt="2511151531" pp="" l="RE5" wings="7561757803291504796-2511151402" ppth="Bad Endorf|Rosenheim|Grafing Bahnhof|München Ost"/>
+	</s>
+	<s id="2449922131819107820-2511151527-1">
+		<tl f="D" t="p" o="M8" c="BRB" n="63577"/>
+		<dp pt="2511151527" pp="" l="RE5" wings="7266033375948408451-2511151527" ppth="Rosenheim|Bad Endorf"/>
+	</s>
+	<s id="7266033375948408451-2511151527-1">
+		<tl f="D" t="p" o="M8" c="BRB" n="79075"/>
+		<dp pt="2511151527" pp="10" l="RB54" ppth="Rosenheim|Raubling|Brannenburg|Flintsbach|Oberaudorf|Kiefersfelden|Kufstein"/>
+	</s>
+</timetable>
