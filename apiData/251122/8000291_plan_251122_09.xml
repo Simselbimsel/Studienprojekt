@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<timetable station="Oldenburg(Oldb)Hbf">
+	<s id="641427483870099438-2511220949-1">
+		<tl f="D" t="p" o="N1" c="NWB" n="83361"/>
+		<dp pt="2511220949" pp="5" l="RS3" ppth="Wüsting|Hude"/>
+	</s>
+	<s id="-1836607832973937282-2511220914-3">
+		<tl t="p" o="NWBus" c="Bus" n="53325"/>
+		<ar pt="2511220949" pp="" l="EV" ppth="Bad Zwischenahn|Oldenburg-Wechloy"/>
+		<dp pt="2511220949" pp="" l="EV" ppth="Hude|Delmenhorst|Hauptbahnhof/Hugo-Schauinsland-Platz, Bremen"/>
+	</s>
+	<s id="-3139446531314560878-2511220933-1">
+		<tl f="N" t="p" o="800295" c="RE" n="13976"/>
+		<dp pt="2511220933" pp="6" l="1" ppth="Bad Zwischenahn|Westerstede-Ocholt|Augustfehn|Leer(Ostfriesl)|Emden Hbf|Marienhafe|Norden|Norddeich|Norddeich Mole"/>
+	</s>
+	<s id="5508509357922855770-2511220840-6">
+		<tl f="D" t="p" o="N1" c="NWB" n="75308"/>
+		<ar pt="2511220924" pp="8" l="RE18" ppth="Wilhelmshaven|Sande|Varel(Oldb)|Jaderberg|Rastede"/>
+		<dp pt="2511220929" pp="8" l="RE18" ppth="Sandkrug|Huntlosen|Großenkneten|Ahlhorn|Cloppenburg|Essen(Oldb)|Quakenbrück|Bersenbrück|Bramsche|Osnabrück Altstadt|Osnabrück Hbf"/>
+	</s>
+	<s id="4616564882545328985-2511220736-10">
+		<tl f="N" t="p" o="NZ" c="RE" n="52037"/>
+		<ar pt="2511220923" pp="1" l="56" ppth="Norddeich Mole|Norddeich|Norden|Marienhafe|Emden Hbf|Leer(Ostfriesl)|Augustfehn|Westerstede-Ocholt|Bad Zwischenahn"/>
+	</s>
+	<s id="646454453075559815-2511220736-10">
+		<tl f="F" t="p" o="80" c="IC" n="2527"/>
+		<ar pt="2511220923" pp="1" wings="4616564882545328985-2511220736" ppth="Norddeich Mole|Norddeich|Norden|Marienhafe|Emden Hbf|Leer(Ostfriesl)|Augustfehn|Westerstede-Ocholt|Bad Zwischenahn"/>
+	</s>
+	<s id="532531641891756587-2511220856-3">
+		<tl f="D" t="p" o="N1" c="NWB" n="83356"/>
+		<ar pt="2511220909" pp="5" l="RS3" ppth="Hude|Wüsting"/>
+	</s>
+	<s id="-5674608372076597522-2511220741-4">
+		<tl t="p" o="NWBus" c="Bus" n="53320"/>
+		<ar pt="2511220907" pp="" l="EV" ppth="Hauptbahnhof/Hugo-Schauinsland-Platz, Bremen|Delmenhorst|Hude"/>
+		<dp pt="2511220907" pp="" l="EV" ppth="Oldenburg-Wechloy|Bad Zwischenahn"/>
+	</s>
+	<s id="-1656301823327048351-2511220801-12">
+		<tl f="D" t="p" o="N1" c="NWB" n="75309"/>
+		<ar pt="2511220929" pp="5" l="RE18" ppth="Osnabrück Hbf|Osnabrück Altstadt|Bramsche|Bersenbrück|Quakenbrück|Essen(Oldb)|Cloppenburg|Ahlhorn|Großenkneten|Huntlosen|Sandkrug"/>
+		<dp pt="2511220936" pp="5" l="RE18" ppth="Rastede|Jaderberg|Varel(Oldb)|Sande|Wilhelmshaven"/>
+	</s>
+</timetable>
