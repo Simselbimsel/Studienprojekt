@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<timetable station="Murnau">
+	<s id="-9215185860134909394-2511231218-5">
+		<tl f="F" t="p" o="81" c="ICE" n="1204"/>
+		<ar pt="2511231421" pp="1" ppth="Innsbruck Hbf|Seefeld in Tirol|Mittenwald|Garmisch-Partenkirchen"/>
+		<dp pt="2511231427" pp="1" ppth="Weilheim(Oberbay)|Tutzing|München Hbf|Nürnberg Hbf|Würzburg Hbf|Fulda|Kassel-Wilhelmshöhe|Göttingen|Hannover Hbf|Celle|Uelzen|Lüneburg|Hamburg-Harburg|Hamburg Hbf|Hamburg Dammtor|Hamburg-Altona"/>
+	</s>
+	<s id="-5886321672783343903-2511231329-10">
+		<tl f="N" t="p" o="800790" c="RB" n="59570"/>
+		<ar pt="2511231411" pp="4" l="63" ppth="Oberammergau|Unterammergau|Altenau(Bay)|Saulgrub|Bad Kohlgrub Kurhaus|Bad Kohlgrub|Grafenaschau|Seeleiten-Berggeist|Murnau Ort"/>
+	</s>
+	<s id="3247819199918025268-2511231332-7">
+		<tl f="N" t="p" o="800790" c="RB" n="5520"/>
+		<ar pt="2511231426" pp="3" l="60" ppth="München Hbf Gl.27-36|München-Pasing|Tutzing|Weilheim(Oberbay)|Huglfing|Uffing a Staffelsee"/>
+		<dp pt="2511231428" pp="3" l="60" pde="Pfronten-Steinach" ppth="Ohlstadt|Eschenlohe|Oberau|Farchant|Garmisch-Partenkirchen|Garmisch-Partenkirchen Hausberg|Untergrainau|Ehrwald Zugspitzbahn"/>
+	</s>
+	<s id="2571996670752321400-2511231236-9">
+		<tl f="N" t="p" o="800790" c="RB" n="5519"/>
+		<ar pt="2511231431" pp="1" l="60" pde="Pfronten-Steinach" ppth="Ehrwald Zugspitzbahn|Untergrainau|Garmisch-Partenkirchen Hausberg|Garmisch-Partenkirchen|Farchant|Oberau|Eschenlohe|Ohlstadt"/>
+		<dp pt="2511231432" pp="1" l="60" ppth="Uffing a Staffelsee|Huglfing|Weilheim(Oberbay)|Tutzing|München-Pasing|München Hbf Gl.27-36"/>
+	</s>
+	<s id="-7588649032342571333-2511231332-7">
+		<tl f="N" t="p" o="800790" c="RB" n="5423"/>
+		<ar pt="2511231426" pp="3" l="6" wings="3247819199918025268-2511231332" ppth="München Hbf Gl.27-36|München-Pasing|Tutzing|Weilheim(Oberbay)|Huglfing|Uffing a Staffelsee"/>
+		<dp pt="2511231428" pp="3" l="6" wings="3247819199918025268-2511231332" pde="Seefeld in Tirol" ppth="Ohlstadt|Eschenlohe|Oberau|Farchant|Garmisch-Partenkirchen|Klais|Mittenwald"/>
+	</s>
+	<s id="-3003596633131441398-2511231442-1">
+		<tl f="N" t="p" o="800790" c="RB" n="59573"/>
+		<dp pt="2511231442" pp="4" l="63" ppth="Murnau Ort|Seeleiten-Berggeist|Grafenaschau|Bad Kohlgrub|Bad Kohlgrub Kurhaus|Saulgrub|Altenau(Bay)|Unterammergau|Oberammergau"/>
+	</s>
+	<s id="-893224250150370367-2511231238-8">
+		<tl f="N" t="p" o="81" c="RB" n="5416"/>
+		<ar pt="2511231431" pp="1" l="6" wings="2571996670752321400-2511231236" pde="Innsbruck Hbf" ppth="Mittenwald|Klais|Garmisch-Partenkirchen|Farchant|Oberau|Eschenlohe|Ohlstadt"/>
+		<dp pt="2511231432" pp="1" l="6" wings="2571996670752321400-2511231236" ppth="Uffing a Staffelsee|Huglfing|Weilheim(Oberbay)|Tutzing|München-Pasing|München Hbf Gl.27-36"/>
+	</s>
+</timetable>
