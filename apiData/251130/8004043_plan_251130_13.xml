@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<timetable station="Mittenwald">
+	<s id="-340191898710301252-2511301238-12">
+		<tl f="S" t="p" o="81" c="S" n="5416"/>
+		<ar pt="2511301335" pp="3" l="6" fb="S 6" tra="-893224250150370367-2511301238-1" ppth="Innsbruck Hbf|Innsbruck Westbahnhof|Innsbruck Hötting|Allerheiligenhöfe|Kranebitten|Hochzirl|Leithen b.Seefeld|Reith b.Seefeld|Seefeld in Tirol|Gießenbach in Tirol|Scharnitz"/>
+	</s>
+	<s id="-893224250150370367-2511301238-1">
+		<tl f="N" t="p" o="81" c="RB" n="5416"/>
+		<dp pt="2511301336" pp="3" l="6" fb="RB 6" tra="-340191898710301252-2511301238-12" ppth="Klais|Garmisch-Partenkirchen|Farchant|Oberau|Eschenlohe|Ohlstadt|Murnau|Uffing a Staffelsee|Huglfing|Weilheim(Oberbay)|Tutzing|München-Pasing|München Hbf Gl.27-36"/>
+	</s>
+	<s id="-9215185860134909394-2511301218-3">
+		<tl f="F" t="p" o="81" c="ICE" n="1204"/>
+		<ar pt="2511301322" pp="3" fb="ICE 1204" ppth="Innsbruck Hbf|Seefeld in Tirol"/>
+		<dp pt="2511301326" pp="3" fb="ICE 1204" ppth="Garmisch-Partenkirchen|Murnau|Weilheim(Oberbay)|Tutzing|München Hbf|Nürnberg Hbf|Würzburg Hbf|Fulda|Kassel-Wilhelmshöhe|Göttingen|Hannover Hbf|Celle|Uelzen|Lüneburg|Hamburg-Harburg|Hamburg Hbf|Hamburg Dammtor|Hamburg-Altona"/>
+	</s>
+	<s id="-2504477907043072015-2511301132-1">
+		<tl f="S" t="p" o="800790" c="S" n="5419"/>
+		<dp pt="2511301336" pp="1" l="6" fb="S 6" tra="326449174656110112-2511301132-14" ppth="Scharnitz|Gießenbach in Tirol|Seefeld in Tirol"/>
+	</s>
+	<s id="326449174656110112-2511301132-14">
+		<tl f="N" t="p" o="800790" c="RB" n="5419"/>
+		<ar pt="2511301323" pp="1" l="6" fb="RB 6" tra="-2504477907043072015-2511301132-1" ppth="München Hbf Gl.27-36|München-Pasing|Tutzing|Weilheim(Oberbay)|Huglfing|Uffing a Staffelsee|Murnau|Ohlstadt|Eschenlohe|Oberau|Farchant|Garmisch-Partenkirchen|Klais"/>
+	</s>
+</timetable>
