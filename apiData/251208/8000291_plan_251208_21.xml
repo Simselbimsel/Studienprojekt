@@ -1,0 +1,56 @@
+<?xml version="1.0" ?>
+<timetable station="Oldenburg(Oldb)Hbf">
+	<s id="8412415069217566334-2512082133-1">
+		<tl f="N" t="p" o="800295" c="RE" n="13970"/>
+		<dp pt="2512082133" pp="" l="1" fb="RE 1" ppth="Bad Zwischenahn|Westerstede-Ocholt|Augustfehn|Leer(Ostfriesl)|Emden Hbf|Marienhafe|Norden|Norddeich"/>
+	</s>
+	<s id="2714890087868745503-2512082052-2">
+		<tl t="p" o="NWBus" c="Bus" n="53344"/>
+		<ar pt="2512082123" pp="" l="EV" fb="Bus EV" ppth="Hude"/>
+	</s>
+	<s id="829275977668762710-2512082122-1">
+		<tl t="p" o="NWBus" c="Bus" n="53385"/>
+		<dp pt="2512082122" pp="" l="EV" fb="Bus EV" ppth="Wüsting|Hude"/>
+	</s>
+	<s id="1340024229655918830-2512082106-3">
+		<tl t="p" o="NWBus" c="Bus" n="53380"/>
+		<ar pt="2512082139" pp="" l="EV" fb="Bus EV" ppth="Hude|Wüsting"/>
+	</s>
+	<s id="413066701960411287-2512082105-1">
+		<tl t="p" o="NWBus" c="Bus" n="35332"/>
+		<dp pt="2512082105" pp="" l="RE18" fb="Bus RE18" ppth="Sandkrug"/>
+	</s>
+	<s id="-9180293226038071095-2512082129-2">
+		<tl t="p" o="NWBus" c="Bus" n="35333"/>
+		<ar pt="2512082151" pp="" l="RE18" fb="Bus RE18" ppth="Sandkrug"/>
+	</s>
+	<s id="-4238186818708706967-2512082158-1">
+		<tl f="D" t="p" o="N1" c="NWB" n="56934"/>
+		<dp pt="2512082158" pp="6" l="RS3" fb="NWB RS3" ppth="Oldenburg-Wechloy|Bad Zwischenahn"/>
+	</s>
+	<s id="6398522561869992201-2512082145-3">
+		<tl f="D" t="p" o="N1" c="NWB" n="56933"/>
+		<ar pt="2512082157" pp="" l="RS30" fb="NWB RS30" ppth="Bad Zwischenahn|Oldenburg-Wechloy"/>
+	</s>
+	<s id="-2905302203417864390-2512082136-1">
+		<tl f="D" t="p" o="N1" c="NWB" n="75333"/>
+		<dp pt="2512082136" pp="6" l="RE18" fb="NWB RE18" ppth="Rastede|Jaderberg|Varel(Oldb)|Sande|Wilhelmshaven"/>
+	</s>
+	<s id="-6456236842039559522-2512082016-6">
+		<tl f="N" t="p" o="NZ" c="RE" n="52439"/>
+		<ar pt="2512082123" pp="1" l="56" fb="RE 56" ppth="Emden Hbf|Leer(Ostfriesl)|Augustfehn|Westerstede-Ocholt|Bad Zwischenahn"/>
+	</s>
+	<s id="-1789892874948025171-2512082016-6">
+		<tl f="F" t="p" o="80" c="IC" n="2439"/>
+		<ar pt="2512082123" pp="1" fb="IC 2439" wings="-6456236842039559522-2512082016" ppth="Emden Hbf|Leer(Ostfriesl)|Augustfehn|Westerstede-Ocholt|Bad Zwischenahn"/>
+	</s>
+	<s id="5577214607985496905-2512082040-6">
+		<tl f="D" t="p" o="N1" c="NWB" n="52970"/>
+		<ar pt="2512082124" pp="" l="RE18" fb="NWB RE18" ppth="Wilhelmshaven|Sande|Varel(Oldb)|Jaderberg|Rastede"/>
+	</s>
+	<s id="-284686805979059546-2512082145-3">
+		<tl f="D" t="p" o="N1" c="NWB" n="83385"/>
+		<ar pt="2512082157" pp="1" l="RS3" fb="NWB RS3" ppth="Bad Zwischenahn|Oldenburg-Wechloy"/>
+		<dp pt="2512082205" pp="1" l="RS3" fb="NWB RS3" ppth="Wüsting|Hude|Bookholzberg|Schierbrok|Hoykenkamp|Delmenhorst|Heidkrug|Bremen Neustadt|Bremen Hbf"/>
+	</s>
+</timetable>
