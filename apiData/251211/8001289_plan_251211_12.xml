@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<timetable station="Burgkunstadt">
+	<s id="-8060402662951488823-2512111128-12">
+		<tl f="D" t="p" o="A9" c="ag" n="84610"/>
+		<ar pt="2512111211" pp="1" l="RB24" fb="ag RB24" ppth="Bayreuth Hbf|Bindlach|Ramsenthal|Harsdorf|Trebgast|Neuenmarkt-Wirsberg|Ludwigschorgast|Untersteinach(b Stadtsteinach)|Kulmbach|Mainleus|Mainroth"/>
+		<dp pt="2512111211" pp="1" l="RB24" fb="ag RB24" ppth="Hochstadt-Marktzeuln|Lichtenfels|Schney|Ebersdorf(b Coburg)|Grub am Forst|Creidlitz|Coburg"/>
+	</s>
+	<s id="-7015894963120083739-2512111202-8">
+		<tl f="D" t="p" o="A9" c="ag" n="84603"/>
+		<ar pt="2512111237" pp="2" l="RB24" fb="ag RB24" ppth="Coburg|Creidlitz|Grub am Forst|Ebersdorf(b Coburg)|Schney|Lichtenfels|Hochstadt-Marktzeuln"/>
+		<dp pt="2512111238" pp="2" l="RB24" fb="ag RB24" ppth="Mainroth|Mainleus|Kulmbach|Untersteinach(b Stadtsteinach)|Ludwigschorgast|Neuenmarkt-Wirsberg|Trebgast|Harsdorf|Ramsenthal|Bindlach|Bayreuth Hbf"/>
+	</s>
+	<s id="-1563211288484254256-2512111146-4">
+		<tl f="N" t="p" o="800759" c="RE" n="3438"/>
+		<ar pt="2512111214" pp="2" l="38" fb="RE 38" ppth="Bamberg|Bad Staffelstein|Lichtenfels"/>
+		<dp pt="2512111215" pp="2" l="38" fb="RE 38" ppth="Kulmbach|Untersteinach(b Stadtsteinach)|Neuenmarkt-Wirsberg|Trebgast|Bayreuth Hbf|Creußen(Oberfr)|Pegnitz"/>
+	</s>
+	<s id="-3752526896793676544-2512111144-5">
+		<tl f="N" t="p" o="800759" c="RE" n="3409"/>
+		<ar pt="2512111241" pp="1" l="32" fb="RE 32" ppth="Pegnitz|Bayreuth Hbf|Neuenmarkt-Wirsberg|Kulmbach"/>
+		<dp pt="2512111242" pp="1" l="32" fb="RE 32" pde="Coburg" ppth="Hochstadt-Marktzeuln|Lichtenfels"/>
+	</s>
+	<s id="-3976983781094849357-2512111136-8">
+		<tl f="N" t="p" o="800759" c="RE" n="3008"/>
+		<ar pt="2512111241" pp="1" l="35" fb="RE 35" wings="-3752526896793676544-2512111144" ppth="Hof Hbf|Schwarzenbach(Saale)|Münchberg|Stammbach|Marktschorgast|Neuenmarkt-Wirsberg|Kulmbach"/>
+		<dp pt="2512111242" pp="1" l="35" fb="RE 35" wings="-3752526896793676544-2512111144" ppth="Hochstadt-Marktzeuln|Lichtenfels|Bad Staffelstein|Bamberg"/>
+	</s>
+</timetable>
