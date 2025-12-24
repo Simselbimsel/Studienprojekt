@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<timetable station="Garmisch-Partenkirchen">
+	<s id="5794569685690086918-2512241838-14">
+		<tl f="S" t="p" o="81" c="S" n="5430"/>
+		<ar pt="2512241957" pp="2" l="S6" fb="S6" ppth="Innsbruck Hbf|Innsbruck Westbahnhof|Innsbruck Hötting|Allerheiligenhöfe|Kranebitten|Hochzirl|Leithen b.Seefeld|Reith b.Seefeld|Seefeld in Tirol|Gießenbach in Tirol|Scharnitz|Mittenwald|Klais"/>
+	</s>
+	<s id="-8638927600658023801-2512241736-4">
+		<tl f="N" t="p" o="800790" c="RB" n="5529"/>
+		<ar pt="2512241857" pp="1" l="RB60" fb="RB60" pde="Pfronten-Steinach" ppth="Ehrwald Zugspitzbahn|Untergrainau|Garmisch-Partenkirchen Hausberg"/>
+		<dp pt="2512241905" pp="1" l="RB60" fb="RB60" ppth="Farchant|Oberau|Eschenlohe|Ohlstadt|Murnau|Uffing a Staffelsee|Huglfing|Weilheim(Oberbay)|Tutzing|München-Pasing|München Hbf Gl.27-36"/>
+	</s>
+	<s id="-8932159143457955186-2512241729-12">
+		<tl f="N" t="p" o="800790" c="RB" n="5433"/>
+		<ar pt="2512241855" pp="3" l="RB6" fb="RB6" ppth="München Hbf Gl.27-36|München-Pasing|Tutzing|Weilheim(Oberbay)|Huglfing|Uffing a Staffelsee|Murnau|Ohlstadt|Eschenlohe|Oberau|Farchant"/>
+		<dp pt="2512241902" pp="3" l="RB6" fb="RB6" pde="Seefeld in Tirol" ppth="Klais|Mittenwald"/>
+	</s>
+	<s id="-8482174767614200744-2512241836-3">
+		<tl f="N" t="p" o="800790" c="RB" n="5428"/>
+		<ar pt="2512241900" pp="1" l="RB6" fb="RB6" ppth="Mittenwald|Klais"/>
+		<dp pt="2512241905" pp="1" l="RB6" fb="RB6" wings="-8638927600658023801-2512241736" ppth="Farchant|Oberau|Eschenlohe|Ohlstadt|Murnau|Uffing a Staffelsee|Huglfing|Weilheim(Oberbay)|Tutzing|München-Pasing|München Hbf Gl.27-36"/>
+	</s>
+	<s id="4785393235545589818-2512241836-5">
+		<tl f="N" t="p" o="800790" c="RB" n="5533"/>
+		<ar pt="2512241957" pp="4" l="RB60" fb="RB60" pde="Pfronten-Steinach" ppth="Ehrwald Zugspitzbahn|Griesen(Oberbay)|Untergrainau|Garmisch-Partenkirchen Hausberg"/>
+	</s>
+	<s id="-3248758470606198036-2512241832-12">
+		<tl f="N" t="p" o="800790" c="RB" n="59477"/>
+		<ar pt="2512241955" pp="3" l="RB6" fb="RB6" tra="-3096366392437153501-2512242004-1" ppth="München Hbf|München-Pasing|Tutzing|Weilheim(Oberbay)|Huglfing|Uffing a Staffelsee|Murnau|Ohlstadt|Eschenlohe|Oberau|Farchant"/>
+	</s>
+</timetable>
