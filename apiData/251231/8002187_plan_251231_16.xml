@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<timetable station="Garmisch-Partenkirchen">
+	<s id="-2956408755300225756-2512311604-1">
+		<tl f="N" t="p" o="800790" c="RB" n="5522"/>
+		<dp pt="2512311604" pp="3" l="RB60" fb="RB60" pde="Pfronten-Steinach" ppth="Garmisch-Partenkirchen Hausberg|Untergrainau|Griesen(Oberbay)|Ehrwald Zugspitzbahn"/>
+	</s>
+	<s id="-4098926441499116097-2512311536-4">
+		<tl f="N" t="p" o="800790" c="RB" n="5523"/>
+		<ar pt="2512311659" pp="2" l="RB60" fb="RB60" pde="Pfronten-Steinach" ppth="Ehrwald Zugspitzbahn|Untergrainau|Garmisch-Partenkirchen Hausberg"/>
+		<dp pt="2512311705" pp="2" l="RB60" fb="RB60" ppth="Farchant|Oberau|Eschenlohe|Ohlstadt|Murnau|Uffing a Staffelsee|Huglfing|Weilheim(Oberbay)|Tutzing|München-Pasing|München Hbf Gl.27-36"/>
+	</s>
+	<s id="-1138532745947969203-2512311632-2">
+		<tl f="N" t="p" o="800790" c="RE" n="59481"/>
+		<ar pt="2512311638" pp="1" l="RE62" fb="RE62" ppth="Garmisch-Partenkirchen Hausberg"/>
+		<dp pt="2512311642" pp="1" l="RE62" fb="RE62" ppth="Murnau|Weilheim(Oberbay)|München-Pasing|München Hbf"/>
+	</s>
+	<s id="7585738635908651271-2512311604-4">
+		<tl f="N" t="p" o="800790" c="RB" n="5422"/>
+		<ar pt="2512311656" pp="2" l="RB6" fb="RB6" pde="Seefeld in Tirol" ppth="Mittenwald|Klais|Kainzenbad"/>
+		<dp pt="2512311705" pp="2" l="RB6" fb="RB6" wings="-4098926441499116097-2512311536" ppth="Farchant|Oberau|Eschenlohe|Ohlstadt|Murnau|Uffing a Staffelsee|Huglfing|Weilheim(Oberbay)|Tutzing|München-Pasing|München Hbf Gl.27-36"/>
+	</s>
+	<s id="6024049495099900062-2512311530-12">
+		<tl f="N" t="p" o="800790" c="RB" n="5526"/>
+		<ar pt="2512311655" pp="3" l="RB60" fb="RB60" ppth="München Hbf Gl.27-36|München-Pasing|Tutzing|Weilheim(Oberbay)|Huglfing|Uffing a Staffelsee|Murnau|Ohlstadt|Eschenlohe|Oberau|Farchant"/>
+		<dp pt="2512311704" pp="3" l="RB60" fb="RB60" pde="Pfronten-Steinach" ppth="Garmisch-Partenkirchen Hausberg|Untergrainau|Ehrwald Zugspitzbahn"/>
+	</s>
+	<s id="2806224213462396995-2512311602-1">
+		<tl f="S" t="p" o="800790" c="S" n="5427"/>
+		<dp pt="2512311602" pp="2" l="S6" fb="S6" ppth="Kainzenbad|Klais|Mittenwald|Scharnitz|Gießenbach in Tirol|Seefeld in Tirol|Reith b.Seefeld|Leithen b.Seefeld|Hochzirl|Kranebitten|Allerheiligenhöfe|Innsbruck Hötting|Innsbruck Westbahnhof|Innsbruck Hbf"/>
+	</s>
+	<s id="-4376796942515647789-2512311530-12">
+		<tl f="N" t="p" o="800790" c="RB" n="5429"/>
+		<ar pt="2512311655" pp="3" l="RB6" fb="RB6" wings="6024049495099900062-2512311530" ppth="München Hbf Gl.27-36|München-Pasing|Tutzing|Weilheim(Oberbay)|Huglfing|Uffing a Staffelsee|Murnau|Ohlstadt|Eschenlohe|Oberau|Farchant"/>
+		<dp pt="2512311702" pp="3" l="RB6" fb="RB6" ppth="Kainzenbad|Klais|Mittenwald"/>
+	</s>
+	<s id="7389033637485895194-2512311607-1">
+		<tl f="N" t="p" o="800790" c="RB" n="59476"/>
+		<dp pt="2512311607" pp="4" l="RB6" fb="RB6" ppth="Farchant|Oberau|Eschenlohe|Ohlstadt|Murnau|Uffing a Staffelsee|Huglfing|Weilheim(Oberbay)|Tutzing|München-Pasing|München Hbf"/>
+	</s>
+	<s id="4600410374670489045-2512311604-4">
+		<tl f="N" t="p" o="800790" c="RE" n="4692"/>
+		<ar pt="2512311632" pp="1" l="RE61" fb="RE61" ppth="Mittenwald|Klais|Kainzenbad"/>
+		<dp pt="2512311642" pp="1" l="RE61" fb="RE61" wings="-1138532745947969203-2512311632" ppth="Murnau|Weilheim(Oberbay)|München-Pasing|München Hbf"/>
+	</s>
+</timetable>
