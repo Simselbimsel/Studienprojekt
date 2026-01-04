@@ -1,0 +1,75 @@
+<?xml version="1.0" ?>
+<timetable station="Buchloe">
+	<s id="8968003073518890170-2601041652-2">
+		<tl t="p" o="80" c="ECE" n="98"/>
+		<ar pt="2601041733" pp="4" fb="ECE 98" ppth="München Hbf Gl.27-36"/>
+		<dp pt="2601041736" pp="4" fb="ECE 98" pde="Zürich HB" ppth="Memmingen|Lindau-Reutin"/>
+	</s>
+	<s id="2725032972542751301-2601041735-3">
+		<tl f="N" t="p" o="8007D5" c="RE" n="57535"/>
+		<ar pt="2601041752" pp="3" l="RE73" fb="RE73" ppth="Bad Wörishofen|Türkheim(Bay)Bf"/>
+		<dp pt="2601041755" pp="3" l="RE73" fb="RE73" ppth="Augsburg Hbf"/>
+	</s>
+	<s id="-4620763876078149352-2601041707-7">
+		<tl f="N" t="p" o="8007D5" c="RE" n="57515"/>
+		<ar pt="2601041752" pp="3" l="RE71" fb="RE71" wings="2725032972542751301-2601041735" ppth="Memmingen|Sontheim(Schwab)|Stetten(Schwab)|Mindelheim|Rammingen(Bay)|Türkheim(Bay)Bf"/>
+		<dp pt="2601041755" pp="3" l="RE71" fb="RE71" wings="2725032972542751301-2601041735" ppth="Augsburg Hbf"/>
+	</s>
+	<s id="-5311429009387847441-2601041637-5">
+		<tl f="N" t="p" o="8007D4" c="RE" n="57427"/>
+		<ar pt="2601041718" pp="3" l="RE79" fb="RE79" ppth="Kempten(Allgäu)Hbf|Günzach|Biessenhofen|Kaufbeuren"/>
+		<dp pt="2601041719" pp="3" l="RE79" fb="RE79" ppth="Schwabmünchen|Bobingen|Augsburg Hbf"/>
+	</s>
+	<s id="5295824779437944618-2601041736-1">
+		<tl f="N" t="p" o="8007H2" c="RB" n="58143"/>
+		<dp pt="2601041736" pp="1" l="RB74" fb="RB74" ppth="Kaufering|Geltendorf|Fürstenfeldbruck|München-Pasing|München Hbf"/>
+	</s>
+	<s id="-4267460546855575525-2601041641-2">
+		<tl f="N" t="p" o="8007D5" c="RE" n="3296"/>
+		<ar pt="2601041705" pp="5" l="RE7" fb="RE7" wings="-8848556039129661720-2601041641" ppth="Augsburg Hbf"/>
+		<dp pt="2601041707" pp="5" l="RE7" fb="RE7" wings="-8848556039129661720-2601041641" ppth="Kaufbeuren|Kempten(Allgäu)Hbf|Immenstadt|Oberstaufen|Röthenbach(Allgäu)|Heimenkirch|Hergatz|Lindau-Reutin"/>
+	</s>
+	<s id="3884659105379246371-2601041639-6">
+		<tl f="N" t="p" o="8007H2" c="RB" n="58136"/>
+		<ar pt="2601041723" pp="1" l="RB74" fb="RB74" ppth="München Hbf|München-Pasing|Fürstenfeldbruck|Geltendorf|Kaufering"/>
+	</s>
+	<s id="-2063481955783748113-2601041614-9">
+		<tl f="N" t="p" o="8007D5" c="RE" n="3889"/>
+		<ar pt="2601041752" pp="2" l="RE70" fb="RE70" wings="2256010546507003023-2601041624" ppth="Lindau-Reutin|Hergatz|Heimenkirch|Röthenbach(Allgäu)|Oberstaufen|Immenstadt|Kempten(Allgäu)Hbf|Kaufbeuren"/>
+		<dp pt="2601041755" pp="2" l="RE70" fb="RE70" wings="2256010546507003023-2601041624" ppth="Kaufering|Geltendorf|München-Pasing|München Hbf"/>
+	</s>
+	<s id="5735525433383463761-2601041522-13">
+		<tl t="p" o="GYRE" c="ARV" n="78940"/>
+		<ar pt="2601041726" pp="2" l="RE96" fb="RE96" ppth="Lindau-Reutin|Lindau-Insel|Hergatz|Wangen(Allgäu)|Kißlegg|Leutkirch|Aichstetten|Marstetten-Aitrach|Tannheim(Württ)|Memmingen|Mindelheim|Türkheim(Bay)Bf"/>
+		<dp pt="2601041727" pp="2" l="RE96" fb="RE96" ppth="München-Pasing|München Hbf"/>
+	</s>
+	<s id="-8355148014419824900-2601041620-12">
+		<tl f="D" t="p" o="Y8" c="BRB" n="62777"/>
+		<ar pt="2601041731" pp="2" l="RB77" fb="RB77" ppth="Füssen|Weizern-Hopferau|Seeg|Lengenwang|Leuterschach|Marktoberdorf Schule|Marktoberdorf|Marktoberdorf Nord|Ebenhofen|Biessenhofen|Kaufbeuren"/>
+		<dp pt="2601041738" pp="2" l="RB77" fb="RB77" ppth="Schwabmünchen|Bobingen|Inningen|Augsburg Messe|Augsburg Morellstr.|Augsburg Hbf"/>
+	</s>
+	<s id="-7771043486228272598-2601041651-7">
+		<tl f="D" t="p" o="Y8" c="BRB" n="62756"/>
+		<ar pt="2601041722" pp="5" l="RB77" fb="RB77" ppth="Augsburg Hbf|Augsburg Morellstr.|Augsburg Messe|Inningen|Bobingen|Schwabmünchen"/>
+		<dp pt="2601041731" pp="5" l="RB77" fb="RB77" ppth="Kaufbeuren|Biessenhofen|Ebenhofen|Marktoberdorf Nord|Marktoberdorf|Marktoberdorf Schule|Leuterschach|Lengenwang|Seeg|Weizern-Hopferau|Füssen"/>
+	</s>
+	<s id="2256010546507003023-2601041624-10">
+		<tl f="N" t="p" o="8007D5" c="RE" n="7891"/>
+		<ar pt="2601041752" pp="2" l="RE76" fb="RE76" ppth="Oberstdorf|Langenwang(Schwab)|Fischen|Altstädten(Allgäu)|Sonthofen|Blaichach(Allgäu)|Immenstadt|Kempten(Allgäu)Hbf|Kaufbeuren"/>
+		<dp pt="2601041755" pp="2" l="RE76" fb="RE76" ppth="Kaufering|Geltendorf|München-Pasing|München Hbf"/>
+	</s>
+	<s id="1979940955295055017-2601041739-1">
+		<tl f="N" t="p" o="8007D4" c="RE" n="57424"/>
+		<dp pt="2601041739" pp="5" l="RE79" fb="RE79" ppth="Kaufbeuren|Biessenhofen|Günzach|Kempten(Allgäu)Hbf"/>
+	</s>
+	<s id="3014912345620083177-2601041620-5">
+		<tl t="p" o="GYRE" c="ARV" n="78949"/>
+		<ar pt="2601041704" pp="4" l="RE72" fb="RE72" ppth="München Hbf|München-Pasing|Geltendorf|Kaufering"/>
+		<dp pt="2601041712" pp="4" l="RE72" fb="RE72" ppth="Türkheim(Bay)Bf|Rammingen(Bay)|Mindelheim|Stetten(Schwab)|Sontheim(Schwab)|Memmingen"/>
+	</s>
+	<s id="-8848556039129661720-2601041641-2">
+		<tl f="N" t="p" o="8007D5" c="RE" n="3396"/>
+		<ar pt="2601041705" pp="5" l="RE17" fb="RE17" ppth="Augsburg Hbf"/>
+		<dp pt="2601041707" pp="5" l="RE17" fb="RE17" ppth="Kaufbeuren|Kempten(Allgäu)Hbf|Immenstadt|Blaichach(Allgäu)|Sonthofen|Fischen|Oberstdorf"/>
+	</s>
+</timetable>
