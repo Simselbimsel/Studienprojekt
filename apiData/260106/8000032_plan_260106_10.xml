@@ -1,15 +1,5 @@
 <?xml version="1.0" ?>
 <timetable station="Schweinfurt Hbf">
-	<s id="-3063908503298777034-2601061001-2">
-		<tl f="N" t="p" o="8004NT" c="RE" n="3774"/>
-		<ar pt="2601061023" pp="7" l="RE7" fb="RE7" ppth="Würzburg Hbf"/>
-		<dp pt="2601061029" pp="7" l="RE7" fb="RE7" ppth="Ebenhausen(Unterfr)|Oerlenbach|Bad Kissingen"/>
-	</s>
-	<s id="2595918980988366264-2601060940-8">
-		<tl f="N" t="p" o="800755" c="RE" n="4786"/>
-		<ar pt="2601061056" pp="6" l="RE20" fb="RE20" ppth="Nürnberg Hbf|Fürth(Bay)Hbf|Erlangen|Forchheim(Oberfr)|Hirschaid|Bamberg|Haßfurt"/>
-		<dp pt="2601061057" pp="6" l="RE20" fb="RE20" ppth="Würzburg Hbf"/>
-	</s>
 	<s id="6872042658556851228-2601060901-14">
 		<tl f="D" t="p" o="EB" c="EB" n="80735"/>
 		<ar pt="2601061040" pp="3" l="RB40" fb="RB40" ppth="Meiningen|Untermaßfeld|Grimmenthal|Wölfershausen|Bibra|Rentwertshausen|Mellrichstadt Bf|Bad Neustadt(Saale)|Burglauer|Münnerstadt|Rottershausen|Ebenhausen(Unterfr)|Poppenhausen"/>
@@ -23,6 +13,20 @@
 		<tl f="N" t="p" o="800755" c="RE" n="4785"/>
 		<ar pt="2601061059" pp="7" l="RE20" fb="RE20" ppth="Würzburg Hbf"/>
 		<dp pt="2601061100" pp="7" l="RE20" fb="RE20" ppth="Haßfurt|Bamberg|Hirschaid|Forchheim(Oberfr)|Erlangen|Fürth(Bay)Hbf|Nürnberg Hbf"/>
+	</s>
+	<s id="-5625530326169244481-2601061012-5">
+		<tl f="D" t="p" o="EB" c="EB" n="80709"/>
+		<ar pt="2601061040" pp="3" l="RB50" fb="RB50" wings="6872042658556851228-2601060901" ppth="Bad Kissingen|Oerlenbach|Ebenhausen(Unterfr)|Poppenhausen"/>
+	</s>
+	<s id="-3063908503298777034-2601061001-2">
+		<tl f="N" t="p" o="8004NT" c="RE" n="3774"/>
+		<ar pt="2601061023" pp="7" l="RE7" fb="RE7" ppth="Würzburg Hbf"/>
+		<dp pt="2601061029" pp="7" l="RE7" fb="RE7" ppth="Ebenhausen(Unterfr)|Oerlenbach|Bad Kissingen"/>
+	</s>
+	<s id="2595918980988366264-2601060940-8">
+		<tl f="N" t="p" o="800755" c="RE" n="4786"/>
+		<ar pt="2601061056" pp="6" l="RE20" fb="RE20" ppth="Nürnberg Hbf|Fürth(Bay)Hbf|Erlangen|Forchheim(Oberfr)|Hirschaid|Bamberg|Haßfurt"/>
+		<dp pt="2601061057" pp="6" l="RE20" fb="RE20" ppth="Würzburg Hbf"/>
 	</s>
 	<s id="4152704619799596917-2601060905-20">
 		<tl f="N" t="p" o="800714" c="RB" n="58025"/>
@@ -48,9 +52,5 @@
 		<tl f="N" t="p" o="8004NT" c="RE" n="3754"/>
 		<ar pt="2601061023" pp="7" l="RE7" fb="RE7" wings="-3063908503298777034-2601061001" ppth="Würzburg Hbf"/>
 		<dp pt="2601061029" pp="7" l="RE7" fb="RE7" wings="-3063908503298777034-2601061001" ppth="Ebenhausen(Unterfr)|Münnerstadt|Bad Neustadt(Saale)|Mellrichstadt Bf|Grimmenthal|Suhl|Zella-Mehlis|Plaue(Thür)|Arnstadt Hbf|Neudietendorf|Erfurt Hbf"/>
-	</s>
-	<s id="-5625530326169244481-2601061012-5">
-		<tl f="D" t="p" o="EB" c="EB" n="80709"/>
-		<ar pt="2601061040" pp="3" l="RB50" fb="RB50" wings="6872042658556851228-2601060901" ppth="Bad Kissingen|Oerlenbach|Ebenhausen(Unterfr)|Poppenhausen"/>
 	</s>
 </timetable>
