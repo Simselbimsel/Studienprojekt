@@ -1,14 +1,19 @@
 <?xml version="1.0" ?>
 <timetable station="Hergatz">
-	<s id="-4944824062441369900-2601230719-12">
-		<tl f="N" t="p" o="8007D5" c="RE" n="3284"/>
-		<ar pt="2601231027" pp="2" l="RE7" fb="RE7" ppth="Nürnberg Hbf|Treuchtlingen|Donauwörth|Augsburg Hbf|Buchloe|Kaufbeuren|Kempten(Allgäu)Hbf|Immenstadt|Oberstaufen|Röthenbach(Allgäu)|Heimenkirch"/>
-		<dp pt="2601231028" pp="2" l="RE7" fb="RE7" ppth="Lindau-Reutin"/>
-	</s>
 	<s id="1358536741712939774-2601231006-8">
 		<tl t="p" o="GYRB" c="ARV" n="78923"/>
 		<ar pt="2601231058" pp="3" l="RB92" fb="RB92" ppth="Memmingen|Tannheim(Württ)|Marstetten-Aitrach|Aichstetten|Leutkirch|Kißlegg|Wangen(Allgäu)"/>
 		<dp pt="2601231059" pp="3" l="RB92" fb="RB92" ppth="Lindau-Insel|Lindau-Reutin"/>
+	</s>
+	<s id="-6639127296397754836-2601231022-3">
+		<tl t="p" o="GYRB" c="ARV" n="78922"/>
+		<ar pt="2601231052" pp="2" l="RB92" fb="RB92" ppth="Lindau-Reutin|Lindau-Insel"/>
+		<dp pt="2601231059" pp="2" l="RB92" fb="RB92" ppth="Wangen(Allgäu)|Kißlegg|Leutkirch|Aichstetten|Marstetten-Aitrach|Tannheim(Württ)|Memmingen"/>
+	</s>
+	<s id="-4944824062441369900-2601230719-12">
+		<tl f="N" t="p" o="8007D5" c="RE" n="3284"/>
+		<ar pt="2601231027" pp="2" l="RE7" fb="RE7" ppth="Nürnberg Hbf|Treuchtlingen|Donauwörth|Augsburg Hbf|Buchloe|Kaufbeuren|Kempten(Allgäu)Hbf|Immenstadt|Oberstaufen|Röthenbach(Allgäu)|Heimenkirch"/>
+		<dp pt="2601231028" pp="2" l="RE7" fb="RE7" ppth="Lindau-Reutin"/>
 	</s>
 	<s id="823485878973702993-2601231014-2">
 		<tl f="N" t="p" o="8007D5" c="RE" n="3879"/>
@@ -19,10 +24,5 @@
 		<tl t="p" o="GYRE" c="ARV" n="78920"/>
 		<ar pt="2601231001" pp="2" l="RE96" fb="RE96" ppth="Lindau-Reutin|Lindau-Insel"/>
 		<dp pt="2601231002" pp="2" l="RE96" fb="RE96" ppth="Wangen(Allgäu)|Kißlegg|Leutkirch|Aichstetten|Marstetten-Aitrach|Tannheim(Württ)|Memmingen|Mindelheim|Türkheim(Bay)Bf|Buchloe|München-Pasing|München Hbf"/>
-	</s>
-	<s id="-6639127296397754836-2601231022-3">
-		<tl t="p" o="GYRB" c="ARV" n="78922"/>
-		<ar pt="2601231052" pp="2" l="RB92" fb="RB92" ppth="Lindau-Reutin|Lindau-Insel"/>
-		<dp pt="2601231059" pp="2" l="RB92" fb="RB92" ppth="Wangen(Allgäu)|Kißlegg|Leutkirch|Aichstetten|Marstetten-Aitrach|Tannheim(Württ)|Memmingen"/>
 	</s>
 </timetable>
