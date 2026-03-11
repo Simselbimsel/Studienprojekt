@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<timetable station="Warngau">
+	<s id="-926229037455422647-2603110603-5">
+		<tl f="D" t="p" o="T8" c="BRB" n="86901"/>
+		<ar pt="2603110640" pp="1" l="RB57" fb="RB57" ppth="München Hbf Gl.5-10|München Harras|München Siemenswerke|Holzkirchen"/>
+		<dp pt="2603110640" pp="1" l="RB57" fb="RB57" ppth="Schaftlach|Moosrain|Finsterwald|Gmund(Tegernsee)|Tegernsee"/>
+	</s>
+	<s id="-5173995666042222353-2603110622-6">
+		<tl f="D" t="p" o="T8" c="BRB" n="86906"/>
+		<ar pt="2603110651" pp="1" l="RB57" fb="RB57" ppth="Tegernsee|Gmund(Tegernsee)|Finsterwald|Moosrain|Schaftlach"/>
+		<dp pt="2603110651" pp="1" l="RB57" fb="RB57" ppth="Holzkirchen|München Siemenswerke"/>
+	</s>
+	<s id="3169641632587790514-2603110617-7">
+		<tl f="D" t="p" o="T8" c="BRB" n="86806"/>
+		<ar pt="2603110651" pp="1" l="RB56" fb="RB56" wings="-5173995666042222353-2603110622" ppth="Lenggries|Obergries|Gaißach|Bad Tölz|Reichersbeuern|Schaftlach"/>
+		<dp pt="2603110651" pp="1" l="RB56" fb="RB56" wings="-5173995666042222353-2603110622" ppth="Holzkirchen|München Siemenswerke"/>
+	</s>
+	<s id="1476010007347595082-2603110603-5">
+		<tl f="D" t="p" o="T8" c="BRB" n="86801"/>
+		<ar pt="2603110640" pp="1" l="RB56" fb="RB56" wings="-926229037455422647-2603110603" ppth="München Hbf Gl.5-10|München Harras|München Siemenswerke|Holzkirchen"/>
+		<dp pt="2603110640" pp="1" l="RB56" fb="RB56" wings="-926229037455422647-2603110603" ppth="Schaftlach|Reichersbeuern|Bad Tölz|Gaißach|Obergries|Lenggries"/>
+	</s>
+	<s id="4331039724452430745-2603110552-6">
+		<tl f="D" t="p" o="T8" c="BRB" n="86904"/>
+		<ar pt="2603110621" pp="1" l="RB57" fb="RB57" ppth="Tegernsee|Gmund(Tegernsee)|Finsterwald|Moosrain|Schaftlach"/>
+		<dp pt="2603110621" pp="1" l="RB57" fb="RB57" ppth="Holzkirchen|München Siemenswerke|München Harras|München Hbf Gl.5-10"/>
+	</s>
+	<s id="1664000446684574244-2603110547-7">
+		<tl f="D" t="p" o="T8" c="BRB" n="86804"/>
+		<ar pt="2603110621" pp="1" l="RB56" fb="RB56" wings="4331039724452430745-2603110552" ppth="Lenggries|Obergries|Gaißach|Bad Tölz|Reichersbeuern|Schaftlach"/>
+		<dp pt="2603110621" pp="1" l="RB56" fb="RB56" wings="4331039724452430745-2603110552" ppth="Holzkirchen|München Siemenswerke|München Harras|München Hbf Gl.5-10"/>
+	</s>
+</timetable>
