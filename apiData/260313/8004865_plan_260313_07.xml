@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<timetable station="Poppenhausen">
+	<s id="8028711497727436289-2603130654-4">
+		<tl f="D" t="p" o="EB" c="EB" n="80726"/>
+		<ar pt="2603130709" pp="1" l="RB40" fb="RB40" ppth="Schweinfurt Stadt|Schweinfurt Mitte|Schweinfurt Hbf"/>
+		<dp pt="2603130709" pp="1" l="RB40" fb="RB40" ppth="Ebenhausen(Unterfr)|Rottershausen|Münnerstadt|Burglauer|Bad Neustadt(Saale)|Mellrichstadt Bf|Rentwertshausen|Bibra|Wölfershausen|Ritschenhausen|Meiningen"/>
+	</s>
+	<s id="-6061380897421330002-2603130642-12">
+		<tl f="D" t="p" o="EB" c="EB" n="80729"/>
+		<ar pt="2603130747" pp="1" l="RB40" fb="RB40" ppth="Meiningen|Ritschenhausen|Wölfershausen|Bibra|Rentwertshausen|Mellrichstadt Bf|Bad Neustadt(Saale)|Burglauer|Münnerstadt|Rottershausen|Ebenhausen(Unterfr)"/>
+		<dp pt="2603130747" pp="1" l="RB40" fb="RB40" ppth="Oberwerrn|Schweinfurt Hbf|Schweinfurt Mitte|Schweinfurt Stadt"/>
+	</s>
+	<s id="-7721632268925634325-2603130641-4">
+		<tl f="N" t="p" o="8004NT" c="RE" n="3773"/>
+		<ar pt="2603130700" pp="1" l="RE7" fb="RE7" ppth="Bad Kissingen|Oerlenbach|Ebenhausen(Unterfr)"/>
+		<dp pt="2603130700" pp="1" l="RE7" fb="RE7" ppth="Oberwerrn|Schweinfurt Hbf|Rottendorf|Würzburg Hbf"/>
+	</s>
+	<s id="-3813687722603047733-2603130706-4">
+		<tl f="D" t="p" o="EB" c="EB" n="80675"/>
+		<ar pt="2603130719" pp="1" l="RB50" fb="RB50" ppth="Bad Kissingen|Oerlenbach|Ebenhausen(Unterfr)"/>
+		<dp pt="2603130719" pp="1" l="RB50" fb="RB50" ppth="Oberwerrn|Schweinfurt Hbf|Schweinfurt Mitte|Schweinfurt Stadt"/>
+	</s>
+	<s id="-7587377723565632925-2603130730-4">
+		<tl f="D" t="p" o="EB" c="EB" n="80719"/>
+		<ar pt="2603130747" pp="1" l="RB50" fb="RB50" wings="-6061380897421330002-2603130642" ppth="Bad Kissingen|Oerlenbach|Ebenhausen(Unterfr)"/>
+		<dp pt="2603130747" pp="1" l="RB50" fb="RB50" wings="-6061380897421330002-2603130642" ppth="Oberwerrn|Schweinfurt Hbf"/>
+	</s>
+	<s id="8359870744817815530-2603130654-4">
+		<tl f="D" t="p" o="EB" c="EB" n="80706"/>
+		<ar pt="2603130709" pp="1" l="RB50" fb="RB50" wings="8028711497727436289-2603130654" ppth="Schweinfurt Stadt|Schweinfurt Mitte|Schweinfurt Hbf"/>
+		<dp pt="2603130709" pp="1" l="RB50" fb="RB50" wings="8028711497727436289-2603130654" ppth="Ebenhausen(Unterfr)|Oerlenbach|Bad Kissingen"/>
+	</s>
+	<s id="6021437162504472289-2603130615-8">
+		<tl f="N" t="p" o="8004NT" c="RE" n="3751"/>
+		<ar pt="2603130700" pp="1" l="RE7" fb="RE7" wings="-7721632268925634325-2603130641" ppth="Rentwertshausen|Mellrichstadt Bf|Bad Neustadt(Saale)|Burglauer|Münnerstadt|Rottershausen|Ebenhausen(Unterfr)"/>
+		<dp pt="2603130700" pp="1" l="RE7" fb="RE7" wings="-7721632268925634325-2603130641" ppth="Oberwerrn|Schweinfurt Hbf|Rottendorf|Würzburg Hbf"/>
+	</s>
+	<s id="2135659418729349329-2603130739-2">
+		<tl f="D" t="p" o="EB" c="EB" n="80710"/>
+		<ar pt="2603130753" pp="1" l="RB50" fb="RB50" ppth="Schweinfurt Hbf"/>
+		<dp pt="2603130754" pp="1" l="RB50" fb="RB50" ppth="Ebenhausen(Unterfr)|Oerlenbach|Bad Kissingen"/>
+	</s>
+</timetable>
