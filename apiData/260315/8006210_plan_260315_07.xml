@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<timetable station="Warngau">
+	<s id="4155450790889239451-2603150700-5">
+		<tl f="D" t="p" o="T8" c="BRB" n="86953"/>
+		<ar pt="2603150740" pp="1" l="RB57" fb="RB57" ppth="München Hbf Gl.5-10|München Harras|München-Solln|Holzkirchen"/>
+		<dp pt="2603150740" pp="1" l="RB57" fb="RB57" ppth="Schaftlach|Moosrain|Finsterwald|Gmund(Tegernsee)|Tegernsee"/>
+	</s>
+	<s id="-3401390393548027234-2603150722-6">
+		<tl f="D" t="p" o="T8" c="BRB" n="86960"/>
+		<ar pt="2603150753" pp="1" l="RB57" fb="RB57" ppth="Tegernsee|Gmund(Tegernsee)|Finsterwald|Moosrain|Schaftlach"/>
+		<dp pt="2603150754" pp="1" l="RB57" fb="RB57" ppth="Holzkirchen|München-Solln|München Harras|München Hbf Gl.5-10"/>
+	</s>
+	<s id="-7938775751589353553-2603150700-5">
+		<tl f="D" t="p" o="T8" c="BRB" n="86853"/>
+		<ar pt="2603150740" pp="1" l="RB56" fb="RB56" wings="4155450790889239451-2603150700" ppth="München Hbf Gl.5-10|München Harras|München-Solln|Holzkirchen"/>
+		<dp pt="2603150740" pp="1" l="RB56" fb="RB56" wings="4155450790889239451-2603150700" ppth="Schaftlach|Reichersbeuern|Bad Tölz|Gaißach|Obergries|Lenggries"/>
+	</s>
+	<s id="-8988214842916875959-2603150652-6">
+		<tl f="D" t="p" o="T8" c="BRB" n="86958"/>
+		<ar pt="2603150721" pp="1" l="RB57" fb="RB57" ppth="Tegernsee|Gmund(Tegernsee)|Finsterwald|Moosrain|Schaftlach"/>
+		<dp pt="2603150721" pp="1" l="RB57" fb="RB57" ppth="Holzkirchen|München-Solln|München Harras|München Hbf Gl.5-10"/>
+	</s>
+	<s id="3522668119555601844-2603150647-7">
+		<tl f="D" t="p" o="T8" c="BRB" n="86858"/>
+		<ar pt="2603150721" pp="1" l="RB56" fb="RB56" wings="-8988214842916875959-2603150652" ppth="Lenggries|Obergries|Gaißach|Bad Tölz|Reichersbeuern|Schaftlach"/>
+		<dp pt="2603150721" pp="1" l="RB56" fb="RB56" wings="-8988214842916875959-2603150652" ppth="Holzkirchen|München-Solln|München Harras|München Hbf Gl.5-10"/>
+	</s>
+	<s id="4901017811940000356-2603150717-7">
+		<tl f="D" t="p" o="T8" c="BRB" n="86860"/>
+		<ar pt="2603150753" pp="1" l="RB56" fb="RB56" wings="-3401390393548027234-2603150722" ppth="Lenggries|Obergries|Gaißach|Bad Tölz|Reichersbeuern|Schaftlach"/>
+		<dp pt="2603150754" pp="1" l="RB56" fb="RB56" wings="-3401390393548027234-2603150722" ppth="Holzkirchen|München-Solln|München Harras|München Hbf Gl.5-10"/>
+	</s>
+</timetable>

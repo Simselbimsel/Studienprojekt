@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<timetable station="Freiburg(Breisgau) Hbf">
+	<s id="-1426780657751378432-2603150521-8">
+		<tl f="S" t="p" o="8006C6" c="S" n="9700"/>
+		<ar pt="2603150607" pp="6" l="S10" fb="S10" ppth="Neustadt(Schwarzw)|Titisee|Hinterzarten|Himmelreich|Kirchzarten|Freiburg-Littenweiler|Freiburg-Wiehre"/>
+	</s>
+	<s id="-8716776747589038458-2603141831-17">
+		<tl f="F" t="p" o="81" c="EN" n="40458"/>
+		<ar pt="2603150647" pp="3" fb="EN 40458" ppth="Praha hl.n.|Praha-Holesovice|Usti nad Labem hl.n.|Decin hl.n.|Bad Schandau|Dresden Hbf|Dresden-Neustadt|Riesa|Leipzig Hbf|Erfurt Hbf|Fulda|Frankfurt(Main)Süd|Mannheim Hbf|Karlsruhe Hbf|Baden-Baden|Offenburg"/>
+		<dp pt="2603150649" pp="3" fb="EN 40458" hi="1" ppth="Basel Bad Bf|Basel SBB|Zürich HB"/>
+	</s>
+	<s id="6158813696004313014-2603150626-1">
+		<tl f="N" t="p" o="8006C5" c="RE" n="17004"/>
+		<dp pt="2603150626" pp="2" l="RE7" fb="RE7" ppth="Denzlingen|Emmendingen|Riegel-Malterdingen|Kenzingen|Herbolzheim(Breisg)|Ringsheim/Europa-Park|Orschweier|Lahr(Schwarzw)|Friesenheim(Baden)|Offenburg|Appenweier|Renchen|Achern|Bühl(Baden)|Baden-Baden|Rastatt|Karlsruhe Hbf"/>
+	</s>
+	<s id="-8572647521164952896-2603141831-17">
+		<tl f="F" t="p" o="54" c="EC" n="458"/>
+		<ar pt="2603150647" pp="3" fb="EC 458" wings="-8716776747589038458-2603141831" ppth="Praha hl.n.|Praha-Holesovice|Usti nad Labem hl.n.|Decin hl.n.|Bad Schandau|Dresden Hbf|Dresden-Neustadt|Riesa|Leipzig Hbf|Erfurt Hbf|Fulda|Frankfurt(Main)Süd|Mannheim Hbf|Karlsruhe Hbf|Baden-Baden|Offenburg"/>
+		<dp pt="2603150649" pp="3" fb="EC 458" hi="1" wings="-8716776747589038458-2603141831" ppth="Basel Bad Bf|Basel SBB|Zürich HB"/>
+	</s>
+	<s id="6024889151340737172-2603150616-3">
+		<tl f="F" t="p" o="80" c="ICE" n="376"/>
+		<ar pt="2603150652" pp="1" fb="ICE 376" ppth="Basel SBB|Basel Bad Bf"/>
+		<dp pt="2603150655" pp="1" fb="ICE 376" ppth="Offenburg|Karlsruhe Hbf|Mannheim Hbf|Frankfurt(Main)Hbf|Hanau Hbf|Fulda|Kassel-Wilhelmshöhe|Göttingen|Hildesheim Hbf|Braunschweig Hbf|Wolfsburg Hbf|Berlin-Spandau|Berlin Hbf|Berlin Ostbahnhof"/>
+	</s>
+	<s id="-1197270886930040789-2603142053-13">
+		<tl f="F" t="p" o="NZ" c="IC" n="60408"/>
+		<ar pt="2603150647" pp="3" fb="IC 60408" wings="-8716776747589038458-2603141831|-8572647521164952896-2603141831|5331894847185138451-2603142053" ppth="Berlin Hbf|Berlin Südkreuz|Lutherstadt Wittenberg Hbf|Bitterfeld|Leipzig Hbf|Erfurt Hbf|Fulda|Frankfurt(Main)Süd|Mannheim Hbf|Karlsruhe Hbf|Baden-Baden|Offenburg"/>
+		<dp pt="2603150649" pp="3" fb="IC 60408" wings="-8716776747589038458-2603141831|-8572647521164952896-2603141831|5331894847185138451-2603142053" ppth="Basel Bad Bf|Basel SBB|Zürich HB"/>
+	</s>
+	<s id="5331894847185138451-2603142053-13">
+		<tl t="p" o="81" c="NJ" n="408"/>
+		<ar pt="2603150647" pp="3" fb="NJ 408" wings="-1197270886930040789-2603142053" ppth="Berlin Hbf|Berlin Südkreuz|Lutherstadt Wittenberg Hbf|Bitterfeld|Leipzig Hbf|Erfurt Hbf|Fulda|Frankfurt(Main)Süd|Mannheim Hbf|Karlsruhe Hbf|Baden-Baden|Offenburg"/>
+		<dp pt="2603150649" pp="3" fb="NJ 408" hi="1" wings="-1197270886930040789-2603142053" ppth="Basel Bad Bf|Basel SBB|Zürich HB"/>
+	</s>
+	<s id="7500475875748765832-2603150642-1">
+		<tl f="S" t="p" o="8006C6" c="S" n="9709"/>
+		<dp pt="2603150642" pp="7" l="S10" fb="S10" ppth="Freiburg-Wiehre|Freiburg-Littenweiler|Kirchzarten|Himmelreich|Hinterzarten|Titisee|Neustadt(Schwarzw)|Rötenbach(Baden)|Löffingen|Bachheim|Unadingen|Döggingen|Hüfingen Mitte|Donaueschingen|Villingen(Schwarzw)"/>
+	</s>
+	<s id="3207394584663061518-2603150552-15">
+		<tl f="N" t="p" o="8006C4" c="RB" n="5333"/>
+		<ar pt="2603150644" pp="3" l="RB27" fb="RB27" ppth="Offenburg|Friesenheim(Baden)|Lahr(Schwarzw)|Orschweier|Ringsheim/Europa-Park|Herbolzheim(Breisg)|Kenzingen|Riegel-Malterdingen|Köndringen|Teningen-Mundingen|Emmendingen|Kollmarsreute|Denzlingen|Gundelfingen(Breisgau)"/>
+		<dp pt="2603150646" pp="3" l="RB27" fb="RB27" ppth="Freiburg-St Georgen|Ebringen|Schallstadt|Norsingen|Bad Krozingen|Heitersheim|Buggingen|Müllheim im Markgräflerland|Auggen|Schliengen|Bad Bellingen|Rheinweiler|Kleinkems|Istein|Efringen-Kirchen|Eimeldingen|Haltingen|Weil am Rhein|Basel Bad Bf"/>
+	</s>
+</timetable>
