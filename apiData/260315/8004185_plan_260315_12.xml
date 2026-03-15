@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<timetable station="Murnau">
+	<s id="9167591663197694431-2603151138-10">
+		<tl f="N" t="p" o="800790" c="RB" n="59566"/>
+		<ar pt="2603151219" pp="4" l="RB63" fb="RB63" ppth="Oberammergau|Unterammergau|Altenau(Bay)|Saulgrub|Bad Kohlgrub Kurhaus|Bad Kohlgrub|Grafenaschau|Seeleiten-Berggeist|Murnau Ort"/>
+	</s>
+	<s id="1157944936838297628-2603151234-1">
+		<tl f="N" t="p" o="800790" c="RB" n="59569"/>
+		<dp pt="2603151234" pp="4" l="RB63" fb="RB63" ppth="Murnau Ort|Seeleiten-Berggeist|Grafenaschau|Bad Kohlgrub|Bad Kohlgrub Kurhaus|Saulgrub|Altenau(Bay)|Unterammergau|Oberammergau"/>
+	</s>
+	<s id="2034711048828426076-2603150536-14">
+		<tl f="F" t="p" o="80" c="ICE" n="1091"/>
+		<ar pt="2603151201" pp="3" fb="ICE 1091" ppth="Saarbrücken Hbf|Homburg(Saar)Hbf|Landstuhl|Kaiserslautern Hbf|Neustadt(Weinstr)Hbf|Ludwigshafen(Rh)Hbf|Mannheim Hbf|Stuttgart Hbf|Ulm Hbf|Günzburg|Augsburg Hbf|München Hbf|Weilheim(Oberbay)"/>
+		<dp pt="2603151203" pp="3" fb="ICE 1091" hi="1" ppth="Garmisch-Partenkirchen"/>
+	</s>
+	<s id="-6310843545962690467-2603151207-6">
+		<tl f="N" t="p" o="800790" c="RB" n="59474"/>
+		<ar pt="2603151230" pp="1" l="RB6" fb="RB6" pde="Ehrwald Zugspitzbahn" ppth="Garmisch-Partenkirchen|Farchant|Oberau|Eschenlohe|Ohlstadt"/>
+		<dp pt="2603151231" pp="1" l="RB6" fb="RB6" ppth="Uffing a Staffelsee|Huglfing|Weilheim(Oberbay)|Tutzing|Feldafing|Possenhofen|Starnberg"/>
+	</s>
+	<s id="6050739164498947186-2603151149-8">
+		<tl f="N" t="p" o="800790" c="RB" n="5419"/>
+		<ar pt="2603151227" pp="3" l="RB6" fb="RB6" wings="-2545558315718092796-2603151149" ppth="Starnberg|Possenhofen|Feldafing|Tutzing|Weilheim(Oberbay)|Huglfing|Uffing a Staffelsee"/>
+		<dp pt="2603151228" pp="3" l="RB6" fb="RB6" wings="-2545558315718092796-2603151149" pde="Seefeld in Tirol" ppth="Ohlstadt|Eschenlohe|Oberau|Farchant|Garmisch-Partenkirchen|Klais|Mittenwald"/>
+	</s>
+	<s id="-2545558315718092796-2603151149-8">
+		<tl f="N" t="p" o="800790" c="RB" n="5540"/>
+		<ar pt="2603151227" pp="3" l="RB60" fb="RB60" ppth="Starnberg|Possenhofen|Feldafing|Tutzing|Weilheim(Oberbay)|Huglfing|Uffing a Staffelsee"/>
+		<dp pt="2603151228" pp="3" l="RB60" fb="RB60" pde="Pfronten-Steinach" ppth="Ohlstadt|Eschenlohe|Oberau|Farchant|Garmisch-Partenkirchen|Garmisch-Partenkirchen Hausberg|Untergrainau|Griesen(Oberbay)|Ehrwald Zugspitzbahn"/>
+	</s>
+</timetable>
