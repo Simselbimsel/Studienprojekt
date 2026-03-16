@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<timetable station="Unterschleißheim">
+	<s id="2043520769172905192-2603162222-10">
+		<tl f="S" t="p" o="800725" c="S" n="8914"/>
+		<ar pt="2603162246" pp="1" l="S1" fb="S1" ppth="München Hbf (tief)|München Hackerbrücke|München Donnersbergerbrücke|München Hirschgarten|München-Laim|München-Moosach|München-Fasanerie|München-Feldmoching|Oberschleißheim"/>
+		<dp pt="2603162247" pp="1" l="S1" fb="S1" ppth="Lohhof|Eching|Neufahrn(b Freising)|München Flughafen Besucherpark|München Flughafen Terminal"/>
+	</s>
+	<s id="412843757376184278-2603162224-6">
+		<tl f="S" t="p" o="800725" c="S" n="8041"/>
+		<ar pt="2603162242" pp="2" l="S1" fb="S1" ppth="Freising|Pulling(b Freising)|Neufahrn(b Freising)|Eching|Lohhof"/>
+		<dp pt="2603162242" pp="2" l="S1" fb="S1" ppth="Oberschleißheim|München-Feldmoching|München-Fasanerie|München-Moosach|München-Laim|München Hirschgarten|München Donnersbergerbrücke|München Hackerbrücke|München Hbf (tief)"/>
+	</s>
+	<s id="-5231670795778051735-2603162221-6">
+		<tl f="S" t="p" o="800725" c="S" n="8141"/>
+		<ar pt="2603162242" pp="2" l="S1" fb="S1" wings="412843757376184278-2603162224" ppth="München Flughafen Terminal|München Flughafen Besucherpark|Neufahrn(b Freising)|Eching|Lohhof"/>
+		<dp pt="2603162242" pp="2" l="S1" fb="S1" wings="412843757376184278-2603162224" ppth="Oberschleißheim|München-Feldmoching|München-Fasanerie|München-Moosach|München-Laim|München Hirschgarten|München Donnersbergerbrücke|München Hackerbrücke|München Hbf (tief)"/>
+	</s>
+	<s id="77541371834573330-2603162222-10">
+		<tl f="S" t="p" o="800725" c="S" n="8114"/>
+		<ar pt="2603162246" pp="1" l="S1" fb="S1" wings="2043520769172905192-2603162222" ppth="München Hbf (tief)|München Hackerbrücke|München Donnersbergerbrücke|München Hirschgarten|München-Laim|München-Moosach|München-Fasanerie|München-Feldmoching|Oberschleißheim"/>
+		<dp pt="2603162247" pp="1" l="S1" fb="S1" wings="2043520769172905192-2603162222" ppth="Lohhof|Eching|Neufahrn(b Freising)|Pulling(b Freising)|Freising"/>
+	</s>
+</timetable>
