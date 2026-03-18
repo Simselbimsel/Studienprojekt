@@ -1,5 +1,10 @@
 <?xml version="1.0" ?>
 <timetable station="Wicklesgreuth">
+	<s id="4279563932246179799-2603180839-15">
+		<tl t="p" o="GARE" c="ARV" n="89685"/>
+		<ar pt="2603181056" pp="4" l="RE90" fb="RE90" ppth="Stuttgart Hbf|Marbach(Neckar)|Backnang|Oppenweiler(Württ)|Sulzbach(Murr)|Murrhardt|Gaildorf West|Schwäbisch Hall-Hessental|Eckartshausen-Ilshofen|Crailsheim|Schnelldorf|Dombühl|Leutershausen-Wiedersbach|Ansbach"/>
+		<dp pt="2603181056" pp="4" l="RE90" fb="RE90" ppth="Heilsbronn|Roßtal|Nürnberg Hbf"/>
+	</s>
 	<s id="-9200509977787963382-2603181032-3">
 		<tl f="S" t="p" o="800721" c="S" n="39429"/>
 		<ar pt="2603181040" pp="4" l="S4" fb="S4" ppth="Ansbach|Sachsen(b Ansbach)"/>
@@ -8,6 +13,20 @@
 	<s id="7909396427052713978-2603181032-4">
 		<tl f="N" t="p" o="800720" c="RB" n="59042"/>
 		<ar pt="2603181050" pp="5" l="RB91" fb="RB91" ppth="Windsbach|Neuendettelsau|Petersaurach"/>
+	</s>
+	<s id="1514002527401769933-2603180946-12">
+		<tl f="S" t="p" o="800721" c="S" n="39424"/>
+		<ar pt="2603181018" pp="2" l="S4" fb="S4" ppth="Nürnberg Hbf|Nürnberg-Schweinau|Nürnberg-Stein|Unterasbach|Oberasbach|Anwanden|Roßtal|Roßtal Wegbrücke|Raitersaich|Heilsbronn|Petersaurach Nord"/>
+		<dp pt="2603181019" pp="2" l="S4" fb="S4" ppth="Sachsen(b Ansbach)|Ansbach"/>
+	</s>
+	<s id="8435516328798159949-2603181005-1">
+		<tl f="N" t="p" o="800720" c="RB" n="59041"/>
+		<dp pt="2603181005" pp="5" l="RB91" fb="RB91" ppth="Petersaurach|Neuendettelsau|Windsbach"/>
+	</s>
+	<s id="-7749775710427008689-2603181038-4">
+		<tl t="p" o="GARE" c="ARV" n="88614"/>
+		<ar pt="2603181057" pp="2" l="RE90" fb="RE90" ppth="Nürnberg Hbf|Roßtal|Heilsbronn"/>
+		<dp pt="2603181058" pp="2" l="RE90" fb="RE90" ppth="Ansbach|Leutershausen-Wiedersbach|Dombühl|Schnelldorf|Crailsheim|Eckartshausen-Ilshofen|Schwäbisch Hall-Hessental|Gaildorf West|Murrhardt|Sulzbach(Murr)|Oppenweiler(Württ)|Backnang|Marbach(Neckar)|Stuttgart Hbf"/>
 	</s>
 	<s id="7429974344649304269-2603181021-12">
 		<tl f="S" t="p" o="800721" c="S" n="39426"/>
@@ -18,24 +37,5 @@
 		<tl f="S" t="p" o="800721" c="S" n="39427"/>
 		<ar pt="2603181002" pp="4" l="S4" fb="S4" ppth="Crailsheim|Schnelldorf|Dombühl|Leutershausen-Wiedersbach|Ansbach|Sachsen(b Ansbach)"/>
 		<dp pt="2603181003" pp="4" l="S4" fb="S4" ppth="Petersaurach Nord|Heilsbronn|Raitersaich|Roßtal Wegbrücke|Roßtal|Anwanden|Oberasbach|Unterasbach|Nürnberg-Stein|Nürnberg-Schweinau|Nürnberg Hbf"/>
-	</s>
-	<s id="1514002527401769933-2603180946-12">
-		<tl f="S" t="p" o="800721" c="S" n="39424"/>
-		<ar pt="2603181018" pp="2" l="S4" fb="S4" ppth="Nürnberg Hbf|Nürnberg-Schweinau|Nürnberg-Stein|Unterasbach|Oberasbach|Anwanden|Roßtal|Roßtal Wegbrücke|Raitersaich|Heilsbronn|Petersaurach Nord"/>
-		<dp pt="2603181019" pp="2" l="S4" fb="S4" ppth="Sachsen(b Ansbach)|Ansbach"/>
-	</s>
-	<s id="-7749775710427008689-2603181038-4">
-		<tl t="p" o="GARE" c="ARV" n="88614"/>
-		<ar pt="2603181057" pp="2" l="RE90" fb="RE90" ppth="Nürnberg Hbf|Roßtal|Heilsbronn"/>
-		<dp pt="2603181058" pp="2" l="RE90" fb="RE90" ppth="Ansbach|Leutershausen-Wiedersbach|Dombühl|Schnelldorf|Crailsheim|Eckartshausen-Ilshofen|Schwäbisch Hall-Hessental|Gaildorf West|Murrhardt|Sulzbach(Murr)|Oppenweiler(Württ)|Backnang|Marbach(Neckar)|Stuttgart Hbf"/>
-	</s>
-	<s id="8435516328798159949-2603181005-1">
-		<tl f="N" t="p" o="800720" c="RB" n="59041"/>
-		<dp pt="2603181005" pp="5" l="RB91" fb="RB91" ppth="Petersaurach|Neuendettelsau|Windsbach"/>
-	</s>
-	<s id="4279563932246179799-2603180839-15">
-		<tl t="p" o="GARE" c="ARV" n="89685"/>
-		<ar pt="2603181056" pp="4" l="RE90" fb="RE90" ppth="Stuttgart Hbf|Marbach(Neckar)|Backnang|Oppenweiler(Württ)|Sulzbach(Murr)|Murrhardt|Gaildorf West|Schwäbisch Hall-Hessental|Eckartshausen-Ilshofen|Crailsheim|Schnelldorf|Dombühl|Leutershausen-Wiedersbach|Ansbach"/>
-		<dp pt="2603181056" pp="4" l="RE90" fb="RE90" ppth="Heilsbronn|Roßtal|Nürnberg Hbf"/>
 	</s>
 </timetable>
