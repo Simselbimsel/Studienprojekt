@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<timetable station="Regenstauf">
+	<s id="8877653814039573035-2603191251-2">
+		<tl t="p" o="O9" c="OPB" n="79724"/>
+		<ar pt="2603191300" pp="1" l="RB23" fb="RB23" ppth="Regensburg Hbf"/>
+		<dp pt="2603191301" pp="1" l="RB23" fb="RB23" ppth="Maxhütte-Haidhof|Schwandorf|Irrenlohe|Schwarzenfeld(Opf)|Nabburg|Pfreimd|Wernberg|Luhe|Luhe-Wildenau|Weiden(Oberpf)"/>
+	</s>
+	<s id="-3498885664766752348-2603191140-10">
+		<tl f="N" t="p" o="800759" c="RE" n="3565"/>
+		<ar pt="2603191305" pp="3" l="RE40" fb="RE40" ppth="Nürnberg Hbf|Hersbruck(r Pegnitz)|Hartmannshof|Etzelwang|Neukirchen(b Sulzb)|Sulzbach-Rosenberg|Amberg|Schwandorf|Maxhütte-Haidhof"/>
+		<dp pt="2603191305" pp="3" l="RE40" fb="RE40" ppth="Regensburg Hbf"/>
+	</s>
+	<s id="-3855826886910654760-2603191300-11">
+		<tl t="p" o="O9" c="OPB" n="79727"/>
+		<ar pt="2603191358" pp="3" l="RB23" fb="RB23" ppth="Weiden(Oberpf)|Luhe-Wildenau|Luhe|Wernberg|Pfreimd|Nabburg|Schwarzenfeld(Opf)|Irrenlohe|Schwandorf|Maxhütte-Haidhof"/>
+		<dp pt="2603191359" pp="3" l="RB23" fb="RB23" ppth="Regensburg Hbf"/>
+	</s>
+	<s id="6801213720378632245-2603191335-2">
+		<tl f="N" t="p" o="800759" c="RE" n="3470"/>
+		<ar pt="2603191344" pp="1" l="RE41" fb="RE41" ppth="Regensburg Hbf"/>
+		<dp pt="2603191345" pp="1" l="RE41" fb="RE41" ppth="Maxhütte-Haidhof|Schwandorf|Amberg|Sulzbach-Rosenberg|Neukirchen(b Sulzb)|Etzelwang|Hartmannshof|Hersbruck(r Pegnitz)|Nürnberg Hbf"/>
+	</s>
+	<s id="3794182626854929269-2603191335-2">
+		<tl f="N" t="p" o="800759" c="RE" n="3570"/>
+		<ar pt="2603191344" pp="1" l="RE40" fb="RE40" wings="6801213720378632245-2603191335" ppth="Regensburg Hbf"/>
+		<dp pt="2603191345" pp="1" l="RE40" fb="RE40" wings="6801213720378632245-2603191335" ppth="Maxhütte-Haidhof|Schwandorf|Amberg|Sulzbach-Rosenberg|Neukirchen(b Sulzb)|Etzelwang|Hartmannshof|Hersbruck(r Pegnitz)|Nürnberg Hbf"/>
+	</s>
+</timetable>
