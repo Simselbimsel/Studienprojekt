@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<timetable station="Neukirchen(b Sulzb)">
+	<s id="5905229563142797783-2603211940-5">
+		<tl f="N" t="p" o="800759" c="RE" n="3581"/>
+		<ar pt="2603212011" pp="3" l="RE47" fb="RE47" wings="4266549557895452242-2603211940" ppth="Nürnberg Hbf|Hersbruck(r Pegnitz)|Hartmannshof|Etzelwang"/>
+		<dp pt="2603212015" pp="3" l="RE47" fb="RE47" wings="4266549557895452242-2603211940" ppth="Sulzbach-Rosenberg|Amberg|Schwandorf|Bodenwöhr Nord|Neubäu|Roding|Pösing|Cham(Oberpf)"/>
+	</s>
+	<s id="5502162529122480175-2603211940-5">
+		<tl f="N" t="p" o="800759" c="RE" n="3481"/>
+		<ar pt="2603212011" pp="3" l="RE41" fb="RE41" wings="4266549557895452242-2603211940|5905229563142797783-2603211940" ppth="Nürnberg Hbf|Hersbruck(r Pegnitz)|Hartmannshof|Etzelwang"/>
+		<dp pt="2603212013" pp="3" l="RE41" fb="RE41" ppth="Vilseck|Freihung|Weiherhammer|Weiden(Oberpf)|Marktredwitz|Oberkotzau|Hof Hbf"/>
+	</s>
+	<s id="1391654360280535143-2603211840-8">
+		<tl f="N" t="p" o="800759" c="RE" n="39542"/>
+		<ar pt="2603212037" pp="2" l="RE41" fb="RE41" tra="-5631613463694306998-2603212043-1" ppth="Hof Hbf|Oberkotzau|Marktredwitz|Weiden(Oberpf)|Weiherhammer|Freihung|Vilseck"/>
+	</s>
+	<s id="4266549557895452242-2603211940-5">
+		<tl f="N" t="p" o="800759" c="RE" n="3490"/>
+		<ar pt="2603212011" pp="3" l="RE40" fb="RE40" ppth="Nürnberg Hbf|Hersbruck(r Pegnitz)|Hartmannshof|Etzelwang"/>
+		<dp pt="2603212015" pp="3" l="RE40" fb="RE40" ppth="Sulzbach-Rosenberg|Amberg|Schwandorf|Maxhütte-Haidhof|Regenstauf|Regensburg Hbf"/>
+	</s>
+	<s id="-2963672607633888684-2603211942-7">
+		<tl f="N" t="p" o="800759" c="RE" n="3582"/>
+		<ar pt="2603212040" pp="2" l="RE40" fb="RE40" ppth="Regensburg Hbf|Regenstauf|Maxhütte-Haidhof|Schwandorf|Amberg|Sulzbach-Rosenberg"/>
+		<dp pt="2603212043" pp="2" l="RE40" fb="RE40" ppth="Etzelwang|Hartmannshof|Hersbruck(r Pegnitz)|Nürnberg Hbf"/>
+	</s>
+	<s id="-5631613463694306998-2603212043-1">
+		<tl f="N" t="p" o="800759" c="RE" n="3482"/>
+		<dp pt="2603212043" pp="2" l="RE41" fb="RE41" tra="1391654360280535143-2603211840-8" ppth="Etzelwang|Hartmannshof|Hersbruck(l Pegnitz)|Nürnberg Hbf"/>
+	</s>
+</timetable>
