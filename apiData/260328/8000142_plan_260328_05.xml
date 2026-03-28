@@ -1,0 +1,51 @@
+<?xml version="1.0" ?>
+<timetable station="Hagen Hbf">
+	<s id="8720297621224348368-2603280536-1">
+		<tl f="S" t="p" o="8003L1" c="S" n="33853"/>
+		<dp pt="2603280536" pp="14" l="S9" fb="S9" ppth="Hagen-Wehringhausen|Hagen-Heubing|Hagen-Westerbauer|Gevelsberg-Knapp|Gevelsberg Hbf|Gevelsberg-Kipp|Gevelsberg West"/>
+	</s>
+	<s id="3738247329104172180-2603280516-1">
+		<tl f="N" t="p" o="8003L1" c="RB" n="30756"/>
+		<dp pt="2603280516" pp="18" l="RB40" fb="RB40" ppth="Hagen-Vorhalle|Wetter(Ruhr)|Witten Hbf|Bochum Hbf|Wattenscheid|Essen-Kray Süd|Essen Hbf"/>
+	</s>
+	<s id="-7161969708229302872-2603280448-7">
+		<tl f="D" t="p" o="R4NRN" c="VIA" n="31385"/>
+		<ar pt="2603280543" pp="2" l="RB91" fb="RB91" ppth="Finnentrop|Plettenberg|Werdohl|Altena(Westf)|Iserlohn-Letmathe|Hohenlimburg"/>
+	</s>
+	<s id="3171565758535074270-2603280514-5">
+		<tl f="D" t="p" o="R4NRN" c="VIA" n="31391"/>
+		<ar pt="2603280543" pp="2" l="RE16" fb="RE16" wings="-7161969708229302872-2603280448" ppth="Iserlohn|Letmathe Dechenhöhle|Iserlohn-Letmathe|Hohenlimburg"/>
+	</s>
+	<s id="1536603446801114528-2603280507-8">
+		<tl f="N" t="p" o="8003L1" c="RB" n="30757"/>
+		<ar pt="2603280546" pp="18" l="RB40" fb="RB40" ppth="Essen Hbf|Essen-Kray Süd|Wattenscheid|Bochum Hbf|Witten Hbf|Wetter(Ruhr)|Hagen-Vorhalle"/>
+	</s>
+	<s id="-3320308703441380142-2603280500-6">
+		<tl t="p" o="NXRE" c="NX" n="52823"/>
+		<ar pt="2603280537" pp="3" l="RE7" fb="RE7" ppth="Hamm(Westf)Hbf|Bönen|Unna|Holzwickede|Schwerte(Ruhr)"/>
+	</s>
+	<s id="-7452891362926971203-2603280502-8">
+		<tl f="S" t="p" o="8003L1" c="S" n="33850"/>
+		<ar pt="2603280519" pp="14" l="S9" fb="S9" ppth="Gevelsberg West|Gevelsberg-Kipp|Gevelsberg Hbf|Gevelsberg-Knapp|Hagen-Westerbauer|Hagen-Heubing|Hagen-Wehringhausen"/>
+	</s>
+	<s id="1016031418116244288-2603280550-1">
+		<tl f="S" t="p" o="800354" c="S" n="31513"/>
+		<dp pt="2603280550" pp="14" l="S5" fb="S5" tra="-3223693925182322678-2603280532-8" ppth="Hagen-Vorhalle|Wetter(Ruhr)|Witten Hbf|Witten-Annen Nord|Dortmund-Kruckel|Dortmund-Barop|Dortmund Hbf"/>
+	</s>
+	<s id="-8792907239348485023-2603280511-6">
+		<tl f="N" t="p" o="800348" c="RE" n="33600"/>
+		<ar pt="2603280554" pp="4" l="RE17" fb="RE17" ppth="Arnsberg(Westf)|Arnsberg-Neheim-Hüsten|Wickede(Ruhr)|Fröndenberg|Schwerte(Ruhr)"/>
+	</s>
+	<s id="-3223693925182322678-2603280532-8">
+		<tl f="S" t="p" o="800354" c="S" n="61510"/>
+		<ar pt="2603280549" pp="14" l="S8" fb="S8" tra="1016031418116244288-2603280550-1" ppth="Gevelsberg West|Gevelsberg-Kipp|Gevelsberg Hbf|Gevelsberg-Knapp|Hagen-Westerbauer|Hagen-Heubing|Hagen-Wehringhausen"/>
+	</s>
+	<s id="3829768622083947258-2603280506-1">
+		<tl f="S" t="p" o="800354" c="S" n="61511"/>
+		<dp pt="2603280506" pp="14" l="S8" fb="S8" tra="544582788371322102-2603280430-5" ppth="Hagen-Wehringhausen|Hagen-Heubing|Hagen-Westerbauer|Gevelsberg-Knapp|Gevelsberg Hbf|Gevelsberg-Kipp|Gevelsberg West"/>
+	</s>
+	<s id="544582788371322102-2603280430-5">
+		<tl f="S" t="p" o="800354" c="S" n="31508"/>
+		<ar pt="2603280504" pp="14" l="S5" fb="S5" tra="3829768622083947258-2603280506-1" ppth="Dortmund Hbf|Witten Hbf|Wetter(Ruhr)|Hagen-Vorhalle"/>
+	</s>
+</timetable>
