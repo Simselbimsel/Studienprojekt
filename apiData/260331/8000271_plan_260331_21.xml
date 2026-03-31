@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<timetable station="Neumünster">
+	<s id="8601835580030259121-2603312137-3">
+		<tl f="N" t="p" o="800201" c="RE" n="11237"/>
+		<ar pt="2603312154" pp="4" l="RE70" fb="RE70" ppth="Kiel Hbf|Bordesholm"/>
+		<dp pt="2603312156" pp="4" l="RE70" fb="RE70" ppth="Brokstedt|Wrist|Elmshorn|Hamburg Dammtor|Hamburg Hbf"/>
+	</s>
+	<s id="2417607783695456563-2603312105-5">
+		<tl f="N" t="p" o="800201" c="RE" n="11287"/>
+		<ar pt="2603312127" pp="5" l="RE7" fb="RE7" ppth="Kiel Hbf|Flintbek|Bordesholm|Einfeld"/>
+		<dp pt="2603312131" pp="5" l="RE7" fb="RE7" ppth="Elmshorn|Pinneberg|Hamburg Dammtor|Hamburg Hbf"/>
+	</s>
+	<s id="1341255694964782463-2603312017-8">
+		<tl f="N" t="p" o="800201" c="RE" n="11187"/>
+		<ar pt="2603312124" pp="5" l="RE7" fb="RE7" ppth="Flensburg|Tarp|Jübek|Schleswig|Owschlag|Rendsburg|Nortorf"/>
+		<dp pt="2603312131" pp="5" l="RE7" fb="RE7" wings="2417607783695456563-2603312105" ppth="Elmshorn|Pinneberg|Hamburg Dammtor|Hamburg Hbf"/>
+	</s>
+	<s id="1434854366317726159-2603312039-4">
+		<tl f="N" t="p" o="800201" c="RE" n="11282"/>
+		<ar pt="2603312128" pp="3" l="RE7" fb="RE7" tra="-3156300399232693369-2603312133-1" ppth="Hamburg Hbf|Hamburg Dammtor|Elmshorn"/>
+	</s>
+	<s id="1579406976060350111-2603312008-6">
+		<tl f="N" t="p" o="800201" c="RE" n="11232"/>
+		<ar pt="2603312102" pp="3" l="RE70" fb="RE70" ppth="Hamburg Hbf|Hamburg Dammtor|Elmshorn|Wrist|Brokstedt"/>
+		<dp pt="2603312103" pp="3" l="RE70" fb="RE70" ppth="Bordesholm|Kiel Hbf"/>
+	</s>
+	<s id="3937520819304501687-2603312102-5">
+		<tl f="D" t="p" o="O0" c="NBE" n="83787"/>
+		<ar pt="2603312125" pp="6" l="RB63" fb="RB63" ppth="Hohenwestedt|Aukrug|Wasbek|Neumünster Stadtwald"/>
+	</s>
+	<s id="-5524211886221518875-2603312135-1">
+		<tl f="D" t="p" o="O0" c="NBE" n="83818"/>
+		<dp pt="2603312135" pp="6" l="RB63" fb="RB63" ppth="Neumünster Stadtwald|Wasbek|Aukrug|Hohenwestedt|Osterstedt|Beringstedt|Gokels|Hademarschen|Beldorf|Albersdorf|Nordhastedt|Heide(Holst)|Tiebensee|Jarrenwisch|Wesselburen|Süderdeich|Reinsbüttel|Büsum"/>
+	</s>
+	<s id="318940985156852472-2603312130-2">
+		<tl f="N" t="p" o="800201" c="RE" n="72029"/>
+		<ar pt="2603312144" pp="4" l="RE70" fb="RE70" ppth="Kiel Hbf"/>
+	</s>
+	<s id="-3156300399232693369-2603312133-1">
+		<tl f="N" t="p" o="800201" c="RE" n="11182"/>
+		<dp pt="2603312133" pp="3" l="RE7" fb="RE7" tra="1434854366317726159-2603312039-4" ppth="Nortorf|Rendsburg|Owschlag|Schleswig|Jübek|Tarp|Flensburg"/>
+	</s>
+</timetable>
