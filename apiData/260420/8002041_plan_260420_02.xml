@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<timetable station="Frankfurt(Main)Süd">
+	<s id="-2807885641046949287-2604200000-14">
+		<tl t="p" o="B7" c="Bus" n="4636"/>
+		<ar pt="2604200219" pp="" l="EV" fb="Bus EV" ppth="Aschaffenburg Hbf|Kleinostheim|Dettingen(Main)|Kahl(Main)|Großkrotzenburg|Großauheim(Kr Hanau)|Hanau Hbf|Hanau West|Hanau-Wilhelmsbad|Maintal Ost|Maintal West|Frankfurt-Mainkur|Frankfurt(Main)Ost"/>
+	</s>
+	<s id="-5591597380485360579-2604192041-4">
+		<tl f="F" t="p" o="NZ" c="IC" n="60470"/>
+		<ar pt="2604200214" pp="7" fb="IC 60470" ppth="Zürich HB|Heidelberg Hbf|Darmstadt Hbf"/>
+		<dp pt="2604200216" pp="7" fb="IC 60470" ppth="Hanau Hbf|Göttingen|Hannover Hbf|Bremen Hbf|Hamburg-Harburg|Hamburg Hbf|Hamburg Dammtor|Hamburg-Altona"/>
+	</s>
+	<s id="1003446772902483359-2604192041-4">
+		<tl t="p" o="85" c="NJ" n="470"/>
+		<ar pt="2604200214" pp="7" fb="NJ 470" wings="-5591597380485360579-2604192041" ppth="Zürich HB|Heidelberg Hbf|Darmstadt Hbf"/>
+		<dp pt="2604200216" pp="7" fb="NJ 470" wings="-5591597380485360579-2604192041" ppth="Hanau Hbf|Göttingen|Hannover Hbf|Bremen Hbf|Hamburg-Harburg|Hamburg Hbf|Hamburg Dammtor|Hamburg-Altona"/>
+	</s>
+</timetable>
