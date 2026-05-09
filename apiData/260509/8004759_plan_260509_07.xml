@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<timetable station="Pegnitz">
+	<s id="2904166575806876952-2605090609-2">
+		<tl t="p" o="B7" c="Bus" n="1106"/>
+		<ar pt="2605090714" pp="" l="EV" fb="Bus EV" ppth="Nürnberg Hbf (Nelson-Mandela-Platz/Südausgang)"/>
+	</s>
+	<s id="-30992579074242027-2605090632-9">
+		<tl f="N" t="p" o="800759" c="RE" n="3022"/>
+		<ar pt="2605090744" pp="3" l="RE30" fb="RE30" tra="5309051035717249307-2605090746-1" ppth="Hof Hbf|Oberkotzau|Schwarzenbach(Saale)|Münchberg|Stammbach|Marktschorgast|Trebgast|Bayreuth Hbf"/>
+	</s>
+	<s id="-3429742019210145063-2605090705-2">
+		<tl f="N" t="p" o="800759" c="RE" n="28277"/>
+		<ar pt="2605090714" pp="1" l="RE32" fb="RE32" tra="-2051604032802355668-2605090720-1" ppth="Neuhaus(Pegnitz)"/>
+	</s>
+	<s id="-2051604032802355668-2605090720-1">
+		<tl f="N" t="p" o="800759" c="RE" n="4881"/>
+		<dp pt="2605090720" pp="3" l="RE31" fb="RE31" tra="-3429742019210145063-2605090705-2" ppth="Kirchenlaibach|Marktredwitz|Oberkotzau|Hof Hbf"/>
+	</s>
+	<s id="-3574126350774949173-2605090550-15">
+		<tl f="N" t="p" o="800759" c="RE" n="3432"/>
+		<ar pt="2605090719" pp="2" l="RE32" fb="RE32" ppth="Lichtenfels|Hochstadt-Marktzeuln|Burgkunstadt|Mainleus|Kulmbach|Untersteinach(b Stadtsteinach)|Ludwigschorgast|Neuenmarkt-Wirsberg|Trebgast|Harsdorf|Ramsenthal|Bindlach|Bayreuth Hbf|Creußen(Oberfr)"/>
+	</s>
+	<s id="8232127345116660427-2605090740-1">
+		<tl f="N" t="p" o="800759" c="RE" n="3405"/>
+		<dp pt="2605090740" pp="1" l="RE32" fb="RE32" pde="Coburg" ppth="Schnabelwaid|Creußen(Oberfr)|Bayreuth Hbf|Neuenmarkt-Wirsberg|Kulmbach|Burgkunstadt|Hochstadt-Marktzeuln|Lichtenfels"/>
+	</s>
+	<s id="-4790081863530784715-2605090702-4">
+		<tl f="N" t="p" o="800759" c="RE" n="3824"/>
+		<ar pt="2605090739" pp="2" l="RE31" fb="RE31" ppth="Marktredwitz|Kirchenlaibach|Schnabelwaid"/>
+	</s>
+	<s id="-126511544117487150-2605090750-1">
+		<tl t="p" o="B7" c="Bus" n="1111"/>
+		<dp pt="2605090750" pp="" l="EV" fb="Bus EV" ppth="Nürnberg Hbf (Nelson-Mandela-Platz/Südausgang)"/>
+	</s>
+	<s id="5309051035717249307-2605090746-1">
+		<tl f="N" t="p" o="800759" c="RE" n="28278"/>
+		<dp pt="2605090746" pp="2" l="RE32" fb="RE32" tra="-30992579074242027-2605090632-9" ppth="Neuhaus(Pegnitz)"/>
+	</s>
+</timetable>
