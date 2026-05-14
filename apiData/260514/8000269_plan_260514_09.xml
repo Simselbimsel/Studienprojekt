@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<timetable station="Neukirchen(b Sulzb)">
+	<s id="-7624143018571280496-2605140920-1">
+		<tl t="p" o="B7" c="Bus" n="3459"/>
+		<dp pt="2605140920" pp="" l="EV" fb="Bus EV" ppth="Vilseck|Freihung|Weiherhammer|Weiden(Oberpf)"/>
+	</s>
+	<s id="-6889903246242589763-2605140840-5">
+		<tl f="N" t="p" o="800759" c="RE" n="3459"/>
+		<ar pt="2605140911" pp="3" l="RE41" fb="RE41" tra="-8912360159937424707-2605140915-1" ppth="Nürnberg Hbf|Hersbruck(r Pegnitz)|Hartmannshof|Etzelwang"/>
+	</s>
+	<s id="2504261039350673679-2605140820-5">
+		<tl t="p" o="B7" c="Bus" n="3460"/>
+		<ar pt="2605140931" pp="" l="EV" fb="Bus EV" ppth="Weiden(Oberpf)|Weiherhammer|Freihung|Vilseck"/>
+	</s>
+	<s id="-5882315656413458033-2605140943-1">
+		<tl f="N" t="p" o="800759" c="RE" n="3460"/>
+		<dp pt="2605140943" pp="2" l="RE41" fb="RE41" tra="841176620487939719-2605140840-7" ppth="Etzelwang|Hartmannshof|Hersbruck(r Pegnitz)|Nürnberg Hbf"/>
+	</s>
+	<s id="-8912360159937424707-2605140915-1">
+		<tl f="N" t="p" o="800759" c="RE" n="3559"/>
+		<dp pt="2605140915" pp="3" l="RE40" fb="RE40" tra="-6889903246242589763-2605140840-5" ppth="Sulzbach-Rosenberg|Amberg|Schwandorf|Maxhütte-Haidhof|Regenstauf|Regensburg Hbf"/>
+	</s>
+	<s id="841176620487939719-2605140840-7">
+		<tl f="N" t="p" o="800759" c="RE" n="3560"/>
+		<ar pt="2605140940" pp="2" l="RE40" fb="RE40" tra="-5882315656413458033-2605140943-1" ppth="Regensburg Hbf|Regenstauf|Maxhütte-Haidhof|Schwandorf|Amberg|Sulzbach-Rosenberg"/>
+	</s>
+</timetable>
