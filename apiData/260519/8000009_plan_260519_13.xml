@@ -1,15 +1,5 @@
 <?xml version="1.0" ?>
 <timetable station="Ansbach">
-	<s id="-2984218347457973641-2605191311-5">
-		<tl f="S" t="p" o="800721" c="S" n="39447"/>
-		<ar pt="2605191344" pp="1" l="S4" fb="S4" ppth="Crailsheim|Schnelldorf|Dombühl|Leutershausen-Wiedersbach"/>
-		<dp pt="2605191354" pp="1" l="S4" fb="S4" ppth="Sachsen(b Ansbach)|Wicklesgreuth|Petersaurach Nord|Heilsbronn|Raitersaich|Roßtal Wegbrücke|Roßtal|Anwanden|Oberasbach|Unterasbach|Nürnberg-Stein|Nürnberg-Schweinau|Nürnberg Hbf"/>
-	</s>
-	<s id="5654289417797179954-2605191225-5">
-		<tl t="p" o="GYRE" c="ARV" n="57222"/>
-		<ar pt="2605191301" pp="3" l="RE80" fb="RE80" ppth="Treuchtlingen|Gunzenhausen|Muhr am See|Triesdorf"/>
-		<dp pt="2605191311" pp="3" l="RE80" fb="RE80" ppth="Oberdachstetten|Burgbernheim-Wildbad|Steinach(bei Rothenburg ob der Tauber)|Uffenheim|Marktbreit|Ochsenfurt|Goßmannsdorf|Winterhausen|Würzburg-Heidingsfeld Ost|Würzburg Süd|Würzburg Hbf"/>
-	</s>
 	<s id="-7790168326735628876-2605191040-3">
 		<tl f="F" t="p" o="80" c="ICE" n="1285"/>
 		<ar pt="2605191327" pp="4" fb="ICE 1285" ppth="Hannover Hbf|Würzburg Hbf"/>
@@ -19,19 +9,33 @@
 		<tl t="p" o="GYRE" c="ARV" n="57219"/>
 		<dp pt="2605191316" pp="1" l="RE80" fb="RE80" ppth="Triesdorf|Muhr am See|Gunzenhausen|Treuchtlingen"/>
 	</s>
-	<s id="-8805988878202978923-2605191233-5">
-		<tl t="p" o="GARE" c="ARV" n="89686"/>
-		<ar pt="2605191306" pp="5" l="RE90" fb="RE90" ppth="Nürnberg Hbf|Roßtal|Heilsbronn|Wicklesgreuth"/>
-		<dp pt="2605191310" pp="5" l="RE90" fb="RE90" ppth="Leutershausen-Wiedersbach|Dombühl|Schnelldorf|Crailsheim|Eckartshausen-Ilshofen|Schwäbisch Hall-Hessental|Gaildorf West|Fichtenberg|Murrhardt|Sulzbach(Murr)|Oppenweiler(Württ)|Backnang|Winnenden|Waiblingen|Stuttgart-Bad Cannstatt|Stuttgart Hbf"/>
-	</s>
 	<s id="-3576512876377089804-2605191106-10">
 		<tl f="F" t="p" o="80" c="IC" n="2069"/>
 		<ar pt="2605191349" pp="5" fb="IC 2069" ppth="Karlsruhe Hbf|Pforzheim Hbf|Mühlacker|Vaihingen(Enz)|Stuttgart Hbf|Schwäbisch Gmünd|Aalen Hbf|Ellwangen|Crailsheim"/>
 		<dp pt="2605191351" pp="5" fb="IC 2069" ppth="Nürnberg Hbf"/>
 	</s>
+	<s id="5805970965301934847-2605191303-10">
+		<tl f="S" t="p" o="800721" c="S" n="39440"/>
+		<ar pt="2605191344" pp="25" l="S4" fb="S4" ppth="Nürnberg Hbf|Nürnberg-Schweinau|Nürnberg-Stein|Unterasbach|Oberasbach|Anwanden|Petersaurach Nord|Wicklesgreuth|Sachsen(b Ansbach)"/>
+	</s>
+	<s id="-2984218347457973641-2605191311-5">
+		<tl f="S" t="p" o="800721" c="S" n="39447"/>
+		<ar pt="2605191344" pp="1" l="S4" fb="S4" ppth="Crailsheim|Schnelldorf|Dombühl|Leutershausen-Wiedersbach"/>
+		<dp pt="2605191354" pp="1" l="S4" fb="S4" ppth="Sachsen(b Ansbach)|Wicklesgreuth|Petersaurach Nord|Heilsbronn|Raitersaich|Roßtal Wegbrücke|Roßtal|Anwanden|Oberasbach|Unterasbach|Nürnberg-Stein|Nürnberg-Schweinau|Nürnberg Hbf"/>
+	</s>
 	<s id="1550019771492138041-2605191314-1">
 		<tl f="S" t="p" o="800721" c="S" n="39443"/>
 		<dp pt="2605191314" pp="25" l="S4" fb="S4" ppth="Sachsen(b Ansbach)|Wicklesgreuth|Petersaurach Nord|Anwanden|Oberasbach|Unterasbach|Nürnberg-Stein|Nürnberg-Schweinau|Nürnberg Hbf"/>
+	</s>
+	<s id="5654289417797179954-2605191225-5">
+		<tl t="p" o="GYRE" c="ARV" n="57222"/>
+		<ar pt="2605191301" pp="3" l="RE80" fb="RE80" ppth="Treuchtlingen|Gunzenhausen|Muhr am See|Triesdorf"/>
+		<dp pt="2605191311" pp="3" l="RE80" fb="RE80" ppth="Oberdachstetten|Burgbernheim-Wildbad|Steinach(bei Rothenburg ob der Tauber)|Uffenheim|Marktbreit|Ochsenfurt|Goßmannsdorf|Winterhausen|Würzburg-Heidingsfeld Ost|Würzburg Süd|Würzburg Hbf"/>
+	</s>
+	<s id="-8805988878202978923-2605191233-5">
+		<tl t="p" o="GARE" c="ARV" n="89686"/>
+		<ar pt="2605191306" pp="5" l="RE90" fb="RE90" ppth="Nürnberg Hbf|Roßtal|Heilsbronn|Wicklesgreuth"/>
+		<dp pt="2605191310" pp="5" l="RE90" fb="RE90" ppth="Leutershausen-Wiedersbach|Dombühl|Schnelldorf|Crailsheim|Eckartshausen-Ilshofen|Schwäbisch Hall-Hessental|Gaildorf West|Fichtenberg|Murrhardt|Sulzbach(Murr)|Oppenweiler(Württ)|Backnang|Winnenden|Waiblingen|Stuttgart-Bad Cannstatt|Stuttgart Hbf"/>
 	</s>
 	<s id="-943583685250844053-2605191221-14">
 		<tl f="S" t="p" o="800721" c="S" n="39436"/>
@@ -45,9 +49,5 @@
 	<s id="1855172277189853925-2605191306-5">
 		<tl t="p" o="GYRE" c="ARV" n="57224"/>
 		<ar pt="2605191337" pp="2" l="RE80" fb="RE80" ppth="Treuchtlingen|Gunzenhausen|Muhr am See|Triesdorf"/>
-	</s>
-	<s id="5805970965301934847-2605191303-10">
-		<tl f="S" t="p" o="800721" c="S" n="39440"/>
-		<ar pt="2605191344" pp="25" l="S4" fb="S4" ppth="Nürnberg Hbf|Nürnberg-Schweinau|Nürnberg-Stein|Unterasbach|Oberasbach|Anwanden|Petersaurach Nord|Wicklesgreuth|Sachsen(b Ansbach)"/>
 	</s>
 </timetable>
