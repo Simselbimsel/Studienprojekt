@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<timetable station="Mittenwald">
+	<s id="2303779071176860713-2605301704-1">
+		<tl f="N" t="p" o="800790" c="RE" n="4694"/>
+		<dp pt="2605301704" pp="3" l="RE61" fb="RE61" ppth="Klais|Garmisch-Partenkirchen|Murnau|Weilheim(Oberbay)|München-Pasing|München Hbf"/>
+	</s>
+	<s id="-4376796942515647789-2605301528-14">
+		<tl f="N" t="p" o="800790" c="RB" n="5429"/>
+		<ar pt="2605301723" pp="1" l="RB6" fb="RB6" tra="5152790414205674554-2605301528-1" ppth="München Hbf Gl.27-36|München-Pasing|Tutzing|Weilheim(Oberbay)|Huglfing|Uffing a Staffelsee|Murnau|Ohlstadt|Eschenlohe|Oberau|Farchant|Garmisch-Partenkirchen|Klais"/>
+	</s>
+	<s id="5152790414205674554-2605301528-1">
+		<tl f="S" t="p" o="800790" c="S" n="5429"/>
+		<dp pt="2605301736" pp="1" l="S6" fb="S6" tra="-4376796942515647789-2605301528-14" ppth="Scharnitz|Gießenbach in Tirol|Seefeld in Tirol"/>
+	</s>
+	<s id="-6693801931531373733-2605301638-2">
+		<tl f="N" t="p" o="81" c="RB" n="5426"/>
+		<ar pt="2605301735" pp="3" l="6" fb="6" pde="Innsbruck Hbf" ppth="Scharnitz"/>
+		<dp pt="2605301736" pp="3" l="RB6" fb="RB6" ppth="Klais|Garmisch-Partenkirchen|Farchant|Oberau|Eschenlohe|Ohlstadt|Murnau|Uffing a Staffelsee|Huglfing|Weilheim(Oberbay)|Tutzing|München-Pasing|München Hbf Gl.27-36"/>
+	</s>
+</timetable>
