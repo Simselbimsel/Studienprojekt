@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<timetable station="Neukirchen(b Sulzb)">
+	<s id="7113350740459500162-2605300740-5">
+		<tl f="N" t="p" o="800759" c="RE" n="3457"/>
+		<ar pt="2605300811" pp="3" l="RE41" fb="RE41" tra="4527811619059779001-2605300815-1" ppth="Nürnberg Hbf|Hersbruck(r Pegnitz)|Hartmannshof|Etzelwang"/>
+	</s>
+	<s id="1671580502225096708-2605300738-7">
+		<tl f="N" t="p" o="800759" c="RE" n="3558"/>
+		<ar pt="2605300840" pp="2" l="RE40" fb="RE40" ppth="Regensburg Hbf|Regenstauf|Maxhütte-Haidhof|Schwandorf|Amberg|Sulzbach-Rosenberg"/>
+		<dp pt="2605300843" pp="2" l="RE40" fb="RE40" ppth="Etzelwang|Hartmannshof|Hersbruck(r Pegnitz)|Nürnberg Hbf"/>
+	</s>
+	<s id="4527811619059779001-2605300815-1">
+		<tl f="N" t="p" o="800759" c="RE" n="3557"/>
+		<dp pt="2605300815" pp="3" l="RE40" fb="RE40" tra="7113350740459500162-2605300740-5" ppth="Sulzbach-Rosenberg|Amberg|Schwandorf|Maxhütte-Haidhof|Regenstauf|Regensburg Hbf"/>
+	</s>
+	<s id="-9025978942571687046-2605300825-2">
+		<tl f="N" t="p" o="800759" c="RE" n="3458"/>
+		<ar pt="2605300837" pp="2" l="RE41" fb="RE41" ppth="Vilseck"/>
+		<dp pt="2605300843" pp="2" l="RE41" fb="RE41" wings="1671580502225096708-2605300738" ppth="Etzelwang|Hartmannshof|Hersbruck(r Pegnitz)|Nürnberg Hbf"/>
+	</s>
+</timetable>
