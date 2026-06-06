@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<timetable station="Würzburg Hbf">
+	<s id="-8677182982400525824-2606062046-8">
+		<tl t="p" o="81" c="NJ" n="40420"/>
+		<ar pt="2606070234" pp="7" fb="NJ 40420" ppth="Innsbruck Hbf|Jenbach|Wörgl Hbf|Kufstein|Rosenheim|Ingolstadt Hbf|Nürnberg Hbf"/>
+		<dp pt="2606070236" pp="7" fb="NJ 40420" ppth="Kassel-Wilhelmshöhe|Göttingen|Hannover Hbf|Hamburg-Harburg|Hamburg Hbf|Hamburg Dammtor|Hamburg-Altona"/>
+	</s>
+	<s id="-4272298498907669914-2606061900-5">
+		<tl t="p" o="81" c="NJ" n="40421"/>
+		<ar pt="2606070225" pp="4" fb="NJ 40421" ppth="Amsterdam Centraal|Utrecht Centraal|Arnhem Centraal|Oberhausen Hbf"/>
+		<dp pt="2606070229" pp="4" fb="NJ 40421" ppth="Nürnberg Hbf|Regensburg Hbf|Passau Hbf|Wels Hbf|Linz Hbf|St.Pölten Hbf|Wien Meidling|Wien Hbf"/>
+	</s>
+	<s id="1595410400684371270-2606061936-8">
+		<tl t="p" o="81" c="NJ" n="498"/>
+		<ar pt="2606070234" pp="7" fb="NJ 498" wings="-8677182982400525824-2606062046" ppth="Wien Hbf|Wien Meidling|St.Pölten Hbf|Linz Hbf|Passau Hbf|Regensburg Hbf|Nürnberg Hbf"/>
+		<dp pt="2606070236" pp="7" fb="NJ 498" wings="-8677182982400525824-2606062046" ppth="Kassel-Wilhelmshöhe|Göttingen|Hannover Hbf|Hamburg-Harburg|Hamburg Hbf|Hamburg Dammtor|Hamburg-Altona"/>
+	</s>
+	<s id="-3823254010841261196-2606061900-5">
+		<tl t="p" o="84" c="NJ" n="421"/>
+		<ar pt="2606070225" pp="4" fb="NJ 421" wings="-4272298498907669914-2606061900" ppth="Amsterdam Centraal|Utrecht Centraal|Arnhem Centraal|Oberhausen Hbf"/>
+		<dp pt="2606070229" pp="4" fb="NJ 421" wings="-4272298498907669914-2606061900" ppth="Nürnberg Hbf|München Ost|Rosenheim|Kufstein|Wörgl Hbf|Jenbach|Innsbruck Hbf"/>
+	</s>
+	<s id="-4806817207890998144-2606062316-4">
+		<tl f="F" t="p" o="80" c="ICE" n="904"/>
+		<ar pt="2606070214" pp="6" fb="ICE 904" wings="3608565271589681000-2606062316" ppth="München Hbf|Ingolstadt Hbf|Nürnberg Hbf"/>
+		<dp pt="2606070216" pp="6" fb="ICE 904" wings="3608565271589681000-2606062316" ppth="Erfurt Hbf|Naumburg(Saale)Hbf|Leipzig Hbf|Bitterfeld|Lutherstadt Wittenberg Hbf|Berlin-Lichtenberg"/>
+	</s>
+</timetable>
