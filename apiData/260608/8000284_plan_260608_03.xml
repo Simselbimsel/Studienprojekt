@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<timetable station="Nürnberg Hbf">
+	<s id="6992012378128167215-2606071855-7">
+		<tl t="p" o="81" c="NJ" n="40491"/>
+		<ar pt="2606080315" pp="9" fb="NJ 40491" ppth="Hamburg-Altona|Hamburg Hbf|Hamburg-Harburg|Hannover Hbf|Göttingen|Würzburg Hbf"/>
+		<dp pt="2606080417" pp="9" fb="NJ 40491" ppth="Ingolstadt Hbf|München Ost|Rosenheim|Kufstein|Wörgl Hbf|Jenbach|Innsbruck Hbf"/>
+	</s>
+	<s id="-3802404608067192675-2606071855-7">
+		<tl t="p" o="81" c="NJ" n="499"/>
+		<ar pt="2606080315" pp="8" fb="NJ 499" wings="6992012378128167215-2606071855" ppth="Hamburg-Altona|Hamburg Hbf|Hamburg-Harburg|Hannover Hbf|Göttingen|Würzburg Hbf"/>
+		<dp pt="2606080408" pp="8" fb="NJ 499" wings="-4272298498907669914-2606071900" ppth="Regensburg Hbf|Passau Hbf|Wels Hbf|Linz Hbf|St.Pölten Hbf|Wien Meidling|Wien Hbf"/>
+	</s>
+	<s id="-3823254010841261196-2606071900-6">
+		<tl t="p" o="84" c="NJ" n="421"/>
+		<ar pt="2606080328" pp="8" fb="NJ 421" wings="-4272298498907669914-2606071900" ppth="Amsterdam Centraal|Utrecht Centraal|Arnhem Centraal|Oberhausen Hbf|Würzburg Hbf"/>
+		<dp pt="2606080417" pp="8" fb="NJ 421" wings="6992012378128167215-2606071855" ppth="Ingolstadt Hbf|München Ost|Rosenheim|Kufstein|Wörgl Hbf|Jenbach|Innsbruck Hbf"/>
+	</s>
+	<s id="-4272298498907669914-2606071900-6">
+		<tl t="p" o="81" c="NJ" n="40421"/>
+		<ar pt="2606080328" pp="8" fb="NJ 40421" ppth="Amsterdam Centraal|Utrecht Centraal|Arnhem Centraal|Oberhausen Hbf|Würzburg Hbf"/>
+		<dp pt="2606080408" pp="8" fb="NJ 40421" ppth="Regensburg Hbf|Passau Hbf|Wels Hbf|Linz Hbf|St.Pölten Hbf|Wien Meidling|Wien Hbf"/>
+	</s>
+</timetable>
