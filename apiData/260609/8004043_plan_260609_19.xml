@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<timetable station="Mittenwald">
+	<s id="5794569685690086918-2606091838-12">
+		<tl f="S" t="p" o="81" c="S" n="5430"/>
+		<ar pt="2606091935" pp="3" l="6" fb="S 6" ppth="Innsbruck Hbf|Innsbruck Westbahnhof|Innsbruck Hötting|Allerheiligenhöfe|Kranebitten|Hochzirl|Leithen b.Seefeld|Reith b.Seefeld|Seefeld in Tirol|Gießenbach in Tirol|Scharnitz"/>
+		<dp pt="2606091936" pp="3" l="S6" fb="S6" ppth="Klais|Garmisch-Partenkirchen"/>
+	</s>
+	<s id="-8047881208414448013-2606091816-3">
+		<tl f="N" t="p" o="800790" c="RE" n="59459"/>
+		<ar pt="2606091953" pp="1" l="RB6" fb="RB6" pde="Starnberg" ppth="Garmisch-Partenkirchen|Klais"/>
+	</s>
+	<s id="-5234574976520052134-2606091751-1">
+		<tl f="S" t="p" o="800790" c="S" n="5433"/>
+		<dp pt="2606091936" pp="1" l="S6" fb="S6" tra="-4806222758393086900-2606091751-13" ppth="Scharnitz|Gießenbach in Tirol|Seefeld in Tirol"/>
+	</s>
+	<s id="-1239791506761577491-2606091849-5">
+		<tl f="N" t="p" o="800790" c="RE" n="4879"/>
+		<ar pt="2606091953" pp="1" l="RE61" fb="RE61" wings="-8047881208414448013-2606091816" ppth="Weilheim(Oberbay)|Murnau|Garmisch-Partenkirchen|Klais"/>
+	</s>
+	<s id="-4806222758393086900-2606091751-13">
+		<tl f="N" t="p" o="800790" c="RB" n="5433"/>
+		<ar pt="2606091923" pp="1" l="RB6" fb="RB6" tra="-5234574976520052134-2606091751-1" ppth="Starnberg|Tutzing|Weilheim(Oberbay)|Huglfing|Uffing a Staffelsee|Murnau|Ohlstadt|Eschenlohe|Oberau|Farchant|Garmisch-Partenkirchen|Klais"/>
+	</s>
+</timetable>
