@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<timetable station="Würzburg Hbf">
+	<s id="-8677182982400525824-2606132046-9">
+		<tl t="p" o="81" c="NJ" n="40420"/>
+		<ar pt="2606140234" pp="" fb="NJ 40420" ppth="Innsbruck Hbf|Jenbach|Wörgl Hbf|Kufstein|Rosenheim|München Ost|Ingolstadt Hbf|Nürnberg Hbf"/>
+		<dp pt="2606140236" pp="" fb="NJ 40420" ppth="Kassel-Wilhelmshöhe|Göttingen|Hannover Hbf|Hamburg-Harburg|Hamburg Hbf|Hamburg Dammtor|Hamburg-Altona"/>
+	</s>
+	<s id="1595410400684371270-2606131936-8">
+		<tl t="p" o="81" c="NJ" n="498"/>
+		<ar pt="2606140234" pp="" fb="NJ 498" wings="-8677182982400525824-2606132046" ppth="Wien Hbf|Wien Meidling|St.Pölten Hbf|Linz Hbf|Passau Hbf|Regensburg Hbf|Nürnberg Hbf"/>
+		<dp pt="2606140236" pp="" fb="NJ 498" wings="-8677182982400525824-2606132046" ppth="Kassel-Wilhelmshöhe|Göttingen|Hannover Hbf|Hamburg-Harburg|Hamburg Hbf|Hamburg Dammtor|Hamburg-Altona"/>
+	</s>
+	<s id="6992012378128167215-2606131855-7">
+		<tl t="p" o="81" c="NJ" n="40491"/>
+		<ar pt="2606140201" pp="" fb="NJ 40491" ppth="Hamburg-Altona|Hamburg Hbf|Hamburg-Harburg|Hannover Hbf|Göttingen|Kassel-Wilhelmshöhe"/>
+		<dp pt="2606140203" pp="" fb="NJ 40491" ppth="Nürnberg Hbf|Ingolstadt Hbf|München Ost|Rosenheim|Kufstein|Wörgl Hbf|Jenbach|Innsbruck Hbf"/>
+	</s>
+	<s id="-8018116824080471880-2606131855-7">
+		<tl t="p" o="81" c="NJ" n="493"/>
+		<ar pt="2606140201" pp="" fb="NJ 493" wings="6992012378128167215-2606131855" ppth="Hamburg-Altona|Hamburg Hbf|Hamburg-Harburg|Hannover Hbf|Göttingen|Kassel-Wilhelmshöhe"/>
+		<dp pt="2606140203" pp="" fb="NJ 493" wings="6992012378128167215-2606131855" ppth="Nürnberg Hbf|München Ost|Salzburg Hbf|Linz Hbf|St.Pölten Hbf|Wien Meidling|Wien Hbf"/>
+	</s>
+	<s id="-6813803786124510421-2606131936-8">
+		<tl t="p" o="81" c="NJ" n="40490"/>
+		<ar pt="2606140229" pp="6" fb="NJ 40490" ppth="Wien Hbf|Wien Meidling|St.Pölten Hbf|Linz Hbf|Passau Hbf|Regensburg Hbf|Nürnberg Hbf"/>
+		<dp pt="2606140231" pp="6" fb="NJ 40490" ppth="Köln Hbf|Oberhausen Hbf|Arnhem Centraal|Utrecht Centraal|Amsterdam Centraal"/>
+	</s>
+	<s id="3272146161175325165-2606132046-9">
+		<tl t="p" o="81" c="NJ" n="420"/>
+		<ar pt="2606140229" pp="6" fb="NJ 420" wings="-6813803786124510421-2606131936" ppth="Innsbruck Hbf|Jenbach|Wörgl Hbf|Kufstein|Rosenheim|München Ost|Ingolstadt Hbf|Nürnberg Hbf"/>
+		<dp pt="2606140231" pp="6" fb="NJ 420" wings="-6813803786124510421-2606131936" ppth="Köln Hbf|Oberhausen Hbf|Arnhem Centraal|Utrecht Centraal|Amsterdam Centraal"/>
+	</s>
+</timetable>
