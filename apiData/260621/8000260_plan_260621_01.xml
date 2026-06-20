@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<timetable station="Würzburg Hbf">
+	<s id="5002808764059930451-2606202328-27">
+		<tl f="N" t="p" o="800772" c="RE" n="4645"/>
+		<ar pt="2606210127" pp="9" l="RE54" fb="RE54" ppth="Frankfurt(Main)Hbf|Frankfurt(Main)Süd|Frankfurt(Main)Ost|Frankfurt-Mainkur|Maintal West|Maintal Ost|Hanau-Wilhelmsbad|Hanau West|Hanau Hbf|Großauheim(Kr Hanau)|Großkrotzenburg|Kahl(Main)|Dettingen(Main)|Rückersbacher Schlucht|Kleinostheim|Aschaffenburg Hbf|Hösbach|Laufach|Heigenbrücken|Wiesthal|Partenstein|Lohr Bahnhof|Langenprozelten|Gemünden(Main)|Karlstadt(Main)|Retzbach-Zellingen"/>
+	</s>
+	<s id="67681408536754467-2606202100-5">
+		<tl t="p" o="NYUEX" c="UEX" n="348"/>
+		<ar pt="2606210121" pp="" fb="UEX 348" hi="1" ppth="Innsbruck Hbf|Wörgl Hbf|Kufstein|München Ost"/>
+		<dp pt="2606210123" pp="" fb="UEX 348" hi="1" ppth="Gemünden(Main)|Hannover Hbf|Hamburg Hbf|Hamburg-Altona"/>
+	</s>
+	<s id="6992012378128167215-2606201855-7">
+		<tl t="p" o="81" c="NJ" n="40491"/>
+		<ar pt="2606210128" pp="5" fb="NJ 40491" ppth="Hamburg-Altona|Hamburg Hbf|Hamburg-Harburg|Hannover Hbf|Göttingen|Kassel-Wilhelmshöhe"/>
+		<dp pt="2606210130" pp="5" fb="NJ 40491" ppth="Nürnberg Hbf|Ingolstadt Hbf|München Ost|Rosenheim|Kufstein|Wörgl Hbf|Jenbach|Innsbruck Hbf"/>
+	</s>
+	<s id="-8018116824080471880-2606201855-7">
+		<tl t="p" o="81" c="NJ" n="493"/>
+		<ar pt="2606210128" pp="5" fb="NJ 493" wings="6992012378128167215-2606201855" ppth="Hamburg-Altona|Hamburg Hbf|Hamburg-Harburg|Hannover Hbf|Göttingen|Kassel-Wilhelmshöhe"/>
+		<dp pt="2606210130" pp="5" fb="NJ 493" wings="6992012378128167215-2606201855" ppth="Nürnberg Hbf|München Ost|Salzburg Hbf|Linz Hbf|St.Pölten Hbf|Wien Meidling|Wien Hbf"/>
+	</s>
+	<s id="-7363861252398759561-2606202118-8">
+		<tl f="F" t="p" o="80" c="ICE" n="699"/>
+		<ar pt="2606210126" pp="7" fb="ICE 699" ppth="Berlin Gesundbrunnen|Berlin Hbf|Berlin Südkreuz|Lutherstadt Wittenberg Hbf|Bitterfeld|Leipzig Hbf|Erfurt Hbf"/>
+		<dp pt="2606210128" pp="7" fb="ICE 699" ppth="Aschaffenburg Hbf|Frankfurt(Main)Hbf|Mannheim Hbf|Heidelberg Hbf|Stuttgart Hbf|Ulm Hbf|Günzburg|Augsburg Hbf|München-Pasing|München Hbf"/>
+	</s>
+	<s id="-3823254010841261196-2606201801-7">
+		<tl t="p" o="84" c="NJ" n="421"/>
+		<ar pt="2606210137" pp="4" fb="NJ 421" wings="-4272298498907669914-2606201801" ppth="Amsterdam Centraal|Utrecht Centraal|Arnhem Centraal|Oberhausen Hbf|Essen Hbf|Kassel-Wilhelmshöhe"/>
+		<dp pt="2606210139" pp="4" fb="NJ 421" wings="-4272298498907669914-2606201801" ppth="Nürnberg Hbf|Ingolstadt Hbf|München Ost|Rosenheim|Kufstein|Wörgl Hbf|Jenbach|Innsbruck Hbf"/>
+	</s>
+	<s id="-4272298498907669914-2606201801-7">
+		<tl t="p" o="81" c="NJ" n="40421"/>
+		<ar pt="2606210137" pp="4" fb="NJ 40421" ppth="Amsterdam Centraal|Utrecht Centraal|Arnhem Centraal|Oberhausen Hbf|Essen Hbf|Kassel-Wilhelmshöhe"/>
+		<dp pt="2606210139" pp="4" fb="NJ 40421" ppth="Nürnberg Hbf|München Ost|Salzburg Hbf|Linz Hbf|St.Pölten Hbf|Wien Meidling|Wien Hbf"/>
+	</s>
+	<s id="8209469800275406026-2606202223-4">
+		<tl f="F" t="p" o="80" c="ICE" n="1080"/>
+		<ar pt="2606210114" pp="6" fb="ICE 1080" ppth="München Hbf|Ingolstadt Hbf|Nürnberg Hbf"/>
+		<dp pt="2606210117" pp="6" fb="ICE 1080" ppth="Göttingen|Hannover Hbf|Hamburg-Harburg|Hamburg Hbf"/>
+	</s>
+</timetable>
