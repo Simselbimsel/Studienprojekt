@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<timetable station="Hersbruck(r Pegnitz)">
+	<s id="4948678071878349921-2606220405-7">
+		<tl f="N" t="p" o="800759" c="RE" n="3550"/>
+		<ar pt="2606220458" pp="3" l="RE40" fb="RE40" ppth="Schwandorf|Amberg|Sulzbach-Rosenberg|Neukirchen(b Sulzb)|Etzelwang|Hartmannshof"/>
+		<dp pt="2606220459" pp="3" l="RE40" fb="RE40" ppth="Nürnberg Hbf"/>
+	</s>
+	<s id="2440765369392935665-2606220426-2">
+		<tl f="N" t="p" o="800759" c="RE" n="3451"/>
+		<ar pt="2606220441" pp="2" l="RE41" fb="RE41" ppth="Nürnberg Hbf"/>
+		<dp pt="2606220442" pp="2" l="RE41" fb="RE41" ppth="Neukirchen(b Sulzb)|Vilseck|Freihung|Röthenbach(Oberpf)|Weiherhammer|Weiden(Oberpf)|Altenstadt(Waldnaab)|Neustadt(Waldnaab)"/>
+	</s>
+	<s id="-6700901121762185718-2606220426-2">
+		<tl f="N" t="p" o="800759" c="RE" n="3551"/>
+		<ar pt="2606220441" pp="2" l="RE40" fb="RE40" wings="2440765369392935665-2606220426" ppth="Nürnberg Hbf"/>
+		<dp pt="2606220442" pp="2" l="RE40" fb="RE40" wings="2440765369392935665-2606220426" ppth="Neukirchen(b Sulzb)|Sulzbach-Rosenberg|Amberg|Schwandorf|Regensburg Hbf"/>
+	</s>
+	<s id="-3351139922928316014-2606220401-8">
+		<tl f="N" t="p" o="800759" c="RE" n="3450"/>
+		<ar pt="2606220458" pp="3" l="RE41" fb="RE41" wings="4948678071878349921-2606220405" ppth="Weiden(Oberpf)|Weiherhammer|Freihung|Vilseck|Neukirchen(b Sulzb)|Etzelwang|Hartmannshof"/>
+		<dp pt="2606220459" pp="3" l="RE41" fb="RE41" wings="4948678071878349921-2606220405" ppth="Nürnberg Hbf"/>
+	</s>
+	<s id="-1660701957444195006-2606220440-1">
+		<tl f="N" t="p" o="800720" c="RB" n="58502"/>
+		<dp pt="2606220440" pp="1" l="RB30" fb="RB30" ppth="Reichenschwand|Neunkirchen a Sand|Lauf(rechts Pegnitz)|Ludwigshöhe|Rückersdorf(Mfr)|Behringersdorf|Nürnberg-Erlenstegen|Nürnberg Ost|Nürnberg Hbf"/>
+	</s>
+	<s id="7800194235715835933-2606220350-6">
+		<tl t="p" o="B7" c="Bus" n="1001"/>
+		<ar pt="2606220434" pp="" l="EV" fb="Bus EV" ppth="Neuhaus(Pegnitz)|Velden(b Hersbruck)|Rupprechtstegen|Vorra(Pegnitz)|Hohenstadt(Mittelfr)"/>
+	</s>
+</timetable>
