@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<timetable station="Holzkirchen">
+	<s id="-8400958330293841647-2606260008-1">
+		<tl f="S" t="p" o="800725" c="S" n="6078"/>
+		<dp pt="2606260008" pp="3" l="S3" fb="S3" ppth="Otterfing|Sauerlach|Deisenhofen|München-Solln|München Siemenswerke"/>
+	</s>
+	<s id="2178347427855950008-2606260032-6">
+		<tl f="S" t="p" o="800725" c="S" n="6079"/>
+		<ar pt="2606260054" pp="3" l="S3" fb="S3" ppth="München Siemenswerke|München-Solln|Deisenhofen|Sauerlach|Otterfing"/>
+	</s>
+	<s id="55463812309270056-2606260038-1">
+		<tl f="S" t="p" o="800725" c="S" n="6080"/>
+		<dp pt="2606260038" pp="3" l="S3" fb="S3" ppth="Otterfing|Sauerlach|Deisenhofen|München-Solln|München Siemenswerke"/>
+	</s>
+	<s id="-8645723250508617534-2606260002-6">
+		<tl f="S" t="p" o="800725" c="S" n="6077"/>
+		<ar pt="2606260024" pp="3" l="S3" fb="S3" ppth="München Siemenswerke|München-Solln|Deisenhofen|Sauerlach|Otterfing"/>
+	</s>
+	<s id="3513955235624596328-2606260010-5">
+		<tl f="D" t="p" o="T8" c="BRB" n="87025"/>
+		<ar pt="2606260035" pp="1" l="RB57" fb="RB57" ppth="München Hbf Gl.27-36|München Donnersbergerbrücke|München Harras|München Siemenswerke"/>
+		<dp pt="2606260040" pp="1" l="RB57" fb="RB57" ppth="Warngau|Schaftlach|Moosrain|Finsterwald|Gmund(Tegernsee)|Tegernsee"/>
+	</s>
+	<s id="1306616062819651809-2606260011-3">
+		<tl t="p" o="M8" c="Bus" n="60456"/>
+		<ar pt="2606260038" pp="" l="EV" fb="Bus EV" ppth="Westerham|Kreuzstraße"/>
+	</s>
+	<s id="-3644223346164734892-2606260010-5">
+		<tl f="D" t="p" o="T8" c="BRB" n="87005"/>
+		<ar pt="2606260035" pp="1" l="RB56" fb="RB56" wings="3513955235624596328-2606260010" ppth="München Hbf Gl.27-36|München Donnersbergerbrücke|München Harras|München Siemenswerke"/>
+		<dp pt="2606260040" pp="1" l="RB56" fb="RB56" wings="3513955235624596328-2606260010" ppth="Warngau|Schaftlach|Reichersbeuern|Bad Tölz|Gaißach|Obergries|Lenggries"/>
+	</s>
+	<s id="-6118306955502080276-2606260010-5">
+		<tl f="D" t="p" o="T8" c="BRB" n="86785"/>
+		<ar pt="2606260035" pp="1" l="RB55" fb="RB55" wings="-3644223346164734892-2606260010|3513955235624596328-2606260010" ppth="München Hbf Gl.27-36|München Donnersbergerbrücke|München Harras|München Siemenswerke"/>
+		<dp pt="2606260037" pp="1" l="RB55" fb="RB55" ppth="Darching|Miesbach|Agatharied|Hausham|Schliersee|Fischhausen-Neuhaus|Fischbachau|Geitau|Osterhofen(Oberbay)|Bayrischzell"/>
+	</s>
+</timetable>
