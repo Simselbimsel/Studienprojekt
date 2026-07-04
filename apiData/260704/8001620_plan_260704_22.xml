@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<timetable station="Ebenhausen(Unterfr)">
+	<s id="-4581255543842623240-2607042245-1">
+		<tl t="p" o="EB" c="Bus" n="60764"/>
+		<dp pt="2607042245" pp="" l="EV" fb="Bus EV" ppth="Rottershausen|Münnerstadt"/>
+	</s>
+	<s id="510579345511293204-2607042224-4">
+		<tl f="D" t="p" o="EB" c="EB" n="80702"/>
+		<ar pt="2607042239" pp="3" l="RB50" fb="RB50" ppth="Schweinfurt Hbf|Oberwerrn|Poppenhausen"/>
+		<dp pt="2607042240" pp="3" l="RB50" fb="RB50" ppth="Oerlenbach|Bad Kissingen"/>
+	</s>
+	<s id="1658567603670688371-2607042212-3">
+		<tl t="p" o="EB" c="Bus" n="60761"/>
+		<ar pt="2607042242" pp="" l="EV" fb="Bus EV" ppth="Münnerstadt|Rottershausen"/>
+	</s>
+	<s id="-7593398324547182851-2607042249-1">
+		<tl f="D" t="p" o="EB" c="EB" n="93273"/>
+		<dp pt="2607042249" pp="3" l="RB40" fb="RB40" ppth="Poppenhausen|Schweinfurt Hbf|Schweinfurt Mitte|Schweinfurt Stadt"/>
+	</s>
+	<s id="1200319105419480492-2607042213-3">
+		<tl f="D" t="p" o="EB" c="EB" n="80703"/>
+		<ar pt="2607042222" pp="3" l="RB50" fb="RB50" ppth="Bad Kissingen|Oerlenbach"/>
+		<dp pt="2607042249" pp="3" l="RB50" fb="RB50" wings="-7593398324547182851-2607042249" ppth="Poppenhausen|Schweinfurt Hbf|Schweinfurt Mitte|Schweinfurt Stadt"/>
+	</s>
+</timetable>
