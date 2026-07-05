@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<timetable station="Poppenhausen">
+	<s id="-4308194344089473191-2607052351-3">
+		<tl f="D" t="p" o="EB" c="EB" n="80704"/>
+		<ar pt="2607052359" pp="1" l="RB50" fb="RB50" ppth="Schweinfurt Hbf|Oberwerrn"/>
+		<dp pt="2607060000" pp="1" l="RB50" fb="RB50" ppth="Ebenhausen(Unterfr)|Oerlenbach|Bad Kissingen"/>
+	</s>
+	<s id="2428434409895408022-2607052329-2">
+		<tl f="D" t="p" o="EB" c="EB" n="92375"/>
+		<ar pt="2607052332" pp="1" l="RB40" fb="RB40" ppth="Ebenhausen(Unterfr)"/>
+		<dp pt="2607052332" pp="1" l="RB40" fb="RB40" ppth="Oberwerrn|Schweinfurt Hbf"/>
+	</s>
+	<s id="9035891540911437750-2607052313-4">
+		<tl f="D" t="p" o="EB" c="EB" n="80705"/>
+		<ar pt="2607052332" pp="1" l="RB50" fb="RB50" wings="2428434409895408022-2607052329" ppth="Bad Kissingen|Oerlenbach|Ebenhausen(Unterfr)"/>
+		<dp pt="2607052332" pp="1" l="RB50" fb="RB50" wings="2428434409895408022-2607052329" ppth="Oberwerrn|Schweinfurt Hbf"/>
+	</s>
+	<s id="-8851145083271936800-2607052248-9">
+		<tl t="p" o="EB" c="Bus" n="60705"/>
+		<ar pt="2607052346" pp="" l="EV" fb="Bus EV" ppth="Hammelburg|Hammelburg Ost|Westheim-Langendorf|Elfershausen-Trimberg|Euerdorf|Bad Kissingen|Oerlenbach|Ebenhausen(Unterfr)"/>
+		<dp pt="2607052346" pp="" l="EV" fb="Bus EV" ppth="Oberwerrn|Schweinfurt Hbf"/>
+	</s>
+</timetable>
