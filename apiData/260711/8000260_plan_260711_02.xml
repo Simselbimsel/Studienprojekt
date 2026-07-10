@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<timetable station="Würzburg Hbf">
+	<s id="-8677182982400525824-2607102046-9">
+		<tl t="p" o="81" c="NJ" n="40420"/>
+		<ar pt="2607110241" pp="7" fb="NJ 40420" ppth="Innsbruck Hbf|Jenbach|Wörgl Hbf|Kufstein|Rosenheim|München Ost|Augsburg Hbf|Nürnberg Hbf"/>
+		<dp pt="2607110245" pp="7" fb="NJ 40420" ppth="Kassel-Wilhelmshöhe|Göttingen|Hannover Hbf|Hamburg-Harburg|Hamburg Hbf|Hamburg Dammtor|Hamburg-Altona"/>
+	</s>
+	<s id="5341026193710747700-2607101947-5">
+		<tl t="p" o="NYUEX" c="UEX" n="1399"/>
+		<ar pt="2607110241" pp="3" fb="UEX 1399" hi="1" ppth="Hamburg-Altona|Hamburg Hbf|Hannover Hbf|Gemünden(Main)"/>
+		<dp pt="2607110243" pp="3" fb="UEX 1399" hi="1" ppth="München Ost|Kufstein|Wörgl Hbf|Innsbruck Hbf"/>
+	</s>
+	<s id="-7058442198521206872-2607101836-8">
+		<tl t="p" o="81" c="NJ" n="492"/>
+		<ar pt="2607110241" pp="7" fb="NJ 492" wings="-8677182982400525824-2607102046" ppth="Wien Hbf|Wien Meidling|St.Pölten Hbf|Linz Hbf|Salzburg Hbf|München Ost|Nürnberg Hbf"/>
+		<dp pt="2607110245" pp="7" fb="NJ 492" wings="-8677182982400525824-2607102046" ppth="Kassel-Wilhelmshöhe|Göttingen|Hannover Hbf|Hamburg-Harburg|Hamburg Hbf|Hamburg Dammtor|Hamburg-Altona"/>
+	</s>
+	<s id="-6813803786124510421-2607101836-8">
+		<tl t="p" o="81" c="NJ" n="40490"/>
+		<ar pt="2607110229" pp="6" fb="NJ 40490" ppth="Wien Hbf|Wien Meidling|St.Pölten Hbf|Linz Hbf|Salzburg Hbf|München Ost|Nürnberg Hbf"/>
+		<dp pt="2607110231" pp="6" fb="NJ 40490" ppth="Kassel-Wilhelmshöhe|Dortmund Hbf|Essen Hbf|Oberhausen Hbf|Arnhem Centraal|Utrecht Centraal|Amsterdam Centraal"/>
+	</s>
+	<s id="3272146161175325165-2607102046-9">
+		<tl t="p" o="81" c="NJ" n="420"/>
+		<ar pt="2607110229" pp="6" fb="NJ 420" wings="-6813803786124510421-2607101836" ppth="Innsbruck Hbf|Jenbach|Wörgl Hbf|Kufstein|Rosenheim|München Ost|Augsburg Hbf|Nürnberg Hbf"/>
+		<dp pt="2607110231" pp="6" fb="NJ 420" wings="-6813803786124510421-2607101836" ppth="Kassel-Wilhelmshöhe|Dortmund Hbf|Essen Hbf|Oberhausen Hbf|Arnhem Centraal|Utrecht Centraal|Amsterdam Centraal"/>
+	</s>
+	<s id="-2529399596673113990-2607110227-4">
+		<tl f="N" t="p" o="800772" c="RE" n="57895"/>
+		<ar pt="2607110254" pp="9" l="RE54" fb="RE54" ppth="Gemünden(Main)|Karlstadt(Main)|Retzbach-Zellingen"/>
+	</s>
+</timetable>
