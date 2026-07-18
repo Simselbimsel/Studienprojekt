@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<timetable station="Neumünster">
+	<s id="3215039035140979228-2607180737-3">
+		<tl f="N" t="p" o="800201" c="RE" n="63409"/>
+		<ar pt="2607180757" pp="4" l="RE70" fb="RE70" ppth="Kiel Hbf|Bordesholm"/>
+		<dp pt="2607180758" pp="4" l="RE70" fb="RE70" ppth="Brokstedt|Wrist|Elmshorn|Hamburg-Altona"/>
+	</s>
+	<s id="6571057489681026433-2607180642-6">
+		<tl f="N" t="p" o="800201" c="RE" n="63404"/>
+		<ar pt="2607180728" pp="3" l="RE7" fb="RE7" ppth="Hamburg-Altona|Pinneberg|Elmshorn|Wrist|Brokstedt"/>
+		<dp pt="2607180731" pp="3" l="RE7" fb="RE7" ppth="Einfeld|Bordesholm|Flintbek|Kiel Hbf"/>
+	</s>
+	<s id="-8657950163252962648-2607180705-5">
+		<tl f="N" t="p" o="800201" c="RE" n="11259"/>
+		<ar pt="2607180727" pp="5" l="RE7" fb="RE7" tra="5214627398044354365-2607180731-1" ppth="Kiel Hbf|Flintbek|Bordesholm|Einfeld"/>
+	</s>
+	<s id="5214627398044354365-2607180731-1">
+		<tl f="N" t="p" o="800201" c="RE" n="63403"/>
+		<dp pt="2607180731" pp="5" l="RE7" fb="RE7" tra="-8657950163252962648-2607180705-5" ppth="Elmshorn|Hamburg-Altona"/>
+	</s>
+	<s id="-1589365763265288832-2607180733-1">
+		<tl f="D" t="p" o="A0" c="AKN" n="82434"/>
+		<dp pt="2607180733" pp="1" l="A2" fb="A2" ppth="Neumünster Süd AKN|Boostedt|Großenaspe|Wiemersdorf|Bad Bramstedt|Bad Bramstedt Kurhaus|Lentföhrden|Nützen|Dodenhof|Holstentherme|Kaltenkirchen(Holst)|Kaltenkirchen Süd|Henstedt-Ulzburg|Ulzburg Süd|Tanneneck"/>
+	</s>
+	<s id="8415320858627063016-2607180702-5">
+		<tl f="D" t="p" o="O0" c="NBE" n="83773"/>
+		<ar pt="2607180725" pp="6" l="RB63" fb="RB63" ppth="Hohenwestedt|Aukrug|Wasbek|Neumünster Stadtwald"/>
+	</s>
+	<s id="8825079544768597569-2607180626-16">
+		<tl f="D" t="p" o="A0" c="AKN" n="82431"/>
+		<ar pt="2607180723" pp="1" l="A2" fb="A2" ppth="Tanneneck|Ulzburg Süd|Henstedt-Ulzburg|Kaltenkirchen Süd|Kaltenkirchen(Holst)|Holstentherme|Dodenhof|Nützen|Lentföhrden|Bad Bramstedt Kurhaus|Bad Bramstedt|Wiemersdorf|Großenaspe|Boostedt|Neumünster Süd AKN"/>
+	</s>
+	<s id="5267858360378119416-2607180735-1">
+		<tl f="D" t="p" o="O0" c="NBE" n="83804"/>
+		<dp pt="2607180735" pp="6" l="RB63" fb="RB63" ppth="Neumünster Stadtwald|Wasbek|Aukrug|Hohenwestedt|Osterstedt|Beringstedt|Gokels|Hademarschen|Beldorf|Albersdorf|Nordhastedt|Heide(Holst)|Tiebensee|Jarrenwisch|Wesselburen|Süderdeich|Reinsbüttel|Büsum"/>
+	</s>
+</timetable>
