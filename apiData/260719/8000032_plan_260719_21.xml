@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<timetable station="Schweinfurt Hbf">
+	<s id="-7776446711793040085-2607192058-3">
+		<tl t="p" o="EB" c="Bus" n="60700"/>
+		<ar pt="2607192108" pp="" l="EV" fb="Bus EV" ppth="Schweinfurt Stadt|Schweinfurt Mitte"/>
+	</s>
+	<s id="6628828134093893366-2607192035-2">
+		<tl f="N" t="p" o="800755" c="RE" n="4795"/>
+		<ar pt="2607192059" pp="7" l="RE20" fb="RE20" ppth="Würzburg Hbf"/>
+		<dp pt="2607192100" pp="7" l="RE20" fb="RE20" ppth="Haßfurt|Bamberg"/>
+	</s>
+	<s id="-1406671014277618998-2607192113-1">
+		<tl f="D" t="p" o="EB" c="EB" n="80700"/>
+		<dp pt="2607192113" pp="5" l="RB50" fb="RB50" wings="2200317012866956579-2607192113" ppth="Poppenhausen|Ebenhausen(Unterfr)|Oerlenbach|Bad Kissingen|Euerdorf|Elfershausen-Trimberg|Westheim-Langendorf|Hammelburg Ost|Hammelburg"/>
+	</s>
+	<s id="-5406854671062109561-2607192041-9">
+		<tl f="N" t="p" o="800714" c="RB" n="58268"/>
+		<ar pt="2607192117" pp="6" l="RB53" fb="RB53" ppth="Bamberg|Oberhaid|Ebelsbach-Eltmann|Zeil|Haßfurt|Schonungen|Schweinfurt Stadt|Schweinfurt Mitte"/>
+		<dp pt="2607192118" pp="6" l="RB53" fb="RB53" ppth="Waigolshausen|Eßleben|Bergtheim|Seligenstadt(b Würzburg)|Rottendorf|Würzburg Hbf"/>
+	</s>
+	<s id="-2634757867894125038-2607192100-4">
+		<tl f="N" t="p" o="8004NT" c="RE" n="3787"/>
+		<ar pt="2607192126" pp="5" l="RE7" fb="RE7" ppth="Bad Kissingen|Oerlenbach|Ebenhausen(Unterfr)"/>
+		<dp pt="2607192132" pp="5" l="RE7" fb="RE7" ppth="Würzburg Hbf"/>
+	</s>
+	<s id="2200317012866956579-2607192113-1">
+		<tl f="D" t="p" o="EB" c="EB" n="80758"/>
+		<dp pt="2607192113" pp="5" l="RB40" fb="RB40" ppth="Poppenhausen|Ebenhausen(Unterfr)|Rottershausen|Münnerstadt|Burglauer|Bad Neustadt(Saale)|Mellrichstadt Bf|Rentwertshausen|Bibra|Wölfershausen|Grimmenthal"/>
+	</s>
+	<s id="-3555288028384140655-2607192018-8">
+		<tl f="N" t="p" o="8004NT" c="RE" n="3767"/>
+		<ar pt="2607192126" pp="5" l="RE7" fb="RE7" wings="-2634757867894125038-2607192100" ppth="Zella-Mehlis|Suhl|Grimmenthal|Mellrichstadt Bf|Bad Neustadt(Saale)|Münnerstadt|Ebenhausen(Unterfr)"/>
+		<dp pt="2607192132" pp="5" l="RE7" fb="RE7" wings="-2634757867894125038-2607192100" ppth="Würzburg Hbf"/>
+	</s>
+</timetable>
