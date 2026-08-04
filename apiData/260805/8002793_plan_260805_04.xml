@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<timetable station="Hersbruck(l Pegnitz)">
+	<s id="1855560764788387537-2608050433-4">
+		<tl f="S" t="p" o="800721" c="S" n="39104"/>
+		<ar pt="2608050442" pp="1" l="S1" fb="S1" ppth="Hartmannshof|Pommelsbrunn|Happurg"/>
+		<dp pt="2608050443" pp="1" l="S1" fb="S1" ppth="Henfenfeld|Ottensoos|Lauf(links Pegnitz)|Lauf West|Röthenbach-Seespitze|Röthenbach-Steinberg|Röthenbach(Pegnitz)|Schwaig|Nürnberg-Laufamholz|Nürnberg-Rehhof|Nürnberg-Mögeldorf|Nürnberg Ostring|Nürnberg-Dürrenhof|Nürnberg Hbf"/>
+	</s>
+	<s id="4948678071878349921-2608050405-7">
+		<tl f="N" t="p" o="800759" c="RE" n="3550"/>
+		<ar pt="2608050457" pp="1" l="RE40" fb="RE40" ppth="Schwandorf|Amberg|Sulzbach-Rosenberg|Neukirchen(b Sulzb)|Etzelwang|Hartmannshof"/>
+		<dp pt="2608050458" pp="1" l="RE40" fb="RE40" ppth="Nürnberg Hbf"/>
+	</s>
+	<s id="-6700901121762185718-2608050422-2">
+		<tl f="N" t="p" o="800759" c="RE" n="3551"/>
+		<ar pt="2608050442" pp="2" l="RE40" fb="RE40" wings="2440765369392935665-2608050422" ppth="Nürnberg Hbf"/>
+		<dp pt="2608050443" pp="2" l="RE40" fb="RE40" wings="2440765369392935665-2608050422" ppth="Neukirchen(b Sulzb)|Sulzbach-Rosenberg|Amberg|Schwandorf"/>
+	</s>
+	<s id="2440765369392935665-2608050422-2">
+		<tl f="N" t="p" o="800759" c="RE" n="3451"/>
+		<ar pt="2608050442" pp="2" l="RE41" fb="RE41" ppth="Nürnberg Hbf"/>
+		<dp pt="2608050443" pp="2" l="RE41" fb="RE41" ppth="Neukirchen(b Sulzb)|Vilseck|Freihung|Röthenbach(Oberpf)|Weiherhammer|Weiden(Oberpf)|Altenstadt(Waldnaab)|Neustadt(Waldnaab)"/>
+	</s>
+	<s id="-3351139922928316014-2608050401-8">
+		<tl f="N" t="p" o="800759" c="RE" n="3450"/>
+		<ar pt="2608050457" pp="1" l="RE41" fb="RE41" wings="4948678071878349921-2608050405" ppth="Weiden(Oberpf)|Weiherhammer|Freihung|Vilseck|Neukirchen(b Sulzb)|Etzelwang|Hartmannshof"/>
+		<dp pt="2608050458" pp="1" l="RE41" fb="RE41" wings="4948678071878349921-2608050405" ppth="Nürnberg Hbf"/>
+	</s>
+</timetable>
