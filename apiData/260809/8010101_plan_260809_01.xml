@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<timetable station="Erfurt Hbf">
+	<s id="-5776724082573019107-2608090041-11">
+		<tl f="D" t="p" o="SB" c="STB" n="81226"/>
+		<ar pt="2608090133" pp="8" l="RB46" fb="RB46" ppth="Ilmenau|Ilmenau Pörlitzer Höhe|Ilmenau-Roda|Elgersburg|Geraberg|Plaue(Thür)|Arnstadt Süd|Arnstadt Hbf|Neudietendorf|Erfurt-Bischleben"/>
+	</s>
+	<s id="-8716776747589038458-2608081831-10">
+		<tl f="F" t="p" o="81" c="EN" n="40458"/>
+		<ar pt="2608090120" pp="2" fb="EN 40458" hi="1" ppth="Praha hl.n.|Praha-Holesovice|Usti nad Labem hl.n.|Decin hl.n.|Bad Schandau|Dresden Hbf|Dresden-Neustadt|Riesa|Leipzig Hbf"/>
+		<dp pt="2608090122" pp="2" fb="EN 40458" hi="1" ppth="Fulda|Frankfurt(Main)Süd|Mannheim Hbf|Karlsruhe Hbf|Baden-Baden|Offenburg|Schaffhausen|Zürich HB"/>
+	</s>
+	<s id="-1197270886930040789-2608082048-7">
+		<tl f="F" t="p" o="NZ" c="IC" n="60408"/>
+		<ar pt="2608090120" pp="2" fb="IC 60408" ppth="Berlin Hbf|Berlin Südkreuz|Lutherstadt Wittenberg Hbf|Bitterfeld|Halle(Saale)Hbf|Leipzig Hbf"/>
+		<dp pt="2608090122" pp="2" fb="IC 60408" ppth="Fulda|Frankfurt(Main)Süd|Mannheim Hbf|Karlsruhe Hbf|Baden-Baden|Offenburg|Schaffhausen|Zürich HB"/>
+	</s>
+	<s id="5331894847185138451-2608082048-7">
+		<tl t="p" o="81" c="NJ" n="408"/>
+		<ar pt="2608090120" pp="2" fb="NJ 408" hi="1" wings="-1197270886930040789-2608082048" ppth="Berlin Hbf|Berlin Südkreuz|Lutherstadt Wittenberg Hbf|Bitterfeld|Halle(Saale)Hbf|Leipzig Hbf"/>
+		<dp pt="2608090122" pp="2" fb="NJ 408" hi="1" wings="-1197270886930040789-2608082048" ppth="Fulda|Frankfurt(Main)Süd|Mannheim Hbf|Karlsruhe Hbf|Baden-Baden|Offenburg|Schaffhausen|Zürich HB"/>
+	</s>
+	<s id="-7138410051225202863-2608082147-6">
+		<tl f="F" t="p" o="80" c="ICE" n="905"/>
+		<ar pt="2608090113" pp="" fb="ICE 905" ppth="Berlin Gesundbrunnen|Berlin Hbf|Berlin Südkreuz|Lutherstadt Wittenberg Hbf|Leipzig Hbf"/>
+		<dp pt="2608090115" pp="" fb="ICE 905" ppth="Würzburg Hbf|Nürnberg Hbf|Donauwörth|Augsburg Hbf|München-Pasing|München Hbf"/>
+	</s>
+	<s id="-8572647521164952896-2608081831-10">
+		<tl f="F" t="p" o="54" c="EC" n="458"/>
+		<ar pt="2608090120" pp="2" fb="EC 458" wings="-8716776747589038458-2608081831|5331894847185138451-2608082048" ppth="Praha hl.n.|Praha-Holesovice|Usti nad Labem hl.n.|Decin hl.n.|Bad Schandau|Dresden Hbf|Dresden-Neustadt|Riesa|Leipzig Hbf"/>
+		<dp pt="2608090122" pp="2" fb="EC 458" hi="1" wings="-8716776747589038458-2608081831|5331894847185138451-2608082048" ppth="Fulda|Frankfurt(Main)Süd|Mannheim Hbf|Karlsruhe Hbf|Baden-Baden|Offenburg|Schaffhausen|Zürich HB"/>
+	</s>
+</timetable>
