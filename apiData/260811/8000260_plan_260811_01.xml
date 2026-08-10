@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<timetable station="Würzburg Hbf">
+	<s id="8209469800275406026-2608102201-4">
+		<tl f="F" t="p" o="80" c="ICE" n="1080"/>
+		<ar pt="2608110114" pp="6" fb="ICE 1080" ppth="München Hbf|Ingolstadt Hbf|Nürnberg Hbf"/>
+		<dp pt="2608110117" pp="6" fb="ICE 1080" ppth="Göttingen|Hannover Hbf|Celle|Uelzen|Lüneburg|Hamburg-Harburg|Hamburg Hbf"/>
+	</s>
+	<s id="-1830150766494017803-2608102023-5">
+		<tl t="p" o="81" c="NJ" n="40491"/>
+		<ar pt="2608110128" pp="5" fb="NJ 40491" ppth="Hamburg-Harburg|Hannover Hbf|Göttingen|Kassel-Wilhelmshöhe"/>
+		<dp pt="2608110130" pp="5" fb="NJ 40491" ppth="Nürnberg Hbf|Ingolstadt Hbf|München Ost|Rosenheim|Kufstein|Wörgl Hbf|Jenbach|Innsbruck Hbf"/>
+	</s>
+	<s id="-7272117217674904753-2608102023-5">
+		<tl t="p" o="81" c="NJ" n="493"/>
+		<ar pt="2608110128" pp="5" fb="NJ 493" wings="-1830150766494017803-2608102023" ppth="Hamburg-Harburg|Hannover Hbf|Göttingen|Kassel-Wilhelmshöhe"/>
+		<dp pt="2608110130" pp="5" fb="NJ 493" wings="-1830150766494017803-2608102023" ppth="Nürnberg Hbf|München Ost|Salzburg Hbf|Linz/Donau Hbf|St.Pölten Hbf|Wien Meidling|Wien Hbf"/>
+	</s>
+</timetable>
