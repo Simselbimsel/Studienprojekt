@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<timetable station="Farchant">
+	<s id="8562798715317408566-2608101252-10">
+		<tl f="N" t="p" o="800790" c="RB" n="5518"/>
+		<ar pt="2608101347" pp="1" l="RB60" fb="RB60" ppth="Starnberg|Tutzing|Weilheim(Oberbay)|Huglfing|Uffing a Staffelsee|Murnau|Ohlstadt|Eschenlohe|Oberau"/>
+		<dp pt="2608101348" pp="1" l="RB60" fb="RB60" pde="Pfronten-Steinach" ppth="Garmisch-Partenkirchen|Garmisch-Partenkirchen Hausberg|Untergrainau|Griesen(Oberbay)|Ehrwald Zugspitzbahn"/>
+	</s>
+	<s id="4849203187736792256-2608101133-5">
+		<tl f="N" t="p" o="800790" c="RB" n="5515"/>
+		<ar pt="2608101310" pp="1" l="RB60" fb="RB60" pde="Pfronten-Steinach" ppth="Ehrwald Zugspitzbahn|Untergrainau|Garmisch-Partenkirchen Hausberg|Garmisch-Partenkirchen"/>
+		<dp pt="2608101311" pp="1" l="RB60" fb="RB60" ppth="Oberau|Eschenlohe|Ohlstadt|Murnau|Uffing a Staffelsee|Huglfing|Weilheim(Oberbay)|Tutzing|Starnberg"/>
+	</s>
+	<s id="-5384877989023942908-2608101236-4">
+		<tl f="N" t="p" o="800790" c="RB" n="5414"/>
+		<ar pt="2608101310" pp="1" l="RB6" fb="RB6" wings="4849203187736792256-2608101133" ppth="Mittenwald|Klais|Garmisch-Partenkirchen"/>
+		<dp pt="2608101311" pp="1" l="RB6" fb="RB6" wings="4849203187736792256-2608101133" ppth="Oberau|Eschenlohe|Ohlstadt|Murnau|Uffing a Staffelsee|Huglfing|Weilheim(Oberbay)|Tutzing|Starnberg"/>
+	</s>
+	<s id="728756785770423861-2608101252-10">
+		<tl f="N" t="p" o="800790" c="RB" n="5421"/>
+		<ar pt="2608101347" pp="1" l="RB6" fb="RB6" wings="8562798715317408566-2608101252" ppth="Starnberg|Tutzing|Weilheim(Oberbay)|Huglfing|Uffing a Staffelsee|Murnau|Ohlstadt|Eschenlohe|Oberau"/>
+		<dp pt="2608101348" pp="1" l="RB6" fb="RB6" wings="8562798715317408566-2608101252" pde="Mittenwald" ppth="Garmisch-Partenkirchen|Klais"/>
+	</s>
+</timetable>
