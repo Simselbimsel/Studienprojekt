@@ -1,13 +1,5 @@
 <?xml version="1.0" ?>
 <timetable station="Wolfsburg Hbf">
-	<s id="6469594953573757363-2608111148-1">
-		<tl t="p" o="R0" c="ENO" n="75564"/>
-		<dp pt="2608111148" pp="8" l="RE50" fb="RE50" ppth="Fallersleben|Weddel(Braunschw)|Braunschweig Hbf"/>
-	</s>
-	<s id="1425359838063502304-2608111122-1">
-		<tl f="N" t="p" o="RSMD" c="RB" n="80357"/>
-		<dp pt="2608111122" pp="9" l="RB36" fb="RB36" ppth="Oebisfelde|Bösdorf(Sachs-Anh)|Rätzlingen|Wegenstedt|Flechtingen|Haldensleben|Vahldorf|Groß Ammensleben|Meitzendorf|Barleben|Magdeburg-Eichenweiler|Magdeburg-Neustadt|Magdeburg Hbf"/>
-	</s>
 	<s id="8416219724899701036-2608111050-8">
 		<tl t="p" o="R0" c="ENO" n="83563"/>
 		<ar pt="2608111141" pp="8" l="RE50" fb="RE50" ppth="Hildesheim Hbf|Hoheneggelsen|Woltwiesche|Lengede-Broistedt|Braunschweig Hbf|Weddel(Braunschw)|Fallersleben"/>
@@ -16,19 +8,14 @@
 		<tl t="p" o="R0" c="ENO" n="83564"/>
 		<dp pt="2608111112" pp="8" l="RE50" fb="RE50" ppth="Fallersleben|Weddel(Braunschw)|Braunschweig Hbf|Lengede-Broistedt|Woltwiesche|Hoheneggelsen|Hildesheim Hbf"/>
 	</s>
-	<s id="4131928373987407668-2608111114-1">
-		<tl t="p" o="R0" c="ENO" n="83514"/>
-		<dp pt="2608111114" pp="4" l="RE30" fb="RE30" ppth="Fallersleben|Calberlah|Gifhorn|Leiferde(b Gifhorn)|Meinersen|Dedenhausen|Dollbergen|Immensen-Arpke|Lehrte|Hannover Hbf"/>
-	</s>
-	<s id="7280780786399683236-2608110653-6">
-		<tl f="F" t="p" o="80" c="ICE" n="855"/>
-		<ar pt="2608111103" pp="5" fb="ICE 855" wings="5312563495212518167-2608110601" ppth="Köln Hbf|Wuppertal Hbf|Hagen Hbf|Hamm(Westf)Hbf|Hannover Hbf"/>
-		<dp pt="2608111105" pp="5" fb="ICE 855" wings="5312563495212518167-2608110601" ppth="Berlin-Spandau|Berlin Hbf|Berlin Südkreuz"/>
-	</s>
 	<s id="-3684860674332666920-2608110628-13">
 		<tl f="F" t="p" o="80" c="ICE" n="994"/>
 		<ar pt="2608111119" pp="5" fb="ICE 994" ppth="Stuttgart Hbf|Vaihingen(Enz)|Heidelberg Hbf|Weinheim(Bergstr)Hbf|Bensheim|Darmstadt Hbf|Frankfurt(Main)Süd|Fulda|Kassel-Wilhelmshöhe|Göttingen|Hildesheim Hbf|Braunschweig Hbf"/>
 		<dp pt="2608111120" pp="5" fb="ICE 994" ppth="Stendal Hbf|Berlin-Spandau|Berlin-Charlottenburg"/>
+	</s>
+	<s id="4098332167854761058-2608111048-11">
+		<tl t="p" o="R0" c="ENO" n="83513"/>
+		<ar pt="2608111143" pp="4" l="RE30" fb="RE30" ppth="Hannover Hbf|Lehrte|Immensen-Arpke|Dollbergen|Dedenhausen|Meinersen|Leiferde(b Gifhorn)|Gifhorn|Calberlah|Fallersleben"/>
 	</s>
 	<s id="377870133695271869-2608111051-4">
 		<tl t="p" o="R0" c="ENO" n="75563"/>
@@ -38,6 +25,14 @@
 		<tl f="F" t="p" o="80" c="ICE" n="845"/>
 		<ar pt="2608111103" pp="5" fb="ICE 845" ppth="Köln Hbf|Düsseldorf Hbf|Düsseldorf Flughafen|Duisburg Hbf|Essen Hbf|Bochum Hbf|Dortmund Hbf|Hamm(Westf)Hbf|Hannover Hbf"/>
 		<dp pt="2608111105" pp="5" fb="ICE 845" ppth="Berlin-Spandau|Berlin Hbf|Berlin Südkreuz"/>
+	</s>
+	<s id="6469594953573757363-2608111148-1">
+		<tl t="p" o="R0" c="ENO" n="75564"/>
+		<dp pt="2608111148" pp="8" l="RE50" fb="RE50" ppth="Fallersleben|Weddel(Braunschw)|Braunschweig Hbf"/>
+	</s>
+	<s id="1425359838063502304-2608111122-1">
+		<tl f="N" t="p" o="RSMD" c="RB" n="80357"/>
+		<dp pt="2608111122" pp="9" l="RB36" fb="RB36" ppth="Oebisfelde|Bösdorf(Sachs-Anh)|Rätzlingen|Wegenstedt|Flechtingen|Haldensleben|Vahldorf|Groß Ammensleben|Meitzendorf|Barleben|Magdeburg-Eichenweiler|Magdeburg-Neustadt|Magdeburg Hbf"/>
 	</s>
 	<s id="8642793912640631890-2608111047-2">
 		<tl f="F" t="p" o="80" c="ICE" n="640"/>
@@ -49,8 +44,13 @@
 		<ar pt="2608111137" pp="1" fb="ICE 373" ppth="Berlin Hbf|Berlin-Spandau"/>
 		<dp pt="2608111138" pp="1" fb="ICE 373" ppth="Braunschweig Hbf|Hildesheim Hbf|Göttingen|Kassel-Wilhelmshöhe|Fulda|Hanau Hbf|Frankfurt(Main)Hbf|Mannheim Hbf|Karlsruhe Hbf|Offenburg|Freiburg(Breisgau) Hbf|Basel Bad Bf|Basel SBB|Zürich HB|Sargans|Landquart|Chur"/>
 	</s>
-	<s id="4098332167854761058-2608111048-11">
-		<tl t="p" o="R0" c="ENO" n="83513"/>
-		<ar pt="2608111143" pp="4" l="RE30" fb="RE30" ppth="Hannover Hbf|Lehrte|Immensen-Arpke|Dollbergen|Dedenhausen|Meinersen|Leiferde(b Gifhorn)|Gifhorn|Calberlah|Fallersleben"/>
+	<s id="4131928373987407668-2608111114-1">
+		<tl t="p" o="R0" c="ENO" n="83514"/>
+		<dp pt="2608111114" pp="4" l="RE30" fb="RE30" ppth="Fallersleben|Calberlah|Gifhorn|Leiferde(b Gifhorn)|Meinersen|Dedenhausen|Dollbergen|Immensen-Arpke|Lehrte|Hannover Hbf"/>
+	</s>
+	<s id="7280780786399683236-2608110653-6">
+		<tl f="F" t="p" o="80" c="ICE" n="855"/>
+		<ar pt="2608111103" pp="5" fb="ICE 855" wings="5312563495212518167-2608110601" ppth="Köln Hbf|Wuppertal Hbf|Hagen Hbf|Hamm(Westf)Hbf|Hannover Hbf"/>
+		<dp pt="2608111105" pp="5" fb="ICE 855" wings="5312563495212518167-2608110601" ppth="Berlin-Spandau|Berlin Hbf|Berlin Südkreuz"/>
 	</s>
 </timetable>
