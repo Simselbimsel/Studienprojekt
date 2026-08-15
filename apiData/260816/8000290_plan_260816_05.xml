@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+<timetable station="Offenburg">
+	<s id="-7933222209613530264-2608160556-1">
+		<tl f="N" t="p" o="800647" c="RE" n="4707"/>
+		<dp pt="2608160556" pp="4" l="RE2" fb="RE2" tra="-6780728349443800314-2608160456-9" ppth="Biberach(Baden)|Haslach|Hausach|Hornberg(Schwarzw)|Triberg|St Georgen(Schwarzw)|Villingen(Schwarzw)|Donaueschingen|Immendingen|Engen|Singen(Hohentwiel)|Radolfzell|Allensbach|Konstanz-Petershausen|Konstanz"/>
+	</s>
+	<s id="-8716776747589038458-2608151831-16">
+		<tl f="F" t="p" o="81" c="EN" n="40458"/>
+		<ar pt="2608160546" pp="1" fb="EN 40458" ppth="Praha hl.n.|Praha-Holesovice|Usti nad Labem hl.n.|Decin hl.n.|Bad Schandau|Dresden Hbf|Dresden-Neustadt|Riesa|Leipzig Hbf|Erfurt Hbf|Fulda|Frankfurt(Main)Süd|Mannheim Hbf|Karlsruhe Hbf|Baden-Baden"/>
+		<dp pt="2608160550" pp="1" fb="EN 40458" hi="1" ppth="Schaffhausen|Zürich HB"/>
+	</s>
+	<s id="-1197270886930040789-2608152048-13">
+		<tl f="F" t="p" o="NZ" c="IC" n="60408"/>
+		<ar pt="2608160546" pp="1" fb="IC 60408" ppth="Berlin Hbf|Berlin Südkreuz|Lutherstadt Wittenberg Hbf|Bitterfeld|Halle(Saale)Hbf|Leipzig Hbf|Erfurt Hbf|Fulda|Frankfurt(Main)Süd|Mannheim Hbf|Karlsruhe Hbf|Baden-Baden"/>
+		<dp pt="2608160550" pp="1" fb="IC 60408" ppth="Schaffhausen|Zürich HB"/>
+	</s>
+	<s id="5331894847185138451-2608152048-13">
+		<tl t="p" o="81" c="NJ" n="408"/>
+		<ar pt="2608160546" pp="1" fb="NJ 408" wings="-1197270886930040789-2608152048" ppth="Berlin Hbf|Berlin Südkreuz|Lutherstadt Wittenberg Hbf|Bitterfeld|Halle(Saale)Hbf|Leipzig Hbf|Erfurt Hbf|Fulda|Frankfurt(Main)Süd|Mannheim Hbf|Karlsruhe Hbf|Baden-Baden"/>
+		<dp pt="2608160550" pp="1" fb="NJ 408" hi="1" wings="-1197270886930040789-2608152048" ppth="Schaffhausen|Zürich HB"/>
+	</s>
+	<s id="-5676428147416065355-2608160548-1">
+		<tl f="N" t="p" o="800647" c="RE" n="4702"/>
+		<dp pt="2608160548" pp="6" l="RE2" fb="RE2" ppth="Appenweier|Renchen|Achern|Bühl(Baden)|Baden-Baden|Rastatt|Muggensturm|Malsch|Bruchhausen(b Ettlingen)|Ettlingen West|Karlsruhe Hbf"/>
+	</s>
+	<s id="-8572647521164952896-2608151831-16">
+		<tl f="F" t="p" o="54" c="EC" n="458"/>
+		<ar pt="2608160546" pp="1" fb="EC 458" wings="-8716776747589038458-2608151831|5331894847185138451-2608152048" ppth="Praha hl.n.|Praha-Holesovice|Usti nad Labem hl.n.|Decin hl.n.|Bad Schandau|Dresden Hbf|Dresden-Neustadt|Riesa|Leipzig Hbf|Erfurt Hbf|Fulda|Frankfurt(Main)Süd|Mannheim Hbf|Karlsruhe Hbf|Baden-Baden"/>
+		<dp pt="2608160550" pp="1" fb="EC 458" hi="1" wings="-8716776747589038458-2608151831|5331894847185138451-2608152048" ppth="Schaffhausen|Zürich HB"/>
+	</s>
+	<s id="-3600137003086714631-2608152000-10">
+		<tl f="F" t="p" o="NZ" c="IC" n="60471"/>
+		<ar pt="2608160522" pp="1" fb="IC 60471" ppth="Hamburg-Harburg|Bremen Hbf|Hannover Hbf|Göttingen|Hanau Hbf|Frankfurt(Main)Hbf|Mannheim Hbf|Karlsruhe Hbf|Baden-Baden"/>
+		<dp pt="2608160524" pp="1" fb="IC 60471" ppth="Singen(Hohentwiel)|Schaffhausen|Zürich HB"/>
+	</s>
+	<s id="-3238246615504329950-2608152000-10">
+		<tl t="p" o="81" c="NJ" n="471"/>
+		<ar pt="2608160522" pp="1" fb="NJ 471" wings="-3600137003086714631-2608152000|4052288539220062497-2608152000" ppth="Hamburg-Harburg|Bremen Hbf|Hannover Hbf|Göttingen|Hanau Hbf|Frankfurt(Main)Hbf|Mannheim Hbf|Karlsruhe Hbf|Baden-Baden"/>
+		<dp pt="2608160524" pp="1" fb="NJ 471" wings="-3600137003086714631-2608152000|4052288539220062497-2608152000" ppth="Singen(Hohentwiel)|Schaffhausen|Zürich HB"/>
+	</s>
+	<s id="5117997816741756006-2608160546-1">
+		<tl f="D" t="p" o="S6" c="SWE" n="87503"/>
+		<dp pt="2608160546" pp="7" l="RS1" fb="RS1" pde="Freudenstadt Hbf" ppth="Offenburg Kreisschulzentrum|Gengenbach|Biberach(Baden)|Steinach(Baden)|Haslach|Hausach"/>
+	</s>
+	<s id="-6780728349443800314-2608160456-9">
+		<tl f="N" t="p" o="800647" c="RE" n="4701"/>
+		<ar pt="2608160540" pp="4" l="RE2" fb="RE2" tra="-7933222209613530264-2608160556-1" ppth="Karlsruhe Hbf|Muggensturm|Rastatt|Baden-Baden|Bühl(Baden)|Achern|Renchen|Appenweier"/>
+	</s>
+</timetable>
