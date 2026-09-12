@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<timetable station="Fulda">
+	<s id="3379126348238471855-2609130057-17">
+		<tl f="N" t="p" o="8005KG" c="RB" n="15546"/>
+		<ar pt="2609130219" pp="1" l="RB51" fb="RB51" ppth="Offenbach(Main)Hbf|Hanau Hbf|Wolfgang(Kr Hanau)|Rodenbach(b Hanau)|Langenselbold|Niedermittlau|Hailer-Meerholz|Gelnhausen|Haitz-Höchst|Wirtheim|Wächtersbach|Bad Soden-Salmünster|Steinau(Straße)|Schlüchtern|Flieden|Neuhof(Kr Fulda)"/>
+	</s>
+	<s id="-1197270886930040789-2609122048-7">
+		<tl f="F" t="p" o="NZ" c="IC" n="60408"/>
+		<ar pt="2609130239" pp="4" fb="IC 60408" hi="1" ppth="Berlin Hbf|Berlin Südkreuz|Lutherstadt Wittenberg Hbf|Bitterfeld|Halle(Saale)Hbf|Erfurt Hbf"/>
+		<dp pt="2609130241" pp="4" fb="IC 60408" hi="1" ppth="Frankfurt(Main)Süd|Mannheim Hbf|Karlsruhe Hbf|Baden-Baden|Offenburg|Freiburg(Breisgau) Hbf|Basel Bad Bf|Basel SBB|Zürich HB"/>
+	</s>
+	<s id="5331894847185138451-2609122048-7">
+		<tl t="p" o="81" c="NJ" n="408"/>
+		<ar pt="2609130239" pp="4" fb="NJ 408" hi="1" wings="-1197270886930040789-2609122048" ppth="Berlin Hbf|Berlin Südkreuz|Lutherstadt Wittenberg Hbf|Bitterfeld|Halle(Saale)Hbf|Erfurt Hbf"/>
+		<dp pt="2609130241" pp="4" fb="NJ 408" hi="1" wings="-1197270886930040789-2609122048" ppth="Frankfurt(Main)Süd|Mannheim Hbf|Karlsruhe Hbf|Baden-Baden|Offenburg|Freiburg(Breisgau) Hbf|Basel Bad Bf|Basel SBB|Zürich HB"/>
+	</s>
+</timetable>
