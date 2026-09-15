@@ -1,5 +1,9 @@
 <?xml version="1.0" ?>
 <timetable station="Kassel-Wilhelmshöhe">
+	<s id="-2420548531218419738-2609152005-12">
+		<tl f="N" t="p" o="800523" c="RB" n="23032"/>
+		<ar pt="2609152121" pp="4" l="RB4" fb="RB4" ppth="Korbach Hbf|Twiste|Mengeringhausen|Bad Arolsen|Külte-Wetterburg|Volkmarsen|Ehringen|Wolfhagen|Zierenberg|Ahnatal-Weimar|Vellmar-Obervellmar"/>
+	</s>
 	<s id="230589732717101712-2609152103-1">
 		<tl t="p" o="NXRE" c="NX" n="26736"/>
 		<dp pt="2609152103" pp="7" l="RE11" fb="RE11" ppth="Hofgeismar|Warburg(Westf)|Willebadessen|Altenbeken|Paderborn Hbf|Lippstadt|Soest|Hamm(Westf)Hbf|Kamen|Dortmund Hbf"/>
@@ -18,10 +22,20 @@
 		<tl t="p" o="NXRE" c="NX" n="26731"/>
 		<ar pt="2609152155" pp="8" l="RE11" fb="RE11" ppth="Essen Hbf|Wattenscheid|Bochum Hbf|Dortmund Hbf|Kamen|Hamm(Westf)Hbf|Soest|Lippstadt|Paderborn Hbf|Altenbeken|Willebadessen|Warburg(Westf)|Hofgeismar"/>
 	</s>
+	<s id="-524151628723159576-2609151853-7">
+		<tl f="F" t="p" o="80" c="ICE" n="685"/>
+		<ar pt="2609152121" pp="2" fb="ICE 685" ppth="Hamburg Dammtor|Hamburg Hbf|Hamburg-Harburg|Lüneburg|Hannover Hbf|Göttingen"/>
+		<dp pt="2609152123" pp="2" fb="ICE 685" ppth="Fulda|Würzburg Hbf|Nürnberg Hbf"/>
+	</s>
 	<s id="260198625280724309-2609152141-2">
 		<tl f="N" t="p" o="800523" c="RB" n="23135"/>
 		<ar pt="2609152146" pp="7" l="RB39" fb="RB39" ppth="Kassel Hbf"/>
 		<dp pt="2609152147" pp="7" l="RB39" fb="RB39" ppth="Kassel-Oberzwehren|Baunatal-Rengershausen|Baunatal-Guntershausen|Edermünde-Grifte|Felsberg-Wolfershausen|Felsberg-Altenbrunslar|Felsberg-Gensungen|Wabern(Bz Kassel)|Zennern|Fritzlar|Ungedanken|Mandern|Wega|Bad Wildungen"/>
+	</s>
+	<s id="-5194163752357709461-2609152111-6">
+		<tl f="D" t="p" o="N4" c="CAN" n="63590"/>
+		<ar pt="2609152133" pp="9" l="RB5" fb="RB5" ppth="Körle|Guxhagen|Baunatal-Guntershausen|Baunatal-Rengershausen|Kassel-Oberzwehren"/>
+		<dp pt="2609152134" pp="9" l="RB5" fb="RB5" ppth="Kassel Hbf"/>
 	</s>
 	<s id="-516453126867102564-2609152137-8">
 		<tl f="D" t="p" o="H4" c="RT" n="20551"/>
@@ -33,15 +47,29 @@
 		<ar pt="2609152105" pp="9" l="RT5" fb="RT5" ppth="Körle|Guxhagen|Baunatal-Guntershausen|Baunatal-Rengershausen|Kassel-Oberzwehren"/>
 		<dp pt="2609152105" pp="9" l="RT5" fb="RT5" ppth="Kassel Hbf (tief)|Scheidemannplatz, Kassel|Wilhelmsstraße/Stadtmuseum, Kassel|Rathaus/Fünffensterstraße, Kassel|Am Weinberg, Kassel|Heinrich-Heine-Straße, Kassel|Auestadion, Kassel"/>
 	</s>
+	<s id="1600907390587984872-2609152030-3">
+		<tl t="p" o="AM" c="Bus" n="11732"/>
+		<ar pt="2609152130" pp="" l="RE8" fb="Bus RE8" ppth="Eichenberg|Werrabrücke, Witzenhausen"/>
+	</s>
 	<s id="387110255594909239-2609151816-7">
 		<tl f="F" t="p" o="80" c="ICE" n="777"/>
 		<ar pt="2609152146" pp="2" fb="ICE 777" ppth="Kiel Hbf|Neumünster|Hamburg Hbf|Celle|Hannover Hbf|Göttingen"/>
 		<dp pt="2609152148" pp="2" fb="ICE 777" ppth="Frankfurt(Main)Hbf"/>
 	</s>
+	<s id="7874870249319716964-2609152014-13">
+		<tl f="N" t="p" o="800523" c="RE" n="23132"/>
+		<ar pt="2609152111" pp="9" l="RE39" fb="RE39" ppth="Bad Wildungen|Wega|Mandern|Ungedanken|Fritzlar|Zennern|Wabern(Bz Kassel)|Felsberg-Gensungen|Edermünde-Grifte|Baunatal-Guntershausen|Baunatal-Rengershausen|Kassel-Oberzwehren"/>
+		<dp pt="2609152112" pp="9" l="RE39" fb="RE39" ppth="Kassel Hbf"/>
+	</s>
 	<s id="-4818102182269436190-2609151646-8">
 		<tl f="F" t="p" o="80" c="ICE" n="70"/>
 		<ar pt="2609152111" pp="3" fb="ICE 70" ppth="Basel SBB|Basel Bad Bf|Freiburg(Breisgau) Hbf|Offenburg|Karlsruhe Hbf|Mannheim Hbf|Frankfurt(Main)Hbf"/>
 		<dp pt="2609152113" pp="3" fb="ICE 70" ppth="Göttingen|Hannover Hbf|Uelzen|Hamburg Hbf"/>
+	</s>
+	<s id="8757276497855035879-2609151837-7">
+		<tl f="F" t="p" o="80" c="ICE" n="677"/>
+		<ar pt="2609152111" pp="2" fb="ICE 677" ppth="Berlin Hbf|Berlin-Spandau|Wolfsburg Hbf|Braunschweig Hbf|Hildesheim Hbf|Göttingen"/>
+		<dp pt="2609152113" pp="2" fb="ICE 677" ppth="Fulda|Hanau Hbf|Frankfurt(Main)Hbf|Mannheim Hbf|Karlsruhe Hbf"/>
 	</s>
 	<s id="-7327965731976233623-2609151839-9">
 		<tl f="F" t="p" o="80" c="ICE" n="790"/>
@@ -61,33 +89,5 @@
 		<tl f="N" t="p" o="8005MW" c="RE" n="4164"/>
 		<ar pt="2609152126" pp="9" l="RE30" fb="RE30" ppth="Frankfurt(Main)Hbf|Friedberg(Hess)|Gießen|Marburg(Lahn)|Kirchhain(Bz Kassel)|Stadtallendorf|Neustadt(Kr Marburg)|Treysa|Borken(Hess)|Wabern(Bz Kassel)"/>
 		<dp pt="2609152128" pp="9" l="RE30" fb="RE30" ppth="Kassel Hbf"/>
-	</s>
-	<s id="-2420548531218419738-2609152005-12">
-		<tl f="N" t="p" o="800523" c="RB" n="23032"/>
-		<ar pt="2609152121" pp="4" l="RB4" fb="RB4" ppth="Korbach Hbf|Twiste|Mengeringhausen|Bad Arolsen|Külte-Wetterburg|Volkmarsen|Ehringen|Wolfhagen|Zierenberg|Ahnatal-Weimar|Vellmar-Obervellmar"/>
-	</s>
-	<s id="-524151628723159576-2609151853-7">
-		<tl f="F" t="p" o="80" c="ICE" n="685"/>
-		<ar pt="2609152121" pp="2" fb="ICE 685" ppth="Hamburg Dammtor|Hamburg Hbf|Hamburg-Harburg|Lüneburg|Hannover Hbf|Göttingen"/>
-		<dp pt="2609152123" pp="2" fb="ICE 685" ppth="Fulda|Würzburg Hbf|Nürnberg Hbf"/>
-	</s>
-	<s id="-5194163752357709461-2609152111-6">
-		<tl f="D" t="p" o="N4" c="CAN" n="63590"/>
-		<ar pt="2609152133" pp="9" l="RB5" fb="RB5" ppth="Körle|Guxhagen|Baunatal-Guntershausen|Baunatal-Rengershausen|Kassel-Oberzwehren"/>
-		<dp pt="2609152134" pp="9" l="RB5" fb="RB5" ppth="Kassel Hbf"/>
-	</s>
-	<s id="1600907390587984872-2609152030-3">
-		<tl t="p" o="AM" c="Bus" n="11732"/>
-		<ar pt="2609152130" pp="" l="RE8" fb="Bus RE8" ppth="Eichenberg|Werrabrücke, Witzenhausen"/>
-	</s>
-	<s id="7874870249319716964-2609152014-13">
-		<tl f="N" t="p" o="800523" c="RE" n="23132"/>
-		<ar pt="2609152111" pp="9" l="RE39" fb="RE39" ppth="Bad Wildungen|Wega|Mandern|Ungedanken|Fritzlar|Zennern|Wabern(Bz Kassel)|Felsberg-Gensungen|Edermünde-Grifte|Baunatal-Guntershausen|Baunatal-Rengershausen|Kassel-Oberzwehren"/>
-		<dp pt="2609152112" pp="9" l="RE39" fb="RE39" ppth="Kassel Hbf"/>
-	</s>
-	<s id="8757276497855035879-2609151837-7">
-		<tl f="F" t="p" o="80" c="ICE" n="677"/>
-		<ar pt="2609152111" pp="2" fb="ICE 677" ppth="Berlin Hbf|Berlin-Spandau|Wolfsburg Hbf|Braunschweig Hbf|Hildesheim Hbf|Göttingen"/>
-		<dp pt="2609152113" pp="2" fb="ICE 677" ppth="Fulda|Hanau Hbf|Frankfurt(Main)Hbf|Mannheim Hbf|Karlsruhe Hbf"/>
 	</s>
 </timetable>
