@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<timetable station="Pegnitz">
+	<s id="-2952333823964063461-2609171216-4">
+		<tl f="N" t="p" o="800759" c="RB" n="3084"/>
+		<ar pt="2609171243" pp="2" l="RE30" fb="RE30" tra="3280049626526552404-2609171216-1" ppth="Bayreuth Hbf|Creußen(Oberfr)|Schnabelwaid"/>
+	</s>
+	<s id="3280049626526552404-2609171216-1">
+		<tl f="N" t="p" o="800759" c="RE" n="3084"/>
+		<dp pt="2609171245" pp="2" l="RE30" fb="RE30" tra="-2952333823964063461-2609171216-4" ppth="Neuhaus(Pegnitz)|Nürnberg Hbf"/>
+	</s>
+	<s id="746642738750858106-2609171205-3">
+		<tl f="N" t="p" o="800759" c="RE" n="33889"/>
+		<ar pt="2609171241" pp="1" l="RE32" fb="RE32" ppth="Nürnberg Hbf|Hersbruck(r Pegnitz)"/>
+		<dp pt="2609171243" pp="1" l="RE32" fb="RE32" pde="Hof Hbf" ppth="Creußen(Oberfr)|Bayreuth Hbf|Bindlach|Ramsenthal|Harsdorf|Trebgast|Neuenmarkt-Wirsberg"/>
+	</s>
+	<s id="8903753047642911672-2609171225-2">
+		<tl f="N" t="p" o="800759" c="RE" n="99004"/>
+		<ar pt="2609171238" pp="2" l="RE33" fb="RE33" ppth="Kirchenlaibach"/>
+		<dp pt="2609171245" pp="2" l="RE33" fb="RE33" wings="3280049626526552404-2609171216" ppth="Neuhaus(Pegnitz)|Nürnberg Hbf"/>
+	</s>
+	<s id="-7190928825044444553-2609171137-3">
+		<tl f="N" t="p" o="800759" c="RE" n="3027"/>
+		<ar pt="2609171214" pp="1" l="RE30" fb="RE30" wings="-3821115182043432264-2609171137" ppth="Nürnberg Hbf|Neuhaus(Pegnitz)"/>
+		<dp pt="2609171216" pp="1" l="RE30" fb="RE30" ppth="Bayreuth Hbf|Trebgast|Münchberg|Hof Hbf"/>
+	</s>
+	<s id="-3821115182043432264-2609171137-3">
+		<tl f="N" t="p" o="800759" c="RE" n="3827"/>
+		<ar pt="2609171214" pp="1" l="RE31" fb="RE31" ppth="Nürnberg Hbf|Neuhaus(Pegnitz)"/>
+		<dp pt="2609171220" pp="1" l="RE31" fb="RE31" ppth="Kirchenlaibach"/>
+	</s>
+	<s id="-7954638128225043896-2609171149-3">
+		<tl f="N" t="p" o="800759" c="RE" n="3404"/>
+		<ar pt="2609171218" pp="2" l="RE32" fb="RE32" pde="Bamberg" ppth="Neuenmarkt-Wirsberg|Bayreuth Hbf"/>
+		<dp pt="2609171218" pp="2" l="RE32" fb="RE32" ppth="Hersbruck(r Pegnitz)|Nürnberg Hbf"/>
+	</s>
+</timetable>
