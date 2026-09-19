@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+<timetable station="Offenburg">
+	<s id="5738390511098149011-2609192230-10">
+		<tl f="D" t="p" o="S6" c="SWE" n="88606"/>
+		<ar pt="2609192316" pp="7" l="RS1" fb="RS1" ppth="Schiltach|Halbmeil|Wolfach|Hausach|Haslach|Steinach(Baden)|Biberach(Baden)|Gengenbach|Offenburg Kreisschulzentrum"/>
+	</s>
+	<s id="-6235789055676348186-2609191626-17">
+		<tl f="F" t="p" o="80" c="ICE" n="205"/>
+		<ar pt="2609192333" pp="" fb="ICE 205" ppth="Hamburg-Altona|Hamburg Dammtor|Hamburg Hbf|Hamburg-Harburg|Bremen Hbf|Osnabrück Hbf|Münster(Westf)Hbf|Gelsenkirchen Hbf|Oberhausen Hbf|Duisburg Hbf|Düsseldorf Hbf|Köln Hbf|Frankfurt(M) Flughafen Fernbf|Mannheim Hbf|Karlsruhe Hbf|Baden-Baden"/>
+	</s>
+	<s id="-5318447715582218004-2609192341-1">
+		<tl f="D" t="p" o="S6" c="SWE" n="87549"/>
+		<dp pt="2609192341" pp="7" l="RS1" fb="RS1" ppth="Offenburg Kreisschulzentrum|Gengenbach|Biberach(Baden)|Steinach(Baden)|Haslach|Hausach"/>
+	</s>
+	<s id="-5433076652617071325-2609192252-5">
+		<tl f="D" t="p" o="S6" c="SWE" n="87461"/>
+		<ar pt="2609192322" pp="2" l="RS4" fb="RS4" pde="Strasbourg" ppth="Kehl|Kork|Legelshurst|Appenweier"/>
+	</s>
+	<s id="7617701390260240690-2609192301-1">
+		<tl f="N" t="p" o="8006C5" c="RE" n="4772"/>
+		<dp pt="2609192301" pp="4" l="RE7" fb="RE7" ppth="Appenweier|Renchen|Achern|Bühl(Baden)|Baden-Baden|Rastatt|Karlsruhe Hbf"/>
+	</s>
+	<s id="-1501860170741125998-2609192209-12">
+		<tl f="N" t="p" o="800647" c="RE" n="4745"/>
+		<ar pt="2609192305" pp="5" l="RE2" fb="RE2" tra="1440996002430474826-2609192328-1" ppth="Karlsruhe Hbf|Ettlingen West|Bruchhausen(b Ettlingen)|Malsch|Muggensturm|Rastatt|Baden-Baden|Bühl(Baden)|Achern|Renchen|Appenweier"/>
+	</s>
+	<s id="-7918242483494735503-2609192214-14">
+		<tl f="D" t="p" o="S6" c="SWE" n="87395"/>
+		<ar pt="2609192303" pp="7" l="RS2" fb="RS2" ppth="Bad Griesbach(Schwarzwald)|Bad Peterstal|Löcherberg|Ibach|Oppenau|Ramsbach Birkhof|Ramsbach Höfle|Hubacker|Lautenbach(Baden)|Oberkirch-Köhlersiedlung|Oberkirch|Zusenhofen|Appenweier"/>
+	</s>
+	<s id="-8083340628202985713-2609192328-1">
+		<tl f="D" t="p" o="S6" c="SWE" n="87466"/>
+		<dp pt="2609192328" pp="2" l="RS4" fb="RS4" ppth="Appenweier|Legelshurst|Kork|Kehl|Krimmeri-Meinau|Strasbourg"/>
+	</s>
+	<s id="-2494453527783146128-2609191959-4">
+		<tl f="F" t="p" o="NZ" c="IC" n="60409"/>
+		<ar pt="2609192309" pp="3" fb="IC 60409" ppth="Zürich HB|Schaffhausen|Singen(Hohentwiel)"/>
+		<dp pt="2609192311" pp="3" fb="IC 60409" ppth="Karlsruhe Hbf|Mannheim Hbf|Frankfurt(Main)Süd|Fulda|Erfurt Hbf|Halle(Saale)Hbf|Berlin Südkreuz|Berlin Hbf"/>
+	</s>
+	<s id="-32974304396741632-2609191959-4">
+		<tl t="p" o="85NZ" c="NJ" n="409"/>
+		<ar pt="2609192309" pp="3" fb="NJ 409" hi="1" wings="-2494453527783146128-2609191959" ppth="Zürich HB|Schaffhausen|Singen(Hohentwiel)"/>
+		<dp pt="2609192311" pp="3" fb="NJ 409" wings="-2494453527783146128-2609191959" ppth="Karlsruhe Hbf|Mannheim Hbf|Frankfurt(Main)Süd|Fulda|Erfurt Hbf|Halle(Saale)Hbf|Berlin Südkreuz|Berlin Hbf"/>
+	</s>
+	<s id="1440996002430474826-2609192328-1">
+		<tl f="N" t="p" o="800647" c="RE" n="4747"/>
+		<dp pt="2609192328" pp="5" l="RE2" fb="RE2" tra="-1501860170741125998-2609192209-12" ppth="Gengenbach|Haslach|Hausach"/>
+	</s>
+</timetable>
