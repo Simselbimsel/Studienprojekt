@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<timetable station="Pegnitz">
+	<s id="-2839881650584456555-2609191016-4">
+		<tl f="N" t="p" o="800759" c="RB" n="3082"/>
+		<ar pt="2609191042" pp="2" l="RE30" fb="RE30" tra="1587632171736629626-2609191016-1" ppth="Bayreuth Hbf|Creußen(Oberfr)|Schnabelwaid"/>
+	</s>
+	<s id="1587632171736629626-2609191016-1">
+		<tl f="N" t="p" o="800759" c="RE" n="3082"/>
+		<dp pt="2609191045" pp="2" l="RE30" fb="RE30" tra="-2839881650584456555-2609191016-4" ppth="Neuhaus(Pegnitz)|Nürnberg Hbf"/>
+	</s>
+	<s id="-1510068140888576300-2609191005-3">
+		<tl f="N" t="p" o="800759" c="RE" n="33887"/>
+		<ar pt="2609191041" pp="1" l="RE38" fb="RE38" ppth="Nürnberg Hbf|Hersbruck(r Pegnitz)"/>
+		<dp pt="2609191043" pp="1" l="RE38" fb="RE38" pde="Hof Hbf" ppth="Creußen(Oberfr)|Bayreuth Hbf|Harsdorf|Trebgast|Neuenmarkt-Wirsberg"/>
+	</s>
+	<s id="-4374059878829502254-2609190949-3">
+		<tl f="N" t="p" o="800759" c="RE" n="3402"/>
+		<ar pt="2609191017" pp="2" l="RE32" fb="RE32" pde="Bamberg" ppth="Neuenmarkt-Wirsberg|Bayreuth Hbf"/>
+		<dp pt="2609191018" pp="2" l="RE32" fb="RE32" ppth="Hersbruck(r Pegnitz)|Nürnberg Hbf"/>
+	</s>
+	<s id="3748935647058277983-2609191025-2">
+		<tl f="N" t="p" o="800759" c="RE" n="99002"/>
+		<ar pt="2609191038" pp="2" l="RE33" fb="RE33" ppth="Kirchenlaibach"/>
+		<dp pt="2609191045" pp="2" l="RE33" fb="RE33" wings="1587632171736629626-2609191016" ppth="Neuhaus(Pegnitz)|Nürnberg Hbf"/>
+	</s>
+	<s id="-6575752512886608518-2609190937-3">
+		<tl f="N" t="p" o="800759" c="RE" n="3025"/>
+		<ar pt="2609191014" pp="1" l="RE30" fb="RE30" wings="-5752992752180127250-2609190937" ppth="Nürnberg Hbf|Neuhaus(Pegnitz)"/>
+		<dp pt="2609191016" pp="1" l="RE30" fb="RE30" ppth="Bayreuth Hbf|Trebgast|Münchberg|Hof Hbf"/>
+	</s>
+	<s id="-5752992752180127250-2609190937-3">
+		<tl f="N" t="p" o="800759" c="RE" n="3825"/>
+		<ar pt="2609191014" pp="1" l="RE31" fb="RE31" ppth="Nürnberg Hbf|Neuhaus(Pegnitz)"/>
+		<dp pt="2609191020" pp="1" l="RE31" fb="RE31" ppth="Kirchenlaibach"/>
+	</s>
+</timetable>
