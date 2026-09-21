@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<timetable station="Neuhaus(Pegnitz)">
+	<s id="3905844336190595795-2609211008-15">
+		<tl f="N" t="p" o="800720" c="RB" n="58523"/>
+		<ar pt="2609211100" pp="3" l="RB30" fb="RB30" ppth="Nürnberg Hbf|Nürnberg Ost|Nürnberg-Erlenstegen|Behringersdorf|Rückersdorf(Mfr)|Ludwigshöhe|Lauf(rechts Pegnitz)|Neunkirchen a Sand|Reichenschwand|Hersbruck(r Pegnitz)|Hohenstadt(Mittelfr)|Vorra(Pegnitz)|Rupprechtstegen|Velden(b Hersbruck)"/>
+	</s>
+	<s id="-8869892451340157995-2609211101-1">
+		<tl f="N" t="p" o="800720" c="RB" n="58524"/>
+		<dp pt="2609211101" pp="9" l="RB30" fb="RB30" ppth="Velden(b Hersbruck)|Rupprechtstegen|Vorra(Pegnitz)|Hohenstadt(Mittelfr)|Hersbruck(r Pegnitz)|Reichenschwand|Neunkirchen a Sand|Lauf(rechts Pegnitz)|Ludwigshöhe|Rückersdorf(Mfr)|Behringersdorf|Nürnberg-Erlenstegen|Nürnberg Ost|Nürnberg Hbf"/>
+	</s>
+	<s id="-3165454093599261426-2609211037-2">
+		<tl f="N" t="p" o="800759" c="RE" n="4885"/>
+		<ar pt="2609211105" pp="2" l="RE31" fb="RE31" ppth="Nürnberg Hbf"/>
+		<dp pt="2609211106" pp="2" l="RE31" fb="RE31" ppth="Pegnitz|Kirchenlaibach"/>
+	</s>
+	<s id="-6736515146309839590-2609211036-6">
+		<tl f="N" t="p" o="800759" c="RE" n="3028"/>
+		<ar pt="2609211155" pp="1" l="RE30" fb="RE30" ppth="Hof Hbf|Münchberg|Trebgast|Bayreuth Hbf|Pegnitz"/>
+		<dp pt="2609211156" pp="1" l="RE30" fb="RE30" ppth="Nürnberg Hbf"/>
+	</s>
+	<s id="4537925609521023179-2609211126-3">
+		<tl f="N" t="p" o="800759" c="RE" n="3828"/>
+		<ar pt="2609211155" pp="1" l="RE31" fb="RE31" wings="-6736515146309839590-2609211036" ppth="Kirchenlaibach|Pegnitz"/>
+		<dp pt="2609211156" pp="1" l="RE31" fb="RE31" wings="-6736515146309839590-2609211036" ppth="Nürnberg Hbf"/>
+	</s>
+	<s id="8648694314130704326-2609211037-2">
+		<tl f="N" t="p" o="800759" c="RE" n="3085"/>
+		<ar pt="2609211105" pp="2" l="RE30" fb="RE30" wings="-3165454093599261426-2609211037" ppth="Nürnberg Hbf"/>
+		<dp pt="2609211106" pp="2" l="RE30" fb="RE30" wings="-3165454093599261426-2609211037" ppth="Pegnitz|Schnabelwaid|Creußen(Oberfr)|Bayreuth Hbf"/>
+	</s>
+</timetable>
