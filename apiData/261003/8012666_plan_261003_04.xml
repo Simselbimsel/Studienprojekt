@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<timetable station="Potsdam Hbf">
+	<s id="-6865119617348472975-2610030423-1">
+		<tl f="N" t="p" o="800165" c="RB" n="18141"/>
+		<dp pt="2610030423" pp="3" l="RB21" fb="RB21" ppth="Potsdam Charlottenhof|Potsdam Park Sanssouci|Golm|Marquardt|Priort"/>
+	</s>
+	<s id="-7410860683214104779-2610030447-1">
+		<tl f="N" t="p" o="800165" c="RB" n="18102"/>
+		<dp pt="2610030447" pp="1" l="RB22" fb="RB22" ppth="Potsdam Charlottenhof|Potsdam Park Sanssouci|Golm|Potsdam Pirschheide|Saarmund|Ludwigsfelde-Struveshof|Flughafen BER|Königs Wusterhausen"/>
+	</s>
+	<s id="-4782954664003624221-2610030426-3">
+		<tl f="F" t="p" o="80" c="ICE" n="946"/>
+		<ar pt="2610030459" pp="3" fb="ICE 946" hi="1" wings="-6590078199824287896-2610030426" ppth="Berlin Südkreuz|Berlin Hbf"/>
+		<dp pt="2610030501" pp="3" fb="ICE 946" wings="-6590078199824287896-2610030426" ppth="Magdeburg Hbf|Braunschweig Hbf|Hannover Hbf|Bielefeld Hbf|Hamm(Westf)Hbf|Dortmund Hbf|Duisburg Hbf|Düsseldorf Flughafen|Düsseldorf Hbf"/>
+	</s>
+	<s id="-6590078199824287896-2610030426-3">
+		<tl f="F" t="p" o="80" c="ICE" n="956"/>
+		<ar pt="2610030459" pp="3" fb="ICE 956" hi="1" ppth="Berlin Südkreuz|Berlin Hbf"/>
+		<dp pt="2610030501" pp="3" fb="ICE 956" ppth="Magdeburg Hbf|Braunschweig Hbf|Hannover Hbf|Bielefeld Hbf|Hamm(Westf)Hbf|Hagen Hbf|Wuppertal Hbf|Köln Hbf"/>
+	</s>
+	<s id="3964436047862623041-2610030424-6">
+		<tl f="N" t="p" o="800165" c="RE" n="3748"/>
+		<ar pt="2610030458" pp="" l="RE7" fb="RE7" ppth="Bad Belzig|Baitz|Brück(Mark)|Borkheide|Beelitz-Heilstätten"/>
+		<dp pt="2610030503" pp="" l="RE7" fb="RE7" ppth="Berlin-Wannsee"/>
+	</s>
+	<s id="1390449046162663604-2610030417-7">
+		<tl f="D" t="p" o="OWRE" c="OE" n="73753"/>
+		<ar pt="2610030447" pp="4" l="RE1" fb="RE1" ppth="Brandenburg Hbf|Götz|Groß Kreutz|Werder(Havel)|Potsdam Park Sanssouci|Potsdam Charlottenhof"/>
+		<dp pt="2610030449" pp="4" l="RE1" fb="RE1" ppth="Berlin-Wannsee|Berlin-Charlottenburg"/>
+	</s>
+</timetable>
