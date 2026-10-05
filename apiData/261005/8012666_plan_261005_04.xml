@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<timetable station="Potsdam Hbf">
+	<s id="-7410860683214104779-2610050447-1">
+		<tl f="N" t="p" o="800165" c="RB" n="18102"/>
+		<dp pt="2610050447" pp="3" l="RB22" fb="RB22" ppth="Potsdam Charlottenhof|Potsdam Park Sanssouci|Golm|Potsdam Pirschheide|Saarmund|Ludwigsfelde-Struveshof|Flughafen BER|Königs Wusterhausen"/>
+	</s>
+	<s id="-5534490169129587216-2610050447-1">
+		<tl f="N" t="p" o="800165" c="RB" n="18450"/>
+		<dp pt="2610050447" pp="3" l="RB20" fb="RB20" wings="-7410860683214104779-2610050447" ppth="Potsdam Charlottenhof|Potsdam Park Sanssouci|Golm|Marquardt|Priort|Hennigsdorf(b Berlin)"/>
+	</s>
+	<s id="3354208527624427939-2610050442-1">
+		<tl f="D" t="p" o="OWRB" c="OE" n="62120"/>
+		<dp pt="2610050442" pp="2" l="RB33" fb="RB33" ppth="Potsdam Charlottenhof|Potsdam Pirschheide|Caputh-Geltow|Caputh Schwielowsee|Ferch-Lienewitz|Beelitz Stadt|Elsholz|Buchholz(Zauche)|Treuenbrietzen|Treuenbrietzen Süd|Altes Lager|Jüterbog"/>
+	</s>
+	<s id="1239396408097892359-2610050352-7">
+		<tl f="D" t="p" o="OWRB" c="OE" n="62121"/>
+		<ar pt="2610050415" pp="2" l="RB33" fb="RB33" ppth="Beelitz Stadt|Ferch-Lienewitz|Caputh Schwielowsee|Caputh-Geltow|Potsdam Pirschheide|Potsdam Charlottenhof"/>
+	</s>
+	<s id="-6865119617348472975-2610050423-1">
+		<tl f="N" t="p" o="800165" c="RB" n="18141"/>
+		<dp pt="2610050423" pp="3" l="RB21" fb="RB21" ppth="Potsdam Charlottenhof|Potsdam Park Sanssouci|Golm|Marquardt|Priort"/>
+	</s>
+	<s id="-2665435153022489553-2610050345-6">
+		<tl f="N" t="p" o="800165" c="RE" n="3702"/>
+		<ar pt="2610050418" pp="4" l="RE7" fb="RE7" ppth="Bad Belzig|Baitz|Brück(Mark)|Borkheide|Beelitz-Heilstätten"/>
+		<dp pt="2610050419" pp="4" l="RE7" fb="RE7" ppth="Berlin-Wannsee|Berlin-Charlottenburg"/>
+	</s>
+	<s id="1390449046162663604-2610050417-7">
+		<tl f="D" t="p" o="OWRE" c="OE" n="73753"/>
+		<ar pt="2610050447" pp="4" l="RE1" fb="RE1" ppth="Brandenburg Hbf|Götz|Groß Kreutz|Werder(Havel)|Potsdam Park Sanssouci|Potsdam Charlottenhof"/>
+		<dp pt="2610050449" pp="4" l="RE1" fb="RE1" ppth="Berlin-Wannsee|Berlin-Charlottenburg"/>
+	</s>
+	<s id="-6590078199824287896-2610050426-3">
+		<tl f="F" t="p" o="80" c="ICE" n="956"/>
+		<ar pt="2610050459" pp="3" fb="ICE 956" hi="1" ppth="Berlin Südkreuz|Berlin Hbf"/>
+		<dp pt="2610050501" pp="3" fb="ICE 956" ppth="Magdeburg Hbf|Braunschweig Hbf|Hannover Hbf|Bielefeld Hbf|Hamm(Westf)Hbf|Hagen Hbf|Wuppertal Hbf|Köln Hbf"/>
+	</s>
+	<s id="-4782954664003624221-2610050426-3">
+		<tl f="F" t="p" o="80" c="ICE" n="946"/>
+		<ar pt="2610050459" pp="3" fb="ICE 946" hi="1" wings="-6590078199824287896-2610050426" ppth="Berlin Südkreuz|Berlin Hbf"/>
+		<dp pt="2610050501" pp="3" fb="ICE 946" wings="-6590078199824287896-2610050426" ppth="Magdeburg Hbf|Braunschweig Hbf|Hannover Hbf|Bielefeld Hbf|Hamm(Westf)Hbf|Dortmund Hbf|Duisburg Hbf|Düsseldorf Flughafen|Düsseldorf Hbf"/>
+	</s>
+</timetable>
