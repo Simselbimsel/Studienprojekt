@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<timetable station="Pegnitz">
+	<s id="4758480531957517514-2610060737-3">
+		<tl f="N" t="p" o="800759" c="RE" n="3823"/>
+		<ar pt="2610060814" pp="1" l="RE31" fb="RE31" ppth="Nürnberg Hbf|Neuhaus(Pegnitz)"/>
+		<dp pt="2610060820" pp="1" l="RE31" fb="RE31" ppth="Kirchenlaibach"/>
+	</s>
+	<s id="7469438209092848329-2610060737-3">
+		<tl f="N" t="p" o="800759" c="RE" n="3023"/>
+		<ar pt="2610060814" pp="1" l="RE30" fb="RE30" wings="4758480531957517514-2610060737" ppth="Nürnberg Hbf|Neuhaus(Pegnitz)"/>
+		<dp pt="2610060816" pp="1" l="RE30" fb="RE30" ppth="Bayreuth Hbf|Trebgast|Münchberg|Hof Hbf"/>
+	</s>
+	<s id="2881802526115886360-2610060826-2">
+		<tl f="N" t="p" o="800759" c="RE" n="99000"/>
+		<ar pt="2610060840" pp="2" l="RE33" fb="RE33" ppth="Kirchenlaibach"/>
+		<dp pt="2610060846" pp="2" l="RE33" fb="RE33" wings="4370398531355125130-2610060816" ppth="Neuhaus(Pegnitz)|Nürnberg Hbf"/>
+	</s>
+	<s id="8294584516510842367-2610060640-11">
+		<tl f="N" t="p" o="800759" c="RE" n="3400"/>
+		<ar pt="2610060817" pp="2" l="RE38" fb="RE38" ppth="Bamberg|Bad Staffelstein|Lichtenfels|Hochstadt-Marktzeuln|Burgkunstadt|Mainleus|Kulmbach|Neuenmarkt-Wirsberg|Trebgast|Bayreuth Hbf"/>
+		<dp pt="2610060818" pp="2" l="RE38" fb="RE38" ppth="Hersbruck(r Pegnitz)|Nürnberg Hbf"/>
+	</s>
+	<s id="-18949020171375644-2610060805-3">
+		<tl f="N" t="p" o="800759" c="RE" n="33885"/>
+		<ar pt="2610060841" pp="1" l="RE38" fb="RE38" ppth="Nürnberg Hbf|Hersbruck(r Pegnitz)"/>
+		<dp pt="2610060843" pp="1" l="RE38" fb="RE38" ppth="Creußen(Oberfr)|Bayreuth Hbf|Trebgast|Neuenmarkt-Wirsberg"/>
+	</s>
+	<s id="4370398531355125130-2610060816-1">
+		<tl f="N" t="p" o="800759" c="RE" n="3080"/>
+		<dp pt="2610060846" pp="2" l="RE30" fb="RE30" tra="-723542518867557095-2610060816-4" ppth="Neuhaus(Pegnitz)|Nürnberg Hbf"/>
+	</s>
+	<s id="-723542518867557095-2610060816-4">
+		<tl f="N" t="p" o="800759" c="RB" n="3080"/>
+		<ar pt="2610060844" pp="2" l="RE30" fb="RE30" tra="4370398531355125130-2610060816-1" ppth="Bayreuth Hbf|Creußen(Oberfr)|Schnabelwaid"/>
+	</s>
+</timetable>
