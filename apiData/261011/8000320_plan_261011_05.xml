@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<timetable station="Rosenheim">
+	<s id="6406586649286876666-2610101747-10">
+		<tl f="F" t="p" o="78" c="EN" n="414"/>
+		<ar pt="2610110522" pp="2" fb="EN 414" wings="4919409081459587886-2610102030|8258495970941561047-2610102105" ppth="Zagreb Glavni kolodvor|Zapresic|Dobova|Sevnica|Celje|Maribor|Spielfeld-Straß|Graz Hbf|Salzburg Hbf"/>
+		<dp pt="2610110524" pp="2" fb="EN 414" hi="1" wings="4919409081459587886-2610102030|8258495970941561047-2610102105" ppth="München Ost|Augsburg Hbf|Ulm Hbf|Göppingen|Stuttgart Hbf"/>
+		<tra t="v" id="-3370919265299372854" ref-to="4919409081459587886-2610102030" s="a" o="p"/>
+		<tra t="v" id="-3034304382315089225" ref-to="4919409081459587886-2610102030" s="a" o="p"/>
+		<tra t="v" id="-1749380966612401415" ref-to="8258495970941561047-2610102105" s="a" o="p"/>
+	</s>
+	<s id="4919409081459587886-2610102030-12">
+		<tl f="F" t="p" o="55" c="EN" n="50462"/>
+		<ar pt="2610110522" pp="2" fb="EN 50462" ppth="Budapest-Keleti|Budapest-Kelenföld|Tatabanya|Györ|Mosonmagyarovar|Hegyeshalom|Wien Hbf|Wien Meidling|St.Pölten Hbf|Linz/Donau Hbf|Salzburg Hbf"/>
+		<dp pt="2610110524" pp="2" fb="EN 50462" hi="1" ppth="München Ost|Augsburg Hbf|Ulm Hbf|Göppingen|Stuttgart Hbf"/>
+		<tra t="v" id="-3370919265299372854" ref-from="6406586649286876666-2610101747" s="a" o="p"/>
+		<tra t="v" id="-3034304382315089225" ref-from="6406586649286876666-2610101747" s="a" o="p"/>
+	</s>
+	<s id="8258495970941561047-2610102105-10">
+		<tl t="p" o="81" c="NJ" n="236"/>
+		<ar pt="2610110522" pp="2" fb="NJ 236" ppth="Venezia Santa Lucia|Venezia Mestre|Treviso Centrale|Conegliano|Pordenone|Udine|Tarvisio Boscoverde|Villach Hbf|Salzburg Hbf"/>
+		<dp pt="2610110524" pp="2" fb="NJ 236" hi="1" ppth="München Ost|Augsburg Hbf|Ulm Hbf|Göppingen|Stuttgart Hbf"/>
+		<tra t="v" id="-1749380966612401415" ref-from="6406586649286876666-2610101747" s="a" o="p"/>
+	</s>
+	<s id="3168160730932802093-2610110528-1">
+		<tl f="D" t="p" o="M8" c="BRB" n="79054"/>
+		<dp pt="2610110528" pp="3" l="RB54" fb="RB54" ppth="Großkarolinenfeld|Ostermünchen|Aßling(Oberbay)|Grafing Bahnhof|München Ost|München Hbf Gl.5-10"/>
+	</s>
+</timetable>

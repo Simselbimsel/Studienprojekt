@@ -1,0 +1,51 @@
+<?xml version="1.0" ?>
+<timetable station="München Leuchtenbergring">
+	<s id="-6752573542412548250-2610110115-21">
+		<tl f="S" t="p" o="800725" c="S" n="8199"/>
+		<ar pt="2610110206" pp="2" l="S1" fb="S1" ppth="München Flughafen Terminal|München Flughafen Besucherpark|Neufahrn(b Freising)|Eching|Lohhof|Unterschleißheim|Oberschleißheim|München-Feldmoching|München-Fasanerie|München-Moosach|München-Laim|München Hirschgarten|München Donnersbergerbrücke|München Hackerbrücke|München Hbf (tief)|München Karlsplatz|München Marienplatz|München Isartor|München Rosenheimer Platz|München Ost"/>
+	</s>
+	<s id="832081868837279148-2610110119-25">
+		<tl f="S" t="p" o="800725" c="S" n="8981"/>
+		<ar pt="2610110240" pp="4" l="S2" fb="S2" ppth="Altomünster|Kleinberghofen|Erdweg|Arnbach|Markt Indersdorf|Niederroth|Schwabhausen(b Dachau)|Bachern|Dachau Stadt|Dachau Bahnhof|München-Karlsfeld|München-Allach|München-Untermenzing|München-Obermenzing|München-Laim|München Hirschgarten|München Donnersbergerbrücke|München Hackerbrücke|München Hbf (tief)|München Karlsplatz|München Marienplatz|München Isartor|München Rosenheimer Platz|München Ost"/>
+		<dp pt="2610110241" pp="4" l="S2" fb="S2" ppth="München-Berg am Laim|München-Riem|Feldkirchen(b München)|Heimstetten|Grub(Oberbay)|Poing|Markt Schwaben"/>
+		<tra t="v" id="-1790411497747180744" ref-from="381531260372303626-2610110152" s="a" o="p"/>
+	</s>
+	<s id="-7511361313242237297-2610110142-13">
+		<tl f="S" t="p" o="800725" c="S" n="8640"/>
+		<ar pt="2610110219" pp="1" l="S6" fb="S6" ppth="Ebersberg(Oberbay)|Grafing Stadt|Grafing Bahnhof|Kirchseeon|Eglharting|Zorneding|Baldham|Vaterstetten|Haar|Gronsdorf|München-Trudering|München-Berg am Laim"/>
+		<dp pt="2610110219" pp="1" l="S6" fb="S6" ppth="München Ost|München Rosenheimer Platz|München Isartor|München Marienplatz|München Karlsplatz|München Hbf (tief)|München Hackerbrücke|München Donnersbergerbrücke|München Hirschgarten|München-Laim|München-Pasing"/>
+	</s>
+	<s id="-5243166414228302393-2610110144-9">
+		<tl f="S" t="p" o="800725" c="S" n="8838"/>
+		<ar pt="2610110212" pp="4" l="S8" fb="S8" ppth="München Flughafen Terminal|München Flughafen Besucherpark|Hallbergmoos|Ismaning|Unterföhring|München-Johanneskirchen|München-Englschalking|München-Daglfing"/>
+		<dp pt="2610110212" pp="4" l="S8" fb="S8" ppth="München Ost|München Rosenheimer Platz|München Isartor|München Marienplatz|München Karlsplatz|München Hbf (tief)|München Hackerbrücke|München Donnersbergerbrücke|München Hirschgarten|München-Laim|München-Pasing"/>
+	</s>
+	<s id="381531260372303626-2610110152-20">
+		<tl f="S" t="p" o="800725" c="S" n="8241"/>
+		<ar pt="2610110240" pp="4" l="S2" fb="S2" wings="832081868837279148-2610110119" ppth="Petershausen(Obb)|Vierkirchen-Esterhofen|Röhrmoos|Hebertshausen|Dachau Bahnhof|München-Karlsfeld|München-Allach|München-Untermenzing|München-Obermenzing|München-Laim|München Hirschgarten|München Donnersbergerbrücke|München Hackerbrücke|München Hbf (tief)|München Karlsplatz|München Marienplatz|München Isartor|München Rosenheimer Platz|München Ost"/>
+		<dp pt="2610110241" pp="4" l="S2" fb="S2" wings="832081868837279148-2610110119" ppth="München-Berg am Laim|München-Riem|Feldkirchen(b München)|Heimstetten|Grub(Oberbay)|Poing|Markt Schwaben"/>
+		<tra t="v" id="-1790411497747180744" ref-to="832081868837279148-2610110119" s="a" o="p"/>
+	</s>
+	<s id="8100170198701065197-2610110156-8">
+		<tl f="S" t="p" o="800725" c="S" n="8240"/>
+		<ar pt="2610110215" pp="1" l="S2" fb="S2" wings="6431285891627180853-2610110156" ppth="Markt Schwaben|Poing|Grub(Oberbay)|Heimstetten|Feldkirchen(b München)|München-Riem|München-Berg am Laim"/>
+		<dp pt="2610110215" pp="1" l="S2" fb="S2" wings="6431285891627180853-2610110156" ppth="München Ost|München Rosenheimer Platz|München Isartor|München Marienplatz|München Karlsplatz|München Hbf (tief)|München Hackerbrücke|München Donnersbergerbrücke|München Hirschgarten|München-Laim|München-Obermenzing|München-Untermenzing|München-Allach|München-Karlsfeld|Dachau Bahnhof|Hebertshausen|Röhrmoos|Vierkirchen-Esterhofen|Petershausen(Obb)"/>
+		<tra t="v" id="4983034010857840611" ref-to="6431285891627180853-2610110156" s="a" o="p"/>
+	</s>
+	<s id="6431285891627180853-2610110156-8">
+		<tl f="S" t="p" o="800725" c="S" n="8980"/>
+		<ar pt="2610110215" pp="1" l="S2" fb="S2" ppth="Markt Schwaben|Poing|Grub(Oberbay)|Heimstetten|Feldkirchen(b München)|München-Riem|München-Berg am Laim"/>
+		<dp pt="2610110215" pp="1" l="S2" fb="S2" ppth="München Ost|München Rosenheimer Platz|München Isartor|München Marienplatz|München Karlsplatz|München Hbf (tief)|München Hackerbrücke|München Donnersbergerbrücke|München Hirschgarten|München-Laim|München-Obermenzing|München-Untermenzing|München-Allach|München-Karlsfeld|Dachau Bahnhof|Dachau Stadt|Bachern|Schwabhausen(b Dachau)|Niederroth|Markt Indersdorf|Arnbach|Erdweg|Kleinberghofen|Altomünster"/>
+		<tra t="v" id="4983034010857840611" ref-from="8100170198701065197-2610110156" s="a" o="p"/>
+	</s>
+	<s id="5045125186042278455-2610110216-11">
+		<tl f="S" t="p" o="800725" c="S" n="8641"/>
+		<ar pt="2610110237" pp="4" l="S6" fb="S6" ppth="München-Pasing|München Hirschgarten|München Donnersbergerbrücke|München Hackerbrücke|München Hbf (tief)|München Karlsplatz|München Marienplatz|München Isartor|München Rosenheimer Platz|München Ost"/>
+		<dp pt="2610110238" pp="4" l="S6" fb="S6" ppth="München-Berg am Laim|München-Trudering|Gronsdorf|Haar|Vaterstetten|Baldham|Zorneding|Eglharting|Kirchseeon|Grafing Bahnhof|Grafing Stadt|Ebersberg(Oberbay)"/>
+	</s>
+	<s id="-4321951582378922312-2610110223-12">
+		<tl f="S" t="p" o="800725" c="S" n="8843"/>
+		<ar pt="2610110244" pp="4" l="S8" fb="S8" ppth="München-Pasing|München-Laim|München Hirschgarten|München Donnersbergerbrücke|München Hackerbrücke|München Hbf (tief)|München Karlsplatz|München Marienplatz|München Isartor|München Rosenheimer Platz|München Ost"/>
+		<dp pt="2610110246" pp="4" l="S8" fb="S8" ppth="München-Daglfing|München-Englschalking|München-Johanneskirchen|Unterföhring|Ismaning|Hallbergmoos|München Flughafen Besucherpark|München Flughafen Terminal"/>
+	</s>
+</timetable>

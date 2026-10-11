@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<timetable station="Holzkirchen">
+	<s id="9101926208693461257-2610110438-11">
+		<tl t="p" o="T8" c="Bus" n="17352"/>
+		<ar pt="2610110554" pp="" l="RB55" fb="Bus RB55" ppth="Bayrischzell|Osterhofen(Oberbay)|Geitau|Fischbachau|Fischhausen-Neuhaus|Schliersee|Hausham|Agatharied|Miesbach|Darching"/>
+	</s>
+	<s id="-617036407797945027-2610110515-1">
+		<tl f="S" t="p" o="800725" c="S" n="6316"/>
+		<dp pt="2610110515" pp="3" l="S3" fb="S3" ppth="Otterfing|Sauerlach|Deisenhofen|Furth(b Deisenhofen)|Taufkirchen|Unterhaching|Fasanenpark|München-Fasangarten|München-Giesing|München St.Martin-Str.|München Ost|München Rosenheimer Platz|München Isartor|München Marienplatz|München Karlsplatz|München Hbf (tief)|München Hackerbrücke|München Donnersbergerbrücke|München Hirschgarten|München-Laim|München-Pasing|München-Langwied|München-Lochhausen|Gröbenzell|Olching|Esting|Gernlinden|Maisach|Malching(Oberbay)|Mammendorf"/>
+	</s>
+	<s id="-7416504965666312108-2610110517-8">
+		<tl f="D" t="p" o="T8" c="BRB" n="86852"/>
+		<ar pt="2610110559" pp="4" l="RB56" fb="RB56" ppth="Lenggries|Obergries|Gaißach|Bad Tölz|Reichersbeuern|Schaftlach|Warngau"/>
+		<dp pt="2610110604" pp="4" l="RB56" fb="RB56" ppth="München-Solln|München Harras|München Donnersbergerbrücke|München Hbf Gl.27-36"/>
+		<tra t="v" id="-4776784670930500284" ref-from="6128675290707643924-2610110549" s="a" o="p" jt="j"/>
+		<tra t="v" id="4962847391779504056" ref-from="6128675290707643924-2610110549" s="a" o="p"/>
+	</s>
+	<s id="7669008254164369077-2610110529-5">
+		<tl f="D" t="p" o="T8" c="BRB" n="77351"/>
+		<ar pt="2610110555" pp="1" l="RB55" fb="RB55" ppth="München Hbf Gl.27-36|München Donnersbergerbrücke|München Harras|München-Solln"/>
+	</s>
+	<s id="6128675290707643924-2610110549-3">
+		<tl f="D" t="p" o="T8" c="BRB" n="86952"/>
+		<ar pt="2610110559" pp="4" l="RB57" fb="RB57" wings="-7416504965666312108-2610110517" ppth="Schaftlach|Warngau"/>
+		<dp pt="2610110604" pp="4" l="RB57" fb="RB57" wings="-7416504965666312108-2610110517|-2801414155627328776-2610110604" ppth="München-Solln|München Harras|München Donnersbergerbrücke|München Hbf Gl.27-36"/>
+		<tra t="v" id="-4776784670930500284" ref-to="-7416504965666312108-2610110517" s="a" o="p" jt="j"/>
+		<tra t="v" id="-4703231922396683427" ref-to="-2801414155627328776-2610110604" s="a" o="p" jt="j"/>
+		<tra t="v" id="4962847391779504056" ref-to="-7416504965666312108-2610110517" s="a" o="p"/>
+	</s>
+	<s id="-2041048220056397649-2610110555-1">
+		<tl f="S" t="p" o="800725" c="S" n="6320"/>
+		<dp pt="2610110555" pp="3" l="S3" fb="S3" ppth="Otterfing|Sauerlach|Deisenhofen|Furth(b Deisenhofen)|Taufkirchen|Unterhaching|Fasanenpark|München-Fasangarten|München-Giesing|München St.Martin-Str.|München Ost|München Rosenheimer Platz|München Isartor|München Marienplatz|München Karlsplatz|München Hbf (tief)|München Hackerbrücke|München Donnersbergerbrücke|München Hirschgarten|München-Laim|München-Pasing|München-Langwied|München-Lochhausen|Gröbenzell|Olching|Esting|Gernlinden|Maisach"/>
+	</s>
+</timetable>

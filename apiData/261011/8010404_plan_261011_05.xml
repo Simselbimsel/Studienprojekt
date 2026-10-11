@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+<timetable station="Berlin-Spandau">
+	<s id="-783114804571488319-2610110400-15">
+		<tl f="N" t="p" o="800165" c="RE" n="3103"/>
+		<ar pt="2610110552" pp="3" l="RE2" fb="RE2" ppth="Cottbus Hbf|Kolkwitz|Kunersdorf|Vetschau|Raddusch|Lübbenau(Spreewald)|Lübben(Spreewald)|Brand Tropical Islands|Bestensee|Königs Wusterhausen|Berlin-Schöneweide|Berlin Ostkreuz|Berlin Gesundbrunnen|Berlin Jungfernheide"/>
+		<dp pt="2610110556" pp="3" l="RE2" fb="RE2" ppth="Albrechtshof|Seegefeld|Falkensee|Finkenkrug|Brieselang|Nauen"/>
+	</s>
+	<s id="6607831438146617632-2610110402-14">
+		<tl f="D" t="p" o="OWRE" c="OE" n="62000"/>
+		<ar pt="2610110520" pp="5" l="RE8" fb="RE8" ppth="Wittenberge|Bad Wilsnack|Glöwen|Breddin|Neustadt(Dosse)|Friesack(Mark)|Paulinenaue|Nauen|Brieselang|Finkenkrug|Falkensee|Seegefeld|Albrechtshof"/>
+		<dp pt="2610110522" pp="5" l="RE8" fb="RE8" ppth="Berlin Jungfernheide|Berlin Hbf|Berlin Potsdamer Platz|Berlin Südkreuz|Blankenfelde(Teltow-Fläming)|Dahlewitz|Rangsdorf|Dabendorf|Zossen|Wünsdorf-Waldstadt|Neuhof(b Zossen)|Baruth(Mark)"/>
+	</s>
+	<s id="-7342486565031247988-2610110454-3">
+		<tl f="N" t="p" o="800158" c="RE" n="3145"/>
+		<ar pt="2610110504" pp="4" l="RE4" fb="RE4" tra="8143108989438558315-2610110523-1" ppth="Berlin Hbf|Berlin Jungfernheide"/>
+		<tra t="d" id="8317489547379473537" ref-to="8143108989438558315-2610110523-1" s="a" o="p"/>
+	</s>
+	<s id="3775635315635080489-2610110457-3">
+		<tl f="F" t="p" o="80" c="ICE" n="240"/>
+		<ar pt="2610110518" pp="3" fb="ICE 240" hi="1" ppth="Berlin Südkreuz|Berlin Hbf"/>
+		<dp pt="2610110519" pp="3" fb="ICE 240" ppth="Ludwigslust|Hamburg-Bergedorf|Hamburg-Harburg|Osnabrück Altstadt|Rheine|Bad Bentheim|Hengelo|Deventer|Apeldoorn|Amersfoort Centraal|Hilversum|Amsterdam Centraal"/>
+	</s>
+	<s id="-9145753996335025161-2610110511-7">
+		<tl f="N" t="p" o="800165" c="RB" n="18601"/>
+		<ar pt="2610110535" pp="6" l="RB14" fb="RB14" tra="-2075167521329289804-2610110554-1" ppth="Nauen|Brieselang|Finkenkrug|Falkensee|Seegefeld|Albrechtshof"/>
+		<tra t="d" id="9110456673829019871" ref-to="-2075167521329289804-2610110554-1" s="a" o="p"/>
+	</s>
+	<s id="-9071852162455384975-2610110512-6">
+		<tl f="N" t="p" o="800165" c="RB" n="18243"/>
+		<ar pt="2610110545" pp="5" l="RB21" fb="RB21" ppth="Hennigsdorf(b Berlin)|Finkenkrug|Falkensee|Seegefeld|Albrechtshof"/>
+		<dp pt="2610110548" pp="5" l="RB21" fb="RB21" ppth="Berlin-Charlottenburg|Berlin-Wannsee|Potsdam Griebnitzsee|Potsdam Hbf|Potsdam Charlottenhof|Potsdam Park Sanssouci|Golm|Marquardt|Priort"/>
+	</s>
+	<s id="-8803265211998331993-2610110522-3">
+		<tl f="D" t="p" o="OWRE" c="OE" n="62003"/>
+		<ar pt="2610110535" pp="4" l="RE8" fb="RE8" ppth="Berlin Hbf|Berlin Jungfernheide"/>
+		<dp pt="2610110537" pp="4" l="RE8" fb="RE8" ppth="Falkensee|Nauen|Paulinenaue|Friesack(Mark)|Neustadt(Dosse)|Breddin|Glöwen|Bad Wilsnack|Wittenberge"/>
+	</s>
+	<s id="8143108989438558315-2610110523-1">
+		<tl f="N" t="p" o="800165" c="RB" n="18600"/>
+		<dp pt="2610110523" pp="4" l="RB14" fb="RB14" tra="-7342486565031247988-2610110454-3" ppth="Albrechtshof|Seegefeld|Falkensee|Finkenkrug|Brieselang|Nauen"/>
+		<tra t="d" id="8317489547379473537" ref-from="-7342486565031247988-2610110454-3" s="a" o="p"/>
+	</s>
+	<s id="-2075167521329289804-2610110554-1">
+		<tl f="N" t="p" o="800158" c="RE" n="3164"/>
+		<dp pt="2610110554" pp="6" l="RE4" fb="RE4" tra="-9145753996335025161-2610110511-7" ppth="Berlin Jungfernheide|Berlin Hbf|Berlin Potsdamer Platz|Berlin Südkreuz|Berlin-Lichterfelde Ost|Ludwigsfelde|Thyrow|Trebbin|Luckenwalde|Jüterbog"/>
+		<tra t="d" id="9110456673829019871" ref-from="-9145753996335025161-2610110511-7" s="a" o="p"/>
+	</s>
+</timetable>

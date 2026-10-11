@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<timetable station="Göttingen">
+	<s id="-7058442198521206872-2610101836-10">
+		<tl t="p" o="81" c="NJ" n="492"/>
+		<ar pt="2610110605" pp="9" fb="NJ 492" ppth="Wien Hbf|Wien Meidling|St.Pölten Hbf|Linz/Donau Hbf|Salzburg Hbf|München Ost|Nürnberg Hbf|Würzburg Hbf|Kassel-Wilhelmshöhe"/>
+		<dp pt="2610110609" pp="9" fb="NJ 492" ppth="Hannover Hbf|Hamburg-Harburg|Hamburg Hbf|Hamburg Dammtor|Hamburg-Altona"/>
+		<tra t="v" id="4093623592033014398" ref-from="-8677182982400525824-2610102046" s="a" o="p"/>
+	</s>
+	<s id="-8677182982400525824-2610102046-11">
+		<tl t="p" o="81" c="NJ" n="40420"/>
+		<ar pt="2610110605" pp="9" fb="NJ 40420" wings="-7058442198521206872-2610101836" ppth="Innsbruck Hbf|Jenbach|Wörgl Hbf|Kufstein|Rosenheim|München Hbf|Ingolstadt Hbf|Nürnberg Hbf|Würzburg Hbf|Kassel-Wilhelmshöhe"/>
+		<dp pt="2610110609" pp="9" fb="NJ 40420" wings="-7058442198521206872-2610101836" ppth="Hannover Hbf|Hamburg-Harburg|Hamburg Hbf|Hamburg Dammtor|Hamburg-Altona"/>
+		<tra t="v" id="4093623592033014398" ref-to="-7058442198521206872-2610101836" s="a" o="p"/>
+	</s>
+	<s id="7511148090173910504-2610110412-8">
+		<tl f="F" t="p" o="80" c="ICE" n="1271"/>
+		<ar pt="2610110625" pp="10" fb="ICE 1271" ppth="Hamburg-Altona|Hamburg Dammtor|Hamburg Hbf|Hamburg-Harburg|Lüneburg|Uelzen|Hannover Hbf"/>
+		<dp pt="2610110627" pp="10" fb="ICE 1271" ppth="Kassel-Wilhelmshöhe|Frankfurt(Main)Hbf|Frankfurt(M) Flughafen Regionalbf"/>
+	</s>
+	<s id="1663072533275665667-2610110441-5">
+		<tl f="F" t="p" o="80" c="ICE" n="778"/>
+		<ar pt="2610110630" pp="9" fb="ICE 778" ppth="Frankfurt(Main)Hbf|Hanau Hbf|Fulda|Kassel-Wilhelmshöhe"/>
+		<dp pt="2610110632" pp="9" fb="ICE 778" ppth="Hannover Hbf|Celle|Lüneburg|Hamburg Hbf|Hamburg Dammtor|Neumünster|Kiel Hbf"/>
+	</s>
+	<s id="1271247141507133448-2610110444-5">
+		<tl f="F" t="p" o="80" c="ICE" n="1573"/>
+		<ar pt="2610110655" pp="11" fb="ICE 1573" ppth="Oldenburg(Oldb)Hbf|Delmenhorst|Bremen Hbf|Hannover Hbf"/>
+		<dp pt="2610110707" pp="11" fb="ICE 1573" ppth="Kassel-Wilhelmshöhe|Wabern(Bz Kassel)|Treysa|Marburg(Lahn)|Gießen|Friedberg(Hess)|Frankfurt(Main)Hbf|Darmstadt Hbf|Bensheim|Weinheim(Bergstr)Hbf|Heidelberg Hbf|Wiesloch-Walldorf|Bruchsal|Karlsruhe Hbf"/>
+	</s>
+	<s id="4194583095458686415-2610110604-1">
+		<tl f="N" t="p" o="800248" c="RE" n="82814"/>
+		<dp pt="2610110604" pp="6" l="RE2" fb="RE2" ppth="Nörten-Hardenberg|Northeim(Han)|Einbeck-Salzderhelden|Kreiensen|Freden(Leine)|Alfeld(Leine)|Banteln|Elze(Han)|Nordstemmen|Sarstedt|Hannover Hbf"/>
+	</s>
+	<s id="8388284206224174823-2610110648-1">
+		<tl f="N" t="p" o="8002A3" c="RB" n="14105"/>
+		<dp pt="2610110648" pp="4" l="RB82" fb="RB82" ppth="Nörten-Hardenberg|Northeim(Han)|Einbeck-Salzderhelden|Kreiensen|Bad Gandersheim|Seesen|Langelsheim|Goslar|Oker|Bad Harzburg"/>
+	</s>
+</timetable>

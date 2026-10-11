@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<timetable station="Würzburg Hbf">
+	<s id="-7058442198521206872-2610101836-8">
+		<tl t="p" o="81" c="NJ" n="492"/>
+		<ar pt="2610110241" pp="5" fb="NJ 492" ppth="Wien Hbf|Wien Meidling|St.Pölten Hbf|Linz/Donau Hbf|Salzburg Hbf|München Ost|Nürnberg Hbf"/>
+		<dp pt="2610110245" pp="5" fb="NJ 492" ppth="Kassel-Wilhelmshöhe|Göttingen|Hannover Hbf|Hamburg-Harburg|Hamburg Hbf|Hamburg Dammtor|Hamburg-Altona"/>
+		<tra t="v" id="4093623592033014398" ref-from="-8677182982400525824-2610102046" s="a" o="p"/>
+	</s>
+	<s id="-6813803786124510421-2610101836-8">
+		<tl t="p" o="81" c="NJ" n="40490"/>
+		<ar pt="2610110229" pp="4" fb="NJ 40490" ppth="Wien Hbf|Wien Meidling|St.Pölten Hbf|Linz/Donau Hbf|Salzburg Hbf|München Ost|Nürnberg Hbf"/>
+		<dp pt="2610110231" pp="4" fb="NJ 40490" ppth="Kassel-Wilhelmshöhe|Dortmund Hbf|Essen Hbf|Oberhausen Hbf|Arnhem Centraal|Utrecht Centraal|Amsterdam Centraal"/>
+		<tra t="v" id="-476021837614105892" ref-from="3272146161175325165-2610102046" s="a" o="p"/>
+	</s>
+	<s id="-8677182982400525824-2610102046-9">
+		<tl t="p" o="81" c="NJ" n="40420"/>
+		<ar pt="2610110241" pp="5" fb="NJ 40420" wings="-7058442198521206872-2610101836" ppth="Innsbruck Hbf|Jenbach|Wörgl Hbf|Kufstein|Rosenheim|München Hbf|Ingolstadt Hbf|Nürnberg Hbf"/>
+		<dp pt="2610110245" pp="5" fb="NJ 40420" wings="-7058442198521206872-2610101836" ppth="Kassel-Wilhelmshöhe|Göttingen|Hannover Hbf|Hamburg-Harburg|Hamburg Hbf|Hamburg Dammtor|Hamburg-Altona"/>
+		<tra t="v" id="4093623592033014398" ref-to="-7058442198521206872-2610101836" s="a" o="p"/>
+	</s>
+	<s id="3272146161175325165-2610102046-9">
+		<tl t="p" o="81" c="NJ" n="420"/>
+		<ar pt="2610110229" pp="4" fb="NJ 420" wings="-6813803786124510421-2610101836" ppth="Innsbruck Hbf|Jenbach|Wörgl Hbf|Kufstein|Rosenheim|München Hbf|Ingolstadt Hbf|Nürnberg Hbf"/>
+		<dp pt="2610110231" pp="4" fb="NJ 420" wings="-6813803786124510421-2610101836" ppth="Kassel-Wilhelmshöhe|Dortmund Hbf|Essen Hbf|Oberhausen Hbf|Arnhem Centraal|Utrecht Centraal|Amsterdam Centraal"/>
+		<tra t="v" id="-476021837614105892" ref-to="-6813803786124510421-2610101836" s="a" o="p"/>
+	</s>
+</timetable>
