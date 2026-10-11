@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<timetable station="Ebenhausen(Unterfr)">
+	<s id="-8717920014518218950-2610111216-7">
+		<tl f="N" t="p" o="8004NT" c="RE" n="3759"/>
+		<ar pt="2610111312" pp="3" l="RE7" fb="RE7" ppth="Zella-Mehlis|Suhl|Grimmenthal|Mellrichstadt Bf|Bad Neustadt(Saale)|Münnerstadt"/>
+		<dp pt="2610111317" pp="3" l="RE7" fb="RE7" wings="-7524800595694271986-2610111300" ppth="Schweinfurt Hbf|Würzburg Hbf"/>
+		<tra t="v" id="-3212240299010605696" ref-to="-7524800595694271986-2610111300" s="a" o="p" jt="j"/>
+	</s>
+	<s id="-7524800595694271986-2610111300-3">
+		<tl f="N" t="p" o="8004NT" c="RE" n="3779"/>
+		<ar pt="2610111309" pp="3" l="RE7" fb="RE7" ppth="Bad Kissingen|Oerlenbach"/>
+		<dp pt="2610111317" pp="3" l="RE7" fb="RE7" ppth="Schweinfurt Hbf|Würzburg Hbf"/>
+		<tra t="v" id="-3212240299010605696" ref-from="-8717920014518218950-2610111216" s="a" o="p" jt="j"/>
+	</s>
+	<s id="-386063668531938271-2610111312-3">
+		<tl f="D" t="p" o="EB" c="EB" n="80716"/>
+		<ar pt="2610111328" pp="4" l="RB50" fb="RB50" wings="2478213952049528612-2610111312" ppth="Schweinfurt Hbf|Poppenhausen"/>
+		<dp pt="2610111329" pp="4" l="RB50" fb="RB50" ppth="Oerlenbach|Bad Kissingen"/>
+		<tra t="v" id="4332451902273733613" ref-to="2478213952049528612-2610111312" s="a" o="p" jt="s"/>
+	</s>
+	<s id="2478213952049528612-2610111312-3">
+		<tl f="D" t="p" o="EB" c="EB" n="80742"/>
+		<ar pt="2610111328" pp="4" l="RB40" fb="RB40" ppth="Schweinfurt Hbf|Poppenhausen"/>
+		<dp pt="2610111331" pp="4" l="RB40" fb="RB40" ppth="Rottershausen|Münnerstadt|Burglauer|Bad Neustadt(Saale)|Mellrichstadt Bf|Rentwertshausen|Bibra|Wölfershausen|Grimmenthal|Untermaßfeld|Meiningen"/>
+		<tra t="v" id="4332451902273733613" ref-from="-386063668531938271-2610111312" s="a" o="p" jt="s"/>
+	</s>
+	<s id="4048922571270568294-2610111318-3">
+		<tl f="D" t="p" o="EB" c="EB" n="80685"/>
+		<ar pt="2610111327" pp="3" l="RB50" fb="RB50" ppth="Bad Kissingen|Oerlenbach"/>
+		<dp pt="2610111330" pp="3" l="RB50" fb="RB50" ppth="Poppenhausen|Oberwerrn|Schweinfurt Hbf|Schweinfurt Mitte|Schweinfurt Stadt"/>
+	</s>
+</timetable>

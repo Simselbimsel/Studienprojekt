@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<timetable station="Roding">
+	<s id="-3284382288378173664-2610111553-7">
+		<tl t="p" o="O9" c="OPB" n="79774"/>
+		<ar pt="2610111624" pp="3" l="RB27" fb="RB27" ppth="Furth im Wald|Arnschwang|Weiding|Kothmaißling|Cham(Oberpf)|Pösing"/>
+		<dp pt="2610111626" pp="3" l="RB27" fb="RB27" ppth="Neubäu|Bodenwöhr Nord|Schwandorf"/>
+	</s>
+	<s id="1653954187447167134-2610111601-4">
+		<tl t="p" o="O9" c="OPB" n="5773"/>
+		<ar pt="2610111624" pp="2" l="RB27" fb="RB27" ppth="Schwandorf|Bodenwöhr Nord|Neubäu"/>
+		<dp pt="2610111625" pp="2" l="RB27" fb="RB27" ppth="Pösing|Cham(Oberpf)|Kothmaißling|Weiding|Arnschwang|Furth im Wald"/>
+		<tra t="v" id="3186495278674124846" ref-from="-6976337784947362885-2610111601" s="a" o="p"/>
+	</s>
+	<s id="-6976337784947362885-2610111601-4">
+		<tl t="p" o="O9" c="OPB" n="79809"/>
+		<ar pt="2610111624" pp="2" l="RB28" fb="RB28" wings="1653954187447167134-2610111601" ppth="Schwandorf|Bodenwöhr Nord|Neubäu"/>
+		<dp pt="2610111625" pp="2" l="RB28" fb="RB28" wings="1653954187447167134-2610111601" ppth="Pösing|Cham(Oberpf)|Chamerau|Miltach|Blaibach(Oberpf)|Bad Kötzting|Zellerthal|Grafenwiesen|Hohenwarth Campingplatz|Hohenwarth|Arrach|Lam"/>
+		<tra t="v" id="3186495278674124846" ref-to="1653954187447167134-2610111601" s="a" o="p"/>
+	</s>
+</timetable>

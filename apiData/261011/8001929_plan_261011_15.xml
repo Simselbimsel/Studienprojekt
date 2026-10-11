@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<timetable station="Etzelwang">
+	<s id="-6991929650772025023-2610111440-4">
+		<tl f="N" t="p" o="800759" c="RE" n="3471"/>
+		<ar pt="2610111508" pp="2" l="RE41" fb="RE41" ppth="Nürnberg Hbf|Hersbruck(r Pegnitz)|Hartmannshof"/>
+		<dp pt="2610111508" pp="2" l="RE41" fb="RE41" ppth="Neukirchen(b Sulzb)|Vilseck|Freihung|Weiherhammer|Weiden(Oberpf)|Altenstadt(Waldnaab)|Neustadt(Waldnaab)"/>
+		<tra t="v" id="6445511826396222955" ref-from="441453160354953664-2610111440" s="a" o="p"/>
+	</s>
+	<s id="-8203186856111239944-2610111440-8">
+		<tl f="N" t="p" o="800759" c="RE" n="3572"/>
+		<ar pt="2610111545" pp="1" l="RE40" fb="RE40" wings="-5255780209950852230-2610111453" ppth="Regensburg Hbf|Regenstauf|Maxhütte-Haidhof|Schwandorf|Amberg|Sulzbach-Rosenberg|Neukirchen(b Sulzb)"/>
+		<dp pt="2610111546" pp="1" l="RE40" fb="RE40" wings="-5255780209950852230-2610111453" ppth="Hartmannshof|Hersbruck(r Pegnitz)|Nürnberg Hbf"/>
+		<tra t="v" id="-7536454759927226704" ref-to="-5255780209950852230-2610111453" s="a" o="p"/>
+	</s>
+	<s id="441453160354953664-2610111440-4">
+		<tl f="N" t="p" o="800759" c="RE" n="3571"/>
+		<ar pt="2610111508" pp="2" l="RE40" fb="RE40" wings="-6991929650772025023-2610111440" ppth="Nürnberg Hbf|Hersbruck(r Pegnitz)|Hartmannshof"/>
+		<dp pt="2610111508" pp="2" l="RE40" fb="RE40" wings="-6991929650772025023-2610111440" ppth="Neukirchen(b Sulzb)|Sulzbach-Rosenberg|Amberg|Schwandorf|Maxhütte-Haidhof|Regenstauf|Regensburg Hbf"/>
+		<tra t="v" id="6445511826396222955" ref-to="-6991929650772025023-2610111440" s="a" o="p"/>
+	</s>
+	<s id="-5255780209950852230-2610111453-8">
+		<tl f="N" t="p" o="800759" c="RE" n="3472"/>
+		<ar pt="2610111545" pp="1" l="RE41" fb="RE41" ppth="Neustadt(Waldnaab)|Altenstadt(Waldnaab)|Weiden(Oberpf)|Weiherhammer|Freihung|Vilseck|Neukirchen(b Sulzb)"/>
+		<dp pt="2610111546" pp="1" l="RE41" fb="RE41" ppth="Hartmannshof|Hersbruck(r Pegnitz)|Nürnberg Hbf"/>
+		<tra t="v" id="-7536454759927226704" ref-from="-8203186856111239944-2610111440" s="a" o="p"/>
+	</s>
+</timetable>

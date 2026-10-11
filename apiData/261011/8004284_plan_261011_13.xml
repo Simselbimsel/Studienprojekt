@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<timetable station="Neuhaus(Pegnitz)">
+	<s id="-8436322039353399095-2610111236-6">
+		<tl f="N" t="p" o="800759" c="RE" n="3030"/>
+		<ar pt="2610111355" pp="1" l="RE30" fb="RE30" wings="2825648178454642668-2610111326" ppth="Hof Hbf|Münchberg|Trebgast|Bayreuth Hbf|Pegnitz"/>
+		<dp pt="2610111356" pp="1" l="RE30" fb="RE30" wings="2825648178454642668-2610111326" ppth="Nürnberg Hbf"/>
+		<tra t="v" id="6968459274923031144" ref-to="2825648178454642668-2610111326" s="a" o="p"/>
+	</s>
+	<s id="-3217081176905938253-2610111237-2">
+		<tl f="N" t="p" o="800759" c="RE" n="4887"/>
+		<ar pt="2610111305" pp="2" l="RE31" fb="RE31" wings="3114594428740920861-2610111237" ppth="Nürnberg Hbf"/>
+		<dp pt="2610111306" pp="2" l="RE31" fb="RE31" wings="3114594428740920861-2610111237" ppth="Pegnitz|Kirchenlaibach"/>
+		<tra t="v" id="-8116780266620429734" ref-to="3114594428740920861-2610111237" s="a" o="p"/>
+	</s>
+	<s id="3114594428740920861-2610111237-2">
+		<tl f="N" t="p" o="800759" c="RE" n="3087"/>
+		<ar pt="2610111305" pp="2" l="RE30" fb="RE30" ppth="Nürnberg Hbf"/>
+		<dp pt="2610111306" pp="2" l="RE30" fb="RE30" ppth="Pegnitz|Schnabelwaid|Creußen(Oberfr)|Bayreuth Hbf"/>
+		<tra t="v" id="-8116780266620429734" ref-from="-3217081176905938253-2610111237" s="a" o="p"/>
+	</s>
+	<s id="5540693266403910512-2610111301-1">
+		<tl f="N" t="p" o="800720" c="RB" n="58528"/>
+		<dp pt="2610111301" pp="9" l="RB30" fb="RB30" ppth="Velden(b Hersbruck)|Rupprechtstegen|Vorra(Pegnitz)|Hohenstadt(Mittelfr)|Hersbruck(r Pegnitz)|Reichenschwand|Neunkirchen a Sand|Lauf(rechts Pegnitz)|Ludwigshöhe|Rückersdorf(Mfr)|Behringersdorf|Nürnberg-Erlenstegen|Nürnberg Ost|Nürnberg Hbf"/>
+	</s>
+	<s id="2825648178454642668-2610111326-3">
+		<tl f="N" t="p" o="800759" c="RE" n="3830"/>
+		<ar pt="2610111355" pp="1" l="RE31" fb="RE31" ppth="Kirchenlaibach|Pegnitz"/>
+		<dp pt="2610111356" pp="1" l="RE31" fb="RE31" ppth="Nürnberg Hbf"/>
+		<tra t="v" id="6968459274923031144" ref-from="-8436322039353399095-2610111236" s="a" o="p"/>
+	</s>
+</timetable>

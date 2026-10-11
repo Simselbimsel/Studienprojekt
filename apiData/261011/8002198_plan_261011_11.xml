@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<timetable station="Gauting">
+	<s id="-3942559226134760842-2610111002-30">
+		<tl f="S" t="p" o="800725" c="S" n="6646"/>
+		<ar pt="2610111117" pp="4" l="S6" fb="S6" ppth="Ebersberg(Oberbay)|Grafing Stadt|Grafing Bahnhof|Kirchseeon|Eglharting|Zorneding|Baldham|Vaterstetten|Haar|Gronsdorf|München-Trudering|München-Berg am Laim|München Leuchtenbergring|München Ost|München Rosenheimer Platz|München Isartor|München Marienplatz|München Karlsplatz|München Hbf (tief)|München Hackerbrücke|München Donnersbergerbrücke|München Hirschgarten|München-Laim|München-Pasing|München-Westkreuz|Lochham|Gräfelfing|Planegg|Stockdorf"/>
+		<dp pt="2610111117" pp="4" l="S6" fb="S6" ppth="Starnberg Nord|Starnberg|Possenhofen|Feldafing|Tutzing"/>
+	</s>
+	<s id="4582634191132744066-2610111054-28">
+		<tl f="S" t="p" o="800725" c="S" n="6650"/>
+		<ar pt="2610111157" pp="4" l="S6" fb="S6" ppth="Grafing Bahnhof|Kirchseeon|Eglharting|Zorneding|Baldham|Vaterstetten|Haar|Gronsdorf|München-Trudering|München-Berg am Laim|München Leuchtenbergring|München Ost|München Rosenheimer Platz|München Isartor|München Marienplatz|München Karlsplatz|München Hbf (tief)|München Hackerbrücke|München Donnersbergerbrücke|München Hirschgarten|München-Laim|München-Pasing|München-Westkreuz|Lochham|Gräfelfing|Planegg|Stockdorf"/>
+		<dp pt="2610111157" pp="4" l="S6" fb="S6" ppth="Starnberg Nord|Starnberg|Possenhofen|Feldafing|Tutzing"/>
+	</s>
+	<s id="986511177895560581-2610111104-6">
+		<tl f="S" t="p" o="800725" c="S" n="6653"/>
+		<ar pt="2610111122" pp="3" l="S6" fb="S6" ppth="Tutzing|Feldafing|Possenhofen|Starnberg|Starnberg Nord"/>
+		<dp pt="2610111122" pp="3" l="S6" fb="S6" ppth="Stockdorf|Planegg|Gräfelfing|Lochham|München-Westkreuz|München-Pasing|München Hirschgarten|München Donnersbergerbrücke|München Hackerbrücke|München Hbf (tief)|München Karlsplatz|München Marienplatz|München Isartor|München Rosenheimer Platz|München Ost|München Leuchtenbergring|München-Berg am Laim|München-Trudering|Gronsdorf|Haar|Vaterstetten|Baldham|Zorneding|Eglharting|Kirchseeon|Grafing Bahnhof|Grafing Stadt|Ebersberg(Oberbay)"/>
+	</s>
+	<s id="2646931618398905440-2610111128-3">
+		<tl f="N" t="p" o="800790" c="RB" n="59645"/>
+		<ar pt="2610111143" pp="" l="RB66" fb="RB66" hi="1" wings="-4819497480250978700-2610111128|326449174656110112-2610111128" ppth="München Hbf Gl.27-36|München-Pasing"/>
+		<dp pt="2610111147" pp="" l="RB66" fb="RB66" hi="1" wings="-4819497480250978700-2610111128|326449174656110112-2610111128" ppth="Tutzing|Bernried|Seeshaupt|Iffeldorf|Penzberg|Bichl|Benediktbeuern|Kochel"/>
+		<tra t="v" id="3100424152836649826" ref-to="326449174656110112-2610111128" s="a" o="p"/>
+		<tra t="v" id="4466379676487947718" ref-to="-4819497480250978700-2610111128" s="a" o="p"/>
+	</s>
+	<s id="-4819497480250978700-2610111128-3">
+		<tl f="N" t="p" o="800790" c="RB" n="5540"/>
+		<ar pt="2610111143" pp="" l="RB60" fb="RB60" hi="1" ppth="München Hbf Gl.27-36|München-Pasing"/>
+		<dp pt="2610111147" pp="" l="RB60" fb="RB60" hi="1" pde="Pfronten-Steinach" ppth="Tutzing|Weilheim(Oberbay)|Huglfing|Uffing a Staffelsee|Murnau|Ohlstadt|Eschenlohe|Oberau|Farchant|Garmisch-Partenkirchen|Garmisch-Partenkirchen Hausberg|Untergrainau|Griesen(Oberbay)|Ehrwald Zugspitzbahn"/>
+		<tra t="v" id="4466379676487947718" ref-from="2646931618398905440-2610111128" s="a" o="p"/>
+		<tra t="v" id="5759866345782233257" ref-from="326449174656110112-2610111128" s="a" o="p"/>
+	</s>
+	<s id="326449174656110112-2610111128-3">
+		<tl f="N" t="p" o="800790" c="RB" n="5419"/>
+		<ar pt="2610111143" pp="" l="RB6" fb="RB6" hi="1" wings="-4819497480250978700-2610111128" ppth="München Hbf Gl.27-36|München-Pasing"/>
+		<dp pt="2610111147" pp="" l="RB6" fb="RB6" hi="1" wings="-4819497480250978700-2610111128" pde="Seefeld in Tirol" ppth="Tutzing|Weilheim(Oberbay)|Huglfing|Uffing a Staffelsee|Murnau|Ohlstadt|Eschenlohe|Oberau|Farchant|Garmisch-Partenkirchen|Klais|Mittenwald|Scharnitz"/>
+		<tra t="v" id="3100424152836649826" ref-from="2646931618398905440-2610111128" s="a" o="p"/>
+		<tra t="v" id="5759866345782233257" ref-to="-4819497480250978700-2610111128" s="a" o="p"/>
+	</s>
+</timetable>
