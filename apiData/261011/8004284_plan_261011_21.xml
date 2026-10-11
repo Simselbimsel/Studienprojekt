@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<timetable station="Neuhaus(Pegnitz)">
+	<s id="385604376055049228-2610112036-6">
+		<tl f="N" t="p" o="800759" c="RE" n="3038"/>
+		<ar pt="2610112155" pp="1" l="RE30" fb="RE30" wings="-2824603608374488872-2610112125" ppth="Hof Hbf|Münchberg|Trebgast|Bayreuth Hbf|Pegnitz"/>
+		<dp pt="2610112156" pp="1" l="RE30" fb="RE30" wings="-2824603608374488872-2610112125" ppth="Nürnberg Hbf"/>
+		<tra t="v" id="8298928679842765520" ref-to="-2824603608374488872-2610112125" s="a" o="p"/>
+	</s>
+	<s id="1930147649003529383-2610112037-3">
+		<tl f="N" t="p" o="800759" c="RE" n="4895"/>
+		<ar pt="2610112107" pp="2" l="RE31" fb="RE31" wings="-3182669734444239041-2610112037" ppth="Nürnberg Hbf|Hersbruck(r Pegnitz)"/>
+		<dp pt="2610112108" pp="2" l="RE31" fb="RE31" wings="-3182669734444239041-2610112037" ppth="Pegnitz|Kirchenlaibach"/>
+		<tra t="v" id="5076293534547832044" ref-to="-3182669734444239041-2610112037" s="a" o="p"/>
+	</s>
+	<s id="-3182669734444239041-2610112037-3">
+		<tl f="N" t="p" o="800759" c="RE" n="3095"/>
+		<ar pt="2610112107" pp="2" l="RE30" fb="RE30" ppth="Nürnberg Hbf|Hersbruck(r Pegnitz)"/>
+		<dp pt="2610112108" pp="2" l="RE30" fb="RE30" ppth="Pegnitz|Schnabelwaid|Creußen(Oberfr)|Bayreuth Hbf"/>
+		<tra t="v" id="5076293534547832044" ref-from="1930147649003529383-2610112037" s="a" o="p"/>
+	</s>
+	<s id="3038293307256966488-2610112101-1">
+		<tl f="N" t="p" o="800720" c="RB" n="58548"/>
+		<dp pt="2610112101" pp="9" l="RB30" fb="RB30" ppth="Velden(b Hersbruck)|Rupprechtstegen|Vorra(Pegnitz)|Hohenstadt(Mittelfr)|Hersbruck(r Pegnitz)|Reichenschwand|Neunkirchen a Sand|Lauf(rechts Pegnitz)|Ludwigshöhe|Rückersdorf(Mfr)|Behringersdorf|Nürnberg-Erlenstegen|Nürnberg Ost|Nürnberg Hbf"/>
+	</s>
+	<s id="-2824603608374488872-2610112125-4">
+		<tl f="N" t="p" o="800759" c="RE" n="3838"/>
+		<ar pt="2610112155" pp="1" l="RE31" fb="RE31" ppth="Kirchenlaibach|Schnabelwaid|Pegnitz"/>
+		<dp pt="2610112156" pp="1" l="RE31" fb="RE31" ppth="Nürnberg Hbf"/>
+		<tra t="v" id="8298928679842765520" ref-from="385604376055049228-2610112036" s="a" o="p"/>
+	</s>
+</timetable>

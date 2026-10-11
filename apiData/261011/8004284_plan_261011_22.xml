@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<timetable station="Neuhaus(Pegnitz)">
+	<s id="7181124730882432846-2610112137-3">
+		<tl f="N" t="p" o="800759" c="RE" n="3837"/>
+		<ar pt="2610112207" pp="2" l="RE31" fb="RE31" wings="3711774217855707302-2610112137" ppth="Nürnberg Hbf|Hersbruck(r Pegnitz)"/>
+		<dp pt="2610112208" pp="2" l="RE31" fb="RE31" wings="3711774217855707302-2610112137" ppth="Pegnitz|Kirchenlaibach"/>
+		<tra t="v" id="746244945840561310" ref-to="3711774217855707302-2610112137" s="a" o="p"/>
+	</s>
+	<s id="3711774217855707302-2610112137-3">
+		<tl f="N" t="p" o="800759" c="RE" n="3037"/>
+		<ar pt="2610112207" pp="2" l="RE30" fb="RE30" ppth="Nürnberg Hbf|Hersbruck(r Pegnitz)"/>
+		<dp pt="2610112208" pp="2" l="RE30" fb="RE30" ppth="Pegnitz|Bayreuth Hbf|Trebgast|Marktschorgast|Stammbach|Münchberg|Förbau|Schwarzenbach(Saale)|Oberkotzau|Hof Hbf"/>
+		<tra t="v" id="746244945840561310" ref-from="7181124730882432846-2610112137" s="a" o="p"/>
+	</s>
+	<s id="-4260100569933590271-2610112201-1">
+		<tl f="N" t="p" o="800720" c="RB" n="58550"/>
+		<dp pt="2610112201" pp="9" l="RB30" fb="RB30" ppth="Velden(b Hersbruck)|Rupprechtstegen|Vorra(Pegnitz)|Hohenstadt(Mittelfr)|Hersbruck(r Pegnitz)|Reichenschwand|Neunkirchen a Sand|Lauf(rechts Pegnitz)|Ludwigshöhe|Rückersdorf(Mfr)|Behringersdorf|Nürnberg-Erlenstegen|Nürnberg Ost|Nürnberg Hbf"/>
+	</s>
+	<s id="-6961549754330085842-2610112214-4">
+		<tl f="N" t="p" o="800759" c="RE" n="3094"/>
+		<ar pt="2610112253" pp="1" l="RE32" fb="RE32" ppth="Bayreuth Hbf|Creußen(Oberfr)|Pegnitz"/>
+		<dp pt="2610112254" pp="1" l="RE32" fb="RE32" ppth="Hersbruck(r Pegnitz)|Nürnberg Hbf"/>
+		<tra t="v" id="-9033385267829895442" ref-from="-5314423054846522316-2610112226" s="a" o="p"/>
+	</s>
+	<s id="-5314423054846522316-2610112226-3">
+		<tl f="N" t="p" o="800759" c="RE" n="4894"/>
+		<ar pt="2610112253" pp="1" l="RE31" fb="RE31" wings="-6961549754330085842-2610112214" ppth="Kirchenlaibach|Pegnitz"/>
+		<dp pt="2610112254" pp="1" l="RE31" fb="RE31" wings="-6961549754330085842-2610112214" ppth="Hersbruck(r Pegnitz)|Nürnberg Hbf"/>
+		<tra t="v" id="-9033385267829895442" ref-to="-6961549754330085842-2610112214" s="a" o="p"/>
+	</s>
+</timetable>

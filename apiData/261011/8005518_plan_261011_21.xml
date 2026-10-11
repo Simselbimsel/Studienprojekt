@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<timetable station="Selb-Plößberg">
+	<s id="-542328289699533867-2610112106-4">
+		<tl f="D" t="p" o="A9" c="ag" n="79668"/>
+		<ar pt="2610112113" pp="1" l="RB96" fb="RB96" ppth="Selb Stadt|Selb Nord|Erkersreuth"/>
+		<dp pt="2610112113" pp="1" l="RB96" fb="RB96" ppth="Schönwald(Oberfr)|Rehau|Wurlitz|Oberkotzau|Hof Hbf"/>
+	</s>
+	<s id="-7887122826423373726-2610112112-6">
+		<tl f="D" t="p" o="A9" c="ag" n="20887"/>
+		<ar pt="2610112140" pp="1" l="RB95" fb="RB95" wings="6336070904237921890-2610112112" ppth="Hof Hbf|Oberkotzau|Wurlitz|Rehau|Schönwald(Oberfr)"/>
+		<dp pt="2610112143" pp="1" l="RB95" fb="RB95" ppth="As(CZ)"/>
+		<tra t="v" id="-1571471777318137190" ref-to="6336070904237921890-2610112112" s="a" o="p" jt="s"/>
+	</s>
+	<s id="6336070904237921890-2610112112-6">
+		<tl f="D" t="p" o="A9" c="ag" n="84687"/>
+		<ar pt="2610112140" pp="1" l="RB96" fb="RB96" ppth="Hof Hbf|Oberkotzau|Wurlitz|Rehau|Schönwald(Oberfr)"/>
+		<dp pt="2610112145" pp="1" l="RB96" fb="RB96" ppth="Erkersreuth|Selb Nord|Selb Stadt"/>
+		<tra t="v" id="-1571471777318137190" ref-from="-7887122826423373726-2610112112" s="a" o="p" jt="s"/>
+	</s>
+</timetable>

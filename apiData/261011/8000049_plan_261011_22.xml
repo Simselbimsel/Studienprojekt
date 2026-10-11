@@ -1,0 +1,92 @@
+<?xml version="1.0" ?>
+<timetable station="Braunschweig Hbf">
+	<s id="2640351599564805071-2610111907-8">
+		<tl f="F" t="p" o="80" c="IC" n="2448"/>
+		<ar pt="2610112244" pp="5" fb="IC 2448" ppth="Dresden-Neustadt|Riesa|Leipzig Hbf|Leipzig/Halle Flughafen|Halle(Saale)Hbf|Köthen|Magdeburg Hbf"/>
+		<dp pt="2610112245" pp="5" fb="IC 2448" ppth="Hannover Hbf"/>
+	</s>
+	<s id="2952296863083283051-2610111921-8">
+		<tl f="F" t="p" o="80" c="ICE" n="645"/>
+		<ar pt="2610112203" pp="7" fb="ICE 645" ppth="Essen Hbf|Bochum Hbf|Dortmund Hbf|Hamm(Westf)Hbf|Bielefeld Hbf|Minden(Westf)|Hannover Hbf"/>
+		<dp pt="2610112205" pp="7" fb="ICE 645" ppth="Potsdam Hbf|Berlin Hbf|Berlin Südkreuz"/>
+	</s>
+	<s id="-8624610893606997940-2610112031-17">
+		<tl f="D" t="p" o="W3" c="WFB" n="95837"/>
+		<ar pt="2610112240" pp="4b" l="RE70" fb="RE70" ppth="Bielefeld Hbf|Herford|Löhne(Westf)|Bad Oeynhausen|Porta Westfalica|Minden(Westf)|Bückeburg|Stadthagen|Haste|Wunstorf|Hannover Hbf|Lehrte|Hämelerwald|Vöhrum|Peine|Vechelde"/>
+	</s>
+	<s id="4407080485050482040-2610112039-4">
+		<tl f="F" t="p" o="80" c="ICE" n="840"/>
+		<ar pt="2610112259" pp="6" fb="ICE 840" ppth="Berlin Hbf|Potsdam Hbf|Magdeburg Hbf"/>
+		<dp pt="2610112302" pp="6" fb="ICE 840" hi="1" ppth="Hannover Hbf"/>
+	</s>
+	<s id="-5828359487274281785-2610112108-16">
+		<tl f="D" t="p" o="X2" c="erx" n="83635"/>
+		<ar pt="2610112254" pp="1" l="RB47" fb="RB47" ppth="Uelzen|Stederdorf(Kr Uelzen)|Wieren|Bad Bodenteich|Wittingen|Knesebeck|Vorhop|Schönewörde|Wahrenholz|Triangel|Gifhorn Stadt|Gifhorn|Rötgesbüttel|Meine|Braunschweig-Gliesmarode"/>
+	</s>
+	<s id="3911757503467462408-2610112134-4">
+		<tl f="N" t="p" o="8002A3" c="RB" n="14252"/>
+		<ar pt="2610112203" pp="3a" l="RB45" fb="RB45" ppth="Schöppenstedt|Dettum|Wolfenbüttel"/>
+	</s>
+	<s id="8608924566560807389-2610112134-10">
+		<tl f="N" t="p" o="8002A3" c="RB" n="14336"/>
+		<ar pt="2610112250" pp="4a" l="RB46" fb="RB46" ppth="Herzberg(Harz)|Herzberg Schloß|Osterode am Harz Leege|Osterode am Harz Mitte|Gittelde/Bad Grund(Harz)|Münchehof(Harz)|Seesen|Salzgitter-Ringelheim|Salzgitter-Bad"/>
+	</s>
+	<s id="4650285998698891192-2610112145-6">
+		<tl f="D" t="p" o="X2" c="erx" n="81536"/>
+		<ar pt="2610112235" pp="2b" l="RB42" fb="RB42" wings="-588512521041650289-2610112145" ppth="Bad Harzburg|Vienenburg|Schladen(Harz)|Börßum|Wolfenbüttel"/>
+		<tra t="v" id="-8234652463341902526" ref-to="-588512521041650289-2610112145" s="a" o="p" jt="s"/>
+	</s>
+	<s id="-588512521041650289-2610112145-7">
+		<tl f="D" t="p" o="X2" c="erx" n="81586"/>
+		<ar pt="2610112235" pp="2b" l="RB43" fb="RB43" ppth="Goslar|Oker|Vienenburg|Schladen(Harz)|Börßum|Wolfenbüttel"/>
+		<tra t="v" id="-8234652463341902526" ref-from="4650285998698891192-2610112145" s="a" o="p" jt="s"/>
+	</s>
+	<s id="-1605481557557112938-2610112150-5">
+		<tl t="p" o="R0" c="ENO" n="83585"/>
+		<ar pt="2610112217" pp="7" l="RE50" fb="RE50" ppth="Hildesheim Hbf|Hoheneggelsen|Woltwiesche|Lengede-Broistedt"/>
+		<dp pt="2610112221" pp="7" l="RE50" fb="RE50" ppth="Weddel(Braunschw)|Fallersleben"/>
+	</s>
+	<s id="-6495792520545172594-2610112203-1">
+		<tl f="D" t="p" o="X2" c="erx" n="83634"/>
+		<dp pt="2610112203" pp="2b" l="RB47" fb="RB47" ppth="Braunschweig-Gliesmarode|Meine|Rötgesbüttel|Gifhorn|Gifhorn Stadt|Triangel|Wahrenholz|Schönewörde|Vorhop|Knesebeck|Wittingen|Bad Bodenteich|Wieren|Stederdorf(Kr Uelzen)|Uelzen"/>
+	</s>
+	<s id="9215098843244712408-2610112205-1">
+		<tl f="N" t="p" o="8002A3" c="RB" n="14335"/>
+		<dp pt="2610112205" pp="4a" l="RB46" fb="RB46" ppth="Salzgitter-Bad|Salzgitter-Ringelheim|Seesen|Münchehof(Harz)|Gittelde/Bad Grund(Harz)|Osterode am Harz Mitte|Osterode am Harz Leege|Herzberg Schloß|Herzberg(Harz)"/>
+	</s>
+	<s id="2953224316075128688-2610112215-5">
+		<tl f="N" t="p" o="8002A3" c="RB" n="14395"/>
+		<ar pt="2610112240" pp="3a" l="RB44" fb="RB44" ppth="Salzgitter-Lebenstedt|Salzgitter-Watenstedt|Salzgitter-Immendorf|Salzgitter-Thiede"/>
+	</s>
+	<s id="-7150303469115887296-2610112219-1">
+		<tl f="N" t="p" o="8002A3" c="RB" n="14394"/>
+		<dp pt="2610112219" pp="3a" l="RB44" fb="RB44" ppth="Salzgitter-Thiede|Salzgitter-Immendorf|Salzgitter-Watenstedt|Salzgitter-Lebenstedt"/>
+	</s>
+	<s id="4456518626465571419-2610112220-1">
+		<tl f="D" t="p" o="W3" c="WFB" n="95788"/>
+		<dp pt="2610112220" pp="5" l="RE60" fb="RE60" ppth="Vechelde|Peine|Vöhrum|Hämelerwald|Lehrte|Hannover Hbf|Wunstorf|Haste|Stadthagen|Kirchhorsten|Bückeburg|Minden(Westf)|Porta Westfalica|Bad Oeynhausen|Löhne(Westf)|Kirchlengern|Bünde(Westf)|Melle|Osnabrück Hbf"/>
+	</s>
+	<s id="1688047330356691210-2610112223-3">
+		<tl t="p" o="R0" c="ENO" n="83586"/>
+		<ar pt="2610112238" pp="6" l="RE50" fb="RE50" ppth="Fallersleben|Weddel(Braunschw)"/>
+		<dp pt="2610112241" pp="6" l="RE50" fb="RE50" ppth="Lengede-Broistedt|Woltwiesche|Hoheneggelsen|Hildesheim Hbf"/>
+	</s>
+	<s id="-6700461782185007076-2610112224-1">
+		<tl f="D" t="p" o="X2" c="erx" n="81535"/>
+		<dp pt="2610112224" pp="1" l="RB42" fb="RB42" ppth="Wolfenbüttel|Börßum|Schladen(Harz)|Vienenburg|Bad Harzburg"/>
+		<tra t="v" id="1535914736914666032" ref-from="-1362349070858331695-2610112224" s="a" o="p" jt="j"/>
+	</s>
+	<s id="-1362349070858331695-2610112224-1">
+		<tl f="D" t="p" o="X2" c="erx" n="81585"/>
+		<dp pt="2610112224" pp="1" l="RB43" fb="RB43" wings="-6700461782185007076-2610112224" ppth="Wolfenbüttel|Börßum|Schladen(Harz)|Vienenburg|Oker|Goslar"/>
+		<tra t="v" id="1535914736914666032" ref-to="-6700461782185007076-2610112224" s="a" o="p" jt="j"/>
+	</s>
+	<s id="951364476480321630-2610112246-1">
+		<tl f="N" t="p" o="800489" c="RB" n="16441"/>
+		<dp pt="2610112246" pp="8" l="RB40" fb="RB40" ppth="Weddel(Braunschw)|Schandelah|Königslutter|Frellstedt|Helmstedt|Marienborn|Wefensleben|Eilsleben(b Magdeburg)|Ovelgünne|Dreileben-Drackenstedt|Ochtmersleben|Wellen(Magdeburg)|Niederndodeleben|Magdeburg-Sudenburg|Magdeburg Hbf"/>
+	</s>
+	<s id="-6067237690107564769-2610112257-1">
+		<tl f="N" t="p" o="8002A3" c="RB" n="14255"/>
+		<dp pt="2610112257" pp="3a" l="RB45" fb="RB45" ppth="Wolfenbüttel|Dettum|Schöppenstedt"/>
+	</s>
+</timetable>

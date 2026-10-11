@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<timetable station="Neuhaus(Pegnitz)">
+	<s id="-8799412794156915553-2610112210-15">
+		<tl f="N" t="p" o="800720" c="RB" n="58563"/>
+		<ar pt="2610112303" pp="3" l="RB30" fb="RB30" ppth="Nürnberg Hbf|Nürnberg Ost|Nürnberg-Erlenstegen|Behringersdorf|Rückersdorf(Mfr)|Ludwigshöhe|Lauf(rechts Pegnitz)|Neunkirchen a Sand|Reichenschwand|Hersbruck(r Pegnitz)|Hohenstadt(Mittelfr)|Vorra(Pegnitz)|Rupprechtstegen|Velden(b Hersbruck)"/>
+	</s>
+	<s id="7245839846145218377-2610112237-3">
+		<tl f="N" t="p" o="800759" c="RE" n="4897"/>
+		<ar pt="2610112307" pp="2" l="RE31" fb="RE31" wings="-6310227105247412989-2610112237" ppth="Nürnberg Hbf|Hersbruck(r Pegnitz)"/>
+		<dp pt="2610112308" pp="2" l="RE31" fb="RE31" wings="-6310227105247412989-2610112237" ppth="Pegnitz|Kirchenlaibach"/>
+		<tra t="v" id="2549105357507445770" ref-to="-6310227105247412989-2610112237" s="a" o="p"/>
+	</s>
+	<s id="-6310227105247412989-2610112237-3">
+		<tl f="N" t="p" o="800759" c="RE" n="3097"/>
+		<ar pt="2610112307" pp="2" l="RE30" fb="RE30" ppth="Nürnberg Hbf|Hersbruck(r Pegnitz)"/>
+		<dp pt="2610112308" pp="2" l="RE30" fb="RE30" ppth="Pegnitz|Schnabelwaid|Creußen(Oberfr)|Bayreuth Hbf"/>
+		<tra t="v" id="2549105357507445770" ref-from="7245839846145218377-2610112237" s="a" o="p"/>
+	</s>
+	<s id="-4976264760643296987-2610112301-1">
+		<tl f="N" t="p" o="800720" c="RB" n="58552"/>
+		<dp pt="2610112301" pp="9" l="RB30" fb="RB30" ppth="Velden(b Hersbruck)|Rupprechtstegen|Vorra(Pegnitz)|Hohenstadt(Mittelfr)|Hersbruck(r Pegnitz)|Reichenschwand|Neunkirchen a Sand|Lauf(rechts Pegnitz)|Ludwigshöhe|Rückersdorf(Mfr)|Behringersdorf|Nürnberg-Erlenstegen|Nürnberg Ost|Nürnberg Hbf"/>
+	</s>
+	<s id="-2613597036987682746-2610112311-3">
+		<tl f="N" t="p" o="800759" c="RE" n="3039"/>
+		<ar pt="2610112342" pp="2" l="RE30" fb="RE30" ppth="Nürnberg Hbf|Hersbruck(r Pegnitz)"/>
+		<dp pt="2610112342" pp="2" l="RE30" fb="RE30" ppth="Pegnitz|Creußen(Oberfr)|Bayreuth Hbf|Bindlach|Harsdorf|Trebgast|Marktschorgast|Stammbach|Münchberg|Schwarzenbach(Saale)|Oberkotzau|Hof Hbf"/>
+	</s>
+</timetable>

@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<timetable station="Weickersgrüben">
+	<s id="7943244726062141002-2610112234-3">
+		<tl t="p" o="EB" c="Bus" n="68705"/>
+		<ar pt="2610112244" pp="" l="RB50" fb="Bus RB50" ppth="Gräfendorf|Michelaubrück"/>
+		<dp pt="2610112244" pp="" l="RB50" fb="Bus RB50" ppth="Diebach|Morlesau"/>
+		<tra t="v" id="-5502788816244552639" ref-from="-6740485328974211605-2610112234" s="a" o="p"/>
+	</s>
+	<s id="-6740485328974211605-2610112234-3">
+		<tl t="p" o="EB" c="Bus" n="69705"/>
+		<ar pt="2610112244" pp="" l="RB50" fb="Bus RB50" wings="7943244726062141002-2610112234" ppth="Gräfendorf|Michelaubrück"/>
+		<dp pt="2610112244" pp="" l="RB50" fb="Bus RB50" wings="7943244726062141002-2610112234" ppth="Diebach|Morlesau"/>
+		<tra t="v" id="-5502788816244552639" ref-to="7943244726062141002-2610112234" s="a" o="p"/>
+	</s>
+</timetable>

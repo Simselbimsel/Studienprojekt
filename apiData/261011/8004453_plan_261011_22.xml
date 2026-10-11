@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<timetable station="Oberwerrn">
+	<s id="510579345511293204-2610112224-2">
+		<tl f="D" t="p" o="EB" c="EB" n="80702"/>
+		<ar pt="2610112228" pp="1" l="RB50" fb="RB50" ppth="Schweinfurt Hbf"/>
+		<dp pt="2610112232" pp="1" l="RB50" fb="RB50" ppth="Poppenhausen|Ebenhausen(Unterfr)|Oerlenbach|Bad Kissingen"/>
+		<tra t="v" id="851993117628590131" ref-from="5225988256051068164-2610112224" s="a" o="p"/>
+	</s>
+	<s id="5225988256051068164-2610112224-2">
+		<tl f="D" t="p" o="EB" c="EB" n="80760"/>
+		<ar pt="2610112228" pp="1" l="RB40" fb="RB40" wings="510579345511293204-2610112224" ppth="Schweinfurt Hbf"/>
+		<dp pt="2610112232" pp="1" l="RB40" fb="RB40" wings="510579345511293204-2610112224" ppth="Poppenhausen|Ebenhausen(Unterfr)|Rottershausen|Münnerstadt|Burglauer|Bad Neustadt(Saale)|Mellrichstadt Bf|Rentwertshausen|Bibra|Wölfershausen|Grimmenthal|Untermaßfeld|Meiningen"/>
+		<tra t="v" id="851993117628590131" ref-to="510579345511293204-2610112224" s="a" o="p"/>
+	</s>
+</timetable>

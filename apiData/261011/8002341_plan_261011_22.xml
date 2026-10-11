@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<timetable station="Gräfendorf">
+	<s id="-8571251918281758341-2610112214-4">
+		<tl t="p" o="EB" c="Bus" n="62705"/>
+		<ar pt="2610112230" pp="" l="RB50" fb="Bus RB50" ppth="Gemünden(Main)|Kleingemünden|Wolfsmünster"/>
+		<dp pt="2610112230" pp="" l="RB50" fb="Bus RB50" ppth="Morlesau|Diebach|Hammelburg"/>
+	</s>
+	<s id="7943244726062141002-2610112234-1">
+		<tl t="p" o="EB" c="Bus" n="68705"/>
+		<dp pt="2610112234" pp="" l="RB50" fb="Bus RB50" ppth="Michelaubrück|Weickersgrüben|Diebach|Morlesau"/>
+		<tra t="v" id="-5502788816244552639" ref-from="-6740485328974211605-2610112234" s="a" o="p" jt="j"/>
+	</s>
+	<s id="-6740485328974211605-2610112234-1">
+		<tl t="p" o="EB" c="Bus" n="69705"/>
+		<dp pt="2610112234" pp="" l="RB50" fb="Bus RB50" wings="7943244726062141002-2610112234" ppth="Michelaubrück|Weickersgrüben|Diebach|Morlesau"/>
+		<tra t="v" id="-5502788816244552639" ref-to="7943244726062141002-2610112234" s="a" o="p" jt="j"/>
+	</s>
+</timetable>
