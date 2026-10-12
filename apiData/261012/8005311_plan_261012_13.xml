@@ -1,0 +1,61 @@
+<?xml version="1.0" ?>
+<timetable station="Schaftlach">
+	<s id="-5753620237356591233-2610121229-7">
+		<tl f="D" t="p" o="T8" c="BRB" n="86921"/>
+		<ar pt="2610121315" pp="1" l="RB57" fb="RB57" ppth="München Hbf Gl.27-36|München Donnersbergerbrücke|München Harras|München Siemenswerke|Holzkirchen|Warngau"/>
+		<tra t="v" id="826052511104369605" ref-from="1796296208060485220-2610121229" s="a" o="p" jt="s"/>
+	</s>
+	<s id="1796296208060485220-2610121229-7">
+		<tl f="D" t="p" o="T8" c="BRB" n="86821"/>
+		<ar pt="2610121315" pp="1" l="RB56" fb="RB56" wings="-5753620237356591233-2610121229" ppth="München Hbf Gl.27-36|München Donnersbergerbrücke|München Harras|München Siemenswerke|Holzkirchen|Warngau"/>
+		<dp pt="2610121318" pp="1" l="RB56" fb="RB56" ppth="Reichersbeuern|Bad Tölz|Gaißach|Obergries|Lenggries"/>
+		<tra t="v" id="826052511104369605" ref-to="-5753620237356591233-2610121229" s="a" o="p" jt="s"/>
+	</s>
+	<s id="-3146631207261431712-2610121238-5">
+		<tl t="p" o="T8" c="Bus" n="16926"/>
+		<ar pt="2610121312" pp="" l="RB57" fb="Bus RB57" ppth="Tegernsee|Gmund(Tegernsee)|Finsterwald|Moosrain"/>
+	</s>
+	<s id="-8705734590851264038-2610121247-6">
+		<tl f="D" t="p" o="T8" c="BRB" n="86826"/>
+		<ar pt="2610121310" pp="2" l="RB56" fb="RB56" ppth="Lenggries|Obergries|Gaißach|Bad Tölz|Reichersbeuern"/>
+		<dp pt="2610121317" pp="2" l="RB56" fb="RB56" ppth="Warngau|Holzkirchen|München Siemenswerke|München Harras|München Donnersbergerbrücke|München Hbf Gl.27-36"/>
+	</s>
+	<s id="-6177512617754370922-2610121302-7">
+		<tl f="D" t="p" o="T8" c="BRB" n="86923"/>
+		<ar pt="2610121345" pp="1" l="RB57" fb="RB57" wings="-8724020236213151128-2610121302" ppth="München Hbf Gl.27-36|München Donnersbergerbrücke|München Harras|München Siemenswerke|Holzkirchen|Warngau"/>
+		<tra t="v" id="6440353393344273100" ref-to="-8724020236213151128-2610121302" s="a" o="p" jt="s"/>
+	</s>
+	<s id="-8724020236213151128-2610121302-7">
+		<tl f="D" t="p" o="T8" c="BRB" n="86823"/>
+		<ar pt="2610121345" pp="1" l="RB56" fb="RB56" ppth="München Hbf Gl.27-36|München Donnersbergerbrücke|München Harras|München Siemenswerke|Holzkirchen|Warngau"/>
+		<dp pt="2610121348" pp="1" l="RB56" fb="RB56" ppth="Reichersbeuern|Bad Tölz|Gaißach|Obergries|Lenggries"/>
+		<tra t="v" id="6440353393344273100" ref-from="-6177512617754370922-2610121302" s="a" o="p" jt="s"/>
+	</s>
+	<s id="8793161078513351892-2610121308-5">
+		<tl t="p" o="T8" c="Bus" n="16928"/>
+		<ar pt="2610121342" pp="" l="RB57" fb="Bus RB57" ppth="Tegernsee|Gmund(Tegernsee)|Finsterwald|Moosrain"/>
+	</s>
+	<s id="8630277891065351935-2610121317-1">
+		<tl f="D" t="p" o="T8" c="BRB" n="86926"/>
+		<dp pt="2610121317" pp="2" l="RB57" fb="RB57" ppth="Warngau|Holzkirchen|München Siemenswerke|München Harras|München Donnersbergerbrücke|München Hbf Gl.27-36"/>
+	</s>
+	<s id="-1614530995536142132-2610121317-6">
+		<tl f="D" t="p" o="T8" c="BRB" n="86828"/>
+		<ar pt="2610121340" pp="2" l="RB56" fb="RB56" ppth="Lenggries|Obergries|Gaißach|Bad Tölz|Reichersbeuern"/>
+		<dp pt="2610121347" pp="2" l="RB56" fb="RB56" wings="3789265659342501996-2610121347" ppth="Warngau|Holzkirchen|Otterfing|München Siemenswerke|München Harras|München Donnersbergerbrücke|München Hbf Gl.27-36"/>
+		<tra t="v" id="-3004834849373854358" ref-to="3789265659342501996-2610121347" s="a" o="p" jt="j"/>
+	</s>
+	<s id="1115562167078275700-2610121320-1">
+		<tl t="p" o="T8" c="Bus" n="16921"/>
+		<dp pt="2610121320" pp="" l="RB57" fb="Bus RB57" ppth="Moosrain|Finsterwald|Gmund(Tegernsee)|Tegernsee"/>
+	</s>
+	<s id="3789265659342501996-2610121347-1">
+		<tl f="D" t="p" o="T8" c="BRB" n="86928"/>
+		<dp pt="2610121347" pp="2" l="RB57" fb="RB57" ppth="Warngau|Holzkirchen|Otterfing|München Siemenswerke|München Harras|München Donnersbergerbrücke|München Hbf Gl.27-36"/>
+		<tra t="v" id="-3004834849373854358" ref-from="-1614530995536142132-2610121317" s="a" o="p" jt="j"/>
+	</s>
+	<s id="396455566033952949-2610121350-1">
+		<tl t="p" o="T8" c="Bus" n="16923"/>
+		<dp pt="2610121350" pp="" l="RB57" fb="Bus RB57" ppth="Moosrain|Finsterwald|Gmund(Tegernsee)|Tegernsee"/>
+	</s>
+</timetable>
