@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<timetable station="Nürnberg Hbf">
+	<s id="-4272298498907669914-2610111801-9">
+		<tl t="p" o="81" c="NJ" n="40421"/>
+		<ar pt="2610120251" pp="8" fb="NJ 40421" ppth="Amsterdam Centraal|Utrecht Centraal|Arnhem Centraal|Oberhausen Hbf|Essen Hbf|Dortmund Hbf|Kassel-Wilhelmshöhe|Würzburg Hbf"/>
+		<dp pt="2610120321" pp="8" fb="NJ 40421" ppth="München Ost|Salzburg Hbf|Linz/Donau Hbf|St.Pölten Hbf|Wien Meidling|Wien Hbf"/>
+		<tra t="v" id="-2274036847014517842" ref-from="-3823254010841261196-2610111801" s="a" o="p" jt="s"/>
+		<tra t="v" id="8141758561254028185" ref-from="-8018116824080471880-2610111955" s="a" o="p" jt="j"/>
+	</s>
+	<s id="-8018116824080471880-2610111955-9">
+		<tl t="p" o="81" c="NJ" n="493"/>
+		<ar pt="2610120240" pp="9" fb="NJ 493" wings="6992012378128167215-2610111955" ppth="Hamburg-Altona|Hamburg Dammtor|Hamburg Hbf|Hamburg-Harburg|Hannover Hbf|Göttingen|Kassel-Wilhelmshöhe|Würzburg Hbf"/>
+		<dp pt="2610120321" pp="8" fb="NJ 493" wings="-4272298498907669914-2610111801" ppth="München Ost|Salzburg Hbf|Linz/Donau Hbf|St.Pölten Hbf|Wien Meidling|Wien Hbf"/>
+		<tra t="v" id="-7045620745976361268" ref-to="6992012378128167215-2610111955" s="a" o="p" jt="s"/>
+		<tra t="v" id="8141758561254028185" ref-to="-4272298498907669914-2610111801" s="a" o="p" jt="j"/>
+	</s>
+</timetable>

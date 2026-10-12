@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<timetable station="Poppenhausen">
+	<s id="-7538958064950118665-2610120517-12">
+		<tl f="D" t="p" o="EB" c="EB" n="80727"/>
+		<ar pt="2610120628" pp="1" l="RB40" fb="RB40" ppth="Meiningen|Grimmenthal|Wölfershausen|Bibra|Rentwertshausen|Mellrichstadt Bf|Bad Neustadt(Saale)|Burglauer|Münnerstadt|Rottershausen|Ebenhausen(Unterfr)"/>
+		<dp pt="2610120628" pp="1" l="RB40" fb="RB40" ppth="Oberwerrn|Schweinfurt Hbf|Schweinfurt Mitte|Schweinfurt Stadt"/>
+	</s>
+	<s id="-4566654316906870549-2610120610-3">
+		<tl f="D" t="p" o="EB" c="EB" n="80674"/>
+		<ar pt="2610120619" pp="1" l="RB50" fb="RB50" ppth="Schweinfurt Hbf|Oberwerrn"/>
+		<dp pt="2610120619" pp="1" l="RB50" fb="RB50" ppth="Ebenhausen(Unterfr)|Oerlenbach|Bad Kissingen"/>
+		<tra t="v" id="-3664596060739127139" ref-from="7840068841737111010-2610120610" s="a" o="p"/>
+	</s>
+	<s id="7840068841737111010-2610120610-3">
+		<tl f="D" t="p" o="EB" c="EB" n="80724"/>
+		<ar pt="2610120619" pp="1" l="RB40" fb="RB40" wings="-4566654316906870549-2610120610" ppth="Schweinfurt Hbf|Oberwerrn"/>
+		<dp pt="2610120619" pp="1" l="RB40" fb="RB40" wings="-4566654316906870549-2610120610" ppth="Ebenhausen(Unterfr)|Rottershausen|Münnerstadt|Burglauer|Bad Neustadt(Saale)|Mellrichstadt Bf|Rentwertshausen|Bibra|Wölfershausen|Grimmenthal|Meiningen"/>
+		<tra t="v" id="-3664596060739127139" ref-to="-4566654316906870549-2610120610" s="a" o="p"/>
+	</s>
+	<s id="2712142062855928953-2610120612-4">
+		<tl f="D" t="p" o="EB" c="EB" n="80671"/>
+		<ar pt="2610120628" pp="1" l="RB50" fb="RB50" ppth="Bad Kissingen|Oerlenbach|Ebenhausen(Unterfr)"/>
+		<dp pt="2610120628" pp="1" l="RB50" fb="RB50" ppth="Oberwerrn|Schweinfurt Hbf|Schweinfurt Mitte|Schweinfurt Stadt"/>
+	</s>
+</timetable>

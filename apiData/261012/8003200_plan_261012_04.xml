@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<timetable station="Kassel-Wilhelmshöhe">
+	<s id="-6813803786124510421-2610111836-9">
+		<tl t="p" o="81" c="NJ" n="40490"/>
+		<ar pt="2610120446" pp="3" fb="NJ 40490" wings="3272146161175325165-2610112046" ppth="Wien Hbf|Wien Meidling|St.Pölten Hbf|Linz/Donau Hbf|Salzburg Hbf|München Ost|Nürnberg Hbf|Würzburg Hbf"/>
+		<dp pt="2610120448" pp="3" fb="NJ 40490" wings="3272146161175325165-2610112046" ppth="Dortmund Hbf|Essen Hbf|Oberhausen Hbf|Arnhem Centraal|Utrecht Centraal|Amsterdam Centraal"/>
+		<tra t="v" id="-992404023428071463" ref-to="3272146161175325165-2610112046" s="a" o="p"/>
+	</s>
+	<s id="3272146161175325165-2610112046-10">
+		<tl t="p" o="81" c="NJ" n="420"/>
+		<ar pt="2610120446" pp="3" fb="NJ 420" ppth="Innsbruck Hbf|Jenbach|Wörgl Hbf|Kufstein|Rosenheim|München Hbf|Ingolstadt Hbf|Nürnberg Hbf|Würzburg Hbf"/>
+		<dp pt="2610120448" pp="3" fb="NJ 420" ppth="Dortmund Hbf|Essen Hbf|Oberhausen Hbf|Arnhem Centraal|Utrecht Centraal|Amsterdam Centraal"/>
+		<tra t="v" id="-992404023428071463" ref-from="-6813803786124510421-2610111836" s="a" o="p"/>
+	</s>
+	<s id="-4777992519325102760-2610120408-1">
+		<tl f="N" t="p" o="8005MW" c="RE" n="4151"/>
+		<dp pt="2610120408" pp="7" l="RE30" fb="RE30" ppth="Wabern(Bz Kassel)|Borken(Hess)|Treysa|Neustadt(Kr Marburg)|Stadtallendorf|Kirchhain(Bz Kassel)|Marburg(Lahn)|Niederwalgern|Lollar|Gießen|Butzbach|Bad Nauheim|Friedberg(Hess)|Frankfurt(Main)West|Frankfurt(Main)Hbf"/>
+	</s>
+	<s id="-5234168511821824815-2610120413-1">
+		<tl t="p" o="H4" c="Bus" n="95581"/>
+		<dp pt="2610120413" pp="B" l="EVRT5" fb="Bus EVRT5" ppth="Kassel-Oberzwehren|Rengershausen Kirche, Baunatal|Guntershausen Bahnhof, Baunatal|Guxhagen|Körle Mülmischtal|Melsungen-Röhrenfurth Mitte|Schwarzenberg Mitte, Melsungen|Am Huberg, Melsungen|Melsungen"/>
+	</s>
+	<s id="780688831601736844-2610120457-1">
+		<tl f="N" t="p" o="800523" c="RB" n="23051"/>
+		<dp pt="2610120457" pp="7" l="RB38" fb="RB38" ppth="Kassel-Oberzwehren|Baunatal-Rengershausen|Baunatal-Guntershausen|Edermünde-Grifte|Felsberg-Wolfershausen|Felsberg-Altenbrunslar|Felsberg-Gensungen|Wabern(Bz Kassel)|Singlis|Borken(Hess)|Zimmersrode|Schlierbach(Schwalm-Eder-Kr.)|Treysa"/>
+	</s>
+</timetable>

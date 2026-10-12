@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<timetable station="Frankfurt(Main)Süd">
+	<s id="1003446772902483359-2610111959-6">
+		<tl t="p" o="85" c="NJ" n="470"/>
+		<ar pt="2610120211" pp="8" fb="NJ 470" wings="-5591597380485360579-2610111959" ppth="Zürich HB|Schaffhausen|Singen(Hohentwiel)|Heidelberg Hbf|Darmstadt Hbf"/>
+		<dp pt="2610120214" pp="8" fb="NJ 470" wings="-5591597380485360579-2610111959" ppth="Hanau Hbf|Göttingen|Hannover Hbf|Bremen Hbf|Hamburg-Harburg|Hamburg Hbf|Hamburg Dammtor|Hamburg-Altona"/>
+		<tra t="v" id="7799064565037998408" ref-to="-5591597380485360579-2610111959" s="a" o="p"/>
+	</s>
+	<s id="-5591597380485360579-2610111959-6">
+		<tl f="F" t="p" o="NZ" c="IC" n="60470"/>
+		<ar pt="2610120211" pp="8" fb="IC 60470" ppth="Zürich HB|Schaffhausen|Singen(Hohentwiel)|Heidelberg Hbf|Darmstadt Hbf"/>
+		<dp pt="2610120214" pp="8" fb="IC 60470" ppth="Hanau Hbf|Göttingen|Hannover Hbf|Bremen Hbf|Hamburg-Harburg|Hamburg Hbf|Hamburg Dammtor|Hamburg-Altona"/>
+		<tra t="v" id="7799064565037998408" ref-from="1003446772902483359-2610111959" s="a" o="p"/>
+	</s>
+</timetable>

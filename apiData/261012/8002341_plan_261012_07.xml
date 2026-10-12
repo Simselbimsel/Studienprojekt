@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<timetable station="Gräfendorf">
+	<s id="-3184812466410035777-2610120650-5">
+		<tl t="p" o="EB" c="Bus" n="69674"/>
+		<ar pt="2610120714" pp="" l="RB50" fb="Bus RB50" ppth="Morlesau|Diebach|Weickersgrüben|Michelaubrück"/>
+		<tra t="v" id="196554673368968631" ref-from="5363288601942594185-2610120650" s="a" o="p" jt="s"/>
+	</s>
+	<s id="5363288601942594185-2610120650-5">
+		<tl t="p" o="EB" c="Bus" n="68674"/>
+		<ar pt="2610120714" pp="" l="RB50" fb="Bus RB50" wings="-3184812466410035777-2610120650" ppth="Morlesau|Diebach|Weickersgrüben|Michelaubrück"/>
+		<tra t="v" id="196554673368968631" ref-to="-3184812466410035777-2610120650" s="a" o="p" jt="s"/>
+	</s>
+	<s id="1049399474831870559-2610120702-3">
+		<tl t="p" o="EB" c="Bus" n="62674"/>
+		<ar pt="2610120721" pp="" l="RB50" fb="Bus RB50" ppth="Hammelburg|Diebach"/>
+		<dp pt="2610120721" pp="" l="RB50" fb="Bus RB50" ppth="Wolfsmünster|Kleingemünden|Gemünden(Main)"/>
+	</s>
+	<s id="806987933314146812-2610120714-4">
+		<tl t="p" o="EB" c="Bus" n="62679"/>
+		<ar pt="2610120730" pp="" l="RB50" fb="Bus RB50" ppth="Gemünden(Main)|Kleingemünden|Wolfsmünster"/>
+		<dp pt="2610120730" pp="" l="RB50" fb="Bus RB50" ppth="Morlesau|Diebach|Hammelburg"/>
+	</s>
+	<s id="6819039007732301053-2610120734-1">
+		<tl t="p" o="EB" c="Bus" n="69679"/>
+		<dp pt="2610120734" pp="" l="RB50" fb="Bus RB50" wings="-7472630836718627861-2610120734" ppth="Michelaubrück|Weickersgrüben|Diebach|Morlesau"/>
+		<tra t="v" id="8272333386204064470" ref-to="-7472630836718627861-2610120734" s="a" o="p" jt="j"/>
+	</s>
+	<s id="-7472630836718627861-2610120734-1">
+		<tl t="p" o="EB" c="Bus" n="68679"/>
+		<dp pt="2610120734" pp="" l="RB50" fb="Bus RB50" ppth="Michelaubrück|Weickersgrüben|Diebach|Morlesau"/>
+		<tra t="v" id="8272333386204064470" ref-from="6819039007732301053-2610120734" s="a" o="p" jt="j"/>
+	</s>
+</timetable>
