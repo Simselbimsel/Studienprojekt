@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<timetable station="Neufahrn(b Freising)">
+	<s id="-3739398915230021676-2610122342-12">
+		<tl f="S" t="p" o="800725" c="S" n="8182"/>
+		<ar pt="2610130015" pp="1" l="S1" fb="S1" ppth="München Hbf Gl.27-36|München Donnersbergerbrücke|München Hirschgarten|München-Laim|München-Moosach|München-Fasanerie|München-Feldmoching|Oberschleißheim|Unterschleißheim|Lohhof|Eching"/>
+		<dp pt="2610130016" pp="1" l="S1" fb="S1" ppth="Pulling(b Freising)|Freising"/>
+	</s>
+	<s id="-7237923711875131495-2610122354-3">
+		<tl f="S" t="p" o="800725" c="S" n="8931"/>
+		<ar pt="2610130002" pp="2" l="S1" fb="S1" ppth="Freising|Pulling(b Freising)"/>
+		<dp pt="2610130004" pp="2" l="S1" fb="S1" ppth="Eching|Lohhof|Unterschleißheim|Oberschleißheim|München-Feldmoching|München-Fasanerie|München-Moosach|München-Laim|München Hirschgarten|München Donnersbergerbrücke|München Hbf Gl.27-36"/>
+	</s>
+	<s id="6170092459768635002-2610130014-3">
+		<tl f="S" t="p" o="800725" c="S" n="8933"/>
+		<ar pt="2610130022" pp="3" l="S1" fb="S1" tra="-822631842797432710-2610130024-1" ppth="Freising|Pulling(b Freising)"/>
+		<tra t="d" id="-5596780051576605772" ref-to="-822631842797432710-2610130024-1" s="a" o="p"/>
+	</s>
+	<s id="-6274279569898672243-2610130022-12">
+		<tl f="S" t="p" o="800725" c="S" n="8186"/>
+		<ar pt="2610130055" pp="1" l="S1" fb="S1" ppth="München Hbf Gl.27-36|München Donnersbergerbrücke|München Hirschgarten|München-Laim|München-Moosach|München-Fasanerie|München-Feldmoching|Oberschleißheim|Unterschleißheim|Lohhof|Eching"/>
+		<dp pt="2610130056" pp="1" l="S1" fb="S1" ppth="Pulling(b Freising)|Freising"/>
+	</s>
+	<s id="-822631842797432710-2610130024-1">
+		<tl f="S" t="p" o="800725" c="S" n="8193"/>
+		<dp pt="2610130024" pp="3" l="S1" fb="S1" tra="6170092459768635002-2610130014-3" ppth="Eching|Lohhof|Unterschleißheim|Oberschleißheim|München-Feldmoching|München-Fasanerie|München-Moosach|München-Laim|München Hirschgarten|München Donnersbergerbrücke|München Hbf Gl.27-36"/>
+		<tra t="d" id="-5596780051576605772" ref-from="6170092459768635002-2610130014-3" s="a" o="p"/>
+	</s>
+</timetable>

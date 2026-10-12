@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<timetable station="Berlin Hbf">
+	<s id="-6811972395206884798-2610130403-7">
+		<tl f="N" t="p" o="800158" c="RE" n="3369"/>
+		<ar pt="2610130445" pp="1" l="RE3" fb="RE3" tra="935399355253104146-2610130452-1" ppth="Eberswalde Hbf|Melchow|Biesenthal|Rüdnitz|Bernau(b Berlin)|Berlin Gesundbrunnen"/>
+		<tra t="d" id="-1981609492231181488" ref-to="935399355253104146-2610130452-1" s="a" o="p"/>
+	</s>
+	<s id="2220346901525382534-2610130418-1">
+		<tl f="N" t="p" o="800158" c="RE" n="3340"/>
+		<dp pt="2610130418" pp="5" l="RE3" fb="RE3" ppth="Berlin Gesundbrunnen|Bernau(b Berlin)|Rüdnitz|Biesenthal|Melchow|Eberswalde Hbf|Britz|Chorin|Angermünde|Pinnow(Uckermark)|Schwedt(Oder)Mitte|Schwedt(Oder)"/>
+	</s>
+	<s id="-4782954664003624221-2610130426-2">
+		<tl f="F" t="p" o="80" c="ICE" n="946"/>
+		<ar pt="2610130432" pp="7" fb="ICE 946" hi="1" wings="-6590078199824287896-2610130426" ppth="Berlin Südkreuz"/>
+		<dp pt="2610130436" pp="7" fb="ICE 946" wings="-6590078199824287896-2610130426" ppth="Potsdam Hbf|Magdeburg Hbf|Braunschweig Hbf|Hannover Hbf|Bielefeld Hbf|Hamm(Westf)Hbf|Dortmund Hbf|Bochum Hbf|Essen Hbf"/>
+		<tra t="v" id="5162294571589029075" ref-to="-6590078199824287896-2610130426" s="a" o="p"/>
+	</s>
+	<s id="-6590078199824287896-2610130426-2">
+		<tl f="F" t="p" o="80" c="ICE" n="956"/>
+		<ar pt="2610130432" pp="7" fb="ICE 956" hi="1" ppth="Berlin Südkreuz"/>
+		<dp pt="2610130436" pp="7" fb="ICE 956" ppth="Potsdam Hbf|Magdeburg Hbf|Braunschweig Hbf|Hannover Hbf|Bielefeld Hbf|Hamm(Westf)Hbf|Hagen Hbf|Wuppertal Hbf|Düsseldorf Hbf"/>
+		<tra t="v" id="5162294571589029075" ref-from="-4782954664003624221-2610130426" s="a" o="p"/>
+	</s>
+	<s id="7498223326587269205-2610130431-2">
+		<tl f="F" t="p" o="80" c="ICE" n="277"/>
+		<ar pt="2610130437" pp="3" fb="ICE 277" hi="1" ppth="Berlin Gesundbrunnen"/>
+		<dp pt="2610130441" pp="3" fb="ICE 277" ppth="Berlin Südkreuz|Halle(Saale)Hbf|Erfurt Hbf|Fulda|Hanau Hbf|Frankfurt(Main)Hbf|Mannheim Hbf|Karlsruhe Hbf|Offenburg|Freiburg(Breisgau) Hbf|Basel Bad Bf|Basel SBB|Zürich HB"/>
+	</s>
+	<s id="-8255514918493473226-2610130438-3">
+		<tl f="D" t="p" o="OWRB" c="OE" n="62094"/>
+		<ar pt="2610130445" pp="8" l="RB10" fb="RB10" ppth="Berlin Südkreuz|Berlin Potsdamer Platz"/>
+		<dp pt="2610130448" pp="8" l="RB10" fb="RB10" ppth="Berlin Jungfernheide|Berlin-Spandau|Albrechtshof|Seegefeld|Falkensee|Finkenkrug|Brieselang|Nauen"/>
+	</s>
+	<s id="935399355253104146-2610130452-1">
+		<tl f="N" t="p" o="800165" c="RE" n="21813"/>
+		<dp pt="2610130452" pp="1" l="FEX" fb="FEX" tra="-6811972395206884798-2610130403-7" ppth="Berlin Potsdamer Platz|Berlin Südkreuz|Flughafen BER"/>
+		<tra t="d" id="-1981609492231181488" ref-from="-6811972395206884798-2610130403-7" s="a" o="p"/>
+	</s>
+	<s id="-7342486565031247988-2610130454-1">
+		<tl f="N" t="p" o="800158" c="RE" n="3145"/>
+		<dp pt="2610130454" pp="5" l="RE4" fb="RE4" ppth="Berlin Jungfernheide|Berlin-Spandau"/>
+	</s>
+</timetable>

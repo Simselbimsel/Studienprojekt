@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<timetable station="Schaftlach">
+	<s id="3513955235624596328-2610130010-7">
+		<tl f="D" t="p" o="T8" c="BRB" n="87025"/>
+		<ar pt="2610130050" pp="1" l="RB57" fb="RB57" wings="-3644223346164734892-2610130010" ppth="München Hbf Gl.27-36|München Donnersbergerbrücke|München Harras|München Siemenswerke|Holzkirchen|Warngau"/>
+		<tra t="v" id="-2518886110906162989" ref-to="-3644223346164734892-2610130010" s="a" o="p" jt="s"/>
+	</s>
+	<s id="-3644223346164734892-2610130010-7">
+		<tl f="D" t="p" o="T8" c="BRB" n="87005"/>
+		<ar pt="2610130050" pp="1" l="RB56" fb="RB56" ppth="München Hbf Gl.27-36|München Donnersbergerbrücke|München Harras|München Siemenswerke|Holzkirchen|Warngau"/>
+		<dp pt="2610130053" pp="1" l="RB56" fb="RB56" ppth="Reichersbeuern|Bad Tölz|Gaißach|Obergries|Lenggries"/>
+		<tra t="v" id="-2518886110906162989" ref-from="3513955235624596328-2610130010" s="a" o="p" jt="s"/>
+	</s>
+	<s id="6938661013545906903-2610130053-1">
+		<tl t="p" o="T8" c="Bus" n="17025"/>
+		<dp pt="2610130053" pp="" l="RB57" fb="Bus RB57" ppth="Moosrain|Finsterwald|Gmund(Tegernsee)|Tegernsee"/>
+	</s>
+</timetable>
