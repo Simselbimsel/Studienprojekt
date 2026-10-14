@@ -1,0 +1,85 @@
+<?xml version="1.0" ?>
+<timetable station="Potsdam Hbf">
+	<s id="2151061650876067468-2610141321-9">
+		<tl f="F" t="p" o="80" c="ICE" n="549"/>
+		<ar pt="2610141800" pp="4" fb="ICE 549" ppth="Essen Hbf|Bochum Hbf|Dortmund Hbf|Hamm(Westf)Hbf|Bielefeld Hbf|Minden(Westf)|Hannover Hbf|Braunschweig Hbf"/>
+		<dp pt="2610141802" pp="4" fb="ICE 549" hi="1" ppth="Berlin Hbf"/>
+	</s>
+	<s id="5019218286873016082-2610141708-9">
+		<tl f="N" t="p" o="800165" c="RB" n="18127"/>
+		<ar pt="2610141815" pp="4" l="RB22" fb="RB22" ppth="Königs Wusterhausen|Flughafen BER|Ludwigsfelde-Struveshof|Saarmund|Potsdam Pirschheide|Golm|Potsdam Park Sanssouci|Potsdam Charlottenhof"/>
+		<dp pt="2610141817" pp="4" l="RB22" fb="RB22" ppth="Potsdam Griebnitzsee"/>
+		<tra t="v" id="2812248406064809526" ref-from="1816108243567141499-2610141729" s="a" o="p"/>
+	</s>
+	<s id="7916206337535603894-2610141711-13">
+		<tl f="D" t="p" o="OWRB" c="OE" n="62149"/>
+		<ar pt="2610141819" pp="2" l="RB33" fb="RB33" ppth="Jüterbog|Altes Lager|Treuenbrietzen Süd|Treuenbrietzen|Buchholz(Zauche)|Elsholz|Beelitz Stadt|Ferch-Lienewitz|Caputh Schwielowsee|Caputh-Geltow|Potsdam Pirschheide|Potsdam Charlottenhof"/>
+	</s>
+	<s id="-7061201099829587064-2610141713-7">
+		<tl f="N" t="p" o="800165" c="RB" n="18267"/>
+		<ar pt="2610141820" pp="3" l="RB21" fb="RB21" ppth="Hennigsdorf(b Berlin)|Falkensee|Berlin-Spandau|Berlin-Charlottenburg|Berlin-Wannsee|Potsdam Griebnitzsee"/>
+		<dp pt="2610141823" pp="3" l="RB21" fb="RB21" ppth="Potsdam Charlottenhof|Potsdam Park Sanssouci|Golm|Marquardt|Priort"/>
+	</s>
+	<s id="5087662968022840933-2610141713-12">
+		<tl f="D" t="p" o="OWRE" c="OE" n="73739"/>
+		<ar pt="2610141829" pp="4" l="RE1" fb="RE1" ppth="Magdeburg Hbf|Magdeburg-Neustadt|Burg(Magdeburg)|Güsen(b Genthin)|Genthin|Wusterwitz|Kirchmöser|Brandenburg Hbf|Götz|Groß Kreutz|Werder(Havel)"/>
+		<dp pt="2610141832" pp="4" l="RE1" fb="RE1" ppth="Berlin-Wannsee|Berlin-Charlottenburg"/>
+	</s>
+	<s id="1816108243567141499-2610141729-7">
+		<tl f="N" t="p" o="800165" c="RB" n="18475"/>
+		<ar pt="2610141815" pp="4" l="RB20" fb="RB20" wings="5019218286873016082-2610141708" ppth="Hennigsdorf(b Berlin)|Priort|Marquardt|Golm|Potsdam Park Sanssouci|Potsdam Charlottenhof"/>
+		<dp pt="2610141817" pp="4" l="RB20" fb="RB20" wings="5019218286873016082-2610141708" ppth="Potsdam Griebnitzsee"/>
+		<tra t="v" id="2812248406064809526" ref-to="5019218286873016082-2610141708" s="a" o="p"/>
+	</s>
+	<s id="-1854738006003716349-2610141732-2">
+		<tl f="F" t="p" o="80" c="ICE" n="542"/>
+		<ar pt="2610141758" pp="3" fb="ICE 542" hi="1" ppth="Berlin Hbf"/>
+		<dp pt="2610141800" pp="3" fb="ICE 542" ppth="Braunschweig Hbf|Hannover Hbf|Minden(Westf)|Bielefeld Hbf|Hamm(Westf)Hbf|Dortmund Hbf|Gelsenkirchen Hbf|Duisburg Hbf|Düsseldorf Hbf|Köln Hbf"/>
+	</s>
+	<s id="-4078806881434715359-2610141743-5">
+		<tl f="D" t="p" o="OWRE" c="OE" n="73779"/>
+		<ar pt="2610141807" pp="4" l="RE1" fb="RE1" ppth="Brandenburg Hbf|Werder(Havel)|Potsdam Park Sanssouci|Potsdam Charlottenhof"/>
+		<dp pt="2610141809" pp="4" l="RE1" fb="RE1" ppth="Berlin-Wannsee|Berlin-Charlottenburg"/>
+	</s>
+	<s id="4066292053743460191-2610141751-3">
+		<tl f="D" t="p" o="OWRE" c="OE" n="73818"/>
+		<ar pt="2610141805" pp="3" l="RE1" fb="RE1" ppth="Berlin-Charlottenburg|Berlin-Wannsee"/>
+		<dp pt="2610141807" pp="3" l="RE1" fb="RE1" ppth="Werder(Havel)|Brandenburg Hbf"/>
+	</s>
+	<s id="366702011361318094-2610141812-3">
+		<tl f="D" t="p" o="OWRE" c="OE" n="73742"/>
+		<ar pt="2610141829" pp="3" l="RE1" fb="RE1" ppth="Berlin-Charlottenburg|Berlin-Wannsee"/>
+		<dp pt="2610141831" pp="3" l="RE1" fb="RE1" ppth="Werder(Havel)|Groß Kreutz|Götz|Brandenburg Hbf|Kirchmöser|Wusterwitz|Genthin|Güsen(b Genthin)|Burg(Magdeburg)|Magdeburg-Neustadt|Magdeburg Hbf"/>
+	</s>
+	<s id="3923589569111914723-2610141814-6">
+		<tl f="N" t="p" o="800165" c="RB" n="18268"/>
+		<ar pt="2610141837" pp="4" l="RB21" fb="RB21" ppth="Priort|Marquardt|Golm|Potsdam Park Sanssouci|Potsdam Charlottenhof"/>
+		<dp pt="2610141841" pp="4" l="RB21" fb="RB21" ppth="Potsdam Griebnitzsee|Berlin-Wannsee|Berlin-Charlottenburg|Berlin-Spandau|Falkensee|Hennigsdorf(b Berlin)"/>
+	</s>
+	<s id="3314512226085177726-2610141821-3">
+		<tl f="D" t="p" o="OWRE" c="OE" n="73821"/>
+		<ar pt="2610141846" pp="4" l="RE1" fb="RE1" ppth="Brandenburg Hbf|Werder(Havel)"/>
+		<dp pt="2610141849" pp="4" l="RE1" fb="RE1" ppth="Berlin-Wannsee|Berlin-Charlottenburg"/>
+	</s>
+	<s id="-4392236987562904148-2610141834-3">
+		<tl f="D" t="p" o="OWRE" c="OE" n="73784"/>
+		<ar pt="2610141851" pp="3" l="RE1" fb="RE1" ppth="Berlin-Charlottenburg|Berlin-Wannsee"/>
+		<dp pt="2610141853" pp="3" l="RE1" fb="RE1" ppth="Potsdam Charlottenhof|Potsdam Park Sanssouci|Werder(Havel)|Brandenburg Hbf"/>
+	</s>
+	<s id="-2267998077839183610-2610141839-2">
+		<tl f="N" t="p" o="800165" c="RB" n="18478"/>
+		<ar pt="2610141843" pp="3" l="RB20" fb="RB20" wings="8775914359900547189-2610141839" ppth="Potsdam Griebnitzsee"/>
+		<dp pt="2610141847" pp="3" l="RB20" fb="RB20" wings="8775914359900547189-2610141839" ppth="Potsdam Charlottenhof|Potsdam Park Sanssouci|Golm|Marquardt|Priort|Hennigsdorf(b Berlin)"/>
+		<tra t="v" id="-531082145483246541" ref-to="8775914359900547189-2610141839" s="a" o="p"/>
+	</s>
+	<s id="8775914359900547189-2610141839-2">
+		<tl f="N" t="p" o="800165" c="RB" n="18130"/>
+		<ar pt="2610141843" pp="3" l="RB22" fb="RB22" ppth="Potsdam Griebnitzsee"/>
+		<dp pt="2610141847" pp="3" l="RB22" fb="RB22" ppth="Potsdam Charlottenhof|Potsdam Park Sanssouci|Golm|Potsdam Pirschheide|Saarmund|Ludwigsfelde-Struveshof|Flughafen BER|Königs Wusterhausen"/>
+		<tra t="v" id="-531082145483246541" ref-from="-2267998077839183610-2610141839" s="a" o="p"/>
+	</s>
+	<s id="-3003065101807432231-2610141842-1">
+		<tl f="D" t="p" o="OWRB" c="OE" n="62148"/>
+		<dp pt="2610141842" pp="2" l="RB33" fb="RB33" ppth="Potsdam Charlottenhof|Potsdam Pirschheide|Caputh-Geltow|Caputh Schwielowsee|Ferch-Lienewitz|Beelitz Stadt|Elsholz|Buchholz(Zauche)|Treuenbrietzen|Treuenbrietzen Süd|Altes Lager|Jüterbog"/>
+	</s>
+</timetable>
