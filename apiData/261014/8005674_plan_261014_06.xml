@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<timetable station="Stammbach">
+	<s id="-2225138991019547436-2610140553-3">
+		<tl f="D" t="p" o="A9" c="ag" n="84485"/>
+		<ar pt="2610140619" pp="1" l="RB99" fb="RB99" ppth="Neuenmarkt-Wirsberg|Marktschorgast"/>
+		<dp pt="2610140619" pp="1" l="RB99" fb="RB99" ppth="Münchberg|Seulbitz|Förbau|Schwarzenbach(Saale)|Oberkotzau|Hof Hbf|Feilitzsch|Gutenfürst"/>
+	</s>
+	<s id="2027505228115229951-2610140621-4">
+		<tl f="N" t="p" o="800759" c="RE" n="3099"/>
+		<ar pt="2610140649" pp="1" l="RE30" fb="RE30" ppth="Bayreuth Hbf|Trebgast|Marktschorgast"/>
+		<dp pt="2610140650" pp="1" l="RE30" fb="RE30" ppth="Münchberg|Seulbitz|Förbau|Schwarzenbach(Saale)|Oberkotzau|Hof Hbf"/>
+	</s>
+	<s id="8703126243214021133-2610140623-6">
+		<tl f="N" t="p" o="800759" c="RE" n="3002"/>
+		<ar pt="2610140652" pp="3" l="RE35" fb="RE35" ppth="Hof Hbf|Oberkotzau|Schwarzenbach(Saale)|Förbau|Münchberg"/>
+		<dp pt="2610140653" pp="3" l="RE35" fb="RE35" ppth="Marktschorgast|Neuenmarkt-Wirsberg|Untersteinach(b Stadtsteinach)|Kulmbach|Burgkunstadt|Lichtenfels|Bad Staffelstein|Bamberg"/>
+		<tra t="v" id="4820364251231461293" ref-from="-502797504838066665-2610140623" s="a" o="p"/>
+	</s>
+	<s id="-502797504838066665-2610140623-6">
+		<tl f="N" t="p" o="800759" c="RE" n="3024"/>
+		<ar pt="2610140652" pp="3" l="RE30" fb="RE30" wings="8703126243214021133-2610140623" ppth="Hof Hbf|Oberkotzau|Schwarzenbach(Saale)|Förbau|Münchberg"/>
+		<dp pt="2610140653" pp="3" l="RE30" fb="RE30" wings="8703126243214021133-2610140623" ppth="Marktschorgast|Trebgast|Bayreuth Hbf|Creußen(Oberfr)|Pegnitz|Neuhaus(Pegnitz)|Nürnberg Hbf"/>
+		<tra t="v" id="4820364251231461293" ref-to="8703126243214021133-2610140623" s="a" o="p"/>
+	</s>
+</timetable>
