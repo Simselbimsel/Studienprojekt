@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<timetable station="Pegnitz">
+	<s id="7293994056442181732-2610150734-12">
+		<tl f="N" t="p" o="800759" c="RE" n="33884"/>
+		<ar pt="2610150918" pp="2" l="RE35" fb="RE35" ppth="Hof Hbf|Oberkotzau|Schwarzenbach(Saale)|Münchberg|Stammbach|Marktschorgast|Neuenmarkt-Wirsberg|Trebgast|Harsdorf|Bayreuth Hbf|Creußen(Oberfr)"/>
+		<dp pt="2610150919" pp="2" l="RE35" fb="RE35" ppth="Hersbruck(r Pegnitz)|Nürnberg Hbf"/>
+	</s>
+	<s id="-8694425251230756160-2610150836-5">
+		<tl f="N" t="p" o="800759" c="RE" n="3026"/>
+		<ar pt="2610150944" pp="2" l="RE30" fb="RE30" ppth="Hof Hbf|Münchberg|Trebgast|Bayreuth Hbf"/>
+		<dp pt="2610150947" pp="2" l="RE30" fb="RE30" ppth="Neuhaus(Pegnitz)|Nürnberg Hbf"/>
+	</s>
+	<s id="-8186505431939187398-2610150837-3">
+		<tl f="N" t="p" o="800759" c="RE" n="4883"/>
+		<ar pt="2610150914" pp="1" l="RE31" fb="RE31" ppth="Nürnberg Hbf|Neuhaus(Pegnitz)"/>
+		<dp pt="2610150920" pp="1" l="RE31" fb="RE31" ppth="Kirchenlaibach"/>
+		<tra t="v" id="-1777145234833536428" ref-from="2549556762187634326-2610150837" s="a" o="p" jt="s"/>
+	</s>
+	<s id="2549556762187634326-2610150837-3">
+		<tl f="N" t="p" o="800759" c="RE" n="3083"/>
+		<ar pt="2610150914" pp="1" l="RE30" fb="RE30" wings="-8186505431939187398-2610150837" ppth="Nürnberg Hbf|Neuhaus(Pegnitz)"/>
+		<dp pt="2610150916" pp="1" l="RE30" fb="RE30" ppth="Schnabelwaid|Creußen(Oberfr)|Bayreuth Hbf"/>
+		<tra t="v" id="-1777145234833536428" ref-to="-8186505431939187398-2610150837" s="a" o="p" jt="s"/>
+	</s>
+	<s id="-8254237897858802919-2610150905-3">
+		<tl f="N" t="p" o="800759" c="RE" n="3407"/>
+		<ar pt="2610150943" pp="1" l="RE32" fb="RE32" ppth="Nürnberg Hbf|Hersbruck(r Pegnitz)"/>
+		<dp pt="2610150944" pp="1" l="RE32" fb="RE32" ppth="Bayreuth Hbf|Trebgast|Neuenmarkt-Wirsberg"/>
+	</s>
+	<s id="8699728642329552926-2610150926-2">
+		<tl f="N" t="p" o="800759" c="RE" n="3826"/>
+		<ar pt="2610150940" pp="2" l="RE31" fb="RE31" ppth="Kirchenlaibach"/>
+		<dp pt="2610150947" pp="2" l="RE31" fb="RE31" ppth="Neuhaus(Pegnitz)|Nürnberg Hbf"/>
+	</s>
+</timetable>
