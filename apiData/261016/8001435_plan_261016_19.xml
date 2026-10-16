@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<timetable station="Diebach">
+	<s id="6803422652359190510-2610161900-2">
+		<tl t="p" o="EB" c="Bus" n="69694"/>
+		<ar pt="2610161907" pp="" l="RB50" fb="Bus RB50" ppth="Morlesau"/>
+		<dp pt="2610161907" pp="" l="RB50" fb="Bus RB50" ppth="Weickersgrüben|Michelaubrück|Gräfendorf"/>
+		<tra t="v" id="100821038203767289" ref-from="-8438563333468572935-2610161900" s="a" o="p"/>
+	</s>
+	<s id="-8438563333468572935-2610161900-2">
+		<tl t="p" o="EB" c="Bus" n="68694"/>
+		<ar pt="2610161907" pp="" l="RB50" fb="Bus RB50" wings="6803422652359190510-2610161900" ppth="Morlesau"/>
+		<dp pt="2610161907" pp="" l="RB50" fb="Bus RB50" wings="6803422652359190510-2610161900" ppth="Weickersgrüben|Michelaubrück|Gräfendorf"/>
+		<tra t="v" id="100821038203767289" ref-to="6803422652359190510-2610161900" s="a" o="p"/>
+	</s>
+	<s id="5020415997702592487-2610161900-2">
+		<tl t="p" o="EB" c="Bus" n="62694"/>
+		<ar pt="2610161904" pp="" l="RB50" fb="Bus RB50" ppth="Hammelburg"/>
+		<dp pt="2610161908" pp="" l="RB50" fb="Bus RB50" ppth="Morlesau|Gräfendorf|Wolfsmünster|Kleingemünden|Gemünden(Main)"/>
+	</s>
+	<s id="-2672764733787091245-2610161914-6">
+		<tl t="p" o="EB" c="Bus" n="62701"/>
+		<ar pt="2610161952" pp="" l="RB50" fb="Bus RB50" ppth="Gemünden(Main)|Kleingemünden|Wolfsmünster|Gräfendorf|Morlesau"/>
+		<dp pt="2610161956" pp="" l="RB50" fb="Bus RB50" ppth="Hammelburg"/>
+	</s>
+	<s id="-933759729581791947-2610161934-4">
+		<tl t="p" o="EB" c="Bus" n="69701"/>
+		<ar pt="2610161953" pp="" l="RB50" fb="Bus RB50" wings="-3683378530163455698-2610161934" ppth="Gräfendorf|Michelaubrück|Weickersgrüben"/>
+		<dp pt="2610161953" pp="" l="RB50" fb="Bus RB50" wings="-3683378530163455698-2610161934" ppth="Morlesau"/>
+		<tra t="v" id="-7676386853001084129" ref-to="-3683378530163455698-2610161934" s="a" o="p"/>
+	</s>
+	<s id="-3683378530163455698-2610161934-4">
+		<tl t="p" o="EB" c="Bus" n="68701"/>
+		<ar pt="2610161953" pp="" l="RB50" fb="Bus RB50" ppth="Gräfendorf|Michelaubrück|Weickersgrüben"/>
+		<dp pt="2610161953" pp="" l="RB50" fb="Bus RB50" ppth="Morlesau"/>
+		<tra t="v" id="-7676386853001084129" ref-from="-933759729581791947-2610161934" s="a" o="p"/>
+	</s>
+</timetable>

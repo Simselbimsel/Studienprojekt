@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<timetable station="Warngau">
+	<s id="-5285623213109416319-2610161826-6">
+		<tl f="D" t="p" o="T8" c="BRB" n="86841"/>
+		<ar pt="2610161907" pp="1" l="RB56" fb="RB56" ppth="München Hbf Gl.27-36|München Donnersbergerbrücke|München Harras|München Siemenswerke|Holzkirchen"/>
+		<dp pt="2610161907" pp="1" l="RB56" fb="RB56" ppth="Schaftlach|Reichersbeuern|Bad Tölz|Gaißach|Obergries|Lenggries"/>
+	</s>
+	<s id="-2982629087362095148-2610161847-7">
+		<tl f="D" t="p" o="T8" c="BRB" n="86844"/>
+		<ar pt="2610161921" pp="1" l="RB56" fb="RB56" ppth="Lenggries|Obergries|Gaißach|Bad Tölz|Reichersbeuern|Schaftlach"/>
+		<dp pt="2610161921" pp="1" l="RB56" fb="RB56" ppth="Holzkirchen|München Siemenswerke|München Harras|München Donnersbergerbrücke|München Hbf Gl.27-36"/>
+	</s>
+	<s id="-8539799744586632583-2610161903-6">
+		<tl f="D" t="p" o="T8" c="BRB" n="86943"/>
+		<ar pt="2610161940" pp="1" l="RB57" fb="RB57" ppth="München Hbf Gl.27-36|München Donnersbergerbrücke|München Harras|München Siemenswerke|Holzkirchen"/>
+		<dp pt="2610161940" pp="1" l="RB57" fb="RB57" ppth="Schaftlach"/>
+		<tra t="v" id="-5906343654640719304" ref-from="-8691821341055389280-2610161903" s="a" o="p"/>
+	</s>
+	<s id="-8691821341055389280-2610161903-6">
+		<tl f="D" t="p" o="T8" c="BRB" n="86843"/>
+		<ar pt="2610161940" pp="1" l="RB56" fb="RB56" wings="-8539799744586632583-2610161903" ppth="München Hbf Gl.27-36|München Donnersbergerbrücke|München Harras|München Siemenswerke|Holzkirchen"/>
+		<dp pt="2610161940" pp="1" l="RB56" fb="RB56" wings="-8539799744586632583-2610161903" ppth="Schaftlach|Reichersbeuern|Bad Tölz|Gaißach|Obergries|Lenggries"/>
+		<tra t="v" id="-5906343654640719304" ref-to="-8539799744586632583-2610161903" s="a" o="p"/>
+	</s>
+	<s id="-388805067093809587-2610161917-2">
+		<tl f="D" t="p" o="T8" c="BRB" n="86944"/>
+		<ar pt="2610161921" pp="1" l="RB57" fb="RB57" ppth="Schaftlach"/>
+		<dp pt="2610161921" pp="1" l="RB57" fb="RB57" ppth="Holzkirchen|München Siemenswerke|München Harras|München Donnersbergerbrücke|München Hbf Gl.27-36"/>
+	</s>
+</timetable>
