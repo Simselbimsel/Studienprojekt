@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<timetable station="Neuhaus(Pegnitz)">
+	<s id="-8694425251230756160-2610160836-6">
+		<tl f="N" t="p" o="800759" c="RE" n="3026"/>
+		<ar pt="2610160955" pp="1" l="RE30" fb="RE30" ppth="Hof Hbf|Münchberg|Trebgast|Bayreuth Hbf|Pegnitz"/>
+		<dp pt="2610160956" pp="1" l="RE30" fb="RE30" ppth="Nürnberg Hbf"/>
+	</s>
+	<s id="-8186505431939187398-2610160837-2">
+		<tl f="N" t="p" o="800759" c="RE" n="4883"/>
+		<ar pt="2610160905" pp="2" l="RE31" fb="RE31" ppth="Nürnberg Hbf"/>
+		<dp pt="2610160906" pp="2" l="RE31" fb="RE31" ppth="Pegnitz|Kirchenlaibach"/>
+		<tra t="v" id="89254384175749492" ref-from="2549556762187634326-2610160837" s="a" o="p"/>
+	</s>
+	<s id="2549556762187634326-2610160837-2">
+		<tl f="N" t="p" o="800759" c="RE" n="3083"/>
+		<ar pt="2610160905" pp="2" l="RE30" fb="RE30" wings="-8186505431939187398-2610160837" ppth="Nürnberg Hbf"/>
+		<dp pt="2610160906" pp="2" l="RE30" fb="RE30" wings="-8186505431939187398-2610160837" ppth="Pegnitz|Schnabelwaid|Creußen(Oberfr)|Bayreuth Hbf"/>
+		<tra t="v" id="89254384175749492" ref-to="-8186505431939187398-2610160837" s="a" o="p"/>
+	</s>
+	<s id="-5975545533202362555-2610160901-1">
+		<tl f="N" t="p" o="800720" c="RB" n="58520"/>
+		<dp pt="2610160901" pp="9" l="RB30" fb="RB30" ppth="Velden(b Hersbruck)|Rupprechtstegen|Vorra(Pegnitz)|Hohenstadt(Mittelfr)|Hersbruck(r Pegnitz)|Reichenschwand|Neunkirchen a Sand|Lauf(rechts Pegnitz)|Ludwigshöhe|Rückersdorf(Mfr)|Behringersdorf|Nürnberg-Erlenstegen|Nürnberg Ost|Nürnberg Hbf"/>
+	</s>
+	<s id="8699728642329552926-2610160926-3">
+		<tl f="N" t="p" o="800759" c="RE" n="3826"/>
+		<ar pt="2610160955" pp="1" l="RE31" fb="RE31" ppth="Kirchenlaibach|Pegnitz"/>
+		<dp pt="2610160956" pp="1" l="RE31" fb="RE31" ppth="Nürnberg Hbf"/>
+	</s>
+</timetable>
