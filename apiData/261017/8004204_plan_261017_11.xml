@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<timetable station="Mammendorf">
+	<s id="-8267769310749629831-2610171020-20">
+		<tl t="p" o="GYRB" c="ARV" n="57043"/>
+		<ar pt="2610171136" pp="4" l="RB87" fb="RB87" ppth="Donauwörth|Bäumenheim|Mertingen Bahnhof|Nordendorf|Westendorf|Meitingen|Herbertshofen|Langweid(Lech)|Gablingen|Gersthofen|Augsburg-Oberhausen|Augsburg Hbf|Augsburg Haunstetterstraße|Augsburg-Hochzoll|Kissing|Mering-St Afra|Mering|Althegnenberg|Haspelmoor"/>
+		<dp pt="2610171137" pp="4" l="RB87" fb="RB87" ppth="München-Pasing|München Hbf"/>
+		<tra t="v" id="7805382275903864198" ref-from="-6295005238465390191-2610171033" s="a" o="p"/>
+	</s>
+	<s id="-6295005238465390191-2610171033-16">
+		<tl t="p" o="GYRB" c="ARV" n="57143"/>
+		<ar pt="2610171136" pp="4" l="RB86" fb="RB86" wings="-8267769310749629831-2610171020" ppth="Dinkelscherben|Kutzenhausen|Gessertshausen|Diedorf(Schwab)|Westheim(Schwab)|Neusäß|Augsburg-Oberhausen|Augsburg Hbf|Augsburg Haunstetterstraße|Augsburg-Hochzoll|Kissing|Mering-St Afra|Mering|Althegnenberg|Haspelmoor"/>
+		<dp pt="2610171137" pp="4" l="RB86" fb="RB86" wings="-8267769310749629831-2610171020" ppth="München-Pasing|München Hbf"/>
+		<tra t="v" id="7805382275903864198" ref-to="-8267769310749629831-2610171020" s="a" o="p"/>
+	</s>
+	<s id="4858771698544326698-2610171057-3">
+		<tl t="p" o="GYRB" c="ARV" n="57032"/>
+		<ar pt="2610171116" pp="3" l="RB86" fb="RB86" ppth="München Hbf|München-Pasing"/>
+		<dp pt="2610171117" pp="3" l="RB86" fb="RB86" ppth="Haspelmoor|Althegnenberg|Mering|Mering-St Afra|Kissing|Augsburg-Hochzoll|Augsburg Haunstetterstraße|Augsburg Hbf|Augsburg-Oberhausen|Neusäß|Westheim(Schwab)|Diedorf(Schwab)|Gessertshausen|Kutzenhausen|Dinkelscherben"/>
+		<tra t="v" id="1601151670061454055" ref-from="9080199293336666894-2610171057" s="a" o="p"/>
+	</s>
+	<s id="9080199293336666894-2610171057-3">
+		<tl t="p" o="GYRB" c="ARV" n="57132"/>
+		<ar pt="2610171116" pp="3" l="RB87" fb="RB87" wings="4858771698544326698-2610171057" ppth="München Hbf|München-Pasing"/>
+		<dp pt="2610171117" pp="3" l="RB87" fb="RB87" wings="4858771698544326698-2610171057" ppth="Haspelmoor|Althegnenberg|Mering|Mering-St Afra|Kissing|Augsburg-Hochzoll|Augsburg Haunstetterstraße|Augsburg Hbf|Augsburg-Oberhausen|Gersthofen|Gablingen|Langweid(Lech)|Herbertshofen|Meitingen|Westendorf|Nordendorf|Mertingen Bahnhof|Bäumenheim|Donauwörth"/>
+		<tra t="v" id="1601151670061454055" ref-to="4858771698544326698-2610171057" s="a" o="p"/>
+	</s>
+	<s id="-7328768431627494818-2610171104-1">
+		<tl f="S" t="p" o="800725" c="S" n="6353"/>
+		<dp pt="2610171104" pp="6" l="S3" fb="S3" ppth="Malching(Oberbay)|Maisach|Gernlinden|Esting|Olching|Gröbenzell|München-Lochhausen|München-Langwied|München-Pasing"/>
+	</s>
+	<s id="-4917739877090255554-2610171107-10">
+		<tl f="S" t="p" o="800725" c="S" n="6346"/>
+		<ar pt="2610171136" pp="6" l="S3" fb="S3" ppth="München-Pasing|München-Langwied|München-Lochhausen|Gröbenzell|Olching|Esting|Gernlinden|Maisach|Malching(Oberbay)"/>
+	</s>
+	<s id="3321575891566469491-2610171127-10">
+		<tl f="S" t="p" o="800725" c="S" n="6348"/>
+		<ar pt="2610171156" pp="6" l="S3" fb="S3" ppth="München-Pasing|München-Langwied|München-Lochhausen|Gröbenzell|Olching|Esting|Gernlinden|Maisach|Malching(Oberbay)"/>
+	</s>
+	<s id="-4535481750358179783-2610171144-1">
+		<tl f="S" t="p" o="800725" c="S" n="6357"/>
+		<dp pt="2610171144" pp="6" l="S3" fb="S3" ppth="Malching(Oberbay)|Maisach|Gernlinden|Esting|Olching|Gröbenzell|München-Lochhausen|München-Langwied|München-Pasing"/>
+	</s>
+</timetable>

@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<timetable station="Ebenhausen(Unterfr)">
+	<s id="-2255659203663183912-2610170735-11">
+		<tl f="N" t="p" o="8004NT" c="RE" n="3755"/>
+		<ar pt="2610170912" pp="3" l="RE7" fb="RE7" ppth="Erfurt Hbf|Neudietendorf|Arnstadt Hbf|Plaue(Thür)|Zella-Mehlis|Suhl|Grimmenthal|Mellrichstadt Bf|Bad Neustadt(Saale)|Münnerstadt"/>
+		<dp pt="2610170917" pp="3" l="RE7" fb="RE7" ppth="Schweinfurt Hbf|Würzburg Hbf"/>
+	</s>
+	<s id="-7005269091086138341-2610170900-3">
+		<tl f="N" t="p" o="8004NT" c="RE" n="3775"/>
+		<ar pt="2610170909" pp="3" l="RE7" fb="RE7" ppth="Bad Kissingen|Oerlenbach"/>
+		<dp pt="2610170917" pp="3" l="RE7" fb="RE7" ppth="Schweinfurt Hbf|Würzburg Hbf"/>
+	</s>
+	<s id="120593864613665047-2610170906-5">
+		<tl f="D" t="p" o="EB" c="EB" n="80733"/>
+		<ar pt="2610170924" pp="3" l="RB40" fb="RB40" ppth="Bad Neustadt(Saale)|Burglauer|Münnerstadt|Rottershausen"/>
+		<dp pt="2610170930" pp="3" l="RB40" fb="RB40" wings="2883555008578974569-2610170918" ppth="Poppenhausen|Oberwerrn|Schweinfurt Hbf|Schweinfurt Mitte|Schweinfurt Stadt"/>
+		<tra t="v" id="-2717062074606387489" ref-to="2883555008578974569-2610170918" s="a" o="p" jt="j"/>
+	</s>
+	<s id="8921949399490368411-2610170912-3">
+		<tl f="D" t="p" o="EB" c="EB" n="80712"/>
+		<ar pt="2610170928" pp="4" l="RB50" fb="RB50" wings="-361383765729581121-2610170912" ppth="Schweinfurt Hbf|Poppenhausen"/>
+		<dp pt="2610170929" pp="4" l="RB50" fb="RB50" ppth="Oerlenbach|Bad Kissingen"/>
+		<tra t="v" id="-3997912954368876676" ref-to="-361383765729581121-2610170912" s="a" o="p" jt="s"/>
+	</s>
+	<s id="-361383765729581121-2610170912-3">
+		<tl f="D" t="p" o="EB" c="EB" n="80732"/>
+		<ar pt="2610170928" pp="4" l="RB40" fb="RB40" ppth="Schweinfurt Hbf|Poppenhausen"/>
+		<dp pt="2610170932" pp="4" l="RB40" fb="RB40" ppth="Rottershausen|Münnerstadt|Burglauer|Bad Neustadt(Saale)|Mellrichstadt Bf|Rentwertshausen|Bibra|Wölfershausen|Grimmenthal|Untermaßfeld|Meiningen"/>
+		<tra t="v" id="-3997912954368876676" ref-from="8921949399490368411-2610170912" s="a" o="p" jt="s"/>
+	</s>
+	<s id="2883555008578974569-2610170918-3">
+		<tl f="D" t="p" o="EB" c="EB" n="80681"/>
+		<ar pt="2610170927" pp="3" l="RB40" fb="RB40" ppth="Bad Kissingen|Oerlenbach"/>
+		<dp pt="2610170930" pp="3" l="RB40" fb="RB40" ppth="Poppenhausen|Oberwerrn|Schweinfurt Hbf|Schweinfurt Mitte|Schweinfurt Stadt"/>
+		<tra t="v" id="-2717062074606387489" ref-from="120593864613665047-2610170906" s="a" o="p" jt="j"/>
+	</s>
+</timetable>

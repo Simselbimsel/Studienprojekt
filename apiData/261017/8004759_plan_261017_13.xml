@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<timetable station="Pegnitz">
+	<s id="-2170159107745152094-2610171134-12">
+		<tl f="N" t="p" o="800759" c="RE" n="33888"/>
+		<ar pt="2610171318" pp="2" l="RE35" fb="RE35" ppth="Hof Hbf|Oberkotzau|Schwarzenbach(Saale)|Münchberg|Stammbach|Marktschorgast|Neuenmarkt-Wirsberg|Trebgast|Harsdorf|Bayreuth Hbf|Creußen(Oberfr)"/>
+		<dp pt="2610171319" pp="2" l="RE35" fb="RE35" ppth="Hersbruck(r Pegnitz)|Nürnberg Hbf"/>
+	</s>
+	<s id="-8436322039353399095-2610171236-5">
+		<tl f="N" t="p" o="800759" c="RE" n="3030"/>
+		<ar pt="2610171344" pp="2" l="RE30" fb="RE30" ppth="Hof Hbf|Münchberg|Trebgast|Bayreuth Hbf"/>
+		<dp pt="2610171346" pp="2" l="RE30" fb="RE30" ppth="Neuhaus(Pegnitz)|Nürnberg Hbf"/>
+	</s>
+	<s id="-3217081176905938253-2610171237-3">
+		<tl f="N" t="p" o="800759" c="RE" n="4887"/>
+		<ar pt="2610171314" pp="1" l="RE31" fb="RE31" wings="3114594428740920861-2610171237" ppth="Nürnberg Hbf|Neuhaus(Pegnitz)"/>
+		<dp pt="2610171320" pp="1" l="RE31" fb="RE31" ppth="Kirchenlaibach"/>
+		<tra t="v" id="620612747349912288" ref-to="3114594428740920861-2610171237" s="a" o="p" jt="s"/>
+	</s>
+	<s id="3114594428740920861-2610171237-3">
+		<tl f="N" t="p" o="800759" c="RE" n="3087"/>
+		<ar pt="2610171314" pp="1" l="RE30" fb="RE30" ppth="Nürnberg Hbf|Neuhaus(Pegnitz)"/>
+		<dp pt="2610171316" pp="1" l="RE30" fb="RE30" ppth="Schnabelwaid|Creußen(Oberfr)|Bayreuth Hbf"/>
+		<tra t="v" id="620612747349912288" ref-from="-3217081176905938253-2610171237" s="a" o="p" jt="s"/>
+	</s>
+	<s id="-6305761920100809709-2610171305-3">
+		<tl f="N" t="p" o="800759" c="RE" n="3411"/>
+		<ar pt="2610171342" pp="1" l="RE32" fb="RE32" ppth="Nürnberg Hbf|Hersbruck(r Pegnitz)"/>
+		<dp pt="2610171343" pp="1" l="RE32" fb="RE32" ppth="Bayreuth Hbf|Trebgast|Neuenmarkt-Wirsberg"/>
+	</s>
+	<s id="2825648178454642668-2610171326-2">
+		<tl f="N" t="p" o="800759" c="RE" n="3830"/>
+		<ar pt="2610171340" pp="2" l="RE31" fb="RE31" ppth="Kirchenlaibach"/>
+		<dp pt="2610171346" pp="2" l="RE31" fb="RE31" ppth="Neuhaus(Pegnitz)|Nürnberg Hbf"/>
+	</s>
+</timetable>
