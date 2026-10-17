@@ -1,0 +1,76 @@
+<?xml version="1.0" ?>
+<timetable station="Kassel-Wilhelmshöhe">
+	<s id="-8941932149309778658-2610171923-4">
+		<tl f="F" t="p" o="80" c="ICE" n="572"/>
+		<ar pt="2610172211" pp="3" fb="ICE 572" ppth="Stuttgart Hbf|Mannheim Hbf|Frankfurt(Main)Hbf"/>
+		<dp pt="2610172213" pp="3" fb="ICE 572" ppth="Göttingen|Hannover Hbf|Celle|Lüneburg|Hamburg Hbf"/>
+	</s>
+	<s id="6992012378128167215-2610171955-7">
+		<tl t="p" o="81" c="NJ" n="40491"/>
+		<ar pt="2610172254" pp="1" fb="NJ 40491" wings="-8018116824080471880-2610171955" ppth="Hamburg-Altona|Hamburg Dammtor|Hamburg Hbf|Hamburg-Harburg|Hannover Hbf|Göttingen"/>
+		<dp pt="2610172305" pp="1" fb="NJ 40491" wings="-8018116824080471880-2610171955" ppth="Würzburg Hbf|Nürnberg Hbf|Ingolstadt Hbf|München Hbf|Rosenheim|Kufstein|Wörgl Hbf|Jenbach|Innsbruck Hbf"/>
+		<tra t="v" id="8322376252605146825" ref-to="-8018116824080471880-2610171955" s="a" o="p"/>
+	</s>
+	<s id="-8018116824080471880-2610171955-7">
+		<tl t="p" o="81" c="NJ" n="493"/>
+		<ar pt="2610172254" pp="1" fb="NJ 493" ppth="Hamburg-Altona|Hamburg Dammtor|Hamburg Hbf|Hamburg-Harburg|Hannover Hbf|Göttingen"/>
+		<dp pt="2610172305" pp="1" fb="NJ 493" ppth="Würzburg Hbf|Nürnberg Hbf|München Ost|Salzburg Hbf|Linz/Donau Hbf|St.Pölten Hbf|Wien Meidling|Wien Hbf"/>
+		<tra t="v" id="8322376252605146825" ref-from="6992012378128167215-2610171955" s="a" o="p"/>
+	</s>
+	<s id="5351133746540780755-2610172021-7">
+		<tl f="F" t="p" o="80" c="ICE" n="79"/>
+		<ar pt="2610172247" pp="2" fb="ICE 79" ppth="Hamburg Dammtor|Hamburg Hbf|Lüneburg|Uelzen|Hannover Hbf|Göttingen"/>
+		<dp pt="2610172249" pp="2" fb="ICE 79" ppth="Frankfurt(Main)Hbf|Frankfurt(M) Flughafen Regionalbf|Mainz Hbf|Wiesbaden Hbf"/>
+	</s>
+	<s id="-810390822929069445-2610172044-20">
+		<tl f="D" t="p" o="K4RE" c="HLB" n="15020"/>
+		<ar pt="2610172244" pp="9" l="RE98" fb="RE98" ppth="Friedberg(Hess)|Gießen|Marburg(Lahn)|Cölbe|Kirchhain(Bz Kassel)|Stadtallendorf|Neustadt(Kr Marburg)|Schwalmstadt-Wiera|Treysa|Schlierbach(Schwalm-Eder-Kr.)|Zimmersrode|Borken(Hess)|Singlis|Wabern(Bz Kassel)|Felsberg-Gensungen|Felsberg-Altenbrunslar|Felsberg-Wolfershausen|Edermünde-Grifte|Baunatal-Guntershausen"/>
+		<dp pt="2610172246" pp="9" l="RE98" fb="RE98" ppth="Kassel Hbf"/>
+	</s>
+	<s id="4643363042718558097-2610172106-15">
+		<tl f="N" t="p" o="800523" c="RB" n="23134"/>
+		<ar pt="2610172209" pp="9" l="RB39" fb="RB39" ppth="Bad Wildungen|Wega|Mandern|Ungedanken|Fritzlar|Zennern|Wabern(Bz Kassel)|Felsberg-Gensungen|Felsberg-Altenbrunslar|Felsberg-Wolfershausen|Edermünde-Grifte|Baunatal-Guntershausen|Baunatal-Rengershausen|Kassel-Oberzwehren"/>
+		<dp pt="2610172210" pp="9" l="RB39" fb="RB39" ppth="Kassel Hbf"/>
+	</s>
+	<s id="4929771273437247338-2610172110-23">
+		<tl f="D" t="p" o="N4" c="CAN" n="24244"/>
+		<ar pt="2610172238" pp="10" l="RB5" fb="RB5" ppth="Fulda|Hünfeld|Burghaun(Hünfeld)|Haunetal-Neukirchen|Bad Hersfeld|Ludwigsau-Friedlos|Bebra|Lispenhausen|Rotenburg a.d. Fulda|Heinebach|Altmorschen|Malsfeld-Beiseförth|Malsfeld|Melsungen|Melsungen Bartenwetzerbrücke|Melsungen-Schwarzenberg|Melsungen-Röhrenfurth|Körle|Guxhagen|Baunatal-Guntershausen|Baunatal-Rengershausen|Kassel-Oberzwehren"/>
+		<dp pt="2610172239" pp="10" l="RB5" fb="RB5" ppth="Kassel Hbf"/>
+	</s>
+	<s id="-8096318699655294639-2610172114-10">
+		<tl f="D" t="p" o="N4" c="CAN" n="63475"/>
+		<ar pt="2610172211" pp="1" l="RB83" fb="RB83" ppth="Göttingen|Friedland(Han)|Eichenberg|Witzenhausen Nord|Gertenbach|Hedemünden|Hann Münden|Speele|Fuldatal-Ihringshausen"/>
+	</s>
+	<s id="-8325351724494062802-2610172130-3">
+		<tl t="p" o="AM" c="Bus" n="11716"/>
+		<ar pt="2610172230" pp="" l="RE9" fb="Bus RE9" ppth="Eichenberg|Werrabrücke, Witzenhausen"/>
+	</s>
+	<s id="4971791130525079187-2610172148-2">
+		<tl t="p" o="NX" c="Bus" n="1126"/>
+		<ar pt="2610172227" pp="" l="RE11" fb="Bus RE11" ppth="Hofgeismar"/>
+	</s>
+	<s id="3740564631610606236-2610172205-10">
+		<tl f="D" t="p" o="H4" c="RT" n="20546"/>
+		<ar pt="2610172235" pp="9" l="RT5" fb="RT5" ppth="Melsungen|Melsungen Bartenwetzerbrücke|Melsungen-Schwarzenberg|Melsungen-Röhrenfurth|Körle|Guxhagen|Baunatal-Guntershausen|Baunatal-Rengershausen|Kassel-Oberzwehren"/>
+		<dp pt="2610172235" pp="9" l="RT5" fb="RT5" ppth="Kassel Hbf (tief)|Scheidemannplatz, Kassel|Wilhelmsstraße/Stadtmuseum, Kassel|Rathaus/Fünffensterstraße, Kassel|Am Weinberg, Kassel|Heinrich-Heine-Straße, Kassel|Auestadion, Kassel"/>
+	</s>
+	<s id="-516453126867102564-2610172207-8">
+		<tl f="D" t="p" o="H4" c="RT" n="20551"/>
+		<ar pt="2610172222" pp="7" l="RT5" fb="RT5" ppth="Auestadion, Kassel|Heinrich-Heine-Straße, Kassel|Am Weinberg, Kassel|Rathaus/Fünffensterstraße, Kassel|Wilhelmsstraße/Stadtmuseum, Kassel|Scheidemannplatz, Kassel|Kassel Hbf (tief)"/>
+		<dp pt="2610172223" pp="7" l="RT5" fb="RT5" ppth="Kassel-Oberzwehren|Baunatal-Rengershausen|Baunatal-Guntershausen|Guxhagen|Körle|Melsungen-Röhrenfurth|Melsungen-Schwarzenberg|Melsungen Bartenwetzerbrücke|Melsungen"/>
+	</s>
+	<s id="1119031694698761503-2610172207-2">
+		<tl f="D" t="p" o="N4" c="CAN" n="24251"/>
+		<ar pt="2610172211" pp="7" l="RB5" fb="RB5" ppth="Kassel Hbf"/>
+		<dp pt="2610172212" pp="7" l="RB5" fb="RB5" ppth="Guxhagen|Körle|Melsungen-Röhrenfurth|Melsungen|Malsfeld|Malsfeld-Beiseförth|Altmorschen|Heinebach|Rotenburg a.d. Fulda|Lispenhausen|Bebra|Ludwigsau-Friedlos|Bad Hersfeld|Haunetal-Neukirchen|Burghaun(Hünfeld)|Hünfeld|Fulda"/>
+	</s>
+	<s id="-5520190542780244157-2610172223-1">
+		<tl f="D" t="p" o="N4" c="CAN" n="63474"/>
+		<dp pt="2610172223" pp="1" l="RB83" fb="RB83" ppth="Fuldatal-Ihringshausen|Speele|Hann Münden|Hedemünden|Gertenbach|Witzenhausen Nord|Eichenberg"/>
+	</s>
+	<s id="7217092419963954024-2610172223-2">
+		<tl f="N" t="p" o="8005MW" c="RE" n="4169"/>
+		<ar pt="2610172228" pp="7" l="RE30" fb="RE30" ppth="Kassel Hbf"/>
+		<dp pt="2610172229" pp="7" l="RE30" fb="RE30" ppth="Edermünde-Grifte|Felsberg-Gensungen|Wabern(Bz Kassel)|Borken(Hess)|Treysa|Neustadt(Kr Marburg)|Stadtallendorf|Kirchhain(Bz Kassel)|Cölbe|Marburg(Lahn)|Marburg Süd|Niederwalgern|Fronhausen(Lahn)|Lollar|Gießen|Großen Linden|Lang Göns|Kirch Göns|Butzbach|Ostheim(b Butzbach)|Bad Nauheim|Friedberg(Hess)"/>
+	</s>
+</timetable>
