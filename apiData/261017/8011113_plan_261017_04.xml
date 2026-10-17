@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<timetable station="Berlin Südkreuz">
+	<s id="7056357850727682390-2610170403-11">
+		<tl f="D" t="p" o="OWRE" c="OE" n="62040"/>
+		<ar pt="2610170452" pp="3" l="RE8" fb="RE8" ppth="Nauen|Brieselang|Finkenkrug|Falkensee|Seegefeld|Albrechtshof|Berlin-Spandau|Berlin Jungfernheide|Berlin Hbf|Berlin Potsdamer Platz"/>
+		<dp pt="2610170454" pp="3" l="RE8" fb="RE8" ppth="Blankenfelde(Teltow-Fläming)|Dahlewitz|Rangsdorf|Dabendorf|Zossen|Wünsdorf-Waldstadt|Neuhof(b Zossen)|Baruth(Mark)|Klasdorf Glashütte|Golßen(Niederlausitz)|Drahnsdorf|Luckau-Uckro|Walddrehna|Doberlug-Kirchhain|Rückersdorf|Hohenleipisch|Elsterwerda"/>
+	</s>
+	<s id="-4782954664003624221-2610170426-1">
+		<tl f="F" t="p" o="80" c="ICE" n="946"/>
+		<dp pt="2610170426" pp="7" fb="ICE 946" ppth="Berlin Hbf|Potsdam Hbf|Magdeburg Hbf|Braunschweig Hbf|Hannover Hbf|Bielefeld Hbf|Hamm(Westf)Hbf|Dortmund Hbf|Bochum Hbf|Essen Hbf"/>
+		<tra t="v" id="-166955943814320002" ref-from="-6590078199824287896-2610170426" s="a" o="p" jt="j"/>
+	</s>
+	<s id="-6590078199824287896-2610170426-1">
+		<tl f="F" t="p" o="80" c="ICE" n="956"/>
+		<dp pt="2610170426" pp="7" fb="ICE 956" wings="-4782954664003624221-2610170426" ppth="Berlin Hbf|Potsdam Hbf|Magdeburg Hbf|Braunschweig Hbf|Hannover Hbf|Bielefeld Hbf|Hamm(Westf)Hbf|Hagen Hbf|Wuppertal Hbf|Düsseldorf Hbf"/>
+		<tra t="v" id="-166955943814320002" ref-to="-4782954664003624221-2610170426" s="a" o="p" jt="j"/>
+	</s>
+	<s id="3775635315635080489-2610170457-1">
+		<tl f="F" t="p" o="80" c="ICE" n="240"/>
+		<dp pt="2610170457" pp="6" fb="ICE 240" ppth="Berlin Hbf|Berlin-Spandau|Ludwigslust|Hamburg-Bergedorf|Hamburg-Harburg|Osnabrück Hbf|Gelsenkirchen Hbf|Emmerich|Arnhem Centraal|Utrecht Centraal|Amsterdam Centraal"/>
+	</s>
+</timetable>
