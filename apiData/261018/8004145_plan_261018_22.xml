@@ -1,0 +1,54 @@
+<?xml version="1.0" ?>
+<timetable station="München-Fasanerie">
+	<s id="1370567508503840883-2610182135-9">
+		<tl f="S" t="p" o="800725" c="S" n="8117"/>
+		<ar pt="2610182201" pp="1" l="S1" fb="S1" ppth="München Flughafen Terminal|München Flughafen Besucherpark|Neufahrn(b Freising)|Eching|Lohhof|Unterschleißheim|Oberschleißheim|München-Feldmoching"/>
+		<dp pt="2610182201" pp="1" l="S1" fb="S1" ppth="München-Moosach"/>
+	</s>
+	<s id="7082705557417084762-2610182151-9">
+		<tl f="S" t="p" o="800725" c="S" n="8119"/>
+		<ar pt="2610182221" pp="1" l="S1" fb="S1" ppth="München Flughafen Terminal|München Flughafen Besucherpark|Neufahrn(b Freising)|Eching|Lohhof|Unterschleißheim|Oberschleißheim|München-Feldmoching"/>
+		<dp pt="2610182221" pp="1" l="S1" fb="S1" ppth="München-Moosach|München Hbf"/>
+		<tra t="v" id="1334480147354478565" ref-from="8961269473261997144-2610182155" s="a" o="p"/>
+	</s>
+	<s id="8961269473261997144-2610182155-9">
+		<tl f="S" t="p" o="800725" c="S" n="8919"/>
+		<ar pt="2610182221" pp="1" l="S1" fb="S1" wings="7082705557417084762-2610182151" ppth="Freising|Pulling(b Freising)|Neufahrn(b Freising)|Eching|Lohhof|Unterschleißheim|Oberschleißheim|München-Feldmoching"/>
+		<dp pt="2610182221" pp="1" l="S1" fb="S1" wings="7082705557417084762-2610182151" ppth="München-Moosach|München Hbf"/>
+		<tra t="v" id="1334480147354478565" ref-to="7082705557417084762-2610182151" s="a" o="p"/>
+	</s>
+	<s id="6050463702440488947-2610182208-3">
+		<tl f="S" t="p" o="800725" c="S" n="8912"/>
+		<ar pt="2610182218" pp="2" l="S1" fb="S1" ppth="München Hbf|München-Moosach"/>
+		<dp pt="2610182218" pp="2" l="S1" fb="S1" ppth="München-Feldmoching|Oberschleißheim|Unterschleißheim|Lohhof|Eching|Neufahrn(b Freising)|München Flughafen Besucherpark|München Flughafen Terminal"/>
+	</s>
+	<s id="-6597719035197838456-2610182211-9">
+		<tl f="S" t="p" o="800725" c="S" n="8171"/>
+		<ar pt="2610182245" pp="1" l="S1" fb="S1" ppth="München Flughafen Terminal|München Flughafen Besucherpark|Neufahrn(b Freising)|Eching|Lohhof|Unterschleißheim|Oberschleißheim|München-Feldmoching"/>
+		<dp pt="2610182246" pp="1" l="S1" fb="S1" ppth="München-Moosach|München Hbf"/>
+	</s>
+	<s id="-4562315243069074316-2610182236-2">
+		<tl f="S" t="p" o="800725" c="S" n="8114"/>
+		<ar pt="2610182238" pp="2" l="S1" fb="S1" wings="5667020778701278655-2610182236" ppth="München-Moosach"/>
+		<dp pt="2610182238" pp="2" l="S1" fb="S1" wings="5667020778701278655-2610182236" ppth="München-Feldmoching|Oberschleißheim|Unterschleißheim|Lohhof|Eching|Neufahrn(b Freising)|Pulling(b Freising)|Freising"/>
+		<tra t="v" id="4946753307987251595" ref-to="5667020778701278655-2610182236" s="a" o="p"/>
+	</s>
+	<s id="5667020778701278655-2610182236-2">
+		<tl f="S" t="p" o="800725" c="S" n="8914"/>
+		<ar pt="2610182238" pp="2" l="S1" fb="S1" ppth="München-Moosach"/>
+		<dp pt="2610182238" pp="2" l="S1" fb="S1" ppth="München-Feldmoching|Oberschleißheim|Unterschleißheim|Lohhof|Eching|Neufahrn(b Freising)|München Flughafen Besucherpark|München Flughafen Terminal"/>
+		<tra t="v" id="4946753307987251595" ref-from="-4562315243069074316-2610182236" s="a" o="p"/>
+	</s>
+	<s id="1536348551078074177-2610182248-3">
+		<tl f="S" t="p" o="800725" c="S" n="8116"/>
+		<ar pt="2610182258" pp="2" l="S1" fb="S1" ppth="München Hbf|München-Moosach"/>
+		<dp pt="2610182258" pp="2" l="S1" fb="S1" ppth="München-Feldmoching|Oberschleißheim|Unterschleißheim|Lohhof|Eching|Neufahrn(b Freising)|Pulling(b Freising)|Freising"/>
+		<tra t="v" id="-5611271021334439178" ref-from="-6542404728296196572-2610182248" s="a" o="p"/>
+	</s>
+	<s id="-6542404728296196572-2610182248-3">
+		<tl f="S" t="p" o="800725" c="S" n="8916"/>
+		<ar pt="2610182258" pp="2" l="S1" fb="S1" wings="1536348551078074177-2610182248" ppth="München Hbf|München-Moosach"/>
+		<dp pt="2610182258" pp="2" l="S1" fb="S1" wings="1536348551078074177-2610182248" ppth="München-Feldmoching|Oberschleißheim|Unterschleißheim|Lohhof|Eching|Neufahrn(b Freising)|München Flughafen Besucherpark|München Flughafen Terminal"/>
+		<tra t="v" id="-5611271021334439178" ref-to="1536348551078074177-2610182248" s="a" o="p"/>
+	</s>
+</timetable>

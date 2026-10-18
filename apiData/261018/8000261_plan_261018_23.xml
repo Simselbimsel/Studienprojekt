@@ -1,0 +1,121 @@
+<?xml version="1.0" ?>
+<timetable station="München Hbf">
+	<s id="2998770966738646951-2610181509-15">
+		<tl f="F" t="p" o="80" c="ICE" n="693"/>
+		<ar pt="2610182315" pp="14" fb="ICE 693" ppth="Berlin Gesundbrunnen|Berlin Hbf|Berlin Südkreuz|Lutherstadt Wittenberg Hbf|Leipzig Hbf|Erfurt Hbf|Eisenach Hbf|Fulda|Frankfurt(Main)Hbf|Mannheim Hbf|Stuttgart Hbf|Ulm Hbf|Augsburg Hbf|München-Pasing"/>
+	</s>
+	<s id="-7621712260142359390-2610181618-14">
+		<tl f="F" t="p" o="80" c="ICE" n="605"/>
+		<ar pt="2610182310" pp="22" fb="ICE 605" ppth="Hamburg-Altona|Hamburg Dammtor|Hamburg Hbf|Berlin-Spandau|Berlin Hbf|Berlin Südkreuz|Lutherstadt Wittenberg Hbf|Bitterfeld|Leipzig Hbf|Erfurt Hbf|Bamberg|Erlangen|Nürnberg Hbf"/>
+	</s>
+	<s id="-6727683722954373951-2610181752-9">
+		<tl f="F" t="p" o="80" c="ICE" n="1015"/>
+		<ar pt="2610182341" pp="14" fb="ICE 1015" ppth="Dortmund Hbf|Düsseldorf Hbf|Köln Messe/Deutz Gl.11-12|Frankfurt(M) Flughafen Fernbf|Mannheim Hbf|Stuttgart Hbf|Ulm Hbf|Augsburg Hbf"/>
+	</s>
+	<s id="-5487531873915021544-2610181753-12">
+		<tl f="F" t="p" o="80" c="ICE" n="885"/>
+		<ar pt="2610182350" pp="20" fb="ICE 885" ppth="Hamburg Dammtor|Hamburg Hbf|Hamburg-Harburg|Lüneburg|Hannover Hbf|Göttingen|Kassel-Wilhelmshöhe|Fulda|Würzburg Hbf|Nürnberg Hbf|Ingolstadt Hbf"/>
+	</s>
+	<s id="-3019965818182152821-2610181821-9">
+		<tl f="F" t="p" o="80" c="ICE" n="729"/>
+		<ar pt="2610182318" pp="23" fb="ICE 729" ppth="Düsseldorf Hbf|Köln Messe/Deutz Gl.11-12|Frankfurt(M) Flughafen Fernbf|Frankfurt(Main)Hbf|Aschaffenburg Hbf|Würzburg Hbf|Nürnberg Hbf|Ingolstadt Hbf"/>
+	</s>
+	<s id="-3095351286217520651-2610181926-7">
+		<tl f="F" t="p" o="80" c="ICE" n="1605"/>
+		<ar pt="2610182343" pp="14" fb="ICE 1605" ppth="Berlin Gesundbrunnen|Berlin Hbf|Berlin Südkreuz|Halle(Saale)Hbf|Erfurt Hbf|Nürnberg Hbf"/>
+	</s>
+	<s id="-5420470465510055120-2610182039-18">
+		<tl f="N" t="p" o="800765" c="RE" n="59133"/>
+		<ar pt="2610182311" pp="19" l="RE16" fb="RE16" ppth="Nürnberg Hbf|Schwabach|Roth|Unterheckenhofen|Georgensgmünd|Mühlstetten|Pleinfeld|Ellingen(Bay)|Weißenburg(Bay)|Treuchtlingen|Otting-Weilheim|Donauwörth|Mertingen Bahnhof|Nordendorf|Meitingen|Augsburg-Oberhausen|Augsburg Hbf"/>
+	</s>
+	<s id="-8677182982400525824-2610182046-6">
+		<tl t="p" o="81" c="NJ" n="40420"/>
+		<ar pt="2610182245" pp="14" fb="NJ 40420" wings="3272146161175325165-2610182046" ppth="Innsbruck Hbf|Jenbach|Wörgl Hbf|Kufstein|Rosenheim"/>
+		<dp pt="2610182301" pp="14" fb="NJ 40420" wings="3272146161175325165-2610182046" ppth="Ingolstadt Hbf|Nürnberg Hbf|Würzburg Hbf|Kassel-Wilhelmshöhe|Göttingen|Hannover Hbf|Hamburg-Harburg|Hamburg Hbf|Hamburg Dammtor|Hamburg-Altona"/>
+		<tra t="v" id="-2894980227722694171" ref-to="3272146161175325165-2610182046" s="a" o="p"/>
+	</s>
+	<s id="3272146161175325165-2610182046-6">
+		<tl t="p" o="81" c="NJ" n="420"/>
+		<ar pt="2610182245" pp="14" fb="NJ 420" ppth="Innsbruck Hbf|Jenbach|Wörgl Hbf|Kufstein|Rosenheim"/>
+		<dp pt="2610182301" pp="14" fb="NJ 420" ppth="Ingolstadt Hbf|Nürnberg Hbf|Würzburg Hbf|Kassel-Wilhelmshöhe|Dortmund Hbf|Essen Hbf|Oberhausen Hbf|Arnhem Centraal|Utrecht Centraal|Amsterdam Centraal"/>
+		<tra t="v" id="-2894980227722694171" ref-from="-8677182982400525824-2610182046" s="a" o="p"/>
+	</s>
+	<s id="-5905686994878225679-2610182113-6">
+		<tl f="D" t="p" o="A8N" c="ALX" n="350"/>
+		<ar pt="2610182318" pp="20" l="RE25" fb="RE25" ppth="Schwandorf|Regensburg Hbf|Neufahrn(Niederbay)|Landshut(Bay)Hbf|Freising"/>
+	</s>
+	<s id="8043951824674326341-2610182119-28">
+		<tl t="p" o="GYRE" c="ARV" n="57087"/>
+		<ar pt="2610182341" pp="17" l="RE9" fb="RE9" ppth="Ulm Hbf|Neu-Ulm|Nersingen|Leipheim|Günzburg|Offingen|Mindelaltheim|Burgau(Schwab)|Jettingen|Freihalden|Dinkelscherben|Kutzenhausen|Gessertshausen|Diedorf(Schwab)|Westheim(Schwab)|Neusäß|Augsburg-Oberhausen|Augsburg Hbf|Augsburg Haunstetterstraße|Augsburg-Hochzoll|Kissing|Mering-St Afra|Mering|Althegnenberg|Haspelmoor|Mammendorf|München-Pasing"/>
+	</s>
+	<s id="7771397587504426738-2610182135-20">
+		<tl f="N" t="p" o="800765" c="RB" n="59163"/>
+		<ar pt="2610182338" pp="21" l="RB16" fb="RB16" ppth="Treuchtlingen|Pappenheim|Solnhofen|Dollnstein|Eichstätt Bahnhof|Adelschlag|Tauberfeld|Eitensheim|Gaimersheim|Ingolstadt Audi|Ingolstadt Nord|Ingolstadt Hbf|Baar-Ebenhausen|Rohrbach(Ilm)|Pfaffenhofen(Ilm)|Reichertshausen(Ilm)|Paindorf|Petershausen(Obb)|Dachau Bahnhof"/>
+	</s>
+	<s id="6412565521062716598-2610182202-9">
+		<tl f="N" t="p" o="800767" c="RE" n="4089"/>
+		<ar pt="2610182337" pp="28" l="RE3" fb="RE3" ppth="Plattling|Wallersdorf|Landau(Isar)|Dingolfing|Wörth(Isar)|Landshut(Bay)Hbf|Moosburg|Freising"/>
+	</s>
+	<s id="-8379478014456391209-2610182211-11">
+		<tl t="p" o="GYRE" c="ARV" n="78960"/>
+		<ar pt="2610182358" pp="29" l="RE72" fb="RE72" ppth="Memmingen|Sontheim(Schwab)|Stetten(Schwab)|Mindelheim|Rammingen(Bay)|Türkheim(Bay)Bf|Buchloe|Kaufering|Geltendorf|München-Pasing"/>
+	</s>
+	<s id="4503772870980732058-2610182234-10">
+		<tl f="S" t="p" o="800725" c="S" n="8651"/>
+		<ar pt="2610182304" pp="31" l="S6" fb="S6" ppth="Starnberg|Starnberg Nord|Gauting|Stockdorf|Planegg|Gräfelfing|Lochham|München-Westkreuz|München-Pasing"/>
+	</s>
+	<s id="6313052437396805477-2610182244-13">
+		<tl f="S" t="p" o="800725" c="S" n="8653"/>
+		<ar pt="2610182324" pp="31" l="S6" fb="S6" ppth="Tutzing|Feldafing|Possenhofen|Starnberg|Starnberg Nord|Gauting|Stockdorf|Planegg|Gräfelfing|Lochham|München-Westkreuz|München-Pasing"/>
+	</s>
+	<s id="5571820465269609472-2610182255-11">
+		<tl f="S" t="p" o="800725" c="S" n="8175"/>
+		<ar pt="2610182338" pp="25" l="S1" fb="S1" ppth="München Flughafen Terminal|München Flughafen Besucherpark|Neufahrn(b Freising)|Eching|Lohhof|Unterschleißheim|Oberschleißheim|München-Feldmoching|München-Fasanerie|München-Moosach"/>
+	</s>
+	<s id="1501596146370993091-2610182304-13">
+		<tl f="S" t="p" o="800725" c="S" n="8655"/>
+		<ar pt="2610182344" pp="31" l="S6" fb="S6" ppth="Tutzing|Feldafing|Possenhofen|Starnberg|Starnberg Nord|Gauting|Stockdorf|Planegg|Gräfelfing|Lochham|München-Westkreuz|München-Pasing"/>
+	</s>
+	<s id="6306918419691815906-2610182306-1">
+		<tl f="N" t="p" o="800765" c="RE" n="4046"/>
+		<dp pt="2610182306" pp="19" l="RE1" fb="RE1" ppth="Petershausen(Obb)|Pfaffenhofen(Ilm)|Rohrbach(Ilm)|Ingolstadt Hbf|Ingolstadt Nord|Kinding(Altmühltal)|Allersberg(Rothsee)|Nürnberg Hbf"/>
+	</s>
+	<s id="3040335584895770813-2610182311-11">
+		<tl f="S" t="p" o="800725" c="S" n="8177"/>
+		<ar pt="2610182358" pp="27" l="S1" fb="S1" ppth="München Flughafen Terminal|München Flughafen Besucherpark|Neufahrn(b Freising)|Eching|Lohhof|Unterschleißheim|Oberschleißheim|München-Feldmoching|München-Fasanerie|München-Moosach"/>
+		<tra t="v" id="4546759909235343808" ref-from="7597558148646217621-2610182314" s="a" o="p" jt="s"/>
+	</s>
+	<s id="-4806817207890998144-2610182312-1">
+		<tl f="F" t="p" o="80" c="ICE" n="904"/>
+		<dp pt="2610182312" pp="17" fb="ICE 904" ppth="München-Pasing|Augsburg Hbf|Donauwörth|Nürnberg Hbf|Erlangen|Bamberg|Lichtenfels|Saalfeld(Saale)|Jena-Göschwitz|Jena Paradies|Naumburg(Saale)Hbf|Leipzig Hbf|Bitterfeld|Lutherstadt Wittenberg Hbf|Berlin Südkreuz|Berlin Hbf|Berlin Gesundbrunnen"/>
+	</s>
+	<s id="7597558148646217621-2610182314-11">
+		<tl f="S" t="p" o="800725" c="S" n="8927"/>
+		<ar pt="2610182358" pp="27" l="S1" fb="S1" wings="3040335584895770813-2610182311" ppth="Freising|Pulling(b Freising)|Neufahrn(b Freising)|Eching|Lohhof|Unterschleißheim|Oberschleißheim|München-Feldmoching|München-Fasanerie|München-Moosach"/>
+		<tra t="v" id="4546759909235343808" ref-to="3040335584895770813-2610182311" s="a" o="p" jt="s"/>
+	</s>
+	<s id="7995482443467861028-2610182316-1">
+		<tl f="S" t="p" o="800725" c="S" n="8650"/>
+		<dp pt="2610182316" pp="31" l="S6" fb="S6" ppth="München-Pasing|München-Westkreuz|Lochham|Gräfelfing|Planegg|Stockdorf|Gauting|Starnberg Nord|Starnberg|Possenhofen|Feldafing|Tutzing"/>
+	</s>
+	<s id="5680323516790217954-2610182324-1">
+		<tl f="N" t="p" o="800767" c="RE" n="4092"/>
+		<dp pt="2610182324" pp="24" l="RE3" fb="RE3" ppth="Freising|Moosburg|Landshut(Bay)Hbf|Wörth(Isar)|Dingolfing|Landau(Isar)|Wallersdorf|Plattling"/>
+	</s>
+	<s id="-2480303027028645831-2610182326-1">
+		<tl f="N" t="p" o="800765" c="RB" n="59176"/>
+		<dp pt="2610182326" pp="19" l="RB16" fb="RB16" ppth="Dachau Bahnhof|Petershausen(Obb)|Paindorf|Reichertshausen(Ilm)|Pfaffenhofen(Ilm)|Rohrbach(Ilm)|Baar-Ebenhausen|Ingolstadt Hbf|Ingolstadt Nord"/>
+	</s>
+	<s id="-6735862306294210409-2610182336-1">
+		<tl f="S" t="p" o="800725" c="S" n="8652"/>
+		<dp pt="2610182336" pp="31" l="S6" fb="S6" ppth="München-Pasing|München-Westkreuz|Lochham|Gräfelfing|Planegg|Stockdorf|Gauting|Starnberg Nord|Starnberg|Possenhofen|Feldafing|Tutzing"/>
+	</s>
+	<s id="-8904924467100863272-2610182348-1">
+		<tl f="S" t="p" o="800725" c="S" n="8122"/>
+		<dp pt="2610182348" pp="25" l="S1" fb="S1" ppth="München-Moosach|München-Fasanerie|München-Feldmoching|Oberschleißheim|Unterschleißheim|Lohhof|Eching|Neufahrn(b Freising)|Pulling(b Freising)|Freising"/>
+	</s>
+	<s id="6977231161108983396-2610182356-1">
+		<tl f="S" t="p" o="800725" c="S" n="8654"/>
+		<dp pt="2610182356" pp="31" l="S6" fb="S6" ppth="München-Pasing"/>
+	</s>
+</timetable>

@@ -1,0 +1,56 @@
+<?xml version="1.0" ?>
+<timetable station="Singen(Hohentwiel)">
+	<s id="-486603407852502812-2610182138-12">
+		<tl f="N" t="p" o="NZ" c="RE" n="52385"/>
+		<ar pt="2610182326" pp="2" l="IC87" fb="RE IC87" wings="463605345629812515-2610182138" ppth="Böblingen|Herrenberg|Gäufelden|Bondorf(b Herrenberg)|Horb|Sulz(Neckar)|Oberndorf(Neckar)|Rottweil|Spaichingen|Tuttlingen|Engen"/>
+		<dp pt="2610182328" pp="2" l="IC87" fb="RE IC87" wings="463605345629812515-2610182138" ppth="Radolfzell|Konstanz"/>
+		<tra t="v" id="-5299090751473813389" ref-to="463605345629812515-2610182138" s="a" o="p"/>
+	</s>
+	<s id="463605345629812515-2610182138-12">
+		<tl f="F" t="p" o="80" c="IC" n="2385"/>
+		<ar pt="2610182326" pp="2" fb="IC 2385" ppth="Böblingen|Herrenberg|Gäufelden|Bondorf(b Herrenberg)|Horb|Sulz(Neckar)|Oberndorf(Neckar)|Rottweil|Spaichingen|Tuttlingen|Engen"/>
+		<dp pt="2610182328" pp="2" fb="IC 2385" ppth="Radolfzell|Konstanz"/>
+		<tra t="v" id="-5299090751473813389" ref-from="-486603407852502812-2610182138" s="a" o="p"/>
+	</s>
+	<s id="4753870957390372842-2610182156-3">
+		<tl f="F" t="p" o="NZ" c="IC" n="60402"/>
+		<ar pt="2610182307" pp="4" fb="IC 60402" ppth="Zürich HB|Schaffhausen"/>
+		<dp pt="2610182307" pp="4" fb="IC 60402" ppth="Mannheim Hbf|Frankfurt(Main)Hbf|Frankfurt(M) Flughafen Fernbf|Mainz Hbf|Koblenz Hbf|Bonn Hbf|Köln Hbf|Arnhem Centraal|Utrecht Centraal|Amsterdam Centraal"/>
+		<tra t="v" id="4864874500145081738" ref-from="8868050453695511606-2610182156" s="a" o="p"/>
+	</s>
+	<s id="8868050453695511606-2610182156-3">
+		<tl t="p" o="85" c="NJ" n="402"/>
+		<ar pt="2610182307" pp="4" fb="NJ 402" hi="1" wings="4753870957390372842-2610182156" ppth="Zürich HB|Schaffhausen"/>
+		<dp pt="2610182307" pp="4" fb="NJ 402" wings="4753870957390372842-2610182156" ppth="Mannheim Hbf|Frankfurt(Main)Hbf|Frankfurt(M) Flughafen Fernbf|Mainz Hbf|Koblenz Hbf|Bonn Hbf|Köln Hbf|Arnhem Centraal|Utrecht Centraal|Amsterdam Centraal"/>
+		<tra t="v" id="4864874500145081738" ref-to="4753870957390372842-2610182156" s="a" o="p"/>
+	</s>
+	<s id="-139097260195180475-2610182303-4">
+		<tl f="N" t="p" o="800693" c="RE" n="3077"/>
+		<ar pt="2610182333" pp="3" l="RE3" fb="RE3" ppth="Erzingen(Baden)|Schaffhausen|Gottmadingen"/>
+	</s>
+	<s id="-3651809968517176547-2610182306-1">
+		<tl t="p" o="L7" c="SBB" n="19770"/>
+		<dp pt="2610182306" pp="3" l="S62" fb="S62" ppth="Gottmadingen|Bietingen|Thayngen|Herblingen|Schaffhausen"/>
+	</s>
+	<s id="4710725448795517054-2610182307-6">
+		<tl t="p" o="85L7" c="SBB" n="19771"/>
+		<ar pt="2610182325" pp="5" l="S62" fb="S62" ppth="Schaffhausen|Herblingen|Thayngen|Bietingen|Gottmadingen"/>
+	</s>
+	<s id="-2012934542845517107-2610182323-12">
+		<tl t="p" o="L701" c="SBB" n="87722"/>
+		<ar pt="2610182356" pp="1" l="S6" fb="S6" ppth="Konstanz|Konstanz-Petershausen|Konstanz-Fürstenberg|Konstanz-Wollmatingen|Reichenau(Baden)|Hegne|Allensbach|Markelfingen|Radolfzell|Böhringen-Rickelshausen|Singen Industriegebiet"/>
+		<dp pt="2610190000" pp="1" l="S6" fb="S6" ppth="Singen Landesgartenschau|Mühlhausen(b Engen)|Welschingen-Neuhausen|Engen"/>
+	</s>
+	<s id="-3413031703480710237-2610182332-1">
+		<tl t="p" o="L701" c="SBB" n="87721"/>
+		<dp pt="2610182332" pp="1" l="S6" fb="S6" ppth="Singen Industriegebiet|Böhringen-Rickelshausen|Radolfzell|Markelfingen|Allensbach|Hegne|Reichenau(Baden)|Konstanz-Wollmatingen|Konstanz-Fürstenberg|Konstanz-Petershausen|Konstanz"/>
+	</s>
+	<s id="-5768645758493997403-2610182336-1">
+		<tl t="p" o="L7" c="SBB" n="19772"/>
+		<dp pt="2610182336" pp="5" l="S62" fb="S62" ppth="Gottmadingen|Bietingen|Thayngen|Herblingen|Schaffhausen"/>
+	</s>
+	<s id="-5597681253993938048-2610182337-6">
+		<tl t="p" o="85L7" c="SBB" n="19773"/>
+		<ar pt="2610182355" pp="3" l="S62" fb="S62" ppth="Schaffhausen|Herblingen|Thayngen|Bietingen|Gottmadingen"/>
+	</s>
+</timetable>
