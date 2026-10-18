@@ -1,0 +1,59 @@
+<?xml version="1.0" ?>
+<timetable station="Schweinfurt Hbf">
+	<s id="2733403889289065674-2610181501-10">
+		<tl f="N" t="p" o="800772" c="RE" n="4649"/>
+		<ar pt="2610181706" pp="7" l="RE55" fb="RE55" ppth="Frankfurt(Main)Hbf|Frankfurt(Main)Süd|Offenbach(Main)Hbf|Hanau Hbf|Kahl(Main)|Aschaffenburg Hbf|Lohr Bahnhof|Gemünden(Main)|Waigolshausen"/>
+		<dp pt="2610181709" pp="7" l="RE55" fb="RE55" ppth="Haßfurt|Bamberg"/>
+	</s>
+	<s id="-7072391795018261274-2610181535-12">
+		<tl f="N" t="p" o="8004NT" c="RE" n="3763"/>
+		<ar pt="2610181725" pp="6" l="RE7" fb="RE7" ppth="Erfurt Hbf|Neudietendorf|Arnstadt Hbf|Plaue(Thür)|Zella-Mehlis|Suhl|Grimmenthal|Mellrichstadt Bf|Bad Neustadt(Saale)|Münnerstadt|Ebenhausen(Unterfr)"/>
+		<dp pt="2610181732" pp="6" l="RE7" fb="RE7" ppth="Würzburg Hbf"/>
+	</s>
+	<s id="3257168502775920133-2610181603-20">
+		<tl f="N" t="p" o="800714" c="RB" n="58057"/>
+		<ar pt="2610181737" pp="7" l="RB53" fb="RB53" ppth="Jossa|Obersinn|Mittelsinn|Burgsinn|Rieneck|Gemünden(Main)|Wernfeld|Karlstadt(Main)|Himmelstadt|Retzbach-Zellingen|Thüngersheim|Veitshöchheim|Würzburg-Zell|Würzburg Hbf|Rottendorf|Seligenstadt(b Würzburg)|Bergtheim|Eßleben|Waigolshausen"/>
+		<dp pt="2610181738" pp="7" l="RB53" fb="RB53" ppth="Schweinfurt Mitte|Schweinfurt Stadt|Schonungen|Haßfurt|Zeil|Ebelsbach-Eltmann|Oberhaid|Bamberg"/>
+	</s>
+	<s id="966144890328715400-2610181635-2">
+		<tl f="N" t="p" o="800755" c="RE" n="4791"/>
+		<ar pt="2610181659" pp="7" l="RE20" fb="RE20" ppth="Würzburg Hbf"/>
+		<dp pt="2610181700" pp="7" l="RE20" fb="RE20" ppth="Haßfurt|Bamberg|Hirschaid|Forchheim(Oberfr)|Erlangen|Fürth(Bay)Hbf|Nürnberg Hbf"/>
+	</s>
+	<s id="-3075039017755697239-2610181641-9">
+		<tl f="N" t="p" o="800714" c="RB" n="58062"/>
+		<ar pt="2610181718" pp="6" l="RB53" fb="RB53" ppth="Bamberg|Oberhaid|Ebelsbach-Eltmann|Zeil|Haßfurt|Schonungen|Schweinfurt Stadt|Schweinfurt Mitte"/>
+		<dp pt="2610181719" pp="6" l="RB53" fb="RB53" ppth="Waigolshausen|Eßleben|Bergtheim|Seligenstadt(b Würzburg)|Rottendorf|Würzburg Hbf|Würzburg-Zell|Veitshöchheim|Thüngersheim|Retzbach-Zellingen|Himmelstadt|Karlstadt(Main)|Wernfeld|Gemünden(Main)|Rieneck|Burgsinn|Mittelsinn|Obersinn|Jossa"/>
+	</s>
+	<s id="4398825102862904507-2610181700-4">
+		<tl f="N" t="p" o="8004NT" c="RE" n="3783"/>
+		<ar pt="2610181725" pp="6" l="RE7" fb="RE7" ppth="Bad Kissingen|Oerlenbach|Ebenhausen(Unterfr)"/>
+		<dp pt="2610181732" pp="6" l="RE7" fb="RE7" ppth="Würzburg Hbf"/>
+	</s>
+	<s id="-479393776784223219-2610181706-8">
+		<tl f="D" t="p" o="EB" c="EB" n="80753"/>
+		<ar pt="2610181743" pp="3" l="RB40" fb="RB40" wings="-7094165152979347828-2610181718" ppth="Bad Neustadt(Saale)|Burglauer|Münnerstadt|Rottershausen|Ebenhausen(Unterfr)|Poppenhausen|Oberwerrn"/>
+		<dp pt="2610181746" pp="3" l="RB40" fb="RB40" ppth="Schweinfurt Mitte|Schweinfurt Stadt"/>
+		<tra t="v" id="-5088208797032759789" ref-to="-7094165152979347828-2610181718" s="a" o="p" jt="s"/>
+	</s>
+	<s id="-3270870370583864410-2610181712-1">
+		<tl f="D" t="p" o="EB" c="EB" n="80692"/>
+		<dp pt="2610181712" pp="5" l="RB50" fb="RB50" wings="-4325028006255234556-2610181712" ppth="Poppenhausen|Ebenhausen(Unterfr)|Oerlenbach|Bad Kissingen"/>
+		<tra t="v" id="7871721900660181737" ref-to="-4325028006255234556-2610181712" s="a" o="p" jt="j"/>
+	</s>
+	<s id="-4325028006255234556-2610181712-1">
+		<tl f="D" t="p" o="EB" c="EB" n="80752"/>
+		<dp pt="2610181712" pp="5" l="RB40" fb="RB40" ppth="Poppenhausen|Ebenhausen(Unterfr)|Rottershausen|Münnerstadt|Burglauer|Bad Neustadt(Saale)|Mellrichstadt Bf|Rentwertshausen|Bibra|Wölfershausen|Grimmenthal|Untermaßfeld|Meiningen"/>
+		<tra t="v" id="7871721900660181737" ref-from="-3270870370583864410-2610181712" s="a" o="p" jt="j"/>
+	</s>
+	<s id="-7094165152979347828-2610181718-6">
+		<tl f="D" t="p" o="EB" c="EB" n="80695"/>
+		<ar pt="2610181743" pp="3" l="RB50" fb="RB50" ppth="Bad Kissingen|Oerlenbach|Ebenhausen(Unterfr)|Poppenhausen|Oberwerrn"/>
+		<tra t="v" id="-5088208797032759789" ref-from="-479393776784223219-2610181706" s="a" o="p" jt="s"/>
+	</s>
+	<s id="-4384291237910028934-2610181726-3">
+		<tl f="N" t="p" o="800772" c="RE" n="4628"/>
+		<ar pt="2610181755" pp="6" l="RE54" fb="RE54" ppth="Bamberg|Haßfurt"/>
+		<dp pt="2610181756" pp="6" l="RE54" fb="RE54" ppth="Würzburg Hbf|Lohr Bahnhof|Partenstein|Wiesthal|Heigenbrücken|Aschaffenburg Hbf|Kleinostheim|Dettingen(Main)|Kahl(Main)|Hanau Hbf|Hanau West|Hanau-Wilhelmsbad|Maintal Ost|Maintal West|Frankfurt-Mainkur|Frankfurt(Main)Ost|Frankfurt(Main)Süd|Frankfurt(Main)Hbf"/>
+	</s>
+</timetable>
