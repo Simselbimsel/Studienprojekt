@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+<timetable station="Frankfurt(Main)Hbf">
+	<s id="7582314568044505717-2610172101-7">
+		<tl f="F" t="p" o="NZ" c="IC" n="60403"/>
+		<ar pt="2610180217" pp="19" fb="IC 60403" ppth="Amsterdam Centraal|Utrecht Centraal|Arnhem Centraal|Emmerich|Duisburg Hbf|Köln Hbf"/>
+		<dp pt="2610180245" pp="19" fb="IC 60403" ppth="Mannheim Hbf|Karlsruhe Hbf|Baden-Baden|Offenburg|Freiburg(Breisgau) Hbf|Basel Bad Bf|Basel SBB|Zürich HB"/>
+		<tra t="v" id="-2782160679922494436" ref-from="-5851721557238592488-2610172101" s="a" o="p"/>
+	</s>
+	<s id="-5851721557238592488-2610172101-7">
+		<tl t="p" o="84" c="NJ" n="403"/>
+		<ar pt="2610180217" pp="19" fb="NJ 403" hi="1" wings="7582314568044505717-2610172101" ppth="Amsterdam Centraal|Utrecht Centraal|Arnhem Centraal|Emmerich|Duisburg Hbf|Köln Hbf"/>
+		<dp pt="2610180245" pp="19" fb="NJ 403" hi="1" wings="7582314568044505717-2610172101" ppth="Mannheim Hbf|Karlsruhe Hbf|Baden-Baden|Offenburg|Freiburg(Breisgau) Hbf|Basel Bad Bf|Basel SBB|Zürich HB"/>
+		<tra t="v" id="-2782160679922494436" ref-to="7582314568044505717-2610172101" s="a" o="p"/>
+	</s>
+	<s id="-7363861252398759561-2610172118-9">
+		<tl f="F" t="p" o="80" c="ICE" n="699"/>
+		<ar pt="2610180219" pp="8" fb="ICE 699" ppth="Berlin Gesundbrunnen|Berlin Hbf|Berlin Südkreuz|Lutherstadt Wittenberg Hbf|Bitterfeld|Halle(Saale)Hbf|Erfurt Hbf|Eisenach Hbf"/>
+		<dp pt="2610180225" pp="8" fb="ICE 699" ppth="Frankfurt(M) Flughafen Fernbf|Mannheim Hbf|Heidelberg Hbf|Stuttgart Hbf|Ulm Hbf|Günzburg|Augsburg Hbf|München-Pasing|München Hbf"/>
+	</s>
+	<s id="4753870957390372842-2610172154-5">
+		<tl f="F" t="p" o="NZ" c="IC" n="60402"/>
+		<ar pt="2610180242" pp="18" fb="IC 60402" ppth="Zürich HB|Schaffhausen|Singen(Hohentwiel)|Mannheim Hbf"/>
+		<dp pt="2610180311" pp="18" fb="IC 60402" ppth="Mainz Hbf|Koblenz Hbf|Bonn Hbf|Köln Hbf|Arnhem Centraal|Utrecht Centraal|Amsterdam Centraal"/>
+		<tra t="v" id="937372439721159174" ref-from="8868050453695511606-2610172154" s="a" o="p"/>
+	</s>
+	<s id="8868050453695511606-2610172154-5">
+		<tl t="p" o="85" c="NJ" n="402"/>
+		<ar pt="2610180242" pp="18" fb="NJ 402" hi="1" wings="4753870957390372842-2610172154" ppth="Zürich HB|Schaffhausen|Singen(Hohentwiel)|Mannheim Hbf"/>
+		<dp pt="2610180311" pp="18" fb="NJ 402" hi="1" wings="4753870957390372842-2610172154" ppth="Mainz Hbf|Koblenz Hbf|Bonn Hbf|Köln Hbf|Arnhem Centraal|Utrecht Centraal|Amsterdam Centraal"/>
+		<tra t="v" id="937372439721159174" ref-to="4753870957390372842-2610172154" s="a" o="p"/>
+	</s>
+	<s id="8858984510411719527-2610180204-1">
+		<tl f="N" t="p" o="8005KG" c="RB" n="15548"/>
+		<dp pt="2610180204" pp="8" l="RB51" fb="RB51" ppth="Frankfurt(Main)Süd|Offenbach(Main)Hbf|Hanau Hbf|Wolfgang(Kr Hanau)|Rodenbach(b Hanau)|Langenselbold|Niedermittlau|Hailer-Meerholz|Gelnhausen|Haitz-Höchst|Wirtheim|Wächtersbach"/>
+	</s>
+	<s id="6729598115043604080-2610180206-1">
+		<tl f="N" t="p" o="800574" c="RB" n="15343"/>
+		<dp pt="2610180206" pp="11" l="RB68" fb="RB68" ppth="Langen(Hess)|Darmstadt Hbf|Darmstadt Süd|Darmstadt-Eberstadt|Bickenbach(Bergstr)|Hähnlein-Alsbach|Zwingenberg(Bergstr)|Bensheim-Auerbach|Bensheim|Heppenheim(Bergstr)|Laudenbach(Bergstr)|Hemsbach|Weinheim-Sulzbach|Weinheim(Bergstr)Hbf|Weinheim-Lützelsachsen|Heddesheim/Hirschberg|Ladenburg|Neu-Edingen/Friedrichsfeld|Heidelberg-Pfaffengrund/Wieblingen|Heidelberg Hbf"/>
+	</s>
+	<s id="7193984266497492867-2610180215-1">
+		<tl f="D" t="p" o="K4RB" c="HLB" n="24377"/>
+		<dp pt="2610180215" pp="5" l="RB58" fb="RB58" ppth="Frankfurt(Main)Süd|Frankfurt(Main)Ost|Frankfurt-Mainkur|Maintal West|Maintal Ost|Hanau-Wilhelmsbad|Hanau West|Hanau Hbf"/>
+	</s>
+	<s id="-1500176329851797383-2610180229-1">
+		<tl f="N" t="p" o="800553" c="RB" n="15296"/>
+		<dp pt="2610180229" pp="21" l="RB22" fb="RB22" ppth="Frankfurt-Höchst|Hofheim(Taunus)|Niedernhausen(Taunus)|Idstein(Taunus)|Wörsdorf|Bad Camberg|Niederselters|Oberbrechen|Niederbrechen|Lindenholzhausen|Eschhofen|Limburg(Lahn)"/>
+	</s>
+</timetable>

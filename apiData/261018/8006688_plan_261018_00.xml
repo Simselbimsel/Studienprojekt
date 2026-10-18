@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<timetable station="Unterschleißheim">
+	<s id="-8068325637714588770-2610172355-6">
+		<tl f="S" t="p" o="800725" c="S" n="8131"/>
+		<ar pt="2610180012" pp="2" l="S1" fb="S1" ppth="München Flughafen Terminal|München Flughafen Besucherpark|Neufahrn(b Freising)|Eching|Lohhof"/>
+		<dp pt="2610180012" pp="2" l="S1" fb="S1" ppth="Oberschleißheim|München-Feldmoching|München-Fasanerie|München-Moosach|München Hbf"/>
+	</s>
+	<s id="6605973969199890273-2610180008-6">
+		<tl f="S" t="p" o="800725" c="S" n="8184"/>
+		<ar pt="2610180026" pp="1" l="S1" fb="S1" ppth="München Hbf|München-Moosach|München-Fasanerie|München-Feldmoching|Oberschleißheim"/>
+		<dp pt="2610180027" pp="1" l="S1" fb="S1" ppth="Lohhof|Eching|Neufahrn(b Freising)|Pulling(b Freising)|Freising"/>
+	</s>
+	<s id="6357927537834281008-2610180011-6">
+		<tl f="S" t="p" o="800725" c="S" n="8133"/>
+		<ar pt="2610180032" pp="2" l="S1" fb="S1" ppth="München Flughafen Terminal|München Flughafen Besucherpark|Neufahrn(b Freising)|Eching|Lohhof"/>
+		<dp pt="2610180032" pp="2" l="S1" fb="S1" ppth="Oberschleißheim|München-Feldmoching|München-Fasanerie|München-Moosach|München Hbf"/>
+		<tra t="v" id="2811863616247324119" ref-from="6170092459768635002-2610180014" s="a" o="p"/>
+	</s>
+	<s id="6170092459768635002-2610180014-6">
+		<tl f="S" t="p" o="800725" c="S" n="8933"/>
+		<ar pt="2610180032" pp="2" l="S1" fb="S1" wings="6357927537834281008-2610180011" ppth="Freising|Pulling(b Freising)|Neufahrn(b Freising)|Eching|Lohhof"/>
+		<dp pt="2610180032" pp="2" l="S1" fb="S1" wings="6357927537834281008-2610180011" ppth="Oberschleißheim|München-Feldmoching|München-Fasanerie|München-Moosach|München Hbf"/>
+		<tra t="v" id="2811863616247324119" ref-to="6357927537834281008-2610180011" s="a" o="p"/>
+	</s>
+	<s id="-3161170237281717552-2610180036-5">
+		<tl f="S" t="p" o="800725" c="S" n="8126"/>
+		<ar pt="2610180046" pp="1" l="S1" fb="S1" ppth="München-Moosach|München-Fasanerie|München-Feldmoching|Oberschleißheim"/>
+		<dp pt="2610180047" pp="1" l="S1" fb="S1" ppth="Lohhof|Eching|Neufahrn(b Freising)|Pulling(b Freising)|Freising"/>
+	</s>
+</timetable>

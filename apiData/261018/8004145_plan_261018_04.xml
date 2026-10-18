@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<timetable station="München-Fasanerie">
+	<s id="-7984326058846129361-2610180428-3">
+		<tl f="S" t="p" o="800725" c="S" n="6106"/>
+		<ar pt="2610180438" pp="2" l="S1" fb="S1" ppth="München Hbf|München-Moosach"/>
+		<dp pt="2610180438" pp="2" l="S1" fb="S1" ppth="München-Feldmoching|Oberschleißheim|Unterschleißheim|Lohhof|Eching|Neufahrn(b Freising)|Pulling(b Freising)|Freising"/>
+		<tra t="v" id="8090739796413690312" ref-from="-6688605661475555809-2610180428" s="a" o="p"/>
+	</s>
+	<s id="-6688605661475555809-2610180428-3">
+		<tl f="S" t="p" o="800725" c="S" n="6906"/>
+		<ar pt="2610180438" pp="2" l="S1" fb="S1" wings="-7984326058846129361-2610180428" ppth="München Hbf|München-Moosach"/>
+		<dp pt="2610180438" pp="2" l="S1" fb="S1" wings="-7984326058846129361-2610180428" ppth="München-Feldmoching|Oberschleißheim|Unterschleißheim|Lohhof|Eching|Neufahrn(b Freising)|München Flughafen Besucherpark|München Flughafen Terminal"/>
+		<tra t="v" id="8090739796413690312" ref-to="-7984326058846129361-2610180428" s="a" o="p"/>
+	</s>
+</timetable>
