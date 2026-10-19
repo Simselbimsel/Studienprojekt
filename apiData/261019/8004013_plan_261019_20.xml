@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<timetable station="Michelaubrück">
+	<s id="7712599760654868479-2610192000-4">
+		<tl t="p" o="EB" c="Bus" n="68696"/>
+		<ar pt="2610192017" pp="" l="RB50" fb="Bus RB50" wings="-3490519020549375067-2610192000" ppth="Morlesau|Diebach|Weickersgrüben"/>
+		<dp pt="2610192017" pp="" l="RB50" fb="Bus RB50" wings="-3490519020549375067-2610192000" ppth="Gräfendorf"/>
+		<tra t="v" id="7273570330328793986" ref-to="-3490519020549375067-2610192000" s="a" o="p"/>
+	</s>
+	<s id="-3490519020549375067-2610192000-4">
+		<tl t="p" o="EB" c="Bus" n="69696"/>
+		<ar pt="2610192017" pp="" l="RB50" fb="Bus RB50" ppth="Morlesau|Diebach|Weickersgrüben"/>
+		<dp pt="2610192017" pp="" l="RB50" fb="Bus RB50" ppth="Gräfendorf"/>
+		<tra t="v" id="7273570330328793986" ref-from="7712599760654868479-2610192000" s="a" o="p"/>
+	</s>
+</timetable>

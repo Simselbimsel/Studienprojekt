@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<timetable station="Weickersgrüben">
+	<s id="7218971544473733395-2610191800-3">
+		<tl t="p" o="EB" c="Bus" n="69692"/>
+		<ar pt="2610191814" pp="" l="RB50" fb="Bus RB50" wings="2825002608354175515-2610191800" ppth="Morlesau|Diebach"/>
+		<dp pt="2610191814" pp="" l="RB50" fb="Bus RB50" wings="2825002608354175515-2610191800" ppth="Michelaubrück|Gräfendorf"/>
+		<tra t="v" id="1295608912916507653" ref-to="2825002608354175515-2610191800" s="a" o="p"/>
+	</s>
+	<s id="2825002608354175515-2610191800-3">
+		<tl t="p" o="EB" c="Bus" n="68692"/>
+		<ar pt="2610191814" pp="" l="RB50" fb="Bus RB50" ppth="Morlesau|Diebach"/>
+		<dp pt="2610191814" pp="" l="RB50" fb="Bus RB50" ppth="Michelaubrück|Gräfendorf"/>
+		<tra t="v" id="1295608912916507653" ref-from="7218971544473733395-2610191800" s="a" o="p"/>
+	</s>
+	<s id="-1126272478293793281-2610191834-3">
+		<tl t="p" o="EB" c="Bus" n="69699"/>
+		<ar pt="2610191844" pp="" l="RB50" fb="Bus RB50" wings="8300868167424388986-2610191834" ppth="Gräfendorf|Michelaubrück"/>
+		<dp pt="2610191844" pp="" l="RB50" fb="Bus RB50" wings="8300868167424388986-2610191834" ppth="Diebach|Morlesau"/>
+		<tra t="v" id="-8836310505470282399" ref-to="8300868167424388986-2610191834" s="a" o="p"/>
+	</s>
+	<s id="8300868167424388986-2610191834-3">
+		<tl t="p" o="EB" c="Bus" n="68699"/>
+		<ar pt="2610191844" pp="" l="RB50" fb="Bus RB50" ppth="Gräfendorf|Michelaubrück"/>
+		<dp pt="2610191844" pp="" l="RB50" fb="Bus RB50" ppth="Diebach|Morlesau"/>
+		<tra t="v" id="-8836310505470282399" ref-from="-1126272478293793281-2610191834" s="a" o="p"/>
+	</s>
+</timetable>
