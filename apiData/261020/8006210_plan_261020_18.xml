@@ -1,0 +1,51 @@
+<?xml version="1.0" ?>
+<timetable station="Warngau">
+	<s id="4434687532291124173-2610201726-6">
+		<tl f="D" t="p" o="T8" c="BRB" n="86937"/>
+		<ar pt="2610201807" pp="1" l="RB57" fb="RB57" wings="-1444461942338017030-2610201726" ppth="München Hbf Gl.27-36|München Donnersbergerbrücke|München Harras|München Siemenswerke|Holzkirchen"/>
+		<dp pt="2610201807" pp="1" l="RB57" fb="RB57" wings="-1444461942338017030-2610201726" ppth="Schaftlach|Moosrain|Finsterwald|Gmund(Tegernsee)|Tegernsee"/>
+		<tra t="v" id="8252717815053947106" ref-to="-1444461942338017030-2610201726" s="a" o="p"/>
+	</s>
+	<s id="-1444461942338017030-2610201726-6">
+		<tl f="D" t="p" o="T8" c="BRB" n="86837"/>
+		<ar pt="2610201807" pp="1" l="RB56" fb="RB56" ppth="München Hbf Gl.27-36|München Donnersbergerbrücke|München Harras|München Siemenswerke|Holzkirchen"/>
+		<dp pt="2610201807" pp="1" l="RB56" fb="RB56" ppth="Schaftlach|Reichersbeuern|Bad Tölz|Gaißach|Obergries|Lenggries"/>
+		<tra t="v" id="8252717815053947106" ref-from="4434687532291124173-2610201726" s="a" o="p"/>
+	</s>
+	<s id="1010884779997451321-2610201747-7">
+		<tl f="D" t="p" o="T8" c="BRB" n="86842"/>
+		<ar pt="2610201821" pp="1" l="RB56" fb="RB56" ppth="Lenggries|Obergries|Gaißach|Bad Tölz|Reichersbeuern|Schaftlach"/>
+		<dp pt="2610201821" pp="1" l="RB56" fb="RB56" ppth="Holzkirchen|München Siemenswerke|München Harras|München Donnersbergerbrücke|München Hbf Gl.27-36"/>
+		<tra t="v" id="-5689558972987516505" ref-from="546530238414993858-2610201752" s="a" o="p"/>
+	</s>
+	<s id="546530238414993858-2610201752-6">
+		<tl f="D" t="p" o="T8" c="BRB" n="86942"/>
+		<ar pt="2610201821" pp="1" l="RB57" fb="RB57" wings="1010884779997451321-2610201747" ppth="Tegernsee|Gmund(Tegernsee)|Finsterwald|Moosrain|Schaftlach"/>
+		<dp pt="2610201821" pp="1" l="RB57" fb="RB57" wings="1010884779997451321-2610201747" ppth="Holzkirchen|München Siemenswerke|München Harras|München Donnersbergerbrücke|München Hbf Gl.27-36"/>
+		<tra t="v" id="-5689558972987516505" ref-to="1010884779997451321-2610201747" s="a" o="p"/>
+	</s>
+	<s id="4464719276238375347-2610201803-6">
+		<tl f="D" t="p" o="T8" c="BRB" n="86939"/>
+		<ar pt="2610201840" pp="1" l="RB57" fb="RB57" ppth="München Hbf Gl.27-36|München Donnersbergerbrücke|München Harras|München Siemenswerke|Holzkirchen"/>
+		<dp pt="2610201840" pp="1" l="RB57" fb="RB57" ppth="Schaftlach|Moosrain|Finsterwald|Gmund(Tegernsee)|Tegernsee"/>
+		<tra t="v" id="-5348447928114357388" ref-from="3675631295962583537-2610201803" s="a" o="p"/>
+	</s>
+	<s id="3675631295962583537-2610201803-6">
+		<tl f="D" t="p" o="T8" c="BRB" n="86839"/>
+		<ar pt="2610201840" pp="1" l="RB56" fb="RB56" wings="4464719276238375347-2610201803" ppth="München Hbf Gl.27-36|München Donnersbergerbrücke|München Harras|München Siemenswerke|Holzkirchen"/>
+		<dp pt="2610201840" pp="1" l="RB56" fb="RB56" wings="4464719276238375347-2610201803" ppth="Schaftlach|Reichersbeuern|Bad Tölz|Gaißach|Obergries|Lenggries"/>
+		<tra t="v" id="-5348447928114357388" ref-to="4464719276238375347-2610201803" s="a" o="p"/>
+	</s>
+	<s id="-6347855118335515021-2610201817-7">
+		<tl f="D" t="p" o="T8" c="BRB" n="86854"/>
+		<ar pt="2610201854" pp="1" l="RB56" fb="RB56" wings="-1674058483225823336-2610201822" ppth="Lenggries|Obergries|Gaißach|Bad Tölz|Reichersbeuern|Schaftlach"/>
+		<dp pt="2610201854" pp="1" l="RB56" fb="RB56" wings="-1674058483225823336-2610201822" ppth="Holzkirchen|München Siemenswerke|München Harras|München Donnersbergerbrücke|München Hbf Gl.27-36"/>
+		<tra t="v" id="1533415957999549791" ref-to="-1674058483225823336-2610201822" s="a" o="p"/>
+	</s>
+	<s id="-1674058483225823336-2610201822-6">
+		<tl f="D" t="p" o="T8" c="BRB" n="86954"/>
+		<ar pt="2610201854" pp="1" l="RB57" fb="RB57" ppth="Tegernsee|Gmund(Tegernsee)|Finsterwald|Moosrain|Schaftlach"/>
+		<dp pt="2610201854" pp="1" l="RB57" fb="RB57" ppth="Holzkirchen|München Siemenswerke|München Harras|München Donnersbergerbrücke|München Hbf Gl.27-36"/>
+		<tra t="v" id="1533415957999549791" ref-from="-6347855118335515021-2610201817" s="a" o="p"/>
+	</s>
+</timetable>
