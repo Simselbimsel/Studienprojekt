@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<timetable station="Mannheim Hbf">
+	<s id="-5851721557238592488-2610192015-9">
+		<tl t="p" o="84" c="NJ" n="403"/>
+		<ar pt="2610200329" pp="3" fb="NJ 403" hi="1" wings="7582314568044505717-2610192015" ppth="Amsterdam Centraal|Utrecht Centraal|Eindhoven Centraal|Bonn Hbf|Koblenz Hbf|Mainz Hbf|Frankfurt(M) Flughafen Fernbf|Frankfurt(Main)Hbf"/>
+		<dp pt="2610200331" pp="3" fb="NJ 403" hi="1" wings="7582314568044505717-2610192015" ppth="Karlsruhe Hbf|Baden-Baden|Offenburg|Freiburg(Breisgau) Hbf|Basel Bad Bf|Basel SBB|Zürich HB"/>
+		<tra t="v" id="-5769237788854115064" ref-to="7582314568044505717-2610192015" s="a" o="p"/>
+	</s>
+	<s id="7582314568044505717-2610192015-9">
+		<tl f="F" t="p" o="NZ" c="IC" n="60403"/>
+		<ar pt="2610200329" pp="3" fb="IC 60403" ppth="Amsterdam Centraal|Utrecht Centraal|Eindhoven Centraal|Bonn Hbf|Koblenz Hbf|Mainz Hbf|Frankfurt(M) Flughafen Fernbf|Frankfurt(Main)Hbf"/>
+		<dp pt="2610200331" pp="3" fb="IC 60403" ppth="Karlsruhe Hbf|Baden-Baden|Offenburg|Freiburg(Breisgau) Hbf|Basel Bad Bf|Basel SBB|Zürich HB"/>
+		<tra t="v" id="-5769237788854115064" ref-from="-5851721557238592488-2610192015" s="a" o="p"/>
+	</s>
+	<s id="-7363861252398759561-2610192118-11">
+		<tl f="F" t="p" o="80" c="ICE" n="699"/>
+		<ar pt="2610200322" pp="3" fb="ICE 699" ppth="Berlin Gesundbrunnen|Berlin Hbf|Berlin Südkreuz|Lutherstadt Wittenberg Hbf|Bitterfeld|Leipzig Hbf|Erfurt Hbf|Eisenach Hbf|Frankfurt(Main)Hbf|Frankfurt(M) Flughafen Fernbf"/>
+		<dp pt="2610200325" pp="3" fb="ICE 699" ppth="Heidelberg Hbf|Stuttgart Hbf|Ulm Hbf|Günzburg|Augsburg Hbf|München-Pasing|München Hbf"/>
+	</s>
+	<s id="-1127985203201793356-2610200222-3">
+		<tl f="F" t="p" o="80" c="ICE" n="618"/>
+		<ar pt="2610200355" pp="2" fb="ICE 618" ppth="Stuttgart Hbf|Heidelberg Hbf"/>
+		<dp pt="2610200401" pp="2" fb="ICE 618" ppth="Frankfurt(Main)Hbf|Frankfurt(M) Flughafen Fernbf|Siegburg/Bonn|Köln Hbf|Wuppertal Hbf|Hagen Hbf|Dortmund Hbf|Münster(Westf)Hbf|Osnabrück Hbf|Bremen Hbf|Hamburg-Harburg|Hamburg Hbf|Hamburg Dammtor|Hamburg-Altona"/>
+	</s>
+</timetable>

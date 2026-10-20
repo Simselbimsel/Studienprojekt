@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<timetable station="Hersbruck(r Pegnitz)">
+	<s id="-3351139922928316014-2610200401-8">
+		<tl f="N" t="p" o="800759" c="RE" n="3450"/>
+		<ar pt="2610200458" pp="3" l="RE41" fb="RE41" wings="4948678071878349921-2610200405" ppth="Weiden(Oberpf)|Weiherhammer|Freihung|Vilseck|Neukirchen(b Sulzb)|Etzelwang|Hartmannshof"/>
+		<dp pt="2610200459" pp="3" l="RE41" fb="RE41" wings="4948678071878349921-2610200405" ppth="Nürnberg Hbf"/>
+		<tra t="v" id="-2955179833987469301" ref-to="4948678071878349921-2610200405" s="a" o="p"/>
+	</s>
+	<s id="4948678071878349921-2610200405-7">
+		<tl f="N" t="p" o="800759" c="RE" n="3550"/>
+		<ar pt="2610200458" pp="3" l="RE40" fb="RE40" ppth="Schwandorf|Amberg|Sulzbach-Rosenberg|Neukirchen(b Sulzb)|Etzelwang|Hartmannshof"/>
+		<dp pt="2610200459" pp="3" l="RE40" fb="RE40" ppth="Nürnberg Hbf"/>
+		<tra t="v" id="-2955179833987469301" ref-from="-3351139922928316014-2610200401" s="a" o="p"/>
+	</s>
+	<s id="-8207199120288433608-2610200419-6">
+		<tl f="N" t="p" o="800720" c="RB" n="58502"/>
+		<ar pt="2610200439" pp="3" l="RB30" fb="RB30" ppth="Neuhaus(Pegnitz)|Velden(b Hersbruck)|Rupprechtstegen|Vorra(Pegnitz)|Hohenstadt(Mittelfr)"/>
+		<dp pt="2610200440" pp="3" l="RB30" fb="RB30" ppth="Reichenschwand|Neunkirchen a Sand|Lauf(rechts Pegnitz)|Ludwigshöhe|Rückersdorf(Mfr)|Behringersdorf|Nürnberg-Erlenstegen|Nürnberg Ost|Nürnberg Hbf"/>
+	</s>
+	<s id="-6700901121762185718-2610200426-2">
+		<tl f="N" t="p" o="800759" c="RE" n="3551"/>
+		<ar pt="2610200441" pp="2" l="RE40" fb="RE40" wings="2440765369392935665-2610200426" ppth="Nürnberg Hbf"/>
+		<dp pt="2610200442" pp="2" l="RE40" fb="RE40" wings="2440765369392935665-2610200426" ppth="Neukirchen(b Sulzb)|Sulzbach-Rosenberg|Amberg|Schwandorf"/>
+		<tra t="v" id="-533940686473524603" ref-to="2440765369392935665-2610200426" s="a" o="p"/>
+	</s>
+	<s id="2440765369392935665-2610200426-2">
+		<tl f="N" t="p" o="800759" c="RE" n="3451"/>
+		<ar pt="2610200441" pp="2" l="RE41" fb="RE41" ppth="Nürnberg Hbf"/>
+		<dp pt="2610200442" pp="2" l="RE41" fb="RE41" ppth="Neukirchen(b Sulzb)|Vilseck|Freihung|Röthenbach(Oberpf)|Weiherhammer|Weiden(Oberpf)|Altenstadt(Waldnaab)|Neustadt(Waldnaab)"/>
+		<tra t="v" id="-533940686473524603" ref-from="-6700901121762185718-2610200426" s="a" o="p"/>
+	</s>
+</timetable>

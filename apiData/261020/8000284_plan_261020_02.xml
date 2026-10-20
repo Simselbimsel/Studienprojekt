@@ -1,0 +1,51 @@
+<?xml version="1.0" ?>
+<timetable station="Nürnberg Hbf">
+	<s id="-3823254010841261196-2610191801-5">
+		<tl t="p" o="84" c="NJ" n="421"/>
+		<ar pt="2610200256" pp="8" fb="NJ 421" ppth="Amsterdam Centraal|Utrecht Centraal|Arnhem Centraal|Würzburg Hbf"/>
+		<dp pt="2610200423" pp="9" fb="NJ 421" ppth="Ingolstadt Hbf|München Hbf|Rosenheim|Kufstein|Wörgl Hbf|Jenbach|Innsbruck Hbf"/>
+		<tra t="v" id="6421298789993778231" ref-from="-4272298498907669914-2610191801" s="a" o="p" jt="s"/>
+	</s>
+	<s id="-4272298498907669914-2610191801-5">
+		<tl t="p" o="81" c="NJ" n="40421"/>
+		<ar pt="2610200256" pp="8" fb="NJ 40421" wings="-3823254010841261196-2610191801" ppth="Amsterdam Centraal|Utrecht Centraal|Arnhem Centraal|Würzburg Hbf"/>
+		<dp pt="2610200321" pp="8" fb="NJ 40421" ppth="München Ost|Salzburg Hbf|Linz/Donau Hbf|St.Pölten Hbf|Wien Meidling|Wien Hbf"/>
+		<tra t="v" id="6421298789993778231" ref-to="-3823254010841261196-2610191801" s="a" o="p" jt="s"/>
+	</s>
+	<s id="-7058442198521206872-2610191836-7">
+		<tl t="p" o="81" c="NJ" n="492"/>
+		<ar pt="2610200136" pp="5" fb="NJ 492" wings="-6813803786124510421-2610191836" ppth="Wien Hbf|Wien Meidling|St.Pölten Hbf|Linz/Donau Hbf|Salzburg Hbf|München Ost"/>
+		<dp pt="2610200222" pp="4" fb="NJ 492" ppth="Würzburg Hbf|Kassel-Wilhelmshöhe|Göttingen|Hannover Hbf|Hamburg-Harburg|Hamburg Hbf|Hamburg Dammtor|Hamburg-Altona"/>
+		<tra t="v" id="-6057640448168731341" ref-to="-6813803786124510421-2610191836" s="a" o="p" jt="s"/>
+	</s>
+	<s id="-6813803786124510421-2610191836-7">
+		<tl t="p" o="81" c="NJ" n="40490"/>
+		<ar pt="2610200136" pp="5" fb="NJ 40490" ppth="Wien Hbf|Wien Meidling|St.Pölten Hbf|Linz/Donau Hbf|Salzburg Hbf|München Ost"/>
+		<dp pt="2610200217" pp="5" fb="NJ 40490" ppth="Würzburg Hbf|Kassel-Wilhelmshöhe|Dortmund Hbf|Gelsenkirchen Hbf|Arnhem Centraal|Utrecht Centraal|Amsterdam Centraal"/>
+		<tra t="v" id="-6057640448168731341" ref-from="-7058442198521206872-2610191836" s="a" o="p" jt="s"/>
+	</s>
+	<s id="6992012378128167215-2610191955-9">
+		<tl t="p" o="81" c="NJ" n="40491"/>
+		<ar pt="2610200240" pp="9" fb="NJ 40491" wings="-8018116824080471880-2610191955" ppth="Hamburg-Altona|Hamburg Dammtor|Hamburg Hbf|Hamburg-Harburg|Hannover Hbf|Göttingen|Kassel-Wilhelmshöhe|Würzburg Hbf"/>
+		<dp pt="2610200423" pp="9" fb="NJ 40491" ppth="Ingolstadt Hbf|München Hbf|Rosenheim|Kufstein|Wörgl Hbf|Jenbach|Innsbruck Hbf"/>
+		<tra t="v" id="-7314014890719738130" ref-to="-8018116824080471880-2610191955" s="a" o="p" jt="s"/>
+	</s>
+	<s id="-8018116824080471880-2610191955-9">
+		<tl t="p" o="81" c="NJ" n="493"/>
+		<ar pt="2610200240" pp="9" fb="NJ 493" ppth="Hamburg-Altona|Hamburg Dammtor|Hamburg Hbf|Hamburg-Harburg|Hannover Hbf|Göttingen|Kassel-Wilhelmshöhe|Würzburg Hbf"/>
+		<dp pt="2610200321" pp="8" fb="NJ 493" ppth="München Ost|Salzburg Hbf|Linz/Donau Hbf|St.Pölten Hbf|Wien Meidling|Wien Hbf"/>
+		<tra t="v" id="-7314014890719738130" ref-from="6992012378128167215-2610191955" s="a" o="p" jt="s"/>
+	</s>
+	<s id="-8677182982400525824-2610192046-8">
+		<tl t="p" o="81" c="NJ" n="40420"/>
+		<ar pt="2610200118" pp="4" fb="NJ 40420" wings="3272146161175325165-2610192046" ppth="Innsbruck Hbf|Jenbach|Wörgl Hbf|Kufstein|Rosenheim|München Hbf|Ingolstadt Hbf"/>
+		<dp pt="2610200222" pp="4" fb="NJ 40420" ppth="Würzburg Hbf|Kassel-Wilhelmshöhe|Göttingen|Hannover Hbf|Hamburg-Harburg|Hamburg Hbf|Hamburg Dammtor|Hamburg-Altona"/>
+		<tra t="v" id="-8462049224532512679" ref-to="3272146161175325165-2610192046" s="a" o="p" jt="s"/>
+	</s>
+	<s id="3272146161175325165-2610192046-8">
+		<tl t="p" o="81" c="NJ" n="420"/>
+		<ar pt="2610200118" pp="4" fb="NJ 420" ppth="Innsbruck Hbf|Jenbach|Wörgl Hbf|Kufstein|Rosenheim|München Hbf|Ingolstadt Hbf"/>
+		<dp pt="2610200217" pp="5" fb="NJ 420" ppth="Würzburg Hbf|Kassel-Wilhelmshöhe|Dortmund Hbf|Gelsenkirchen Hbf|Arnhem Centraal|Utrecht Centraal|Amsterdam Centraal"/>
+		<tra t="v" id="-8462049224532512679" ref-from="-8677182982400525824-2610192046" s="a" o="p" jt="s"/>
+	</s>
+</timetable>
