@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<timetable station="Poppenhausen">
+	<s id="-794336387285307477-2610201506-4">
+		<tl f="D" t="p" o="EB" c="EB" n="80688"/>
+		<ar pt="2610201524" pp="1" l="RB50" fb="RB50" ppth="Schweinfurt Stadt|Schweinfurt Mitte|Schweinfurt Hbf"/>
+		<dp pt="2610201525" pp="1" l="RB50" fb="RB50" ppth="Ebenhausen(Unterfr)|Oerlenbach|Bad Kissingen"/>
+		<tra t="v" id="-1011946338885229190" ref-from="-4943773939934460245-2610201506" s="a" o="p"/>
+	</s>
+	<s id="-4943773939934460245-2610201506-4">
+		<tl f="D" t="p" o="EB" c="EB" n="80748"/>
+		<ar pt="2610201524" pp="1" l="RB40" fb="RB40" wings="-794336387285307477-2610201506" ppth="Schweinfurt Stadt|Schweinfurt Mitte|Schweinfurt Hbf"/>
+		<dp pt="2610201525" pp="1" l="RB40" fb="RB40" wings="-794336387285307477-2610201506" ppth="Ebenhausen(Unterfr)|Rottershausen|Münnerstadt|Burglauer|Bad Neustadt(Saale)|Mellrichstadt Bf|Rentwertshausen|Bibra|Wölfershausen|Grimmenthal|Untermaßfeld|Meiningen"/>
+		<tra t="v" id="-1011946338885229190" ref-to="-794336387285307477-2610201506" s="a" o="p"/>
+	</s>
+	<s id="3002281296062331533-2610201518-4">
+		<tl f="D" t="p" o="EB" c="EB" n="80691"/>
+		<ar pt="2610201533" pp="1" l="RB50" fb="RB50" ppth="Bad Kissingen|Oerlenbach|Ebenhausen(Unterfr)"/>
+		<dp pt="2610201534" pp="1" l="RB50" fb="RB50" ppth="Oberwerrn|Schweinfurt Hbf|Schweinfurt Mitte|Schweinfurt Stadt"/>
+	</s>
+	<s id="8154628200995523432-2610201543-3">
+		<tl f="D" t="p" o="EB" c="EB" n="80720"/>
+		<ar pt="2610201551" pp="1" l="RB50" fb="RB50" wings="-7745679464259084100-2610201543" ppth="Schweinfurt Hbf|Oberwerrn"/>
+		<dp pt="2610201552" pp="1" l="RB50" fb="RB50" wings="-7745679464259084100-2610201543" ppth="Ebenhausen(Unterfr)|Oerlenbach|Bad Kissingen"/>
+		<tra t="v" id="-2948947870500909468" ref-to="-7745679464259084100-2610201543" s="a" o="p"/>
+	</s>
+	<s id="-7745679464259084100-2610201543-3">
+		<tl f="D" t="p" o="EB" c="EB" n="80750"/>
+		<ar pt="2610201551" pp="1" l="RB40" fb="RB40" ppth="Schweinfurt Hbf|Oberwerrn"/>
+		<dp pt="2610201552" pp="1" l="RB40" fb="RB40" ppth="Ebenhausen(Unterfr)|Rottershausen|Münnerstadt|Burglauer|Bad Neustadt(Saale)|Mellrichstadt Bf"/>
+		<tra t="v" id="-2948947870500909468" ref-from="8154628200995523432-2610201543" s="a" o="p"/>
+	</s>
+</timetable>
