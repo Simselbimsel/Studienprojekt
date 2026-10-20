@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<timetable station="Augsburg Haunstetterstraße">
+	<s id="8043951824674326341-2610202119-19">
+		<tl t="p" o="GYRE" c="ARV" n="57087"/>
+		<ar pt="2610202253" pp="3" l="RE9" fb="RE9" ppth="Ulm Hbf|Neu-Ulm|Nersingen|Leipheim|Günzburg|Offingen|Mindelaltheim|Burgau(Schwab)|Jettingen|Freihalden|Dinkelscherben|Kutzenhausen|Gessertshausen|Diedorf(Schwab)|Westheim(Schwab)|Neusäß|Augsburg-Oberhausen|Augsburg Hbf"/>
+		<dp pt="2610202254" pp="3" l="RE9" fb="RE9" ppth="Augsburg-Hochzoll|Kissing|Mering-St Afra|Mering|Althegnenberg|Haspelmoor|Mammendorf|München-Pasing|München Hbf"/>
+	</s>
+	<s id="788266621842607227-2610202159-10">
+		<tl t="p" o="GYRE" c="ARV" n="57186"/>
+		<ar pt="2610202243" pp="3" l="RE89" fb="RE89" ppth="München Hbf|München-Pasing|Mammendorf|Haspelmoor|Althegnenberg|Mering|Mering-St Afra|Kissing|Augsburg-Hochzoll"/>
+		<dp pt="2610202243" pp="3" l="RE89" fb="RE89" ppth="Augsburg Hbf|Augsburg-Oberhausen|Gersthofen|Gablingen|Langweid(Lech)|Herbertshofen|Meitingen|Westendorf|Nordendorf|Mertingen Bahnhof|Bäumenheim|Donauwörth|Wörnitzstein|Ebermergen|Harburg(Schwab)|Hoppingen|Möttingen|Nördlingen"/>
+		<tra t="v" id="-3843089469138676347" ref-from="-3018449201494449509-2610202159" s="a" o="p"/>
+	</s>
+	<s id="-3018449201494449509-2610202159-10">
+		<tl t="p" o="GYRE" c="ARV" n="57086"/>
+		<ar pt="2610202243" pp="3" l="RE9" fb="RE9" wings="788266621842607227-2610202159" ppth="München Hbf|München-Pasing|Mammendorf|Haspelmoor|Althegnenberg|Mering|Mering-St Afra|Kissing|Augsburg-Hochzoll"/>
+		<dp pt="2610202243" pp="3" l="RE9" fb="RE9" wings="788266621842607227-2610202159" ppth="Augsburg Hbf|Augsburg-Oberhausen|Neusäß|Westheim(Schwab)|Diedorf(Schwab)|Gessertshausen|Kutzenhausen|Dinkelscherben|Freihalden|Jettingen|Burgau(Schwab)|Mindelaltheim|Offingen|Günzburg|Leipheim|Nersingen|Neu-Ulm|Ulm Hbf"/>
+		<tra t="v" id="-3843089469138676347" ref-to="788266621842607227-2610202159" s="a" o="p"/>
+	</s>
+	<s id="4939660950330202211-2610202202-2">
+		<tl f="D" t="p" o="Y8" c="BRB" n="63647"/>
+		<ar pt="2610202205" pp="1" l="RB13" fb="RB13" ppth="Augsburg-Hochzoll"/>
+		<dp pt="2610202206" pp="1" l="RB13" fb="RB13" ppth="Augsburg Hbf"/>
+	</s>
+	<s id="-1803373721542137519-2610202246-2">
+		<tl f="D" t="p" o="Y8" c="BRB" n="63644"/>
+		<ar pt="2610202248" pp="2" l="RB13" fb="RB13" ppth="Augsburg Hbf"/>
+		<dp pt="2610202248" pp="2" l="RB13" fb="RB13" ppth="Augsburg-Hochzoll"/>
+	</s>
+</timetable>
