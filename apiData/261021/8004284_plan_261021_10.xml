@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<timetable station="Neuhaus(Pegnitz)">
+	<s id="-5752992752180127250-2610210937-2">
+		<tl f="N" t="p" o="800759" c="RE" n="3825"/>
+		<ar pt="2610211005" pp="2" l="RE31" fb="RE31" ppth="Nürnberg Hbf"/>
+		<dp pt="2610211006" pp="2" l="RE31" fb="RE31" ppth="Pegnitz|Kirchenlaibach"/>
+		<tra t="v" id="-7023495154383703642" ref-from="-6575752512886608518-2610210937" s="a" o="p"/>
+	</s>
+	<s id="-6575752512886608518-2610210937-2">
+		<tl f="N" t="p" o="800759" c="RE" n="3025"/>
+		<ar pt="2610211005" pp="2" l="RE30" fb="RE30" wings="-5752992752180127250-2610210937" ppth="Nürnberg Hbf"/>
+		<dp pt="2610211006" pp="2" l="RE30" fb="RE30" wings="-5752992752180127250-2610210937" ppth="Pegnitz|Bayreuth Hbf|Trebgast|Münchberg|Hof Hbf"/>
+		<tra t="v" id="-7023495154383703642" ref-to="-5752992752180127250-2610210937" s="a" o="p"/>
+	</s>
+	<s id="8578662917130227665-2610211001-1">
+		<tl f="N" t="p" o="800720" c="RB" n="58522"/>
+		<dp pt="2610211001" pp="9" l="RB30" fb="RB30" ppth="Velden(b Hersbruck)|Rupprechtstegen|Vorra(Pegnitz)|Hohenstadt(Mittelfr)|Hersbruck(r Pegnitz)|Reichenschwand|Neunkirchen a Sand|Lauf(rechts Pegnitz)|Ludwigshöhe|Rückersdorf(Mfr)|Behringersdorf|Nürnberg-Erlenstegen|Nürnberg Ost|Nürnberg Hbf"/>
+	</s>
+	<s id="1587632171736629626-2610211016-2">
+		<tl f="N" t="p" o="800759" c="RE" n="3082"/>
+		<ar pt="2610211054" pp="1" l="RE30" fb="RE30" wings="3748935647058277983-2610211025" pde="Bayreuth Hbf" ppth="Pegnitz"/>
+		<dp pt="2610211055" pp="1" l="RE30" fb="RE30" wings="3748935647058277983-2610211025" ppth="Nürnberg Hbf"/>
+		<tra t="v" id="1894070504186465022" ref-to="3748935647058277983-2610211025" s="a" o="p"/>
+	</s>
+	<s id="3748935647058277983-2610211025-3">
+		<tl f="N" t="p" o="800759" c="RE" n="99002"/>
+		<ar pt="2610211054" pp="1" l="RE33" fb="RE33" ppth="Kirchenlaibach|Pegnitz"/>
+		<dp pt="2610211055" pp="1" l="RE33" fb="RE33" ppth="Nürnberg Hbf"/>
+		<tra t="v" id="1894070504186465022" ref-from="1587632171736629626-2610211016" s="a" o="p"/>
+	</s>
+	<s id="1587632171736629626-2610211016-2">
+		<tl f="N" t="p" o="800759" c="RE" n="3082"/>
+		<ar pt="2610211054" pp="1" l="RE30" fb="RE30" wings="3748935647058277983-2610211025" pde="Bayreuth Hbf" ppth="Pegnitz"/>
+		<dp pt="2610211055" pp="1" l="RE30" fb="RE30" wings="3748935647058277983-2610211025" ppth="Nürnberg Hbf"/>
+		<tra t="v" id="1894070504186465022" ref-to="3748935647058277983-2610211025" s="a" o="p"/>
+	</s>
+</timetable>

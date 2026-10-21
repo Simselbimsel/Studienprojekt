@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<timetable station="Lauf(rechts Pegnitz)">
+	<s id="5540693266403910512-2610211301-9">
+		<tl f="N" t="p" o="800720" c="RB" n="58528"/>
+		<ar pt="2610211331" pp="2" l="RB30" fb="RB30" ppth="Neuhaus(Pegnitz)|Velden(b Hersbruck)|Rupprechtstegen|Vorra(Pegnitz)|Hohenstadt(Mittelfr)|Hersbruck(r Pegnitz)|Reichenschwand|Neunkirchen a Sand"/>
+		<dp pt="2610211332" pp="2" l="RB30" fb="RB30" ppth="Ludwigshöhe|Rückersdorf(Mfr)|Behringersdorf|Nürnberg-Erlenstegen|Nürnberg Ost|Nürnberg Hbf"/>
+	</s>
+	<s id="-7405547874540204473-2610211305-7">
+		<tl f="N" t="p" o="800720" c="RB" n="58608"/>
+		<ar pt="2610211326" pp="2" l="RB31" fb="RB31" ppth="Simmelsdorf-Hüttenbach|Hedersdorf|Schnaittach Markt|Rollhofen|Speikern|Neunkirchen a Sand"/>
+		<dp pt="2610211328" pp="2" l="RB31" fb="RB31" ppth="Nürnberg Ost|Nürnberg Hbf"/>
+	</s>
+	<s id="-5380614409197644111-2610211308-7">
+		<tl f="N" t="p" o="800720" c="RB" n="58529"/>
+		<ar pt="2610211328" pp="1" l="RB30" fb="RB30" ppth="Nürnberg Hbf|Nürnberg Ost|Nürnberg-Erlenstegen|Behringersdorf|Rückersdorf(Mfr)|Ludwigshöhe"/>
+		<dp pt="2610211328" pp="1" l="RB30" fb="RB30" ppth="Neunkirchen a Sand|Reichenschwand|Hersbruck(r Pegnitz)|Hohenstadt(Mittelfr)|Vorra(Pegnitz)|Rupprechtstegen|Velden(b Hersbruck)|Neuhaus(Pegnitz)"/>
+	</s>
+	<s id="-3898464278695931992-2610211320-7">
+		<tl f="N" t="p" o="800720" c="RB" n="58531"/>
+		<ar pt="2610211342" pp="1" l="RB30" fb="RB30" wings="-4665086568779259411-2610211320" ppth="Nürnberg Hbf|Nürnberg Ost|Nürnberg-Erlenstegen|Behringersdorf|Rückersdorf(Mfr)|Ludwigshöhe"/>
+		<dp pt="2610211343" pp="1" l="RB30" fb="RB30" wings="-4665086568779259411-2610211320" ppth="Neunkirchen a Sand|Reichenschwand|Hersbruck(r Pegnitz)"/>
+		<tra t="v" id="-2655954896505088063" ref-to="-4665086568779259411-2610211320" s="a" o="p"/>
+	</s>
+	<s id="-4665086568779259411-2610211320-7">
+		<tl f="N" t="p" o="800720" c="RB" n="58609"/>
+		<ar pt="2610211342" pp="1" l="RB31" fb="RB31" ppth="Nürnberg Hbf|Nürnberg Ost|Nürnberg-Erlenstegen|Behringersdorf|Rückersdorf(Mfr)|Ludwigshöhe"/>
+		<dp pt="2610211343" pp="1" l="RB31" fb="RB31" ppth="Neunkirchen a Sand|Speikern|Rollhofen|Schnaittach Markt|Hedersdorf|Simmelsdorf-Hüttenbach"/>
+		<tra t="v" id="-2655954896505088063" ref-from="-3898464278695931992-2610211320" s="a" o="p"/>
+	</s>
+</timetable>
