@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+<timetable station="Neumünster">
+	<s id="8560708629534520770-2610212032-19">
+		<tl f="D" t="p" o="O0" c="NBE" n="83817"/>
+		<ar pt="2610212225" pp="6" l="RB63" fb="RB63" ppth="Büsum|Reinsbüttel|Süderdeich|Wesselburen|Jarrenwisch|Tiebensee|Heide(Holst)|Nordhastedt|Albersdorf|Beldorf|Hademarschen|Gokels|Beringstedt|Osterstedt|Hohenwestedt|Aukrug|Wasbek|Neumünster Stadtwald"/>
+	</s>
+	<s id="-7284620432797668730-2610212108-6">
+		<tl f="N" t="p" o="800201" c="RE" n="11234"/>
+		<ar pt="2610212202" pp="3" l="RE70" fb="RE70" ppth="Hamburg Hbf|Hamburg Dammtor|Elmshorn|Wrist|Brokstedt"/>
+		<dp pt="2610212203" pp="3" l="RE70" fb="RE70" ppth="Bordesholm|Kiel Hbf"/>
+	</s>
+	<s id="442161405481707538-2610212117-8">
+		<tl f="N" t="p" o="800201" c="RE" n="11189"/>
+		<ar pt="2610212224" pp="5" l="RE7" fb="RE7" ppth="Flensburg|Tarp|Jübek|Schleswig|Owschlag|Rendsburg|Nortorf"/>
+		<dp pt="2610212233" pp="5" l="RE7" fb="RE7" ppth="Brokstedt|Wrist"/>
+	</s>
+	<s id="-4257318827803463709-2610212123-18">
+		<tl f="D" t="p" o="A0" c="AKN" n="82467"/>
+		<ar pt="2610212223" pp="1" l="A2" fb="A2" ppth="Quickborner Straße|Haslohfurth|Meeschensee|Ulzburg Süd|Henstedt-Ulzburg|Kaltenkirchen Süd|Kaltenkirchen(Holst)|Holstentherme|Dodenhof|Nützen|Lentföhrden|Bad Bramstedt Kurhaus|Bad Bramstedt|Wiemersdorf|Großenaspe|Boostedt|Neumünster Süd AKN"/>
+	</s>
+	<s id="149151211801014556-2610212139-5">
+		<tl f="N" t="p" o="800201" c="RE" n="11284"/>
+		<ar pt="2610212226" pp="3" l="RE7" fb="RE7" wings="-7660996614876419019-2610212139" ppth="Hamburg Hbf|Hamburg Dammtor|Pinneberg|Elmshorn"/>
+		<dp pt="2610212228" pp="3" l="RE7" fb="RE7" ppth="Einfeld|Bordesholm|Flintbek|Kiel Hbf"/>
+		<tra t="v" id="7501609407376868916" ref-to="-7660996614876419019-2610212139" s="a" o="p" jt="s"/>
+	</s>
+	<s id="-7660996614876419019-2610212139-5">
+		<tl f="N" t="p" o="800201" c="RE" n="11184"/>
+		<ar pt="2610212226" pp="3" l="RE7" fb="RE7" ppth="Hamburg Hbf|Hamburg Dammtor|Pinneberg|Elmshorn"/>
+		<dp pt="2610212230" pp="3" l="RE7" fb="RE7" ppth="Nortorf|Rendsburg|Owschlag|Schleswig|Jübek|Tarp|Flensburg"/>
+		<tra t="v" id="7501609407376868916" ref-from="149151211801014556-2610212139" s="a" o="p" jt="s"/>
+	</s>
+	<s id="573841601175746681-2610212205-5">
+		<tl f="N" t="p" o="800201" c="RE" n="11289"/>
+		<ar pt="2610212227" pp="5" l="RE7" fb="RE7" ppth="Kiel Hbf|Flintbek|Bordesholm|Einfeld"/>
+		<dp pt="2610212233" pp="5" l="RE7" fb="RE7" ppth="Brokstedt|Wrist"/>
+	</s>
+	<s id="-6733957564447943887-2610212233-1">
+		<tl f="D" t="p" o="A0" c="AKN" n="82470"/>
+		<dp pt="2610212233" pp="1" l="A2" fb="A2" ppth="Neumünster Süd AKN|Boostedt|Großenaspe|Wiemersdorf|Bad Bramstedt|Bad Bramstedt Kurhaus|Lentföhrden|Nützen|Dodenhof|Holstentherme|Kaltenkirchen(Holst)|Kaltenkirchen Süd|Henstedt-Ulzburg|Ulzburg Süd|Meeschensee|Haslohfurth|Quickborner Straße"/>
+	</s>
+	<s id="1006066592351903842-2610212235-1">
+		<tl f="D" t="p" o="O0" c="NBE" n="83788"/>
+		<dp pt="2610212235" pp="6" l="RB63" fb="RB63" ppth="Neumünster Stadtwald|Wasbek|Aukrug|Hohenwestedt"/>
+	</s>
+</timetable>
