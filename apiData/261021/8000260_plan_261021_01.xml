@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<timetable station="Würzburg Hbf">
+	<s id="-3823254010841261196-2610201740-8">
+		<tl t="p" o="84" c="NJ" n="421"/>
+		<ar pt="2610210137" pp="4" fb="NJ 421" ppth="Amsterdam Centraal|Utrecht Centraal|Arnhem Centraal|Oberhausen Hbf|Essen Hbf|Dortmund Hbf|Kassel-Wilhelmshöhe"/>
+		<dp pt="2610210139" pp="4" fb="NJ 421" ppth="Nürnberg Hbf|Ingolstadt Hbf|München Hbf|Rosenheim|Kufstein|Wörgl Hbf|Jenbach|Innsbruck Hbf"/>
+		<tra t="v" id="5825888023528283888" ref-from="-4272298498907669914-2610201740" s="a" o="p"/>
+	</s>
+	<s id="-4272298498907669914-2610201740-8">
+		<tl t="p" o="81" c="NJ" n="40421"/>
+		<ar pt="2610210137" pp="4" fb="NJ 40421" wings="-3823254010841261196-2610201740" ppth="Amsterdam Centraal|Utrecht Centraal|Arnhem Centraal|Oberhausen Hbf|Essen Hbf|Dortmund Hbf|Kassel-Wilhelmshöhe"/>
+		<dp pt="2610210139" pp="4" fb="NJ 40421" wings="-3823254010841261196-2610201740" ppth="Nürnberg Hbf|München Ost|Salzburg Hbf|Linz/Donau Hbf|St.Pölten Hbf|Wien Meidling|Wien Hbf"/>
+		<tra t="v" id="5825888023528283888" ref-to="-3823254010841261196-2610201740" s="a" o="p"/>
+	</s>
+	<s id="6992012378128167215-2610201955-8">
+		<tl t="p" o="81" c="NJ" n="40491"/>
+		<ar pt="2610210128" pp="5" fb="NJ 40491" wings="-8018116824080471880-2610201955" ppth="Hamburg-Altona|Hamburg Dammtor|Hamburg Hbf|Hamburg-Harburg|Hannover Hbf|Göttingen|Kassel-Wilhelmshöhe"/>
+		<dp pt="2610210130" pp="5" fb="NJ 40491" wings="-8018116824080471880-2610201955" ppth="Nürnberg Hbf|Ingolstadt Hbf|München Hbf|Rosenheim|Kufstein|Wörgl Hbf|Jenbach|Innsbruck Hbf"/>
+		<tra t="v" id="-4588715077129121085" ref-to="-8018116824080471880-2610201955" s="a" o="p"/>
+	</s>
+	<s id="-8018116824080471880-2610201955-8">
+		<tl t="p" o="81" c="NJ" n="493"/>
+		<ar pt="2610210128" pp="5" fb="NJ 493" ppth="Hamburg-Altona|Hamburg Dammtor|Hamburg Hbf|Hamburg-Harburg|Hannover Hbf|Göttingen|Kassel-Wilhelmshöhe"/>
+		<dp pt="2610210130" pp="5" fb="NJ 493" ppth="Nürnberg Hbf|München Ost|Salzburg Hbf|Linz/Donau Hbf|St.Pölten Hbf|Wien Meidling|Wien Hbf"/>
+		<tra t="v" id="-4588715077129121085" ref-from="6992012378128167215-2610201955" s="a" o="p"/>
+	</s>
+	<s id="8209469800275406026-2610202219-4">
+		<tl f="F" t="p" o="80" c="ICE" n="1080"/>
+		<ar pt="2610210113" pp="6" fb="ICE 1080" ppth="München Hbf|Ingolstadt Hbf|Nürnberg Hbf"/>
+		<dp pt="2610210116" pp="6" fb="ICE 1080" ppth="Göttingen|Hannover Hbf|Celle|Uelzen|Lüneburg|Hamburg-Harburg|Hamburg Hbf"/>
+	</s>
+</timetable>
