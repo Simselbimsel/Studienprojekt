@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<timetable station="Murnau">
+	<s id="4976704969139597363-2610221756-8">
+		<tl f="N" t="p" o="800790" c="RB" n="59459"/>
+		<ar pt="2610221853" pp="2" l="RB6" fb="RB6" ppth="München Hbf Gl.27-36|München-Pasing|Starnberg|Tutzing|Weilheim(Oberbay)|Huglfing|Uffing a Staffelsee"/>
+		<dp pt="2610221909" pp="2" l="RB6" fb="RB6" ppth="Ohlstadt|Eschenlohe|Oberau|Farchant|Garmisch-Partenkirchen"/>
+	</s>
+	<s id="7349366146187259918-2610221806-5">
+		<tl f="N" t="p" o="800790" c="RE" n="5534"/>
+		<ar pt="2610221901" pp="3" l="RB60" fb="RB60" ppth="München Hbf Gl.27-36|München-Pasing|Gauting|Weilheim(Oberbay)"/>
+		<dp pt="2610221902" pp="3" l="RB60" fb="RB60" pde="Ehrwald Zugspitzbahn" ppth="Garmisch-Partenkirchen"/>
+		<tra t="v" id="7223615297193410171" ref-from="-4660456379690395209-2610221806" s="a" o="p"/>
+	</s>
+	<s id="-4660456379690395209-2610221806-5">
+		<tl f="N" t="p" o="800790" c="RE" n="4879"/>
+		<ar pt="2610221901" pp="3" l="RE61" fb="RE61" wings="7349366146187259918-2610221806" ppth="München Hbf Gl.27-36|München-Pasing|Gauting|Weilheim(Oberbay)"/>
+		<dp pt="2610221902" pp="3" l="RE61" fb="RE61" wings="7349366146187259918-2610221806" ppth="Garmisch-Partenkirchen|Klais|Mittenwald"/>
+		<tra t="v" id="7223615297193410171" ref-to="7349366146187259918-2610221806" s="a" o="p"/>
+	</s>
+	<s id="-7814730549342560413-2610221828-8">
+		<tl f="N" t="p" o="800790" c="RB" n="59453"/>
+		<ar pt="2610221927" pp="3" l="RB6" fb="RB6" ppth="München Hbf Gl.27-36|München-Pasing|Gauting|Tutzing|Weilheim(Oberbay)|Huglfing|Uffing a Staffelsee"/>
+		<dp pt="2610221928" pp="3" l="RB6" fb="RB6" ppth="Ohlstadt|Eschenlohe|Oberau|Farchant|Garmisch-Partenkirchen"/>
+	</s>
+	<s id="-8638927600658023801-2610221736-9">
+		<tl f="N" t="p" o="800790" c="RB" n="5529"/>
+		<ar pt="2610221931" pp="1" l="RB60" fb="RB60" pde="Pfronten-Steinach" ppth="Ehrwald Zugspitzbahn|Untergrainau|Garmisch-Partenkirchen Hausberg|Garmisch-Partenkirchen|Farchant|Oberau|Eschenlohe|Ohlstadt"/>
+		<dp pt="2610221932" pp="1" l="RB60" fb="RB60" ppth="Uffing a Staffelsee|Huglfing|Weilheim(Oberbay)|Tutzing|München-Pasing|München Hbf Gl.27-36"/>
+	</s>
+	<s id="-8482174767614200744-2610221836-8">
+		<tl f="N" t="p" o="800790" c="RB" n="5428"/>
+		<ar pt="2610221931" pp="1" l="RB6" fb="RB6" ppth="Mittenwald|Klais|Garmisch-Partenkirchen|Farchant|Oberau|Eschenlohe|Ohlstadt"/>
+		<dp pt="2610221932" pp="1" l="RB6" fb="RB6" ppth="Uffing a Staffelsee|Huglfing|Weilheim(Oberbay)|Tutzing|München-Pasing|München Hbf Gl.27-36"/>
+	</s>
+	<s id="-5976461233453508010-2610221853-9">
+		<tl f="N" t="p" o="800790" c="RB" n="59461"/>
+		<ar pt="2610221953" pp="2" l="RB6" fb="RB6" ppth="München Hbf Gl.27-36|München-Pasing|Gauting|Starnberg|Tutzing|Weilheim(Oberbay)|Huglfing|Uffing a Staffelsee"/>
+	</s>
+</timetable>

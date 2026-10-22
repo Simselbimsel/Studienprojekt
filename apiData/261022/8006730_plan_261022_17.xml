@@ -1,0 +1,67 @@
+<?xml version="1.0" ?>
+<timetable station="Neu-Ulm">
+	<s id="-8410925947695584863-2610221511-21">
+		<tl f="D" t="p" o="A9" c="ag" n="84282"/>
+		<ar pt="2610221712" pp="1" l="RB15" fb="RB15" ppth="Ingolstadt Hbf|Weichering|Rohrenfeld|Neuburg(Donau)|Unterhausen(Bay)|Straß-Moos|Burgheim|Rain|Genderkingen|Donauwörth|Tapfheim|Schwenningen(Bay)|Blindheim|Höchstädt(Donau)|Dillingen(Donau)|Lauingen|Gundelfingen(Bay)|Günzburg|Leipheim|Nersingen"/>
+		<dp pt="2610221712" pp="1" l="RB15" fb="RB15" ppth="Ulm Hbf"/>
+	</s>
+	<s id="1369380156714362325-2610221623-17">
+		<tl t="p" o="GYRE" c="ARV" n="57154"/>
+		<ar pt="2610221736" pp="1" l="RE9" fb="RE9" ppth="Augsburg Hbf|Augsburg-Oberhausen|Neusäß|Westheim(Schwab)|Diedorf(Schwab)|Gessertshausen|Kutzenhausen|Dinkelscherben|Freihalden|Jettingen|Burgau(Schwab)|Mindelaltheim|Offingen|Günzburg|Leipheim|Nersingen"/>
+		<dp pt="2610221737" pp="1" l="RE9" fb="RE9" ppth="Ulm Hbf"/>
+	</s>
+	<s id="7368828201098654698-2610221632-10">
+		<tl f="N" t="p" o="8007DU" c="RB" n="57676"/>
+		<ar pt="2610221731" pp="3" l="RS7" fb="RS7" ppth="Memmingen|Kellmünz|Altenstadt(Iller)|Illertissen|Bellenberg|Vöhringen|Senden|Gerlenhofen|Finningerstraße"/>
+		<dp pt="2610221732" pp="3" l="RS7" fb="RS7" ppth="Ulm Hbf"/>
+	</s>
+	<s id="-6653238911094334521-2610221700-2">
+		<tl f="N" t="p" o="8007DU" c="RB" n="57477"/>
+		<ar pt="2610221702" pp="4" l="RS71" fb="RS71" wings="-385719785452245587-2610221700" ppth="Ulm Hbf"/>
+		<dp pt="2610221703" pp="4" l="RS71" fb="RS71" wings="-385719785452245587-2610221700" ppth="Finningerstraße|Gerlenhofen|Senden|Wullenstetten|Witzighausen|Weißenhorn-Eschach|Weißenhorn"/>
+		<tra t="v" id="-4668563494452845745" ref-to="-385719785452245587-2610221700" s="a" o="p"/>
+	</s>
+	<s id="-385719785452245587-2610221700-2">
+		<tl f="N" t="p" o="8007DU" c="RB" n="57677"/>
+		<ar pt="2610221702" pp="4" l="RS7" fb="RS7" ppth="Ulm Hbf"/>
+		<dp pt="2610221703" pp="4" l="RS7" fb="RS7" ppth="Finningerstraße|Gerlenhofen|Senden|Vöhringen|Illertissen"/>
+		<tra t="v" id="-4668563494452845745" ref-from="-6653238911094334521-2610221700" s="a" o="p"/>
+	</s>
+	<s id="-4244171417851163672-2610221702-5">
+		<tl f="N" t="p" o="8007DU" c="RB" n="57478"/>
+		<ar pt="2610221731" pp="3" l="RS71" fb="RS71" ppth="Weißenhorn|Senden|Gerlenhofen|Finningerstraße"/>
+		<dp pt="2610221732" pp="3" l="RS71" fb="RS71" ppth="Ulm Hbf"/>
+	</s>
+	<s id="-496838609915744541-2610221718-2">
+		<tl t="p" o="GYRE" c="ARV" n="57075"/>
+		<ar pt="2610221721" pp="2" l="RE9" fb="RE9" ppth="Ulm Hbf"/>
+		<dp pt="2610221721" pp="2" l="RE9" fb="RE9" ppth="Nersingen|Leipheim|Günzburg|Offingen|Mindelaltheim|Burgau(Schwab)|Jettingen|Freihalden|Dinkelscherben|Kutzenhausen|Gessertshausen|Diedorf(Schwab)|Westheim(Schwab)|Neusäß|Augsburg-Oberhausen|Augsburg Hbf|Augsburg Haunstetterstraße|Augsburg-Hochzoll|Kissing|Mering-St Afra|Mering|München-Pasing|München Hbf"/>
+	</s>
+	<s id="1290441015130173242-2610221726-2">
+		<tl f="D" t="p" o="A9" c="ag" n="84263"/>
+		<ar pt="2610221729" pp="2" l="RB15" fb="RB15" ppth="Ulm Hbf"/>
+		<dp pt="2610221729" pp="2" l="RB15" fb="RB15" ppth="Nersingen|Leipheim|Günzburg|Gundelfingen(Bay)|Lauingen|Dillingen(Donau)|Höchstädt(Donau)|Blindheim|Schwenningen(Bay)|Donauwörth"/>
+	</s>
+	<s id="6477074124113906689-2610221731-2">
+		<tl f="N" t="p" o="8007DU" c="RB" n="57479"/>
+		<ar pt="2610221733" pp="4" l="RS71" fb="RS71" wings="-541953832783889875-2610221731" ppth="Ulm Hbf"/>
+		<dp pt="2610221734" pp="4" l="RS71" fb="RS71" wings="-541953832783889875-2610221731" ppth="Finningerstraße|Senden|Wullenstetten|Witzighausen|Weißenhorn-Eschach|Weißenhorn"/>
+		<tra t="v" id="4009781147830316729" ref-to="-541953832783889875-2610221731" s="a" o="p"/>
+	</s>
+	<s id="-541953832783889875-2610221731-2">
+		<tl f="N" t="p" o="8007DU" c="RB" n="57785"/>
+		<ar pt="2610221733" pp="4" l="RS7" fb="RS7" ppth="Ulm Hbf"/>
+		<dp pt="2610221734" pp="4" l="RS7" fb="RS7" ppth="Finningerstraße|Senden|Vöhringen|Bellenberg|Illertissen|Altenstadt(Iller)|Kellmünz|Memmingen"/>
+		<tra t="v" id="4009781147830316729" ref-from="6477074124113906689-2610221731" s="a" o="p"/>
+	</s>
+	<s id="-7880928382761053249-2610221734-8">
+		<tl f="N" t="p" o="8007DU" c="RB" n="57480"/>
+		<ar pt="2610221757" pp="3" l="RS71" fb="RS71" ppth="Weißenhorn|Weißenhorn-Eschach|Witzighausen|Wullenstetten|Senden|Gerlenhofen|Finningerstraße"/>
+		<dp pt="2610221757" pp="3" l="RS71" fb="RS71" ppth="Ulm Hbf"/>
+	</s>
+	<s id="-6104127559410937903-2610221747-2">
+		<tl f="D" t="p" o="A9" c="ag" n="84293"/>
+		<ar pt="2610221750" pp="2" l="RB15" fb="RB15" ppth="Ulm Hbf"/>
+		<dp pt="2610221750" pp="2" l="RB15" fb="RB15" ppth="Nersingen|Leipheim|Günzburg|Gundelfingen(Bay)|Lauingen|Dillingen(Donau)|Höchstädt(Donau)|Blindheim|Schwenningen(Bay)|Tapfheim|Donauwörth|Genderkingen|Rain|Burgheim|Straß-Moos|Unterhausen(Bay)|Neuburg(Donau)|Rohrenfeld|Weichering|Ingolstadt Hbf"/>
+	</s>
+</timetable>
