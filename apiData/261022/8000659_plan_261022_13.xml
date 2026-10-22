@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<timetable station="Augsburg Messe">
+	<s id="-7496138102815450433-2610221120-16">
+		<tl f="D" t="p" o="Y8" c="BRB" n="62747"/>
+		<ar pt="2610221303" pp="1" l="RB77" fb="RB77" ppth="Füssen|Weizern-Hopferau|Seeg|Lengenwang|Leuterschach|Marktoberdorf Schule|Marktoberdorf|Marktoberdorf Nord|Ebenhofen|Biessenhofen|Kaufbeuren|Buchloe|Schwabmünchen|Bobingen|Inningen"/>
+		<dp pt="2610221303" pp="1" l="RB77" fb="RB77" ppth="Augsburg Morellstr.|Augsburg Hbf"/>
+	</s>
+	<s id="1005808381730336486-2610221306-8">
+		<tl f="D" t="p" o="Y8" c="BRB" n="62929"/>
+		<ar pt="2610221336" pp="1" l="RB69" fb="RB69" ppth="Kaufering|Klosterlechfeld|Lagerlechfeld|Graben(Lechfeld)Gewerbepark|Oberottmarshausen|Bobingen|Inningen"/>
+		<dp pt="2610221336" pp="1" l="RB69" fb="RB69" ppth="Augsburg Morellstr.|Augsburg Hbf"/>
+	</s>
+	<s id="-2073960107975749261-2610221311-3">
+		<tl f="D" t="p" o="Y8" c="BRB" n="62926"/>
+		<ar pt="2610221319" pp="2" l="RB69" fb="RB69" ppth="Augsburg Hbf|Augsburg Morellstr."/>
+		<dp pt="2610221319" pp="2" l="RB69" fb="RB69" ppth="Inningen|Bobingen|Oberottmarshausen|Graben(Lechfeld)Gewerbepark|Lagerlechfeld|Klosterlechfeld|Kaufering"/>
+	</s>
+	<s id="-2454037141098681617-2610221327-3">
+		<tl f="N" t="p" o="8007D5" c="RE" n="57510"/>
+		<ar pt="2610221332" pp="2" l="RE73" fb="RE73" wings="6228200794411567716-2610221327" ppth="Augsburg Hbf|Augsburg Morellstr."/>
+		<dp pt="2610221333" pp="2" l="RE73" fb="RE73" wings="6228200794411567716-2610221327" ppth="Inningen|Bobingen|Schwabmünchen|Buchloe|Türkheim(Bay)Bf|Bad Wörishofen"/>
+		<tra t="v" id="-3430325869569259627" ref-to="6228200794411567716-2610221327" s="a" o="p"/>
+	</s>
+	<s id="6228200794411567716-2610221327-3">
+		<tl f="N" t="p" o="8007D5" c="RE" n="57530"/>
+		<ar pt="2610221332" pp="2" l="RE71" fb="RE71" ppth="Augsburg Hbf|Augsburg Morellstr."/>
+		<dp pt="2610221333" pp="2" l="RE71" fb="RE71" ppth="Inningen|Bobingen|Schwabmünchen|Buchloe|Türkheim(Bay)Bf|Rammingen(Bay)|Mindelheim|Stetten(Schwab)|Sontheim(Schwab)|Memmingen"/>
+		<tra t="v" id="-3430325869569259627" ref-from="-2454037141098681617-2610221327" s="a" o="p"/>
+	</s>
+	<s id="7898316098469333798-2610221346-3">
+		<tl f="D" t="p" o="Y8" c="BRB" n="62928"/>
+		<ar pt="2610221351" pp="2" l="RB69" fb="RB69" ppth="Augsburg Hbf|Augsburg Morellstr."/>
+		<dp pt="2610221352" pp="2" l="RB69" fb="RB69" ppth="Inningen|Bobingen|Oberottmarshausen|Graben(Lechfeld)Gewerbepark|Lagerlechfeld|Klosterlechfeld|Kaufering"/>
+		<tra t="v" id="7487195607034834245" ref-from="4106166169276713703-2610221346" s="a" o="p"/>
+	</s>
+	<s id="4106166169276713703-2610221346-3">
+		<tl f="D" t="p" o="Y8" c="BRB" n="62742"/>
+		<ar pt="2610221351" pp="2" l="RB77" fb="RB77" wings="7898316098469333798-2610221346" ppth="Augsburg Hbf|Augsburg Morellstr."/>
+		<dp pt="2610221352" pp="2" l="RB77" fb="RB77" wings="7898316098469333798-2610221346" ppth="Inningen|Bobingen|Schwabmünchen|Buchloe|Kaufbeuren|Biessenhofen|Ebenhofen|Marktoberdorf Nord|Marktoberdorf|Marktoberdorf Schule|Leuterschach|Lengenwang|Seeg|Weizern-Hopferau|Füssen"/>
+		<tra t="v" id="7487195607034834245" ref-to="7898316098469333798-2610221346" s="a" o="p"/>
+	</s>
+</timetable>
