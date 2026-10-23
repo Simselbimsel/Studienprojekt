@@ -1,0 +1,73 @@
+<?xml version="1.0" ?>
+<timetable station="München-Moosach">
+	<s id="-3377530909710621567-2610230434-10">
+		<tl f="S" t="p" o="800725" c="S" n="6915"/>
+		<ar pt="2610230503" pp="5" l="S1" fb="S1" ppth="Freising|Pulling(b Freising)|Neufahrn(b Freising)|Eching|Lohhof|Unterschleißheim|Oberschleißheim|München-Feldmoching|München-Fasanerie"/>
+		<dp pt="2610230504" pp="5" l="S1" fb="S1" ppth="München-Laim|München Hirschgarten|München Donnersbergerbrücke|München Hackerbrücke|München Hbf (tief)|München Karlsplatz|München Marienplatz|München Isartor|München Rosenheimer Platz|München Ost|München Leuchtenbergring"/>
+	</s>
+	<s id="5512972745156951899-2610230435-10">
+		<tl f="N" t="p" o="800767" c="RB" n="59231"/>
+		<ar pt="2610230528" pp="5" l="RB33" fb="RB33" ppth="Landshut(Bay)Hbf|Gündlkofen|Bruckberg|Moosburg|Langenbach(Oberbay)|Marzling|Freising|Unterschleißheim|München-Feldmoching"/>
+		<dp pt="2610230529" pp="5" l="RB33" fb="RB33" ppth="München Hbf"/>
+	</s>
+	<s id="-8029897431107214589-2610230451-12">
+		<tl f="S" t="p" o="800725" c="S" n="6110"/>
+		<ar pt="2610230514" pp="4" l="S1" fb="S1" ppth="München Leuchtenbergring|München Ost|München Rosenheimer Platz|München Isartor|München Marienplatz|München Karlsplatz|München Hbf (tief)|München Hackerbrücke|München Donnersbergerbrücke|München Hirschgarten|München-Laim"/>
+		<dp pt="2610230516" pp="4" l="S1" fb="S1" ppth="München-Fasanerie|München-Feldmoching|Oberschleißheim|Unterschleißheim|Lohhof|Eching|Neufahrn(b Freising)|Pulling(b Freising)|Freising"/>
+		<tra t="v" id="1293449938393623962" ref-from="-9088350616701857947-2610230451" s="a" o="p"/>
+	</s>
+	<s id="4633049984332882254-2610230451-10">
+		<tl f="S" t="p" o="800725" c="S" n="6117"/>
+		<ar pt="2610230523" pp="5" l="S1" fb="S1" ppth="München Flughafen Terminal|München Flughafen Besucherpark|Neufahrn(b Freising)|Eching|Lohhof|Unterschleißheim|Oberschleißheim|München-Feldmoching|München-Fasanerie"/>
+		<dp pt="2610230524" pp="5" l="S1" fb="S1" ppth="München-Laim|München Hirschgarten|München Donnersbergerbrücke|München Hackerbrücke|München Hbf (tief)|München Karlsplatz|München Marienplatz|München Isartor|München Rosenheimer Platz|München Ost|München Leuchtenbergring"/>
+		<tra t="v" id="-7366565030613785653" ref-from="6564867587643267930-2610230454" s="a" o="p"/>
+	</s>
+	<s id="-9088350616701857947-2610230451-12">
+		<tl f="S" t="p" o="800725" c="S" n="6910"/>
+		<ar pt="2610230514" pp="4" l="S1" fb="S1" wings="-8029897431107214589-2610230451" ppth="München Leuchtenbergring|München Ost|München Rosenheimer Platz|München Isartor|München Marienplatz|München Karlsplatz|München Hbf (tief)|München Hackerbrücke|München Donnersbergerbrücke|München Hirschgarten|München-Laim"/>
+		<dp pt="2610230516" pp="4" l="S1" fb="S1" wings="-8029897431107214589-2610230451" ppth="München-Fasanerie|München-Feldmoching|Oberschleißheim|Unterschleißheim|Lohhof|Eching|Neufahrn(b Freising)|München Flughafen Besucherpark|München Flughafen Terminal"/>
+		<tra t="v" id="1293449938393623962" ref-to="-8029897431107214589-2610230451" s="a" o="p"/>
+	</s>
+	<s id="6564867587643267930-2610230454-10">
+		<tl f="S" t="p" o="800725" c="S" n="6917"/>
+		<ar pt="2610230523" pp="5" l="S1" fb="S1" wings="4633049984332882254-2610230451" ppth="Freising|Pulling(b Freising)|Neufahrn(b Freising)|Eching|Lohhof|Unterschleißheim|Oberschleißheim|München-Feldmoching|München-Fasanerie"/>
+		<dp pt="2610230524" pp="5" l="S1" fb="S1" wings="4633049984332882254-2610230451" ppth="München-Laim|München Hirschgarten|München Donnersbergerbrücke|München Hackerbrücke|München Hbf (tief)|München Karlsplatz|München Marienplatz|München Isartor|München Rosenheimer Platz|München Ost|München Leuchtenbergring"/>
+		<tra t="v" id="-7366565030613785653" ref-to="4633049984332882254-2610230451" s="a" o="p"/>
+	</s>
+	<s id="610473414597080476-2610230511-12">
+		<tl f="S" t="p" o="800725" c="S" n="6112"/>
+		<ar pt="2610230534" pp="4" l="S1" fb="S1" ppth="München Leuchtenbergring|München Ost|München Rosenheimer Platz|München Isartor|München Marienplatz|München Karlsplatz|München Hbf (tief)|München Hackerbrücke|München Donnersbergerbrücke|München Hirschgarten|München-Laim"/>
+		<dp pt="2610230536" pp="4" l="S1" fb="S1" ppth="München-Fasanerie|München-Feldmoching|Oberschleißheim|Unterschleißheim|Lohhof|Eching|Neufahrn(b Freising)|Pulling(b Freising)|Freising"/>
+		<tra t="v" id="-2635789273426270197" ref-from="6550772165292257182-2610230511" s="a" o="p"/>
+	</s>
+	<s id="7681150034388569382-2610230511-10">
+		<tl f="S" t="p" o="800725" c="S" n="6119"/>
+		<ar pt="2610230543" pp="5" l="S1" fb="S1" wings="2897648634682588003-2610230514" ppth="München Flughafen Terminal|München Flughafen Besucherpark|Neufahrn(b Freising)|Eching|Lohhof|Unterschleißheim|Oberschleißheim|München-Feldmoching|München-Fasanerie"/>
+		<dp pt="2610230544" pp="5" l="S1" fb="S1" wings="2897648634682588003-2610230514" ppth="München-Laim|München Hirschgarten|München Donnersbergerbrücke|München Hackerbrücke|München Hbf (tief)|München Karlsplatz|München Marienplatz|München Isartor|München Rosenheimer Platz|München Ost|München Leuchtenbergring"/>
+		<tra t="v" id="3270765500724810254" ref-to="2897648634682588003-2610230514" s="a" o="p"/>
+	</s>
+	<s id="6550772165292257182-2610230511-12">
+		<tl f="S" t="p" o="800725" c="S" n="6912"/>
+		<ar pt="2610230534" pp="4" l="S1" fb="S1" wings="610473414597080476-2610230511" ppth="München Leuchtenbergring|München Ost|München Rosenheimer Platz|München Isartor|München Marienplatz|München Karlsplatz|München Hbf (tief)|München Hackerbrücke|München Donnersbergerbrücke|München Hirschgarten|München-Laim"/>
+		<dp pt="2610230536" pp="4" l="S1" fb="S1" wings="610473414597080476-2610230511" ppth="München-Fasanerie|München-Feldmoching|Oberschleißheim|Unterschleißheim|Lohhof|Eching|Neufahrn(b Freising)|München Flughafen Besucherpark|München Flughafen Terminal"/>
+		<tra t="v" id="-2635789273426270197" ref-to="610473414597080476-2610230511" s="a" o="p"/>
+	</s>
+	<s id="2897648634682588003-2610230514-10">
+		<tl f="S" t="p" o="800725" c="S" n="6919"/>
+		<ar pt="2610230543" pp="5" l="S1" fb="S1" ppth="Freising|Pulling(b Freising)|Neufahrn(b Freising)|Eching|Lohhof|Unterschleißheim|Oberschleißheim|München-Feldmoching|München-Fasanerie"/>
+		<dp pt="2610230544" pp="5" l="S1" fb="S1" ppth="München-Laim|München Hirschgarten|München Donnersbergerbrücke|München Hackerbrücke|München Hbf (tief)|München Karlsplatz|München Marienplatz|München Isartor|München Rosenheimer Platz|München Ost|München Leuchtenbergring"/>
+		<tra t="v" id="3270765500724810254" ref-from="7681150034388569382-2610230511" s="a" o="p"/>
+	</s>
+	<s id="4830320368880393557-2610230531-12">
+		<tl f="S" t="p" o="800725" c="S" n="6114"/>
+		<ar pt="2610230554" pp="4" l="S1" fb="S1" ppth="München Leuchtenbergring|München Ost|München Rosenheimer Platz|München Isartor|München Marienplatz|München Karlsplatz|München Hbf (tief)|München Hackerbrücke|München Donnersbergerbrücke|München Hirschgarten|München-Laim"/>
+		<dp pt="2610230556" pp="4" l="S1" fb="S1" ppth="München-Fasanerie|München-Feldmoching|Oberschleißheim|Unterschleißheim|Lohhof|Eching|Neufahrn(b Freising)|Pulling(b Freising)|Freising"/>
+		<tra t="v" id="-1144915649011142515" ref-from="3588692872059978533-2610230531" s="a" o="p"/>
+	</s>
+	<s id="3588692872059978533-2610230531-12">
+		<tl f="S" t="p" o="800725" c="S" n="6914"/>
+		<ar pt="2610230554" pp="4" l="S1" fb="S1" wings="4830320368880393557-2610230531" ppth="München Leuchtenbergring|München Ost|München Rosenheimer Platz|München Isartor|München Marienplatz|München Karlsplatz|München Hbf (tief)|München Hackerbrücke|München Donnersbergerbrücke|München Hirschgarten|München-Laim"/>
+		<dp pt="2610230556" pp="4" l="S1" fb="S1" wings="4830320368880393557-2610230531" ppth="München-Fasanerie|München-Feldmoching|Oberschleißheim|Unterschleißheim|Lohhof|Eching|Neufahrn(b Freising)|München Flughafen Besucherpark|München Flughafen Terminal"/>
+		<tra t="v" id="-1144915649011142515" ref-to="4830320368880393557-2610230531" s="a" o="p"/>
+	</s>
+</timetable>

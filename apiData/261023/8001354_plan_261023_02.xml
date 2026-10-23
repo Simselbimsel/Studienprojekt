@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<timetable station="Dachau Bahnhof">
+	<s id="2174115088964622297-2610230148-6">
+		<tl f="S" t="p" o="800725" c="S" n="8292"/>
+		<ar pt="2610230211" pp="3" l="S2" fb="S2" ppth="München Heimeranplatz|München-Obermenzing|München-Untermenzing|München-Allach|München-Karlsfeld"/>
+		<dp pt="2610230212" pp="3" l="S2" fb="S2" ppth="Hebertshausen|Röhrmoos|Vierkirchen-Esterhofen|Petershausen(Obb)"/>
+		<tra t="v" id="5438315366396137215" ref-from="-4818251066299338633-2610230148" s="a" o="p" jt="s"/>
+	</s>
+	<s id="-4818251066299338633-2610230148-6">
+		<tl f="S" t="p" o="800725" c="S" n="8932"/>
+		<ar pt="2610230211" pp="3" l="S2" fb="S2" wings="2174115088964622297-2610230148" ppth="München Heimeranplatz|München-Obermenzing|München-Untermenzing|München-Allach|München-Karlsfeld"/>
+		<dp pt="2610230214" pp="3" l="S2" fb="S2" ppth="Dachau Stadt|Bachern|Schwabhausen(b Dachau)|Niederroth|Markt Indersdorf|Arnbach|Erdweg|Kleinberghofen|Altomünster"/>
+		<tra t="v" id="5438315366396137215" ref-to="2174115088964622297-2610230148" s="a" o="p" jt="s"/>
+	</s>
+</timetable>
