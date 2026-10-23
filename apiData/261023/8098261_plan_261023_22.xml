@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<timetable station="München Hbf Gl.27-36">
+	<s id="5352425896989891553-2610232113-9">
+		<tl f="N" t="p" o="8007D5" c="RE" n="3895"/>
+		<ar pt="2610232255" pp="30" l="RE70" fb="RE70" ppth="Kempten(Allgäu)Hbf|Günzach|Biessenhofen|Kaufbeuren|Buchloe|Kaufering|Geltendorf|München-Pasing"/>
+	</s>
+	<s id="7280304050829520214-2610232132-15">
+		<tl f="D" t="p" o="T8" c="BRB" n="86780"/>
+		<ar pt="2610232255" pp="33" l="RB55" fb="RB55" ppth="Bayrischzell|Osterhofen(Oberbay)|Geitau|Fischbachau|Fischhausen-Neuhaus|Schliersee|Hausham|Agatharied|Miesbach|Darching|Holzkirchen|München Siemenswerke|München Harras|München Donnersbergerbrücke"/>
+	</s>
+	<s id="-8792971913611003707-2610232202-1">
+		<tl f="D" t="p" o="T8" c="BRB" n="87001"/>
+		<dp pt="2610232202" pp="33" l="RB56" fb="RB56" wings="8085952526736487517-2610232202" ppth="München Donnersbergerbrücke|München Harras|München Siemenswerke|Holzkirchen"/>
+		<tra t="v" id="-1546105521002512605" ref-to="8085952526736487517-2610232202" s="a" o="p" jt="j"/>
+	</s>
+	<s id="8085952526736487517-2610232202-1">
+		<tl f="D" t="p" o="T8" c="BRB" n="86781"/>
+		<dp pt="2610232202" pp="33" l="RB55" fb="RB55" ppth="München Donnersbergerbrücke|München Harras|München Siemenswerke|Holzkirchen|Darching|Miesbach|Agatharied|Hausham|Schliersee|Fischhausen-Neuhaus|Fischbachau|Geitau|Osterhofen(Oberbay)|Bayrischzell"/>
+		<tra t="v" id="-1546105521002512605" ref-from="-8792971913611003707-2610232202" s="a" o="p" jt="j"/>
+	</s>
+</timetable>
