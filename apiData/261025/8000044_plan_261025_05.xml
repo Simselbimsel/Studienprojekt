@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<timetable station="Bonn Hbf">
+	<s id="4753870957390372842-2610241920-12">
+		<tl f="F" t="p" o="NZ" c="IC" n="60402"/>
+		<ar pt="2610250540" pp="1" fb="IC 60402" wings="8868050453695511606-2610241920" ppth="Zürich HB|Basel SBB|Basel Bad Bf|Freiburg(Breisgau) Hbf|Offenburg|Baden-Baden|Mannheim Hbf|Frankfurt(Main)Hbf|Frankfurt(M) Flughafen Fernbf|Mainz Hbf|Koblenz Hbf"/>
+		<dp pt="2610250542" pp="1" fb="IC 60402" wings="8868050453695511606-2610241920" ppth="Köln Hbf|Arnhem Centraal|Utrecht Centraal|Amsterdam Centraal"/>
+		<tra t="v" id="-6898359858154075187" ref-to="8868050453695511606-2610241920" s="a" o="p"/>
+	</s>
+	<s id="8868050453695511606-2610241920-12">
+		<tl t="p" o="85" c="NJ" n="402"/>
+		<ar pt="2610250540" pp="1" fb="NJ 402" ppth="Zürich HB|Basel SBB|Basel Bad Bf|Freiburg(Breisgau) Hbf|Offenburg|Baden-Baden|Mannheim Hbf|Frankfurt(Main)Hbf|Frankfurt(M) Flughafen Fernbf|Mainz Hbf|Koblenz Hbf"/>
+		<dp pt="2610250542" pp="1" fb="NJ 402" hi="1" ppth="Köln Hbf|Arnhem Centraal|Utrecht Centraal|Amsterdam Centraal"/>
+		<tra t="v" id="-6898359858154075187" ref-from="4753870957390372842-2610241920" s="a" o="p"/>
+	</s>
+	<s id="-2608517597766205378-2610250438-13">
+		<tl f="S" t="p" o="800352" c="S" n="31901"/>
+		<ar pt="2610250520" pp="5" l="S23" fb="S23" ppth="Euskirchen|Euskirchen-Kuchenheim|Swisttal-Odendorf|Rheinbach|Rheinbach Römerkanal|Meckenheim(Bz Köln)|Meckenheim Industriepark|Alfter-Witterschlick|Alfter-Impekoven|Bonn-Duisdorf|Bonn Helmholtzstraße|Bonn-Endenich Nord"/>
+	</s>
+	<s id="8052861983634554649-2610250533-1">
+		<tl t="p" o="TR" c="TR" n="25456"/>
+		<dp pt="2610250533" pp="2" l="RB26" fb="RB26" ppth="Roisdorf|Sechtem|Brühl|Hürth-Kalscheuren|Köln Süd|Köln West|Köln Hbf|Köln Messe/Deutz|Köln/Bonn Flughafen"/>
+	</s>
+	<s id="-9200547236572496800-2610250539-1">
+		<tl f="S" t="p" o="800352" c="S" n="31902"/>
+		<dp pt="2610250539" pp="5" l="S23" fb="S23" ppth="Bonn-Endenich Nord|Bonn Helmholtzstraße|Bonn-Duisdorf|Alfter-Impekoven|Alfter-Witterschlick|Meckenheim Industriepark|Meckenheim(Bz Köln)|Rheinbach Römerkanal|Rheinbach|Swisttal-Odendorf|Euskirchen-Kuchenheim|Euskirchen"/>
+	</s>
+</timetable>

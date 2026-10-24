@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<timetable station="Hamburg-Harburg">
+	<s id="-6390791729794342496-2610250234-9">
+		<tl f="D" t="p" o="R1" c="ME" n="81600"/>
+		<ar pt="2610250309" pp="1" l="RB31" fb="RB31" wings="3594122526448038128-2610250234" ppth="Lüneburg|Bardowick|Radbruch|Winsen(Luhe)|Ashausen|Stelle|Maschen|Meckelfeld"/>
+		<dp pt="2610250310" pp="1" l="RB31" fb="RB31" wings="3594122526448038128-2610250234" ppth="Hamburg Hbf"/>
+		<tra t="v" id="7370684276346406786" ref-to="3594122526448038128-2610250234" s="a" o="p"/>
+	</s>
+	<s id="3594122526448038128-2610250234-9">
+		<tl f="D" t="p" o="R1" c="ME" n="20146"/>
+		<ar pt="2610250309" pp="1" l="RB31" fb="RB31" ppth="Lüneburg|Bardowick|Radbruch|Winsen(Luhe)|Ashausen|Stelle|Maschen|Meckelfeld"/>
+		<dp pt="2610250310" pp="1" l="RB31" fb="RB31" ppth="Hamburg Hbf"/>
+		<tra t="v" id="7370684276346406786" ref-from="-6390791729794342496-2610250234" s="a" o="p"/>
+	</s>
+	<s id="-1888790377147573278-2610250256-2">
+		<tl f="D" t="p" o="R1" c="ME" n="93531"/>
+		<ar pt="2610250307" pp="3" l="RB41" fb="RB41" ppth="Hamburg Hbf"/>
+		<dp pt="2610250308" pp="3" l="RB41" fb="RB41" ppth="Hittfeld|Klecken|Buchholz(Nordheide)|Sprötze|Tostedt"/>
+		<tra t="v" id="2788131181444253922" ref-from="-1381810858979617966-2610250256" s="a" o="p"/>
+	</s>
+	<s id="-1381810858979617966-2610250256-2">
+		<tl f="D" t="p" o="R1" c="ME" n="81903"/>
+		<ar pt="2610250307" pp="3" l="RB41" fb="RB41" wings="-1888790377147573278-2610250256" ppth="Hamburg Hbf"/>
+		<dp pt="2610250308" pp="3" l="RB41" fb="RB41" wings="-1888790377147573278-2610250256" ppth="Hittfeld|Klecken|Buchholz(Nordheide)|Sprötze|Tostedt|Lauenbrück|Scheeßel|Rotenburg(Wümme)|Sottrum|Ottersberg(Han)|Sagehorn|Bremen-Oberneuland|Bremen Hbf"/>
+		<tra t="v" id="2788131181444253922" ref-to="-1888790377147573278-2610250256" s="a" o="p"/>
+	</s>
+	<s id="3859428609556967600-2610250305-6">
+		<tl f="D" t="p" o="R1" c="ME" n="81900"/>
+		<ar pt="2610250331" pp="2" l="RB41" fb="RB41" ppth="Tostedt|Sprötze|Buchholz(Nordheide)|Klecken|Hittfeld"/>
+		<dp pt="2610250332" pp="2" l="RB41" fb="RB41" ppth="Hamburg Hbf"/>
+	</s>
+	<s id="-7830497133441705242-2610250333-2">
+		<tl f="D" t="p" o="R1" c="ME" n="81605"/>
+		<ar pt="2610250343" pp="4" l="RB31" fb="RB31" ppth="Hamburg Hbf"/>
+		<dp pt="2610250346" pp="4" l="RB31" fb="RB31" ppth="Meckelfeld|Maschen|Stelle|Winsen(Luhe)|Radbruch|Bardowick|Lüneburg"/>
+	</s>
+</timetable>
