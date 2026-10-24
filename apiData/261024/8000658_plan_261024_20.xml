@@ -1,0 +1,69 @@
+<?xml version="1.0" ?>
+<timetable station="Augsburg Haunstetterstraße">
+	<s id="2579583241651716095-2610241915-18">
+		<tl f="D" t="p" o="Y8" c="BRB" n="86586"/>
+		<ar pt="2610242035" pp="3" l="RB67" fb="RB67" ppth="Weilheim(Oberbay)|Raisting|Dießen|St Alban|Riederau|Utting|Schondorf(Bay)|St Ottilien|Geltendorf|Walleshausen|Egling|Schmiechen(Schwab)|Merching|Mering|Mering-St Afra|Kissing|Augsburg-Hochzoll"/>
+		<dp pt="2610242036" pp="3" l="RB67" fb="RB67" ppth="Augsburg Hbf|Augsburg-Oberhausen"/>
+	</s>
+	<s id="8931085203052008173-2610241919-19">
+		<tl t="p" o="GYRE" c="ARV" n="57083"/>
+		<ar pt="2610242037" pp="4" l="RE9" fb="RE9" ppth="Ulm Hbf|Neu-Ulm|Nersingen|Leipheim|Günzburg|Offingen|Mindelaltheim|Burgau(Schwab)|Jettingen|Freihalden|Dinkelscherben|Kutzenhausen|Gessertshausen|Diedorf(Schwab)|Westheim(Schwab)|Neusäß|Augsburg-Oberhausen|Augsburg Hbf"/>
+		<dp pt="2610242038" pp="4" l="RE9" fb="RE9" ppth="Augsburg-Hochzoll|Kissing|Mering-St Afra|Mering|Althegnenberg|Haspelmoor|Mammendorf|München-Pasing|München Hbf"/>
+	</s>
+	<s id="7522084237730764365-2610241920-13">
+		<tl t="p" o="GYRB" c="ARV" n="57081"/>
+		<ar pt="2610242010" pp="4" l="RB87" fb="RB87" wings="-8260811848930242661-2610241930" ppth="Donauwörth|Bäumenheim|Mertingen Bahnhof|Nordendorf|Westendorf|Meitingen|Herbertshofen|Langweid(Lech)|Gablingen|Gersthofen|Augsburg-Oberhausen|Augsburg Hbf"/>
+		<dp pt="2610242011" pp="4" l="RB87" fb="RB87" wings="-8260811848930242661-2610241930" ppth="Augsburg-Hochzoll|Kissing|Mering-St Afra|Mering|München-Pasing|München Hbf"/>
+		<tra t="v" id="-8804159568877469379" ref-to="-8260811848930242661-2610241930" s="a" o="p"/>
+	</s>
+	<s id="-8260811848930242661-2610241930-9">
+		<tl t="p" o="GYRB" c="ARV" n="57181"/>
+		<ar pt="2610242010" pp="4" l="RB86" fb="RB86" ppth="Dinkelscherben|Kutzenhausen|Gessertshausen|Diedorf(Schwab)|Westheim(Schwab)|Neusäß|Augsburg-Oberhausen|Augsburg Hbf"/>
+		<dp pt="2610242011" pp="4" l="RB86" fb="RB86" ppth="Augsburg-Hochzoll|Kissing|Mering-St Afra|Mering|München-Pasing|München Hbf"/>
+		<tra t="v" id="-8804159568877469379" ref-from="7522084237730764365-2610241920" s="a" o="p"/>
+	</s>
+	<s id="6729129887602076773-2610241935-7">
+		<tl t="p" o="GYRB" c="ARV" n="57178"/>
+		<ar pt="2610242016" pp="3" l="RB89" fb="RB89" wings="-1642987070012248229-2610241935" ppth="München Hbf|München-Pasing|Mering|Mering-St Afra|Kissing|Augsburg-Hochzoll"/>
+		<dp pt="2610242016" pp="3" l="RB89" fb="RB89" wings="-1642987070012248229-2610241935" ppth="Augsburg Hbf|Augsburg-Oberhausen|Meitingen|Nordendorf|Mertingen Bahnhof|Donauwörth|Wörnitzstein|Ebermergen|Harburg(Schwab)|Hoppingen|Möttingen|Nördlingen|Pflaumloch|Trochtelfingen(b Bopfingen)|Bopfingen|Aufhausen(Württ)|Lauchheim|Westhausen|Goldshöfe|Wasseralfingen|Aalen Hbf"/>
+		<tra t="v" id="-1231483213021497192" ref-to="-1642987070012248229-2610241935" s="a" o="p"/>
+	</s>
+	<s id="-1642987070012248229-2610241935-7">
+		<tl t="p" o="GYRE" c="ARV" n="57078"/>
+		<ar pt="2610242016" pp="3" l="RE80" fb="RE80" ppth="München Hbf|München-Pasing|Mering|Mering-St Afra|Kissing|Augsburg-Hochzoll"/>
+		<dp pt="2610242016" pp="3" l="RE80" fb="RE80" ppth="Augsburg Hbf|Augsburg-Oberhausen|Meitingen|Nordendorf|Mertingen Bahnhof|Donauwörth|Otting-Weilheim|Treuchtlingen|Gunzenhausen|Muhr am See|Triesdorf|Ansbach|Oberdachstetten|Burgbernheim-Wildbad|Steinach(bei Rothenburg ob der Tauber)|Uffenheim|Marktbreit|Ochsenfurt|Goßmannsdorf|Winterhausen|Würzburg-Heidingsfeld Ost|Würzburg Süd|Würzburg Hbf"/>
+		<tra t="v" id="-1231483213021497192" ref-from="6729129887602076773-2610241935" s="a" o="p"/>
+	</s>
+	<s id="7978006110976489107-2610242002-2">
+		<tl f="D" t="p" o="Y8" c="BRB" n="63643"/>
+		<ar pt="2610242005" pp="1" l="RB13" fb="RB13" ppth="Augsburg-Hochzoll"/>
+		<dp pt="2610242005" pp="1" l="RB13" fb="RB13" ppth="Augsburg Hbf"/>
+	</s>
+	<s id="4490658253978127286-2610242003-7">
+		<tl t="p" o="GYRB" c="ARV" n="57080"/>
+		<ar pt="2610242043" pp="3" l="RB86" fb="RB86" wings="1775616593714353575-2610242003" ppth="München Hbf|München-Pasing|Mering|Mering-St Afra|Kissing|Augsburg-Hochzoll"/>
+		<dp pt="2610242043" pp="3" l="RB86" fb="RB86" wings="1775616593714353575-2610242003" ppth="Augsburg Hbf|Augsburg-Oberhausen|Neusäß|Westheim(Schwab)|Diedorf(Schwab)|Gessertshausen|Kutzenhausen|Dinkelscherben"/>
+		<tra t="v" id="6078777060666906144" ref-to="1775616593714353575-2610242003" s="a" o="p"/>
+	</s>
+	<s id="1775616593714353575-2610242003-7">
+		<tl t="p" o="GYRB" c="ARV" n="57180"/>
+		<ar pt="2610242043" pp="3" l="RB87" fb="RB87" ppth="München Hbf|München-Pasing|Mering|Mering-St Afra|Kissing|Augsburg-Hochzoll"/>
+		<dp pt="2610242043" pp="3" l="RB87" fb="RB87" ppth="Augsburg Hbf|Augsburg-Oberhausen|Gersthofen|Gablingen|Langweid(Lech)|Herbertshofen|Meitingen|Westendorf|Nordendorf|Mertingen Bahnhof|Bäumenheim|Donauwörth"/>
+		<tra t="v" id="6078777060666906144" ref-from="4490658253978127286-2610242003" s="a" o="p"/>
+	</s>
+	<s id="-3748617538204790006-2610242012-3">
+		<tl f="D" t="p" o="Y8" c="BRB" n="86581"/>
+		<ar pt="2610242021" pp="4" l="RB67" fb="RB67" ppth="Augsburg-Oberhausen|Augsburg Hbf"/>
+		<dp pt="2610242021" pp="4" l="RB67" fb="RB67" ppth="Augsburg-Hochzoll|Kissing|Mering-St Afra|Mering|Merching|Schmiechen(Schwab)|Egling|Walleshausen|Geltendorf|St Ottilien|Schondorf(Bay)|Utting|Riederau|St Alban|Dießen|Raisting|Weilheim(Oberbay)"/>
+	</s>
+	<s id="5923343116629077239-2610242016-2">
+		<tl f="D" t="p" o="Y8" c="BRB" n="63678"/>
+		<ar pt="2610242018" pp="2" l="RB13" fb="RB13" ppth="Augsburg Hbf"/>
+		<dp pt="2610242019" pp="2" l="RB13" fb="RB13" ppth="Augsburg-Hochzoll"/>
+	</s>
+	<s id="1884521344178380628-2610242045-2">
+		<tl f="D" t="p" o="Y8" c="BRB" n="63640"/>
+		<ar pt="2610242047" pp="2" l="RB13" fb="RB13" ppth="Augsburg Hbf"/>
+		<dp pt="2610242047" pp="2" l="RB13" fb="RB13" ppth="Augsburg-Hochzoll"/>
+	</s>
+</timetable>

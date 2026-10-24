@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<timetable station="Oberau">
+	<s id="7585738635908651271-2610241604-6">
+		<tl f="N" t="p" o="800790" c="RB" n="5422"/>
+		<ar pt="2610241712" pp="1" l="RB6" fb="RB6" pde="Seefeld in Tirol" ppth="Scharnitz|Mittenwald|Klais|Garmisch-Partenkirchen|Farchant"/>
+		<dp pt="2610241712" pp="1" l="RB6" fb="RB6" ppth="Eschenlohe|Ohlstadt|Murnau|Uffing a Staffelsee|Huglfing|Weilheim(Oberbay)|Tutzing|Starnberg"/>
+	</s>
+	<s id="-4098926441499116097-2610241536-6">
+		<tl f="N" t="p" o="800790" c="RB" n="5523"/>
+		<ar pt="2610241712" pp="1" l="RB60" fb="RB60" pde="Pfronten-Steinach" ppth="Ehrwald Zugspitzbahn|Untergrainau|Garmisch-Partenkirchen Hausberg|Garmisch-Partenkirchen|Farchant"/>
+		<dp pt="2610241712" pp="1" l="RB60" fb="RB60" ppth="Eschenlohe|Ohlstadt|Murnau|Uffing a Staffelsee|Huglfing|Weilheim(Oberbay)|Tutzing|Starnberg"/>
+	</s>
+	<s id="-3726999414935510630-2610241652-9">
+		<tl f="N" t="p" o="800790" c="RB" n="5431"/>
+		<ar pt="2610241744" pp="1" l="RB6" fb="RB6" ppth="Starnberg|Tutzing|Weilheim(Oberbay)|Huglfing|Uffing a Staffelsee|Murnau|Ohlstadt|Eschenlohe"/>
+		<dp pt="2610241744" pp="1" l="RB6" fb="RB6" pde="Innsbruck Westbahnhof" ppth="Farchant|Garmisch-Partenkirchen|Klais"/>
+		<tra t="v" id="6883590913747147619" ref-from="-2490337887244593960-2610241652" s="a" o="p"/>
+	</s>
+	<s id="-2490337887244593960-2610241652-9">
+		<tl f="N" t="p" o="800790" c="RB" n="5528"/>
+		<ar pt="2610241744" pp="1" l="RB60" fb="RB60" wings="-3726999414935510630-2610241652" ppth="Starnberg|Tutzing|Weilheim(Oberbay)|Huglfing|Uffing a Staffelsee|Murnau|Ohlstadt|Eschenlohe"/>
+		<dp pt="2610241744" pp="1" l="RB60" fb="RB60" wings="-3726999414935510630-2610241652" pde="Pfronten-Steinach" ppth="Farchant|Garmisch-Partenkirchen|Garmisch-Partenkirchen Hausberg|Untergrainau|Griesen(Oberbay)|Ehrwald Zugspitzbahn"/>
+		<tra t="v" id="6883590913747147619" ref-to="-3726999414935510630-2610241652" s="a" o="p"/>
+	</s>
+	<s id="2303779071176860713-2610241704-4">
+		<tl f="N" t="p" o="800790" c="RE" n="4694"/>
+		<ar pt="2610241741" pp="" l="RE61" fb="RE61" hi="1" ppth="Mittenwald|Klais|Garmisch-Partenkirchen"/>
+		<dp pt="2610241744" pp="" l="RE61" fb="RE61" hi="1" ppth="Murnau|Weilheim(Oberbay)"/>
+	</s>
+</timetable>
