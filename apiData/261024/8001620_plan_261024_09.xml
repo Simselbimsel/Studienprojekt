@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<timetable station="Ebenhausen(Unterfr)">
+	<s id="-2255659203663183912-2610240735-11">
+		<tl f="N" t="p" o="8004NT" c="RE" n="3755"/>
+		<ar pt="2610240912" pp="3" l="RE7" fb="RE7" ppth="Erfurt Hbf|Neudietendorf|Arnstadt Hbf|Plaue(Thür)|Zella-Mehlis|Suhl|Grimmenthal|Mellrichstadt Bf|Bad Neustadt(Saale)|Münnerstadt"/>
+		<dp pt="2610240917" pp="3" l="RE7" fb="RE7" ppth="Schweinfurt Hbf|Würzburg Hbf"/>
+	</s>
+	<s id="1979919672357559770-2610240809-9">
+		<tl t="p" o="EB" c="Bus" n="60681"/>
+		<ar pt="2610240919" pp="" l="RB50" fb="Bus RB50" ppth="Gemünden(Main)|Hammelburg|Hammelburg Ost|Westheim-Langendorf|Elfershausen-Trimberg|Euerdorf|Bad Kissingen|Oerlenbach"/>
+	</s>
+	<s id="-8198406917261810799-2610240905-3">
+		<tl t="p" o="EB" c="Bus" n="61681"/>
+		<ar pt="2610240919" pp="" l="RB50" fb="Bus RB50" ppth="Bad Kissingen|Oerlenbach"/>
+	</s>
+	<s id="120593864613665047-2610240906-5">
+		<tl f="D" t="p" o="EB" c="EB" n="80733"/>
+		<ar pt="2610240924" pp="3" l="RB40" fb="RB40" ppth="Bad Neustadt(Saale)|Burglauer|Münnerstadt|Rottershausen"/>
+		<dp pt="2610240930" pp="3" l="RB40" fb="RB40" ppth="Poppenhausen|Oberwerrn|Schweinfurt Hbf|Schweinfurt Mitte|Schweinfurt Stadt"/>
+	</s>
+	<s id="8921949399490368411-2610240912-3">
+		<tl f="D" t="p" o="EB" c="EB" n="80712"/>
+		<ar pt="2610240928" pp="4" l="RB50" fb="RB50" wings="-361383765729581121-2610240912" ppth="Schweinfurt Hbf|Poppenhausen"/>
+		<tra t="v" id="-5170631192427081118" ref-to="-361383765729581121-2610240912" s="a" o="p" jt="s"/>
+	</s>
+	<s id="-361383765729581121-2610240912-3">
+		<tl f="D" t="p" o="EB" c="EB" n="80732"/>
+		<ar pt="2610240928" pp="4" l="RB40" fb="RB40" ppth="Schweinfurt Hbf|Poppenhausen"/>
+		<dp pt="2610240932" pp="4" l="RB40" fb="RB40" ppth="Rottershausen|Münnerstadt|Burglauer|Bad Neustadt(Saale)|Mellrichstadt Bf|Rentwertshausen|Bibra|Wölfershausen|Grimmenthal|Untermaßfeld|Meiningen"/>
+		<tra t="v" id="-5170631192427081118" ref-from="8921949399490368411-2610240912" s="a" o="p" jt="s"/>
+	</s>
+	<s id="8599036523872757696-2610240935-1">
+		<tl t="p" o="EB" c="Bus" n="60712"/>
+		<dp pt="2610240935" pp="" l="RB50" fb="Bus RB50" ppth="Oerlenbach|Bad Kissingen"/>
+	</s>
+</timetable>

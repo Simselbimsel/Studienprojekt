@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<timetable station="Uffing a Staffelsee">
+	<s id="-7273132148898954770-2610240837-11">
+		<tl f="N" t="p" o="800790" c="RB" n="5511"/>
+		<ar pt="2610241036" pp="1" l="RB60" fb="RB60" wings="-1888436610413160144-2610240838" pde="Pfronten-Steinach" ppth="Ehrwald Zugspitzbahn|Griesen(Oberbay)|Untergrainau|Garmisch-Partenkirchen Hausberg|Garmisch-Partenkirchen|Farchant|Oberau|Eschenlohe|Ohlstadt|Murnau"/>
+		<dp pt="2610241036" pp="1" l="RB60" fb="RB60" wings="-1888436610413160144-2610240838" ppth="Huglfing|Weilheim(Oberbay)|Tutzing|Starnberg"/>
+		<tra t="v" id="-3413468415415064287" ref-to="-1888436610413160144-2610240838" s="a" o="p"/>
+	</s>
+	<s id="-1888436610413160144-2610240838-9">
+		<tl f="N" t="p" o="81" c="RB" n="5408"/>
+		<ar pt="2610241036" pp="1" l="RB6" fb="RB6" pde="Innsbruck Hbf" ppth="Mittenwald|Klais|Garmisch-Partenkirchen|Farchant|Oberau|Eschenlohe|Ohlstadt|Murnau"/>
+		<dp pt="2610241036" pp="1" l="RB6" fb="RB6" ppth="Huglfing|Weilheim(Oberbay)|Tutzing|Starnberg"/>
+		<tra t="v" id="-3413468415415064287" ref-from="-7273132148898954770-2610240837" s="a" o="p"/>
+	</s>
+	<s id="376101198293808105-2610240952-5">
+		<tl f="N" t="p" o="800790" c="RB" n="5538"/>
+		<ar pt="2610241022" pp="1" l="RB60" fb="RB60" ppth="Starnberg|Tutzing|Weilheim(Oberbay)|Huglfing"/>
+		<dp pt="2610241023" pp="1" l="RB60" fb="RB60" pde="Pfronten-Steinach" ppth="Murnau|Ohlstadt|Eschenlohe|Oberau|Farchant|Garmisch-Partenkirchen|Garmisch-Partenkirchen Hausberg|Untergrainau|Ehrwald Zugspitzbahn"/>
+		<tra t="v" id="-2828561225604416221" ref-from="3921333432361099707-2610240952" s="a" o="p"/>
+	</s>
+	<s id="3921333432361099707-2610240952-5">
+		<tl f="N" t="p" o="800790" c="RB" n="5415"/>
+		<ar pt="2610241022" pp="1" l="RB6" fb="RB6" wings="376101198293808105-2610240952" ppth="Starnberg|Tutzing|Weilheim(Oberbay)|Huglfing"/>
+		<dp pt="2610241023" pp="1" l="RB6" fb="RB6" wings="376101198293808105-2610240952" pde="Seefeld in Tirol" ppth="Murnau|Ohlstadt|Eschenlohe|Oberau|Farchant|Garmisch-Partenkirchen|Klais|Mittenwald|Scharnitz"/>
+		<tra t="v" id="-2828561225604416221" ref-to="376101198293808105-2610240952" s="a" o="p"/>
+	</s>
+</timetable>

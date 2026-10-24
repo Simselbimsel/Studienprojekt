@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<timetable station="Poppenhausen">
+	<s id="2281581351572800954-2610241301-13">
+		<tl f="D" t="p" o="EB" c="EB" n="80745"/>
+		<ar pt="2610241427" pp="1" l="RB40" fb="RB40" ppth="Meiningen|Untermaßfeld|Grimmenthal|Wölfershausen|Bibra|Rentwertshausen|Mellrichstadt Bf|Bad Neustadt(Saale)|Burglauer|Münnerstadt|Rottershausen|Ebenhausen(Unterfr)"/>
+		<dp pt="2610241427" pp="1" l="RB40" fb="RB40" ppth="Schweinfurt Hbf"/>
+	</s>
+	<s id="326897524789624873-2610241402-5">
+		<tl f="D" t="p" o="EB" c="EB" n="80686"/>
+		<ar pt="2610241420" pp="1" l="RB50" fb="RB50" wings="4304463080079409697-2610241402" ppth="Schweinfurt Stadt|Schweinfurt Mitte|Schweinfurt Hbf|Oberwerrn"/>
+		<dp pt="2610241420" pp="1" l="RB50" fb="RB50" wings="4304463080079409697-2610241402" ppth="Ebenhausen(Unterfr)"/>
+		<tra t="v" id="-3496780095800505135" ref-to="4304463080079409697-2610241402" s="a" o="p"/>
+	</s>
+	<s id="4304463080079409697-2610241402-5">
+		<tl f="D" t="p" o="EB" c="EB" n="80744"/>
+		<ar pt="2610241420" pp="1" l="RB40" fb="RB40" ppth="Schweinfurt Stadt|Schweinfurt Mitte|Schweinfurt Hbf|Oberwerrn"/>
+		<dp pt="2610241420" pp="1" l="RB40" fb="RB40" ppth="Ebenhausen(Unterfr)|Rottershausen|Münnerstadt|Burglauer|Bad Neustadt(Saale)"/>
+		<tra t="v" id="-3496780095800505135" ref-from="326897524789624873-2610241402" s="a" o="p"/>
+	</s>
+</timetable>
