@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<timetable station="Berlin-Spandau">
+	<s id="8679558186628865356-2610240157-3">
+		<tl f="D" t="p" o="OWRB" c="OE" n="62088"/>
+		<ar pt="2610240208" pp="4" l="RB10" fb="RB10" ppth="Berlin Hbf|Berlin Jungfernheide"/>
+		<dp pt="2610240210" pp="4" l="RB10" fb="RB10" ppth="Albrechtshof|Seegefeld|Falkensee|Finkenkrug|Brieselang|Nauen"/>
+	</s>
+	<s id="7386228763842380880-2610240211-7">
+		<tl f="D" t="p" o="OWRB" c="OE" n="62089"/>
+		<ar pt="2610240234" pp="5" l="RB10" fb="RB10" tra="-3424631263553164395-2610240236-1" ppth="Nauen|Brieselang|Finkenkrug|Falkensee|Seegefeld|Albrechtshof"/>
+		<tra t="d" id="-5280120773264196572" ref-to="-3424631263553164395-2610240236-1" s="a" o="p"/>
+	</s>
+	<s id="-3424631263553164395-2610240236-1">
+		<tl f="D" t="p" o="OWRB" c="OE" n="92089"/>
+		<dp pt="2610240236" pp="5" l="RB10" fb="RB10" tra="7386228763842380880-2610240211-7" ppth="Berlin Jungfernheide|Berlin Gesundbrunnen"/>
+		<tra t="d" id="-5280120773264196572" ref-from="7386228763842380880-2610240211-7" s="a" o="p"/>
+	</s>
+</timetable>
