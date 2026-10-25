@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<timetable station="Mannheim Hbf">
+	<s id="8868050453695511606-2610251920-8">
+		<tl t="p" o="85" c="NJ" n="402"/>
+		<ar pt="2610260203" pp="2" fb="NJ 402" hi="1" ppth="Zürich HB|Basel SBB|Basel Bad Bf|Freiburg(Breisgau) Hbf|Offenburg|Baden-Baden|Karlsruhe Hbf"/>
+		<dp pt="2610260205" pp="2" fb="NJ 402" hi="1" ppth="Frankfurt(Main)Hbf|Frankfurt(M) Flughafen Fernbf|Mainz Hbf|Koblenz Hbf|Bonn Hbf|Köln Hbf|Arnhem Centraal|Utrecht Centraal|Amsterdam Centraal"/>
+		<tra t="v" id="5757355360643431996" ref-from="4753870957390372842-2610251920" s="a" o="p"/>
+	</s>
+	<s id="4753870957390372842-2610251920-8">
+		<tl f="F" t="p" o="NZ" c="IC" n="60402"/>
+		<ar pt="2610260203" pp="2" fb="IC 60402" wings="8868050453695511606-2610251920" ppth="Zürich HB|Basel SBB|Basel Bad Bf|Freiburg(Breisgau) Hbf|Offenburg|Baden-Baden|Karlsruhe Hbf"/>
+		<dp pt="2610260205" pp="2" fb="IC 60402" wings="8868050453695511606-2610251920" ppth="Frankfurt(Main)Hbf|Frankfurt(M) Flughafen Fernbf|Mainz Hbf|Koblenz Hbf|Bonn Hbf|Köln Hbf|Arnhem Centraal|Utrecht Centraal|Amsterdam Centraal"/>
+		<tra t="v" id="5757355360643431996" ref-to="8868050453695511606-2610251920" s="a" o="p"/>
+	</s>
+	<s id="5926473462606976417-2610251926-16">
+		<tl f="F" t="p" o="80" c="ICE" n="619"/>
+		<ar pt="2610260201" pp="5" fb="ICE 619" ppth="Hamburg-Altona|Hamburg Dammtor|Hamburg Hbf|Hamburg-Harburg|Bremen Hbf|Osnabrück Hbf|Münster(Westf)Hbf|Dortmund Hbf|Hagen Hbf|Wuppertal Hbf|Solingen Hbf|Köln Hbf|Siegburg/Bonn|Frankfurt(M) Flughafen Fernbf|Frankfurt(Main)Hbf"/>
+		<dp pt="2610260204" pp="5" fb="ICE 619" ppth="Heidelberg Hbf|Stuttgart Hbf|Ulm Hbf|Günzburg|Augsburg Hbf|München Hbf"/>
+	</s>
+	<s id="7108274583246193747-2610252246-7">
+		<tl f="F" t="p" o="80" c="ICE" n="698"/>
+		<ar pt="2610260213" pp="2" fb="ICE 698" ppth="München Hbf|München-Pasing|Augsburg Hbf|Ulm Hbf|Stuttgart Hbf|Heidelberg Hbf"/>
+		<dp pt="2610260215" pp="2" fb="ICE 698" ppth="Frankfurt(M) Flughafen Fernbf|Frankfurt(Main)Hbf|Eisenach Hbf|Erfurt Hbf|Halle(Saale)Hbf|Bitterfeld|Lutherstadt Wittenberg Hbf|Berlin Südkreuz|Berlin Hbf|Berlin Gesundbrunnen"/>
+	</s>
+</timetable>

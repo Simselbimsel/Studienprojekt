@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<timetable station="Göttingen">
+	<s id="1003446772902483359-2610251850-13">
+		<tl t="p" o="85" c="NJ" n="470"/>
+		<ar pt="2610260442" pp="4" fb="NJ 470" wings="-5591597380485360579-2610251850" ppth="Zürich HB|Basel SBB|Basel Bad Bf|Freiburg(Breisgau) Hbf|Offenburg|Baden-Baden|Karlsruhe Hbf|Bruchsal|Heidelberg Hbf|Darmstadt Hbf|Frankfurt(Main)Süd|Hanau Hbf"/>
+		<dp pt="2610260444" pp="4" fb="NJ 470" wings="-5591597380485360579-2610251850" ppth="Hannover Hbf|Bremen Hbf|Hamburg-Harburg|Hamburg Hbf|Hamburg Dammtor|Hamburg-Altona"/>
+		<tra t="v" id="-1438016012880616003" ref-to="-5591597380485360579-2610251850" s="a" o="p"/>
+	</s>
+	<s id="-5591597380485360579-2610251850-13">
+		<tl f="F" t="p" o="NZ" c="IC" n="60470"/>
+		<ar pt="2610260442" pp="4" fb="IC 60470" ppth="Zürich HB|Basel SBB|Basel Bad Bf|Freiburg(Breisgau) Hbf|Offenburg|Baden-Baden|Karlsruhe Hbf|Bruchsal|Heidelberg Hbf|Darmstadt Hbf|Frankfurt(Main)Süd|Hanau Hbf"/>
+		<dp pt="2610260444" pp="4" fb="IC 60470" ppth="Hannover Hbf|Bremen Hbf|Hamburg-Harburg|Hamburg Hbf|Hamburg Dammtor|Hamburg-Altona"/>
+		<tra t="v" id="-1438016012880616003" ref-from="1003446772902483359-2610251850" s="a" o="p"/>
+	</s>
+	<s id="8209469800275406026-2610252217-6">
+		<tl f="F" t="p" o="80" c="ICE" n="1080"/>
+		<ar pt="2610260403" pp="4" fb="ICE 1080" ppth="München Hbf|Ingolstadt Hbf|Nürnberg Hbf|Würzburg Hbf|Kassel-Wilhelmshöhe"/>
+		<dp pt="2610260405" pp="4" fb="ICE 1080" ppth="Hannover Hbf|Celle|Uelzen|Lüneburg|Hamburg-Harburg|Hamburg Hbf"/>
+	</s>
+	<s id="6536875412480692968-2610260408-1">
+		<tl f="N" t="p" o="800248" c="RE" n="82810"/>
+		<dp pt="2610260408" pp="6" l="RE2" fb="RE2" ppth="Nörten-Hardenberg|Northeim(Han)|Einbeck-Salzderhelden|Kreiensen|Freden(Leine)|Alfeld(Leine)|Banteln|Elze(Han)|Nordstemmen|Sarstedt|Hannover Hbf"/>
+	</s>
+	<s id="-1381962202902705495-2610260414-1">
+		<tl f="D" t="p" o="N4" c="CAN" n="24061"/>
+		<dp pt="2610260414" pp="5" l="RB87" fb="RB87" wings="3527518005844342006-2610260414" ppth="Friedland(Han)|Eichenberg|Bad Sooden-Allendorf|Eschwege-Niederhone|Eschwege"/>
+		<tra t="v" id="1484116206878757618" ref-to="3527518005844342006-2610260414" s="a" o="p" jt="j"/>
+	</s>
+	<s id="3527518005844342006-2610260414-1">
+		<tl f="D" t="p" o="N4" c="CAN" n="24001"/>
+		<dp pt="2610260414" pp="5" l="RB83" fb="RB83" ppth="Friedland(Han)|Eichenberg|Witzenhausen Nord|Gertenbach|Hedemünden|Hann Münden|Speele|Fuldatal-Ihringshausen|Vellmar-Niedervellmar|Kassel Hbf"/>
+		<tra t="v" id="1484116206878757618" ref-from="-1381962202902705495-2610260414" s="a" o="p" jt="j"/>
+	</s>
+</timetable>

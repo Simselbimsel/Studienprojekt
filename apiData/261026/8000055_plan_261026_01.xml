@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<timetable station="Bruchsal">
+	<s id="4875328236568005990-2610252300-31">
+		<tl f="S" t="p" o="801539" c="S" n="38213"/>
+		<ar pt="2610260112" pp="5" l="S2" fb="S2" ppth="Kaiserslautern Hbf|Hochspeyer|Frankenstein(Pfalz)|Weidenthal|Neidenfels|Lambrecht(Pfalz)|Neustadt(Weinstr)Hbf|Neustadt-Böbig|Haßloch(Pfalz)|Böhl-Iggelheim|Schifferstadt|Limburgerhof|Ludwigshafen-Rheingönheim|Ludwigshafen-Mundenheim|Ludwigshafen(Rh)Hbf|Ludwigshafen(Rhein) Mitte|Mannheim Hbf|Mannheim ARENA/Maimarkt|Mannheim-Seckenheim|Mannheim-Friedrichsfeld Süd|Heidelberg-Pfaffengrund/Wieblingen|Heidelberg Hbf|Heidelberg-Kirchheim/Rohrbach|St Ilgen-Sandhausen|Wiesloch-Walldorf|Rot-Malsch|Bad Schönborn-Kronau|Bad Schönborn Süd|Stettfeld-Weiher|Ubstadt-Weiher"/>
+		<dp pt="2610260113" pp="5" l="S2" fb="S2" ppth="Bruchsal Bildungszentrum|Untergrombach|Weingarten(Baden)|Karlsruhe-Durlach|Karlsruhe Hbf"/>
+	</s>
+	<s id="-4043233882172004901-2610260048-6">
+		<tl f="D" t="p" o="A6" c="AVG" n="85274"/>
+		<ar pt="2610260110" pp="1b" l="S31" fb="S31" ppth="Karlsruhe Hbf|Karlsruhe-Durlach|Weingarten(Baden)|Untergrombach|Bruchsal Bildungszentrum"/>
+		<dp pt="2610260112" pp="1b" l="S31" fb="S31" ppth="Bruchsal Schloßgarten|Bruchsal Stegwiesen|Ubstadt Ort|Ubstadt Uhlandstr.|Stettfeld(Baden)|Zeutern Sportplatz|Zeutern Bf|Zeutern Ost|Odenheim West|Odenheim Bf"/>
+		<tra t="v" id="-3047896996545412891" ref-from="-6813739211482986266-2610260048" s="a" o="p"/>
+	</s>
+	<s id="-6813739211482986266-2610260048-6">
+		<tl f="D" t="p" o="A6" c="AVG" n="85174"/>
+		<ar pt="2610260110" pp="1b" l="S32" fb="S32" wings="-4043233882172004901-2610260048" ppth="Karlsruhe Hbf|Karlsruhe-Durlach|Weingarten(Baden)|Untergrombach|Bruchsal Bildungszentrum"/>
+		<dp pt="2610260112" pp="1b" l="S32" fb="S32" wings="-4043233882172004901-2610260048" ppth="Bruchsal Schloßgarten|Bruchsal Stegwiesen|Ubstadt Ort|Ubstadt Salzbrunnenstr|Unteröwisheim M.-Luther-Str.|Unteröwisheim Bf|Oberöwisheim|Münzesheim|Münzesheim Ost|Gochsheim(Baden)|Bahnbrücken|Menzingen(Baden)"/>
+		<tra t="v" id="-3047896996545412891" ref-to="-4043233882172004901-2610260048" s="a" o="p"/>
+	</s>
+</timetable>
