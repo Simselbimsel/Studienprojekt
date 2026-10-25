@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<timetable station="Ebenhausen(Unterfr)">
+	<s id="2258467216439828113-2610251935-12">
+		<tl f="N" t="p" o="8004NT" c="RE" n="3767"/>
+		<ar pt="2610252112" pp="3" l="RE7" fb="RE7" ppth="Erfurt Hbf|Neudietendorf|Arnstadt Hbf|Plaue(Thür)|Gräfenroda|Zella-Mehlis|Suhl|Grimmenthal|Mellrichstadt Bf|Bad Neustadt(Saale)|Münnerstadt"/>
+		<dp pt="2610252117" pp="3" l="RE7" fb="RE7" ppth="Schweinfurt Hbf|Würzburg Hbf"/>
+	</s>
+	<s id="5764670689625242958-2610252107-5">
+		<tl f="D" t="p" o="EB" c="EB" n="80700"/>
+		<ar pt="2610252128" pp="3" l="RB50" fb="RB50" wings="-8712366956669981398-2610252107" ppth="Schweinfurt Stadt|Schweinfurt Mitte|Schweinfurt Hbf|Poppenhausen"/>
+		<tra t="v" id="-7837680436046878161" ref-to="-8712366956669981398-2610252107" s="a" o="p" jt="s"/>
+	</s>
+	<s id="-8712366956669981398-2610252107-5">
+		<tl f="D" t="p" o="EB" c="EB" n="80758"/>
+		<ar pt="2610252128" pp="3" l="RB40" fb="RB40" ppth="Schweinfurt Stadt|Schweinfurt Mitte|Schweinfurt Hbf|Poppenhausen"/>
+		<dp pt="2610252132" pp="3" l="RB40" fb="RB40" ppth="Rottershausen|Münnerstadt|Burglauer|Bad Neustadt(Saale)|Mellrichstadt Bf|Rentwertshausen|Bibra|Wölfershausen|Ritschenhausen|Meiningen"/>
+		<tra t="v" id="-7837680436046878161" ref-from="5764670689625242958-2610252107" s="a" o="p" jt="s"/>
+	</s>
+	<s id="-3890620167149002804-2610252135-1">
+		<tl t="p" o="EB" c="Bus" n="61700"/>
+		<dp pt="2610252135" pp="" l="RB50" fb="Bus RB50" wings="-1871100526417920094-2610252135" ppth="Oerlenbach|Bad Kissingen"/>
+		<tra t="v" id="1405071081151775608" ref-to="-1871100526417920094-2610252135" s="a" o="p" jt="j"/>
+	</s>
+	<s id="-1871100526417920094-2610252135-1">
+		<tl t="p" o="EB" c="Bus" n="60700"/>
+		<dp pt="2610252135" pp="" l="RB50" fb="Bus RB50" ppth="Oerlenbach|Bad Kissingen|Euerdorf|Elfershausen-Trimberg|Westheim-Langendorf|Hammelburg Ost|Hammelburg"/>
+		<tra t="v" id="1405071081151775608" ref-from="-3890620167149002804-2610252135" s="a" o="p" jt="j"/>
+	</s>
+</timetable>
