@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<timetable station="Weilheim(Oberbay)">
+	<s id="-2890736469451315906-2610251213-20">
+		<tl f="D" t="p" o="Y8" c="BRB" n="86537"/>
+		<ar pt="2610251342" pp="4" l="RB67" fb="RB67" ppth="Augsburg-Oberhausen|Augsburg Hbf|Augsburg Haunstetterstraße|Augsburg-Hochzoll|Kissing|Mering-St Afra|Mering|Merching|Schmiechen(Schwab)|Egling|Walleshausen|Geltendorf|St Ottilien|Schondorf(Bay)|Utting|Riederau|St Alban|Dießen|Raisting"/>
+	</s>
+	<s id="4823130843660547584-2610251204-12">
+		<tl f="N" t="p" o="800790" c="RB" n="5414"/>
+		<ar pt="2610251347" pp="1" l="RB6" fb="RB6" pde="Seefeld in Tirol" ppth="Scharnitz|Mittenwald|Klais|Garmisch-Partenkirchen|Farchant|Oberau|Eschenlohe|Ohlstadt|Murnau|Uffing a Staffelsee|Huglfing"/>
+		<dp pt="2610251349" pp="1" l="RB6" fb="RB6" ppth="Tutzing|Starnberg"/>
+	</s>
+	<s id="2688462456742826400-2610251136-13">
+		<tl f="N" t="p" o="800790" c="RB" n="5539"/>
+		<ar pt="2610251347" pp="1" l="RB60" fb="RB60" pde="Pfronten-Steinach" ppth="Ehrwald Zugspitzbahn|Griesen(Oberbay)|Untergrainau|Garmisch-Partenkirchen Hausberg|Garmisch-Partenkirchen|Farchant|Oberau|Eschenlohe|Ohlstadt|Murnau|Uffing a Staffelsee|Huglfing"/>
+		<dp pt="2610251349" pp="1" l="RB60" fb="RB60" ppth="Tutzing|Starnberg"/>
+	</s>
+	<s id="728756785770423861-2610251252-3">
+		<tl f="N" t="p" o="800790" c="RB" n="5421"/>
+		<ar pt="2610251310" pp="1" l="RB6" fb="RB6" ppth="Starnberg|Tutzing"/>
+		<dp pt="2610251312" pp="1" l="RB6" fb="RB6" pde="Mittenwald" ppth="Huglfing|Uffing a Staffelsee|Murnau|Ohlstadt|Eschenlohe|Oberau|Farchant|Garmisch-Partenkirchen|Klais"/>
+		<tra t="v" id="-3182395425407219578" ref-from="8562798715317408566-2610251252" s="a" o="p"/>
+	</s>
+	<s id="8562798715317408566-2610251252-3">
+		<tl f="N" t="p" o="800790" c="RB" n="5518"/>
+		<ar pt="2610251310" pp="1" l="RB60" fb="RB60" wings="728756785770423861-2610251252" ppth="Starnberg|Tutzing"/>
+		<dp pt="2610251312" pp="1" l="RB60" fb="RB60" wings="728756785770423861-2610251252" pde="Pfronten-Steinach" ppth="Huglfing|Uffing a Staffelsee|Murnau|Ohlstadt|Eschenlohe|Oberau|Farchant|Garmisch-Partenkirchen|Garmisch-Partenkirchen Hausberg|Untergrainau|Griesen(Oberbay)|Ehrwald Zugspitzbahn"/>
+		<tra t="v" id="-3182395425407219578" ref-to="728756785770423861-2610251252" s="a" o="p"/>
+	</s>
+	<s id="7062207723913835128-2610251315-1">
+		<tl f="D" t="p" o="Y8" c="BRB" n="86552"/>
+		<dp pt="2610251315" pp="4" l="RB67" fb="RB67" ppth="Raisting|Dießen|St Alban|Riederau|Utting|Schondorf(Bay)|St Ottilien|Geltendorf|Walleshausen|Egling|Schmiechen(Schwab)|Merching|Mering|Mering-St Afra|Kissing|Augsburg-Hochzoll|Augsburg Haunstetterstraße|Augsburg Hbf|Augsburg-Oberhausen"/>
+	</s>
+	<s id="-5951729139622359209-2610251317-3">
+		<tl f="N" t="p" o="800790" c="RB" n="59519"/>
+		<ar pt="2610251339" pp="2" l="RB65" fb="RB65" ppth="Starnberg|Tutzing"/>
+	</s>
+	<s id="-4460509880723802165-2610251318-1">
+		<tl f="N" t="p" o="800790" c="RB" n="59518"/>
+		<dp pt="2610251318" pp="2" l="RB65" fb="RB65" ppth="Tutzing|Starnberg"/>
+	</s>
+</timetable>

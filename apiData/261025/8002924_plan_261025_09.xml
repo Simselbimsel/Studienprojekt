@@ -1,0 +1,65 @@
+<?xml version="1.0" ?>
+<timetable station="Hof Hbf">
+	<s id="1054117684669084790-2610250542-13">
+		<tl f="N" t="p" o="8007H3" c="RE" n="4852"/>
+		<ar pt="2610250920" pp="6a" l="RE2" fb="RE2" ppth="München Hbf|Freising|Moosburg|Landshut(Bay)Hbf|Ergoldsbach|Neufahrn(Niederbay)|Eggmühl|Regensburg Hbf|Schwandorf|Weiden(Oberpf)|Wiesau(Oberpf)|Marktredwitz"/>
+	</s>
+	<s id="7469438209092848329-2610250737-7">
+		<tl f="N" t="p" o="800759" c="RE" n="3023"/>
+		<ar pt="2610250924" pp="4b" l="RE30" fb="RE30" ppth="Nürnberg Hbf|Neuhaus(Pegnitz)|Pegnitz|Bayreuth Hbf|Trebgast|Münchberg"/>
+	</s>
+	<s id="-5570979203643524016-2610250759-7">
+		<tl f="D" t="p" o="CXRE" c="MRB" n="94006"/>
+		<ar pt="2610250931" pp="10" l="RE3" fb="RE3" ppth="Chemnitz-Siegmar|Hohenstein-Ernstthal|Glauchau(Sachs)|Zwickau(Sachs)Hbf|Reichenbach(Vogtl) ob Bf|Plauen(Vogtl) ob Bf"/>
+	</s>
+	<s id="-6660891569049569501-2610250831-10">
+		<tl f="D" t="p" o="A9" c="ag" n="84493"/>
+		<ar pt="2610250911" pp="4b" l="RB98" fb="RB98" ppth="Helmbrechts|Wüstenselbitz|Hildbrandsgrün|Unfriedsdorf|Münchberg|Seulbitz|Förbau|Schwarzenbach(Saale)|Oberkotzau"/>
+	</s>
+	<s id="5422307240267159621-2610250839-9">
+		<tl f="D" t="p" o="A9" c="ag" n="84558"/>
+		<ar pt="2610250922" pp="10" l="RB97" fb="RB97" ppth="Bad Steben|Höllenthal|Marxgrün|Naila|Selbitz|Rothenbürg|Köditz|Hof-Neuhof"/>
+		<dp pt="2610250922" pp="10" l="RB97" fb="RB97" ppth="Oberkotzau|Martinlamitz|Kirchenlamitz Ost|Marktleuthen|Röslau|Wunsiedel-Holenbrunn|Marktredwitz"/>
+	</s>
+	<s id="5516937796877186889-2610250906-9">
+		<tl f="D" t="p" o="A9" c="ag" n="84698"/>
+		<ar pt="2610250945" pp="4b" l="RB96" fb="RB96" ppth="Selb Stadt|Selb Nord|Erkersreuth|Selb-Plößberg|Schönwald(Oberfr)|Rehau|Wurlitz|Oberkotzau"/>
+		<dp pt="2610250948" pp="4b" l="RB96" fb="RB96" ppth="Hof-Neuhof"/>
+	</s>
+	<s id="-2718914566779437325-2610250906-8">
+		<tl f="D" t="p" o="A9" c="ag" n="84551"/>
+		<ar pt="2610250938" pp="4b" l="RB97" fb="RB97" ppth="Marktredwitz|Wunsiedel-Holenbrunn|Röslau|Marktleuthen|Kirchenlamitz Ost|Martinlamitz|Oberkotzau"/>
+		<dp pt="2610250939" pp="4b" l="RB97" fb="RB97" ppth="Hof-Neuhof|Köditz|Rothenbürg|Selbitz|Naila|Marxgrün|Höllenthal|Bad Steben"/>
+	</s>
+	<s id="-7593818763015329112-2610250912-1">
+		<tl f="D" t="p" o="A9" c="ag" n="84675"/>
+		<dp pt="2610250912" pp="1a" l="RB96" fb="RB96" wings="-4267756155054343037-2610250912" ppth="Oberkotzau|Wurlitz|Rehau|Schönwald(Oberfr)|Selb-Plößberg|Erkersreuth|Selb Nord|Selb Stadt"/>
+		<tra t="v" id="8720431414523099421" ref-to="-4267756155054343037-2610250912" s="a" o="p" jt="j"/>
+	</s>
+	<s id="-4267756155054343037-2610250912-1">
+		<tl f="D" t="p" o="A9" c="ag" n="20875"/>
+		<dp pt="2610250912" pp="1a" l="RB95" fb="RB95" ppth="Oberkotzau|Wurlitz|Rehau|Schönwald(Oberfr)|Selb-Plößberg|As(CZ)|Hazlov|Vojtanov obec|Frantiskovy Lazne|Frantiskovy Lazne Aquaforum|Cheb|Cheb-Skalka|Pomezi nad Ohri|Schirnding|Arzberg(Oberfr)|Marktredwitz"/>
+		<tra t="v" id="8720431414523099421" ref-from="-7593818763015329112-2610250912" s="a" o="p" jt="j"/>
+	</s>
+	<s id="6116006831011330843-2610250928-1">
+		<tl f="D" t="p" o="CXRE" c="MRB" n="94013"/>
+		<dp pt="2610250928" pp="6b" l="RE3" fb="RE3" ppth="Plauen(Vogtl) ob Bf|Reichenbach(Vogtl) ob Bf|Zwickau(Sachs)Hbf|Glauchau(Sachs)|Hohenstein-Ernstthal|Chemnitz-Siegmar"/>
+	</s>
+	<s id="6331918813201375284-2610250934-1">
+		<tl f="N" t="p" o="800759" c="RE" n="33886"/>
+		<dp pt="2610250934" pp="8" l="RE35" fb="RE35" ppth="Oberkotzau|Schwarzenbach(Saale)|Münchberg|Stammbach|Marktschorgast|Neuenmarkt-Wirsberg|Trebgast|Harsdorf|Bayreuth Hbf|Creußen(Oberfr)|Pegnitz|Hersbruck(r Pegnitz)|Nürnberg Hbf"/>
+	</s>
+	<s id="1950167135829897909-2610250934-1">
+		<tl f="D" t="p" o="EB" c="EB" n="81018"/>
+		<dp pt="2610250934" pp="1b" l="RB13" fb="RB13" ppth="Feilitzsch|Schönberg(Vogtl)|Mehltheuer|Zeulenroda unt Bf|Triebes|Hohenleuben|Loitsch-Hohenleuben|Weida Altstadt|Weida Mitte|Weida|Wolfsgefärth|Gera-Zwötzen|Gera Süd|Gera Hbf|Bad Köstritz|Crossen a d Elster|Crossen Ort|Wetterzeube|Zeitz|Profen|Pegau|Zwenkau-Großdalzig|Leipzig-Knauthain|Leipzig-Plagwitz|Leipzig Hbf"/>
+	</s>
+	<s id="-846461351849410953-2610250940-1">
+		<tl f="N" t="p" o="800759" c="RE" n="4882"/>
+		<dp pt="2610250940" pp="6" l="RE31" fb="RE31" ppth="Oberkotzau|Marktredwitz"/>
+	</s>
+	<s id="-6453081645780716038-2610250956-2">
+		<tl f="D" t="p" o="A9" c="ag" n="84504"/>
+		<ar pt="2610250959" pp="8" l="RB99" fb="RB99" ppth="Hof-Neuhof"/>
+		<dp pt="2610251000" pp="8" l="RB99" fb="RB99" ppth="Oberkotzau|Schwarzenbach(Saale)|Förbau|Seulbitz|Münchberg|Stammbach|Marktschorgast|Neuenmarkt-Wirsberg"/>
+	</s>
+</timetable>
