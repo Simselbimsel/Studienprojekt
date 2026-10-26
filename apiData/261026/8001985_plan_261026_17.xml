@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<timetable station="Finningerstraße">
+	<s id="7368828201098654698-2610261632-9">
+		<tl f="N" t="p" o="8007DU" c="RB" n="57676"/>
+		<ar pt="2610261728" pp="5" l="RS7" fb="RS7" ppth="Memmingen|Kellmünz|Altenstadt(Iller)|Illertissen|Bellenberg|Vöhringen|Senden|Gerlenhofen"/>
+		<dp pt="2610261729" pp="5" l="RS7" fb="RS7" ppth="Neu-Ulm|Ulm Hbf"/>
+	</s>
+	<s id="-6653238911094334521-2610261700-3">
+		<tl f="N" t="p" o="8007DU" c="RB" n="57477"/>
+		<ar pt="2610261705" pp="6" l="RS71" fb="RS71" wings="-385719785452245587-2610261700" ppth="Ulm Hbf|Neu-Ulm"/>
+		<dp pt="2610261706" pp="6" l="RS71" fb="RS71" wings="-385719785452245587-2610261700" ppth="Gerlenhofen|Senden|Wullenstetten|Witzighausen|Weißenhorn-Eschach|Weißenhorn"/>
+		<tra t="v" id="-4031364964507275783" ref-to="-385719785452245587-2610261700" s="a" o="p"/>
+	</s>
+	<s id="-385719785452245587-2610261700-3">
+		<tl f="N" t="p" o="8007DU" c="RB" n="57677"/>
+		<ar pt="2610261705" pp="6" l="RS7" fb="RS7" ppth="Ulm Hbf|Neu-Ulm"/>
+		<dp pt="2610261706" pp="6" l="RS7" fb="RS7" ppth="Gerlenhofen|Senden|Vöhringen|Illertissen"/>
+		<tra t="v" id="-4031364964507275783" ref-from="-6653238911094334521-2610261700" s="a" o="p"/>
+	</s>
+	<s id="-4244171417851163672-2610261702-4">
+		<tl f="N" t="p" o="8007DU" c="RB" n="57478"/>
+		<ar pt="2610261728" pp="5" l="RS71" fb="RS71" ppth="Weißenhorn|Senden|Gerlenhofen"/>
+		<dp pt="2610261729" pp="5" l="RS71" fb="RS71" ppth="Neu-Ulm|Ulm Hbf"/>
+	</s>
+	<s id="6477074124113906689-2610261731-3">
+		<tl f="N" t="p" o="8007DU" c="RB" n="57479"/>
+		<ar pt="2610261736" pp="6" l="RS71" fb="RS71" wings="-541953832783889875-2610261731" ppth="Ulm Hbf|Neu-Ulm"/>
+		<dp pt="2610261737" pp="6" l="RS71" fb="RS71" wings="-541953832783889875-2610261731" ppth="Senden|Wullenstetten|Witzighausen|Weißenhorn-Eschach|Weißenhorn"/>
+		<tra t="v" id="135742691377014952" ref-to="-541953832783889875-2610261731" s="a" o="p"/>
+	</s>
+	<s id="-541953832783889875-2610261731-3">
+		<tl f="N" t="p" o="8007DU" c="RB" n="57785"/>
+		<ar pt="2610261736" pp="6" l="RS7" fb="RS7" ppth="Ulm Hbf|Neu-Ulm"/>
+		<dp pt="2610261737" pp="6" l="RS7" fb="RS7" ppth="Senden|Vöhringen|Bellenberg|Illertissen|Altenstadt(Iller)|Kellmünz|Memmingen"/>
+		<tra t="v" id="135742691377014952" ref-from="6477074124113906689-2610261731" s="a" o="p"/>
+	</s>
+	<s id="-7880928382761053249-2610261734-7">
+		<tl f="N" t="p" o="8007DU" c="RB" n="57480"/>
+		<ar pt="2610261753" pp="5" l="RS71" fb="RS71" ppth="Weißenhorn|Weißenhorn-Eschach|Witzighausen|Wullenstetten|Senden|Gerlenhofen"/>
+		<dp pt="2610261754" pp="5" l="RS71" fb="RS71" ppth="Neu-Ulm|Ulm Hbf"/>
+	</s>
+</timetable>
