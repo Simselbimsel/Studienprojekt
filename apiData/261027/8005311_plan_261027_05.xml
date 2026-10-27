@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<timetable station="Schaftlach">
+	<s id="405582468206151502-2610270449-6">
+		<tl t="p" o="T8" c="Bus" n="16802"/>
+		<ar pt="2610270526" pp="" l="RB56" fb="Bus RB56" ppth="Lenggries|Obergries|Gaißach|Bad Tölz|Reichersbeuern"/>
+	</s>
+	<s id="4539189617028958252-2610270505-5">
+		<tl f="D" t="p" o="T8" c="BRB" n="86902"/>
+		<ar pt="2610270525" pp="2" l="RB57" fb="RB57" ppth="Tegernsee|Gmund(Tegernsee)|Finsterwald|Moosrain"/>
+		<dp pt="2610270531" pp="2" l="RB57" fb="RB57" wings="5710210953548049521-2610270531" ppth="Warngau|Holzkirchen|München Siemenswerke|München Harras|München Donnersbergerbrücke|München Hbf Gl.27-36"/>
+		<tra t="v" id="4330053595794409944" ref-to="5710210953548049521-2610270531" s="a" o="p" jt="j"/>
+	</s>
+	<s id="5710210953548049521-2610270531-1">
+		<tl f="D" t="p" o="T8" c="BRB" n="86802"/>
+		<dp pt="2610270531" pp="2" l="RB56" fb="RB56" ppth="Warngau|Holzkirchen|München Siemenswerke|München Harras|München Donnersbergerbrücke|München Hbf Gl.27-36"/>
+		<tra t="v" id="4330053595794409944" ref-from="4539189617028958252-2610270505" s="a" o="p" jt="j"/>
+	</s>
+</timetable>
