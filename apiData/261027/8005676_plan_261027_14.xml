@@ -1,0 +1,67 @@
+<?xml version="1.0" ?>
+<timetable station="Starnberg">
+	<s id="4849203187736792256-2610271133-14">
+		<tl f="N" t="p" o="800790" c="RB" n="5515"/>
+		<ar pt="2610271408" pp="2" l="RB60" fb="RB60" wings="-5384877989023942908-2610271236" pde="Pfronten-Steinach" ppth="Ehrwald Zugspitzbahn|Untergrainau|Garmisch-Partenkirchen Hausberg|Garmisch-Partenkirchen|Farchant|Oberau|Eschenlohe|Ohlstadt|Murnau|Uffing a Staffelsee|Huglfing|Weilheim(Oberbay)|Tutzing"/>
+		<tra t="v" id="1624041075185414189" ref-to="-5384877989023942908-2610271236" s="a" o="p" jt="s"/>
+	</s>
+	<s id="-5384877989023942908-2610271236-13">
+		<tl f="N" t="p" o="800790" c="RB" n="5414"/>
+		<ar pt="2610271408" pp="2" l="RB6" fb="RB6" ppth="Mittenwald|Klais|Garmisch-Partenkirchen|Farchant|Oberau|Eschenlohe|Ohlstadt|Murnau|Uffing a Staffelsee|Huglfing|Weilheim(Oberbay)|Tutzing"/>
+		<tra t="v" id="1624041075185414189" ref-from="4849203187736792256-2610271133" s="a" o="p" jt="s"/>
+	</s>
+	<s id="-8450345118481401043-2610271352-9">
+		<tl f="N" t="p" o="800790" c="RB" n="59620"/>
+		<ar pt="2610271439" pp="2" l="RB66" fb="RB66" wings="-2599470916340853974-2610271418" ppth="Kochel|Benediktbeuern|Bichl|Penzberg|Iffeldorf|Seeshaupt|Bernried|Tutzing"/>
+		<tra t="v" id="-2861687160485130233" ref-to="-2599470916340853974-2610271418" s="a" o="p" jt="s"/>
+	</s>
+	<s id="-2034296071492859649-2610271357-3">
+		<tl f="S" t="p" o="800725" c="S" n="22352"/>
+		<ar pt="2610271404" pp="3" l="S6" fb="S6" ppth="Gauting|Starnberg Nord"/>
+		<dp pt="2610271405" pp="3" l="S6" fb="S6" ppth="Possenhofen|Feldafing|Tutzing"/>
+	</s>
+	<s id="-775252114436548209-2610271404-4">
+		<tl f="S" t="p" o="800725" c="S" n="22361"/>
+		<ar pt="2610271414" pp="4" l="S6" fb="S6" ppth="Tutzing|Feldafing|Possenhofen"/>
+		<dp pt="2610271414" pp="4" l="S6" fb="S6" ppth="Starnberg Nord|Gauting"/>
+	</s>
+	<s id="-317600421043829000-2610271417-3">
+		<tl f="S" t="p" o="800725" c="S" n="22354"/>
+		<ar pt="2610271424" pp="3" l="S6" fb="S6" ppth="Gauting|Starnberg Nord"/>
+		<dp pt="2610271425" pp="3" l="S6" fb="S6" ppth="Possenhofen|Feldafing|Tutzing"/>
+	</s>
+	<s id="6876905235127626872-2610271417-1">
+		<tl f="N" t="p" o="800790" c="RB" n="59521"/>
+		<dp pt="2610271417" pp="2" l="RB65" fb="RB65" wings="7886775100366634813-2610271417" ppth="Tutzing|Weilheim(Oberbay)"/>
+		<tra t="v" id="5302450158054464745" ref-to="7886775100366634813-2610271417" s="a" o="p" jt="j"/>
+	</s>
+	<s id="7886775100366634813-2610271417-1">
+		<tl f="N" t="p" o="800790" c="RB" n="59621"/>
+		<dp pt="2610271417" pp="2" l="RB66" fb="RB66" ppth="Tutzing|Bernried|Seeshaupt|Iffeldorf|Penzberg|Bichl|Benediktbeuern|Kochel"/>
+		<tra t="v" id="5302450158054464745" ref-from="6876905235127626872-2610271417" s="a" o="p" jt="j"/>
+	</s>
+	<s id="-2599470916340853974-2610271418-3">
+		<tl f="N" t="p" o="800790" c="RB" n="59520"/>
+		<ar pt="2610271439" pp="2" l="RB65" fb="RB65" ppth="Weilheim(Oberbay)|Tutzing"/>
+		<tra t="v" id="-2861687160485130233" ref-from="-8450345118481401043-2610271352" s="a" o="p" jt="s"/>
+	</s>
+	<s id="5116310158108819019-2610271424-4">
+		<tl f="S" t="p" o="800725" c="S" n="22363"/>
+		<ar pt="2610271434" pp="4" l="S6" fb="S6" ppth="Tutzing|Feldafing|Possenhofen"/>
+		<dp pt="2610271434" pp="4" l="S6" fb="S6" ppth="Starnberg Nord|Gauting"/>
+	</s>
+	<s id="-3081294707655288113-2610271437-3">
+		<tl f="S" t="p" o="800725" c="S" n="22356"/>
+		<ar pt="2610271444" pp="3" l="S6" fb="S6" ppth="Gauting|Starnberg Nord"/>
+		<dp pt="2610271445" pp="3" l="S6" fb="S6" ppth="Possenhofen|Feldafing|Tutzing"/>
+	</s>
+	<s id="1390093573644993981-2610271444-4">
+		<tl f="S" t="p" o="800725" c="S" n="22365"/>
+		<ar pt="2610271454" pp="4" l="S6" fb="S6" ppth="Tutzing|Feldafing|Possenhofen"/>
+		<dp pt="2610271454" pp="4" l="S6" fb="S6" ppth="Starnberg Nord|Gauting"/>
+	</s>
+	<s id="-599984188294981237-2610271451-1">
+		<tl f="N" t="p" o="800790" c="RB" n="59451"/>
+		<dp pt="2610271451" pp="1" l="RB6" fb="RB6" ppth="Tutzing|Weilheim(Oberbay)|Huglfing|Uffing a Staffelsee|Murnau|Ohlstadt|Eschenlohe|Oberau|Farchant|Garmisch-Partenkirchen"/>
+	</s>
+</timetable>

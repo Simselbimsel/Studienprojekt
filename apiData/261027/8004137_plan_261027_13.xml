@@ -1,0 +1,107 @@
+<?xml version="1.0" ?>
+<timetable station="München Siemenswerke">
+	<s id="5698937919719489912-2610271222-8">
+		<tl f="D" t="p" o="T8" c="BRB" n="86924"/>
+		<ar pt="2610271322" pp="1" l="RB57" fb="RB57" wings="-2595108713144542228-2610271247|5035596748469706650-2610271234" ppth="Tegernsee|Gmund(Tegernsee)|Finsterwald|Moosrain|Schaftlach|Warngau|Holzkirchen"/>
+		<dp pt="2610271323" pp="1" l="RB57" fb="RB57" wings="-2595108713144542228-2610271247|5035596748469706650-2610271234" ppth="München Harras|München Donnersbergerbrücke|München Hbf Gl.27-36"/>
+		<tra t="v" id="2741949423238979860" ref-to="-2595108713144542228-2610271247" s="a" o="p"/>
+		<tra t="v" id="7685553342593353210" ref-to="5035596748469706650-2610271234" s="a" o="p"/>
+	</s>
+	<s id="1016695807253493831-2610271232-12">
+		<tl f="D" t="p" o="T8" c="BRB" n="77326"/>
+		<ar pt="2610271348" pp="1" l="RB55" fb="RB55" ppth="Bayrischzell|Osterhofen(Oberbay)|Geitau|Fischbachau|Fischhausen-Neuhaus|Schliersee|Hausham|Agatharied|Miesbach|Darching|Holzkirchen"/>
+		<dp pt="2610271349" pp="1" l="RB55" fb="RB55" ppth="München Harras|München Donnersbergerbrücke|München Hbf Gl.27-36"/>
+		<tra t="v" id="7529536373426072311" ref-from="1117781773822363265-2610271252" s="a" o="p"/>
+	</s>
+	<s id="5035596748469706650-2610271234-7">
+		<tl f="D" t="p" o="T8" c="BRB" n="77324"/>
+		<ar pt="2610271322" pp="1" l="RB55" fb="RB55" ppth="Schliersee|Hausham|Agatharied|Miesbach|Darching|Holzkirchen"/>
+		<dp pt="2610271323" pp="1" l="RB55" fb="RB55" ppth="München Harras|München Donnersbergerbrücke|München Hbf Gl.27-36"/>
+		<tra t="v" id="7685553342593353210" ref-from="5698937919719489912-2610271222" s="a" o="p"/>
+		<tra t="v" id="8211853059963658056" ref-from="-2595108713144542228-2610271247" s="a" o="p"/>
+	</s>
+	<s id="9200032258854766354-2610271243-11">
+		<tl f="S" t="p" o="800725" c="S" n="6763"/>
+		<ar pt="2610271313" pp="1" l="S7" fb="S7" ppth="Wolfratshausen|Icking|Ebenhausen-Schäftlarn|Hohenschäftlarn|Baierbrunn|Buchenhain|Höllriegelskreuth|Pullach|Großhesselohe Isartalbf|München-Solln"/>
+		<dp pt="2610271313" pp="1" l="S7" fb="S7" ppth="München-Mittersendling|München Harras|München Heimeranplatz|München Donnersbergerbrücke|München Hbf Gl.27-36"/>
+	</s>
+	<s id="-2595108713144542228-2610271247-4">
+		<tl f="D" t="p" o="T8" c="BRB" n="86824"/>
+		<ar pt="2610271322" pp="1" l="RB56" fb="RB56" wings="5035596748469706650-2610271234" ppth="Schaftlach|Warngau|Holzkirchen"/>
+		<dp pt="2610271323" pp="1" l="RB56" fb="RB56" wings="5035596748469706650-2610271234" ppth="München Harras|München Donnersbergerbrücke|München Hbf Gl.27-36"/>
+		<tra t="v" id="2741949423238979860" ref-from="5698937919719489912-2610271222" s="a" o="p"/>
+		<tra t="v" id="8211853059963658056" ref-to="5035596748469706650-2610271234" s="a" o="p"/>
+	</s>
+	<s id="1117781773822363265-2610271252-8">
+		<tl f="D" t="p" o="T8" c="BRB" n="86926"/>
+		<ar pt="2610271348" pp="1" l="RB57" fb="RB57" wings="1016695807253493831-2610271232" ppth="Tegernsee|Gmund(Tegernsee)|Finsterwald|Moosrain|Schaftlach|Warngau|Holzkirchen"/>
+		<dp pt="2610271349" pp="1" l="RB57" fb="RB57" wings="1016695807253493831-2610271232" ppth="München Harras|München Donnersbergerbrücke|München Hbf Gl.27-36"/>
+		<tra t="v" id="7529536373426072311" ref-to="1016695807253493831-2610271232" s="a" o="p"/>
+	</s>
+	<s id="737716607836549944-2610271254-6">
+		<tl f="S" t="p" o="800725" c="S" n="6758"/>
+		<ar pt="2610271305" pp="2" l="S7" fb="S7" ppth="München Hbf Gl.27-36|München Donnersbergerbrücke|München Heimeranplatz|München Harras|München-Mittersendling"/>
+		<dp pt="2610271306" pp="2" l="S7" fb="S7" ppth="München-Solln|Großhesselohe Isartalbf|Pullach|Höllriegelskreuth|Buchenhain|Baierbrunn|Hohenschäftlarn|Ebenhausen-Schäftlarn|Icking|Wolfratshausen"/>
+	</s>
+	<s id="-8724020236213151128-2610271302-4">
+		<tl f="D" t="p" o="T8" c="BRB" n="86823"/>
+		<ar pt="2610271312" pp="2" l="RB56" fb="RB56" wings="-6177512617754370922-2610271302" ppth="München Hbf Gl.27-36|München Donnersbergerbrücke|München Harras"/>
+		<dp pt="2610271313" pp="2" l="RB56" fb="RB56" wings="-6177512617754370922-2610271302" ppth="Holzkirchen|Warngau|Schaftlach"/>
+		<tra t="v" id="-8340684002269531009" ref-from="909266986409863894-2610271302" s="a" o="p"/>
+		<tra t="v" id="-1303501644795536833" ref-to="-6177512617754370922-2610271302" s="a" o="p"/>
+	</s>
+	<s id="-6177512617754370922-2610271302-4">
+		<tl f="D" t="p" o="T8" c="BRB" n="86923"/>
+		<ar pt="2610271312" pp="2" l="RB57" fb="RB57" ppth="München Hbf Gl.27-36|München Donnersbergerbrücke|München Harras"/>
+		<dp pt="2610271313" pp="2" l="RB57" fb="RB57" ppth="Holzkirchen|Warngau|Schaftlach|Moosrain|Finsterwald|Gmund(Tegernsee)|Tegernsee"/>
+		<tra t="v" id="-4523980623011038329" ref-from="909266986409863894-2610271302" s="a" o="p"/>
+		<tra t="v" id="-1303501644795536833" ref-from="-8724020236213151128-2610271302" s="a" o="p"/>
+	</s>
+	<s id="909266986409863894-2610271302-4">
+		<tl f="D" t="p" o="T8" c="BRB" n="77323"/>
+		<ar pt="2610271312" pp="2" l="RB55" fb="RB55" wings="-8724020236213151128-2610271302|-6177512617754370922-2610271302" ppth="München Hbf Gl.27-36|München Donnersbergerbrücke|München Harras"/>
+		<dp pt="2610271313" pp="2" l="RB55" fb="RB55" wings="-8724020236213151128-2610271302|-6177512617754370922-2610271302" ppth="Holzkirchen|Darching|Miesbach|Agatharied|Hausham|Schliersee|Fischhausen-Neuhaus|Fischbachau|Geitau|Osterhofen(Oberbay)|Bayrischzell"/>
+		<tra t="v" id="-8340684002269531009" ref-to="-8724020236213151128-2610271302" s="a" o="p"/>
+		<tra t="v" id="-4523980623011038329" ref-to="-6177512617754370922-2610271302" s="a" o="p"/>
+	</s>
+	<s id="-6392626741304496047-2610271303-11">
+		<tl f="S" t="p" o="800725" c="S" n="6765"/>
+		<ar pt="2610271333" pp="1" l="S7" fb="S7" ppth="Wolfratshausen|Icking|Ebenhausen-Schäftlarn|Hohenschäftlarn|Baierbrunn|Buchenhain|Höllriegelskreuth|Pullach|Großhesselohe Isartalbf|München-Solln"/>
+		<dp pt="2610271333" pp="1" l="S7" fb="S7" ppth="München-Mittersendling|München Harras|München Heimeranplatz|München Donnersbergerbrücke|München Hbf Gl.27-36"/>
+	</s>
+	<s id="-7730409648256831127-2610271308-6">
+		<tl f="D" t="p" o="M8" c="BRB" n="79615"/>
+		<ar pt="2610271320" pp="2" l="RB58" fb="RB58" ppth="München Hbf Gl.27-36|München Donnersbergerbrücke|München Heimeranplatz|München Harras|München-Mittersendling"/>
+		<dp pt="2610271321" pp="2" l="RB58" fb="RB58" ppth="München-Solln|Deisenhofen"/>
+	</s>
+	<s id="-5037903309970787241-2610271314-6">
+		<tl f="S" t="p" o="800725" c="S" n="6760"/>
+		<ar pt="2610271325" pp="2" l="S7" fb="S7" ppth="München Hbf Gl.27-36|München Donnersbergerbrücke|München Heimeranplatz|München Harras|München-Mittersendling"/>
+		<dp pt="2610271326" pp="2" l="S7" fb="S7" ppth="München-Solln|Großhesselohe Isartalbf|Pullach|Höllriegelskreuth|Buchenhain|Baierbrunn|Hohenschäftlarn|Ebenhausen-Schäftlarn|Icking|Wolfratshausen"/>
+	</s>
+	<s id="-2472397362343410773-2610271317-4">
+		<tl f="D" t="p" o="T8" c="BRB" n="86826"/>
+		<ar pt="2610271348" pp="1" l="RB56" fb="RB56" ppth="Schaftlach|Warngau|Holzkirchen"/>
+		<dp pt="2610271349" pp="1" l="RB56" fb="RB56" ppth="München Harras|München Donnersbergerbrücke|München Hbf Gl.27-36"/>
+	</s>
+	<s id="-3998493764530416933-2610271323-11">
+		<tl f="S" t="p" o="800725" c="S" n="6767"/>
+		<ar pt="2610271353" pp="1" l="S7" fb="S7" ppth="Wolfratshausen|Icking|Ebenhausen-Schäftlarn|Hohenschäftlarn|Baierbrunn|Buchenhain|Höllriegelskreuth|Pullach|Großhesselohe Isartalbf|München-Solln"/>
+		<dp pt="2610271353" pp="1" l="S7" fb="S7" ppth="München-Mittersendling|München Harras|München Heimeranplatz|München Donnersbergerbrücke|München Hbf Gl.27-36"/>
+	</s>
+	<s id="5010665733531127679-2610271334-3">
+		<tl f="D" t="p" o="M8" c="BRB" n="79616"/>
+		<ar pt="2610271341" pp="1" l="RB58" fb="RB58" ppth="Deisenhofen|München-Solln"/>
+		<dp pt="2610271342" pp="1" l="RB58" fb="RB58" ppth="München Harras|München Heimeranplatz|München Donnersbergerbrücke|München Hbf Gl.27-36"/>
+	</s>
+	<s id="1881505556054314363-2610271334-6">
+		<tl f="S" t="p" o="800725" c="S" n="6762"/>
+		<ar pt="2610271345" pp="2" l="S7" fb="S7" ppth="München Hbf Gl.27-36|München Donnersbergerbrücke|München Heimeranplatz|München Harras|München-Mittersendling"/>
+		<dp pt="2610271346" pp="2" l="S7" fb="S7" ppth="München-Solln|Großhesselohe Isartalbf|Pullach|Höllriegelskreuth|Buchenhain|Baierbrunn|Hohenschäftlarn|Ebenhausen-Schäftlarn|Icking|Wolfratshausen"/>
+	</s>
+	<s id="-7631117004556906559-2610271338-6">
+		<tl f="D" t="p" o="M8" c="BRB" n="79529"/>
+		<ar pt="2610271351" pp="2" l="RB58" fb="RB58" ppth="München Hbf Gl.27-36|München Donnersbergerbrücke|München Heimeranplatz|München Harras|München-Mittersendling"/>
+		<dp pt="2610271351" pp="2" l="RB58" fb="RB58" ppth="München-Solln|Deisenhofen|Holzkirchen|Kreuzstraße|Westerham|Bruckmühl|Heufeldmühle|Hinrichssegen|Heufeld|Bad Aibling|Bad Aibling Kurpark|Kolbermoor|Rosenheim Aicherpark|Rosenheim"/>
+	</s>
+</timetable>
