@@ -1,0 +1,56 @@
+<?xml version="1.0" ?>
+<timetable station="Hersbruck(r Pegnitz)">
+	<s id="-2963672607633888684-2610271942-10">
+		<tl f="N" t="p" o="800759" c="RE" n="3582"/>
+		<ar pt="2610272058" pp="1" l="RE40" fb="RE40" wings="-6523495454278959179-2610271953" ppth="Regensburg Hbf|Regenstauf|Maxhütte-Haidhof|Schwandorf|Amberg|Sulzbach-Rosenberg|Neukirchen(b Sulzb)|Etzelwang|Hartmannshof"/>
+		<dp pt="2610272059" pp="1" l="RE40" fb="RE40" wings="-6523495454278959179-2610271953" ppth="Nürnberg Hbf"/>
+		<tra t="v" id="-3191940298229369569" ref-to="-6523495454278959179-2610271953" s="a" o="p"/>
+	</s>
+	<s id="7740626685801539600-2610271949-4">
+		<tl f="N" t="p" o="800759" c="RE" n="3412"/>
+		<ar pt="2610272039" pp="3" l="RE32" fb="RE32" ppth="Neuenmarkt-Wirsberg|Bayreuth Hbf|Pegnitz"/>
+		<dp pt="2610272040" pp="3" l="RE32" fb="RE32" ppth="Nürnberg Hbf"/>
+	</s>
+	<s id="-6523495454278959179-2610271953-10">
+		<tl f="N" t="p" o="800759" c="RE" n="3482"/>
+		<ar pt="2610272058" pp="1" l="RE41" fb="RE41" ppth="Neustadt(Waldnaab)|Altenstadt(Waldnaab)|Weiden(Oberpf)|Weiherhammer|Freihung|Vilseck|Neukirchen(b Sulzb)|Etzelwang|Hartmannshof"/>
+		<dp pt="2610272059" pp="1" l="RE41" fb="RE41" ppth="Nürnberg Hbf"/>
+		<tra t="v" id="-3191940298229369569" ref-from="-2963672607633888684-2610271942" s="a" o="p"/>
+	</s>
+	<s id="2465922226666099906-2610272001-6">
+		<tl f="N" t="p" o="800720" c="RB" n="58546"/>
+		<ar pt="2610272020" pp="3" l="RB30" fb="RB30" ppth="Neuhaus(Pegnitz)|Velden(b Hersbruck)|Rupprechtstegen|Vorra(Pegnitz)|Hohenstadt(Mittelfr)"/>
+		<dp pt="2610272021" pp="3" l="RB30" fb="RB30" ppth="Reichenschwand|Neunkirchen a Sand|Lauf(rechts Pegnitz)|Ludwigshöhe|Rückersdorf(Mfr)|Behringersdorf|Nürnberg-Erlenstegen|Nürnberg Ost|Nürnberg Hbf"/>
+	</s>
+	<s id="-6033184551675544402-2610272005-2">
+		<tl f="N" t="p" o="800759" c="RE" n="33897"/>
+		<ar pt="2610272019" pp="2" l="RE32" fb="RE32" ppth="Nürnberg Hbf"/>
+		<dp pt="2610272020" pp="2" l="RE32" fb="RE32" ppth="Pegnitz|Creußen(Oberfr)|Bayreuth Hbf|Harsdorf|Trebgast|Neuenmarkt-Wirsberg|Marktschorgast|Stammbach|Münchberg|Schwarzenbach(Saale)|Oberkotzau|Hof Hbf"/>
+	</s>
+	<s id="2628463176121204314-2610272008-10">
+		<tl f="N" t="p" o="800720" c="RB" n="58559"/>
+		<ar pt="2610272039" pp="2" l="RB30" fb="RB30" ppth="Nürnberg Hbf|Nürnberg Ost|Nürnberg-Erlenstegen|Behringersdorf|Rückersdorf(Mfr)|Ludwigshöhe|Lauf(rechts Pegnitz)|Neunkirchen a Sand|Reichenschwand"/>
+		<dp pt="2610272039" pp="2" l="RB30" fb="RB30" ppth="Hohenstadt(Mittelfr)|Vorra(Pegnitz)|Rupprechtstegen|Velden(b Hersbruck)|Neuhaus(Pegnitz)"/>
+	</s>
+	<s id="-6379876737835516962-2610272037-2">
+		<tl f="N" t="p" o="800759" c="RE" n="3583"/>
+		<ar pt="2610272052" pp="2" l="RE40" fb="RE40" wings="-8824020438503591764-2610272037|-3182669734444239041-2610272037" ppth="Nürnberg Hbf"/>
+		<dp pt="2610272058" pp="2" l="RE40" fb="RE40" wings="-8824020438503591764-2610272037" ppth="Hartmannshof|Etzelwang|Neukirchen(b Sulzb)|Sulzbach-Rosenberg|Amberg|Schwandorf"/>
+		<tra t="v" id="-4630406367993315422" ref-to="-3182669734444239041-2610272037" s="a" o="p" jt="s"/>
+		<tra t="v" id="3483030530914470235" ref-to="-8824020438503591764-2610272037" s="a" o="p"/>
+		<tra t="v" id="7326804231444950064" ref-to="-8824020438503591764-2610272037" s="a" o="p" jt="s"/>
+	</s>
+	<s id="-3182669734444239041-2610272037-2">
+		<tl f="N" t="p" o="800759" c="RE" n="3095"/>
+		<ar pt="2610272052" pp="2" l="RE30" fb="RE30" ppth="Nürnberg Hbf"/>
+		<dp pt="2610272054" pp="2" l="RE30" fb="RE30" ppth="Neuhaus(Pegnitz)|Pegnitz|Schnabelwaid|Creußen(Oberfr)|Bayreuth Hbf"/>
+		<tra t="v" id="-4630406367993315422" ref-from="-6379876737835516962-2610272037" s="a" o="p" jt="s"/>
+	</s>
+	<s id="-8824020438503591764-2610272037-2">
+		<tl f="N" t="p" o="800759" c="RE" n="3483"/>
+		<ar pt="2610272052" pp="2" l="RE41" fb="RE41" ppth="Nürnberg Hbf"/>
+		<dp pt="2610272058" pp="2" l="RE41" fb="RE41" ppth="Hartmannshof|Etzelwang|Neukirchen(b Sulzb)|Vilseck|Freihung|Weiherhammer|Weiden(Oberpf)|Altenstadt(Waldnaab)|Neustadt(Waldnaab)"/>
+		<tra t="v" id="3483030530914470235" ref-from="-6379876737835516962-2610272037" s="a" o="p"/>
+		<tra t="v" id="7326804231444950064" ref-from="-6379876737835516962-2610272037" s="a" o="p" jt="s"/>
+	</s>
+</timetable>

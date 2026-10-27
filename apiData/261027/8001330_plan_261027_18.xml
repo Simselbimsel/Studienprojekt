@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<timetable station="Cham(Oberpf)">
+	<s id="7834592871260453306-2610271712-6">
+		<tl t="p" o="O9" c="Bus" n="64813"/>
+		<ar pt="2610271832" pp="" l="RB27" fb="Bus RB27" ppth="Schwandorf|Bodenwöhr Nord|Neubäu|Roding|Pösing"/>
+	</s>
+	<s id="1469048764090817990-2610271736-11">
+		<tl t="p" o="O9" c="OPB" n="79812"/>
+		<ar pt="2610271832" pp="1a" l="RB28" fb="RB28" tra="2822972217613613254-2610271841-1" ppth="Lam|Arrach|Hohenwarth|Hohenwarth Campingplatz|Grafenwiesen|Zellerthal|Bad Kötzting|Blaibach(Oberpf)|Miltach|Chamerau"/>
+		<tra t="d" id="-7987035408076831821" ref-to="2822972217613613254-2610271841-1" s="a" o="p"/>
+	</s>
+	<s id="-2298815271964683921-2610271751-5">
+		<tl t="p" o="O9" c="OPB" n="79778"/>
+		<ar pt="2610271813" pp="3" l="RB27" fb="RB27" ppth="Furth im Wald|Arnschwang|Weiding|Kothmaißling"/>
+	</s>
+	<s id="-2550199967753754396-2610271755-2">
+		<tl t="p" o="A8N" c="Bus" n="61363"/>
+		<ar pt="2610271850" pp="" l="RE25" fb="Bus RE25" ppth="Schwandorf"/>
+		<dp pt="2610271850" pp="" l="RE25" fb="Bus RE25" ppth="Furth im Wald|Domazlice"/>
+	</s>
+	<s id="2643777278460102200-2610271818-1">
+		<tl t="p" o="O9" c="Bus" n="64778"/>
+		<dp pt="2610271818" pp="" l="RB27" fb="Bus RB27" ppth="Pösing|Roding|Neubäu|Bodenwöhr Nord|Schwandorf"/>
+	</s>
+	<s id="7540639847515698872-2610271837-1">
+		<tl t="p" o="O9" c="OPB" n="79813"/>
+		<dp pt="2610271837" pp="1" l="RB28" fb="RB28" ppth="Chamerau|Miltach|Blaibach(Oberpf)|Bad Kötzting|Zellerthal|Grafenwiesen|Hohenwarth Campingplatz|Hohenwarth|Arrach|Lam"/>
+	</s>
+	<s id="2822972217613613254-2610271841-1">
+		<tl t="p" o="O9" c="OPB" n="79777"/>
+		<dp pt="2610271841" pp="1a" l="RB27" fb="RB27" tra="1469048764090817990-2610271736-11" ppth="Kothmaißling|Weiding|Arnschwang|Furth im Wald"/>
+		<tra t="d" id="-7987035408076831821" ref-from="1469048764090817990-2610271736-11" s="a" o="p"/>
+	</s>
+</timetable>
