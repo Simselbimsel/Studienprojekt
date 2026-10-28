@@ -1,0 +1,63 @@
+<?xml version="1.0" ?>
+<timetable station="München Hbf">
+	<s id="2998770966738646951-2610281509-15">
+		<tl f="F" t="p" o="80" c="ICE" n="693"/>
+		<ar pt="2610282322" pp="14" fb="ICE 693" ppth="Berlin Gesundbrunnen|Berlin Hbf|Berlin Südkreuz|Lutherstadt Wittenberg Hbf|Leipzig Hbf|Erfurt Hbf|Eisenach Hbf|Fulda|Frankfurt(Main)Süd|Mannheim Hbf|Stuttgart Hbf|Ulm Hbf|Augsburg Hbf|München-Pasing"/>
+	</s>
+	<s id="-4903045561539693758-2610281653-11">
+		<tl f="F" t="p" o="80" c="ICE" n="683"/>
+		<ar pt="2610282307" pp="12" fb="ICE 683" ppth="Hamburg Dammtor|Hamburg Hbf|Hamburg-Harburg|Lüneburg|Hannover Hbf|Göttingen|Kassel-Wilhelmshöhe|Fulda|Würzburg Hbf|Augsburg Hbf"/>
+	</s>
+	<s id="-6727683722954373951-2610281752-9">
+		<tl f="F" t="p" o="80" c="ICE" n="1015"/>
+		<ar pt="2610282342" pp="12" fb="ICE 1015" ppth="Dortmund Hbf|Düsseldorf Hbf|Köln Messe/Deutz Gl.11-12|Frankfurt(M) Flughafen Fernbf|Mannheim Hbf|Stuttgart Hbf|Ulm Hbf|Augsburg Hbf"/>
+	</s>
+	<s id="3992319517280243604-2610281758-7">
+		<tl f="F" t="p" o="80" c="ICE" n="1105"/>
+		<ar pt="2610282331" pp="13" fb="ICE 1105" ppth="Berlin Hbf|Berlin Südkreuz|Halle(Saale)Hbf|Erfurt Hbf|Nürnberg Hbf|Augsburg Hbf"/>
+	</s>
+	<s id="-8677182982400525824-2610282046-6">
+		<tl t="p" o="81" c="NJ" n="40420"/>
+		<ar pt="2610282245" pp="14" fb="NJ 40420" wings="3272146161175325165-2610282046" ppth="Innsbruck Hbf|Jenbach|Wörgl Hbf|Kufstein|Rosenheim"/>
+		<dp pt="2610282303" pp="14" fb="NJ 40420" wings="3272146161175325165-2610282046" ppth="Augsburg Hbf|Treuchtlingen|Würzburg Hbf|Kassel-Wilhelmshöhe|Göttingen|Hannover Hbf|Hamburg-Harburg|Hamburg Hbf|Hamburg Dammtor|Hamburg-Altona"/>
+		<tra t="v" id="-8920873064522797015" ref-to="3272146161175325165-2610282046" s="a" o="p"/>
+	</s>
+	<s id="3272146161175325165-2610282046-6">
+		<tl t="p" o="81" c="NJ" n="420"/>
+		<ar pt="2610282245" pp="14" fb="NJ 420" ppth="Innsbruck Hbf|Jenbach|Wörgl Hbf|Kufstein|Rosenheim"/>
+		<dp pt="2610282303" pp="14" fb="NJ 420" ppth="Augsburg Hbf|Treuchtlingen|Würzburg Hbf|Kassel-Wilhelmshöhe|Dortmund Hbf|Essen Hbf|Oberhausen Hbf|Arnhem Centraal|Utrecht Centraal|Amsterdam Centraal"/>
+		<tra t="v" id="-8920873064522797015" ref-from="-8677182982400525824-2610282046" s="a" o="p"/>
+	</s>
+	<s id="4930918570354887901-2610282107-7">
+		<tl f="N" t="p" o="800765" c="RE" n="4041"/>
+		<ar pt="2610282331" pp="29" l="RE1" fb="RE1" ppth="Nürnberg Hbf|Ingolstadt Nord|Ingolstadt Hbf|Rohrbach(Ilm)|Pfaffenhofen(Ilm)|Petershausen(Obb)"/>
+	</s>
+	<s id="-5905686994878225679-2610282113-6">
+		<tl f="D" t="p" o="A8N" c="ALX" n="350"/>
+		<ar pt="2610282318" pp="27" l="RE25" fb="RE25" ppth="Schwandorf|Regensburg Hbf|Neufahrn(Niederbay)|Landshut(Bay)Hbf|Freising"/>
+	</s>
+	<s id="8043951824674326341-2610282119-28">
+		<tl t="p" o="GYRE" c="ARV" n="57087"/>
+		<ar pt="2610282325" pp="17" l="RE9" fb="RE9" ppth="Ulm Hbf|Neu-Ulm|Nersingen|Leipheim|Günzburg|Offingen|Mindelaltheim|Burgau(Schwab)|Jettingen|Freihalden|Dinkelscherben|Kutzenhausen|Gessertshausen|Diedorf(Schwab)|Westheim(Schwab)|Neusäß|Augsburg-Oberhausen|Augsburg Hbf|Augsburg Haunstetterstraße|Augsburg-Hochzoll|Kissing|Mering-St Afra|Mering|Althegnenberg|Haspelmoor|Mammendorf|München-Pasing"/>
+	</s>
+	<s id="6412565521062716598-2610282202-9">
+		<tl f="N" t="p" o="800767" c="RE" n="4089"/>
+		<ar pt="2610282337" pp="25" l="RE3" fb="RE3" ppth="Plattling|Wallersdorf|Landau(Isar)|Dingolfing|Wörth(Isar)|Landshut(Bay)Hbf|Moosburg|Freising"/>
+	</s>
+	<s id="-8379478014456391209-2610282211-11">
+		<tl t="p" o="GYRE" c="ARV" n="78960"/>
+		<ar pt="2610282358" pp="29" l="RE72" fb="RE72" ppth="Memmingen|Sontheim(Schwab)|Stetten(Schwab)|Mindelheim|Rammingen(Bay)|Türkheim(Bay)Bf|Buchloe|Kaufering|Geltendorf|München-Pasing"/>
+	</s>
+	<s id="-4806817207890998144-2610282312-1">
+		<tl f="F" t="p" o="80" c="ICE" n="904"/>
+		<dp pt="2610282312" pp="13" fb="ICE 904" ppth="München-Pasing|Augsburg Hbf|Donauwörth|Nürnberg Hbf|Erlangen|Bamberg|Lichtenfels|Saalfeld(Saale)|Jena-Göschwitz|Jena Paradies|Naumburg(Saale)Hbf|Leipzig Hbf|Bitterfeld|Lutherstadt Wittenberg Hbf|Berlin Südkreuz|Berlin Hbf|Berlin Gesundbrunnen"/>
+	</s>
+	<s id="5680323516790217954-2610282324-1">
+		<tl f="N" t="p" o="800767" c="RE" n="4092"/>
+		<dp pt="2610282324" pp="25" l="RE3" fb="RE3" ppth="Freising|Moosburg|Landshut(Bay)Hbf|Wörth(Isar)|Dingolfing|Landau(Isar)|Wallersdorf|Plattling"/>
+	</s>
+	<s id="6306918419691815906-2610282340-1">
+		<tl f="N" t="p" o="800765" c="RE" n="4046"/>
+		<dp pt="2610282340" pp="29" l="RE1" fb="RE1" ppth="Petershausen(Obb)|Pfaffenhofen(Ilm)|Rohrbach(Ilm)|Ingolstadt Hbf"/>
+	</s>
+</timetable>
