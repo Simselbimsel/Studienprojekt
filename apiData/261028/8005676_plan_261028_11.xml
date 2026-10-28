@@ -1,0 +1,59 @@
+<?xml version="1.0" ?>
+<timetable station="Starnberg">
+	<s id="-1888436610413160144-2610280838-13">
+		<tl f="N" t="p" o="81" c="RB" n="5408"/>
+		<ar pt="2610281108" pp="1" l="RB6" fb="RB6" pde="Innsbruck Hbf" ppth="Mittenwald|Klais|Garmisch-Partenkirchen|Farchant|Oberau|Eschenlohe|Ohlstadt|Murnau|Uffing a Staffelsee|Huglfing|Weilheim(Oberbay)|Tutzing"/>
+	</s>
+	<s id="9049901274191529722-2610281045-9">
+		<tl f="N" t="p" o="800790" c="RB" n="59614"/>
+		<ar pt="2610281139" pp="1" l="RB66" fb="RB66" ppth="Kochel|Benediktbeuern|Bichl|Penzberg|Iffeldorf|Seeshaupt|Bernried|Tutzing"/>
+	</s>
+	<s id="6871983208255511186-2610281057-3">
+		<tl f="S" t="p" o="800725" c="S" n="22334"/>
+		<ar pt="2610281104" pp="3" l="S6" fb="S6" ppth="Gauting|Starnberg Nord"/>
+		<dp pt="2610281105" pp="3" l="S6" fb="S6" ppth="Possenhofen|Feldafing|Tutzing"/>
+	</s>
+	<s id="1148779649046970597-2610281104-4">
+		<tl f="S" t="p" o="800725" c="S" n="22343"/>
+		<ar pt="2610281114" pp="4" l="S6" fb="S6" ppth="Tutzing|Feldafing|Possenhofen"/>
+		<dp pt="2610281114" pp="4" l="S6" fb="S6" ppth="Starnberg Nord|Gauting"/>
+	</s>
+	<s id="-4390343897489879008-2610281117-3">
+		<tl f="S" t="p" o="800725" c="S" n="22336"/>
+		<ar pt="2610281124" pp="3" l="S6" fb="S6" ppth="Gauting|Starnberg Nord"/>
+		<dp pt="2610281125" pp="3" l="S6" fb="S6" ppth="Possenhofen|Feldafing|Tutzing"/>
+	</s>
+	<s id="826253473123618367-2610281117-1">
+		<tl f="N" t="p" o="800790" c="RB" n="59515"/>
+		<dp pt="2610281117" pp="1" l="RB65" fb="RB65" ppth="Tutzing|Weilheim(Oberbay)"/>
+	</s>
+	<s id="-4776235349392694567-2610281118-3">
+		<tl f="N" t="p" o="800790" c="RB" n="59514"/>
+		<ar pt="2610281139" pp="1" l="RB65" fb="RB65" ppth="Weilheim(Oberbay)|Tutzing"/>
+	</s>
+	<s id="-7745375621426006226-2610281124-4">
+		<tl f="S" t="p" o="800725" c="S" n="22345"/>
+		<ar pt="2610281134" pp="4" l="S6" fb="S6" ppth="Tutzing|Feldafing|Possenhofen"/>
+		<dp pt="2610281134" pp="4" l="S6" fb="S6" ppth="Starnberg Nord|Gauting"/>
+	</s>
+	<s id="5434388624880623329-2610281137-3">
+		<tl f="S" t="p" o="800725" c="S" n="22338"/>
+		<ar pt="2610281144" pp="3" l="S6" fb="S6" ppth="Gauting|Starnberg Nord"/>
+		<dp pt="2610281145" pp="3" l="S6" fb="S6" ppth="Possenhofen|Feldafing|Tutzing"/>
+	</s>
+	<s id="5558202649947692285-2610281144-4">
+		<tl f="S" t="p" o="800725" c="S" n="22347"/>
+		<ar pt="2610281154" pp="4" l="S6" fb="S6" ppth="Tutzing|Feldafing|Possenhofen"/>
+		<dp pt="2610281154" pp="4" l="S6" fb="S6" ppth="Starnberg Nord|Gauting"/>
+	</s>
+	<s id="6521941703504522436-2610281152-1">
+		<tl f="N" t="p" o="800790" c="RB" n="59645"/>
+		<dp pt="2610281152" pp="1" l="RB66" fb="RB66" ppth="Tutzing|Bernried|Seeshaupt|Iffeldorf|Penzberg|Bichl|Benediktbeuern|Kochel"/>
+		<tra t="v" id="1189933390126725735" ref-from="6050739164498947186-2610281152" s="a" o="p" jt="j"/>
+	</s>
+	<s id="6050739164498947186-2610281152-1">
+		<tl f="N" t="p" o="800790" c="RB" n="5419"/>
+		<dp pt="2610281152" pp="1" l="RB6" fb="RB6" wings="6521941703504522436-2610281152" ppth="Tutzing|Weilheim(Oberbay)|Huglfing|Uffing a Staffelsee|Murnau|Ohlstadt|Eschenlohe|Oberau|Farchant|Garmisch-Partenkirchen|Klais|Mittenwald"/>
+		<tra t="v" id="1189933390126725735" ref-to="6521941703504522436-2610281152" s="a" o="p" jt="j"/>
+	</s>
+</timetable>

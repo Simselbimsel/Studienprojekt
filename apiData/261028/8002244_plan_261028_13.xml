@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<timetable station="Gerlenhofen">
+	<s id="-3556174745768599961-2610281257-4">
+		<tl f="N" t="p" o="8007DU" c="RB" n="57461"/>
+		<ar pt="2610281306" pp="2" l="RS71" fb="RS71" ppth="Ulm Hbf|Neu-Ulm|Finningerstraße"/>
+		<dp pt="2610281306" pp="2" l="RS71" fb="RS71" ppth="Senden|Wullenstetten|Witzighausen|Weißenhorn-Eschach|Weißenhorn"/>
+	</s>
+	<s id="-6855817718006783772-2610281324-5">
+		<tl f="N" t="p" o="8007DU" c="RB" n="57674"/>
+		<ar pt="2610281350" pp="2" l="RS7" fb="RS7" wings="7831726211083784643-2610281331" ppth="Illertissen|Bellenberg|Vöhringen|Senden"/>
+		<dp pt="2610281350" pp="2" l="RS7" fb="RS7" wings="7831726211083784643-2610281331" ppth="Finningerstraße|Neu-Ulm|Ulm Hbf"/>
+		<tra t="v" id="3170506442067503724" ref-to="7831726211083784643-2610281331" s="a" o="p"/>
+	</s>
+	<s id="5750918935416812251-2610281330-4">
+		<tl f="N" t="p" o="8007DU" c="RB" n="57463"/>
+		<ar pt="2610281340" pp="2" l="RS71" fb="RS71" wings="5569054959556870112-2610281330" ppth="Ulm Hbf|Neu-Ulm|Finningerstraße"/>
+		<dp pt="2610281340" pp="2" l="RS71" fb="RS71" wings="5569054959556870112-2610281330" ppth="Senden|Wullenstetten|Witzighausen|Weißenhorn-Eschach|Weißenhorn"/>
+		<tra t="v" id="-8796724751385000874" ref-to="5569054959556870112-2610281330" s="a" o="p"/>
+	</s>
+	<s id="5569054959556870112-2610281330-4">
+		<tl f="N" t="p" o="8007DU" c="RB" n="57771"/>
+		<ar pt="2610281340" pp="2" l="RS7" fb="RS7" ppth="Ulm Hbf|Neu-Ulm|Finningerstraße"/>
+		<dp pt="2610281340" pp="2" l="RS7" fb="RS7" ppth="Senden|Vöhringen|Bellenberg|Illertissen|Altenstadt(Iller)|Kellmünz|Memmingen"/>
+		<tra t="v" id="-8796724751385000874" ref-from="5750918935416812251-2610281330" s="a" o="p"/>
+	</s>
+	<s id="7831726211083784643-2610281331-6">
+		<tl f="N" t="p" o="8007DU" c="RB" n="57468"/>
+		<ar pt="2610281350" pp="2" l="RS71" fb="RS71" ppth="Weißenhorn|Weißenhorn-Eschach|Witzighausen|Wullenstetten|Senden"/>
+		<dp pt="2610281350" pp="2" l="RS71" fb="RS71" ppth="Finningerstraße|Neu-Ulm|Ulm Hbf"/>
+		<tra t="v" id="3170506442067503724" ref-from="-6855817718006783772-2610281324" s="a" o="p"/>
+	</s>
+</timetable>

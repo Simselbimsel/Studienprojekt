@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<timetable station="Warngau">
+	<s id="-7983198550849420703-2610281452-6">
+		<tl f="D" t="p" o="T8" c="BRB" n="86932"/>
+		<ar pt="2610281521" pp="1" l="RB57" fb="RB57" ppth="Tegernsee|Gmund(Tegernsee)|Finsterwald|Moosrain|Schaftlach"/>
+		<dp pt="2610281521" pp="1" l="RB57" fb="RB57" ppth="Holzkirchen|München Siemenswerke|München Harras|München Donnersbergerbrücke|München Hbf Gl.27-36"/>
+	</s>
+	<s id="-7756371946230187981-2610281502-6">
+		<tl f="D" t="p" o="T8" c="BRB" n="86827"/>
+		<ar pt="2610281540" pp="1" l="RB56" fb="RB56" wings="3530723910703303787-2610281502" ppth="München Hbf Gl.27-36|München Donnersbergerbrücke|München Harras|München Siemenswerke|Holzkirchen"/>
+		<dp pt="2610281540" pp="1" l="RB56" fb="RB56" wings="3530723910703303787-2610281502" ppth="Schaftlach"/>
+		<tra t="v" id="-6512916050374486793" ref-to="3530723910703303787-2610281502" s="a" o="p"/>
+	</s>
+	<s id="3530723910703303787-2610281502-6">
+		<tl f="D" t="p" o="T8" c="BRB" n="86927"/>
+		<ar pt="2610281540" pp="1" l="RB57" fb="RB57" ppth="München Hbf Gl.27-36|München Donnersbergerbrücke|München Harras|München Siemenswerke|Holzkirchen"/>
+		<dp pt="2610281540" pp="1" l="RB57" fb="RB57" ppth="Schaftlach|Moosrain|Finsterwald|Gmund(Tegernsee)|Tegernsee"/>
+		<tra t="v" id="-6512916050374486793" ref-from="-7756371946230187981-2610281502" s="a" o="p"/>
+	</s>
+	<s id="8982097625739001385-2610281517-2">
+		<tl f="D" t="p" o="T8" c="BRB" n="86832"/>
+		<ar pt="2610281521" pp="1" l="RB56" fb="RB56" ppth="Schaftlach"/>
+		<dp pt="2610281521" pp="1" l="RB56" fb="RB56" ppth="Holzkirchen|München Siemenswerke|München Harras|München Donnersbergerbrücke|München Hbf Gl.27-36"/>
+	</s>
+	<s id="-9162686834221896850-2610281522-6">
+		<tl f="D" t="p" o="T8" c="BRB" n="86934"/>
+		<ar pt="2610281550" pp="1" l="RB57" fb="RB57" ppth="Tegernsee|Gmund(Tegernsee)|Finsterwald|Moosrain|Schaftlach"/>
+		<dp pt="2610281551" pp="1" l="RB57" fb="RB57" ppth="Holzkirchen|München Siemenswerke|München Harras|München Donnersbergerbrücke|München Hbf Gl.27-36"/>
+	</s>
+</timetable>
