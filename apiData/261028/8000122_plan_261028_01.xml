@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<timetable station="Treuchtlingen">
+	<s id="-7058442198521206872-2610271836-7">
+		<tl t="p" o="81" c="NJ" n="492"/>
+		<ar pt="2610280039" pp="" fb="NJ 492" hi="1" ppth="Wien Hbf|Wien Meidling|St.Pölten Hbf|Linz/Donau Hbf|Salzburg Hbf|München Ost"/>
+		<dp pt="2610280128" pp="" fb="NJ 492" hi="1" wings="-8677182982400525824-2610272046" ppth="Würzburg Hbf|Kassel-Wilhelmshöhe|Göttingen|Hannover Hbf|Hamburg-Harburg|Hamburg Hbf|Hamburg Dammtor|Hamburg-Altona"/>
+		<tra t="v" id="-5174990819988598860" ref-to="-8677182982400525824-2610272046" s="a" o="p" jt="j"/>
+		<tra t="v" id="5419232584987525887" ref-from="-6813803786124510421-2610271836" s="a" o="p" jt="s"/>
+	</s>
+	<s id="-6813803786124510421-2610271836-7">
+		<tl t="p" o="81" c="NJ" n="40490"/>
+		<ar pt="2610280039" pp="" fb="NJ 40490" hi="1" wings="-7058442198521206872-2610271836" ppth="Wien Hbf|Wien Meidling|St.Pölten Hbf|Linz/Donau Hbf|Salzburg Hbf|München Ost"/>
+		<dp pt="2610280120" pp="" fb="NJ 40490" hi="1" wings="3272146161175325165-2610272046" ppth="Würzburg Hbf|Kassel-Wilhelmshöhe|Dortmund Hbf|Essen Hbf|Oberhausen Hbf|Arnhem Centraal|Utrecht Centraal|Amsterdam Centraal"/>
+		<tra t="v" id="5419232584987525887" ref-to="-7058442198521206872-2610271836" s="a" o="p" jt="s"/>
+		<tra t="v" id="5570811972484739309" ref-to="3272146161175325165-2610272046" s="a" o="p" jt="j"/>
+	</s>
+	<s id="-8677182982400525824-2610272046-8">
+		<tl t="p" o="81" c="NJ" n="40420"/>
+		<ar pt="2610280020" pp="" fb="NJ 40420" hi="1" ppth="Innsbruck Hbf|Jenbach|Wörgl Hbf|Kufstein|Rosenheim|München Hbf|Augsburg Hbf"/>
+		<dp pt="2610280128" pp="" fb="NJ 40420" hi="1" ppth="Würzburg Hbf|Kassel-Wilhelmshöhe|Göttingen|Hannover Hbf|Hamburg-Harburg|Hamburg Hbf|Hamburg Dammtor|Hamburg-Altona"/>
+		<tra t="v" id="-5174990819988598860" ref-from="-7058442198521206872-2610271836" s="a" o="p" jt="j"/>
+		<tra t="v" id="-3847907990037594904" ref-from="3272146161175325165-2610272046" s="a" o="p" jt="s"/>
+	</s>
+	<s id="3272146161175325165-2610272046-8">
+		<tl t="p" o="81" c="NJ" n="420"/>
+		<ar pt="2610280020" pp="" fb="NJ 420" hi="1" wings="-8677182982400525824-2610272046" ppth="Innsbruck Hbf|Jenbach|Wörgl Hbf|Kufstein|Rosenheim|München Hbf|Augsburg Hbf"/>
+		<dp pt="2610280120" pp="" fb="NJ 420" hi="1" ppth="Würzburg Hbf|Kassel-Wilhelmshöhe|Dortmund Hbf|Essen Hbf|Oberhausen Hbf|Arnhem Centraal|Utrecht Centraal|Amsterdam Centraal"/>
+		<tra t="v" id="-3847907990037594904" ref-to="-8677182982400525824-2610272046" s="a" o="p" jt="s"/>
+		<tra t="v" id="5570811972484739309" ref-from="-6813803786124510421-2610271836" s="a" o="p" jt="j"/>
+	</s>
+</timetable>

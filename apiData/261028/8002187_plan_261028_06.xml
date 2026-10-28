@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<timetable station="Garmisch-Partenkirchen">
+	<s id="-3946924431547005805-2610280512-11">
+		<tl f="N" t="p" o="800790" c="RB" n="5403"/>
+		<ar pt="2610280630" pp="3" l="RB6" fb="RB6" ppth="Starnberg|Tutzing|Weilheim(Oberbay)|Huglfing|Uffing a Staffelsee|Murnau|Ohlstadt|Eschenlohe|Oberau|Farchant"/>
+		<dp pt="2610280632" pp="3" l="RB6" fb="RB6" pde="Innsbruck Westbahnhof" ppth="Klais"/>
+	</s>
+	<s id="-5745983461083515430-2610280542-3">
+		<tl f="N" t="p" o="800790" c="RE" n="4876"/>
+		<ar pt="2610280614" pp="2" l="RE61" fb="RE61" tra="5713924455786277611-2610280617-1" ppth="Mittenwald|Klais"/>
+		<tra t="d" id="5860803326851453666" ref-to="5713924455786277611-2610280617-1" s="a" o="p"/>
+	</s>
+	<s id="39819440432851803-2610280526-5">
+		<tl f="N" t="p" o="800790" c="RB" n="5503"/>
+		<ar pt="2610280623" pp="1" l="RB60" fb="RB60" pde="Reutte in Tirol" ppth="Ehrwald Zugspitzbahn|Griesen(Oberbay)|Untergrainau|Garmisch-Partenkirchen Hausberg"/>
+	</s>
+	<s id="5713924455786277611-2610280617-1">
+		<tl f="N" t="p" o="800790" c="RB" n="59446"/>
+		<dp pt="2610280617" pp="1" l="RB6" fb="RB6" tra="-5745983461083515430-2610280542-3" ppth="Farchant|Oberau|Eschenlohe|Ohlstadt|Murnau|Uffing a Staffelsee|Huglfing|Weilheim(Oberbay)|Tutzing|Starnberg"/>
+		<tra t="d" id="5860803326851453666" ref-from="-5745983461083515430-2610280542-3" s="a" o="p"/>
+	</s>
+	<s id="8249548603775273601-2610280637-1">
+		<tl f="N" t="p" o="800790" c="RB" n="5502"/>
+		<dp pt="2610280637" pp="4" l="RB60" fb="RB60" pde="Reutte in Tirol" ppth="Untergrainau|Griesen(Oberbay)|Ehrwald Zugspitzbahn"/>
+	</s>
+	<s id="-3946924431547005805-2610280512-11">
+		<tl f="N" t="p" o="800790" c="RB" n="5403"/>
+		<ar pt="2610280630" pp="3" l="RB6" fb="RB6" ppth="Starnberg|Tutzing|Weilheim(Oberbay)|Huglfing|Uffing a Staffelsee|Murnau|Ohlstadt|Eschenlohe|Oberau|Farchant"/>
+		<dp pt="2610280632" pp="3" l="RB6" fb="RB6" pde="Innsbruck Westbahnhof" ppth="Klais"/>
+	</s>
+</timetable>

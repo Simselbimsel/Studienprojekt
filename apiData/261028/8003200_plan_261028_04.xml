@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<timetable station="Kassel-Wilhelmshöhe">
+	<s id="-6813803786124510421-2610271836-9">
+		<tl t="p" o="81" c="NJ" n="40490"/>
+		<ar pt="2610280446" pp="3" fb="NJ 40490" wings="3272146161175325165-2610272046" ppth="Wien Hbf|Wien Meidling|St.Pölten Hbf|Linz/Donau Hbf|Salzburg Hbf|München Ost|Treuchtlingen|Würzburg Hbf"/>
+		<dp pt="2610280448" pp="3" fb="NJ 40490" wings="3272146161175325165-2610272046" ppth="Dortmund Hbf|Essen Hbf|Oberhausen Hbf|Arnhem Centraal|Utrecht Centraal|Amsterdam Centraal"/>
+		<tra t="v" id="5570811972484739309" ref-to="3272146161175325165-2610272046" s="a" o="p"/>
+	</s>
+	<s id="3272146161175325165-2610272046-10">
+		<tl t="p" o="81" c="NJ" n="420"/>
+		<ar pt="2610280446" pp="3" fb="NJ 420" ppth="Innsbruck Hbf|Jenbach|Wörgl Hbf|Kufstein|Rosenheim|München Hbf|Augsburg Hbf|Treuchtlingen|Würzburg Hbf"/>
+		<dp pt="2610280448" pp="3" fb="NJ 420" ppth="Dortmund Hbf|Essen Hbf|Oberhausen Hbf|Arnhem Centraal|Utrecht Centraal|Amsterdam Centraal"/>
+		<tra t="v" id="5570811972484739309" ref-from="-6813803786124510421-2610271836" s="a" o="p"/>
+	</s>
+	<s id="1171849145422812389-2610280403-2">
+		<tl f="N" t="p" o="8005MW" c="RE" n="15773"/>
+		<ar pt="2610280407" pp="7" l="RE30" fb="RE30" ppth="Kassel Hbf"/>
+		<dp pt="2610280408" pp="7" l="RE30" fb="RE30" ppth="Wabern(Bz Kassel)"/>
+	</s>
+	<s id="3468115290756940383-2610280437-8">
+		<tl f="D" t="p" o="H4" c="RT" n="20481"/>
+		<ar pt="2610280452" pp="7" l="RT5" fb="RT5" ppth="Auestadion, Kassel|Heinrich-Heine-Straße, Kassel|Am Weinberg, Kassel|Rathaus/Fünffensterstraße, Kassel|Wilhelmsstraße/Stadtmuseum, Kassel|Scheidemannplatz, Kassel|Kassel Hbf (tief)"/>
+		<dp pt="2610280453" pp="7" l="RT5" fb="RT5" ppth="Kassel-Oberzwehren|Baunatal-Rengershausen|Baunatal-Guntershausen|Guxhagen|Körle|Melsungen-Röhrenfurth|Melsungen-Schwarzenberg|Melsungen Bartenwetzerbrücke|Melsungen"/>
+	</s>
+	<s id="9025044329296673090-2610280451-2">
+		<tl f="N" t="p" o="800523" c="RB" n="23051"/>
+		<ar pt="2610280456" pp="8" l="RB38" fb="RB38" ppth="Kassel Hbf"/>
+		<dp pt="2610280457" pp="8" l="RB38" fb="RB38" ppth="Kassel-Oberzwehren|Baunatal-Rengershausen|Baunatal-Guntershausen|Edermünde-Grifte|Felsberg-Wolfershausen|Felsberg-Altenbrunslar|Felsberg-Gensungen|Wabern(Bz Kassel)|Singlis|Borken(Hess)|Zimmersrode|Schlierbach(Schwalm-Eder-Kr.)|Treysa"/>
+	</s>
+</timetable>

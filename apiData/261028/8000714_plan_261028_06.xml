@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<timetable station="Bad Kissingen">
+	<s id="2209920003188716338-2610280524-6">
+		<tl t="p" o="EB" c="Bus" n="60671"/>
+		<ar pt="2610280601" pp="" l="RB50" fb="Bus RB50" ppth="Hammelburg|Hammelburg Ost|Westheim-Langendorf|Elfershausen-Trimberg|Euerdorf"/>
+		<dp pt="2610280601" pp="" l="RB50" fb="Bus RB50" ppth="Oerlenbach|Ebenhausen(Unterfr)"/>
+		<tra t="v" id="2262603490099751612" ref-from="1491694682631341035-2610280601" s="a" o="p" jt="j"/>
+	</s>
+	<s id="7197573648105258884-2610280550-6">
+		<tl t="p" o="EB" c="Bus" n="60673"/>
+		<ar pt="2610280633" pp="" l="RB50" fb="Bus RB50" ppth="Hammelburg|Hammelburg Ost|Westheim-Langendorf|Elfershausen-Trimberg|Euerdorf"/>
+	</s>
+	<s id="1491694682631341035-2610280601-1">
+		<tl t="p" o="EB" c="Bus" n="61671"/>
+		<dp pt="2610280601" pp="" l="RB50" fb="Bus RB50" wings="2209920003188716338-2610280524" ppth="Oerlenbach|Ebenhausen(Unterfr)"/>
+		<tra t="v" id="2262603490099751612" ref-to="2209920003188716338-2610280524" s="a" o="p" jt="j"/>
+	</s>
+	<s id="3623521828511939943-2610280632-3">
+		<tl t="p" o="EB" c="Bus" n="61674"/>
+		<ar pt="2610280648" pp="" l="RB50" fb="Bus RB50" wings="-5274109515285678428-2610280632" ppth="Ebenhausen(Unterfr)|Oerlenbach"/>
+		<tra t="v" id="-877411293238085846" ref-to="-5274109515285678428-2610280632" s="a" o="p" jt="s"/>
+	</s>
+	<s id="-5274109515285678428-2610280632-3">
+		<tl t="p" o="EB" c="Bus" n="60674"/>
+		<ar pt="2610280648" pp="" l="RB50" fb="Bus RB50" ppth="Ebenhausen(Unterfr)|Oerlenbach"/>
+		<dp pt="2610280650" pp="" l="RB50" fb="Bus RB50" ppth="Euerdorf|Elfershausen-Trimberg|Westheim-Langendorf|Hammelburg Ost|Hammelburg|Gemünden(Main)"/>
+		<tra t="v" id="-877411293238085846" ref-from="3623521828511939943-2610280632" s="a" o="p" jt="s"/>
+	</s>
+	<s id="-6261814851732237979-2610280650-1">
+		<tl t="p" o="EB" c="Bus" n="64675"/>
+		<dp pt="2610280650" pp="" l="RB50" fb="Bus RB50" ppth="Oerlenbach|Ebenhausen(Unterfr)"/>
+	</s>
+	<s id="6457561445635837328-2610280654-1">
+		<tl t="p" o="EB" c="Bus" n="60675"/>
+		<dp pt="2610280654" pp="" l="RB50" fb="Bus RB50" ppth="Oerlenbach|Ebenhausen(Unterfr)"/>
+	</s>
+</timetable>
