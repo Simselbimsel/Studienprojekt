@@ -1,0 +1,101 @@
+<?xml version="1.0" ?>
+<timetable station="Bruchsal">
+	<s id="-7280858733464977222-2610291049-24">
+		<tl f="S" t="p" o="801539" c="S" n="38337"/>
+		<ar pt="2610291215" pp="4" l="S3" fb="S3" pde="Karlsruhe Hbf" ppth="Germersheim|Lingenfeld|Heiligenstein(Pfalz)|Berghausen(Pfalz)|Speyer Hbf|Speyer Nord-West|Schifferstadt Süd|Schifferstadt|Limburgerhof|Ludwigshafen(Rh)Hbf|Ludwigshafen(Rhein) Mitte|Mannheim Hbf|Mannheim-Friedrichsfeld Süd|Heidelberg-Pfaffengrund/Wieblingen|Heidelberg Hbf|Heidelberg-Kirchheim/Rohrbach|St Ilgen-Sandhausen|Wiesloch-Walldorf|Rot-Malsch|Bad Schönborn-Kronau|Bad Schönborn Süd|Stettfeld-Weiher|Ubstadt-Weiher"/>
+		<dp pt="2610291216" pp="4" l="S3" fb="S3" ppth="Bruchsal Bildungszentrum|Untergrombach|Weingarten(Baden)|Karlsruhe-Durlach|Karlsruhe Hbf"/>
+	</s>
+	<s id="129789200414933383-2610291136-17">
+		<tl f="N" t="p" o="SBSRB" c="RB" n="19610"/>
+		<ar pt="2610291222" pp="6" l="RB71" fb="RB71" ppth="Mühlacker|Ötisheim|Maulbronn West|Ölbronn-Dürrn|Knittlingen-Kleinvillars|Bretten-Ruit|Bretten Rechberg|Bretten|Diedelsheim|Gondelsheim(Baden)|Gondelsheim Schlossstadion|Helmsheim|Heidelsheim|Heidelsheim Nord|Bruchsal Schlachthof|Bruchsal Tunnelstraße"/>
+	</s>
+	<s id="-6623128470283844914-2610291140-13">
+		<tl f="D" t="p" o="A6" c="AVG" n="85229"/>
+		<ar pt="2610291206" pp="1b" l="S32" fb="S32" ppth="Menzingen(Baden)|Bahnbrücken|Gochsheim(Baden)|Münzesheim Ost|Münzesheim|Oberöwisheim|Unteröwisheim Bf|Unteröwisheim M.-Luther-Str.|Ubstadt Salzbrunnenstr|Ubstadt Ort|Bruchsal Stegwiesen|Bruchsal Schloßgarten"/>
+		<tra t="v" id="7738140267388128221" ref-from="-7652232026931658226-2610291143" s="a" o="p" jt="s"/>
+	</s>
+	<s id="-7652232026931658226-2610291143-11">
+		<tl f="D" t="p" o="A6" c="AVG" n="85129"/>
+		<ar pt="2610291206" pp="1b" l="S31" fb="S31" wings="-6623128470283844914-2610291140" ppth="Odenheim Bf|Odenheim West|Zeutern Ost|Zeutern Bf|Zeutern Sportplatz|Stettfeld(Baden)|Ubstadt Uhlandstr.|Ubstadt Ort|Bruchsal Stegwiesen|Bruchsal Schloßgarten"/>
+		<tra t="v" id="7738140267388128221" ref-to="-6623128470283844914-2610291140" s="a" o="p" jt="s"/>
+	</s>
+	<s id="3655214753585786519-2610291149-11">
+		<tl f="S" t="p" o="801539" c="S" n="38450"/>
+		<ar pt="2610291221" pp="5a" l="S33" fb="S33" ppth="Germersheim|Germersheim Mitte/Rhein|Rheinsheim|Philippsburg(Baden)|Huttenheim|Graben-Neudorf Nord|Graben-Neudorf|Karlsdorf|Bruchsal Am Mantel|Bruchsal Sportzentrum"/>
+	</s>
+	<s id="1553554303964715004-2610291203-9">
+		<tl f="D" t="p" o="A6" c="AVG" n="85903"/>
+		<ar pt="2610291223" pp="8" l="S31" fb="S31" ppth="Odenheim Bf|Odenheim West|Zeutern Ost|Zeutern Bf|Zeutern Sportplatz|Stettfeld(Baden)|Ubstadt Uhlandstr.|Ubstadt Ort"/>
+	</s>
+	<s id="-6254706731676658471-2610291205-1">
+		<tl f="N" t="p" o="SBSRB" c="RB" n="19585"/>
+		<dp pt="2610291205" pp="6" l="RB71" fb="RB71" ppth="Bruchsal Tunnelstraße|Bruchsal Schlachthof|Heidelsheim Nord|Heidelsheim|Helmsheim|Gondelsheim Schlossstadion|Gondelsheim(Baden)|Diedelsheim|Bretten"/>
+	</s>
+	<s id="3705893801311502416-2610291205-2">
+		<tl f="F" t="p" o="80" c="ICE" n="565"/>
+		<ar pt="2610291216" pp="3" fb="ICE 565" ppth="Karlsruhe Hbf"/>
+		<dp pt="2610291218" pp="3" fb="ICE 565" ppth="Stuttgart Hbf|Ulm Hbf|Augsburg Hbf|München-Pasing|München Hbf"/>
+	</s>
+	<s id="6378828611333723159-2610291212-1">
+		<tl f="D" t="p" o="A6" c="AVG" n="85224"/>
+		<dp pt="2610291212" pp="2a" l="S31" fb="S31" ppth="Bruchsal Schloßgarten|Bruchsal Stegwiesen|Ubstadt Ort|Ubstadt Uhlandstr.|Stettfeld(Baden)|Zeutern Sportplatz|Zeutern Bf|Zeutern Ost|Odenheim West|Odenheim Bf"/>
+		<tra t="v" id="6840801413239626322" ref-from="3765246281097207052-2610291212" s="a" o="p" jt="j"/>
+	</s>
+	<s id="3765246281097207052-2610291212-1">
+		<tl f="D" t="p" o="A6" c="AVG" n="85124"/>
+		<dp pt="2610291212" pp="2a" l="S32" fb="S32" wings="6378828611333723159-2610291212" ppth="Bruchsal Schloßgarten|Bruchsal Stegwiesen|Ubstadt Ort|Ubstadt Salzbrunnenstr|Unteröwisheim M.-Luther-Str.|Unteröwisheim Bf|Oberöwisheim|Münzesheim|Münzesheim Ost|Gochsheim(Baden)|Bahnbrücken|Menzingen(Baden)"/>
+		<tra t="v" id="6840801413239626322" ref-to="6378828611333723159-2610291212" s="a" o="p" jt="j"/>
+	</s>
+	<s id="880978110657287117-2610291220-13">
+		<tl f="D" t="p" o="A6" c="AVG" n="85231"/>
+		<ar pt="2610291246" pp="1b" l="S32" fb="S32" wings="3146433998257273039-2610291223" ppth="Menzingen(Baden)|Bahnbrücken|Gochsheim(Baden)|Münzesheim Ost|Münzesheim|Oberöwisheim|Unteröwisheim Bf|Unteröwisheim M.-Luther-Str.|Ubstadt Salzbrunnenstr|Ubstadt Ort|Bruchsal Stegwiesen|Bruchsal Schloßgarten"/>
+		<tra t="v" id="1606705243581279443" ref-to="3146433998257273039-2610291223" s="a" o="p" jt="s"/>
+	</s>
+	<s id="2649596355399260442-2610291221-6">
+		<tl f="S" t="p" o="801539" c="S" n="38332"/>
+		<ar pt="2610291239" pp="3b" l="S3" fb="S3" ppth="Karlsruhe Hbf|Karlsruhe-Durlach|Weingarten(Baden)|Untergrombach|Bruchsal Bildungszentrum"/>
+		<dp pt="2610291240" pp="3b" l="S3" fb="S3" ppth="Ubstadt-Weiher|Stettfeld-Weiher|Bad Schönborn Süd|Bad Schönborn-Kronau|Rot-Malsch|Wiesloch-Walldorf|St Ilgen-Sandhausen|Heidelberg-Kirchheim/Rohrbach|Heidelberg Hbf|Heidelberg-Pfaffengrund/Wieblingen|Mannheim-Friedrichsfeld Süd|Mannheim Hbf|Ludwigshafen(Rhein) Mitte|Ludwigshafen(Rh)Hbf|Limburgerhof|Schifferstadt|Schifferstadt Süd|Speyer Nord-West|Speyer Hbf|Berghausen(Pfalz)|Heiligenstein(Pfalz)|Lingenfeld|Germersheim"/>
+	</s>
+	<s id="3146433998257273039-2610291223-11">
+		<tl f="D" t="p" o="A6" c="AVG" n="85131"/>
+		<ar pt="2610291246" pp="1b" l="S31" fb="S31" ppth="Odenheim Bf|Odenheim West|Zeutern Ost|Zeutern Bf|Zeutern Sportplatz|Stettfeld(Baden)|Ubstadt Uhlandstr.|Ubstadt Ort|Bruchsal Stegwiesen|Bruchsal Schloßgarten"/>
+		<tra t="v" id="1606705243581279443" ref-from="880978110657287117-2610291220" s="a" o="p" jt="s"/>
+	</s>
+	<s id="-5482878542031500724-2610291232-10">
+		<tl f="N" t="p" o="SBSRB" c="RB" n="19586"/>
+		<ar pt="2610291254" pp="6" l="RB71" fb="RB71" ppth="Bretten|Diedelsheim|Gondelsheim(Baden)|Gondelsheim Schlossstadion|Helmsheim|Heidelsheim|Heidelsheim Nord|Bruchsal Schlachthof|Bruchsal Tunnelstraße"/>
+	</s>
+	<s id="-4893677299503682143-2610291232-1">
+		<tl f="D" t="p" o="A6" c="AVG" n="85284"/>
+		<dp pt="2610291232" pp="1" l="S31" fb="S31" ppth="Bruchsal Schloßgarten|Bruchsal Stegwiesen|Ubstadt Ort|Ubstadt Uhlandstr.|Stettfeld(Baden)|Zeutern Sportplatz|Zeutern Bf|Zeutern Ost|Odenheim West|Odenheim Bf"/>
+		<tra t="v" id="-5304268666511700859" ref-from="-1070234655430260897-2610291232" s="a" o="p" jt="j"/>
+	</s>
+	<s id="-1070234655430260897-2610291232-1">
+		<tl f="D" t="p" o="A6" c="AVG" n="85184"/>
+		<dp pt="2610291232" pp="1" l="S32" fb="S32" wings="-4893677299503682143-2610291232" ppth="Bruchsal Schloßgarten|Bruchsal Stegwiesen|Ubstadt Ort|Ubstadt Salzbrunnenstr|Unteröwisheim M.-Luther-Str.|Unteröwisheim Bf|Oberöwisheim|Münzesheim|Münzesheim Ost|Gochsheim(Baden)|Bahnbrücken|Menzingen(Baden)"/>
+		<tra t="v" id="-5304268666511700859" ref-to="-4893677299503682143-2610291232" s="a" o="p" jt="j"/>
+	</s>
+	<s id="2324302999457761557-2610291233-2">
+		<tl f="N" t="p" o="SBSRE" c="RE" n="19645"/>
+		<ar pt="2610291254" pp="4" l="RE71" fb="RE71" ppth="Heidelberg Hbf"/>
+		<dp pt="2610291300" pp="4" l="RE71" fb="RE71" ppth="Bretten|Mühlacker"/>
+	</s>
+	<s id="-6226812398122585307-2610291235-1">
+		<tl f="N" t="p" o="SBSRB" c="RB" n="19619"/>
+		<dp pt="2610291235" pp="6" l="RB71" fb="RB71" ppth="Bruchsal Tunnelstraße|Bruchsal Schlachthof|Heidelsheim Nord|Heidelsheim|Helmsheim|Gondelsheim Schlossstadion|Gondelsheim(Baden)|Diedelsheim|Bretten|Bretten Rechberg|Bretten-Ruit|Knittlingen-Kleinvillars|Ölbronn-Dürrn|Maulbronn West|Ötisheim|Mühlacker"/>
+	</s>
+	<s id="7205177739073638575-2610291240-1">
+		<tl f="S" t="p" o="801539" c="S" n="38457"/>
+		<dp pt="2610291240" pp="5a" l="S33" fb="S33" ppth="Bruchsal Sportzentrum|Bruchsal Am Mantel|Karlsdorf|Graben-Neudorf|Graben-Neudorf Nord|Huttenheim|Philippsburg(Baden)|Rheinsheim|Germersheim Mitte/Rhein|Germersheim"/>
+	</s>
+	<s id="8010209783186508531-2610291252-1">
+		<tl f="D" t="p" o="A6" c="AVG" n="85126"/>
+		<dp pt="2610291252" pp="2a" l="S32" fb="S32" ppth="Bruchsal Schloßgarten|Bruchsal Stegwiesen|Ubstadt Ort|Ubstadt Salzbrunnenstr|Unteröwisheim M.-Luther-Str.|Unteröwisheim Bf|Oberöwisheim|Münzesheim|Münzesheim Ost|Gochsheim(Baden)|Bahnbrücken|Menzingen(Baden)"/>
+		<tra t="v" id="-714644634977790651" ref-from="-8830892831173123179-2610291252" s="a" o="p" jt="j"/>
+	</s>
+	<s id="-8830892831173123179-2610291252-1">
+		<tl f="D" t="p" o="A6" c="AVG" n="85926"/>
+		<dp pt="2610291252" pp="2a" l="S31" fb="S31" wings="8010209783186508531-2610291252" ppth="Bruchsal Schloßgarten|Bruchsal Stegwiesen|Ubstadt Ort|Ubstadt Uhlandstr.|Stettfeld(Baden)|Zeutern Sportplatz|Zeutern Bf|Zeutern Ost|Odenheim West|Odenheim Bf"/>
+		<tra t="v" id="-714644634977790651" ref-to="8010209783186508531-2610291252" s="a" o="p" jt="j"/>
+	</s>
+</timetable>
