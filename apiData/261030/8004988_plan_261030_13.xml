@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<timetable station="Rehau">
+	<s id="-7330714116945411562-2610301238-6">
+		<tl f="D" t="p" o="A9" c="ag" n="79674"/>
+		<ar pt="2610301259" pp="2" l="RB96" fb="RB96" ppth="Selb Stadt|Selb Nord|Erkersreuth|Selb-Plößberg|Schönwald(Oberfr)"/>
+		<dp pt="2610301300" pp="2" l="RB96" fb="RB96" ppth="Wurlitz|Oberkotzau|Hof Hbf"/>
+	</s>
+	<s id="-2187666830880847393-2610301306-6">
+		<tl f="D" t="p" o="A9" c="ag" n="79664"/>
+		<ar pt="2610301325" pp="2" l="RB96" fb="RB96" ppth="Selb Stadt|Selb Nord|Erkersreuth|Selb-Plößberg|Schönwald(Oberfr)"/>
+		<dp pt="2610301329" pp="2" l="RB96" fb="RB96" ppth="Wurlitz|Oberkotzau|Hof Hbf|Hof-Neuhof"/>
+	</s>
+	<s id="614380323922959372-2610301312-4">
+		<tl f="D" t="p" o="A9" c="ag" n="84679"/>
+		<ar pt="2610301327" pp="1" l="RB96" fb="RB96" wings="-5722686350534796046-2610301312" ppth="Hof Hbf|Oberkotzau|Wurlitz"/>
+		<dp pt="2610301328" pp="1" l="RB96" fb="RB96" wings="-5722686350534796046-2610301312" ppth="Schönwald(Oberfr)|Selb-Plößberg|Erkersreuth|Selb Nord|Selb Stadt"/>
+		<tra t="v" id="-1320789402814522094" ref-to="-5722686350534796046-2610301312" s="a" o="p"/>
+	</s>
+	<s id="-5722686350534796046-2610301312-4">
+		<tl f="D" t="p" o="A9" c="ag" n="20879"/>
+		<ar pt="2610301327" pp="1" l="RB95" fb="RB95" ppth="Hof Hbf|Oberkotzau|Wurlitz"/>
+		<dp pt="2610301328" pp="1" l="RB95" fb="RB95" ppth="Schönwald(Oberfr)|Selb-Plößberg|As(CZ)|Hazlov|Vojtanov obec|Frantiskovy Lazne|Frantiskovy Lazne Aquaforum|Cheb|Cheb-Skalka|Pomezi nad Ohri|Schirnding|Arzberg(Oberfr)|Marktredwitz"/>
+		<tra t="v" id="-1320789402814522094" ref-from="614380323922959372-2610301312" s="a" o="p"/>
+	</s>
+</timetable>

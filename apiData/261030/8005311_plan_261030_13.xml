@@ -1,0 +1,61 @@
+<?xml version="1.0" ?>
+<timetable station="Schaftlach">
+	<s id="1796296208060485220-2610301229-7">
+		<tl f="D" t="p" o="T8" c="BRB" n="86821"/>
+		<ar pt="2610301315" pp="1" l="RB56" fb="RB56" wings="-5753620237356591233-2610301229" ppth="München Hbf Gl.27-36|München Donnersbergerbrücke|München Harras|München Siemenswerke|Holzkirchen|Warngau"/>
+		<tra t="v" id="4687582890753519132" ref-to="-5753620237356591233-2610301229" s="a" o="p" jt="s"/>
+	</s>
+	<s id="-5753620237356591233-2610301229-7">
+		<tl f="D" t="p" o="T8" c="BRB" n="86921"/>
+		<ar pt="2610301315" pp="1" l="RB57" fb="RB57" ppth="München Hbf Gl.27-36|München Donnersbergerbrücke|München Harras|München Siemenswerke|Holzkirchen|Warngau"/>
+		<dp pt="2610301318" pp="1" l="RB57" fb="RB57" ppth="Moosrain|Finsterwald|Gmund(Tegernsee)|Tegernsee"/>
+		<tra t="v" id="4687582890753519132" ref-from="1796296208060485220-2610301229" s="a" o="p" jt="s"/>
+	</s>
+	<s id="-3493926797936440707-2610301235-6">
+		<tl t="p" o="T8" c="Bus" n="16826"/>
+		<ar pt="2610301312" pp="" l="RB56" fb="Bus RB56" ppth="Lenggries|Obergries|Gaißach|Bad Tölz|Reichersbeuern"/>
+	</s>
+	<s id="1117781773822363265-2610301252-5">
+		<tl f="D" t="p" o="T8" c="BRB" n="86926"/>
+		<ar pt="2610301313" pp="2" l="RB57" fb="RB57" ppth="Tegernsee|Gmund(Tegernsee)|Finsterwald|Moosrain"/>
+		<dp pt="2610301317" pp="2" l="RB57" fb="RB57" ppth="Warngau|Holzkirchen|München Siemenswerke|München Harras|München Donnersbergerbrücke|München Hbf Gl.27-36"/>
+	</s>
+	<s id="-8724020236213151128-2610301302-7">
+		<tl f="D" t="p" o="T8" c="BRB" n="86823"/>
+		<ar pt="2610301345" pp="1" l="RB56" fb="RB56" wings="-6177512617754370922-2610301302" ppth="München Hbf Gl.27-36|München Donnersbergerbrücke|München Harras|München Siemenswerke|Holzkirchen|Warngau"/>
+		<tra t="v" id="-3809140026655611912" ref-to="-6177512617754370922-2610301302" s="a" o="p" jt="s"/>
+	</s>
+	<s id="-6177512617754370922-2610301302-7">
+		<tl f="D" t="p" o="T8" c="BRB" n="86923"/>
+		<ar pt="2610301345" pp="1" l="RB57" fb="RB57" ppth="München Hbf Gl.27-36|München Donnersbergerbrücke|München Harras|München Siemenswerke|Holzkirchen|Warngau"/>
+		<dp pt="2610301348" pp="1" l="RB57" fb="RB57" ppth="Moosrain|Finsterwald|Gmund(Tegernsee)|Tegernsee"/>
+		<tra t="v" id="-3809140026655611912" ref-from="-8724020236213151128-2610301302" s="a" o="p" jt="s"/>
+	</s>
+	<s id="877679122643332352-2610301305-6">
+		<tl t="p" o="T8" c="Bus" n="16828"/>
+		<ar pt="2610301342" pp="" l="RB56" fb="Bus RB56" ppth="Lenggries|Obergries|Gaißach|Bad Tölz|Reichersbeuern"/>
+	</s>
+	<s id="-2472397362343410773-2610301317-1">
+		<tl f="D" t="p" o="T8" c="BRB" n="86826"/>
+		<dp pt="2610301317" pp="2" l="RB56" fb="RB56" ppth="Warngau|Holzkirchen|München Siemenswerke|München Harras|München Donnersbergerbrücke|München Hbf Gl.27-36"/>
+	</s>
+	<s id="-1253808865555650504-2610301320-1">
+		<tl t="p" o="T8" c="Bus" n="16821"/>
+		<dp pt="2610301320" pp="" l="RB56" fb="Bus RB56" ppth="Reichersbeuern|Bad Tölz|Gaißach|Obergries|Lenggries"/>
+	</s>
+	<s id="-5344448825011772560-2610301322-5">
+		<tl f="D" t="p" o="T8" c="BRB" n="86928"/>
+		<ar pt="2610301343" pp="2" l="RB57" fb="RB57" ppth="Tegernsee|Gmund(Tegernsee)|Finsterwald|Moosrain"/>
+		<dp pt="2610301347" pp="2" l="RB57" fb="RB57" ppth="Warngau|Holzkirchen|Otterfing|München Siemenswerke|München Harras|München Donnersbergerbrücke|München Hbf Gl.27-36"/>
+		<tra t="v" id="-7973042690550979024" ref-from="707856510131345223-2610301347" s="a" o="p" jt="j"/>
+	</s>
+	<s id="707856510131345223-2610301347-1">
+		<tl f="D" t="p" o="T8" c="BRB" n="86828"/>
+		<dp pt="2610301347" pp="2" l="RB56" fb="RB56" wings="-5344448825011772560-2610301322" ppth="Warngau|Holzkirchen|Otterfing|München Siemenswerke|München Harras|München Donnersbergerbrücke|München Hbf Gl.27-36"/>
+		<tra t="v" id="-7973042690550979024" ref-to="-5344448825011772560-2610301322" s="a" o="p" jt="j"/>
+	</s>
+	<s id="-6160381646176417938-2610301350-1">
+		<tl t="p" o="T8" c="Bus" n="16823"/>
+		<dp pt="2610301350" pp="" l="RB56" fb="Bus RB56" ppth="Reichersbeuern|Bad Tölz|Gaißach|Obergries|Lenggries"/>
+	</s>
+</timetable>

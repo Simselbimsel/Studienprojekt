@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<timetable station="Poppenhausen">
+	<s id="-794336387285307477-2610301506-4">
+		<tl f="D" t="p" o="EB" c="EB" n="80688"/>
+		<ar pt="2610301524" pp="1" l="RB40" fb="RB40" ppth="Schweinfurt Stadt|Schweinfurt Mitte|Schweinfurt Hbf"/>
+		<dp pt="2610301525" pp="1" l="RB40" fb="RB40" ppth="Ebenhausen(Unterfr)"/>
+		<tra t="v" id="-8088583296430245648" ref-from="-4943773939934460245-2610301506" s="a" o="p"/>
+	</s>
+	<s id="-4943773939934460245-2610301506-4">
+		<tl f="D" t="p" o="EB" c="EB" n="80748"/>
+		<ar pt="2610301524" pp="1" l="RB40" fb="RB40" wings="-794336387285307477-2610301506" ppth="Schweinfurt Stadt|Schweinfurt Mitte|Schweinfurt Hbf"/>
+		<dp pt="2610301525" pp="1" l="RB40" fb="RB40" wings="-794336387285307477-2610301506" ppth="Ebenhausen(Unterfr)|Rottershausen|Münnerstadt|Burglauer|Bad Neustadt(Saale)|Mellrichstadt Bf"/>
+		<tra t="v" id="-8088583296430245648" ref-to="-794336387285307477-2610301506" s="a" o="p"/>
+	</s>
+	<s id="-8195734253187818683-2610301530-2">
+		<tl f="D" t="p" o="EB" c="EB" n="80691"/>
+		<ar pt="2610301533" pp="1" l="RB50" fb="RB50" ppth="Ebenhausen(Unterfr)"/>
+		<dp pt="2610301534" pp="1" l="RB50" fb="RB50" ppth="Oberwerrn|Schweinfurt Hbf|Schweinfurt Mitte|Schweinfurt Stadt"/>
+	</s>
+	<s id="8154628200995523432-2610301543-3">
+		<tl f="D" t="p" o="EB" c="EB" n="80720"/>
+		<ar pt="2610301551" pp="1" l="RB50" fb="RB50" wings="-7745679464259084100-2610301543" ppth="Schweinfurt Hbf|Oberwerrn"/>
+		<dp pt="2610301552" pp="1" l="RB50" fb="RB50" wings="-7745679464259084100-2610301543" ppth="Ebenhausen(Unterfr)"/>
+		<tra t="v" id="2445943176220893628" ref-to="-7745679464259084100-2610301543" s="a" o="p"/>
+	</s>
+	<s id="-7745679464259084100-2610301543-3">
+		<tl f="D" t="p" o="EB" c="EB" n="80750"/>
+		<ar pt="2610301551" pp="1" l="RB40" fb="RB40" ppth="Schweinfurt Hbf|Oberwerrn"/>
+		<dp pt="2610301552" pp="1" l="RB40" fb="RB40" ppth="Ebenhausen(Unterfr)|Rottershausen|Münnerstadt|Burglauer|Bad Neustadt(Saale)|Mellrichstadt Bf"/>
+		<tra t="v" id="2445943176220893628" ref-from="8154628200995523432-2610301543" s="a" o="p"/>
+	</s>
+</timetable>

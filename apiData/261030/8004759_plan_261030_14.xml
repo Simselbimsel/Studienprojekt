@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+<timetable station="Pegnitz">
+	<s id="154608193161084763-2610301337-3">
+		<tl f="N" t="p" o="800759" c="RE" n="3829"/>
+		<ar pt="2610301414" pp="1" l="RE31" fb="RE31" ppth="Nürnberg Hbf|Neuhaus(Pegnitz)"/>
+		<dp pt="2610301420" pp="1" l="RE31" fb="RE31" ppth="Kirchenlaibach|Marktredwitz"/>
+		<tra t="v" id="-3917258615696867838" ref-from="-1283791038203390465-2610301337" s="a" o="p" jt="s"/>
+	</s>
+	<s id="-5263079976492205586-2610301337-5">
+		<tl f="N" t="p" o="800759" c="RE" n="5286"/>
+		<ar pt="2610301438" pp="2" l="RE33" fb="RE33" wings="8774871612853607255-2610301340" ppth="Cheb|Schirnding|Marktredwitz|Kirchenlaibach"/>
+		<dp pt="2610301445" pp="2" l="RE33" fb="RE33" wings="6048686702665455268-2610301349|8774871612853607255-2610301340" ppth="Neuhaus(Pegnitz)|Nürnberg Hbf"/>
+		<tra t="v" id="2516662041148590924" ref-to="6048686702665455268-2610301349" s="a" o="p" jt="j"/>
+		<tra t="v" id="2759266777961126906" ref-to="8774871612853607255-2610301340" s="a" o="p"/>
+		<tra t="v" id="3971617624596475008" ref-to="8774871612853607255-2610301340" s="a" o="p" jt="j"/>
+	</s>
+	<s id="-1283791038203390465-2610301337-3">
+		<tl f="N" t="p" o="800759" c="RE" n="3029"/>
+		<ar pt="2610301414" pp="1" l="RE30" fb="RE30" wings="154608193161084763-2610301337" ppth="Nürnberg Hbf|Neuhaus(Pegnitz)"/>
+		<dp pt="2610301416" pp="1" l="RE30" fb="RE30" ppth="Bayreuth Hbf|Trebgast|Münchberg|Hof Hbf"/>
+		<tra t="v" id="-3917258615696867838" ref-to="154608193161084763-2610301337" s="a" o="p" jt="s"/>
+	</s>
+	<s id="8774871612853607255-2610301340-5">
+		<tl f="N" t="p" o="800759" c="RE" n="4886"/>
+		<ar pt="2610301438" pp="2" l="RE31" fb="RE31" ppth="Hof Hbf|Oberkotzau|Marktredwitz|Kirchenlaibach"/>
+		<dp pt="2610301445" pp="2" l="RE31" fb="RE31" ppth="Neuhaus(Pegnitz)|Nürnberg Hbf"/>
+		<tra t="v" id="2759266777961126906" ref-from="-5263079976492205586-2610301337" s="a" o="p"/>
+		<tra t="v" id="3971617624596475008" ref-from="-5263079976492205586-2610301337" s="a" o="p" jt="j"/>
+	</s>
+	<s id="6048686702665455268-2610301349-8">
+		<tl f="N" t="p" o="800759" c="RE" n="3406"/>
+		<ar pt="2610301443" pp="2" l="RE30" fb="RE30" ppth="Neuenmarkt-Wirsberg|Trebgast|Harsdorf|Bindlach|Bayreuth Hbf|Creußen(Oberfr)|Schnabelwaid"/>
+		<dp pt="2610301445" pp="2" l="RE30" fb="RE30" ppth="Neuhaus(Pegnitz)|Nürnberg Hbf"/>
+		<tra t="v" id="2516662041148590924" ref-from="-5263079976492205586-2610301337" s="a" o="p" jt="j"/>
+	</s>
+	<s id="-8659576255508072332-2610301404-2">
+		<tl f="N" t="p" o="800759" c="RE" n="3424"/>
+		<ar pt="2610301417" pp="2" l="RE32" fb="RE32" ppth="Bayreuth Hbf"/>
+		<dp pt="2610301418" pp="2" l="RE32" fb="RE32" ppth="Hersbruck(r Pegnitz)|Nürnberg Hbf"/>
+	</s>
+	<s id="-6289128948796429498-2610301405-3">
+		<tl f="N" t="p" o="800759" c="RE" n="3441"/>
+		<ar pt="2610301442" pp="1" l="RE38" fb="RE38" ppth="Nürnberg Hbf|Hersbruck(r Pegnitz)"/>
+		<dp pt="2610301443" pp="1" l="RE38" fb="RE38" ppth="Creußen(Oberfr)|Bayreuth Hbf|Harsdorf|Trebgast|Neuenmarkt-Wirsberg|Untersteinach(b Stadtsteinach)|Kulmbach|Burgkunstadt|Lichtenfels|Bamberg"/>
+	</s>
+</timetable>
