@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<timetable station="Ebenhausen(Unterfr)">
+	<s id="6817686272945008249-2610302109-9">
+		<tl t="p" o="EB" c="Bus" n="60703"/>
+		<ar pt="2610302219" pp="" l="RB50" fb="Bus RB50" ppth="Gemünden(Main)|Hammelburg|Hammelburg Ost|Westheim-Langendorf|Elfershausen-Trimberg|Euerdorf|Bad Kissingen|Oerlenbach"/>
+	</s>
+	<s id="6812441867851547574-2610302148-6">
+		<tl f="D" t="p" o="EB" c="EB" n="80761"/>
+		<ar pt="2610302218" pp="3" l="RB40" fb="RB40" ppth="Mellrichstadt Bf|Bad Neustadt(Saale)|Burglauer|Münnerstadt|Rottershausen"/>
+		<dp pt="2610302225" pp="3" l="RB40" fb="RB40" ppth="Poppenhausen|Schweinfurt Hbf|Schweinfurt Mitte|Schweinfurt Stadt"/>
+	</s>
+	<s id="510579345511293204-2610302224-4">
+		<tl f="D" t="p" o="EB" c="EB" n="80702"/>
+		<ar pt="2610302239" pp="3" l="RB50" fb="RB50" wings="466363538624248244-2610302224" ppth="Schweinfurt Hbf|Oberwerrn|Poppenhausen"/>
+		<tra t="v" id="3035441039725319630" ref-to="466363538624248244-2610302224" s="a" o="p" jt="s"/>
+	</s>
+	<s id="466363538624248244-2610302224-4">
+		<tl f="D" t="p" o="EB" c="EB" n="80764"/>
+		<ar pt="2610302239" pp="3" l="RB40" fb="RB40" ppth="Schweinfurt Hbf|Oberwerrn|Poppenhausen"/>
+		<dp pt="2610302242" pp="3" l="RB40" fb="RB40" ppth="Rottershausen|Münnerstadt|Burglauer|Bad Neustadt(Saale)|Mellrichstadt Bf"/>
+		<tra t="v" id="3035441039725319630" ref-from="510579345511293204-2610302224" s="a" o="p" jt="s"/>
+	</s>
+	<s id="-4164844388367776837-2610302245-1">
+		<tl t="p" o="EB" c="Bus" n="60702"/>
+		<dp pt="2610302245" pp="" l="RB50" fb="Bus RB50" ppth="Oerlenbach|Bad Kissingen"/>
+	</s>
+</timetable>

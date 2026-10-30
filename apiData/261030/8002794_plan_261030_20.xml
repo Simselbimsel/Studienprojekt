@@ -1,0 +1,55 @@
+<?xml version="1.0" ?>
+<timetable station="Hersbruck(r Pegnitz)">
+	<s id="391338702360654629-2610301908-8">
+		<tl f="N" t="p" o="800759" c="RE" n="3412"/>
+		<ar pt="2610302039" pp="3" l="RE32" fb="RE32" ppth="Lichtenfels|Hochstadt-Marktzeuln|Burgkunstadt|Kulmbach|Neuenmarkt-Wirsberg|Bayreuth Hbf|Pegnitz"/>
+		<dp pt="2610302040" pp="3" l="RE32" fb="RE32" ppth="Nürnberg Hbf"/>
+	</s>
+	<s id="2465922226666099906-2610302001-6">
+		<tl f="N" t="p" o="800720" c="RB" n="58546"/>
+		<ar pt="2610302020" pp="3" l="RB30" fb="RB30" ppth="Neuhaus(Pegnitz)|Velden(b Hersbruck)|Rupprechtstegen|Vorra(Pegnitz)|Hohenstadt(Mittelfr)"/>
+		<dp pt="2610302021" pp="3" l="RB30" fb="RB30" ppth="Reichenschwand|Neunkirchen a Sand|Lauf(rechts Pegnitz)|Ludwigshöhe|Rückersdorf(Mfr)|Behringersdorf|Nürnberg-Erlenstegen|Nürnberg Ost|Nürnberg Hbf"/>
+	</s>
+	<s id="-2559147222160614988-2610302005-2">
+		<tl f="N" t="p" o="800759" c="RE" n="3447"/>
+		<ar pt="2610302019" pp="2" l="RE32" fb="RE32" ppth="Nürnberg Hbf"/>
+		<dp pt="2610302020" pp="2" l="RE32" fb="RE32" ppth="Pegnitz|Creußen(Oberfr)|Bayreuth Hbf|Harsdorf|Trebgast|Neuenmarkt-Wirsberg|Untersteinach(b Stadtsteinach)|Kulmbach|Burgkunstadt|Lichtenfels"/>
+	</s>
+	<s id="2628463176121204314-2610302008-10">
+		<tl f="N" t="p" o="800720" c="RB" n="58559"/>
+		<ar pt="2610302039" pp="2" l="RB30" fb="RB30" ppth="Nürnberg Hbf|Nürnberg Ost|Nürnberg-Erlenstegen|Behringersdorf|Rückersdorf(Mfr)|Ludwigshöhe|Lauf(rechts Pegnitz)|Neunkirchen a Sand|Reichenschwand"/>
+		<dp pt="2610302039" pp="2" l="RB30" fb="RB30" ppth="Hohenstadt(Mittelfr)|Vorra(Pegnitz)|Rupprechtstegen|Velden(b Hersbruck)|Neuhaus(Pegnitz)"/>
+	</s>
+	<s id="-6379876737835516962-2610302037-2">
+		<tl f="N" t="p" o="800759" c="RE" n="3583"/>
+		<ar pt="2610302052" pp="2" l="RE40" fb="RE40" wings="-3182669734444239041-2610302037|1930147649003529383-2610302037" ppth="Nürnberg Hbf"/>
+		<dp pt="2610302058" pp="2" l="RE40" fb="RE40" ppth="Hartmannshof|Etzelwang|Neukirchen(b Sulzb)|Sulzbach-Rosenberg|Amberg|Schwandorf"/>
+		<tra t="v" id="-8684721562315144446" ref-to="-3182669734444239041-2610302037" s="a" o="p" jt="s"/>
+		<tra t="v" id="-2031492353613290766" ref-to="1930147649003529383-2610302037" s="a" o="p" jt="s"/>
+		<tra t="v" id="4556629973877507525" ref-from="-8824020438503591764-2610302037" s="a" o="p"/>
+	</s>
+	<s id="-3182669734444239041-2610302037-2">
+		<tl f="N" t="p" o="800759" c="RE" n="3095"/>
+		<ar pt="2610302052" pp="2" l="RE30" fb="RE30" ppth="Nürnberg Hbf"/>
+		<dp pt="2610302054" pp="2" l="RE30" fb="RE30" ppth="Neuhaus(Pegnitz)|Pegnitz|Schnabelwaid|Creußen(Oberfr)|Bayreuth Hbf"/>
+		<tra t="v" id="-8684721562315144446" ref-from="-6379876737835516962-2610302037" s="a" o="p" jt="s"/>
+		<tra t="v" id="-4582413492119288263" ref-from="1930147649003529383-2610302037" s="a" o="p"/>
+		<tra t="v" id="-3722304367968566553" ref-from="-8824020438503591764-2610302037" s="a" o="p" jt="s"/>
+	</s>
+	<s id="-8824020438503591764-2610302037-2">
+		<tl f="N" t="p" o="800759" c="RE" n="3483"/>
+		<ar pt="2610302052" pp="2" l="RE41" fb="RE41" wings="-6379876737835516962-2610302037|-3182669734444239041-2610302037|1930147649003529383-2610302037" ppth="Nürnberg Hbf"/>
+		<dp pt="2610302058" pp="2" l="RE41" fb="RE41" wings="-6379876737835516962-2610302037" ppth="Hartmannshof|Etzelwang|Neukirchen(b Sulzb)|Vilseck|Freihung|Weiherhammer|Weiden(Oberpf)|Altenstadt(Waldnaab)|Neustadt(Waldnaab)"/>
+		<tra t="v" id="-3722304367968566553" ref-to="-3182669734444239041-2610302037" s="a" o="p" jt="s"/>
+		<tra t="v" id="-2329543417153813905" ref-to="1930147649003529383-2610302037" s="a" o="p" jt="s"/>
+		<tra t="v" id="4556629973877507525" ref-to="-6379876737835516962-2610302037" s="a" o="p"/>
+	</s>
+	<s id="1930147649003529383-2610302037-2">
+		<tl f="N" t="p" o="800759" c="RE" n="4895"/>
+		<ar pt="2610302052" pp="2" l="RE31" fb="RE31" wings="-3182669734444239041-2610302037" ppth="Nürnberg Hbf"/>
+		<dp pt="2610302054" pp="2" l="RE31" fb="RE31" wings="-3182669734444239041-2610302037" ppth="Neuhaus(Pegnitz)|Pegnitz|Kirchenlaibach|Immenreuth|Neusorg|Marktredwitz|Wunsiedel-Holenbrunn|Röslau|Marktleuthen|Kirchenlamitz Ost|Martinlamitz|Oberkotzau|Hof Hbf"/>
+		<tra t="v" id="-4582413492119288263" ref-to="-3182669734444239041-2610302037" s="a" o="p"/>
+		<tra t="v" id="-2329543417153813905" ref-from="-8824020438503591764-2610302037" s="a" o="p" jt="s"/>
+		<tra t="v" id="-2031492353613290766" ref-from="-6379876737835516962-2610302037" s="a" o="p" jt="s"/>
+	</s>
+</timetable>

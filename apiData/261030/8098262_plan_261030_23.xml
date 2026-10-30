@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<timetable station="München Hbf Gl.5-10">
+	<s id="7294674403484573950-2610301530-14">
+		<tl t="p" o="55" c="RJX" n="68"/>
+		<ar pt="2610302307" pp="9" fb="RJX 68" ppth="Budapest-Keleti|Budapest-Kelenföld|Tatabanya|Györ|Mosonmagyarovar|Hegyeshalom|Wien Hbf|Wien Meidling|St.Pölten Hbf|Linz/Donau Hbf|Salzburg Hbf|Traunstein|Rosenheim"/>
+	</s>
+	<s id="2641710318345101812-2610302232-2">
+		<tl f="D" t="p" o="M8" c="BRB" n="79046"/>
+		<ar pt="2610302319" pp="12" l="RE5" fb="RE5" ppth="Rosenheim"/>
+	</s>
+	<s id="-923369996711241312-2610302232-14">
+		<tl f="D" t="p" o="T8" c="BRB" n="86782"/>
+		<ar pt="2610302357" pp="9" l="RB55" fb="RB55" ppth="Bayrischzell|Osterhofen(Oberbay)|Geitau|Fischbachau|Fischhausen-Neuhaus|Schliersee|Hausham|Agatharied|Miesbach|Darching|Holzkirchen|München Siemenswerke|München Harras"/>
+		<tra t="v" id="1525499326052223735" ref-from="3797614755450422074-2610302252" s="a" o="p" jt="s"/>
+	</s>
+	<s id="3797614755450422074-2610302252-10">
+		<tl f="D" t="p" o="T8" c="BRB" n="87022"/>
+		<ar pt="2610302357" pp="9" l="RB57" fb="RB57" wings="-923369996711241312-2610302232" ppth="Tegernsee|Gmund(Tegernsee)|Finsterwald|Moosrain|Schaftlach|Warngau|Holzkirchen|München Siemenswerke|München Harras"/>
+		<tra t="v" id="1525499326052223735" ref-to="-923369996711241312-2610302232" s="a" o="p" jt="s"/>
+	</s>
+	<s id="-276896031776243712-2610302351-1">
+		<tl f="D" t="p" o="M8" c="BRB" n="79049"/>
+		<dp pt="2610302351" pp="12" l="RE5" fb="RE5" ppth="München Ost|Grafing Bahnhof|Aßling(Oberbay)|Ostermünchen|Großkarolinenfeld|Rosenheim"/>
+	</s>
+</timetable>
