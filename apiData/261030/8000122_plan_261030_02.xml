@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<timetable station="Treuchtlingen">
+	<s id="-3823254010841261196-2610291740-9">
+		<tl t="p" o="84" c="NJ" n="421"/>
+		<ar pt="2610300259" pp="" fb="NJ 421" hi="1" ppth="Amsterdam Centraal|Utrecht Centraal|Arnhem Centraal|Oberhausen Hbf|Essen Hbf|Dortmund Hbf|Kassel-Wilhelmshöhe|Würzburg Hbf"/>
+		<dp pt="2610300347" pp="" fb="NJ 421" hi="1" ppth="Augsburg Hbf|München Hbf|Rosenheim|Kufstein|Wörgl Hbf|Jenbach|Innsbruck Hbf"/>
+		<tra t="v" id="-3277338074288410659" ref-from="-4272298498907669914-2610291740" s="a" o="p" jt="s"/>
+	</s>
+	<s id="-4272298498907669914-2610291740-9">
+		<tl t="p" o="81" c="NJ" n="40421"/>
+		<ar pt="2610300259" pp="" fb="NJ 40421" hi="1" wings="-3823254010841261196-2610291740" ppth="Amsterdam Centraal|Utrecht Centraal|Arnhem Centraal|Oberhausen Hbf|Essen Hbf|Dortmund Hbf|Kassel-Wilhelmshöhe|Würzburg Hbf"/>
+		<dp pt="2610300342" pp="" fb="NJ 40421" hi="1" ppth="München Ost|Salzburg Hbf|Linz/Donau Hbf|St.Pölten Hbf|Wien Meidling|Wien Hbf"/>
+		<tra t="v" id="-3277338074288410659" ref-to="-3823254010841261196-2610291740" s="a" o="p" jt="s"/>
+	</s>
+	<s id="6992012378128167215-2610291955-9">
+		<tl t="p" o="81" c="NJ" n="40491"/>
+		<ar pt="2610300245" pp="" fb="NJ 40491" hi="1" wings="-8018116824080471880-2610291955" ppth="Hamburg-Altona|Hamburg Dammtor|Hamburg Hbf|Hamburg-Harburg|Hannover Hbf|Göttingen|Kassel-Wilhelmshöhe|Würzburg Hbf"/>
+		<dp pt="2610300347" pp="" fb="NJ 40491" hi="1" ppth="Augsburg Hbf|München Hbf|Rosenheim|Kufstein|Wörgl Hbf|Jenbach|Innsbruck Hbf"/>
+		<tra t="v" id="-2328811841694931328" ref-to="-8018116824080471880-2610291955" s="a" o="p" jt="s"/>
+	</s>
+	<s id="-8018116824080471880-2610291955-9">
+		<tl t="p" o="81" c="NJ" n="493"/>
+		<ar pt="2610300245" pp="" fb="NJ 493" hi="1" ppth="Hamburg-Altona|Hamburg Dammtor|Hamburg Hbf|Hamburg-Harburg|Hannover Hbf|Göttingen|Kassel-Wilhelmshöhe|Würzburg Hbf"/>
+		<dp pt="2610300342" pp="" fb="NJ 493" hi="1" ppth="München Ost|Salzburg Hbf|Linz/Donau Hbf|St.Pölten Hbf|Wien Meidling|Wien Hbf"/>
+		<tra t="v" id="-2328811841694931328" ref-from="6992012378128167215-2610291955" s="a" o="p" jt="s"/>
+	</s>
+</timetable>
