@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<timetable station="Neuhaus(Pegnitz)">
+	<s id="-5812970219174500518-2610310523-10">
+		<tl f="N" t="p" o="800759" c="RE" n="3098"/>
+		<ar pt="2610310653" pp="1" l="RE30" fb="RE30" wings="5185201335082382633-2610310551" ppth="Hof Hbf|Oberkotzau|Schwarzenbach(Saale)|Münchberg|Stammbach|Marktschorgast|Trebgast|Bayreuth Hbf|Pegnitz"/>
+		<dp pt="2610310654" pp="1" l="RE30" fb="RE30" wings="5185201335082382633-2610310551" ppth="Hersbruck(r Pegnitz)"/>
+		<tra t="v" id="-4843516021799145156" ref-to="5185201335082382633-2610310551" s="a" o="p"/>
+	</s>
+	<s id="4125135780099184918-2610310548-2">
+		<tl f="N" t="p" o="800759" c="RE" n="4899"/>
+		<ar pt="2610310600" pp="2" l="RE31" fb="RE31" ppth="Hersbruck(r Pegnitz)"/>
+		<dp pt="2610310601" pp="2" l="RE31" fb="RE31" ppth="Pegnitz|Kirchenlaibach|Marktredwitz|Hof Hbf"/>
+		<tra t="v" id="6517434792988434526" ref-from="-9139095151325484750-2610310548" s="a" o="p"/>
+	</s>
+	<s id="-9139095151325484750-2610310548-2">
+		<tl f="N" t="p" o="800759" c="RE" n="3019"/>
+		<ar pt="2610310600" pp="2" l="RE30" fb="RE30" wings="4125135780099184918-2610310548" ppth="Hersbruck(r Pegnitz)"/>
+		<dp pt="2610310601" pp="2" l="RE30" fb="RE30" wings="4125135780099184918-2610310548" ppth="Pegnitz|Bayreuth Hbf|Trebgast|Marktschorgast|Münchberg|Schwarzenbach(Saale)|Oberkotzau|Hof Hbf"/>
+		<tra t="v" id="6517434792988434526" ref-to="4125135780099184918-2610310548" s="a" o="p"/>
+	</s>
+	<s id="5185201335082382633-2610310551-9">
+		<tl f="N" t="p" o="800759" c="RE" n="3820"/>
+		<ar pt="2610310653" pp="1" l="RE31" fb="RE31" ppth="Marktredwitz|Waldershof|Neusorg|Immenreuth|Haidenaab-Göppmannsbühl|Kirchenlaibach|Schnabelwaid|Pegnitz"/>
+		<dp pt="2610310654" pp="1" l="RE31" fb="RE31" ppth="Hersbruck(r Pegnitz)"/>
+		<tra t="v" id="-4843516021799145156" ref-from="-5812970219174500518-2610310523" s="a" o="p"/>
+	</s>
+	<s id="-6736122728206360821-2610310555-4">
+		<tl f="N" t="p" o="800759" c="RE" n="3422"/>
+		<ar pt="2610310621" pp="1" l="RE32" fb="RE32" ppth="Bayreuth Hbf|Creußen(Oberfr)|Pegnitz"/>
+		<dp pt="2610310622" pp="1" l="RE32" fb="RE32" ppth="Hersbruck(r Pegnitz)"/>
+	</s>
+	<s id="-6044551170198255615-2610310618-2">
+		<tl f="N" t="p" o="800759" c="RE" n="3403"/>
+		<ar pt="2610310631" pp="2" l="RE32" fb="RE32" ppth="Hersbruck(r Pegnitz)"/>
+		<dp pt="2610310632" pp="2" l="RE32" fb="RE32" ppth="Pegnitz|Schnabelwaid|Creußen(Oberfr)|Bayreuth Hbf|Harsdorf|Trebgast|Neuenmarkt-Wirsberg|Untersteinach(b Stadtsteinach)|Kulmbach|Burgkunstadt|Lichtenfels|Bad Staffelstein|Bamberg"/>
+	</s>
+</timetable>

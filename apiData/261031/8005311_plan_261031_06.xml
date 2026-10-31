@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<timetable station="Schaftlach">
+	<s id="-2876392352772961502-2610310602-7">
+		<tl f="D" t="p" o="T8" c="BRB" n="86851"/>
+		<ar pt="2610310645" pp="1" l="RB56" fb="RB56" ppth="München Hbf Gl.27-36|München Donnersbergerbrücke|München Harras|München-Solln|Holzkirchen|Warngau"/>
+		<tra t="v" id="9154662165727370623" ref-from="-6148690611266971626-2610310602" s="a" o="p" jt="s"/>
+	</s>
+	<s id="-6148690611266971626-2610310602-7">
+		<tl f="D" t="p" o="T8" c="BRB" n="86951"/>
+		<ar pt="2610310645" pp="1" l="RB57" fb="RB57" wings="-2876392352772961502-2610310602" ppth="München Hbf Gl.27-36|München Donnersbergerbrücke|München Harras|München-Solln|Holzkirchen|Warngau"/>
+		<dp pt="2610310648" pp="1" l="RB57" fb="RB57" ppth="Moosrain|Finsterwald|Gmund(Tegernsee)|Tegernsee"/>
+		<tra t="v" id="9154662165727370623" ref-to="-2876392352772961502-2610310602" s="a" o="p" jt="s"/>
+	</s>
+	<s id="1570043692961181310-2610310607-6">
+		<tl t="p" o="T8" c="Bus" n="16856"/>
+		<ar pt="2610310644" pp="" l="RB56" fb="Bus RB56" ppth="Lenggries|Obergries|Gaißach|Bad Tölz|Reichersbeuern"/>
+	</s>
+	<s id="-5121672270828738697-2610310622-5">
+		<tl f="D" t="p" o="T8" c="BRB" n="86956"/>
+		<ar pt="2610310643" pp="2" l="RB57" fb="RB57" ppth="Tegernsee|Gmund(Tegernsee)|Finsterwald|Moosrain"/>
+		<dp pt="2610310649" pp="2" l="RB57" fb="RB57" wings="664693291287304977-2610310649" ppth="Warngau|Holzkirchen|München-Solln|München Harras|München Donnersbergerbrücke|München Hbf Gl.27-36"/>
+		<tra t="v" id="-8558880562935221444" ref-to="664693291287304977-2610310649" s="a" o="p" jt="j"/>
+	</s>
+	<s id="664693291287304977-2610310649-1">
+		<tl f="D" t="p" o="T8" c="BRB" n="86856"/>
+		<dp pt="2610310649" pp="2" l="RB56" fb="RB56" ppth="Warngau|Holzkirchen|München-Solln|München Harras|München Donnersbergerbrücke|München Hbf Gl.27-36"/>
+		<tra t="v" id="-8558880562935221444" ref-from="-5121672270828738697-2610310622" s="a" o="p" jt="j"/>
+	</s>
+	<s id="-8766863142237387630-2610310650-1">
+		<tl t="p" o="T8" c="Bus" n="16851"/>
+		<dp pt="2610310650" pp="" l="RB56" fb="Bus RB56" ppth="Reichersbeuern|Bad Tölz|Gaißach|Obergries|Lenggries"/>
+	</s>
+</timetable>

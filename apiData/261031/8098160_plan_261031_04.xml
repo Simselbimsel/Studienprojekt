@@ -1,0 +1,58 @@
+<?xml version="1.0" ?>
+<timetable station="Berlin Hbf">
+	<s id="-6480598992464714368-2610310401-4">
+		<tl f="N" t="p" o="800165" c="RE" n="21806"/>
+		<ar pt="2610310423" pp="8" l="FEX" fb="FEX" ppth="Flughafen BER|Berlin Südkreuz|Berlin Potsdamer Platz"/>
+	</s>
+	<s id="-6811972395206884798-2610310403-7">
+		<tl f="N" t="p" o="800158" c="RE" n="3369"/>
+		<ar pt="2610310445" pp="1" l="RE3" fb="RE3" tra="935399355253104146-2610310452-1" ppth="Eberswalde Hbf|Melchow|Biesenthal|Rüdnitz|Bernau(b Berlin)|Berlin Gesundbrunnen"/>
+		<tra t="d" id="-2829985301963582587" ref-to="935399355253104146-2610310452-1" s="a" o="p"/>
+	</s>
+	<s id="7056357850727682390-2610310403-9">
+		<tl f="D" t="p" o="OWRE" c="OE" n="62040"/>
+		<ar pt="2610310440" pp="2" l="RE8" fb="RE8" ppth="Nauen|Brieselang|Finkenkrug|Falkensee|Seegefeld|Albrechtshof|Berlin-Spandau|Berlin Jungfernheide"/>
+		<dp pt="2610310445" pp="2" l="RE8" fb="RE8" ppth="Berlin Potsdamer Platz|Berlin Südkreuz|Blankenfelde(Teltow-Fläming)|Dahlewitz|Rangsdorf|Dabendorf|Zossen|Wünsdorf-Waldstadt|Neuhof(b Zossen)|Baruth(Mark)|Klasdorf Glashütte|Golßen(Niederlausitz)|Drahnsdorf|Luckau-Uckro|Walddrehna|Doberlug-Kirchhain|Rückersdorf|Hohenleipisch|Elsterwerda"/>
+	</s>
+	<s id="-2967210141109562161-2610310418-2">
+		<tl f="N" t="p" o="800165" c="RE" n="21809"/>
+		<ar pt="2610310422" pp="3" l="FEX" fb="FEX" ppth="Berlin Gesundbrunnen"/>
+		<dp pt="2610310425" pp="3" l="FEX" fb="FEX" ppth="Berlin Potsdamer Platz|Berlin Südkreuz|Flughafen BER"/>
+	</s>
+	<s id="2220346901525382534-2610310418-1">
+		<tl f="N" t="p" o="800158" c="RE" n="3340"/>
+		<dp pt="2610310418" pp="5" l="RE3" fb="RE3" ppth="Berlin Gesundbrunnen|Bernau(b Berlin)|Rüdnitz|Biesenthal|Melchow|Eberswalde Hbf|Britz|Chorin|Angermünde|Pinnow(Uckermark)|Schwedt(Oder)Mitte|Schwedt(Oder)"/>
+	</s>
+	<s id="463365782144350041-2610310421-1">
+		<tl f="D" t="p" o="OWRE" c="OE" n="62001"/>
+		<dp pt="2610310421" pp="7" l="RE8" fb="RE8" ppth="Berlin Jungfernheide|Berlin-Spandau|Albrechtshof|Seegefeld|Falkensee|Finkenkrug|Brieselang|Nauen|Paulinenaue|Friesack(Mark)|Neustadt(Dosse)|Breddin|Glöwen|Bad Wilsnack|Wittenberge|Karstädt|Grabow(Meckl)|Ludwigslust|Lüblow(Meckl)|Rastow|Sülstorf|Holthusen|Schwerin Süd|Schwerin Mitte|Schwerin Hbf|Lübstorf|Bad Kleinen|Moidentin|Dorf Mecklenburg|Wismar"/>
+	</s>
+	<s id="4727925120435672791-2610310431-4">
+		<tl f="N" t="p" o="800165" c="RE" n="21808"/>
+		<ar pt="2610310453" pp="8" l="FEX" fb="FEX" ppth="Flughafen BER|Berlin Südkreuz|Berlin Potsdamer Platz"/>
+	</s>
+	<s id="-3309085717059669479-2610310431-2">
+		<tl f="N" t="p" o="800165" c="RB" n="19905"/>
+		<ar pt="2610310434" pp="1" l="RE20" fb="RE20" ppth="Berlin Gesundbrunnen"/>
+		<dp pt="2610310437" pp="1" l="RE20" fb="RE20" ppth="Berlin Potsdamer Platz|Berlin Südkreuz|Flughafen BER"/>
+	</s>
+	<s id="-6696008246974954748-2610310434-1">
+		<tl f="F" t="p" o="80" c="ICE" n="946"/>
+		<dp pt="2610310434" pp="4" fb="ICE 946" wings="-8759048861406107076-2610310434" ppth="Berlin Südkreuz|Magdeburg Hbf|Braunschweig Hbf|Hannover Hbf|Bielefeld Hbf|Hamm(Westf)Hbf|Dortmund Hbf|Bochum Hbf|Essen Hbf"/>
+		<tra t="v" id="3261760229886409263" ref-to="-8759048861406107076-2610310434" s="a" o="p" jt="j"/>
+	</s>
+	<s id="-8759048861406107076-2610310434-1">
+		<tl f="F" t="p" o="80" c="ICE" n="956"/>
+		<dp pt="2610310434" pp="4" fb="ICE 956" ppth="Berlin Südkreuz|Magdeburg Hbf|Braunschweig Hbf|Hannover Hbf|Bielefeld Hbf|Hamm(Westf)Hbf|Hagen Hbf|Wuppertal Hbf|Köln Hbf"/>
+		<tra t="v" id="3261760229886409263" ref-from="-6696008246974954748-2610310434" s="a" o="p" jt="j"/>
+	</s>
+	<s id="935399355253104146-2610310452-1">
+		<tl f="N" t="p" o="800165" c="RE" n="21813"/>
+		<dp pt="2610310452" pp="1" l="FEX" fb="FEX" tra="-6811972395206884798-2610310403-7" ppth="Berlin Potsdamer Platz|Berlin Südkreuz|Flughafen BER"/>
+		<tra t="d" id="-2829985301963582587" ref-from="-6811972395206884798-2610310403-7" s="a" o="p"/>
+	</s>
+	<s id="-7342486565031247988-2610310454-1">
+		<tl f="N" t="p" o="800158" c="RE" n="3145"/>
+		<dp pt="2610310454" pp="5" l="RE4" fb="RE4" ppth="Berlin Jungfernheide|Berlin-Spandau"/>
+	</s>
+</timetable>

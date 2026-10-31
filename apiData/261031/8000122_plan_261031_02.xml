@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<timetable station="Treuchtlingen">
+	<s id="6992012378128167215-2610301955-8">
+		<tl t="p" o="81" c="NJ" n="40491"/>
+		<ar pt="2610310250" pp="7" fb="NJ 40491" hi="1" wings="-8018116824080471880-2610301955" ppth="Hamburg-Altona|Hamburg Dammtor|Hamburg Hbf|Hamburg-Harburg|Göttingen|Kassel-Wilhelmshöhe|Würzburg Hbf"/>
+		<dp pt="2610310433" pp="7" fb="NJ 40491" hi="1" ppth="Augsburg Hbf|München Hbf|Rosenheim|Kufstein|Wörgl Hbf|Jenbach|Innsbruck Hbf"/>
+		<tra t="v" id="5021819982680357241" ref-to="-8018116824080471880-2610301955" s="a" o="p" jt="s"/>
+	</s>
+	<s id="-8018116824080471880-2610301955-8">
+		<tl t="p" o="81" c="NJ" n="493"/>
+		<ar pt="2610310250" pp="7" fb="NJ 493" hi="1" ppth="Hamburg-Altona|Hamburg Dammtor|Hamburg Hbf|Hamburg-Harburg|Göttingen|Kassel-Wilhelmshöhe|Würzburg Hbf"/>
+		<dp pt="2610310344" pp="7" fb="NJ 493" hi="1" ppth="München Ost|Salzburg Hbf|Linz/Donau Hbf|St.Pölten Hbf|Wien Meidling|Wien Hbf"/>
+		<tra t="v" id="5021819982680357241" ref-from="6992012378128167215-2610301955" s="a" o="p" jt="s"/>
+	</s>
+</timetable>

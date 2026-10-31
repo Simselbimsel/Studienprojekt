@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<timetable station="Oldenburg(Oldb)Hbf">
+	<s id="-8217607310505699301-2610310416-6">
+		<tl f="N" t="p" o="NZ" c="RE" n="52033"/>
+		<ar pt="2610310523" pp="3" l="IC56" fb="RE IC56" wings="7109186111814105543-2610310416" ppth="Emden Hbf|Leer(Ostfriesl)|Augustfehn|Westerstede-Ocholt|Bad Zwischenahn"/>
+		<dp pt="2610310535" pp="3" l="IC56" fb="RE IC56" wings="7109186111814105543-2610310416" ppth="Hude|Delmenhorst|Bremen Hbf"/>
+		<tra t="v" id="-2234635414299847424" ref-to="7109186111814105543-2610310416" s="a" o="p"/>
+	</s>
+	<s id="7109186111814105543-2610310416-6">
+		<tl f="F" t="p" o="80" c="IC" n="2033"/>
+		<ar pt="2610310523" pp="3" fb="IC 2033" ppth="Emden Hbf|Leer(Ostfriesl)|Augustfehn|Westerstede-Ocholt|Bad Zwischenahn"/>
+		<dp pt="2610310535" pp="3" fb="IC 2033" ppth="Hude|Delmenhorst|Bremen Hbf|Verden(Aller)|Nienburg(Weser)|Hannover Hbf"/>
+		<tra t="v" id="-2234635414299847424" ref-from="-8217607310505699301-2610310416" s="a" o="p"/>
+	</s>
+	<s id="-6761625813998259675-2610310457-4">
+		<tl f="N" t="p" o="800295" c="RE" n="4438"/>
+		<ar pt="2610310531" pp="7" l="RE1" fb="RE1" ppth="Bremen Hbf|Delmenhorst|Hude"/>
+		<dp pt="2610310533" pp="7" l="RE1" fb="RE1" ppth="Bad Zwischenahn|Westerstede-Ocholt|Augustfehn|Leer(Ostfriesl)|Emden Hbf|Marienhafe|Norden|Norddeich|Norddeich Mole"/>
+	</s>
+	<s id="-2248351131049730060-2610310549-1">
+		<tl f="D" t="p" o="N1" c="NWB" n="83353"/>
+		<dp pt="2610310549" pp="4" l="RS3" fb="RS3" ppth="Wüsting|Hude|Bookholzberg|Schierbrok|Hoykenkamp|Delmenhorst|Heidkrug|Bremen Neustadt|Bremen Hbf"/>
+	</s>
+</timetable>

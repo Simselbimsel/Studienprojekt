@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<timetable station="Treuchtlingen">
+	<s id="-7058442198521206872-2610301836-7">
+		<tl t="p" o="81" c="NJ" n="492"/>
+		<ar pt="2610310047" pp="6" fb="NJ 492" hi="1" wings="-6813803786124510421-2610301836" ppth="Wien Hbf|Wien Meidling|St.Pölten Hbf|Linz/Donau Hbf|Salzburg Hbf|München-Pasing"/>
+		<dp pt="2610310140" pp="6" fb="NJ 492" hi="1" ppth="Würzburg Hbf|Kassel-Wilhelmshöhe|Göttingen|Hannover Hbf|Hamburg-Harburg|Hamburg Hbf|Hamburg Dammtor|Hamburg-Altona"/>
+		<tra t="v" id="2993556972586711868" ref-to="-6813803786124510421-2610301836" s="a" o="p" jt="s"/>
+	</s>
+	<s id="-6813803786124510421-2610301836-7">
+		<tl t="p" o="81" c="NJ" n="40490"/>
+		<ar pt="2610310047" pp="" fb="NJ 40490" hi="1" ppth="Wien Hbf|Wien Meidling|St.Pölten Hbf|Linz/Donau Hbf|Salzburg Hbf|München-Pasing"/>
+		<dp pt="2610310125" pp="" fb="NJ 40490" hi="1" ppth="Würzburg Hbf|Kassel-Wilhelmshöhe|Dortmund Hbf|Essen Hbf|Oberhausen Hbf|Arnhem Centraal|Utrecht Centraal|Amsterdam Centraal"/>
+		<tra t="v" id="2993556972586711868" ref-from="-7058442198521206872-2610301836" s="a" o="p" jt="s"/>
+	</s>
+	<s id="-8677182982400525824-2610302046-8">
+		<tl t="p" o="81" c="NJ" n="40420"/>
+		<ar pt="2610310022" pp="" fb="NJ 40420" hi="1" ppth="Innsbruck Hbf|Jenbach|Wörgl Hbf|Kufstein|Rosenheim|München Hbf|Augsburg Hbf"/>
+		<dp pt="2610310140" pp="" fb="NJ 40420" hi="1" ppth="Würzburg Hbf|Kassel-Wilhelmshöhe|Göttingen|Hannover Hbf|Hamburg-Harburg|Hamburg Hbf|Hamburg Dammtor|Hamburg-Altona"/>
+		<tra t="v" id="9128475860543836922" ref-from="3272146161175325165-2610302046" s="a" o="p" jt="s"/>
+	</s>
+	<s id="3272146161175325165-2610302046-8">
+		<tl t="p" o="81" c="NJ" n="420"/>
+		<ar pt="2610310022" pp="7" fb="NJ 420" hi="1" wings="-8677182982400525824-2610302046" ppth="Innsbruck Hbf|Jenbach|Wörgl Hbf|Kufstein|Rosenheim|München Hbf|Augsburg Hbf"/>
+		<dp pt="2610310125" pp="7" fb="NJ 420" hi="1" ppth="Würzburg Hbf|Kassel-Wilhelmshöhe|Dortmund Hbf|Essen Hbf|Oberhausen Hbf|Arnhem Centraal|Utrecht Centraal|Amsterdam Centraal"/>
+		<tra t="v" id="9128475860543836922" ref-to="-8677182982400525824-2610302046" s="a" o="p" jt="s"/>
+	</s>
+	<s id="-7833275112238980848-2610310046-10">
+		<tl f="N" t="p" o="800765" c="RE" n="59229"/>
+		<ar pt="2610310136" pp="6" l="RE16" fb="RE16" ppth="Nürnberg Hbf|Schwabach|Roth|Unterheckenhofen|Georgensgmünd|Mühlstetten|Pleinfeld|Ellingen(Bay)|Weißenburg(Bay)"/>
+	</s>
+</timetable>

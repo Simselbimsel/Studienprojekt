@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<timetable station="Oldenburg(Oldb)Hbf">
+	<s id="-2530427790308150282-2610310517-6">
+		<tl f="N" t="p" o="800295" c="RE" n="4407"/>
+		<ar pt="2610310623" pp="3" l="RE1" fb="RE1" ppth="Emden Hbf|Leer(Ostfriesl)|Augustfehn|Westerstede-Ocholt|Bad Zwischenahn"/>
+		<dp pt="2610310635" pp="3" l="RE1" fb="RE1" ppth="Hude|Delmenhorst|Bremen Hbf|Bremen-Mahndorf|Achim|Verden(Aller)|Dörverden|Eystrup|Nienburg(Weser)|Neustadt am Rübenberge|Wunstorf|Hannover Hbf"/>
+	</s>
+	<s id="5769559680701882536-2610310553-4">
+		<tl f="N" t="p" o="NZ" c="RE" n="52438"/>
+		<ar pt="2610310623" pp="7" l="IC56" fb="RE IC56" wings="-3011290278229936684-2610310553" ppth="Bremen Hbf|Delmenhorst|Hude"/>
+		<dp pt="2610310633" pp="7" l="IC56" fb="RE IC56" wings="-3011290278229936684-2610310553" ppth="Bad Zwischenahn|Westerstede-Ocholt|Augustfehn|Leer(Ostfriesl)|Emden Hbf|Marienhafe|Norden|Norddeich|Norddeich Mole"/>
+		<tra t="v" id="2395225727961388951" ref-to="-3011290278229936684-2610310553" s="a" o="p"/>
+	</s>
+	<s id="-3011290278229936684-2610310553-4">
+		<tl f="F" t="p" o="80" c="IC" n="2438"/>
+		<ar pt="2610310623" pp="7" fb="IC 2438" ppth="Bremen Hbf|Delmenhorst|Hude"/>
+		<dp pt="2610310633" pp="7" fb="IC 2438" ppth="Bad Zwischenahn|Westerstede-Ocholt|Augustfehn|Leer(Ostfriesl)|Emden Hbf|Marienhafe|Norden|Norddeich|Norddeich Mole"/>
+		<tra t="v" id="2395225727961388951" ref-from="5769559680701882536-2610310553" s="a" o="p"/>
+	</s>
+	<s id="-5598921627012959285-2610310615-10">
+		<tl f="D" t="p" o="N1" c="NWB" n="83396"/>
+		<ar pt="2610310654" pp="7" l="RS3" fb="RS3" ppth="Bremen Hbf|Bremen Neustadt|Heidkrug|Delmenhorst|Hoykenkamp|Schierbrok|Bookholzberg|Hude|Wüsting"/>
+	</s>
+	<s id="352621200272318542-2610310629-1">
+		<tl f="D" t="p" o="N1" c="NWB" n="75302"/>
+		<dp pt="2610310629" pp="4" l="RE18" fb="RE18" ppth="Sandkrug|Huntlosen|Großenkneten|Ahlhorn|Cloppenburg|Essen(Oldb)|Quakenbrück|Bersenbrück|Bramsche|Osnabrück Altstadt|Osnabrück Hbf"/>
+	</s>
+	<s id="-6655623527873823030-2610310649-1">
+		<tl f="D" t="p" o="N1" c="NWB" n="83355"/>
+		<dp pt="2610310649" pp="1" l="RS3" fb="RS3" ppth="Wüsting|Hude|Bookholzberg|Schierbrok|Hoykenkamp|Delmenhorst|Heidkrug|Bremen Neustadt|Bremen Hbf"/>
+	</s>
+</timetable>
