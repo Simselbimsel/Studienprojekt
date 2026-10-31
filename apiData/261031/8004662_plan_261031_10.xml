@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<timetable station="Ohlstadt">
+	<s id="-7273132148898954770-2610310837-9">
+		<tl f="N" t="p" o="800790" c="RB" n="5511"/>
+		<ar pt="2610311024" pp="1" l="RB60" fb="RB60" wings="-1888436610413160144-2610310838" pde="Pfronten-Steinach" ppth="Ehrwald Zugspitzbahn|Griesen(Oberbay)|Untergrainau|Garmisch-Partenkirchen Hausberg|Garmisch-Partenkirchen|Farchant|Oberau|Eschenlohe"/>
+		<dp pt="2610311025" pp="1" l="RB60" fb="RB60" wings="-1888436610413160144-2610310838" ppth="Murnau|Uffing a Staffelsee|Huglfing|Weilheim(Oberbay)|Tutzing|Starnberg"/>
+		<tra t="v" id="168733938312863071" ref-to="-1888436610413160144-2610310838" s="a" o="p"/>
+	</s>
+	<s id="-1888436610413160144-2610310838-7">
+		<tl f="N" t="p" o="81" c="RB" n="5408"/>
+		<ar pt="2610311024" pp="1" l="RB6" fb="RB6" pde="Innsbruck Hbf" ppth="Mittenwald|Klais|Garmisch-Partenkirchen|Farchant|Oberau|Eschenlohe"/>
+		<dp pt="2610311025" pp="1" l="RB6" fb="RB6" ppth="Murnau|Uffing a Staffelsee|Huglfing|Weilheim(Oberbay)|Tutzing|Starnberg"/>
+		<tra t="v" id="168733938312863071" ref-from="-7273132148898954770-2610310837" s="a" o="p"/>
+	</s>
+	<s id="376101198293808105-2610310952-7">
+		<tl f="N" t="p" o="800790" c="RB" n="5538"/>
+		<ar pt="2610311034" pp="1" l="RB60" fb="RB60" ppth="Starnberg|Tutzing|Weilheim(Oberbay)|Huglfing|Uffing a Staffelsee|Murnau"/>
+		<dp pt="2610311034" pp="1" l="RB60" fb="RB60" pde="Pfronten-Steinach" ppth="Eschenlohe|Oberau|Farchant|Garmisch-Partenkirchen|Garmisch-Partenkirchen Hausberg|Untergrainau|Ehrwald Zugspitzbahn"/>
+		<tra t="v" id="-8832412170678585953" ref-from="3921333432361099707-2610310952" s="a" o="p"/>
+	</s>
+	<s id="3921333432361099707-2610310952-7">
+		<tl f="N" t="p" o="800790" c="RB" n="5415"/>
+		<ar pt="2610311034" pp="1" l="RB6" fb="RB6" wings="376101198293808105-2610310952" ppth="Starnberg|Tutzing|Weilheim(Oberbay)|Huglfing|Uffing a Staffelsee|Murnau"/>
+		<dp pt="2610311034" pp="1" l="RB6" fb="RB6" wings="376101198293808105-2610310952" pde="Seefeld in Tirol" ppth="Eschenlohe|Oberau|Farchant|Garmisch-Partenkirchen|Klais|Mittenwald|Scharnitz"/>
+		<tra t="v" id="-8832412170678585953" ref-to="376101198293808105-2610310952" s="a" o="p"/>
+	</s>
+</timetable>

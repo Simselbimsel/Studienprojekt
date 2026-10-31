@@ -1,0 +1,88 @@
+<?xml version="1.0" ?>
+<timetable station="Tutzing">
+	<s id="4823130843660547584-2610311204-13">
+		<tl f="N" t="p" o="800790" c="RB" n="5414"/>
+		<ar pt="2610311359" pp="1" l="RB6" fb="RB6" pde="Seefeld in Tirol" ppth="Scharnitz|Mittenwald|Klais|Garmisch-Partenkirchen|Farchant|Oberau|Eschenlohe|Ohlstadt|Murnau|Uffing a Staffelsee|Huglfing|Weilheim(Oberbay)"/>
+		<dp pt="2610311400" pp="1" l="RB6" fb="RB6" ppth="Starnberg"/>
+	</s>
+	<s id="2688462456742826400-2610311136-14">
+		<tl f="N" t="p" o="800790" c="RB" n="5539"/>
+		<ar pt="2610311359" pp="1" l="RB60" fb="RB60" pde="Pfronten-Steinach" ppth="Ehrwald Zugspitzbahn|Griesen(Oberbay)|Untergrainau|Garmisch-Partenkirchen Hausberg|Garmisch-Partenkirchen|Farchant|Oberau|Eschenlohe|Ohlstadt|Murnau|Uffing a Staffelsee|Huglfing|Weilheim(Oberbay)"/>
+		<dp pt="2610311400" pp="1" l="RB60" fb="RB60" ppth="Starnberg"/>
+	</s>
+	<s id="2571996670752321400-2610311236-13">
+		<tl f="N" t="p" o="800790" c="RB" n="5519"/>
+		<ar pt="2610311459" pp="1" l="RB60" fb="RB60" pde="Pfronten-Steinach" ppth="Ehrwald Zugspitzbahn|Untergrainau|Garmisch-Partenkirchen Hausberg|Garmisch-Partenkirchen|Farchant|Oberau|Eschenlohe|Ohlstadt|Murnau|Uffing a Staffelsee|Huglfing|Weilheim(Oberbay)"/>
+		<dp pt="2610311500" pp="1" l="RB60" fb="RB60" ppth="Starnberg"/>
+		<tra t="v" id="4581726261375615903" ref-from="-893224250150370367-2610311238" s="a" o="p"/>
+	</s>
+	<s id="-893224250150370367-2610311238-12">
+		<tl f="N" t="p" o="81" c="RB" n="5416"/>
+		<ar pt="2610311459" pp="1" l="RB6" fb="RB6" wings="2571996670752321400-2610311236" pde="Innsbruck Hbf" ppth="Mittenwald|Klais|Garmisch-Partenkirchen|Farchant|Oberau|Eschenlohe|Ohlstadt|Murnau|Uffing a Staffelsee|Huglfing|Weilheim(Oberbay)"/>
+		<dp pt="2610311500" pp="1" l="RB6" fb="RB6" wings="2571996670752321400-2610311236" ppth="Starnberg"/>
+		<tra t="v" id="4581726261375615903" ref-to="2571996670752321400-2610311236" s="a" o="p"/>
+	</s>
+	<s id="-8450345118481401043-2610311345-8">
+		<tl f="N" t="p" o="800790" c="RB" n="59620"/>
+		<ar pt="2610311425" pp="1" l="RB66" fb="RB66" ppth="Kochel|Benediktbeuern|Bichl|Penzberg|Iffeldorf|Seeshaupt|Bernried"/>
+		<dp pt="2610311432" pp="1" l="RB66" fb="RB66" ppth="Starnberg"/>
+	</s>
+	<s id="-375981902218544162-2610311352-2">
+		<tl f="N" t="p" o="800790" c="RB" n="5520"/>
+		<ar pt="2610311359" pp="3" l="RB60" fb="RB60" wings="6343790191480751747-2610311352" ppth="Starnberg"/>
+		<dp pt="2610311401" pp="3" l="RB60" fb="RB60" wings="6343790191480751747-2610311352" pde="Pfronten-Steinach" ppth="Weilheim(Oberbay)|Huglfing|Uffing a Staffelsee|Murnau|Ohlstadt|Eschenlohe|Oberau|Farchant|Garmisch-Partenkirchen|Garmisch-Partenkirchen Hausberg|Untergrainau|Ehrwald Zugspitzbahn"/>
+		<tra t="v" id="2086382043464727691" ref-to="6343790191480751747-2610311352" s="a" o="p"/>
+	</s>
+	<s id="6343790191480751747-2610311352-2">
+		<tl f="N" t="p" o="800790" c="RB" n="5423"/>
+		<ar pt="2610311359" pp="3" l="RB6" fb="RB6" ppth="Starnberg"/>
+		<dp pt="2610311401" pp="3" l="RB6" fb="RB6" pde="Seefeld in Tirol" ppth="Weilheim(Oberbay)|Huglfing|Uffing a Staffelsee|Murnau|Ohlstadt|Eschenlohe|Oberau|Farchant|Garmisch-Partenkirchen|Klais|Mittenwald|Scharnitz"/>
+		<tra t="v" id="2086382043464727691" ref-from="-375981902218544162-2610311352" s="a" o="p"/>
+	</s>
+	<s id="-2034296071492859649-2610311357-6">
+		<tl f="S" t="p" o="800725" c="S" n="22352"/>
+		<ar pt="2610311416" pp="2N" l="S6" fb="S6" ppth="Gauting|Starnberg Nord|Starnberg|Possenhofen|Feldafing"/>
+	</s>
+	<s id="-775252114436548209-2610311404-1">
+		<tl f="S" t="p" o="800725" c="S" n="22361"/>
+		<dp pt="2610311404" pp="2N" l="S6" fb="S6" ppth="Feldafing|Possenhofen|Starnberg|Starnberg Nord|Gauting"/>
+	</s>
+	<s id="-317600421043829000-2610311417-6">
+		<tl f="S" t="p" o="800725" c="S" n="22354"/>
+		<ar pt="2610311436" pp="2N" l="S6" fb="S6" ppth="Gauting|Starnberg Nord|Starnberg|Possenhofen|Feldafing"/>
+	</s>
+	<s id="6876905235127626872-2610311417-2">
+		<tl f="N" t="p" o="800790" c="RB" n="59521"/>
+		<ar pt="2610311426" pp="3" l="RB65" fb="RB65" wings="7886775100366634813-2610311417" ppth="Starnberg"/>
+		<dp pt="2610311429" pp="3" l="RB65" fb="RB65" ppth="Weilheim(Oberbay)"/>
+		<tra t="v" id="934722354798115691" ref-to="7886775100366634813-2610311417" s="a" o="p" jt="s"/>
+	</s>
+	<s id="7886775100366634813-2610311417-2">
+		<tl f="N" t="p" o="800790" c="RB" n="59621"/>
+		<ar pt="2610311426" pp="3" l="RB66" fb="RB66" ppth="Starnberg"/>
+		<dp pt="2610311433" pp="3" l="RB66" fb="RB66" ppth="Bernried|Seeshaupt|Iffeldorf|Penzberg|Bichl|Benediktbeuern|Kochel"/>
+		<tra t="v" id="934722354798115691" ref-from="6876905235127626872-2610311417" s="a" o="p" jt="s"/>
+	</s>
+	<s id="-2599470916340853974-2610311418-2">
+		<tl f="N" t="p" o="800790" c="RB" n="59520"/>
+		<ar pt="2610311428" pp="1" l="RB65" fb="RB65" ppth="Weilheim(Oberbay)"/>
+		<dp pt="2610311432" pp="1" l="RB65" fb="RB65" ppth="Starnberg"/>
+	</s>
+	<s id="5116310158108819019-2610311424-1">
+		<tl f="S" t="p" o="800725" c="S" n="22363"/>
+		<dp pt="2610311424" pp="2N" l="S6" fb="S6" ppth="Feldafing|Possenhofen|Starnberg|Starnberg Nord|Gauting"/>
+	</s>
+	<s id="-3081294707655288113-2610311437-6">
+		<tl f="S" t="p" o="800725" c="S" n="22356"/>
+		<ar pt="2610311456" pp="2N" l="S6" fb="S6" ppth="Gauting|Starnberg Nord|Starnberg|Possenhofen|Feldafing"/>
+	</s>
+	<s id="1390093573644993981-2610311444-1">
+		<tl f="S" t="p" o="800725" c="S" n="22365"/>
+		<dp pt="2610311444" pp="2N" l="S6" fb="S6" ppth="Feldafing|Possenhofen|Starnberg|Starnberg Nord|Gauting"/>
+	</s>
+	<s id="-2388886680024236537-2610311451-2">
+		<tl f="N" t="p" o="800790" c="RB" n="59475"/>
+		<ar pt="2610311459" pp="3" l="RB6" fb="RB6" ppth="Starnberg"/>
+		<dp pt="2610311501" pp="3" l="RB6" fb="RB6" ppth="Weilheim(Oberbay)|Huglfing|Uffing a Staffelsee|Murnau|Ohlstadt|Eschenlohe|Oberau|Farchant|Garmisch-Partenkirchen"/>
+	</s>
+</timetable>

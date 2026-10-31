@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<timetable station="Ebenhausen(Unterfr)">
+	<s id="3957725767386916535-2610311009-9">
+		<tl t="p" o="EB" c="Bus" n="60683"/>
+		<ar pt="2610311119" pp="" l="RB50" fb="Bus RB50" ppth="Gemünden(Main)|Hammelburg|Hammelburg Ost|Westheim-Langendorf|Elfershausen-Trimberg|Euerdorf|Bad Kissingen|Oerlenbach"/>
+	</s>
+	<s id="-4371418840215192376-2610311049-4">
+		<tl f="N" t="p" o="8004NT" c="RE" n="3757"/>
+		<ar pt="2610311112" pp="3" l="RE7" fb="RE7" ppth="Mellrichstadt Bf|Bad Neustadt(Saale)|Münnerstadt"/>
+		<dp pt="2610311117" pp="3" l="RE7" fb="RE7" ppth="Schweinfurt Hbf|Würzburg Hbf"/>
+	</s>
+	<s id="-4810808813312866338-2610311105-3">
+		<tl t="p" o="EB" c="Bus" n="61683"/>
+		<ar pt="2610311119" pp="" l="RB50" fb="Bus RB50" ppth="Bad Kissingen|Oerlenbach"/>
+	</s>
+	<s id="7933081550809421487-2610311106-5">
+		<tl f="D" t="p" o="EB" c="EB" n="80737"/>
+		<ar pt="2610311124" pp="3" l="RB40" fb="RB40" ppth="Bad Neustadt(Saale)|Burglauer|Münnerstadt|Rottershausen"/>
+		<dp pt="2610311130" pp="3" l="RB40" fb="RB40" ppth="Poppenhausen|Oberwerrn|Schweinfurt Hbf|Schweinfurt Mitte|Schweinfurt Stadt"/>
+	</s>
+	<s id="4933752443485301783-2610311112-3">
+		<tl f="D" t="p" o="EB" c="EB" n="80714"/>
+		<ar pt="2610311128" pp="4" l="RB50" fb="RB50" wings="6662885150567286149-2610311112" ppth="Schweinfurt Hbf|Poppenhausen"/>
+		<tra t="v" id="-2732247135725324917" ref-to="6662885150567286149-2610311112" s="a" o="p" jt="s"/>
+	</s>
+	<s id="6662885150567286149-2610311112-3">
+		<tl f="D" t="p" o="EB" c="EB" n="80736"/>
+		<ar pt="2610311128" pp="4" l="RB40" fb="RB40" ppth="Schweinfurt Hbf|Poppenhausen"/>
+		<dp pt="2610311132" pp="4" l="RB40" fb="RB40" ppth="Rottershausen|Münnerstadt|Burglauer|Bad Neustadt(Saale)|Mellrichstadt Bf"/>
+		<tra t="v" id="-2732247135725324917" ref-from="4933752443485301783-2610311112" s="a" o="p" jt="s"/>
+	</s>
+	<s id="-2443346725729480824-2610311135-1">
+		<tl t="p" o="EB" c="Bus" n="60714"/>
+		<dp pt="2610311135" pp="" l="RB50" fb="Bus RB50" ppth="Oerlenbach|Bad Kissingen"/>
+	</s>
+</timetable>

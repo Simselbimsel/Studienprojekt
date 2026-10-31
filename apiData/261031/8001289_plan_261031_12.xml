@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<timetable station="Burgkunstadt">
+	<s id="-573271939911239316-2610311120-7">
+		<tl f="N" t="p" o="800759" c="RE" n="3409"/>
+		<ar pt="2610311241" pp="1" l="RE32" fb="RE32" ppth="Hersbruck(r Pegnitz)|Pegnitz|Bayreuth Hbf|Trebgast|Neuenmarkt-Wirsberg|Kulmbach"/>
+		<dp pt="2610311242" pp="1" l="RE32" fb="RE32" ppth="Hochstadt-Marktzeuln|Lichtenfels"/>
+		<tra t="v" id="193386004297474498" ref-from="-3976983781094849357-2610311136" s="a" o="p"/>
+	</s>
+	<s id="-8060402662951488823-2610311128-12">
+		<tl f="D" t="p" o="A9" c="ag" n="84610"/>
+		<ar pt="2610311211" pp="1" l="RB24" fb="RB24" ppth="Bayreuth Hbf|Bindlach|Ramsenthal|Harsdorf|Trebgast|Neuenmarkt-Wirsberg|Ludwigschorgast|Untersteinach(b Stadtsteinach)|Kulmbach|Mainleus|Mainroth"/>
+		<dp pt="2610311211" pp="1" l="RB24" fb="RB24" ppth="Hochstadt-Marktzeuln|Lichtenfels|Schney|Ebersdorf(b Coburg)|Grub am Forst|Creidlitz|Coburg"/>
+	</s>
+	<s id="-3976983781094849357-2610311136-8">
+		<tl f="N" t="p" o="800759" c="RE" n="3008"/>
+		<ar pt="2610311241" pp="1" l="RE35" fb="RE35" wings="-573271939911239316-2610311120" ppth="Hof Hbf|Schwarzenbach(Saale)|Münchberg|Stammbach|Marktschorgast|Neuenmarkt-Wirsberg|Kulmbach"/>
+		<dp pt="2610311242" pp="1" l="RE35" fb="RE35" wings="-573271939911239316-2610311120" ppth="Hochstadt-Marktzeuln|Lichtenfels|Bad Staffelstein|Bamberg"/>
+		<tra t="v" id="193386004297474498" ref-to="-573271939911239316-2610311120" s="a" o="p"/>
+	</s>
+	<s id="-1563211288484254256-2610311146-4">
+		<tl f="N" t="p" o="800759" c="RE" n="3438"/>
+		<ar pt="2610311214" pp="2" l="RE32" fb="RE32" ppth="Bamberg|Bad Staffelstein|Lichtenfels"/>
+		<dp pt="2610311215" pp="2" l="RE32" fb="RE32" ppth="Kulmbach|Untersteinach(b Stadtsteinach)|Neuenmarkt-Wirsberg|Trebgast|Harsdorf|Bayreuth Hbf|Creußen(Oberfr)|Pegnitz|Hersbruck(r Pegnitz)"/>
+	</s>
+	<s id="-7015894963120083739-2610311202-8">
+		<tl f="D" t="p" o="A9" c="ag" n="84603"/>
+		<ar pt="2610311237" pp="2" l="RB24" fb="RB24" ppth="Coburg|Creidlitz|Grub am Forst|Ebersdorf(b Coburg)|Schney|Lichtenfels|Hochstadt-Marktzeuln"/>
+		<dp pt="2610311238" pp="2" l="RB24" fb="RB24" ppth="Mainroth|Mainleus|Kulmbach|Untersteinach(b Stadtsteinach)|Ludwigschorgast|Neuenmarkt-Wirsberg|Trebgast|Harsdorf|Ramsenthal|Bindlach|Bayreuth Hbf"/>
+	</s>
+</timetable>
