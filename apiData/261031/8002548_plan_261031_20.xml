@@ -1,0 +1,84 @@
+<?xml version="1.0" ?>
+<timetable station="Hamburg Dammtor">
+	<s id="5477764454442763865-2610311949-8">
+		<tl f="S" t="p" o="0S" c="S" n="41706"/>
+		<ar pt="2610312004" pp="1" l="S1" fb="S1" ppth="Hamburg-Barmbek|Hamburg Friedrichsberg|Hamburg Wandsbeker Chaussee|Hamburg Hasselbrook|Hamburg Landwehr|Hamburg Berliner Tor|Hamburg Hbf (S-Bahn)"/>
+		<dp pt="2610312006" pp="1" l="S1" fb="S1" ppth="Hamburg-Sternschanze"/>
+	</s>
+	<s id="6992012378128167215-2610311955-2">
+		<tl t="p" o="81" c="NJ" n="40491"/>
+		<ar pt="2610312001" pp="4" fb="NJ 40491" hi="1" wings="-8018116824080471880-2610311955" ppth="Hamburg-Altona"/>
+		<dp pt="2610312002" pp="4" fb="NJ 40491" wings="-8018116824080471880-2610311955" ppth="Hamburg Hbf|Hamburg-Harburg|Göttingen|Kassel-Wilhelmshöhe|Würzburg Hbf|Treuchtlingen|Augsburg Hbf|München Hbf|Rosenheim|Kufstein|Wörgl Hbf|Jenbach|Innsbruck Hbf"/>
+		<tra t="v" id="3221802378677849709" ref-to="-8018116824080471880-2610311955" s="a" o="p"/>
+	</s>
+	<s id="-8018116824080471880-2610311955-2">
+		<tl t="p" o="81" c="NJ" n="493"/>
+		<ar pt="2610312001" pp="4" fb="NJ 493" hi="1" ppth="Hamburg-Altona"/>
+		<dp pt="2610312002" pp="4" fb="NJ 493" ppth="Hamburg Hbf|Hamburg-Harburg|Göttingen|Kassel-Wilhelmshöhe|Würzburg Hbf|Treuchtlingen|München Ost|Salzburg Hbf|Linz/Donau Hbf|St.Pölten Hbf|Wien Meidling|Wien Hbf"/>
+		<tra t="v" id="3221802378677849709" ref-from="6992012378128167215-2610311955" s="a" o="p"/>
+	</s>
+	<s id="-9074659405817120761-2610311959-8">
+		<tl f="S" t="p" o="0S" c="S" n="41708"/>
+		<ar pt="2610312014" pp="1" l="S1" fb="S1" ppth="Hamburg-Barmbek|Hamburg Friedrichsberg|Hamburg Wandsbeker Chaussee|Hamburg Hasselbrook|Hamburg Landwehr|Hamburg Berliner Tor|Hamburg Hbf (S-Bahn)"/>
+		<dp pt="2610312016" pp="1" l="S1" fb="S1" ppth="Hamburg-Sternschanze"/>
+	</s>
+	<s id="4447861047499788104-2610312005-2">
+		<tl f="S" t="p" o="0S" c="S" n="41707"/>
+		<ar pt="2610312007" pp="2" l="S1" fb="S1" ppth="Hamburg-Sternschanze"/>
+		<dp pt="2610312007" pp="2" l="S1" fb="S1" ppth="Hamburg Hbf (S-Bahn)|Hamburg Berliner Tor|Hamburg Landwehr|Hamburg Hasselbrook|Hamburg Wandsbeker Chaussee|Hamburg Friedrichsberg|Hamburg-Barmbek"/>
+	</s>
+	<s id="1579406976060350111-2610312008-2">
+		<tl f="N" t="p" o="800201" c="RE" n="11232"/>
+		<ar pt="2610312011" pp="3" l="RE70" fb="RE70" hi="1" ppth="Hamburg Hbf"/>
+		<dp pt="2610312011" pp="3" l="RE70" fb="RE70" ppth="Elmshorn|Wrist|Brokstedt|Neumünster|Bordesholm|Kiel Hbf"/>
+	</s>
+	<s id="-8522277145718691016-2610312009-8">
+		<tl f="S" t="p" o="0S" c="S" n="41710"/>
+		<ar pt="2610312024" pp="1" l="S1" fb="S1" ppth="Hamburg-Barmbek|Hamburg Friedrichsberg|Hamburg Wandsbeker Chaussee|Hamburg Hasselbrook|Hamburg Landwehr|Hamburg Berliner Tor|Hamburg Hbf (S-Bahn)"/>
+		<dp pt="2610312026" pp="1" l="S1" fb="S1" ppth="Hamburg-Sternschanze"/>
+	</s>
+	<s id="2685139027139360761-2610312015-2">
+		<tl f="S" t="p" o="0S" c="S" n="41709"/>
+		<ar pt="2610312017" pp="2" l="S1" fb="S1" ppth="Hamburg-Sternschanze"/>
+		<dp pt="2610312017" pp="2" l="S1" fb="S1" ppth="Hamburg Hbf (S-Bahn)|Hamburg Berliner Tor|Hamburg Landwehr|Hamburg Hasselbrook|Hamburg Wandsbeker Chaussee|Hamburg Friedrichsberg|Hamburg-Barmbek"/>
+	</s>
+	<s id="-3196666547082603988-2610312019-8">
+		<tl f="S" t="p" o="0S" c="S" n="41712"/>
+		<ar pt="2610312034" pp="1" l="S1" fb="S1" ppth="Hamburg-Barmbek|Hamburg Friedrichsberg|Hamburg Wandsbeker Chaussee|Hamburg Hasselbrook|Hamburg Landwehr|Hamburg Berliner Tor|Hamburg Hbf (S-Bahn)"/>
+		<dp pt="2610312036" pp="1" l="S1" fb="S1" ppth="Hamburg-Sternschanze"/>
+	</s>
+	<s id="5351133746540780755-2610312021-1">
+		<tl f="F" t="p" o="80" c="ICE" n="79"/>
+		<dp pt="2610312021" pp="4" fb="ICE 79" ppth="Hamburg Hbf|Lüneburg|Uelzen|Hannover Hbf|Göttingen|Kassel-Wilhelmshöhe|Frankfurt(Main)Hbf|Frankfurt(M) Flughafen Fernbf|Mainz Hbf|Wiesbaden Hbf"/>
+	</s>
+	<s id="-4377059623538205103-2610312025-2">
+		<tl f="S" t="p" o="0S" c="S" n="41711"/>
+		<ar pt="2610312027" pp="2" l="S1" fb="S1" ppth="Hamburg-Sternschanze"/>
+		<dp pt="2610312027" pp="2" l="S1" fb="S1" ppth="Hamburg Hbf (S-Bahn)|Hamburg Berliner Tor|Hamburg Landwehr|Hamburg Hasselbrook|Hamburg Wandsbeker Chaussee|Hamburg Friedrichsberg|Hamburg-Barmbek"/>
+	</s>
+	<s id="-1497251384469168085-2610312029-8">
+		<tl f="S" t="p" o="0S" c="S" n="41714"/>
+		<ar pt="2610312044" pp="1" l="S1" fb="S1" ppth="Hamburg-Barmbek|Hamburg Friedrichsberg|Hamburg Wandsbeker Chaussee|Hamburg Hasselbrook|Hamburg Landwehr|Hamburg Berliner Tor|Hamburg Hbf (S-Bahn)"/>
+		<dp pt="2610312046" pp="1" l="S1" fb="S1" ppth="Hamburg-Sternschanze"/>
+	</s>
+	<s id="-8263331703649647068-2610312035-2">
+		<tl f="S" t="p" o="0S" c="S" n="41713"/>
+		<ar pt="2610312037" pp="2" l="S1" fb="S1" ppth="Hamburg-Sternschanze"/>
+		<dp pt="2610312037" pp="2" l="S1" fb="S1" ppth="Hamburg Hbf (S-Bahn)|Hamburg Berliner Tor|Hamburg Landwehr|Hamburg Hasselbrook|Hamburg Wandsbeker Chaussee|Hamburg Friedrichsberg|Hamburg-Barmbek"/>
+	</s>
+	<s id="-7246855290290664115-2610312039-8">
+		<tl f="S" t="p" o="0S" c="S" n="41716"/>
+		<ar pt="2610312054" pp="1" l="S1" fb="S1" ppth="Hamburg-Barmbek|Hamburg Friedrichsberg|Hamburg Wandsbeker Chaussee|Hamburg Hasselbrook|Hamburg Landwehr|Hamburg Berliner Tor|Hamburg Hbf (S-Bahn)"/>
+		<dp pt="2610312056" pp="1" l="S1" fb="S1" ppth="Hamburg-Sternschanze"/>
+	</s>
+	<s id="4958402427978797708-2610312045-2">
+		<tl f="S" t="p" o="0S" c="S" n="41715"/>
+		<ar pt="2610312047" pp="2" l="S1" fb="S1" ppth="Hamburg-Sternschanze"/>
+		<dp pt="2610312047" pp="2" l="S1" fb="S1" ppth="Hamburg Hbf (S-Bahn)|Hamburg Berliner Tor|Hamburg Landwehr|Hamburg Hasselbrook|Hamburg Wandsbeker Chaussee|Hamburg Friedrichsberg|Hamburg-Barmbek"/>
+	</s>
+	<s id="-5098539134098692762-2610312055-2">
+		<tl f="S" t="p" o="0S" c="S" n="41717"/>
+		<ar pt="2610312057" pp="2" l="S1" fb="S1" ppth="Hamburg-Sternschanze"/>
+		<dp pt="2610312057" pp="2" l="S1" fb="S1" ppth="Hamburg Hbf (S-Bahn)|Hamburg Berliner Tor|Hamburg Landwehr|Hamburg Hasselbrook|Hamburg Wandsbeker Chaussee|Hamburg Friedrichsberg|Hamburg-Barmbek"/>
+	</s>
+</timetable>

@@ -1,0 +1,78 @@
+<?xml version="1.0" ?>
+<timetable station="München Ost">
+	<s id="-7058442198521206872-2610311836-6">
+		<tl t="p" o="81" c="NJ" n="492"/>
+		<ar pt="2610312319" pp="6" fb="NJ 492" ppth="Wien Hbf|Wien Meidling|St.Pölten Hbf|Linz/Donau Hbf|Salzburg Hbf"/>
+		<dp pt="2610312321" pp="6" fb="NJ 492" ppth="Treuchtlingen|Würzburg Hbf|Kassel-Wilhelmshöhe|Göttingen|Hannover Hbf|Hamburg-Harburg|Hamburg Hbf|Hamburg Dammtor|Hamburg-Altona"/>
+		<tra t="v" id="-8334143009236472026" ref-from="-6813803786124510421-2610311836" s="a" o="p"/>
+	</s>
+	<s id="-6813803786124510421-2610311836-6">
+		<tl t="p" o="81" c="NJ" n="40490"/>
+		<ar pt="2610312319" pp="6" fb="NJ 40490" wings="-7058442198521206872-2610311836" ppth="Wien Hbf|Wien Meidling|St.Pölten Hbf|Linz/Donau Hbf|Salzburg Hbf"/>
+		<dp pt="2610312321" pp="6" fb="NJ 40490" wings="-7058442198521206872-2610311836" ppth="Treuchtlingen|Würzburg Hbf|Kassel-Wilhelmshöhe|Dortmund Hbf|Essen Hbf|Oberhausen Hbf|Arnhem Centraal|Utrecht Centraal|Amsterdam Centraal"/>
+		<tra t="v" id="-8334143009236472026" ref-to="-7058442198521206872-2610311836" s="a" o="p"/>
+	</s>
+	<s id="5949417852042325682-2610312029-5">
+		<tl t="p" o="81" c="NJ" n="237"/>
+		<ar pt="2610312347" pp="8" fb="NJ 237" wings="-7226604022876462423-2610312029|6746955278691408993-2610312029" ppth="Stuttgart Hbf|Göppingen|Ulm Hbf|Augsburg Hbf"/>
+		<dp pt="2610312349" pp="8" fb="NJ 237" wings="-7226604022876462423-2610312029|6746955278691408993-2610312029" ppth="Rosenheim|Salzburg Hbf|Villach Hbf|Tarvisio Boscoverde|Udine|Pordenone|Conegliano|Treviso Centrale|Venezia Mestre|Venezia Santa Lucia"/>
+		<tra t="v" id="25016840990597975" ref-to="-7226604022876462423-2610312029" s="a" o="p"/>
+		<tra t="v" id="3509192575531134234" ref-to="6746955278691408993-2610312029" s="a" o="p"/>
+		<tra t="v" id="9092277086008162749" ref-to="-7226604022876462423-2610312029" s="a" o="p"/>
+	</s>
+	<s id="6746955278691408993-2610312029-5">
+		<tl f="F" t="p" o="55" c="EN" n="50237"/>
+		<ar pt="2610312347" pp="8" fb="EN 50237" ppth="Stuttgart Hbf|Göppingen|Ulm Hbf|Augsburg Hbf"/>
+		<dp pt="2610312349" pp="8" fb="EN 50237" ppth="Rosenheim|Salzburg Hbf|Linz/Donau Hbf|St.Pölten Hbf|Wien Meidling|Wien Hbf|Hegyeshalom|Mosonmagyarovar|Györ|Tatabanya|Budapest-Kelenföld|Budapest-Keleti"/>
+		<tra t="v" id="3509192575531134234" ref-from="5949417852042325682-2610312029" s="a" o="p"/>
+	</s>
+	<s id="-7226604022876462423-2610312029-5">
+		<tl f="F" t="p" o="78" c="EN" n="40237"/>
+		<ar pt="2610312347" pp="8" fb="EN 40237" ppth="Stuttgart Hbf|Göppingen|Ulm Hbf|Augsburg Hbf"/>
+		<dp pt="2610312349" pp="8" fb="EN 40237" ppth="Rosenheim|Salzburg Hbf|Schwarzach-St.Veit|Bad Gastein|Mallnitz-Obervellach|Spittal-Millstätter See|Villach Hbf|Jesenice(SLO)|Lesce-Bled|Kranj|Ljubljana|Zidani Most|Sevnica|Krsko|Dobova|Zapresic|Zagreb Glavni kolodvor"/>
+		<tra t="v" id="25016840990597975" ref-from="5949417852042325682-2610312029" s="a" o="p"/>
+		<tra t="v" id="9092277086008162749" ref-from="5949417852042325682-2610312029" s="a" o="p"/>
+	</s>
+	<s id="-4741844956746917180-2610312151-7">
+		<tl f="N" t="p" o="8013D" c="RB" n="27066"/>
+		<ar pt="2610312304" pp="11" l="RB40" fb="RB40" ppth="Mühldorf(Oberbay)|Ampfing|Schwindegg|Dorfen Bahnhof|Hörlkofen|Markt Schwaben"/>
+	</s>
+	<s id="2641710318345101812-2610312232-6">
+		<tl f="D" t="p" o="M8" c="BRB" n="79046"/>
+		<ar pt="2610312310" pp="6" l="RE5" fb="RE5" ppth="Rosenheim|Großkarolinenfeld|Ostermünchen|Aßling(Oberbay)|Grafing Bahnhof"/>
+		<dp pt="2610312311" pp="6" l="RE5" fb="RE5" ppth="München Hbf Gl.5-10"/>
+	</s>
+	<s id="-25783527380418940-2610312236-7">
+		<tl f="S" t="p" o="800725" c="S" n="8286"/>
+		<ar pt="2610312308" pp="12" l="S2" fb="S2" ppth="Markt Schwaben|Poing|Grub(Oberbay)|Heimstetten|Feldkirchen(b München)|München-Riem"/>
+	</s>
+	<s id="7432669355016450416-2610312256-7">
+		<tl f="S" t="p" o="800725" c="S" n="8288"/>
+		<ar pt="2610312328" pp="12" l="S2" fb="S2" ppth="Markt Schwaben|Poing|Grub(Oberbay)|Heimstetten|Feldkirchen(b München)|München-Riem"/>
+	</s>
+	<s id="4627730741833072462-2610312302-1">
+		<tl f="S" t="p" o="800725" c="S" n="8287"/>
+		<dp pt="2610312302" pp="12" l="S2" fb="S2" ppth="München-Riem|Feldkirchen(b München)|Heimstetten|Grub(Oberbay)|Poing|Markt Schwaben"/>
+	</s>
+	<s id="-1172846298241008678-2610312322-1">
+		<tl f="S" t="p" o="800725" c="S" n="8289"/>
+		<dp pt="2610312322" pp="12" l="S2" fb="S2" ppth="München-Riem|Feldkirchen(b München)|Heimstetten|Grub(Oberbay)|Poing|Markt Schwaben"/>
+	</s>
+	<s id="2323443717993723372-2610312334-1">
+		<tl f="N" t="p" o="8013D" c="RB" n="27075"/>
+		<dp pt="2610312334" pp="11" l="RB40" fb="RB40" ppth="Markt Schwaben|Hörlkofen|Walpertskirchen|Thann-Matzbach|Dorfen Bahnhof|Schwindegg|Ampfing|Mühldorf(Oberbay)"/>
+	</s>
+	<s id="7284875717947033611-2610312336-7">
+		<tl f="S" t="p" o="800725" c="S" n="8290"/>
+		<ar pt="2610312356" pp="" l="S2" fb="S2" ppth="Markt Schwaben|Poing|Grub(Oberbay)|Heimstetten|Feldkirchen(b München)|München-Riem"/>
+	</s>
+	<s id="8061834603964372870-2610312342-1">
+		<tl f="S" t="p" o="800725" c="S" n="8291"/>
+		<dp pt="2610312342" pp="12" l="S2" fb="S2" ppth="München-Riem|Feldkirchen(b München)|Heimstetten|Grub(Oberbay)|Poing|Markt Schwaben"/>
+	</s>
+	<s id="-276896031776243712-2610312351-2">
+		<tl f="D" t="p" o="M8" c="BRB" n="79049"/>
+		<ar pt="2610312359" pp="8" l="RE5" fb="RE5" ppth="München Hbf Gl.5-10"/>
+		<dp pt="2611010002" pp="8" l="RE5" fb="RE5" ppth="Grafing Bahnhof|Aßling(Oberbay)|Ostermünchen|Großkarolinenfeld|Rosenheim"/>
+	</s>
+</timetable>
