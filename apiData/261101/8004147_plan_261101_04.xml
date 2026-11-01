@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<timetable station="München-Feldmoching">
+	<s id="-710358611757331248-2611010342-7">
+		<tl f="S" t="p" o="800725" c="S" n="6900"/>
+		<ar pt="2611010401" pp="3" l="S1" fb="S1" ppth="München Hbf Gl.27-36|München Donnersbergerbrücke|München Hirschgarten|München-Laim|München-Moosach|München-Fasanerie"/>
+		<dp pt="2611010401" pp="3" l="S1" fb="S1" ppth="Oberschleißheim|Unterschleißheim|Lohhof|Eching|Neufahrn(b Freising)|München Flughafen Besucherpark|München Flughafen Terminal"/>
+	</s>
+	<s id="-3244868731556215555-2611010422-7">
+		<tl f="S" t="p" o="800725" c="S" n="8124"/>
+		<ar pt="2611010441" pp="3" l="S1" fb="S1" ppth="München Hbf Gl.27-36|München Donnersbergerbrücke|München Hirschgarten|München-Laim|München-Moosach|München-Fasanerie"/>
+		<dp pt="2611010441" pp="3" l="S1" fb="S1" ppth="Oberschleißheim|Unterschleißheim|Lohhof|Eching|Neufahrn(b Freising)|Pulling(b Freising)|Freising"/>
+		<tra t="v" id="4723388527590269370" ref-from="-4918052164807343336-2611010422" s="a" o="p"/>
+	</s>
+	<s id="-4918052164807343336-2611010422-7">
+		<tl f="S" t="p" o="800725" c="S" n="6906"/>
+		<ar pt="2611010441" pp="3" l="S1" fb="S1" wings="-3244868731556215555-2611010422" ppth="München Hbf Gl.27-36|München Donnersbergerbrücke|München Hirschgarten|München-Laim|München-Moosach|München-Fasanerie"/>
+		<dp pt="2611010441" pp="3" l="S1" fb="S1" wings="-3244868731556215555-2611010422" ppth="Oberschleißheim|Unterschleißheim|Lohhof|Eching|Neufahrn(b Freising)|München Flughafen Besucherpark|München Flughafen Terminal"/>
+		<tra t="v" id="4723388527590269370" ref-to="-3244868731556215555-2611010422" s="a" o="p"/>
+	</s>
+	<s id="-4251965519158692479-2611010434-8">
+		<tl f="S" t="p" o="800725" c="S" n="6905"/>
+		<ar pt="2611010458" pp="1" l="S1" fb="S1" ppth="Freising|Pulling(b Freising)|Neufahrn(b Freising)|Eching|Lohhof|Unterschleißheim|Oberschleißheim"/>
+		<dp pt="2611010459" pp="1" l="S1" fb="S1" ppth="München-Fasanerie|München-Moosach|München-Laim|München Hirschgarten|München Donnersbergerbrücke|München Hbf Gl.27-36"/>
+	</s>
+</timetable>

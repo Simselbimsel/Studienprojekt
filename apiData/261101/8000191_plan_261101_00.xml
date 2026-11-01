@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<timetable station="Karlsruhe Hbf">
+	<s id="8757276497855035879-2610311843-8">
+		<tl f="F" t="p" o="80" c="ICE" n="677"/>
+		<ar pt="2611010009" pp="2" fb="ICE 677" ppth="Berlin Hbf|Halle(Saale)Hbf|Erfurt Hbf|Fulda|Frankfurt(Main)Süd|Weinheim(Bergstr)Hbf|Heidelberg Hbf"/>
+	</s>
+	<s id="1003446772902483359-2610312059-6">
+		<tl t="p" o="85" c="NJ" n="470"/>
+		<ar pt="2611010014" pp="8" fb="NJ 470" wings="-5591597380485360579-2610312059" ppth="Zürich HB|Schaffhausen|Singen(Hohentwiel)|Offenburg|Baden-Baden"/>
+		<dp pt="2611010019" pp="8" fb="NJ 470" wings="-5591597380485360579-2610312059" ppth="Bruchsal|Heidelberg Hbf|Darmstadt Hbf|Frankfurt(Main)Süd|Hanau Hbf|Göttingen|Hannover Hbf|Bremen Hbf|Hamburg-Harburg|Hamburg Hbf|Hamburg Dammtor|Hamburg-Altona"/>
+		<tra t="v" id="-5959159715836215152" ref-to="-5591597380485360579-2610312059" s="a" o="p"/>
+	</s>
+	<s id="-5591597380485360579-2610312059-6">
+		<tl f="F" t="p" o="NZ" c="IC" n="60470"/>
+		<ar pt="2611010014" pp="8" fb="IC 60470" ppth="Zürich HB|Schaffhausen|Singen(Hohentwiel)|Offenburg|Baden-Baden"/>
+		<dp pt="2611010019" pp="8" fb="IC 60470" ppth="Bruchsal|Heidelberg Hbf|Darmstadt Hbf|Frankfurt(Main)Süd|Hanau Hbf|Göttingen|Hannover Hbf|Bremen Hbf|Hamburg-Harburg|Hamburg Hbf|Hamburg Dammtor|Hamburg-Altona"/>
+		<tra t="v" id="-5959159715836215152" ref-from="1003446772902483359-2610312059" s="a" o="p"/>
+	</s>
+	<s id="6572076932482604871-2610312145-36">
+		<tl f="S" t="p" o="801539" c="S" n="38377"/>
+		<ar pt="2611010017" pp="6" l="S3" fb="S3" ppth="Kaiserslautern Hbf|Hochspeyer|Frankenstein(Pfalz)|Weidenthal|Neidenfels|Lambrecht(Pfalz)|Neustadt(Weinstr)Hbf|Neustadt-Böbig|Haßloch(Pfalz)|Böhl-Iggelheim|Schifferstadt|Limburgerhof|Ludwigshafen-Rheingönheim|Ludwigshafen-Mundenheim|Ludwigshafen(Rh)Hbf|Ludwigshafen(Rhein) Mitte|Mannheim Hbf|Mannheim ARENA/Maimarkt|Mannheim-Seckenheim|Mannheim-Friedrichsfeld Süd|Heidelberg-Pfaffengrund/Wieblingen|Heidelberg Hbf|Heidelberg-Kirchheim/Rohrbach|St Ilgen-Sandhausen|Wiesloch-Walldorf|Rot-Malsch|Bad Schönborn-Kronau|Bad Schönborn Süd|Stettfeld-Weiher|Ubstadt-Weiher|Bruchsal|Bruchsal Bildungszentrum|Untergrombach|Weingarten(Baden)|Karlsruhe-Durlach"/>
+	</s>
+	<s id="7894190401518258960-2610312201-7">
+		<tl t="p" o="GARE" c="ARV" n="19686"/>
+		<ar pt="2611010006" pp="14" l="RE1" fb="RE1" ppth="Aalen Hbf|Schwäbisch Gmünd|Grunbach|Stuttgart Hbf|Vaihingen(Enz)|Karlsruhe-Durlach"/>
+	</s>
+	<s id="4031374387177743015-2610312345-14">
+		<tl f="N" t="p" o="800571" c="RE" n="15868"/>
+		<ar pt="2611010047" pp="9" l="RE45" fb="RE45" ppth="Schwaigern(Württ)|Stetten am Heuchelberg|Gemmingen|Eppingen|Sulzfeld(Baden)|Zaisenhausen|Oberderdingen-Flehingen|Gölshausen|Bretten Stadtmitte|Bretten|Wössingen Ost|Jöhlingen|Karlsruhe-Durlach"/>
+	</s>
+	<s id="-8949090213117616639-2611010011-1">
+		<tl f="S" t="p" o="801539" c="S" n="38200"/>
+		<dp pt="2611010011" pp="7" l="S2" fb="S2" ppth="Karlsruhe-Durlach|Weingarten(Baden)|Untergrombach|Bruchsal Bildungszentrum|Bruchsal|Ubstadt-Weiher|Stettfeld-Weiher|Bad Schönborn Süd|Bad Schönborn-Kronau|Rot-Malsch|Wiesloch-Walldorf|St Ilgen-Sandhausen|Heidelberg-Kirchheim/Rohrbach|Heidelberg Hbf|Heidelberg-Pfaffengrund/Wieblingen|Mannheim-Friedrichsfeld Süd|Mannheim-Seckenheim|Mannheim ARENA/Maimarkt|Mannheim Hbf|Ludwigshafen(Rhein) Mitte|Ludwigshafen(Rh)Hbf|Ludwigshafen-Mundenheim|Ludwigshafen-Rheingönheim|Limburgerhof|Schifferstadt|Böhl-Iggelheim|Haßloch(Pfalz)|Neustadt-Böbig|Neustadt(Weinstr)Hbf|Lambrecht(Pfalz)|Neidenfels|Weidenthal|Frankenstein(Pfalz)|Hochspeyer|Kaiserslautern Hbf"/>
+	</s>
+	<s id="9144496902521920974-2611010030-1">
+		<tl f="N" t="p" o="800571" c="RB" n="15880"/>
+		<dp pt="2611010030" pp="9" l="RB44" fb="RB44" ppth="Ettlingen West|Bruchhausen(b Ettlingen)|Malsch|Malsch Süd|Muggensturm Badesee|Muggensturm|Rastatt"/>
+	</s>
+	<s id="2471542133366010399-2611010031-8">
+		<tl f="N" t="p" o="800571" c="RB" n="15881"/>
+		<ar pt="2611010052" pp="8" l="RB44" fb="RB44" ppth="Rastatt|Muggensturm|Muggensturm Badesee|Malsch Süd|Malsch|Bruchhausen(b Ettlingen)|Ettlingen West"/>
+	</s>
+</timetable>

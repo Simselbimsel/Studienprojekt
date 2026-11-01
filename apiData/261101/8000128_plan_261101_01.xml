@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<timetable station="Göttingen">
+	<s id="-3238246615504329950-2610312223-4">
+		<tl t="p" o="81" c="NJ" n="471"/>
+		<ar pt="2611010128" pp="8" fb="NJ 471" wings="-3600137003086714631-2610312223" ppth="Hamburg-Harburg|Bremen Hbf|Hannover Hbf"/>
+		<dp pt="2611010132" pp="8" fb="NJ 471" wings="-3600137003086714631-2610312223" ppth="Hanau Hbf|Frankfurt(Main)Süd|Darmstadt Hbf|Heidelberg Hbf|Karlsruhe Hbf|Offenburg|Freiburg(Breisgau) Hbf|Basel Bad Bf|Basel SBB|Zürich HB"/>
+		<tra t="v" id="-6683491073776312995" ref-to="-3600137003086714631-2610312223" s="a" o="p"/>
+	</s>
+	<s id="-3600137003086714631-2610312223-4">
+		<tl f="F" t="p" o="NZ" c="IC" n="60471"/>
+		<ar pt="2611010128" pp="8" fb="IC 60471" ppth="Hamburg-Harburg|Bremen Hbf|Hannover Hbf"/>
+		<dp pt="2611010132" pp="8" fb="IC 60471" ppth="Hanau Hbf|Frankfurt(Main)Süd|Darmstadt Hbf|Heidelberg Hbf|Karlsruhe Hbf|Offenburg|Freiburg(Breisgau) Hbf|Basel Bad Bf|Basel SBB|Zürich HB"/>
+		<tra t="v" id="-6683491073776312995" ref-from="-3238246615504329950-2610312223" s="a" o="p"/>
+	</s>
+	<s id="-5114500590951735202-2610312239-3">
+		<tl f="F" t="p" o="80" c="ICE" n="1081"/>
+		<ar pt="2611010059" pp="7" fb="ICE 1081" ppth="Hamburg-Harburg|Hannover Hbf"/>
+		<dp pt="2611010112" pp="7" fb="ICE 1081" ppth="Würzburg Hbf|Ingolstadt Hbf|München Hbf"/>
+	</s>
+</timetable>
