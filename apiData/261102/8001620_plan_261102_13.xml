@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<timetable station="Ebenhausen(Unterfr)">
+	<s id="2252848729664657621-2611021249-4">
+		<tl f="N" t="p" o="8004NT" c="RE" n="3759"/>
+		<ar pt="2611021312" pp="3" l="RE7" fb="RE7" ppth="Mellrichstadt Bf|Bad Neustadt(Saale)|Münnerstadt"/>
+		<dp pt="2611021317" pp="3" l="RE7" fb="RE7" ppth="Schweinfurt Hbf|Würzburg Hbf"/>
+	</s>
+	<s id="2478213952049528612-2611021312-3">
+		<tl f="D" t="p" o="EB" c="EB" n="80742"/>
+		<ar pt="2611021328" pp="4" l="RB40" fb="RB40" ppth="Schweinfurt Hbf|Poppenhausen"/>
+		<dp pt="2611021331" pp="4" l="RB40" fb="RB40" ppth="Rottershausen|Münnerstadt|Burglauer|Bad Neustadt(Saale)|Mellrichstadt Bf"/>
+	</s>
+	<s id="2855024260818363342-2611021323-5">
+		<tl f="D" t="p" o="EB" c="EB" n="80743"/>
+		<ar pt="2611021353" pp="3" l="RB40" fb="RB40" ppth="Bad Neustadt(Saale)|Burglauer|Münnerstadt|Rottershausen"/>
+		<dp pt="2611021356" pp="3" l="RB40" fb="RB40" ppth="Poppenhausen|Oberwerrn|Schweinfurt Hbf"/>
+	</s>
+	<s id="1192526060848386245-2611021330-3">
+		<tl t="p" o="EB" c="Bus" n="60765"/>
+		<ar pt="2611021346" pp="" l="RB50" fb="Bus RB50" ppth="Bad Kissingen|Oerlenbach"/>
+	</s>
+	<s id="-7377515999848856980-2611021335-1">
+		<tl t="p" o="EB" c="Bus" n="61684"/>
+		<dp pt="2611021335" pp="" l="RB50" fb="Bus RB50" wings="-9099934530142547145-2611021335" ppth="Oerlenbach|Bad Kissingen"/>
+		<tra t="v" id="7154844544419684835" ref-to="-9099934530142547145-2611021335" s="a" o="p" jt="j"/>
+	</s>
+	<s id="-9099934530142547145-2611021335-1">
+		<tl t="p" o="EB" c="Bus" n="60684"/>
+		<dp pt="2611021335" pp="" l="RB50" fb="Bus RB50" ppth="Oerlenbach|Bad Kissingen|Euerdorf|Elfershausen-Trimberg|Westheim-Langendorf|Hammelburg Ost|Hammelburg|Gemünden(Main)"/>
+		<tra t="v" id="7154844544419684835" ref-from="-7377515999848856980-2611021335" s="a" o="p" jt="j"/>
+	</s>
+	<s id="2571708680927329450-2611021338-6">
+		<tl f="D" t="p" o="EB" c="EB" n="80718"/>
+		<ar pt="2611021355" pp="2" l="RB50" fb="RB50" ppth="Schweinfurt Stadt|Schweinfurt Mitte|Schweinfurt Hbf|Oberwerrn|Poppenhausen"/>
+	</s>
+</timetable>
