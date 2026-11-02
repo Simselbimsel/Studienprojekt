@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<timetable station="Burgkunstadt">
+	<s id="3817219827812833484-2611020521-11">
+		<tl f="N" t="p" o="800759" c="RE" n="3000"/>
+		<ar pt="2611020636" pp="1" l="RE35" fb="RE35" wings="6456319402066059667-2611020527" ppth="Hof Hbf|Oberkotzau|Schwarzenbach(Saale)|Münchberg|Stammbach|Marktschorgast|Neuenmarkt-Wirsberg|Untersteinach(b Stadtsteinach)|Kulmbach|Mainleus"/>
+		<dp pt="2611020637" pp="1" l="RE35" fb="RE35" wings="6456319402066059667-2611020527" ppth="Hochstadt-Marktzeuln|Lichtenfels|Bad Staffelstein|Ebensfeld|Zapfendorf|Ebing|Bamberg"/>
+		<tra t="v" id="2549974944170116128" ref-to="6456319402066059667-2611020527" s="a" o="p"/>
+	</s>
+	<s id="6456319402066059667-2611020527-13">
+		<tl f="N" t="p" o="800759" c="RE" n="3401"/>
+		<ar pt="2611020636" pp="1" l="RE38" fb="RE38" ppth="Pegnitz|Schnabelwaid|Creußen(Oberfr)|Bayreuth Hbf|Bindlach|Ramsenthal|Harsdorf|Trebgast|Neuenmarkt-Wirsberg|Untersteinach(b Stadtsteinach)|Kulmbach|Mainleus"/>
+		<dp pt="2611020637" pp="1" l="RE38" fb="RE38" ppth="Hochstadt-Marktzeuln|Lichtenfels|Bad Staffelstein|Ebensfeld|Zapfendorf|Ebing|Bamberg"/>
+		<tra t="v" id="2549974944170116128" ref-from="3817219827812833484-2611020521" s="a" o="p"/>
+	</s>
+	<s id="4325939652839329097-2611020549-3">
+		<tl f="N" t="p" o="800759" c="RE" n="3430"/>
+		<ar pt="2611020559" pp="2" l="RE32" fb="RE32" ppth="Lichtenfels|Hochstadt-Marktzeuln"/>
+		<dp pt="2611020600" pp="2" l="RE32" fb="RE32" ppth="Mainleus|Kulmbach|Untersteinach(b Stadtsteinach)|Ludwigschorgast|Neuenmarkt-Wirsberg|Trebgast|Harsdorf|Ramsenthal|Bindlach|Bayreuth Hbf|Pegnitz|Neuhaus(Pegnitz)|Hersbruck(r Pegnitz)"/>
+	</s>
+	<s id="-3328426605485190894-2611020550-4">
+		<tl f="D" t="p" o="A9" c="ag" n="84598"/>
+		<ar pt="2611020602" pp="1" l="RB24" fb="RB24" ppth="Kulmbach|Mainleus|Mainroth"/>
+		<dp pt="2611020603" pp="1" l="RB24" fb="RB24" ppth="Hochstadt-Marktzeuln|Lichtenfels"/>
+	</s>
+	<s id="-6959945498860291930-2611020622-4">
+		<tl f="D" t="p" o="A9" c="ag" n="84591"/>
+		<ar pt="2611020633" pp="2" l="RB24" fb="RB24" ppth="Lichtenfels|Michelau(Oberfr)|Hochstadt-Marktzeuln"/>
+		<dp pt="2611020634" pp="2" l="RB24" fb="RB24" ppth="Mainroth|Mainleus|Kulmbach|Untersteinach(b Stadtsteinach)|Ludwigschorgast|Neuenmarkt-Wirsberg|Trebgast|Harsdorf|Ramsenthal|Bindlach|Bayreuth Hbf"/>
+	</s>
+</timetable>
