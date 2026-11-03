@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<timetable station="Bad Kissingen">
+	<s id="-1970686285831570179-2611031209-7">
+		<tl t="p" o="EB" c="Bus" n="60685"/>
+		<ar pt="2611031305" pp="" l="RB50" fb="Bus RB50" ppth="Gemünden(Main)|Hammelburg|Hammelburg Ost|Westheim-Langendorf|Elfershausen-Trimberg|Euerdorf"/>
+	</s>
+	<s id="1192526060848386245-2611031330-1">
+		<tl t="p" o="EB" c="Bus" n="60765"/>
+		<dp pt="2611031330" pp="" l="RB50" fb="Bus RB50" ppth="Oerlenbach|Ebenhausen(Unterfr)"/>
+	</s>
+	<s id="-7377515999848856980-2611031335-3">
+		<tl t="p" o="EB" c="Bus" n="61684"/>
+		<ar pt="2611031350" pp="" l="RB50" fb="Bus RB50" wings="-9099934530142547145-2611031335" ppth="Ebenhausen(Unterfr)|Oerlenbach"/>
+		<tra t="v" id="5953900808382984501" ref-to="-9099934530142547145-2611031335" s="a" o="p" jt="s"/>
+	</s>
+	<s id="-9099934530142547145-2611031335-3">
+		<tl t="p" o="EB" c="Bus" n="60684"/>
+		<ar pt="2611031350" pp="" l="RB50" fb="Bus RB50" ppth="Ebenhausen(Unterfr)|Oerlenbach"/>
+		<dp pt="2611031350" pp="" l="RB50" fb="Bus RB50" ppth="Euerdorf|Elfershausen-Trimberg|Westheim-Langendorf|Hammelburg Ost|Hammelburg|Gemünden(Main)"/>
+		<tra t="v" id="5953900808382984501" ref-from="-7377515999848856980-2611031335" s="a" o="p" jt="s"/>
+	</s>
+</timetable>
