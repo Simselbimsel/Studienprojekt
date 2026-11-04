@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<timetable station="Neunkirchen a Sand">
+	<s id="5540693266403910512-2611041301-8">
+		<tl f="N" t="p" o="800720" c="RB" n="58528"/>
+		<ar pt="2611041328" pp="1" l="RB30" fb="RB30" ppth="Neuhaus(Pegnitz)|Velden(b Hersbruck)|Rupprechtstegen|Vorra(Pegnitz)|Hohenstadt(Mittelfr)|Hersbruck(r Pegnitz)|Reichenschwand"/>
+	</s>
+	<s id="-774337292288855532-2611041328-2">
+		<tl f="N" t="p" o="800720" c="RB" n="58529"/>
+		<ar pt="2611041331" pp="3" l="RB30" fb="RB30" ppth="Lauf(rechts Pegnitz)"/>
+		<dp pt="2611041332" pp="3" l="RB30" fb="RB30" ppth="Reichenschwand|Hersbruck(r Pegnitz)|Hohenstadt(Mittelfr)|Vorra(Pegnitz)|Rupprechtstegen|Velden(b Hersbruck)|Neuhaus(Pegnitz)"/>
+	</s>
+	<s id="2652476629044500794-2611041333-1">
+		<tl f="N" t="p" o="800720" c="RB" n="58608"/>
+		<dp pt="2611041333" pp="1" l="RB31" fb="RB31" ppth="Lauf(rechts Pegnitz)"/>
+	</s>
+	<s id="7251348902087142554-2611041343-2">
+		<tl f="N" t="p" o="800720" c="RB" n="58531"/>
+		<ar pt="2611041346" pp="1" l="RB30" fb="RB30" wings="-1651565887042424233-2611041343" ppth="Lauf(rechts Pegnitz)"/>
+		<dp pt="2611041357" pp="1" l="RB30" fb="RB30" ppth="Reichenschwand|Hersbruck(r Pegnitz)"/>
+		<tra t="v" id="72441235223540112" ref-to="-1651565887042424233-2611041343" s="a" o="p" jt="s"/>
+	</s>
+	<s id="-1651565887042424233-2611041343-2">
+		<tl f="N" t="p" o="800720" c="RB" n="58609"/>
+		<ar pt="2611041346" pp="1" l="RB31" fb="RB31" ppth="Lauf(rechts Pegnitz)"/>
+		<dp pt="2611041348" pp="1" l="RB31" fb="RB31" ppth="Speikern|Rollhofen|Schnaittach Markt|Hedersdorf|Simmelsdorf-Hüttenbach"/>
+		<tra t="v" id="72441235223540112" ref-from="7251348902087142554-2611041343" s="a" o="p" jt="s"/>
+	</s>
+</timetable>
