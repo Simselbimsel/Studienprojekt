@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<timetable station="Kulmbach">
+	<s id="9024146689733360284-2611032105-12">
+		<tl f="D" t="p" o="A9" c="ag" n="84621"/>
+		<ar pt="2611032200" pp="1" l="RB24" fb="RB24" ppth="Coburg|Creidlitz|Grub am Forst|Ebersdorf(b Coburg)|Schney|Lichtenfels|Michelau(Oberfr)|Hochstadt-Marktzeuln|Burgkunstadt|Mainroth|Mainleus"/>
+	</s>
+	<s id="-5685664031109394470-2611032120-11">
+		<tl f="N" t="p" o="800759" c="RE" n="3419"/>
+		<ar pt="2611032237" pp="3" l="RE32" fb="RE32" ppth="Hersbruck(r Pegnitz)|Pegnitz|Bayreuth Hbf|Bindlach|Ramsenthal|Harsdorf|Trebgast|Neuenmarkt-Wirsberg|Ludwigschorgast|Untersteinach(b Stadtsteinach)"/>
+		<dp pt="2611032238" pp="3" l="RE32" fb="RE32" ppth="Mainleus|Mainroth|Burgkunstadt|Hochstadt-Marktzeuln|Lichtenfels"/>
+		<tra t="v" id="7272249484186409376" ref-from="-3307632497946544832-2611032136" s="a" o="p"/>
+	</s>
+	<s id="-3307632497946544832-2611032136-9">
+		<tl f="N" t="p" o="800759" c="RE" n="3018"/>
+		<ar pt="2611032237" pp="3" l="RE35" fb="RE35" wings="-5685664031109394470-2611032120" ppth="Hof Hbf|Schwarzenbach(Saale)|Münchberg|Stammbach|Marktschorgast|Neuenmarkt-Wirsberg|Ludwigschorgast|Untersteinach(b Stadtsteinach)"/>
+		<dp pt="2611032238" pp="3" l="RE35" fb="RE35" wings="-5685664031109394470-2611032120" ppth="Mainleus|Mainroth|Burgkunstadt|Hochstadt-Marktzeuln|Lichtenfels"/>
+		<tra t="v" id="7272249484186409376" ref-to="-5685664031109394470-2611032120" s="a" o="p"/>
+	</s>
+	<s id="-4438977344446029280-2611032209-3">
+		<tl f="N" t="p" o="800759" c="RE" n="3448"/>
+		<ar pt="2611032226" pp="2" l="RE38" fb="RE38" ppth="Lichtenfels|Burgkunstadt"/>
+		<dp pt="2611032227" pp="2" l="RE38" fb="RE38" ppth="Untersteinach(b Stadtsteinach)|Ludwigschorgast|Neuenmarkt-Wirsberg|Trebgast|Harsdorf|Ramsenthal|Bindlach|Bayreuth Hbf"/>
+	</s>
+</timetable>

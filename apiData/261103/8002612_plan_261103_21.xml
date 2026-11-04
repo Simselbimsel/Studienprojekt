@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<timetable station="Hartmannshof">
+	<s id="5534843310880045491-2611032010-27">
+		<tl f="S" t="p" o="800721" c="S" n="39201"/>
+		<ar pt="2611032124" pp="3" l="S1" fb="S1" ppth="Erlangen|Erlangen Paul-Gossen-Straße|Erlangen-Bruck|Eltersdorf|Vach|Fürth-Klinikum|Fürth(Bay)Hbf|Nürnberg Rothenburger Str.|Nürnberg-Steinbühl|Nürnberg Hbf|Nürnberg-Dürrenhof|Nürnberg Ostring|Nürnberg-Mögeldorf|Nürnberg-Rehhof|Nürnberg-Laufamholz|Schwaig|Röthenbach(Pegnitz)|Röthenbach-Steinberg|Röthenbach-Seespitze|Lauf West|Lauf(links Pegnitz)|Ottensoos|Henfenfeld|Hersbruck(l Pegnitz)|Happurg|Pommelsbrunn"/>
+	</s>
+	<s id="-2537931962609457255-2611032037-3">
+		<tl f="N" t="p" o="800759" c="RE" n="34953"/>
+		<ar pt="2611032105" pp="1" l="RE41" fb="RE41" ppth="Nürnberg Hbf|Hersbruck(l Pegnitz)"/>
+		<dp pt="2611032105" pp="1" l="RE41" fb="RE41" ppth="Etzelwang|Neukirchen(b Sulzb)|Vilseck|Freihung|Weiherhammer|Weiden(Oberpf)|Altenstadt(Waldnaab)|Neustadt(Waldnaab)"/>
+	</s>
+	<s id="-3921464174190691896-2611032055-9">
+		<tl f="N" t="p" o="800759" c="RE" n="3484"/>
+		<ar pt="2611032152" pp="2" l="RE41" fb="RE41" wings="-3065119898410683589-2611032111" ppth="Neustadt(Waldnaab)|Altenstadt(Waldnaab)|Weiden(Oberpf)|Weiherhammer|Freihung|Vilseck|Neukirchen(b Sulzb)|Etzelwang"/>
+		<dp pt="2611032153" pp="2" l="RE41" fb="RE41" wings="-3065119898410683589-2611032111" ppth="Hersbruck(l Pegnitz)|Nürnberg Hbf"/>
+		<tra t="v" id="4161925469451022088" ref-to="-3065119898410683589-2611032111" s="a" o="p"/>
+	</s>
+	<s id="-3065119898410683589-2611032111-6">
+		<tl f="N" t="p" o="800759" c="RE" n="3584"/>
+		<ar pt="2611032152" pp="2" l="RE40" fb="RE40" ppth="Schwandorf|Amberg|Sulzbach-Rosenberg|Neukirchen(b Sulzb)|Etzelwang"/>
+		<dp pt="2611032153" pp="2" l="RE40" fb="RE40" ppth="Hersbruck(l Pegnitz)|Nürnberg Hbf"/>
+		<tra t="v" id="4161925469451022088" ref-from="-3921464174190691896-2611032055" s="a" o="p"/>
+	</s>
+	<s id="7460489916036114087-2611032133-1">
+		<tl f="S" t="p" o="800721" c="S" n="39210"/>
+		<dp pt="2611032133" pp="3" l="S1" fb="S1" ppth="Pommelsbrunn|Happurg|Hersbruck(l Pegnitz)|Henfenfeld|Ottensoos|Lauf(links Pegnitz)|Lauf West|Röthenbach-Seespitze|Röthenbach-Steinberg|Röthenbach(Pegnitz)|Schwaig|Nürnberg-Laufamholz|Nürnberg-Rehhof|Nürnberg-Mögeldorf|Nürnberg Ostring|Nürnberg-Dürrenhof|Nürnberg Hbf|Nürnberg-Steinbühl|Nürnberg Rothenburger Str.|Fürth(Bay)Hbf|Fürth-Klinikum|Vach|Eltersdorf|Erlangen-Bruck|Erlangen Paul-Gossen-Straße|Erlangen"/>
+	</s>
+</timetable>
