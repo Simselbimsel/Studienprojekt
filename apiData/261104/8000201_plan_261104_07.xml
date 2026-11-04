@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<timetable station="Kirchenlaibach">
+	<s id="6994170161915050060-2611040645-6">
+		<tl f="D" t="p" o="A9" c="ag" n="84640"/>
+		<ar pt="2611040719" pp="3" l="RB34" fb="RB34" ppth="Weiden(Oberpf)|Schwarzenbach(b Pressath)|Pressath|Trabitz|Kemnath-Neustadt"/>
+		<dp pt="2611040720" pp="3" l="RB34" fb="RB34" ppth="Seybothenreuth|Stockau|Bayreuth Hbf"/>
+	</s>
+	<s id="-2782270198949482365-2611040646-11">
+		<tl f="D" t="p" o="A9" c="ag" n="79877"/>
+		<ar pt="2611040740" pp="4" l="RB97" fb="RB97" ppth="Weidenberg|Görschnitz|Untersteinach(Bayr)|Döhlau|Friedrichsthal(b Bayreuth)|Laineck|Bayreuth-St Georgen|Bayreuth Hbf|Stockau|Seybothenreuth"/>
+		<dp pt="2611040741" pp="4" l="RB97" fb="RB97" ppth="Haidenaab-Göppmannsbühl|Immenreuth|Neusorg|Waldershof|Marktredwitz|Wunsiedel-Holenbrunn|Röslau|Marktleuthen|Kirchenlamitz Ost|Martinlamitz|Oberkotzau|Hof Hbf|Hof-Neuhof|Köditz|Stegenwaldhaus|Selbitz|Naila|Marxgrün|Höllenthal|Bad Steben"/>
+	</s>
+	<s id="2747249048083810619-2611040650-4">
+		<tl f="N" t="p" o="800759" c="RE" n="4881"/>
+		<ar pt="2611040733" pp="5" l="RE31" fb="RE31" wings="2759381967425077595-2611040650" ppth="Hersbruck(r Pegnitz)|Neuhaus(Pegnitz)|Pegnitz"/>
+		<dp pt="2611040734" pp="5" l="RE31" fb="RE31" wings="2759381967425077595-2611040650" ppth="Marktredwitz|Oberkotzau|Hof Hbf"/>
+		<tra t="v" id="4106581542389589981" ref-to="2759381967425077595-2611040650" s="a" o="p"/>
+	</s>
+	<s id="2759381967425077595-2611040650-4">
+		<tl f="N" t="p" o="800759" c="RE" n="5281"/>
+		<ar pt="2611040733" pp="5" l="RE33" fb="RE33" ppth="Hersbruck(r Pegnitz)|Neuhaus(Pegnitz)|Pegnitz"/>
+		<dp pt="2611040734" pp="5" l="RE33" fb="RE33" ppth="Marktredwitz|Schirnding|Cheb"/>
+		<tra t="v" id="4106581542389589981" ref-from="2747249048083810619-2611040650" s="a" o="p"/>
+	</s>
+	<s id="-4790081863530784715-2611040702-2">
+		<tl f="N" t="p" o="800759" c="RE" n="3824"/>
+		<ar pt="2611040717" pp="2" l="RE31" fb="RE31" ppth="Marktredwitz"/>
+		<dp pt="2611040723" pp="2" l="RE31" fb="RE31" ppth="Schnabelwaid|Pegnitz|Neuhaus(Pegnitz)|Hersbruck(r Pegnitz)"/>
+	</s>
+</timetable>
