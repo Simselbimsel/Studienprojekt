@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<timetable station="Gerlenhofen">
+	<s id="-3556174745768599961-2611051257-4">
+		<tl f="N" t="p" o="8007DU" c="RB" n="57461"/>
+		<ar pt="2611051306" pp="2" l="RS71" fb="RS71" ppth="Ulm Hbf|Neu-Ulm|Finningerstraße"/>
+		<dp pt="2611051306" pp="2" l="RS71" fb="RS71" ppth="Senden|Wullenstetten|Witzighausen|Weißenhorn-Eschach|Weißenhorn"/>
+	</s>
+	<s id="-6855817718006783772-2611051324-5">
+		<tl f="N" t="p" o="8007DU" c="RB" n="57674"/>
+		<ar pt="2611051350" pp="2" l="RS7" fb="RS7" wings="7831726211083784643-2611051331" ppth="Illertissen|Bellenberg|Vöhringen|Senden"/>
+		<dp pt="2611051350" pp="2" l="RS7" fb="RS7" wings="7831726211083784643-2611051331" ppth="Finningerstraße|Neu-Ulm|Ulm Hbf"/>
+		<tra t="v" id="3751557815045163036" ref-to="7831726211083784643-2611051331" s="a" o="p"/>
+	</s>
+	<s id="5569054959556870112-2611051330-4">
+		<tl f="N" t="p" o="8007DU" c="RB" n="57771"/>
+		<ar pt="2611051340" pp="2" l="RS7" fb="RS7" ppth="Ulm Hbf|Neu-Ulm|Finningerstraße"/>
+		<dp pt="2611051340" pp="2" l="RS7" fb="RS7" ppth="Senden|Vöhringen|Bellenberg|Illertissen|Altenstadt(Iller)|Kellmünz|Memmingen"/>
+	</s>
+	<s id="7831726211083784643-2611051331-6">
+		<tl f="N" t="p" o="8007DU" c="RB" n="57468"/>
+		<ar pt="2611051350" pp="2" l="RS71" fb="RS71" ppth="Weißenhorn|Weißenhorn-Eschach|Witzighausen|Wullenstetten|Senden"/>
+		<dp pt="2611051350" pp="2" l="RS71" fb="RS71" ppth="Finningerstraße|Neu-Ulm|Ulm Hbf"/>
+		<tra t="v" id="3751557815045163036" ref-from="-6855817718006783772-2611051324" s="a" o="p"/>
+	</s>
+</timetable>

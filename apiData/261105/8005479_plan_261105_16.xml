@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<timetable station="Schweinfurt Mitte">
+	<s id="7929933555047350509-2611051440-23">
+		<tl f="N" t="p" o="800714" c="RB" n="58053"/>
+		<ar pt="2611051640" pp="2" l="RB53" fb="RB53" ppth="Flieden|Sterbfritz|Jossa|Obersinn|Mittelsinn|Burgsinn|Rieneck|Gemünden(Main)|Wernfeld|Karlstadt(Main)|Himmelstadt|Retzbach-Zellingen|Thüngersheim|Veitshöchheim|Würzburg-Zell|Würzburg Hbf|Rottendorf|Seligenstadt(b Würzburg)|Bergtheim|Eßleben|Waigolshausen|Schweinfurt Hbf"/>
+		<dp pt="2611051640" pp="2" l="RB53" fb="RB53" ppth="Schweinfurt Stadt|Schonungen|Haßfurt|Zeil|Ebelsbach-Eltmann|Oberhaid|Bamberg"/>
+	</s>
+	<s id="-434598350930201597-2611051541-8">
+		<tl f="N" t="p" o="800714" c="RB" n="58054"/>
+		<ar pt="2611051616" pp="1" l="RB53" fb="RB53" ppth="Bamberg|Oberhaid|Ebelsbach-Eltmann|Zeil|Haßfurt|Schonungen|Schweinfurt Stadt"/>
+		<dp pt="2611051617" pp="1" l="RB53" fb="RB53" ppth="Schweinfurt Hbf|Waigolshausen|Eßleben|Bergtheim|Seligenstadt(b Würzburg)|Rottendorf|Würzburg Hbf|Würzburg-Zell|Veitshöchheim|Thüngersheim|Retzbach-Zellingen|Himmelstadt|Karlstadt(Main)|Wernfeld|Gemünden(Main)|Rieneck|Burgsinn|Mittelsinn|Obersinn|Jossa|Sterbfritz|Flieden"/>
+	</s>
+	<s id="-1157261282145867410-2611051546-8">
+		<tl f="N" t="p" o="800714" c="RB" n="58267"/>
+		<ar pt="2611051622" pp="2" l="RB53" fb="RB53" ppth="Würzburg Hbf|Rottendorf|Seligenstadt(b Würzburg)|Bergtheim|Eßleben|Waigolshausen|Schweinfurt Hbf"/>
+		<dp pt="2611051623" pp="2" l="RB53" fb="RB53" ppth="Schweinfurt Stadt|Schonungen|Haßfurt|Zeil|Ebelsbach-Eltmann|Oberhaid|Bamberg"/>
+	</s>
+	<s id="6768740362756543725-2611051549-10">
+		<tl f="D" t="p" o="EB" c="EB" n="80751"/>
+		<ar pt="2611051657" pp="2" l="RB40" fb="RB40" ppth="Mellrichstadt Bf|Bad Neustadt(Saale)|Burglauer|Münnerstadt|Rottershausen|Ebenhausen(Unterfr)|Poppenhausen|Oberwerrn|Schweinfurt Hbf"/>
+		<dp pt="2611051658" pp="2" l="RB40" fb="RB40" ppth="Schweinfurt Stadt"/>
+		<tra t="v" id="5810962814759618293" ref-from="2622264185317725340-2611051655" s="a" o="p"/>
+	</s>
+	<s id="-7223119467943217576-2611051602-2">
+		<tl f="D" t="p" o="EB" c="EB" n="80690"/>
+		<ar pt="2611051604" pp="1" l="RB50" fb="RB50" ppth="Schweinfurt Stadt"/>
+		<dp pt="2611051604" pp="1" l="RB50" fb="RB50" ppth="Schweinfurt Hbf|Oberwerrn|Poppenhausen|Ebenhausen(Unterfr)"/>
+	</s>
+	<s id="7593413611499057247-2611051612-8">
+		<tl f="N" t="p" o="800714" c="RB" n="58186"/>
+		<ar pt="2611051648" pp="1" l="RB53" fb="RB53" ppth="Bamberg|Oberhaid|Ebelsbach-Eltmann|Zeil|Haßfurt|Schonungen|Schweinfurt Stadt"/>
+		<dp pt="2611051649" pp="1" l="RB53" fb="RB53" ppth="Schweinfurt Hbf"/>
+	</s>
+	<s id="2622264185317725340-2611051655-2">
+		<tl f="D" t="p" o="EB" c="EB" n="92281"/>
+		<ar pt="2611051657" pp="2" l="RB40" fb="RB40" wings="6768740362756543725-2611051549" ppth="Schweinfurt Hbf"/>
+		<dp pt="2611051658" pp="2" l="RB40" fb="RB40" wings="6768740362756543725-2611051549" ppth="Schweinfurt Stadt"/>
+		<tra t="v" id="5810962814759618293" ref-to="6768740362756543725-2611051549" s="a" o="p"/>
+	</s>
+</timetable>
