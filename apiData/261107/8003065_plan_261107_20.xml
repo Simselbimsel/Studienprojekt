@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<timetable station="Immenstadt">
+	<s id="-4212865985335818790-2611071842-7">
+		<tl f="N" t="p" o="8007D5" c="RE" n="3398"/>
+		<ar pt="2611072005" pp="1" l="RE17" fb="RE17" wings="-8764004538778404728-2611071842" ppth="Augsburg Hbf|Buchloe|Kaufbeuren|Biessenhofen|Günzach|Kempten(Allgäu)Hbf"/>
+		<dp pt="2611072012" pp="1" l="RE17" fb="RE17" ppth="Blaichach(Allgäu)|Sonthofen|Altstädten(Allgäu)|Fischen|Langenwang(Schwab)|Oberstdorf"/>
+		<tra t="v" id="-3207808413446708716" ref-to="-8764004538778404728-2611071842" s="a" o="p" jt="s"/>
+	</s>
+	<s id="-8764004538778404728-2611071842-7">
+		<tl f="N" t="p" o="8007D5" c="RE" n="3298"/>
+		<ar pt="2611072005" pp="3" l="RE7" fb="RE7" ppth="Augsburg Hbf|Buchloe|Kaufbeuren|Biessenhofen|Günzach|Kempten(Allgäu)Hbf"/>
+		<dp pt="2611072006" pp="3" l="RE7" fb="RE7" ppth="Oberstaufen|Röthenbach(Allgäu)|Heimenkirch|Hergatz|Lindau-Insel|Lindau-Reutin"/>
+		<tra t="v" id="-3207808413446708716" ref-from="-4212865985335818790-2611071842" s="a" o="p" jt="s"/>
+	</s>
+	<s id="3553505995836428424-2611071940-7">
+		<tl f="N" t="p" o="8007D5" c="RE" n="3895"/>
+		<ar pt="2611072054" pp="3" l="RE70" fb="RE70" ppth="Lindau-Reutin|Lindau-Insel|Hergatz|Heimenkirch|Röthenbach(Allgäu)|Oberstaufen"/>
+		<dp pt="2611072055" pp="3" l="RE70" fb="RE70" wings="6873560431913105926-2611071957" ppth="Martinszell(Allgäu)|Kempten(Allgäu)Hbf|Günzach|Biessenhofen|Kaufbeuren|Buchloe|Kaufering|Geltendorf|München-Pasing|München Hbf Gl.27-36"/>
+		<tra t="v" id="9128385261131072040" ref-to="6873560431913105926-2611071957" s="a" o="p" jt="j"/>
+	</s>
+	<s id="6873560431913105926-2611071957-7">
+		<tl f="N" t="p" o="8007D5" c="RE" n="7895"/>
+		<ar pt="2611072032" pp="2" l="RE76" fb="RE76" ppth="Oberstdorf|Langenwang(Schwab)|Fischen|Altstädten(Allgäu)|Sonthofen|Blaichach(Allgäu)"/>
+		<dp pt="2611072055" pp="2" l="RE76" fb="RE76" ppth="Martinszell(Allgäu)|Kempten(Allgäu)Hbf|Günzach|Biessenhofen|Kaufbeuren|Buchloe|Kaufering|Geltendorf|München-Pasing|München Hbf Gl.27-36"/>
+		<tra t="v" id="9128385261131072040" ref-from="3553505995836428424-2611071940" s="a" o="p" jt="j"/>
+	</s>
+</timetable>
