@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<timetable station="Martinszell(Allgäu)">
+	<s id="3553505995836428424-2611061940-8">
+		<tl f="N" t="p" o="8007D5" c="RE" n="3895"/>
+		<ar pt="2611062102" pp="1" l="RE70" fb="RE70" wings="6873560431913105926-2611061957" ppth="Lindau-Reutin|Lindau-Insel|Hergatz|Heimenkirch|Röthenbach(Allgäu)|Oberstaufen|Immenstadt"/>
+		<dp pt="2611062102" pp="1" l="RE70" fb="RE70" wings="6873560431913105926-2611061957" ppth="Kempten(Allgäu)Hbf|Günzach|Biessenhofen|Kaufbeuren|Buchloe|Kaufering|Geltendorf|München-Pasing|München Hbf Gl.27-36"/>
+		<tra t="v" id="-4644150006450885665" ref-to="6873560431913105926-2611061957" s="a" o="p"/>
+	</s>
+	<s id="6873560431913105926-2611061957-8">
+		<tl f="N" t="p" o="8007D5" c="RE" n="7895"/>
+		<ar pt="2611062102" pp="1" l="RE76" fb="RE76" ppth="Oberstdorf|Langenwang(Schwab)|Fischen|Altstädten(Allgäu)|Sonthofen|Blaichach(Allgäu)|Immenstadt"/>
+		<dp pt="2611062102" pp="1" l="RE76" fb="RE76" ppth="Kempten(Allgäu)Hbf|Günzach|Biessenhofen|Kaufbeuren|Buchloe|Kaufering|Geltendorf|München-Pasing|München Hbf Gl.27-36"/>
+		<tra t="v" id="-4644150006450885665" ref-from="3553505995836428424-2611061940" s="a" o="p"/>
+	</s>
+	<s id="-6067058556037821144-2611062032-12">
+		<tl f="N" t="p" o="8007D5" c="RE" n="57658"/>
+		<ar pt="2611062158" pp="2" l="RE17" fb="RE17" ppth="Augsburg Hbf|Augsburg Morellstr.|Augsburg Messe|Inningen|Bobingen|Schwabmünchen|Buchloe|Kaufbeuren|Biessenhofen|Günzach|Kempten(Allgäu)Hbf"/>
+		<dp pt="2611062158" pp="2" l="RE17" fb="RE17" ppth="Immenstadt|Blaichach(Allgäu)|Sonthofen|Altstädten(Allgäu)|Fischen|Langenwang(Schwab)|Oberstdorf"/>
+		<tra t="v" id="-1315647133998974683" ref-from="7679590405167972610-2611062032" s="a" o="p"/>
+	</s>
+	<s id="7679590405167972610-2611062032-12">
+		<tl f="N" t="p" o="8007D5" c="RE" n="3288"/>
+		<ar pt="2611062158" pp="2" l="RE7" fb="RE7" wings="-6067058556037821144-2611062032" ppth="Augsburg Hbf|Augsburg Morellstr.|Augsburg Messe|Inningen|Bobingen|Schwabmünchen|Buchloe|Kaufbeuren|Biessenhofen|Günzach|Kempten(Allgäu)Hbf"/>
+		<dp pt="2611062158" pp="2" l="RE7" fb="RE7" wings="-6067058556037821144-2611062032" ppth="Immenstadt|Oberstaufen|Röthenbach(Allgäu)|Heimenkirch|Hergatz|Lindau-Insel|Lindau-Reutin"/>
+		<tra t="v" id="-1315647133998974683" ref-to="-6067058556037821144-2611062032" s="a" o="p"/>
+	</s>
+</timetable>
