@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<timetable station="Pegnitz">
+	<s id="385604376055049228-2611082036-5">
+		<tl f="N" t="p" o="800759" c="RE" n="3038"/>
+		<ar pt="2611082144" pp="2" l="RE30" fb="RE30" ppth="Hof Hbf|Münchberg|Trebgast|Bayreuth Hbf"/>
+		<dp pt="2611082146" pp="2" l="RE30" fb="RE30" ppth="Neuhaus(Pegnitz)|Hersbruck(r Pegnitz)"/>
+	</s>
+	<s id="-2989465252514003033-2611082054-3">
+		<tl f="N" t="p" o="800759" c="RE" n="3095"/>
+		<ar pt="2611082117" pp="1" l="RE30" fb="RE30" ppth="Hersbruck(r Pegnitz)|Neuhaus(Pegnitz)"/>
+		<dp pt="2611082119" pp="1" l="RE30" fb="RE30" ppth="Schnabelwaid|Creußen(Oberfr)|Bayreuth Hbf"/>
+		<tra t="v" id="-1445808103035331602" ref-from="5695572270014258859-2611082054" s="a" o="p" jt="s"/>
+	</s>
+	<s id="5695572270014258859-2611082054-3">
+		<tl f="N" t="p" o="800759" c="RE" n="4895"/>
+		<ar pt="2611082117" pp="1" l="RE31" fb="RE31" wings="-2989465252514003033-2611082054" ppth="Hersbruck(r Pegnitz)|Neuhaus(Pegnitz)"/>
+		<dp pt="2611082123" pp="1" l="RE31" fb="RE31" ppth="Kirchenlaibach|Immenreuth|Neusorg|Marktredwitz|Wunsiedel-Holenbrunn|Röslau|Marktleuthen|Kirchenlamitz Ost|Martinlamitz|Oberkotzau|Hof Hbf"/>
+		<tra t="v" id="-1445808103035331602" ref-to="-2989465252514003033-2611082054" s="a" o="p" jt="s"/>
+	</s>
+	<s id="-4974954397196978134-2611082101-8">
+		<tl f="N" t="p" o="800759" c="RE" n="3838"/>
+		<ar pt="2611082140" pp="2" l="RE31" fb="RE31" ppth="Marktredwitz|Waldershof|Neusorg|Immenreuth|Haidenaab-Göppmannsbühl|Kirchenlaibach|Schnabelwaid"/>
+		<dp pt="2611082146" pp="2" l="RE31" fb="RE31" ppth="Neuhaus(Pegnitz)|Hersbruck(r Pegnitz)"/>
+	</s>
+	<s id="-5685664031109394470-2611082120-2">
+		<tl f="N" t="p" o="800759" c="RE" n="3419"/>
+		<ar pt="2611082143" pp="1" l="RE32" fb="RE32" ppth="Hersbruck(r Pegnitz)"/>
+		<dp pt="2611082144" pp="1" l="RE32" fb="RE32" ppth="Bayreuth Hbf|Bindlach|Ramsenthal|Harsdorf|Trebgast|Neuenmarkt-Wirsberg|Ludwigschorgast|Untersteinach(b Stadtsteinach)|Kulmbach|Mainleus|Mainroth|Burgkunstadt|Hochstadt-Marktzeuln|Lichtenfels"/>
+	</s>
+</timetable>

@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<timetable station="Kempten(Allgäu)Hbf">
+	<s id="4621354708034096772-2611081843-8">
+		<tl f="N" t="p" o="8007D5" c="RE" n="3287"/>
+		<ar pt="2611082009" pp="4" l="RE7" fb="RE7" ppth="Lindau-Reutin|Lindau-Insel|Hergatz|Heimenkirch|Röthenbach(Allgäu)|Oberstaufen|Immenstadt"/>
+		<dp pt="2611082013" pp="4" l="RE7" fb="RE7" ppth="Günzach|Biessenhofen|Kaufbeuren|Buchloe|Schwabmünchen|Bobingen|Inningen|Augsburg Hbf"/>
+	</s>
+	<s id="-384975893550853352-2611081903-9">
+		<tl f="N" t="p" o="8007D5" c="RE" n="7892"/>
+		<ar pt="2611082048" pp="1" l="RE76" fb="RE76" ppth="München Hbf Gl.27-36|München-Pasing|Geltendorf|Kaufering|Buchloe|Kaufbeuren|Biessenhofen|Günzach"/>
+		<dp pt="2611082050" pp="1" l="RE76" fb="RE76" ppth="Martinszell(Allgäu)|Immenstadt|Blaichach(Allgäu)|Sonthofen|Altstädten(Allgäu)|Fischen|Langenwang(Schwab)|Oberstdorf"/>
+		<tra t="v" id="-5403809176661496385" ref-from="6523266399399988461-2611081903" s="a" o="p"/>
+	</s>
+	<s id="6523266399399988461-2611081903-9">
+		<tl f="N" t="p" o="8007D5" c="RE" n="3892"/>
+		<ar pt="2611082048" pp="1" l="RE70" fb="RE70" wings="-384975893550853352-2611081903" ppth="München Hbf Gl.27-36|München-Pasing|Geltendorf|Kaufering|Buchloe|Kaufbeuren|Biessenhofen|Günzach"/>
+		<dp pt="2611082050" pp="1" l="RE70" fb="RE70" wings="-384975893550853352-2611081903" ppth="Martinszell(Allgäu)|Immenstadt|Oberstaufen|Röthenbach(Allgäu)|Heimenkirch|Hergatz|Lindau-Insel|Lindau-Reutin"/>
+		<tra t="v" id="-5403809176661496385" ref-to="-384975893550853352-2611081903" s="a" o="p"/>
+	</s>
+	<s id="-345463020167973715-2611081909-8">
+		<tl f="N" t="p" o="8007D5" c="RE" n="57669"/>
+		<ar pt="2611082009" pp="4" l="RE17" fb="RE17" ppth="Oberstdorf|Langenwang(Schwab)|Fischen|Altstädten(Allgäu)|Sonthofen|Blaichach(Allgäu)|Immenstadt"/>
+		<dp pt="2611082013" pp="4" l="RE17" fb="RE17" ppth="Günzach|Biessenhofen|Kaufbeuren|Buchloe|Schwabmünchen|Bobingen|Inningen|Augsburg Hbf"/>
+	</s>
+	<s id="-4615310082632640061-2611081938-3">
+		<tl f="N" t="p" o="8007D4" c="RE" n="57428"/>
+		<ar pt="2611082018" pp="5" l="RE79" fb="RE79" ppth="Buchloe|Kaufbeuren"/>
+	</s>
+	<s id="-8813724762173764881-2611082014-4">
+		<tl f="N" t="p" o="8007D5" c="RE" n="63583"/>
+		<ar pt="2611082030" pp="1" l="RE75" fb="RE75" ppth="Bad Grönenbach|Dietmannsried|Kempten(Allgäu)Ost"/>
+	</s>
+	<s id="7295371217078693735-2611082033-1">
+		<tl f="N" t="p" o="8007D5" c="RE" n="63582"/>
+		<dp pt="2611082033" pp="4" l="RE75" fb="RE75" ppth="Dietmannsried|Bad Grönenbach"/>
+	</s>
+	<s id="-4667119200943935404-2611082040-1">
+		<tl f="N" t="p" o="8007D4" c="RE" n="57435"/>
+		<dp pt="2611082040" pp="4" l="RE79" fb="RE79" ppth="Kaufbeuren|Buchloe"/>
+	</s>
+</timetable>
