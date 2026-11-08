@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<timetable station="Hanau Hbf">
+	<s id="1003446772902483359-2611072059-12">
+		<tl t="p" o="85" c="NJ" n="470"/>
+		<ar pt="2611080231" pp="7" fb="NJ 470" ppth="Zürich HB|Basel SBB|Basel Bad Bf|Freiburg(Breisgau) Hbf|Offenburg|Baden-Baden|Karlsruhe Hbf|Bruchsal|Heidelberg Hbf|Darmstadt Hbf|Frankfurt(Main)Süd"/>
+		<dp pt="2611080235" pp="7" fb="NJ 470" ppth="Göttingen|Hannover Hbf|Bremen Hbf|Hamburg-Harburg"/>
+		<tra t="v" id="7639090531926039256" ref-from="-5591597380485360579-2611072059" s="a" o="p"/>
+	</s>
+	<s id="-5591597380485360579-2611072059-12">
+		<tl f="F" t="p" o="NZ" c="IC" n="60470"/>
+		<ar pt="2611080231" pp="7" fb="IC 60470" wings="1003446772902483359-2611072059" ppth="Zürich HB|Basel SBB|Basel Bad Bf|Freiburg(Breisgau) Hbf|Offenburg|Baden-Baden|Karlsruhe Hbf|Bruchsal|Heidelberg Hbf|Darmstadt Hbf|Frankfurt(Main)Süd"/>
+		<dp pt="2611080235" pp="7" fb="IC 60470" wings="1003446772902483359-2611072059" ppth="Göttingen|Hannover Hbf|Bremen Hbf|Hamburg-Harburg"/>
+		<tra t="v" id="7639090531926039256" ref-to="1003446772902483359-2611072059" s="a" o="p"/>
+	</s>
+	<s id="7193984266497492867-2611080215-9">
+		<tl f="D" t="p" o="K4RB" c="HLB" n="24377"/>
+		<ar pt="2611080245" pp="106" l="RB58" fb="RB58" ppth="Frankfurt(Main)Hbf|Frankfurt(Main)Süd|Frankfurt(Main)Ost|Frankfurt-Mainkur|Maintal West|Maintal Ost|Hanau-Wilhelmsbad|Hanau West"/>
+	</s>
+</timetable>

@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<timetable station="Hamburg-Altona">
+	<s id="-2600150388477950503-2611080432-5">
+		<tl f="N" t="p" o="800201" c="RE" n="11663"/>
+		<ar pt="2611080515" pp="10" l="RE7" fb="RE7" ppth="Neumünster|Wrist|Elmshorn|Pinneberg"/>
+	</s>
+	<s id="2930509712097895397-2611080508-5">
+		<tl f="D" t="p" o="O0" c="NBE" n="20139"/>
+		<ar pt="2611080536" pp="" l="RB61" fb="RB61" ppth="Elmshorn|Tornesch|Prisdorf|Pinneberg"/>
+	</s>
+	<s id="7371699051124839707-2611080538-1">
+		<tl f="N" t="p" o="800201" c="RE" n="11642"/>
+		<dp pt="2611080538" pp="10" l="RE7" fb="RE7" ppth="Pinneberg|Elmshorn|Wrist|Brokstedt|Neumünster|Einfeld|Bordesholm|Flintbek|Kiel Hbf"/>
+		<tra t="v" id="1227073199734597866" ref-from="8112458177615004954-2611080538" s="a" o="p" jt="j"/>
+	</s>
+	<s id="8112458177615004954-2611080538-1">
+		<tl f="N" t="p" o="800201" c="RE" n="11152"/>
+		<dp pt="2611080538" pp="10" l="RE7" fb="RE7" wings="7371699051124839707-2611080538" ppth="Pinneberg|Elmshorn|Wrist|Brokstedt|Neumünster|Nortorf|Rendsburg|Owschlag|Schleswig|Jübek|Tarp|Flensburg"/>
+		<tra t="v" id="1227073199734597866" ref-to="7371699051124839707-2611080538" s="a" o="p" jt="j"/>
+	</s>
+</timetable>

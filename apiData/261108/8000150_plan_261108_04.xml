@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<timetable station="Hanau Hbf">
+	<s id="-3238246615504329950-2611072223-5">
+		<tl t="p" o="81" c="NJ" n="471"/>
+		<ar pt="2611080414" pp="6" fb="NJ 471" ppth="Hamburg-Harburg|Bremen Hbf|Hannover Hbf|Göttingen"/>
+		<dp pt="2611080416" pp="6" fb="NJ 471" ppth="Frankfurt(Main)Süd|Darmstadt Hbf|Heidelberg Hbf|Karlsruhe Hbf|Offenburg|Freiburg(Breisgau) Hbf|Basel Bad Bf|Basel SBB|Zürich HB"/>
+		<tra t="v" id="8288797740713975256" ref-from="-3600137003086714631-2611072223" s="a" o="p"/>
+	</s>
+	<s id="-3600137003086714631-2611072223-5">
+		<tl f="F" t="p" o="NZ" c="IC" n="60471"/>
+		<ar pt="2611080414" pp="6" fb="IC 60471" wings="-3238246615504329950-2611072223" ppth="Hamburg-Harburg|Bremen Hbf|Hannover Hbf|Göttingen"/>
+		<dp pt="2611080416" pp="6" fb="IC 60471" wings="-3238246615504329950-2611072223" ppth="Frankfurt(Main)Süd|Darmstadt Hbf|Heidelberg Hbf|Karlsruhe Hbf|Offenburg|Freiburg(Breisgau) Hbf|Basel Bad Bf|Basel SBB|Zürich HB"/>
+		<tra t="v" id="8288797740713975256" ref-to="-3238246615504329950-2611072223" s="a" o="p"/>
+	</s>
+	<s id="-310007934481413606-2611080402-1">
+		<tl f="D" t="p" o="K4RB" c="HLB" n="24606"/>
+		<dp pt="2611080402" pp="5" l="RB58" fb="RB58" ppth="Hanau West|Hanau-Wilhelmsbad|Maintal Ost|Maintal West|Frankfurt-Mainkur|Frankfurt(Main)Ost|Frankfurt(Main)Süd|Frankfurt(Main)Hbf"/>
+	</s>
+	<s id="7173327459812524725-2611080428-8">
+		<tl f="D" t="p" o="K4RB" c="HLB" n="24302"/>
+		<ar pt="2611080452" pp="102" l="RB58" fb="RB58" ppth="Aschaffenburg Hbf|Kleinostheim|Rückersbacher Schlucht|Dettingen(Main)|Kahl(Main)|Großkrotzenburg|Großauheim(Kr Hanau)"/>
+		<dp pt="2611080453" pp="102" l="RB58" fb="RB58" ppth="Hanau West|Hanau-Wilhelmsbad|Maintal Ost|Maintal West|Frankfurt-Mainkur|Frankfurt(Main)Ost|Frankfurt(Main)Süd|Frankfurt(Main)Hbf"/>
+	</s>
+	<s id="1663072533275665667-2611080439-2">
+		<tl f="F" t="p" o="80" c="ICE" n="778"/>
+		<ar pt="2611080454" pp="7" fb="ICE 778" ppth="Frankfurt(Main)Hbf"/>
+		<dp pt="2611080456" pp="7" fb="ICE 778" ppth="Fulda|Kassel-Wilhelmshöhe|Göttingen|Hannover Hbf|Celle|Lüneburg|Hamburg-Harburg|Neumünster|Kiel Hbf"/>
+	</s>
+</timetable>
