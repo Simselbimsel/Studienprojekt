@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<timetable station="Lauf(rechts Pegnitz)">
+	<s id="-774337292288855532-2611091328-1">
+		<tl f="N" t="p" o="800720" c="RB" n="58529"/>
+		<dp pt="2611091328" pp="1" l="RB30" fb="RB30" ppth="Neunkirchen a Sand|Reichenschwand|Hersbruck(r Pegnitz)|Hohenstadt(Mittelfr)|Vorra(Pegnitz)|Rupprechtstegen|Velden(b Hersbruck)|Neuhaus(Pegnitz)"/>
+	</s>
+	<s id="2652476629044500794-2611091333-2">
+		<tl f="N" t="p" o="800720" c="RB" n="58608"/>
+		<ar pt="2611091336" pp="1" l="RB31" fb="RB31" ppth="Neunkirchen a Sand"/>
+	</s>
+	<s id="7251348902087142554-2611091343-1">
+		<tl f="N" t="p" o="800720" c="RB" n="58531"/>
+		<dp pt="2611091343" pp="2" l="RB30" fb="RB30" wings="-1651565887042424233-2611091343" ppth="Neunkirchen a Sand|Reichenschwand|Hersbruck(r Pegnitz)"/>
+		<tra t="v" id="194043705347342311" ref-to="-1651565887042424233-2611091343" s="a" o="p" jt="j"/>
+	</s>
+	<s id="-1651565887042424233-2611091343-1">
+		<tl f="N" t="p" o="800720" c="RB" n="58609"/>
+		<dp pt="2611091343" pp="2" l="RB31" fb="RB31" ppth="Neunkirchen a Sand|Speikern|Rollhofen|Schnaittach Markt|Hedersdorf|Simmelsdorf-Hüttenbach"/>
+		<tra t="v" id="194043705347342311" ref-from="7251348902087142554-2611091343" s="a" o="p" jt="j"/>
+	</s>
+</timetable>
