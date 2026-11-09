@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<timetable station="Erfurt Hbf">
+	<s id="-8716776747589038458-2611081831-10">
+		<tl f="F" t="p" o="81" c="EN" n="40458"/>
+		<ar pt="2611090120" pp="9" fb="EN 40458" hi="1" ppth="Praha hl.n.|Praha-Holesovice|Usti nad Labem hl.n.|Decin hl.n.|Bad Schandau|Dresden Hbf|Dresden-Neustadt|Riesa|Leipzig Hbf"/>
+		<dp pt="2611090122" pp="9" fb="EN 40458" hi="1" ppth="Fulda|Frankfurt(Main)Süd|Mannheim Hbf|Karlsruhe Hbf|Baden-Baden|Offenburg|Freiburg(Breisgau) Hbf|Basel Bad Bf|Basel SBB|Zürich HB"/>
+		<tra t="v" id="3501525463088447032" ref-from="-8572647521164952896-2611081831" s="a" o="p"/>
+	</s>
+	<s id="-8572647521164952896-2611081831-10">
+		<tl f="F" t="p" o="54" c="EC" n="458"/>
+		<ar pt="2611090120" pp="9" fb="EC 458" wings="-8716776747589038458-2611081831" ppth="Praha hl.n.|Praha-Holesovice|Usti nad Labem hl.n.|Decin hl.n.|Bad Schandau|Dresden Hbf|Dresden-Neustadt|Riesa|Leipzig Hbf"/>
+		<dp pt="2611090122" pp="9" fb="EC 458" hi="1" wings="-8716776747589038458-2611081831" ppth="Fulda|Frankfurt(Main)Süd|Mannheim Hbf|Karlsruhe Hbf|Baden-Baden|Offenburg|Freiburg(Breisgau) Hbf|Basel Bad Bf|Basel SBB|Zürich HB"/>
+		<tra t="v" id="3501525463088447032" ref-to="-8716776747589038458-2611081831" s="a" o="p"/>
+	</s>
+	<s id="5331894847185138451-2611082052-7">
+		<tl t="p" o="81" c="NJ" n="408"/>
+		<ar pt="2611090120" pp="9" fb="NJ 408" hi="1" wings="-1197270886930040789-2611082052" ppth="Berlin Hbf|Berlin Südkreuz|Lutherstadt Wittenberg Hbf|Bitterfeld|Halle(Saale)Hbf|Leipzig Hbf"/>
+		<dp pt="2611090122" pp="9" fb="NJ 408" hi="1" wings="-1197270886930040789-2611082052" ppth="Fulda|Frankfurt(Main)Süd|Mannheim Hbf|Karlsruhe Hbf|Baden-Baden|Offenburg|Freiburg(Breisgau) Hbf|Basel Bad Bf|Basel SBB|Zürich HB"/>
+		<tra t="v" id="-2607088651434686204" ref-to="-1197270886930040789-2611082052" s="a" o="p"/>
+	</s>
+	<s id="-1197270886930040789-2611082052-7">
+		<tl f="F" t="p" o="NZ" c="IC" n="60408"/>
+		<ar pt="2611090120" pp="9" fb="IC 60408" ppth="Berlin Hbf|Berlin Südkreuz|Lutherstadt Wittenberg Hbf|Bitterfeld|Halle(Saale)Hbf|Leipzig Hbf"/>
+		<dp pt="2611090122" pp="9" fb="IC 60408" ppth="Fulda|Frankfurt(Main)Süd|Mannheim Hbf|Karlsruhe Hbf|Baden-Baden|Offenburg|Freiburg(Breisgau) Hbf|Basel Bad Bf|Basel SBB|Zürich HB"/>
+		<tra t="v" id="-2607088651434686204" ref-from="5331894847185138451-2611082052" s="a" o="p"/>
+	</s>
+	<s id="6084542420969462186-2611090008-4">
+		<tl f="F" t="p" o="80" c="ICE" n="273"/>
+		<ar pt="2611090153" pp="1" fb="ICE 273" ppth="Berlin Hbf|Berlin Südkreuz|Halle(Saale)Hbf"/>
+		<dp pt="2611090209" pp="1" fb="ICE 273" ppth="Eisenach Hbf|Fulda|Hanau Hbf|Frankfurt(Main)Hbf|Mannheim Hbf|Karlsruhe Hbf|Offenburg|Freiburg(Breisgau) Hbf|Basel Bad Bf|Basel SBB|Zürich HB"/>
+	</s>
+</timetable>
