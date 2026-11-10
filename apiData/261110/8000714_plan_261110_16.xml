@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<timetable station="Bad Kissingen">
+	<s id="5242409594581821890-2611101509-7">
+		<tl t="p" o="EB" c="Bus" n="60693"/>
+		<ar pt="2611101605" pp="" l="RB50" fb="Bus RB50" ppth="Gemünden(Main)|Hammelburg|Hammelburg Ost|Westheim-Langendorf|Elfershausen-Trimberg|Euerdorf"/>
+		<dp pt="2611101605" pp="" l="RB50" fb="Bus RB50" ppth="Oerlenbach|Ebenhausen(Unterfr)"/>
+	</s>
+	<s id="-3433558339145545136-2611101601-3">
+		<tl t="p" o="EB" c="Bus" n="60720"/>
+		<ar pt="2611101616" pp="" l="RB50" fb="Bus RB50" ppth="Ebenhausen(Unterfr)|Oerlenbach"/>
+	</s>
+	<s id="-3070692686474924965-2611101605-1">
+		<tl t="p" o="EB" c="Bus" n="61693"/>
+		<dp pt="2611101605" pp="" l="RB50" fb="Bus RB50" ppth="Oerlenbach|Ebenhausen(Unterfr)"/>
+	</s>
+	<s id="797071709542090595-2611101630-3">
+		<tl t="p" o="EB" c="Bus" n="64690"/>
+		<ar pt="2611101645" pp="" l="RB50" fb="Bus RB50" ppth="Ebenhausen(Unterfr)|Oerlenbach"/>
+	</s>
+	<s id="-8322141518935566145-2611101635-3">
+		<tl t="p" o="EB" c="Bus" n="61690"/>
+		<ar pt="2611101650" pp="" l="RB50" fb="Bus RB50" wings="9114399468612354584-2611101635" ppth="Ebenhausen(Unterfr)|Oerlenbach"/>
+		<tra t="v" id="-4676513333076641742" ref-to="9114399468612354584-2611101635" s="a" o="p" jt="s"/>
+	</s>
+	<s id="9114399468612354584-2611101635-3">
+		<tl t="p" o="EB" c="Bus" n="60690"/>
+		<ar pt="2611101650" pp="" l="RB50" fb="Bus RB50" ppth="Ebenhausen(Unterfr)|Oerlenbach"/>
+		<dp pt="2611101650" pp="" l="RB50" fb="Bus RB50" ppth="Euerdorf|Elfershausen-Trimberg|Westheim-Langendorf|Hammelburg Ost|Hammelburg|Gemünden(Main)"/>
+		<tra t="v" id="-4676513333076641742" ref-from="-8322141518935566145-2611101635" s="a" o="p" jt="s"/>
+	</s>
+</timetable>
