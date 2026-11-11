@@ -1,0 +1,85 @@
+<?xml version="1.0" ?>
+<timetable station="Potsdam Hbf">
+	<s id="-5899264862262690222-2611110530-4">
+		<tl f="F" t="p" o="80" c="ICE" n="851"/>
+		<ar pt="2611110759" pp="4" fb="ICE 851" ppth="Hannover Hbf|Braunschweig Hbf|Magdeburg Hbf"/>
+		<dp pt="2611110801" pp="4" fb="ICE 851" hi="1" ppth="Berlin Hbf"/>
+	</s>
+	<s id="6608152410192730625-2611110605-10">
+		<tl f="N" t="p" o="800165" c="RB" n="18453"/>
+		<ar pt="2611110715" pp="4" l="RB20" fb="RB20" wings="2351100564277521904-2611110608" ppth="Oranienburg|Birkenwerder(b Berlin)|Hohen Neuendorf West|Hennigsdorf(b Berlin)|Priort|Marquardt|Golm|Potsdam Park Sanssouci|Potsdam Charlottenhof"/>
+		<dp pt="2611110717" pp="4" l="RB20" fb="RB20" wings="2351100564277521904-2611110608" ppth="Potsdam Griebnitzsee"/>
+		<tra t="v" id="-6352870407519761308" ref-to="2351100564277521904-2611110608" s="a" o="p"/>
+	</s>
+	<s id="2351100564277521904-2611110608-9">
+		<tl f="N" t="p" o="800165" c="RB" n="18105"/>
+		<ar pt="2611110715" pp="4" l="RB22" fb="RB22" ppth="Königs Wusterhausen|Flughafen BER|Ludwigsfelde-Struveshof|Saarmund|Potsdam Pirschheide|Golm|Potsdam Park Sanssouci|Potsdam Charlottenhof"/>
+		<dp pt="2611110717" pp="4" l="RB22" fb="RB22" ppth="Potsdam Griebnitzsee"/>
+		<tra t="v" id="-6352870407519761308" ref-from="6608152410192730625-2611110605" s="a" o="p"/>
+	</s>
+	<s id="7526367116576295042-2611110611-13">
+		<tl f="D" t="p" o="OWRB" c="OE" n="62127"/>
+		<ar pt="2611110719" pp="2" l="RB33" fb="RB33" ppth="Jüterbog|Altes Lager|Treuenbrietzen Süd|Treuenbrietzen|Buchholz(Zauche)|Elsholz|Beelitz Stadt|Ferch-Lienewitz|Caputh Schwielowsee|Caputh-Geltow|Potsdam Pirschheide|Potsdam Charlottenhof"/>
+	</s>
+	<s id="6829448739787995403-2611110612-10">
+		<tl f="N" t="p" o="800165" c="RB" n="18245"/>
+		<ar pt="2611110720" pp="3" l="RB21" fb="RB21" ppth="Hennigsdorf(b Berlin)|Finkenkrug|Falkensee|Seegefeld|Albrechtshof|Berlin-Spandau|Berlin-Charlottenburg|Berlin-Wannsee|Potsdam Griebnitzsee"/>
+		<dp pt="2611110723" pp="3" l="RB21" fb="RB21" ppth="Potsdam Charlottenhof|Potsdam Park Sanssouci|Golm|Marquardt|Priort"/>
+	</s>
+	<s id="-6610703324191483791-2611110612-12">
+		<tl f="D" t="p" o="OWRE" c="OE" n="73717"/>
+		<ar pt="2611110729" pp="4" l="RE1" fb="RE1" ppth="Magdeburg Hbf|Magdeburg-Neustadt|Burg(Magdeburg)|Güsen(b Genthin)|Genthin|Wusterwitz|Kirchmöser|Brandenburg Hbf|Götz|Groß Kreutz|Werder(Havel)"/>
+		<dp pt="2611110731" pp="4" l="RE1" fb="RE1" ppth="Berlin-Wannsee|Berlin-Charlottenburg"/>
+	</s>
+	<s id="-447168150514181475-2611110644-5">
+		<tl f="D" t="p" o="OWRE" c="OE" n="73757"/>
+		<ar pt="2611110708" pp="4" l="RE1" fb="RE1" ppth="Brandenburg Hbf|Werder(Havel)|Potsdam Park Sanssouci|Potsdam Charlottenhof"/>
+		<dp pt="2611110710" pp="4" l="RE1" fb="RE1" ppth="Berlin-Wannsee|Berlin-Charlottenburg"/>
+	</s>
+	<s id="-640741907948001531-2611110650-3">
+		<tl f="D" t="p" o="OWRE" c="OE" n="73804"/>
+		<ar pt="2611110708" pp="3" l="RE1" fb="RE1" ppth="Berlin-Charlottenburg|Berlin-Wannsee"/>
+		<dp pt="2611110710" pp="3" l="RE1" fb="RE1" ppth="Werder(Havel)|Brandenburg Hbf"/>
+	</s>
+	<s id="-4606791342735729813-2611110712-3">
+		<tl f="D" t="p" o="OWRE" c="OE" n="73720"/>
+		<ar pt="2611110729" pp="3" l="RE1" fb="RE1" ppth="Berlin-Charlottenburg|Berlin-Wannsee"/>
+		<dp pt="2611110731" pp="3" l="RE1" fb="RE1" ppth="Werder(Havel)|Groß Kreutz|Götz|Brandenburg Hbf|Kirchmöser|Wusterwitz|Genthin|Güsen(b Genthin)|Burg(Magdeburg)|Magdeburg-Neustadt|Magdeburg Hbf"/>
+	</s>
+	<s id="-2030749106446550722-2611110714-6">
+		<tl f="N" t="p" o="800165" c="RB" n="18246"/>
+		<ar pt="2611110737" pp="4" l="RB21" fb="RB21" ppth="Priort|Marquardt|Golm|Potsdam Park Sanssouci|Potsdam Charlottenhof"/>
+		<dp pt="2611110741" pp="4" l="RB21" fb="RB21" ppth="Potsdam Griebnitzsee|Berlin-Wannsee|Berlin-Charlottenburg|Berlin-Spandau|Falkensee|Hennigsdorf(b Berlin)"/>
+	</s>
+	<s id="-4789920144042361806-2611110722-3">
+		<tl f="D" t="p" o="OWRE" c="OE" n="73807"/>
+		<ar pt="2611110746" pp="4" l="RE1" fb="RE1" ppth="Brandenburg Hbf|Werder(Havel)"/>
+		<dp pt="2611110749" pp="4" l="RE1" fb="RE1" ppth="Berlin-Wannsee|Berlin-Charlottenburg"/>
+	</s>
+	<s id="-3811000113167125819-2611110732-2">
+		<tl f="F" t="p" o="80" c="ICE" n="642"/>
+		<ar pt="2611110758" pp="3" fb="ICE 642" hi="1" ppth="Berlin Hbf"/>
+		<dp pt="2611110800" pp="3" fb="ICE 642" ppth="Braunschweig Hbf|Hannover Hbf|Minden(Westf)|Bielefeld Hbf|Hamm(Westf)Hbf|Dortmund Hbf|Bochum Hbf|Essen Hbf|Duisburg Hbf|Düsseldorf Flughafen|Düsseldorf Hbf"/>
+	</s>
+	<s id="-3434023936786719168-2611110734-3">
+		<tl f="D" t="p" o="OWRE" c="OE" n="73762"/>
+		<ar pt="2611110751" pp="3" l="RE1" fb="RE1" ppth="Berlin-Charlottenburg|Berlin-Wannsee"/>
+		<dp pt="2611110753" pp="3" l="RE1" fb="RE1" ppth="Potsdam Charlottenhof|Potsdam Park Sanssouci|Werder(Havel)|Brandenburg Hbf"/>
+	</s>
+	<s id="-5154932981801905388-2611110739-2">
+		<tl f="N" t="p" o="800165" c="RB" n="18108"/>
+		<ar pt="2611110743" pp="3" l="RB22" fb="RB22" wings="-6221959226003064066-2611110739" ppth="Potsdam Griebnitzsee"/>
+		<dp pt="2611110747" pp="3" l="RB22" fb="RB22" wings="-6221959226003064066-2611110739" ppth="Potsdam Charlottenhof|Potsdam Park Sanssouci|Golm|Potsdam Pirschheide|Saarmund|Ludwigsfelde-Struveshof|Flughafen BER|Königs Wusterhausen"/>
+		<tra t="v" id="3364274755197336356" ref-to="-6221959226003064066-2611110739" s="a" o="p"/>
+	</s>
+	<s id="-6221959226003064066-2611110739-2">
+		<tl f="N" t="p" o="800165" c="RB" n="18456"/>
+		<ar pt="2611110743" pp="3" l="RB20" fb="RB20" ppth="Potsdam Griebnitzsee"/>
+		<dp pt="2611110747" pp="3" l="RB20" fb="RB20" ppth="Potsdam Charlottenhof|Potsdam Park Sanssouci|Golm|Marquardt|Priort|Hennigsdorf(b Berlin)|Hohen Neuendorf West|Birkenwerder(b Berlin)|Oranienburg"/>
+		<tra t="v" id="3364274755197336356" ref-from="-5154932981801905388-2611110739" s="a" o="p"/>
+	</s>
+	<s id="-8692098816259294701-2611110742-1">
+		<tl f="D" t="p" o="OWRB" c="OE" n="62126"/>
+		<dp pt="2611110742" pp="2" l="RB33" fb="RB33" ppth="Potsdam Charlottenhof|Potsdam Pirschheide|Caputh-Geltow|Caputh Schwielowsee|Ferch-Lienewitz|Beelitz Stadt|Elsholz|Buchholz(Zauche)|Treuenbrietzen|Treuenbrietzen Süd|Altes Lager|Jüterbog"/>
+	</s>
+</timetable>

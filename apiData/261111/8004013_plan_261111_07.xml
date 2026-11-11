@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<timetable station="Michelaubrück">
+	<s id="5363288601942594185-2611110650-4">
+		<tl t="p" o="EB" c="Bus" n="68674"/>
+		<ar pt="2611110707" pp="" l="RB50" fb="Bus RB50" wings="-3184812466410035777-2611110650" ppth="Morlesau|Diebach|Weickersgrüben"/>
+		<dp pt="2611110707" pp="" l="RB50" fb="Bus RB50" wings="-3184812466410035777-2611110650" ppth="Gräfendorf"/>
+		<tra t="v" id="-5089223192628907265" ref-to="-3184812466410035777-2611110650" s="a" o="p"/>
+	</s>
+	<s id="-3184812466410035777-2611110650-4">
+		<tl t="p" o="EB" c="Bus" n="69674"/>
+		<ar pt="2611110707" pp="" l="RB50" fb="Bus RB50" ppth="Morlesau|Diebach|Weickersgrüben"/>
+		<dp pt="2611110707" pp="" l="RB50" fb="Bus RB50" ppth="Gräfendorf"/>
+		<tra t="v" id="-5089223192628907265" ref-from="5363288601942594185-2611110650" s="a" o="p"/>
+	</s>
+	<s id="-7472630836718627861-2611110734-2">
+		<tl t="p" o="EB" c="Bus" n="68679"/>
+		<ar pt="2611110740" pp="" l="RB50" fb="Bus RB50" ppth="Gräfendorf"/>
+		<dp pt="2611110741" pp="" l="RB50" fb="Bus RB50" ppth="Weickersgrüben|Hammelburg"/>
+	</s>
+</timetable>

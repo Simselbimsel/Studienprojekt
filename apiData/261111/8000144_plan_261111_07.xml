@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<timetable station="Türkheim(Bay)Bf">
+	<s id="-4113546380112566713-2611110610-6">
+		<tl t="p" o="GYRE" c="ARV" n="78915"/>
+		<ar pt="2611110717" pp="3" l="RE72" fb="RE72" ppth="München Hbf|München-Pasing|Geltendorf|Kaufering|Buchloe"/>
+		<dp pt="2611110718" pp="3" l="RE72" fb="RE72" ppth="Rammingen(Bay)|Mindelheim|Stetten(Schwab)|Sontheim(Schwab)|Memmingen"/>
+	</s>
+	<s id="4711062730194664241-2611110640-5">
+		<tl t="p" o="GYRE" c="ARV" n="78906"/>
+		<ar pt="2611110705" pp="3" l="RE72" fb="RE72" ppth="Memmingen|Sontheim(Schwab)|Stetten(Schwab)|Mindelheim"/>
+		<dp pt="2611110706" pp="3" l="RE72" fb="RE72" ppth="Buchloe|Kaufering|Geltendorf|München-Pasing|München Hbf"/>
+	</s>
+	<s id="-7046664587479428612-2611110656-2">
+		<tl f="N" t="p" o="8007D5" c="RE" n="57553"/>
+		<ar pt="2611110703" pp="4" l="RE73" fb="RE73" ppth="Bad Wörishofen"/>
+	</s>
+	<s id="5797052102738224636-2611110707-6">
+		<tl f="N" t="p" o="8007D5" c="RE" n="57505"/>
+		<ar pt="2611110738" pp="3" l="RE71" fb="RE71" ppth="Memmingen|Sontheim(Schwab)|Stetten(Schwab)|Mindelheim|Rammingen(Bay)"/>
+		<dp pt="2611110744" pp="3" l="RE71" fb="RE71" ppth="Buchloe|Augsburg Hbf"/>
+		<tra t="v" id="5262949446856046790" ref-from="-8403814876657697618-2611110735" s="a" o="p" jt="j"/>
+	</s>
+	<s id="-9087324247216284137-2611110722-1">
+		<tl f="N" t="p" o="8007D5" c="RE" n="57554"/>
+		<dp pt="2611110722" pp="4" l="RE73" fb="RE73" ppth="Bad Wörishofen"/>
+	</s>
+	<s id="-9047608568553187048-2611110732-2">
+		<tl f="N" t="p" o="8007D5" c="RE" n="57556"/>
+		<ar pt="2611110738" pp="4" l="RE73" fb="RE73" ppth="Buchloe"/>
+		<dp pt="2611110746" pp="4" l="RE73" fb="RE73" ppth="Bad Wörishofen"/>
+	</s>
+	<s id="-8403814876657697618-2611110735-2">
+		<tl f="N" t="p" o="8007D5" c="RE" n="57525"/>
+		<ar pt="2611110741" pp="3" l="RE73" fb="RE73" ppth="Bad Wörishofen"/>
+		<dp pt="2611110744" pp="3" l="RE73" fb="RE73" wings="5797052102738224636-2611110707" ppth="Buchloe|Augsburg Hbf"/>
+		<tra t="v" id="5262949446856046790" ref-to="5797052102738224636-2611110707" s="a" o="p" jt="j"/>
+	</s>
+</timetable>
