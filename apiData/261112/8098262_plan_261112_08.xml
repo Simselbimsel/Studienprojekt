@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<timetable station="München Hbf Gl.5-10">
+	<s id="2700651968204666558-2611120605-12">
+		<tl f="D" t="p" o="M8" c="BRB" n="79010"/>
+		<ar pt="2611120806" pp="9" l="RE5" fb="RE5" ppth="Salzburg Hbf|Freilassing|Teisendorf|Traunstein|Bergen(Oberbay)|Übersee|Bernau a Chiemsee|Prien am Chiemsee|Bad Endorf|Rosenheim|München Ost"/>
+	</s>
+	<s id="-4786939453638068085-2611120646-16">
+		<tl f="D" t="p" o="M8" c="BRB" n="79012"/>
+		<ar pt="2611120851" pp="5" l="RE5" fb="RE5" ppth="Salzburg Hbf|Freilassing|Teisendorf|Traunstein|Bergen(Oberbay)|Übersee|Bernau a Chiemsee|Prien am Chiemsee|Bad Endorf|Rosenheim|Großkarolinenfeld|Ostermünchen|Aßling(Oberbay)|Grafing Bahnhof|München Ost"/>
+		<tra t="v" id="-7290127295022701528" ref-from="1344312182465599860-2611120730" s="a" o="p" jt="s"/>
+	</s>
+	<s id="-2141355300912756265-2611120648-9">
+		<tl f="N" t="p" o="8013D" c="RE" n="27004"/>
+		<ar pt="2611120834" pp="6" l="RE4" fb="RE4" ppth="Simbach(Inn)|Julbach|Marktl|Neuötting|Töging(Inn)|Mühldorf(Oberbay)|Dorfen Bahnhof|München Ost"/>
+	</s>
+	<s id="3099880514924681889-2611120702-13">
+		<tl f="D" t="p" o="M8" c="BRB" n="79062"/>
+		<ar pt="2611120815" pp="9" l="RB54" fb="RB54" ppth="Kufstein|Kiefersfelden|Oberaudorf|Flintsbach|Brannenburg|Raubling|Rosenheim|Großkarolinenfeld|Ostermünchen|Aßling(Oberbay)|Grafing Bahnhof|München Ost"/>
+	</s>
+	<s id="1344312182465599860-2611120730-13">
+		<tl f="D" t="p" o="M8" c="BRB" n="79064"/>
+		<ar pt="2611120851" pp="5" l="RB54" fb="RB54" wings="-4786939453638068085-2611120646" ppth="Kufstein|Kiefersfelden|Oberaudorf|Flintsbach|Brannenburg|Raubling|Rosenheim|Großkarolinenfeld|Ostermünchen|Aßling(Oberbay)|Grafing Bahnhof|München Ost"/>
+		<tra t="v" id="-7290127295022701528" ref-to="-4786939453638068085-2611120646" s="a" o="p" jt="s"/>
+	</s>
+	<s id="3023402330088844269-2611120843-1">
+		<tl f="D" t="p" o="M8" c="BRB" n="79061"/>
+		<dp pt="2611120843" pp="9" l="RB54" fb="RB54" ppth="München Ost|Grafing Bahnhof|Aßling(Oberbay)|Ostermünchen|Großkarolinenfeld|Rosenheim|Raubling|Brannenburg|Flintsbach|Oberaudorf|Kiefersfelden|Kufstein"/>
+	</s>
+	<s id="-5244643378637645953-2611120855-1">
+		<tl f="D" t="p" o="M8" c="BRB" n="79011"/>
+		<dp pt="2611120855" pp="9" l="RE5" fb="RE5" ppth="München Ost|Rosenheim|Bad Endorf|Prien am Chiemsee|Bernau a Chiemsee|Übersee|Bergen(Oberbay)|Traunstein|Teisendorf|Freilassing|Salzburg Hbf"/>
+	</s>
+</timetable>

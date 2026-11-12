@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<timetable station="Schweinfurt Mitte">
+	<s id="1771215762051648078-2611120741-8">
+		<tl f="N" t="p" o="800714" c="RB" n="58016"/>
+		<ar pt="2611120816" pp="1" l="RB53" fb="RB53" ppth="Bamberg|Oberhaid|Ebelsbach-Eltmann|Zeil|Haßfurt|Schonungen|Schweinfurt Stadt"/>
+		<dp pt="2611120817" pp="1" l="RB53" fb="RB53" ppth="Schweinfurt Hbf|Waigolshausen|Eßleben|Bergtheim|Seligenstadt(b Würzburg)|Rottendorf|Würzburg Hbf|Würzburg-Zell|Veitshöchheim|Thüngersheim|Retzbach-Zellingen|Himmelstadt|Karlstadt(Main)|Wernfeld|Gemünden(Main)|Rieneck|Burgsinn|Mittelsinn|Obersinn|Jossa|Sterbfritz|Flieden"/>
+	</s>
+	<s id="2437703035798596325-2611120750-9">
+		<tl f="D" t="p" o="EB" c="EB" n="80731"/>
+		<ar pt="2611120846" pp="2" l="RB40" fb="RB40" ppth="Mellrichstadt Bf|Bad Neustadt(Saale)|Burglauer|Münnerstadt|Rottershausen|Ebenhausen(Unterfr)|Poppenhausen|Schweinfurt Hbf"/>
+		<dp pt="2611120847" pp="2" l="RB40" fb="RB40" ppth="Schweinfurt Stadt"/>
+	</s>
+	<s id="5639611880997529601-2611120806-2">
+		<tl f="D" t="p" o="EB" c="EB" n="80678"/>
+		<ar pt="2611120808" pp="1" l="RB40" fb="RB40" wings="-7962894806606079115-2611120806" ppth="Schweinfurt Stadt"/>
+		<dp pt="2611120808" pp="1" l="RB40" fb="RB40" wings="-7962894806606079115-2611120806" ppth="Schweinfurt Hbf|Oberwerrn|Poppenhausen|Ebenhausen(Unterfr)"/>
+		<tra t="v" id="7744279285029037569" ref-to="-7962894806606079115-2611120806" s="a" o="p"/>
+	</s>
+	<s id="-7962894806606079115-2611120806-2">
+		<tl f="D" t="p" o="EB" c="EB" n="80730"/>
+		<ar pt="2611120808" pp="1" l="RB40" fb="RB40" ppth="Schweinfurt Stadt"/>
+		<dp pt="2611120808" pp="1" l="RB40" fb="RB40" ppth="Schweinfurt Hbf|Oberwerrn|Poppenhausen|Ebenhausen(Unterfr)|Rottershausen|Münnerstadt|Burglauer|Bad Neustadt(Saale)"/>
+		<tra t="v" id="7744279285029037569" ref-from="5639611880997529601-2611120806" s="a" o="p"/>
+	</s>
+	<s id="5860564686650571580-2611120808-8">
+		<tl f="N" t="p" o="800714" c="RB" n="58259"/>
+		<ar pt="2611120840" pp="2" l="RB53" fb="RB53" ppth="Würzburg Hbf|Rottendorf|Seligenstadt(b Würzburg)|Bergtheim|Eßleben|Waigolshausen|Schweinfurt Hbf"/>
+		<dp pt="2611120840" pp="2" l="RB53" fb="RB53" ppth="Schweinfurt Stadt|Schonungen|Haßfurt|Zeil|Ebelsbach-Eltmann|Oberhaid|Bamberg"/>
+	</s>
+</timetable>

@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<timetable station="Burgkunstadt">
+	<s id="-6044551170198255615-2611120618-12">
+		<tl f="N" t="p" o="800759" c="RE" n="3403"/>
+		<ar pt="2611120741" pp="1" l="RE32" fb="RE32" wings="8703126243214021133-2611120623" ppth="Hersbruck(r Pegnitz)|Neuhaus(Pegnitz)|Pegnitz|Schnabelwaid|Creußen(Oberfr)|Bayreuth Hbf|Harsdorf|Trebgast|Neuenmarkt-Wirsberg|Untersteinach(b Stadtsteinach)|Kulmbach"/>
+		<dp pt="2611120742" pp="1" l="RE32" fb="RE32" wings="8703126243214021133-2611120623" ppth="Lichtenfels"/>
+		<tra t="v" id="6740185210557095438" ref-to="8703126243214021133-2611120623" s="a" o="p"/>
+	</s>
+	<s id="8703126243214021133-2611120623-11">
+		<tl f="N" t="p" o="800759" c="RE" n="3002"/>
+		<ar pt="2611120741" pp="1" l="RE35" fb="RE35" ppth="Hof Hbf|Oberkotzau|Schwarzenbach(Saale)|Förbau|Münchberg|Stammbach|Marktschorgast|Neuenmarkt-Wirsberg|Untersteinach(b Stadtsteinach)|Kulmbach"/>
+		<dp pt="2611120742" pp="1" l="RE35" fb="RE35" ppth="Lichtenfels|Bad Staffelstein|Bamberg"/>
+		<tra t="v" id="6740185210557095438" ref-from="-6044551170198255615-2611120618" s="a" o="p"/>
+	</s>
+	<s id="402064761487430313-2611120629-12">
+		<tl f="D" t="p" o="A9" c="ag" n="84600"/>
+		<ar pt="2611120715" pp="1" l="RB24" fb="RB24" ppth="Bayreuth Hbf|Bindlach|Ramsenthal|Harsdorf|Trebgast|Neuenmarkt-Wirsberg|Ludwigschorgast|Untersteinach(b Stadtsteinach)|Kulmbach|Mainleus|Mainroth"/>
+		<dp pt="2611120715" pp="1" l="RB24" fb="RB24" ppth="Hochstadt-Marktzeuln|Lichtenfels"/>
+	</s>
+	<s id="3643530280569690631-2611120640-5">
+		<tl f="N" t="p" o="800759" c="RE" n="3001"/>
+		<ar pt="2611120713" pp="2" l="RE35" fb="RE35" wings="8294584516510842367-2611120640" ppth="Bamberg|Bad Staffelstein|Lichtenfels|Hochstadt-Marktzeuln"/>
+		<dp pt="2611120714" pp="2" l="RE35" fb="RE35" wings="8294584516510842367-2611120640" ppth="Mainleus|Kulmbach|Neuenmarkt-Wirsberg|Marktschorgast|Stammbach|Münchberg|Schwarzenbach(Saale)|Hof Hbf"/>
+		<tra t="v" id="-2674323283092171316" ref-to="8294584516510842367-2611120640" s="a" o="p"/>
+	</s>
+	<s id="8294584516510842367-2611120640-5">
+		<tl f="N" t="p" o="800759" c="RE" n="3400"/>
+		<ar pt="2611120713" pp="2" l="RE38" fb="RE38" ppth="Bamberg|Bad Staffelstein|Lichtenfels|Hochstadt-Marktzeuln"/>
+		<dp pt="2611120714" pp="2" l="RE38" fb="RE38" ppth="Mainleus|Kulmbach|Neuenmarkt-Wirsberg|Trebgast|Bayreuth Hbf|Pegnitz|Hersbruck(r Pegnitz)"/>
+		<tra t="v" id="-2674323283092171316" ref-from="3643530280569690631-2611120640" s="a" o="p"/>
+	</s>
+	<s id="2527540167095360919-2611120735-3">
+		<tl f="D" t="p" o="A9" c="ag" n="84593"/>
+		<ar pt="2611120745" pp="2" l="RB24" fb="RB24" ppth="Lichtenfels|Hochstadt-Marktzeuln"/>
+		<dp pt="2611120746" pp="2" l="RB24" fb="RB24" ppth="Mainroth|Mainleus|Kulmbach|Untersteinach(b Stadtsteinach)|Ludwigschorgast|Neuenmarkt-Wirsberg|Trebgast|Harsdorf|Ramsenthal|Bindlach|Bayreuth Hbf"/>
+	</s>
+</timetable>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<timetable station="Ebenhausen(Unterfr)">
+	<s id="-7510858845306320890-2611120658-11">
+		<tl t="p" o="EB" c="Bus" n="60679"/>
+		<ar pt="2611120820" pp="" l="RB50" fb="Bus RB50" ppth="Gemünden(Main)|Morlesau|Diebach|Hammelburg|Hammelburg Ost|Westheim-Langendorf|Elfershausen-Trimberg|Euerdorf|Bad Kissingen|Oerlenbach"/>
+	</s>
+	<s id="2437703035798596325-2611120750-6">
+		<tl f="D" t="p" o="EB" c="EB" n="80731"/>
+		<ar pt="2611120818" pp="3" l="RB40" fb="RB40" ppth="Mellrichstadt Bf|Bad Neustadt(Saale)|Burglauer|Münnerstadt|Rottershausen"/>
+		<dp pt="2611120826" pp="3" l="RB40" fb="RB40" ppth="Poppenhausen|Schweinfurt Hbf|Schweinfurt Mitte|Schweinfurt Stadt"/>
+	</s>
+	<s id="1334679016662297641-2611120801-3">
+		<tl f="N" t="p" o="8004NT" c="RE" n="3752"/>
+		<ar pt="2611120838" pp="3" l="RE7" fb="RE7" ppth="Würzburg Hbf|Schweinfurt Hbf"/>
+		<dp pt="2611120840" pp="3" l="RE7" fb="RE7" ppth="Münnerstadt|Bad Neustadt(Saale)|Mellrichstadt Bf"/>
+	</s>
+	<s id="-1280886605947445033-2611120806-3">
+		<tl t="p" o="EB" c="Bus" n="61679"/>
+		<ar pt="2611120820" pp="" l="RB50" fb="Bus RB50" ppth="Bad Kissingen|Oerlenbach"/>
+	</s>
+	<s id="5639611880997529601-2611120806-6">
+		<tl f="D" t="p" o="EB" c="EB" n="80678"/>
+		<ar pt="2611120824" pp="4" l="RB40" fb="RB40" wings="-7962894806606079115-2611120806" ppth="Schweinfurt Stadt|Schweinfurt Mitte|Schweinfurt Hbf|Oberwerrn|Poppenhausen"/>
+		<tra t="v" id="7744279285029037569" ref-to="-7962894806606079115-2611120806" s="a" o="p" jt="s"/>
+	</s>
+	<s id="-7962894806606079115-2611120806-6">
+		<tl f="D" t="p" o="EB" c="EB" n="80730"/>
+		<ar pt="2611120824" pp="4" l="RB40" fb="RB40" ppth="Schweinfurt Stadt|Schweinfurt Mitte|Schweinfurt Hbf|Oberwerrn|Poppenhausen"/>
+		<dp pt="2611120827" pp="4" l="RB40" fb="RB40" ppth="Rottershausen|Münnerstadt|Burglauer|Bad Neustadt(Saale)"/>
+		<tra t="v" id="7744279285029037569" ref-from="5639611880997529601-2611120806" s="a" o="p" jt="s"/>
+	</s>
+	<s id="8336641608683270360-2611120835-1">
+		<tl t="p" o="EB" c="Bus" n="61678"/>
+		<dp pt="2611120835" pp="" l="RB50" fb="Bus RB50" ppth="Oerlenbach|Bad Kissingen"/>
+		<tra t="v" id="-3349053319792841573" ref-from="2164710358171402984-2611120835" s="a" o="p" jt="j"/>
+	</s>
+	<s id="2164710358171402984-2611120835-1">
+		<tl t="p" o="EB" c="Bus" n="60678"/>
+		<dp pt="2611120835" pp="" l="RB50" fb="Bus RB50" wings="8336641608683270360-2611120835" ppth="Oerlenbach|Bad Kissingen|Euerdorf|Elfershausen-Trimberg|Westheim-Langendorf|Hammelburg Ost|Hammelburg|Gemünden(Main)"/>
+		<tra t="v" id="-3349053319792841573" ref-to="8336641608683270360-2611120835" s="a" o="p" jt="j"/>
+	</s>
+</timetable>
