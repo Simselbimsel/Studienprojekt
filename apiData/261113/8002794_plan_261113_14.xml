@@ -1,0 +1,56 @@
+<?xml version="1.0" ?>
+<timetable station="Hersbruck(r Pegnitz)">
+	<s id="-8436322039353399095-2611131236-8">
+		<tl f="N" t="p" o="800759" c="RE" n="3030"/>
+		<ar pt="2611131406" pp="1" l="RE30" fb="RE30" ppth="Hof Hbf|Münchberg|Trebgast|Bayreuth Hbf|Creußen(Oberfr)|Pegnitz|Neuhaus(Pegnitz)"/>
+	</s>
+	<s id="-5835088737082122055-2611131309-5">
+		<tl f="N" t="p" o="800759" c="RE" n="3830"/>
+		<ar pt="2611131406" pp="1" l="RE31" fb="RE31" ppth="Marktredwitz|Kirchenlaibach|Pegnitz|Neuhaus(Pegnitz)"/>
+	</s>
+	<s id="7251348902087142554-2611131343-4">
+		<tl f="N" t="p" o="800720" c="RB" n="58531"/>
+		<ar pt="2611131404" pp="3" l="RB30" fb="RB30" ppth="Lauf(rechts Pegnitz)|Neunkirchen a Sand|Reichenschwand"/>
+	</s>
+	<s id="7428949957882059488-2611131401-6">
+		<tl f="N" t="p" o="800720" c="RB" n="58530"/>
+		<ar pt="2611131420" pp="3" l="RB30" fb="RB30" ppth="Neuhaus(Pegnitz)|Velden(b Hersbruck)|Rupprechtstegen|Vorra(Pegnitz)|Hohenstadt(Mittelfr)"/>
+		<dp pt="2611131421" pp="3" l="RB30" fb="RB30" ppth="Reichenschwand|Neunkirchen a Sand|Lauf(rechts Pegnitz)"/>
+	</s>
+	<s id="-8659576255508072332-2611131404-3">
+		<tl f="N" t="p" o="800759" c="RE" n="3424"/>
+		<ar pt="2611131439" pp="2" l="RE32" fb="RE32" ppth="Bayreuth Hbf|Pegnitz"/>
+	</s>
+	<s id="3545157517623841687-2611131405-2">
+		<tl f="N" t="p" o="800759" c="RE" n="3497"/>
+		<ar pt="2611131419" pp="2" l="RE40" fb="RE40" ppth="Nürnberg Hbf"/>
+		<dp pt="2611131425" pp="2" l="RE40" fb="RE40" ppth="Hartmannshof|Etzelwang|Neukirchen(b Sulzb)|Sulzbach-Rosenberg|Amberg|Schwandorf"/>
+	</s>
+	<s id="7305420236712853603-2611131421-1">
+		<tl f="N" t="p" o="800759" c="RE" n="3441"/>
+		<dp pt="2611131421" pp="2" l="RE38" fb="RE38" ppth="Pegnitz|Creußen(Oberfr)|Bayreuth Hbf|Harsdorf|Trebgast|Neuenmarkt-Wirsberg|Untersteinach(b Stadtsteinach)|Kulmbach|Burgkunstadt|Lichtenfels|Bamberg"/>
+	</s>
+	<s id="328395461840013372-2611131428-4">
+		<tl f="N" t="p" o="800720" c="RB" n="58533"/>
+		<ar pt="2611131439" pp="3" l="RB30" fb="RB30" ppth="Lauf(rechts Pegnitz)|Neunkirchen a Sand|Reichenschwand"/>
+		<dp pt="2611131439" pp="3" l="RB30" fb="RB30" ppth="Hohenstadt(Mittelfr)|Vorra(Pegnitz)|Rupprechtstegen|Velden(b Hersbruck)|Neuhaus(Pegnitz)"/>
+	</s>
+	<s id="-5127511735345241038-2611131453-1">
+		<tl f="N" t="p" o="800759" c="RE" n="3089"/>
+		<dp pt="2611131453" pp="1" l="RE30" fb="RE30" ppth="Neuhaus(Pegnitz)|Pegnitz|Schnabelwaid|Creußen(Oberfr)|Bayreuth Hbf"/>
+		<tra t="v" id="-5038376990439750226" ref-from="-3823241550721565629-2611131453" s="a" o="p" jt="j"/>
+	</s>
+	<s id="4706104150227591502-2611131453-1">
+		<tl f="N" t="p" o="800759" c="RE" n="4889"/>
+		<dp pt="2611131453" pp="1" l="RE31" fb="RE31" ppth="Neuhaus(Pegnitz)|Pegnitz|Kirchenlaibach|Marktredwitz|Oberkotzau|Hof Hbf"/>
+		<tra t="v" id="1526995476070000931" ref-from="-3823241550721565629-2611131453" s="a" o="p" jt="j"/>
+		<tra t="v" id="2651023305015425279" ref-from="-3823241550721565629-2611131453" s="a" o="p" jt="j"/>
+	</s>
+	<s id="-3823241550721565629-2611131453-1">
+		<tl f="N" t="p" o="800759" c="RE" n="5289"/>
+		<dp pt="2611131453" pp="1" l="RE33" fb="RE33" wings="-5127511735345241038-2611131453|4706104150227591502-2611131453" ppth="Neuhaus(Pegnitz)|Pegnitz|Kirchenlaibach|Marktredwitz|Schirnding|Cheb"/>
+		<tra t="v" id="-5038376990439750226" ref-to="-5127511735345241038-2611131453" s="a" o="p" jt="j"/>
+		<tra t="v" id="1526995476070000931" ref-to="4706104150227591502-2611131453" s="a" o="p" jt="j"/>
+		<tra t="v" id="2651023305015425279" ref-to="4706104150227591502-2611131453" s="a" o="p" jt="j"/>
+	</s>
+</timetable>
