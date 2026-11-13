@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<timetable station="Augsburg Haunstetterstraße">
+	<s id="5639078379620631349-2611122115-18">
+		<tl f="D" t="p" o="Y8" c="BRB" n="86594"/>
+		<ar pt="2611122234" pp="3" l="RB67" fb="RB67" ppth="Weilheim(Oberbay)|Raisting|Dießen|St Alban|Riederau|Utting|Schondorf(Bay)|St Ottilien|Geltendorf|Walleshausen|Egling|Schmiechen(Schwab)|Merching|Mering|Mering-St Afra|Kissing|Augsburg-Hochzoll"/>
+		<dp pt="2611122235" pp="3" l="RB67" fb="RB67" ppth="Augsburg Hbf|Augsburg-Oberhausen"/>
+	</s>
+	<s id="8043951824674326341-2611122119-19">
+		<tl t="p" o="GYRE" c="ARV" n="57087"/>
+		<ar pt="2611122240" pp="4" l="RE9" fb="RE9" ppth="Ulm Hbf|Neu-Ulm|Nersingen|Leipheim|Günzburg|Offingen|Mindelaltheim|Burgau(Schwab)|Jettingen|Freihalden|Dinkelscherben|Kutzenhausen|Gessertshausen|Diedorf(Schwab)|Westheim(Schwab)|Neusäß|Augsburg-Oberhausen|Augsburg Hbf"/>
+		<dp pt="2611122241" pp="4" l="RE9" fb="RE9" ppth="Augsburg-Hochzoll|Kissing|Mering-St Afra|Mering|Althegnenberg|Haspelmoor|Mammendorf|München-Pasing"/>
+	</s>
+	<s id="-3018449201494449509-2611122159-10">
+		<tl t="p" o="GYRE" c="ARV" n="57086"/>
+		<ar pt="2611122243" pp="3" l="RE9" fb="RE9" wings="-1281643889855672100-2611122159" ppth="München Hbf|München-Pasing|Mammendorf|Haspelmoor|Althegnenberg|Mering|Mering-St Afra|Kissing|Augsburg-Hochzoll"/>
+		<dp pt="2611122243" pp="3" l="RE9" fb="RE9" wings="-1281643889855672100-2611122159" ppth="Augsburg Hbf"/>
+		<tra t="v" id="6639587629697929841" ref-to="-1281643889855672100-2611122159" s="a" o="p"/>
+	</s>
+	<s id="-1281643889855672100-2611122159-10">
+		<tl t="p" o="GYRE" c="ARV" n="94026"/>
+		<ar pt="2611122243" pp="3" l="RE89" fb="RE89" ppth="München Hbf|München-Pasing|Mammendorf|Haspelmoor|Althegnenberg|Mering|Mering-St Afra|Kissing|Augsburg-Hochzoll"/>
+		<dp pt="2611122243" pp="3" l="RE89" fb="RE89" ppth="Augsburg Hbf|Augsburg-Oberhausen|Gersthofen|Gablingen|Langweid(Lech)|Herbertshofen|Meitingen|Westendorf|Nordendorf|Mertingen Bahnhof|Bäumenheim|Donauwörth"/>
+		<tra t="v" id="6639587629697929841" ref-from="-3018449201494449509-2611122159" s="a" o="p"/>
+	</s>
+	<s id="3162957587933956298-2611122213-3">
+		<tl f="D" t="p" o="Y8" c="BRB" n="86589"/>
+		<ar pt="2611122221" pp="4" l="RB67" fb="RB67" ppth="Augsburg-Oberhausen|Augsburg Hbf"/>
+		<dp pt="2611122221" pp="4" l="RB67" fb="RB67" ppth="Augsburg-Hochzoll|Kissing|Mering-St Afra|Mering|Merching|Schmiechen(Schwab)|Egling|Walleshausen|Geltendorf|St Ottilien|Schondorf(Bay)|Utting|Riederau|St Alban|Dießen|Raisting|Weilheim(Oberbay)"/>
+	</s>
+</timetable>
