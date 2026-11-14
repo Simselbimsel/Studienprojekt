@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<timetable station="Kirchenlaibach">
+	<s id="-3871169007476524629-2611141139-21">
+		<tl f="D" t="p" o="A9" c="ag" n="84564"/>
+		<ar pt="2611141319" pp="2" l="RB97" fb="RB97" ppth="Bad Steben|Höllenthal|Marxgrün|Naila|Selbitz|Stegenwaldhaus|Köditz|Hof-Neuhof|Hof Hbf|Oberkotzau|Martinlamitz|Kirchenlamitz Ost|Marktleuthen|Röslau|Wunsiedel-Holenbrunn|Marktredwitz|Waldershof|Neusorg|Immenreuth|Haidenaab-Göppmannsbühl"/>
+		<dp pt="2611141319" pp="2" l="RB97" fb="RB97" ppth="Seybothenreuth|Stockau|Bayreuth Hbf"/>
+	</s>
+	<s id="1982132548620150349-2611141236-10">
+		<tl f="D" t="p" o="A9" c="ag" n="84649"/>
+		<ar pt="2611141315" pp="4" l="RB34" fb="RB34" ppth="Weidenberg|Görschnitz|Untersteinach(Bayr)|Döhlau|Friedrichsthal(b Bayreuth)|Laineck|Bayreuth-St Georgen|Bayreuth Hbf|Seybothenreuth"/>
+		<dp pt="2611141322" pp="4" l="RB34" fb="RB34" ppth="Kemnath-Neustadt|Trabitz|Pressath|Schwarzenbach(b Pressath)|Weiden(Oberpf)"/>
+	</s>
+	<s id="-3217081176905938253-2611141237-4">
+		<tl f="N" t="p" o="800759" c="RE" n="4887"/>
+		<ar pt="2611141333" pp="5" l="RE31" fb="RE31" wings="6079701421341728901-2611141237" ppth="Nürnberg Hbf|Neuhaus(Pegnitz)|Pegnitz"/>
+		<dp pt="2611141333" pp="5" l="RE31" fb="RE31" wings="6079701421341728901-2611141237" ppth="Marktredwitz|Oberkotzau|Hof Hbf"/>
+		<tra t="v" id="2300985168977740767" ref-to="6079701421341728901-2611141237" s="a" o="p"/>
+	</s>
+	<s id="6079701421341728901-2611141237-4">
+		<tl f="N" t="p" o="800759" c="RE" n="5287"/>
+		<ar pt="2611141333" pp="5" l="RE33" fb="RE33" ppth="Nürnberg Hbf|Neuhaus(Pegnitz)|Pegnitz"/>
+		<dp pt="2611141333" pp="5" l="RE33" fb="RE33" ppth="Marktredwitz|Arzberg(Oberfr)|Cheb"/>
+		<tra t="v" id="2300985168977740767" ref-from="-3217081176905938253-2611141237" s="a" o="p"/>
+	</s>
+	<s id="-3452770354365776224-2611141306-6">
+		<tl f="D" t="p" o="A9" c="ag" n="84652"/>
+		<ar pt="2611141338" pp="5" l="RB34" fb="RB34" ppth="Weiden(Oberpf)|Schwarzenbach(b Pressath)|Pressath|Trabitz|Kemnath-Neustadt"/>
+		<dp pt="2611141342" pp="5" l="RB34" fb="RB34" ppth="Seybothenreuth|Bayreuth Hbf"/>
+	</s>
+	<s id="-5835088737082122055-2611141309-2">
+		<tl f="N" t="p" o="800759" c="RE" n="3830"/>
+		<ar pt="2611141325" pp="2" l="RE31" fb="RE31" ppth="Marktredwitz"/>
+		<dp pt="2611141326" pp="2" l="RE31" fb="RE31" ppth="Pegnitz|Neuhaus(Pegnitz)|Nürnberg Hbf"/>
+	</s>
+	<s id="-5721057687494487982-2611141317-4">
+		<tl f="D" t="p" o="A9" c="ag" n="84563"/>
+		<ar pt="2611141339" pp="4" l="RB97" fb="RB97" ppth="Bayreuth Hbf|Stockau|Seybothenreuth"/>
+		<dp pt="2611141341" pp="4" l="RB97" fb="RB97" ppth="Haidenaab-Göppmannsbühl|Immenreuth|Neusorg|Waldershof|Marktredwitz|Wunsiedel-Holenbrunn|Röslau|Marktleuthen|Kirchenlamitz Ost|Martinlamitz|Oberkotzau|Hof Hbf|Hof-Neuhof|Köditz|Stegenwaldhaus|Selbitz|Naila|Marxgrün|Höllenthal|Bad Steben"/>
+	</s>
+</timetable>

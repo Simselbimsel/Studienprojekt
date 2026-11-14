@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<timetable station="Warngau">
+	<s id="-1506152792177382071-2611141347-7">
+		<tl f="D" t="p" o="T8" c="BRB" n="86886"/>
+		<ar pt="2611141421" pp="1" l="RB56" fb="RB56" ppth="Lenggries|Obergries|Gaißach|Bad Tölz|Reichersbeuern|Schaftlach"/>
+		<dp pt="2611141421" pp="1" l="RB56" fb="RB56" ppth="Holzkirchen|München-Solln|München Harras|München Donnersbergerbrücke|München Hbf Gl.27-36"/>
+		<tra t="v" id="2039944276822007434" ref-from="-5225191029165359513-2611141352" s="a" o="p"/>
+	</s>
+	<s id="-5225191029165359513-2611141352-6">
+		<tl f="D" t="p" o="T8" c="BRB" n="86986"/>
+		<ar pt="2611141421" pp="1" l="RB57" fb="RB57" wings="-1506152792177382071-2611141347" ppth="Tegernsee|Gmund(Tegernsee)|Finsterwald|Moosrain|Schaftlach"/>
+		<dp pt="2611141421" pp="1" l="RB57" fb="RB57" wings="-1506152792177382071-2611141347" ppth="Holzkirchen|München-Solln|München Harras|München Donnersbergerbrücke|München Hbf Gl.27-36"/>
+		<tra t="v" id="2039944276822007434" ref-to="-1506152792177382071-2611141347" s="a" o="p"/>
+	</s>
+	<s id="-5488713416973570115-2611141402-6">
+		<tl f="D" t="p" o="T8" c="BRB" n="86977"/>
+		<ar pt="2611141440" pp="1" l="RB57" fb="RB57" ppth="München Hbf Gl.27-36|München Donnersbergerbrücke|München Harras|München-Solln|Holzkirchen"/>
+		<dp pt="2611141440" pp="1" l="RB57" fb="RB57" ppth="Schaftlach|Moosrain|Finsterwald|Gmund(Tegernsee)|Tegernsee"/>
+		<tra t="v" id="-4831096288350801975" ref-from="2531385905126059130-2611141402" s="a" o="p"/>
+	</s>
+	<s id="2531385905126059130-2611141402-6">
+		<tl f="D" t="p" o="T8" c="BRB" n="86877"/>
+		<ar pt="2611141440" pp="1" l="RB56" fb="RB56" wings="-5488713416973570115-2611141402" ppth="München Hbf Gl.27-36|München Donnersbergerbrücke|München Harras|München-Solln|Holzkirchen"/>
+		<dp pt="2611141440" pp="1" l="RB56" fb="RB56" wings="-5488713416973570115-2611141402" ppth="Schaftlach|Reichersbeuern|Bad Tölz|Gaißach|Obergries|Lenggries"/>
+		<tra t="v" id="-4831096288350801975" ref-to="-5488713416973570115-2611141402" s="a" o="p"/>
+	</s>
+</timetable>
