@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<timetable station="Hamburg-Altona">
+	<s id="4628797216718709444-2611141312-16">
+		<tl f="F" t="p" o="80" c="ICE" n="706"/>
+		<ar pt="2611142025" pp="5" fb="ICE 706" ppth="München Hbf|München-Pasing|Augsburg Hbf|Donauwörth|Nürnberg Hbf|Bamberg|Erfurt Hbf|Halle(Saale)Hbf|Berlin Südkreuz|Berlin Hbf|Berlin-Spandau|Wittenberge|Ludwigslust|Büchen|Hamburg Hbf"/>
+	</s>
+	<s id="1663376218703621421-2611141817-11">
+		<tl f="N" t="p" o="800201" c="RE" n="11653"/>
+		<ar pt="2611142013" pp="9" l="RE7" fb="RE7" ppth="Flensburg|Tarp|Jübek|Schleswig|Owschlag|Rendsburg|Nortorf|Neumünster|Elmshorn|Pinneberg"/>
+	</s>
+	<s id="-2491225657618914529-2611141905-8">
+		<tl f="N" t="p" o="800201" c="RE" n="11283"/>
+		<ar pt="2611142013" pp="9" l="RE7" fb="RE7" ppth="Kiel Hbf|Flintbek|Bordesholm|Einfeld|Neumünster|Elmshorn|Pinneberg"/>
+	</s>
+	<s id="-904115388995629229-2611141937-7">
+		<tl f="N" t="p" o="800201" c="RE" n="11601"/>
+		<ar pt="2611142045" pp="10" l="RE70" fb="RE70" ppth="Kiel Hbf|Bordesholm|Neumünster|Brokstedt|Wrist|Elmshorn"/>
+	</s>
+	<s id="3803945420691029348-2611141938-3">
+		<tl f="N" t="p" o="8002B5" c="RE" n="11033"/>
+		<ar pt="2611142022" pp="7" l="RE6" fb="RE6" ppth="Itzehoe|Elmshorn"/>
+	</s>
+	<s id="-8940505882110201097-2611141953-8">
+		<tl f="D" t="p" o="O0" c="NBE" n="34989"/>
+		<ar pt="2611142035" pp="11" l="RB71" fb="RB71" ppth="Wrist|Dauenhof|Horst(Holst)|Elmshorn|Tornesch|Prisdorf|Pinneberg"/>
+	</s>
+	<s id="-273140658978079567-2611142026-1">
+		<tl f="D" t="p" o="O0" c="NBE" n="34992"/>
+		<dp pt="2611142026" pp="10" l="RB71" fb="RB71" ppth="Pinneberg|Prisdorf|Tornesch|Elmshorn|Horst(Holst)|Dauenhof|Wrist"/>
+	</s>
+	<s id="5994203768642647387-2611142032-1">
+		<tl f="N" t="p" o="8002B5" c="RE" n="11032"/>
+		<dp pt="2611142032" pp="8" l="RE6" fb="RE6" ppth="Elmshorn|Itzehoe"/>
+	</s>
+	<s id="305339144694498980-2611142045-1">
+		<tl f="N" t="p" o="800201" c="RE" n="11682"/>
+		<dp pt="2611142045" pp="9" l="RE7" fb="RE7" wings="8112312170468467481-2611142045" ppth="Elmshorn|Neumünster|Einfeld|Bordesholm|Flintbek|Kiel Hbf"/>
+		<tra t="v" id="215627624158904892" ref-to="8112312170468467481-2611142045" s="a" o="p" jt="j"/>
+	</s>
+	<s id="8112312170468467481-2611142045-1">
+		<tl f="N" t="p" o="800201" c="RE" n="11182"/>
+		<dp pt="2611142045" pp="9" l="RE7" fb="RE7" ppth="Elmshorn|Neumünster|Nortorf|Rendsburg|Owschlag|Schleswig|Jübek|Tarp|Flensburg"/>
+		<tra t="v" id="215627624158904892" ref-from="305339144694498980-2611142045" s="a" o="p" jt="j"/>
+	</s>
+</timetable>

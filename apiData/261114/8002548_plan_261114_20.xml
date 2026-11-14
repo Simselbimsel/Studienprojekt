@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<timetable station="Hamburg Dammtor">
+	<s id="6992012378128167215-2611141955-2">
+		<tl t="p" o="81" c="NJ" n="40491"/>
+		<ar pt="2611142001" pp="4" fb="NJ 40491" hi="1" wings="-8018116824080471880-2611141955" ppth="Hamburg-Altona"/>
+		<dp pt="2611142002" pp="4" fb="NJ 40491" wings="-8018116824080471880-2611141955" ppth="Hamburg Hbf|Hamburg-Harburg|Hannover Hbf|Göttingen|Kassel-Wilhelmshöhe|Würzburg Hbf|Treuchtlingen|Augsburg Hbf|München Ost|Rosenheim|Kufstein|Wörgl Hbf|Jenbach|Innsbruck Hbf"/>
+		<tra t="v" id="2777967250787377724" ref-to="-8018116824080471880-2611141955" s="a" o="p"/>
+	</s>
+	<s id="-8018116824080471880-2611141955-2">
+		<tl t="p" o="81" c="NJ" n="493"/>
+		<ar pt="2611142001" pp="4" fb="NJ 493" hi="1" ppth="Hamburg-Altona"/>
+		<dp pt="2611142002" pp="4" fb="NJ 493" ppth="Hamburg Hbf|Hamburg-Harburg|Hannover Hbf|Göttingen|Kassel-Wilhelmshöhe|Würzburg Hbf|Treuchtlingen|München Ost|Salzburg Hbf|Linz/Donau Hbf|St.Pölten Hbf|Wien Meidling|Wien Hbf"/>
+		<tra t="v" id="2777967250787377724" ref-from="6992012378128167215-2611141955" s="a" o="p"/>
+	</s>
+	<s id="1579406976060350111-2611142008-2">
+		<tl f="N" t="p" o="800201" c="RE" n="11232"/>
+		<ar pt="2611142011" pp="3" l="RE70" fb="RE70" hi="1" ppth="Hamburg Hbf"/>
+		<dp pt="2611142011" pp="3" l="RE70" fb="RE70" ppth="Elmshorn|Wrist|Brokstedt|Neumünster|Bordesholm|Kiel Hbf"/>
+	</s>
+	<s id="5351133746540780755-2611142021-1">
+		<tl f="F" t="p" o="80" c="ICE" n="79"/>
+		<dp pt="2611142021" pp="4" fb="ICE 79" ppth="Hamburg Hbf|Lüneburg|Uelzen|Hannover Hbf|Göttingen|Kassel-Wilhelmshöhe|Frankfurt(Main)Hbf|Frankfurt(M) Flughafen Regionalbf|Mainz Hbf|Wiesbaden Hbf"/>
+	</s>
+</timetable>

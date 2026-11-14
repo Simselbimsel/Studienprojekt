@@ -1,0 +1,63 @@
+<?xml version="1.0" ?>
+<timetable station="Neumünster">
+	<s id="-5315693798223575955-2611141405-13">
+		<tl f="F" t="p" o="80" c="ICE" n="506"/>
+		<ar pt="2611142020" pp="3" fb="ICE 506" ppth="Nürnberg Hbf|Erlangen|Bamberg|Erfurt Hbf|Leipzig Hbf|Bitterfeld|Lutherstadt Wittenberg Hbf|Berlin Südkreuz|Berlin Hbf|Berlin-Spandau|Hamburg Hbf|Hamburg Dammtor"/>
+		<dp pt="2611142022" pp="3" fb="ICE 506" ppth="Kiel Hbf"/>
+	</s>
+	<s id="-3509607349066055307-2611141831-19">
+		<tl f="D" t="p" o="O0" c="NBE" n="83815"/>
+		<ar pt="2611142025" pp="6" l="RB63" fb="RB63" ppth="Büsum|Reinsbüttel|Süderdeich|Wesselburen|Jarrenwisch|Tiebensee|Heide(Holst)|Nordhastedt|Albersdorf|Beldorf|Hademarschen|Gokels|Beringstedt|Osterstedt|Hohenwestedt|Aukrug|Wasbek|Neumünster Stadtwald"/>
+	</s>
+	<s id="-7595984326106049483-2611141908-6">
+		<tl f="N" t="p" o="800201" c="RE" n="11230"/>
+		<ar pt="2611142002" pp="3" l="RE70" fb="RE70" ppth="Hamburg Hbf|Hamburg Dammtor|Elmshorn|Wrist|Brokstedt"/>
+		<dp pt="2611142003" pp="3" l="RE70" fb="RE70" ppth="Bordesholm|Kiel Hbf"/>
+	</s>
+	<s id="-4776001175958910221-2611141917-8">
+		<tl f="N" t="p" o="800201" c="RE" n="11655"/>
+		<ar pt="2611142023" pp="5" l="RE7" fb="RE7" ppth="Flensburg|Tarp|Jübek|Schleswig|Owschlag|Rendsburg|Nortorf"/>
+		<dp pt="2611142031" pp="5" l="RE7" fb="RE7" ppth="Elmshorn|Pinneberg|Hamburg-Altona"/>
+	</s>
+	<s id="-6232922652836938263-2611141919-21">
+		<tl f="D" t="p" o="A0" c="AKN" n="82463"/>
+		<ar pt="2611142023" pp="1" l="A2" fb="A2" ppth="Norderstedt Mitte|Moorbekhalle|Friedrichsgabe|Quickborner Straße|Haslohfurth|Meeschensee|Ulzburg Süd|Henstedt-Ulzburg|Kaltenkirchen Süd|Kaltenkirchen(Holst)|Holstentherme|Dodenhof|Nützen|Lentföhrden|Bad Bramstedt Kurhaus|Bad Bramstedt|Wiemersdorf|Großenaspe|Boostedt|Neumünster Süd AKN"/>
+	</s>
+	<s id="-488282862807054426-2611141937-10">
+		<tl f="D" t="p" o="O0" c="NBE" n="82190"/>
+		<ar pt="2611142026" pp="2" l="RB82" fb="RB82" ppth="Bad Oldesloe|Fresenburg|Wakendorf|Altengörs|Bad Segeberg|Fahrenkrug|Wahlstedt|Rickling|Neumünster Süd AKN"/>
+	</s>
+	<s id="7649182447134048178-2611141939-4">
+		<tl f="N" t="p" o="800201" c="RE" n="11280"/>
+		<ar pt="2611142028" pp="3" l="RE7" fb="RE7" wings="5280451766042449982-2611141939" ppth="Hamburg Hbf|Hamburg Dammtor|Elmshorn"/>
+		<dp pt="2611142030" pp="3" l="RE7" fb="RE7" ppth="Einfeld|Bordesholm|Flintbek|Kiel Hbf"/>
+		<tra t="v" id="3397805163060018300" ref-to="5280451766042449982-2611141939" s="a" o="p" jt="s"/>
+	</s>
+	<s id="5280451766042449982-2611141939-4">
+		<tl f="N" t="p" o="800201" c="RE" n="11180"/>
+		<ar pt="2611142028" pp="3" l="RE7" fb="RE7" ppth="Hamburg Hbf|Hamburg Dammtor|Elmshorn"/>
+		<dp pt="2611142033" pp="3" l="RE7" fb="RE7" ppth="Nortorf|Rendsburg|Owschlag|Schleswig|Jübek|Tarp|Flensburg"/>
+		<tra t="v" id="3397805163060018300" ref-from="7649182447134048178-2611141939" s="a" o="p" jt="s"/>
+	</s>
+	<s id="-1199948685037004152-2611142005-5">
+		<tl f="N" t="p" o="800201" c="RE" n="11285"/>
+		<ar pt="2611142027" pp="5" l="RE7" fb="RE7" ppth="Kiel Hbf|Flintbek|Bordesholm|Einfeld"/>
+	</s>
+	<s id="8038895553796223485-2611142033-1">
+		<tl f="D" t="p" o="A0" c="AKN" n="82466"/>
+		<dp pt="2611142033" pp="1" l="A2" fb="A2" ppth="Neumünster Süd AKN|Boostedt|Großenaspe|Wiemersdorf|Bad Bramstedt|Bad Bramstedt Kurhaus|Lentföhrden|Nützen|Dodenhof|Holstentherme|Kaltenkirchen(Holst)|Kaltenkirchen Süd|Henstedt-Ulzburg|Ulzburg Süd|Meeschensee|Haslohfurth|Quickborner Straße|Friedrichsgabe|Moorbekhalle|Norderstedt Mitte"/>
+	</s>
+	<s id="-7757501526113845489-2611142035-1">
+		<tl f="D" t="p" o="O0" c="NBE" n="83786"/>
+		<dp pt="2611142035" pp="6" l="RB63" fb="RB63" ppth="Neumünster Stadtwald|Wasbek|Aukrug|Hohenwestedt"/>
+	</s>
+	<s id="3883227323781262570-2611142037-1">
+		<tl f="D" t="p" o="O0" c="NBE" n="82195"/>
+		<dp pt="2611142037" pp="2" l="RB82" fb="RB82" ppth="Neumünster Süd AKN|Rickling|Wahlstedt|Fahrenkrug|Bad Segeberg|Altengörs|Wakendorf|Fresenburg|Bad Oldesloe"/>
+	</s>
+	<s id="-6074197823780281832-2611142037-3">
+		<tl f="N" t="p" o="800201" c="RE" n="11603"/>
+		<ar pt="2611142054" pp="4" l="RE70" fb="RE70" ppth="Kiel Hbf|Bordesholm"/>
+		<dp pt="2611142056" pp="4" l="RE70" fb="RE70" ppth="Brokstedt|Wrist|Elmshorn|Hamburg-Altona"/>
+	</s>
+</timetable>
