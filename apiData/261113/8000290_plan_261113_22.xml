@@ -1,0 +1,96 @@
+<?xml version="1.0" ?>
+<timetable station="Offenburg">
+	<s id="3445083957053622931-2611131621-10">
+		<tl t="p" o="80" c="ECE" n="9"/>
+		<ar pt="2611132158" pp="1" fb="ECE 9" ppth="Hamburg Dammtor|Hamburg Hbf|Uelzen|Hannover Hbf|Göttingen|Kassel-Wilhelmshöhe|Frankfurt(Main)Hbf|Mannheim Hbf|Karlsruhe Hbf"/>
+		<dp pt="2611132200" pp="1" fb="ECE 9" ppth="Freiburg(Breisgau) Hbf|Basel Bad Bf|Basel SBB"/>
+	</s>
+	<s id="-2494453527783146128-2611131959-5">
+		<tl f="F" t="p" o="NZ" c="IC" n="60409"/>
+		<ar pt="2611132229" pp="3" fb="IC 60409" wings="-32974304396741632-2611131959" ppth="Zürich HB|Basel SBB|Basel Bad Bf|Freiburg(Breisgau) Hbf"/>
+		<dp pt="2611132231" pp="3" fb="IC 60409" wings="-32974304396741632-2611131959" ppth="Karlsruhe Hbf|Frankfurt(Main)Süd|Fulda|Erfurt Hbf|Leipzig Hbf|Berlin Südkreuz|Berlin Hbf"/>
+		<tra t="v" id="-6811221893583827188" ref-to="-32974304396741632-2611131959" s="a" o="p"/>
+		<tra t="v" id="862244478190411288" ref-from="1961181705396261168-2611131959" s="a" o="p"/>
+	</s>
+	<s id="-32974304396741632-2611131959-5">
+		<tl t="p" o="85NZ" c="NJ" n="409"/>
+		<ar pt="2611132229" pp="3" fb="NJ 409" hi="1" ppth="Zürich HB|Basel SBB|Basel Bad Bf|Freiburg(Breisgau) Hbf"/>
+		<dp pt="2611132231" pp="3" fb="NJ 409" ppth="Karlsruhe Hbf|Frankfurt(Main)Süd|Fulda|Erfurt Hbf|Leipzig Hbf|Berlin Südkreuz|Berlin Hbf"/>
+		<tra t="v" id="-6811221893583827188" ref-from="-2494453527783146128-2611131959" s="a" o="p"/>
+		<tra t="v" id="6947291789234904997" ref-from="1961181705396261168-2611131959" s="a" o="p"/>
+	</s>
+	<s id="5981134875112714787-2611131959-5">
+		<tl f="F" t="p" o="85" c="EC" n="459"/>
+		<ar pt="2611132229" pp="3" fb="EC 459" hi="1" ppth="Zürich HB|Basel SBB|Basel Bad Bf|Freiburg(Breisgau) Hbf"/>
+		<dp pt="2611132231" pp="3" fb="EC 459" ppth="Karlsruhe Hbf|Frankfurt(Main)Süd|Fulda|Erfurt Hbf|Leipzig Hbf|Riesa|Dresden-Neustadt|Dresden Hbf|Bad Schandau|Decin hl.n.|Usti nad Labem hl.n.|Praha-Holesovice|Praha hl.n."/>
+		<tra t="v" id="-4604342060982102965" ref-from="1961181705396261168-2611131959" s="a" o="p"/>
+		<tra t="v" id="-1710373901019513353" ref-from="1961181705396261168-2611131959" s="a" o="p"/>
+		<tra t="v" id="-1276977914205864044" ref-from="1961181705396261168-2611131959" s="a" o="p"/>
+	</s>
+	<s id="1961181705396261168-2611131959-5">
+		<tl f="F" t="p" o="81" c="EN" n="40459"/>
+		<ar pt="2611132229" pp="3" fb="EN 40459" hi="1" wings="-2494453527783146128-2611131959|-32974304396741632-2611131959|5981134875112714787-2611131959" ppth="Zürich HB|Basel SBB|Basel Bad Bf|Freiburg(Breisgau) Hbf"/>
+		<dp pt="2611132231" pp="3" fb="EN 40459" wings="-2494453527783146128-2611131959|-32974304396741632-2611131959|5981134875112714787-2611131959" ppth="Karlsruhe Hbf|Frankfurt(Main)Süd|Fulda|Erfurt Hbf|Leipzig Hbf|Riesa|Dresden-Neustadt|Dresden Hbf|Bad Schandau|Decin hl.n.|Usti nad Labem hl.n.|Praha-Holesovice|Praha hl.n."/>
+		<tra t="v" id="-4604342060982102965" ref-to="5981134875112714787-2611131959" s="a" o="p"/>
+		<tra t="v" id="-1710373901019513353" ref-to="5981134875112714787-2611131959" s="a" o="p"/>
+		<tra t="v" id="-1276977914205864044" ref-to="5981134875112714787-2611131959" s="a" o="p"/>
+		<tra t="v" id="862244478190411288" ref-to="-2494453527783146128-2611131959" s="a" o="p"/>
+		<tra t="v" id="6947291789234904997" ref-to="-32974304396741632-2611131959" s="a" o="p"/>
+	</s>
+	<s id="6877821871416133092-2611132050-20">
+		<tl f="N" t="p" o="8006C5" c="RE" n="17032"/>
+		<ar pt="2611132233" pp="4" l="RE7" fb="RE7" ppth="Basel Bad Bf|Weil am Rhein|Haltingen|Efringen-Kirchen|Bad Bellingen|Schliengen|Müllheim im Markgräflerland|Heitersheim|Bad Krozingen|Schallstadt|Freiburg(Breisgau) Hbf|Denzlingen|Emmendingen|Riegel-Malterdingen|Kenzingen|Herbolzheim(Breisg)|Ringsheim/Europa-Park|Orschweier|Lahr(Schwarzw)"/>
+		<dp pt="2611132238" pp="4" l="RE7" fb="RE7" ppth="Appenweier|Renchen|Achern|Bühl(Baden)|Baden-Baden|Rastatt|Karlsruhe Hbf"/>
+	</s>
+	<s id="-5282244633591912464-2611132101-13">
+		<tl f="D" t="p" o="S6" c="SWE" n="87548"/>
+		<ar pt="2611132216" pp="5" l="RS1" fb="RS1" ppth="Freudenstadt Hbf|Alpirsbach|Schiltach Mitte|Schiltach|Halbmeil|Wolfach|Hausach|Haslach|Steinach(Baden)|Biberach(Baden)|Gengenbach|Offenburg Kreisschulzentrum"/>
+	</s>
+	<s id="-31217340064994015-2611132114-14">
+		<tl f="D" t="p" o="S6" c="SWE" n="87389"/>
+		<ar pt="2611132203" pp="7" l="RS2" fb="RS2" ppth="Bad Griesbach(Schwarzwald)|Bad Peterstal|Löcherberg|Ibach|Oppenau|Ramsbach Birkhof|Ramsbach Höfle|Hubacker|Lautenbach(Baden)|Oberkirch-Köhlersiedlung|Oberkirch|Zusenhofen|Appenweier"/>
+	</s>
+	<s id="8971500930420455874-2611132137-4">
+		<tl f="N" t="p" o="800647" c="RE" n="4740"/>
+		<ar pt="2611132159" pp="6" l="RE2" fb="RE2" ppth="Hausach|Haslach|Biberach(Baden)"/>
+		<dp pt="2611132202" pp="6" l="RE2" fb="RE2" ppth="Appenweier|Renchen|Achern|Bühl(Baden)|Baden-Baden|Rastatt|Karlsruhe Hbf"/>
+	</s>
+	<s id="-8727038862272870614-2611132152-5">
+		<tl f="D" t="p" o="S6" c="SWE" n="87459"/>
+		<ar pt="2611132222" pp="2" l="RS4" fb="RS4" pde="Strasbourg" ppth="Kehl|Kork|Legelshurst|Appenweier"/>
+	</s>
+	<s id="-3752704172710434197-2611132200-15">
+		<tl f="N" t="p" o="8006C4" c="RB" n="17134"/>
+		<ar pt="2611132256" pp="2" l="RB26" fb="RB26" ppth="Freiburg(Breisgau) Hbf|Gundelfingen(Breisgau)|Denzlingen|Kollmarsreute|Emmendingen|Teningen-Mundingen|Köndringen|Riegel-Malterdingen|Kenzingen|Herbolzheim(Breisg)|Ringsheim/Europa-Park|Orschweier|Lahr(Schwarzw)|Friesenheim(Baden)"/>
+	</s>
+	<s id="-8727038862272870614-2611132152-5">
+		<tl f="D" t="p" o="S6" c="SWE" n="87459"/>
+		<ar pt="2611132222" pp="2" l="RS4" fb="RS4" pde="Strasbourg" ppth="Kehl|Kork|Legelshurst|Appenweier"/>
+	</s>
+	<s id="7425638197079361895-2611132205-1">
+		<tl f="D" t="p" o="S6" c="SWE" n="87464"/>
+		<dp pt="2611132205" pp="3" l="RS4" fb="RS4" ppth="Appenweier|Legelshurst|Kork|Kehl|Krimmeri-Meinau|Strasbourg"/>
+	</s>
+	<s id="6362357971327658059-2611132206-1">
+		<tl f="N" t="p" o="8006C4" c="RB" n="17137"/>
+		<dp pt="2611132206" pp="2" l="RB26" fb="RB26" ppth="Friesenheim(Baden)|Lahr(Schwarzw)|Orschweier|Ringsheim/Europa-Park|Herbolzheim(Breisg)|Kenzingen|Riegel-Malterdingen|Köndringen|Teningen-Mundingen|Emmendingen|Kollmarsreute|Denzlingen|Gundelfingen(Breisgau)|Freiburg(Breisgau) Hbf"/>
+	</s>
+	<s id="-5677468493735331097-2611132217-4">
+		<tl f="D" t="p" o="S6" c="SWE" n="87391"/>
+		<ar pt="2611132233" pp="7" l="RS2" fb="RS2" tra="3711111789156148951-2611132241-1" ppth="Oberkirch|Zusenhofen|Appenweier"/>
+		<tra t="d" id="7884231204882104427" ref-to="3711111789156148951-2611132241-1" s="a" o="p"/>
+	</s>
+	<s id="-6977960134148486350-2611132237-4">
+		<tl f="N" t="p" o="800647" c="RE" n="4742"/>
+		<ar pt="2611132259" pp="4" l="RE2" fb="RE2" ppth="Hausach|Haslach|Gengenbach"/>
+	</s>
+	<s id="3711111789156148951-2611132241-1">
+		<tl f="D" t="p" o="S6" c="SWE" n="88609"/>
+		<dp pt="2611132241" pp="7" l="RS1" fb="RS1" tra="-5677468493735331097-2611132217-4" ppth="Offenburg Kreisschulzentrum|Gengenbach|Biberach(Baden)|Steinach(Baden)|Haslach|Hausach|Wolfach|Halbmeil|Schiltach|Schiltach Mitte|Schenkenzell|Alpirsbach|Loßburg-Rodt|Freudenstadt Hbf"/>
+		<tra t="d" id="7884231204882104427" ref-from="-5677468493735331097-2611132217-4" s="a" o="p"/>
+	</s>
+	<s id="297034518942030962-2611132246-1">
+		<tl f="N" t="p" o="8006C4" c="RB" n="17139"/>
+		<dp pt="2611132246" pp="2" l="RB27" fb="RB27" ppth="Friesenheim(Baden)|Lahr(Schwarzw)|Orschweier|Ringsheim/Europa-Park|Herbolzheim(Breisg)|Kenzingen|Riegel-Malterdingen|Köndringen|Teningen-Mundingen|Emmendingen|Kollmarsreute|Denzlingen|Gundelfingen(Breisgau)|Freiburg(Breisgau) Hbf|Freiburg-St Georgen|Ebringen|Schallstadt|Norsingen|Bad Krozingen|Heitersheim|Buggingen|Müllheim im Markgräflerland|Auggen|Schliengen|Bad Bellingen|Rheinweiler|Kleinkems|Istein|Efringen-Kirchen|Eimeldingen|Haltingen|Weil am Rhein|Basel Bad Bf"/>
+	</s>
+</timetable>
