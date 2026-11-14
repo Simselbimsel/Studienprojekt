@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<timetable station="Hamburg Dammtor">
+	<s id="-9149063309734653751-2611140505-7">
+		<tl f="N" t="p" o="800201" c="RE" n="11299"/>
+		<ar pt="2611140616" pp="4" l="RE7" fb="RE7" ppth="Kiel Hbf|Flintbek|Bordesholm|Einfeld|Neumünster|Elmshorn"/>
+		<dp pt="2611140617" pp="4" l="RE7" fb="RE7" hi="1" ppth="Hamburg Hbf"/>
+	</s>
+	<s id="2648435496848007442-2611140537-7">
+		<tl f="N" t="p" o="800201" c="RE" n="11205"/>
+		<ar pt="2611140648" pp="4" l="RE70" fb="RE70" ppth="Kiel Hbf|Bordesholm|Neumünster|Brokstedt|Wrist|Elmshorn"/>
+		<dp pt="2611140649" pp="4" l="RE70" fb="RE70" hi="1" ppth="Hamburg Hbf"/>
+	</s>
+	<s id="-3783829201967449571-2611140617-2">
+		<tl f="F" t="p" o="80" c="ICE" n="505"/>
+		<ar pt="2611140625" pp="4" fb="ICE 505" hi="1" ppth="Hamburg-Altona"/>
+		<dp pt="2611140627" pp="4" fb="ICE 505" ppth="Hamburg Hbf|Berlin-Spandau|Berlin Hbf|Berlin Südkreuz|Lutherstadt Wittenberg Hbf|Bitterfeld|Leipzig Hbf|Erfurt Hbf|Bamberg|Erlangen|Nürnberg Hbf"/>
+	</s>
+	<s id="8858215695273508971-2611140621-1">
+		<tl f="F" t="p" o="80" c="ICE" n="71"/>
+		<dp pt="2611140621" pp="4" fb="ICE 71" ppth="Hamburg Hbf|Uelzen|Celle|Hannover Hbf|Göttingen|Kassel-Wilhelmshöhe|Frankfurt(Main)Hbf|Mannheim Hbf|Karlsruhe Hbf|Offenburg|Freiburg(Breisgau) Hbf|Basel Bad Bf|Basel SBB"/>
+	</s>
+	<s id="-3500545049874534285-2611140626-2">
+		<tl f="F" t="p" o="80" c="ICE" n="105"/>
+		<ar pt="2611140633" pp="4" fb="ICE 105" hi="1" ppth="Hamburg-Altona"/>
+		<dp pt="2611140635" pp="4" fb="ICE 105" ppth="Hamburg Hbf|Hamburg-Harburg|Bremen Hbf|Osnabrück Hbf|Münster(Westf)Hbf|Dortmund Hbf|Düsseldorf Hbf|Köln Hbf|Frankfurt(M) Flughafen Fernbf|Mannheim Hbf|Karlsruhe Hbf|Baden-Baden|Freiburg(Breisgau) Hbf|Basel Bad Bf|Basel SBB|Zürich HB|Sargans|Landquart|Chur"/>
+	</s>
+	<s id="-1359409301232709450-2611140635-2">
+		<tl f="N" t="p" o="800201" c="RE" n="11244"/>
+		<ar pt="2611140638" pp="3" l="RE7" fb="RE7" hi="1" wings="57853393338941001-2611140635" ppth="Hamburg Hbf"/>
+		<dp pt="2611140638" pp="3" l="RE7" fb="RE7" wings="57853393338941001-2611140635" ppth="Pinneberg|Elmshorn|Wrist|Brokstedt|Neumünster|Einfeld|Bordesholm|Flintbek|Kiel Hbf"/>
+		<tra t="v" id="4705087568044160966" ref-to="57853393338941001-2611140635" s="a" o="p"/>
+	</s>
+	<s id="57853393338941001-2611140635-2">
+		<tl f="N" t="p" o="800201" c="RE" n="11194"/>
+		<ar pt="2611140638" pp="3" l="RE7" fb="RE7" hi="1" ppth="Hamburg Hbf"/>
+		<dp pt="2611140638" pp="3" l="RE7" fb="RE7" ppth="Pinneberg|Elmshorn|Wrist|Brokstedt|Neumünster|Nortorf|Rendsburg|Owschlag|Schleswig|Jübek|Tarp|Flensburg"/>
+		<tra t="v" id="4705087568044160966" ref-from="-1359409301232709450-2611140635" s="a" o="p"/>
+	</s>
+	<s id="2897765782443439104-2611140653-1">
+		<tl f="F" t="p" o="80" c="ICE" n="583"/>
+		<dp pt="2611140653" pp="4" fb="ICE 583" ppth="Hamburg Hbf|Hamburg-Harburg|Lüneburg|Hannover Hbf|Göttingen|Kassel-Wilhelmshöhe|Fulda|Würzburg Hbf|Nürnberg Hbf"/>
+	</s>
+</timetable>

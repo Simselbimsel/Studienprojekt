@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<timetable station="Leipzig Hbf">
+	<s id="-2494453527783146128-2611131959-10">
+		<tl f="F" t="p" o="NZ" c="IC" n="60409"/>
+		<ar pt="2611140449" pp="15" fb="IC 60409" wings="-32974304396741632-2611131959" ppth="Zürich HB|Basel SBB|Basel Bad Bf|Freiburg(Breisgau) Hbf|Offenburg|Karlsruhe Hbf|Frankfurt(Main)Süd|Fulda|Erfurt Hbf"/>
+		<dp pt="2611140536" pp="15" fb="IC 60409" wings="-32974304396741632-2611131959" ppth="Berlin Südkreuz|Berlin Hbf"/>
+		<tra t="v" id="-6811221893583827188" ref-to="-32974304396741632-2611131959" s="a" o="p"/>
+		<tra t="v" id="862244478190411288" ref-from="1961181705396261168-2611131959" s="a" o="p" jt="s"/>
+	</s>
+	<s id="-32974304396741632-2611131959-10">
+		<tl t="p" o="85NZ" c="NJ" n="409"/>
+		<ar pt="2611140449" pp="15" fb="NJ 409" ppth="Zürich HB|Basel SBB|Basel Bad Bf|Freiburg(Breisgau) Hbf|Offenburg|Karlsruhe Hbf|Frankfurt(Main)Süd|Fulda|Erfurt Hbf"/>
+		<dp pt="2611140536" pp="15" fb="NJ 409" hi="1" ppth="Berlin Südkreuz|Berlin Hbf"/>
+		<tra t="v" id="-6811221893583827188" ref-from="-2494453527783146128-2611131959" s="a" o="p"/>
+		<tra t="v" id="6947291789234904997" ref-from="1961181705396261168-2611131959" s="a" o="p" jt="s"/>
+	</s>
+	<s id="5981134875112714787-2611131959-10">
+		<tl f="F" t="p" o="85" c="EC" n="459"/>
+		<ar pt="2611140449" pp="15" fb="EC 459" hi="1" ppth="Zürich HB|Basel SBB|Basel Bad Bf|Freiburg(Breisgau) Hbf|Offenburg|Karlsruhe Hbf|Frankfurt(Main)Süd|Fulda|Erfurt Hbf"/>
+		<dp pt="2611140549" pp="14" fb="EC 459" ppth="Riesa|Dresden-Neustadt|Dresden Hbf|Bad Schandau|Decin hl.n.|Usti nad Labem hl.n.|Praha-Holesovice|Praha hl.n."/>
+		<tra t="v" id="-4604342060982102965" ref-from="1961181705396261168-2611131959" s="a" o="p" jt="s"/>
+		<tra t="v" id="-1710373901019513353" ref-from="1961181705396261168-2611131959" s="a" o="p"/>
+		<tra t="v" id="-1276977914205864044" ref-from="1961181705396261168-2611131959" s="a" o="p" jt="s"/>
+	</s>
+	<s id="1961181705396261168-2611131959-10">
+		<tl f="F" t="p" o="81" c="EN" n="40459"/>
+		<ar pt="2611140449" pp="15" fb="EN 40459" wings="-2494453527783146128-2611131959|-32974304396741632-2611131959|5981134875112714787-2611131959" ppth="Zürich HB|Basel SBB|Basel Bad Bf|Freiburg(Breisgau) Hbf|Offenburg|Karlsruhe Hbf|Frankfurt(Main)Süd|Fulda|Erfurt Hbf"/>
+		<dp pt="2611140549" pp="14" fb="EN 40459" hi="1" wings="5981134875112714787-2611131959" ppth="Riesa|Dresden-Neustadt|Dresden Hbf|Bad Schandau|Decin hl.n.|Usti nad Labem hl.n.|Praha-Holesovice|Praha hl.n."/>
+		<tra t="v" id="-4604342060982102965" ref-to="5981134875112714787-2611131959" s="a" o="p" jt="s"/>
+		<tra t="v" id="-1710373901019513353" ref-to="5981134875112714787-2611131959" s="a" o="p"/>
+		<tra t="v" id="-1276977914205864044" ref-to="5981134875112714787-2611131959" s="a" o="p" jt="s"/>
+		<tra t="v" id="862244478190411288" ref-to="-2494453527783146128-2611131959" s="a" o="p" jt="s"/>
+		<tra t="v" id="6947291789234904997" ref-to="-32974304396741632-2611131959" s="a" o="p" jt="s"/>
+	</s>
+	<s id="3537179868806053584-2611140400-1">
+		<tl f="N" t="p" o="800456" c="RE" n="16501"/>
+		<dp pt="2611140400" pp="21" l="RE50" fb="RE50" ppth="Leipzig-Engelsdorf|Borsdorf(Sachs)|Wurzen|Kühren|Dahlen(Sachs)|Oschatz|Riesa|Glaubitz(Riesa)|Nünchritz|Priestewitz|Niederau|Weinböhla Hp|Coswig(b Dresden)|Radebeul Ost|Dresden-Neustadt|Dresden Mitte|Dresden Hbf"/>
+	</s>
+	<s id="-2734429026246492002-2611140408-15">
+		<tl f="N" t="p" o="800413" c="RB" n="16664"/>
+		<ar pt="2611140455" pp="22" l="RB113" fb="RB113" ppth="Geithain|Tautenhain|Hopfgarten(Sachs)|Bad Lausick|Lauterbach-Steinbach|Otterwisch|Belgershain|Oberholz|Großpösna|Leipzig-Liebertwolkwitz|Leipzig-Holzhausen|Leipzig-Mölkau|Leipzig Werkstättenstraße|Leipzig-Paunsdorf"/>
+	</s>
+</timetable>

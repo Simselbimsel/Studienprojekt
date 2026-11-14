@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<timetable station="Neuhaus(Pegnitz)">
+	<s id="-9183142109129406031-2611140608-15">
+		<tl f="N" t="p" o="800720" c="RB" n="58507"/>
+		<ar pt="2611140700" pp="3" l="RB30" fb="RB30" ppth="Nürnberg Hbf|Nürnberg Ost|Nürnberg-Erlenstegen|Behringersdorf|Rückersdorf(Mfr)|Ludwigshöhe|Lauf(rechts Pegnitz)|Neunkirchen a Sand|Reichenschwand|Hersbruck(r Pegnitz)|Hohenstadt(Mittelfr)|Vorra(Pegnitz)|Rupprechtstegen|Velden(b Hersbruck)"/>
+	</s>
+	<s id="-30992579074242027-2611140632-10">
+		<tl f="N" t="p" o="800759" c="RE" n="3022"/>
+		<ar pt="2611140754" pp="1" l="RE30" fb="RE30" ppth="Hof Hbf|Oberkotzau|Schwarzenbach(Saale)|Münchberg|Stammbach|Marktschorgast|Trebgast|Bayreuth Hbf|Pegnitz"/>
+		<dp pt="2611140755" pp="1" l="RE30" fb="RE30" ppth="Nürnberg Hbf"/>
+	</s>
+	<s id="8458824405240291696-2611140635-3">
+		<tl f="N" t="p" o="800759" c="RE" n="4881"/>
+		<ar pt="2611140705" pp="2" l="RE31" fb="RE31" ppth="Nürnberg Hbf|Hersbruck(r Pegnitz)"/>
+		<dp pt="2611140706" pp="2" l="RE31" fb="RE31" ppth="Pegnitz|Kirchenlaibach|Marktredwitz|Oberkotzau|Hof Hbf"/>
+		<tra t="v" id="9144162646692907449" ref-from="7305454048849270476-2611140635" s="a" o="p"/>
+	</s>
+	<s id="7305454048849270476-2611140635-3">
+		<tl f="N" t="p" o="800759" c="RE" n="5281"/>
+		<ar pt="2611140705" pp="2" l="RE33" fb="RE33" wings="8458824405240291696-2611140635" ppth="Nürnberg Hbf|Hersbruck(r Pegnitz)"/>
+		<dp pt="2611140706" pp="2" l="RE33" fb="RE33" wings="8458824405240291696-2611140635" ppth="Pegnitz|Kirchenlaibach|Marktredwitz|Schirnding|Cheb"/>
+		<tra t="v" id="9144162646692907449" ref-to="8458824405240291696-2611140635" s="a" o="p"/>
+	</s>
+	<s id="-3121175392201138295-2611140701-1">
+		<tl f="N" t="p" o="800720" c="RB" n="58514"/>
+		<dp pt="2611140701" pp="9" l="RB30" fb="RB30" ppth="Velden(b Hersbruck)|Rupprechtstegen|Vorra(Pegnitz)|Hohenstadt(Mittelfr)|Hersbruck(r Pegnitz)|Reichenschwand|Neunkirchen a Sand|Lauf(rechts Pegnitz)|Ludwigshöhe|Rückersdorf(Mfr)|Behringersdorf|Nürnberg-Erlenstegen|Nürnberg Ost|Nürnberg Hbf"/>
+	</s>
+	<s id="-4790081863530784715-2611140702-5">
+		<tl f="N" t="p" o="800759" c="RE" n="3824"/>
+		<ar pt="2611140754" pp="1" l="RE31" fb="RE31" ppth="Marktredwitz|Kirchenlaibach|Schnabelwaid|Pegnitz"/>
+		<dp pt="2611140755" pp="1" l="RE31" fb="RE31" ppth="Nürnberg Hbf"/>
+	</s>
+</timetable>
