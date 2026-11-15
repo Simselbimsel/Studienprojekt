@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<timetable station="Schaftlach">
+	<s id="7796278671815738153-2611152128-7">
+		<tl f="D" t="p" o="T8" c="BRB" n="87033"/>
+		<ar pt="2611152211" pp="1" l="RB57" fb="RB57" ppth="München Hbf Gl.27-36|München Donnersbergerbrücke|München Harras|München-Solln|Holzkirchen|Warngau"/>
+		<dp pt="2611152218" pp="1" l="RB57" fb="RB57" ppth="Moosrain|Finsterwald|Gmund(Tegernsee)|Tegernsee"/>
+		<tra t="v" id="-8390158593855510747" ref-from="198462391292260509-2611152128" s="a" o="p" jt="s"/>
+	</s>
+	<s id="198462391292260509-2611152128-7">
+		<tl f="D" t="p" o="T8" c="BRB" n="87013"/>
+		<ar pt="2611152211" pp="1" l="RB56" fb="RB56" wings="7796278671815738153-2611152128" ppth="München Hbf Gl.27-36|München Donnersbergerbrücke|München Harras|München-Solln|Holzkirchen|Warngau"/>
+		<dp pt="2611152218" pp="1" l="RB56" fb="RB56" ppth="Reichersbeuern|Bad Tölz|Gaißach|Obergries|Lenggries"/>
+		<tra t="v" id="-8390158593855510747" ref-to="7796278671815738153-2611152128" s="a" o="p" jt="s"/>
+	</s>
+	<s id="1405357969631771108-2611152147-6">
+		<tl f="D" t="p" o="T8" c="BRB" n="87018"/>
+		<ar pt="2611152210" pp="2" l="RB56" fb="RB56" ppth="Lenggries|Obergries|Gaißach|Bad Tölz|Reichersbeuern"/>
+		<dp pt="2611152217" pp="2" l="RB56" fb="RB56" wings="2596339773141456012-2611152152" ppth="Warngau|Holzkirchen|München-Solln|München Harras|München Donnersbergerbrücke|München Hbf Gl.27-36"/>
+		<tra t="v" id="-7054582754121500000" ref-to="2596339773141456012-2611152152" s="a" o="p" jt="j"/>
+	</s>
+	<s id="4896160829399635418-2611152150-7">
+		<tl f="D" t="p" o="T8" c="BRB" n="87035"/>
+		<ar pt="2611152245" pp="1" l="RB57" fb="RB57" wings="-1491419381290008235-2611152150" ppth="München Hbf Gl.27-36|München Donnersbergerbrücke|München Harras|München-Solln|Holzkirchen|Warngau"/>
+		<dp pt="2611152248" pp="1" l="RB57" fb="RB57" ppth="Moosrain|Finsterwald|Gmund(Tegernsee)|Tegernsee"/>
+		<tra t="v" id="-7682334754062808897" ref-to="-1491419381290008235-2611152150" s="a" o="p" jt="s"/>
+	</s>
+	<s id="-1491419381290008235-2611152150-7">
+		<tl f="D" t="p" o="T8" c="BRB" n="87015"/>
+		<ar pt="2611152245" pp="1" l="RB56" fb="RB56" ppth="München Hbf Gl.27-36|München Donnersbergerbrücke|München Harras|München-Solln|Holzkirchen|Warngau"/>
+		<dp pt="2611152248" pp="1" l="RB56" fb="RB56" ppth="Reichersbeuern|Bad Tölz|Gaißach|Obergries|Lenggries"/>
+		<tra t="v" id="-7682334754062808897" ref-from="4896160829399635418-2611152150" s="a" o="p" jt="s"/>
+	</s>
+	<s id="2596339773141456012-2611152152-5">
+		<tl f="D" t="p" o="T8" c="BRB" n="87038"/>
+		<ar pt="2611152213" pp="2" l="RB57" fb="RB57" ppth="Tegernsee|Gmund(Tegernsee)|Finsterwald|Moosrain"/>
+		<dp pt="2611152217" pp="2" l="RB57" fb="RB57" ppth="Warngau|Holzkirchen|München-Solln|München Harras|München Donnersbergerbrücke|München Hbf Gl.27-36"/>
+		<tra t="v" id="-7054582754121500000" ref-from="1405357969631771108-2611152147" s="a" o="p" jt="j"/>
+	</s>
+</timetable>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<timetable station="Oldenburg(Oldb)Hbf">
+	<s id="-398130470374677095-2611151444-14">
+		<tl f="F" t="p" o="80" c="IC" n="1934"/>
+		<ar pt="2611152111" pp="4" fb="IC 1934" ppth="Dresden Hbf|Dresden-Neustadt|Riesa|Leipzig Hbf|Bitterfeld|Dessau Hbf|Magdeburg Hbf|Braunschweig Hbf|Hannover Hbf|Nienburg(Weser)|Verden(Aller)|Bremen Hbf|Delmenhorst"/>
+	</s>
+	<s id="5790672125460812679-2611151920-13">
+		<tl f="N" t="p" o="800295" c="RE" n="4430"/>
+		<ar pt="2611152123" pp="7" l="RE1" fb="RE1" ppth="Hannover Hbf|Wunstorf|Neustadt am Rübenberge|Nienburg(Weser)|Eystrup|Dörverden|Verden(Aller)|Achim|Bremen-Mahndorf|Bremen Hbf|Delmenhorst|Hude"/>
+	</s>
+	<s id="4600179935976612948-2611152001-12">
+		<tl f="D" t="p" o="N1" c="NWB" n="75333"/>
+		<ar pt="2611152129" pp="8" l="RE18" fb="RE18" ppth="Osnabrück Hbf|Osnabrück Altstadt|Bramsche|Bersenbrück|Quakenbrück|Essen(Oldb)|Cloppenburg|Ahlhorn|Großenkneten|Huntlosen|Sandkrug"/>
+		<dp pt="2611152136" pp="8" l="RE18" fb="RE18" ppth="Rastede|Jaderberg|Varel(Oldb)|Sande|Wilhelmshaven"/>
+	</s>
+	<s id="4997158513274893626-2611152031-10">
+		<tl f="D" t="p" o="N1" c="NWB" n="83380"/>
+		<ar pt="2611152109" pp="7" l="RS3" fb="RS3" ppth="Bremen Hbf|Bremen Neustadt|Heidkrug|Delmenhorst|Hoykenkamp|Schierbrok|Bookholzberg|Hude|Wüsting"/>
+	</s>
+	<s id="-1480929564094960148-2611152040-6">
+		<tl f="D" t="p" o="N1" c="NWB" n="75332"/>
+		<ar pt="2611152124" pp="4" l="RE18" fb="RE18" ppth="Wilhelmshaven|Sande|Varel(Oldb)|Jaderberg|Rastede"/>
+		<dp pt="2611152129" pp="4" l="RE18" fb="RE18" ppth="Sandkrug|Huntlosen|Großenkneten|Ahlhorn|Cloppenburg|Essen(Oldb)|Quakenbrück|Bersenbrück|Bramsche|Osnabrück Altstadt|Osnabrück Hbf"/>
+	</s>
+	<s id="5748073179237074228-2611152105-1">
+		<tl f="D" t="p" o="N1" c="NWB" n="83397"/>
+		<dp pt="2611152105" pp="3" l="RS30" fb="RS30" ppth="Hude|Delmenhorst|Bremen Hbf"/>
+	</s>
+	<s id="7715848693661637054-2611152126-4">
+		<tl f="D" t="p" o="N1" c="NWB" n="83346"/>
+		<ar pt="2611152153" pp="7" l="RS30" fb="RS30" ppth="Bremen Hbf|Delmenhorst|Hude"/>
+	</s>
+	<s id="-910880629973450174-2611152135-1">
+		<tl f="N" t="p" o="NZ" c="RE" n="52439"/>
+		<dp pt="2611152135" pp="3" l="IC56" fb="RE IC56" wings="-2664705056130827651-2611152135" ppth="Hude|Delmenhorst|Bremen Hbf"/>
+		<tra t="v" id="-7161009522027277592" ref-to="-2664705056130827651-2611152135" s="a" o="p" jt="j"/>
+	</s>
+	<s id="-2664705056130827651-2611152135-1">
+		<tl f="F" t="p" o="80" c="IC" n="2439"/>
+		<dp pt="2611152135" pp="3" fb="IC 2439" ppth="Hude|Delmenhorst|Bremen Hbf"/>
+		<tra t="v" id="-7161009522027277592" ref-from="-910880629973450174-2611152135" s="a" o="p" jt="j"/>
+	</s>
+</timetable>
