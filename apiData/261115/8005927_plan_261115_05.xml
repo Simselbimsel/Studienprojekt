@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<timetable station="Tutzing">
+	<s id="-292493482154266209-2611150504-1">
+		<tl f="S" t="p" o="800725" c="S" n="6007"/>
+		<dp pt="2611150504" pp="2N" l="S6" fb="S6" ppth="Feldafing|Possenhofen|Starnberg|Starnberg Nord|Gauting"/>
+	</s>
+	<s id="-9016439679343331703-2611150532-3">
+		<tl f="N" t="p" o="800790" c="RB" n="59443"/>
+		<ar pt="2611150559" pp="3" l="RB6" fb="RB6" ppth="München Hbf Gl.27-36|München-Pasing"/>
+		<dp pt="2611150601" pp="3" l="RB6" fb="RB6" ppth="Weilheim(Oberbay)|Huglfing|Uffing a Staffelsee|Murnau|Ohlstadt|Eschenlohe|Oberau|Farchant|Garmisch-Partenkirchen"/>
+	</s>
+	<s id="-3988362058891801838-2611150541-2">
+		<tl f="N" t="p" o="800790" c="RB" n="59502"/>
+		<ar pt="2611150551" pp="1" l="RB65" fb="RB65" tra="5786616825773481306-2611150556-1" ppth="Weilheim(Oberbay)"/>
+		<tra t="d" id="4393858951121770491" ref-to="5786616825773481306-2611150556-1" s="a" o="p"/>
+	</s>
+	<s id="-659267053485965342-2611150544-1">
+		<tl f="S" t="p" o="800725" c="S" n="6011"/>
+		<dp pt="2611150544" pp="2N" l="S6" fb="S6" ppth="Feldafing|Possenhofen|Starnberg|Starnberg Nord|Gauting"/>
+	</s>
+	<s id="5786616825773481306-2611150556-1">
+		<tl f="N" t="p" o="800790" c="RB" n="59602"/>
+		<dp pt="2611150556" pp="1" l="RB66" fb="RB66" tra="-3988362058891801838-2611150541-2" ppth="München-Pasing|München Hbf Gl.27-36"/>
+		<tra t="d" id="4393858951121770491" ref-from="-3988362058891801838-2611150541-2" s="a" o="p"/>
+	</s>
+</timetable>
