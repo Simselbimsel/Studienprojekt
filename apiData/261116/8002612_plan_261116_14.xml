@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<timetable station="Hartmannshof">
+	<s id="3794182626854929269-2611161335-9">
+		<tl f="N" t="p" o="800759" c="RE" n="3570"/>
+		<ar pt="2611161450" pp="2" l="RE40" fb="RE40" wings="-381217162976791781-2611161353" ppth="Regensburg Hbf|Regenstauf|Maxhütte-Haidhof|Schwandorf|Amberg|Sulzbach-Rosenberg|Neukirchen(b Sulzb)|Etzelwang"/>
+		<dp pt="2611161451" pp="2" l="RE40" fb="RE40" wings="-381217162976791781-2611161353" ppth="Hersbruck(r Pegnitz)|Reichenschwand|Neunkirchen a Sand|Lauf(rechts Pegnitz)|Ludwigshöhe|Rückersdorf(Mfr)|Behringersdorf|Nürnberg-Erlenstegen|Nürnberg Ost|Nürnberg Hbf"/>
+		<tra t="v" id="-520124132045930441" ref-to="-381217162976791781-2611161353" s="a" o="p"/>
+	</s>
+	<s id="-381217162976791781-2611161353-9">
+		<tl f="N" t="p" o="800759" c="RE" n="3470"/>
+		<ar pt="2611161450" pp="2" l="RE41" fb="RE41" ppth="Neustadt(Waldnaab)|Altenstadt(Waldnaab)|Weiden(Oberpf)|Weiherhammer|Freihung|Vilseck|Neukirchen(b Sulzb)|Etzelwang"/>
+		<dp pt="2611161451" pp="2" l="RE41" fb="RE41" ppth="Hersbruck(r Pegnitz)|Reichenschwand|Neunkirchen a Sand|Lauf(rechts Pegnitz)|Ludwigshöhe|Rückersdorf(Mfr)|Behringersdorf|Nürnberg-Erlenstegen|Nürnberg Ost|Nürnberg Hbf"/>
+		<tra t="v" id="-520124132045930441" ref-from="3794182626854929269-2611161335" s="a" o="p"/>
+	</s>
+	<s id="4118837316179744000-2611161356-2">
+		<tl f="N" t="p" o="800759" c="RE" n="3469"/>
+		<ar pt="2611161403" pp="1" l="RE41" fb="RE41" wings="-2796265696280816460-2611161356" ppth="Hersbruck(r Pegnitz)"/>
+		<dp pt="2611161403" pp="1" l="RE41" fb="RE41" wings="-2796265696280816460-2611161356" ppth="Etzelwang|Neukirchen(b Sulzb)|Vilseck|Freihung|Weiherhammer|Weiden(Oberpf)|Altenstadt(Waldnaab)|Neustadt(Waldnaab)"/>
+		<tra t="v" id="6522173331589108132" ref-to="-2796265696280816460-2611161356" s="a" o="p"/>
+	</s>
+	<s id="-2796265696280816460-2611161356-2">
+		<tl f="N" t="p" o="800759" c="RE" n="3569"/>
+		<ar pt="2611161403" pp="1" l="RE40" fb="RE40" ppth="Hersbruck(r Pegnitz)"/>
+		<dp pt="2611161403" pp="1" l="RE40" fb="RE40" ppth="Etzelwang|Neukirchen(b Sulzb)|Sulzbach-Rosenberg|Amberg|Schwandorf|Maxhütte-Haidhof|Regenstauf|Regensburg Hbf"/>
+		<tra t="v" id="6522173331589108132" ref-from="4118837316179744000-2611161356" s="a" o="p"/>
+	</s>
+</timetable>

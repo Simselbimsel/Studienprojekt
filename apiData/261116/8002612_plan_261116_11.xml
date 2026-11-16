@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<timetable station="Hartmannshof">
+	<s id="-1153390410654663658-2611161040-9">
+		<tl f="N" t="p" o="800759" c="RE" n="3564"/>
+		<ar pt="2611161150" pp="2" l="RE40" fb="RE40" wings="2135314209410643650-2611161053" ppth="Regensburg Hbf|Regenstauf|Maxhütte-Haidhof|Schwandorf|Amberg|Sulzbach-Rosenberg|Neukirchen(b Sulzb)|Etzelwang"/>
+		<dp pt="2611161151" pp="2" l="RE40" fb="RE40" wings="2135314209410643650-2611161053" ppth="Hersbruck(r Pegnitz)"/>
+		<tra t="v" id="-5727668116072164296" ref-to="2135314209410643650-2611161053" s="a" o="p"/>
+	</s>
+	<s id="2135314209410643650-2611161053-9">
+		<tl f="N" t="p" o="800759" c="RE" n="3464"/>
+		<ar pt="2611161150" pp="2" l="RE41" fb="RE41" ppth="Neustadt(Waldnaab)|Altenstadt(Waldnaab)|Weiden(Oberpf)|Weiherhammer|Freihung|Vilseck|Neukirchen(b Sulzb)|Etzelwang"/>
+		<dp pt="2611161151" pp="2" l="RE41" fb="RE41" ppth="Hersbruck(r Pegnitz)"/>
+		<tra t="v" id="-5727668116072164296" ref-from="-1153390410654663658-2611161040" s="a" o="p"/>
+	</s>
+	<s id="-213442605808460911-2611161056-2">
+		<tl f="N" t="p" o="800759" c="RE" n="3463"/>
+		<ar pt="2611161103" pp="1" l="RE41" fb="RE41" wings="-5522314005911897548-2611161056" ppth="Hersbruck(r Pegnitz)"/>
+		<dp pt="2611161103" pp="1" l="RE41" fb="RE41" wings="-5522314005911897548-2611161056" ppth="Etzelwang|Neukirchen(b Sulzb)|Vilseck|Freihung|Weiherhammer|Weiden(Oberpf)|Altenstadt(Waldnaab)|Neustadt(Waldnaab)"/>
+		<tra t="v" id="2294488629245566344" ref-to="-5522314005911897548-2611161056" s="a" o="p"/>
+	</s>
+	<s id="-5522314005911897548-2611161056-2">
+		<tl f="N" t="p" o="800759" c="RE" n="3563"/>
+		<ar pt="2611161103" pp="1" l="RE40" fb="RE40" ppth="Hersbruck(r Pegnitz)"/>
+		<dp pt="2611161103" pp="1" l="RE40" fb="RE40" ppth="Etzelwang|Neukirchen(b Sulzb)|Sulzbach-Rosenberg|Amberg|Schwandorf|Maxhütte-Haidhof|Regenstauf|Regensburg Hbf"/>
+		<tra t="v" id="2294488629245566344" ref-from="-213442605808460911-2611161056" s="a" o="p"/>
+	</s>
+</timetable>
