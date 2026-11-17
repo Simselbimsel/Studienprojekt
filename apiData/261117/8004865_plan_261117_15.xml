@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<timetable station="Poppenhausen">
+	<s id="-794336387285307477-2611171506-4">
+		<tl f="D" t="p" o="EB" c="EB" n="80688"/>
+		<ar pt="2611171524" pp="1" l="RB40" fb="RB40" wings="-4943773939934460245-2611171506" ppth="Schweinfurt Stadt|Schweinfurt Mitte|Schweinfurt Hbf"/>
+		<dp pt="2611171525" pp="1" l="RB40" fb="RB40" wings="-4943773939934460245-2611171506" ppth="Ebenhausen(Unterfr)"/>
+		<tra t="v" id="-1091079805830558049" ref-to="-4943773939934460245-2611171506" s="a" o="p"/>
+	</s>
+	<s id="-4943773939934460245-2611171506-4">
+		<tl f="D" t="p" o="EB" c="EB" n="80748"/>
+		<ar pt="2611171524" pp="1" l="RB40" fb="RB40" ppth="Schweinfurt Stadt|Schweinfurt Mitte|Schweinfurt Hbf"/>
+		<dp pt="2611171525" pp="1" l="RB40" fb="RB40" ppth="Ebenhausen(Unterfr)|Rottershausen|Münnerstadt|Burglauer|Bad Neustadt(Saale)|Mellrichstadt Bf|Rentwertshausen|Bibra|Wölfershausen|Grimmenthal|Untermaßfeld|Meiningen"/>
+		<tra t="v" id="-1091079805830558049" ref-from="-794336387285307477-2611171506" s="a" o="p"/>
+	</s>
+	<s id="-8195734253187818683-2611171530-2">
+		<tl f="D" t="p" o="EB" c="EB" n="80691"/>
+		<ar pt="2611171533" pp="1" l="RB50" fb="RB50" ppth="Ebenhausen(Unterfr)"/>
+		<dp pt="2611171534" pp="1" l="RB50" fb="RB50" ppth="Oberwerrn|Schweinfurt Hbf|Schweinfurt Mitte|Schweinfurt Stadt"/>
+	</s>
+	<s id="8154628200995523432-2611171543-3">
+		<tl f="D" t="p" o="EB" c="EB" n="80720"/>
+		<ar pt="2611171551" pp="1" l="RB50" fb="RB50" ppth="Schweinfurt Hbf|Oberwerrn"/>
+		<dp pt="2611171552" pp="1" l="RB50" fb="RB50" ppth="Ebenhausen(Unterfr)"/>
+		<tra t="v" id="4304378394352697611" ref-from="-7745679464259084100-2611171543" s="a" o="p"/>
+	</s>
+	<s id="-7745679464259084100-2611171543-3">
+		<tl f="D" t="p" o="EB" c="EB" n="80750"/>
+		<ar pt="2611171551" pp="1" l="RB40" fb="RB40" wings="8154628200995523432-2611171543" ppth="Schweinfurt Hbf|Oberwerrn"/>
+		<dp pt="2611171552" pp="1" l="RB40" fb="RB40" wings="8154628200995523432-2611171543" ppth="Ebenhausen(Unterfr)|Rottershausen|Münnerstadt|Burglauer|Bad Neustadt(Saale)|Mellrichstadt Bf"/>
+		<tra t="v" id="4304378394352697611" ref-to="8154628200995523432-2611171543" s="a" o="p"/>
+	</s>
+</timetable>
