@@ -1,0 +1,63 @@
+<?xml version="1.0" ?>
+<timetable station="Ebenhausen(Unterfr)">
+	<s id="6640210071275454214-2611181324-11">
+		<tl f="N" t="p" o="8004NT" c="RE" n="3761"/>
+		<ar pt="2611181512" pp="3" l="RE7" fb="RE7" ppth="Erfurt Hbf|Neudietendorf|Arnstadt Hbf|Plaue(Thür)|Zella-Mehlis|Suhl|Grimmenthal|Mellrichstadt Bf|Bad Neustadt(Saale)|Münnerstadt"/>
+		<dp pt="2611181517" pp="3" l="RE7" fb="RE7" ppth="Schweinfurt Hbf|Würzburg Hbf"/>
+	</s>
+	<s id="6099623163429289378-2611181409-9">
+		<tl t="p" o="EB" c="Bus" n="60691"/>
+		<ar pt="2611181519" pp="" l="RB50" fb="Bus RB50" wings="-5717035228006359009-2611181505" ppth="Gemünden(Main)|Hammelburg|Hammelburg Ost|Westheim-Langendorf|Elfershausen-Trimberg|Euerdorf|Bad Kissingen|Oerlenbach"/>
+		<tra t="v" id="-6591617518748865836" ref-to="-5717035228006359009-2611181505" s="a" o="p" jt="s"/>
+	</s>
+	<s id="-5717035228006359009-2611181505-3">
+		<tl t="p" o="EB" c="Bus" n="61691"/>
+		<ar pt="2611181519" pp="" l="RB50" fb="Bus RB50" ppth="Bad Kissingen|Oerlenbach"/>
+		<tra t="v" id="-6591617518748865836" ref-from="6099623163429289378-2611181409" s="a" o="p" jt="s"/>
+	</s>
+	<s id="-794336387285307477-2611181506-5">
+		<tl f="D" t="p" o="EB" c="EB" n="80688"/>
+		<ar pt="2611181528" pp="4" l="RB40" fb="RB40" ppth="Schweinfurt Stadt|Schweinfurt Mitte|Schweinfurt Hbf|Poppenhausen"/>
+		<tra t="v" id="-8968552367149799012" ref-from="-4943773939934460245-2611181506" s="a" o="p" jt="s"/>
+	</s>
+	<s id="-4943773939934460245-2611181506-5">
+		<tl f="D" t="p" o="EB" c="EB" n="80748"/>
+		<ar pt="2611181528" pp="4" l="RB40" fb="RB40" wings="-794336387285307477-2611181506" ppth="Schweinfurt Stadt|Schweinfurt Mitte|Schweinfurt Hbf|Poppenhausen"/>
+		<dp pt="2611181532" pp="4" l="RB40" fb="RB40" ppth="Rottershausen|Münnerstadt|Burglauer|Bad Neustadt(Saale)|Mellrichstadt Bf|Rentwertshausen|Bibra|Wölfershausen|Grimmenthal|Untermaßfeld|Meiningen"/>
+		<tra t="v" id="-8968552367149799012" ref-to="-794336387285307477-2611181506" s="a" o="p" jt="s"/>
+	</s>
+	<s id="-8195734253187818683-2611181530-1">
+		<tl f="D" t="p" o="EB" c="EB" n="80691"/>
+		<dp pt="2611181530" pp="3" l="RB50" fb="RB50" ppth="Poppenhausen|Oberwerrn|Schweinfurt Hbf|Schweinfurt Mitte|Schweinfurt Stadt"/>
+	</s>
+	<s id="1470497938209647267-2611181535-3">
+		<tl t="p" o="EB" c="Bus" n="60715"/>
+		<ar pt="2611181549" pp="" l="RB50" fb="Bus RB50" ppth="Bad Kissingen|Oerlenbach"/>
+	</s>
+	<s id="4886407807396658066-2611181535-1">
+		<tl t="p" o="EB" c="Bus" n="61688"/>
+		<dp pt="2611181535" pp="" l="RB50" fb="Bus RB50" ppth="Oerlenbach|Bad Kissingen"/>
+		<tra t="v" id="4003615816120432888" ref-from="8164840113135557398-2611181535" s="a" o="p" jt="j"/>
+	</s>
+	<s id="1630050952775709166-2611181535-5">
+		<tl f="D" t="p" o="EB" c="EB" n="80749"/>
+		<ar pt="2611181554" pp="3" l="RB40" fb="RB40" ppth="Bad Neustadt(Saale)|Burglauer|Münnerstadt|Rottershausen"/>
+		<dp pt="2611181600" pp="3" l="RB40" fb="RB40" ppth="Poppenhausen|Oberwerrn|Schweinfurt Hbf"/>
+	</s>
+	<s id="8164840113135557398-2611181535-1">
+		<tl t="p" o="EB" c="Bus" n="60688"/>
+		<dp pt="2611181535" pp="" l="RB50" fb="Bus RB50" wings="4886407807396658066-2611181535" ppth="Oerlenbach|Bad Kissingen|Euerdorf|Elfershausen-Trimberg|Westheim-Langendorf|Hammelburg Ost|Hammelburg|Gemünden(Main)"/>
+		<tra t="v" id="4003615816120432888" ref-to="4886407807396658066-2611181535" s="a" o="p" jt="j"/>
+	</s>
+	<s id="8154628200995523432-2611181543-4">
+		<tl f="D" t="p" o="EB" c="EB" n="80720"/>
+		<ar pt="2611181555" pp="4" l="RB50" fb="RB50" wings="-7745679464259084100-2611181543" ppth="Schweinfurt Hbf|Oberwerrn|Poppenhausen"/>
+		<tra t="v" id="-3659189660120873651" ref-to="-7745679464259084100-2611181543" s="a" o="p" jt="s"/>
+	</s>
+	<s id="-7745679464259084100-2611181543-4">
+		<tl f="D" t="p" o="EB" c="EB" n="80750"/>
+		<ar pt="2611181555" pp="4" l="RB40" fb="RB40" ppth="Schweinfurt Hbf|Oberwerrn|Poppenhausen"/>
+		<dp pt="2611181603" pp="4" l="RB40" fb="RB40" ppth="Rottershausen|Münnerstadt|Burglauer|Bad Neustadt(Saale)|Mellrichstadt Bf"/>
+		<tra t="v" id="-3659189660120873651" ref-from="8154628200995523432-2611181543" s="a" o="p" jt="s"/>
+	</s>
+</timetable>
