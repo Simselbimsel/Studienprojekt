@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<timetable station="Pegnitz">
+	<s id="3609530714976155057-2611191246-14">
+		<tl f="N" t="p" o="800759" c="RE" n="3406"/>
+		<ar pt="2611191443" pp="2" l="RE30" fb="RE30" ppth="Bamberg|Lichtenfels|Hochstadt-Marktzeuln|Burgkunstadt|Kulmbach|Untersteinach(b Stadtsteinach)|Neuenmarkt-Wirsberg|Trebgast|Harsdorf|Bindlach|Bayreuth Hbf|Creußen(Oberfr)|Schnabelwaid"/>
+		<dp pt="2611191445" pp="2" l="RE30" fb="RE30" ppth="Neuhaus(Pegnitz)|Nürnberg Hbf"/>
+	</s>
+	<s id="154608193161084763-2611191337-3">
+		<tl f="N" t="p" o="800759" c="RE" n="3829"/>
+		<ar pt="2611191414" pp="1" l="RE31" fb="RE31" ppth="Nürnberg Hbf|Neuhaus(Pegnitz)"/>
+		<dp pt="2611191420" pp="1" l="RE31" fb="RE31" ppth="Kirchenlaibach|Marktredwitz"/>
+		<tra t="v" id="1392698637785428364" ref-from="-1283791038203390465-2611191337" s="a" o="p" jt="s"/>
+	</s>
+	<s id="-1283791038203390465-2611191337-3">
+		<tl f="N" t="p" o="800759" c="RE" n="3029"/>
+		<ar pt="2611191414" pp="1" l="RE30" fb="RE30" wings="154608193161084763-2611191337" ppth="Nürnberg Hbf|Neuhaus(Pegnitz)"/>
+		<dp pt="2611191416" pp="1" l="RE30" fb="RE30" ppth="Bayreuth Hbf|Trebgast|Münchberg|Hof Hbf"/>
+		<tra t="v" id="1392698637785428364" ref-to="154608193161084763-2611191337" s="a" o="p" jt="s"/>
+	</s>
+	<s id="-8659576255508072332-2611191404-2">
+		<tl f="N" t="p" o="800759" c="RE" n="3424"/>
+		<ar pt="2611191417" pp="2" l="RE32" fb="RE32" ppth="Bayreuth Hbf"/>
+		<dp pt="2611191418" pp="2" l="RE32" fb="RE32" ppth="Hersbruck(r Pegnitz)|Nürnberg Hbf"/>
+	</s>
+	<s id="-6289128948796429498-2611191405-3">
+		<tl f="N" t="p" o="800759" c="RE" n="3441"/>
+		<ar pt="2611191442" pp="1" l="RE38" fb="RE38" ppth="Nürnberg Hbf|Hersbruck(r Pegnitz)"/>
+		<dp pt="2611191443" pp="1" l="RE38" fb="RE38" ppth="Creußen(Oberfr)|Bayreuth Hbf|Harsdorf|Trebgast|Neuenmarkt-Wirsberg|Untersteinach(b Stadtsteinach)|Kulmbach|Burgkunstadt|Lichtenfels|Bamberg"/>
+	</s>
+	<s id="3084535566811326342-2611191407-3">
+		<tl f="N" t="p" o="800759" c="RE" n="5286"/>
+		<ar pt="2611191438" pp="2" l="RE33" fb="RE33" ppth="Marktredwitz|Kirchenlaibach"/>
+		<dp pt="2611191445" pp="2" l="RE33" fb="RE33" ppth="Neuhaus(Pegnitz)|Nürnberg Hbf"/>
+	</s>
+</timetable>
