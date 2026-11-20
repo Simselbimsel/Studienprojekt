@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<timetable station="Farchant">
+	<s id="-423114635871820505-2611201207-2">
+		<tl f="N" t="p" o="800790" c="RB" n="59450"/>
+		<ar pt="2611201210" pp="1" l="RB6" fb="RB6" ppth="Garmisch-Partenkirchen"/>
+		<dp pt="2611201211" pp="1" l="RB6" fb="RB6" ppth="Oberau|Eschenlohe"/>
+	</s>
+	<s id="7567492008480624169-2611201238-3">
+		<tl f="N" t="p" o="800790" c="RB" n="5419"/>
+		<ar pt="2611201247" pp="1" l="RB6" fb="RB6" ppth="Eschenlohe|Oberau"/>
+		<dp pt="2611201248" pp="1" l="RB6" fb="RB6" ppth="Garmisch-Partenkirchen|Klais|Mittenwald"/>
+		<tra t="v" id="8335141385020701843" ref-from="3528390202476889114-2611201238" s="a" o="p"/>
+	</s>
+	<s id="3528390202476889114-2611201238-3">
+		<tl f="N" t="p" o="800790" c="RB" n="5516"/>
+		<ar pt="2611201247" pp="1" l="RB60" fb="RB60" wings="7567492008480624169-2611201238" ppth="Eschenlohe|Oberau"/>
+		<dp pt="2611201248" pp="1" l="RB60" fb="RB60" wings="7567492008480624169-2611201238" pde="Pfronten-Steinach" ppth="Garmisch-Partenkirchen|Garmisch-Partenkirchen Hausberg|Untergrainau|Ehrwald Zugspitzbahn"/>
+		<tra t="v" id="8335141385020701843" ref-to="7567492008480624169-2611201238" s="a" o="p"/>
+	</s>
+</timetable>

@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<timetable station="Stockstadt(Main)">
+	<s id="3340805621414303185-2611201337-18">
+		<tl f="D" t="p" o="K4RB" c="HLB" n="24519"/>
+		<ar pt="2611201505" pp="2" l="RB75" fb="RB75" ppth="Wiesbaden Hbf|Mainz Hbf|Mainz Römisches Theater|Mainz-Gustavsburg|Mainz-Bischofsheim|Nauheim(b Gr.Gerau)|Groß Gerau|Klein Gerau|Weiterstadt|Darmstadt Hbf|Darmstadt Nord|Darmstadt-Kranichstein|Messel|Dieburg|Altheim(Hess)|Hergershausen|Babenhausen(Hess)"/>
+	</s>
+	<s id="2955097349153005247-2611201507-1">
+		<tl f="D" t="p" o="K4RB" c="HLB" n="63569"/>
+		<dp pt="2611201507" pp="2" l="RB75" fb="RB75" pde="Rüsselsheim Opelwerk" ppth="Kleinostheim"/>
+	</s>
+	<s id="4302483787708135219-2611201546-2">
+		<tl f="D" t="p" o="K4RB" c="HLB" n="63574"/>
+		<ar pt="2611201550" pp="1" l="RB75" fb="RB75" tra="-2631022547791602379-2611201553-1" ppth="Kleinostheim"/>
+		<tra t="d" id="6937366876989926899" ref-to="-2631022547791602379-2611201553-1" s="a" o="p"/>
+	</s>
+	<s id="-2631022547791602379-2611201553-1">
+		<tl f="D" t="p" o="K4RB" c="HLB" n="24524"/>
+		<dp pt="2611201553" pp="1" l="RB75" fb="RB75" tra="4302483787708135219-2611201546-2" ppth="Babenhausen(Hess)|Hergershausen|Altheim(Hess)|Dieburg|Messel|Darmstadt-Kranichstein|Darmstadt Nord|Darmstadt Hbf|Weiterstadt|Klein Gerau|Groß Gerau|Nauheim(b Gr.Gerau)|Mainz-Bischofsheim|Mainz-Gustavsburg|Mainz Römisches Theater|Mainz Hbf|Wiesbaden Hbf"/>
+		<tra t="d" id="6937366876989926899" ref-from="4302483787708135219-2611201546-2" s="a" o="p"/>
+	</s>
+</timetable>

@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<timetable station="Aschaffenburg Hbf">
+	<s id="6047360059282487150-2611201403-15">
+		<tl f="N" t="p" o="800603" c="RE" n="23390"/>
+		<ar pt="2611201535" pp="4" l="RE87" fb="RE87" ppth="Wertheim|Wertheim-Bestenheid|Hasloch(Main)|Faulbach(Main)|Stadtprozelten|Dorfprozelten|Collenberg|Freudenberg-Kirschfurt|Miltenberg|Klingenberg(Main)|Erlenbach(Main)|Obernburg-Elsenfeld|Kleinwallstadt|Aschaffenburg Süd"/>
+	</s>
+	<s id="-7548623543593000837-2611201417-14">
+		<tl f="N" t="p" o="800603" c="RB" n="23322"/>
+		<ar pt="2611201504" pp="4" l="RB88" fb="RB88" ppth="Miltenberg|Kleinheubach|Laudenbach am Main|Klingenberg(Main)|Wörth(Main)|Erlenbach(Main)|Glanzstoffwerke|Obernburg-Elsenfeld|Kleinwallstadt|Sulzbach(Main)|Obernau|Aschaffenburg Süd|Aschaffenburg Hochschule"/>
+	</s>
+	<s id="-5744901768056033219-2611201525-1">
+		<tl f="N" t="p" o="800603" c="RE" n="23535"/>
+		<dp pt="2611201525" pp="3" l="RB84" fb="RB84" wings="-1911271497706801982-2611201525" pde="Walldürn" ppth="Obernburg-Elsenfeld|Erlenbach(Main)|Klingenberg(Main)|Miltenberg"/>
+		<tra t="v" id="5848972976950676820" ref-to="-1911271497706801982-2611201525" s="a" o="p" jt="j"/>
+	</s>
+	<s id="-1911271497706801982-2611201525-1">
+		<tl f="N" t="p" o="800603" c="RE" n="4393"/>
+		<dp pt="2611201525" pp="3" l="RE87" fb="RE87" ppth="Obernburg-Elsenfeld|Erlenbach(Main)|Klingenberg(Main)|Miltenberg|Freudenberg-Kirschfurt|Collenberg|Dorfprozelten|Stadtprozelten|Faulbach(Main)|Hasloch(Main)|Wertheim-Bestenheid|Wertheim"/>
+		<tra t="v" id="5848972976950676820" ref-from="-5744901768056033219-2611201525" s="a" o="p" jt="j"/>
+	</s>
+	<s id="-1426949319941562590-2611201554-1">
+		<tl f="N" t="p" o="800603" c="RB" n="23321"/>
+		<dp pt="2611201554" pp="4" l="RB88" fb="RB88" ppth="Aschaffenburg Hochschule|Aschaffenburg Süd|Obernau|Sulzbach(Main)|Kleinwallstadt|Obernburg-Elsenfeld|Glanzstoffwerke|Erlenbach(Main)|Wörth(Main)|Klingenberg(Main)|Laudenbach am Main|Kleinheubach|Miltenberg"/>
+	</s>
+</timetable>

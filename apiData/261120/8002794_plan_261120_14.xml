@@ -1,0 +1,56 @@
+<?xml version="1.0" ?>
+<timetable station="Hersbruck(r Pegnitz)">
+	<s id="-3898464278695931992-2611201320-10">
+		<tl f="N" t="p" o="800720" c="RB" n="58531"/>
+		<ar pt="2611201404" pp="2" l="RB30" fb="RB30" ppth="Nürnberg Hbf|Nürnberg Ost|Nürnberg-Erlenstegen|Behringersdorf|Rückersdorf(Mfr)|Ludwigshöhe|Lauf(rechts Pegnitz)|Neunkirchen a Sand|Reichenschwand"/>
+	</s>
+	<s id="3794182626854929269-2611201335-10">
+		<tl f="N" t="p" o="800759" c="RE" n="3570"/>
+		<ar pt="2611201458" pp="3" l="RE40" fb="RE40" wings="-381217162976791781-2611201353" ppth="Regensburg Hbf|Regenstauf|Maxhütte-Haidhof|Schwandorf|Amberg|Sulzbach-Rosenberg|Neukirchen(b Sulzb)|Etzelwang|Hartmannshof"/>
+		<dp pt="2611201459" pp="3" l="RE40" fb="RE40" wings="-381217162976791781-2611201353" ppth="Nürnberg Hbf"/>
+		<tra t="v" id="3749452052548119987" ref-to="-381217162976791781-2611201353" s="a" o="p"/>
+	</s>
+	<s id="-381217162976791781-2611201353-10">
+		<tl f="N" t="p" o="800759" c="RE" n="3470"/>
+		<ar pt="2611201458" pp="3" l="RE41" fb="RE41" ppth="Neustadt(Waldnaab)|Altenstadt(Waldnaab)|Weiden(Oberpf)|Weiherhammer|Freihung|Vilseck|Neukirchen(b Sulzb)|Etzelwang|Hartmannshof"/>
+		<dp pt="2611201459" pp="3" l="RE41" fb="RE41" ppth="Nürnberg Hbf"/>
+		<tra t="v" id="3749452052548119987" ref-from="3794182626854929269-2611201335" s="a" o="p"/>
+	</s>
+	<s id="7428949957882059488-2611201401-6">
+		<tl f="N" t="p" o="800720" c="RB" n="58530"/>
+		<ar pt="2611201420" pp="3" l="RB30" fb="RB30" ppth="Neuhaus(Pegnitz)|Velden(b Hersbruck)|Rupprechtstegen|Vorra(Pegnitz)|Hohenstadt(Mittelfr)"/>
+		<dp pt="2611201421" pp="3" l="RB30" fb="RB30" ppth="Reichenschwand|Neunkirchen a Sand|Lauf(rechts Pegnitz)|Rückersdorf(Mfr)|Nürnberg-Erlenstegen|Nürnberg Ost|Nürnberg Hbf"/>
+	</s>
+	<s id="-8659576255508072332-2611201404-3">
+		<tl f="N" t="p" o="800759" c="RE" n="3424"/>
+		<ar pt="2611201439" pp="3" l="RE32" fb="RE32" ppth="Bayreuth Hbf|Pegnitz"/>
+		<dp pt="2611201440" pp="3" l="RE32" fb="RE32" ppth="Nürnberg Hbf"/>
+	</s>
+	<s id="3545157517623841687-2611201405-2">
+		<tl f="N" t="p" o="800759" c="RE" n="3497"/>
+		<ar pt="2611201419" pp="2" l="RE40" fb="RE40" ppth="Nürnberg Hbf"/>
+		<dp pt="2611201425" pp="2" l="RE40" fb="RE40" ppth="Hartmannshof|Etzelwang|Neukirchen(b Sulzb)|Sulzbach-Rosenberg|Amberg|Schwandorf"/>
+	</s>
+	<s id="-6289128948796429498-2611201405-2">
+		<tl f="N" t="p" o="800759" c="RE" n="3441"/>
+		<ar pt="2611201419" pp="2" l="RE38" fb="RE38" ppth="Nürnberg Hbf"/>
+		<dp pt="2611201421" pp="2" l="RE38" fb="RE38" ppth="Pegnitz|Creußen(Oberfr)|Bayreuth Hbf|Harsdorf|Trebgast|Neuenmarkt-Wirsberg|Untersteinach(b Stadtsteinach)|Kulmbach|Burgkunstadt|Lichtenfels|Bamberg"/>
+	</s>
+	<s id="-5774075967803210103-2611201408-10">
+		<tl f="N" t="p" o="800720" c="RB" n="58533"/>
+		<ar pt="2611201439" pp="2" l="RB30" fb="RB30" ppth="Nürnberg Hbf|Nürnberg Ost|Nürnberg-Erlenstegen|Behringersdorf|Rückersdorf(Mfr)|Ludwigshöhe|Lauf(rechts Pegnitz)|Neunkirchen a Sand|Reichenschwand"/>
+		<dp pt="2611201439" pp="2" l="RB30" fb="RB30" ppth="Hohenstadt(Mittelfr)|Vorra(Pegnitz)|Rupprechtstegen|Velden(b Hersbruck)|Neuhaus(Pegnitz)"/>
+	</s>
+	<s id="-6991929650772025023-2611201440-2">
+		<tl f="N" t="p" o="800759" c="RE" n="3471"/>
+		<ar pt="2611201455" pp="2" l="RE41" fb="RE41" ppth="Nürnberg Hbf"/>
+		<dp pt="2611201456" pp="2" l="RE41" fb="RE41" ppth="Hartmannshof|Etzelwang|Neukirchen(b Sulzb)|Vilseck|Freihung|Weiherhammer|Weiden(Oberpf)|Altenstadt(Waldnaab)|Neustadt(Waldnaab)"/>
+		<tra t="v" id="5234325839987773447" ref-from="441453160354953664-2611201440" s="a" o="p"/>
+	</s>
+	<s id="441453160354953664-2611201440-2">
+		<tl f="N" t="p" o="800759" c="RE" n="3571"/>
+		<ar pt="2611201455" pp="2" l="RE40" fb="RE40" wings="-6991929650772025023-2611201440" ppth="Nürnberg Hbf"/>
+		<dp pt="2611201456" pp="2" l="RE40" fb="RE40" wings="-6991929650772025023-2611201440" ppth="Hartmannshof|Etzelwang|Neukirchen(b Sulzb)|Sulzbach-Rosenberg|Amberg|Schwandorf|Maxhütte-Haidhof|Regenstauf|Regensburg Hbf"/>
+		<tra t="v" id="5234325839987773447" ref-to="-6991929650772025023-2611201440" s="a" o="p"/>
+	</s>
+</timetable>

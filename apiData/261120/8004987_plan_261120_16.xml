@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<timetable station="Regenstauf">
+	<s id="441453160354953664-2611201440-10">
+		<tl f="N" t="p" o="800759" c="RE" n="3571"/>
+		<ar pt="2611201609" pp="3" l="RE40" fb="RE40" ppth="Nürnberg Hbf|Hersbruck(r Pegnitz)|Hartmannshof|Etzelwang|Neukirchen(b Sulzb)|Sulzbach-Rosenberg|Amberg|Schwandorf|Maxhütte-Haidhof"/>
+		<dp pt="2611201610" pp="3" l="RE40" fb="RE40" ppth="Regensburg Hbf"/>
+	</s>
+	<s id="2000508856615927072-2611201624-2">
+		<tl f="N" t="p" o="800759" c="RE" n="3496"/>
+		<ar pt="2611201634" pp="1" l="RE2" fb="RE2" wings="2448653897576051884-2611201624" ppth="Regensburg Hbf"/>
+		<dp pt="2611201635" pp="1" l="RE2" fb="RE2" wings="2448653897576051884-2611201624" ppth="Maxhütte-Haidhof|Schwandorf|Weiden(Oberpf)|Wiesau(Oberpf)|Marktredwitz"/>
+		<tra t="v" id="-6773319835703538285" ref-to="2448653897576051884-2611201624" s="a" o="p"/>
+	</s>
+	<s id="2448653897576051884-2611201624-2">
+		<tl f="N" t="p" o="800759" c="RE" n="3576"/>
+		<ar pt="2611201634" pp="1" l="RE40" fb="RE40" ppth="Regensburg Hbf"/>
+		<dp pt="2611201635" pp="1" l="RE40" fb="RE40" ppth="Maxhütte-Haidhof|Schwandorf|Amberg|Sulzbach-Rosenberg|Neukirchen(b Sulzb)|Etzelwang|Hartmannshof|Hersbruck(r Pegnitz)|Nürnberg Hbf"/>
+		<tra t="v" id="-6773319835703538285" ref-from="2000508856615927072-2611201624" s="a" o="p"/>
+	</s>
+</timetable>

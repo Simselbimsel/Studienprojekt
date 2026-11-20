@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<timetable station="Kleinostheim">
+	<s id="-7656958662590045592-2611201133-17">
+		<tl f="D" t="p" o="K4RB" c="HLB" n="24327"/>
+		<ar pt="2611201241" pp="1" l="RB58" fb="RB58" ppth="Rüsselsheim Opelwerk|Rüsselsheim|Frankfurt(M) Flughafen Fernbf|Frankfurt(Main)Süd|Frankfurt(Main)Ost|Frankfurt-Mainkur|Maintal West|Maintal Ost|Hanau-Wilhelmsbad|Hanau West|Hanau Hbf|Großauheim(Kr Hanau)|Großkrotzenburg|Kahl(Main)|Dettingen(Main)|Rückersbacher Schlucht"/>
+	</s>
+	<s id="2732743995215192790-2611201207-2">
+		<tl f="D" t="p" o="K4RB" c="HLB" n="63563"/>
+		<ar pt="2611201212" pp="3" l="RB75" fb="RB75" tra="3279609569973020503-2611201215-1" ppth="Stockstadt(Main)"/>
+		<tra t="d" id="-5735429874384650990" ref-to="3279609569973020503-2611201215-1" s="a" o="p"/>
+	</s>
+	<s id="3279609569973020503-2611201215-1">
+		<tl f="D" t="p" o="K4RB" c="HLB" n="24338"/>
+		<dp pt="2611201215" pp="2" l="RB58" fb="RB58" tra="2732743995215192790-2611201207-2" ppth="Rückersbacher Schlucht|Dettingen(Main)|Kahl(Main)|Großkrotzenburg|Großauheim(Kr Hanau)|Hanau Hbf|Hanau West|Hanau-Wilhelmsbad|Maintal Ost|Maintal West|Frankfurt-Mainkur|Frankfurt(Main)Ost|Frankfurt(Main)Süd|Frankfurt(M) Flughafen Fernbf|Rüsselsheim|Rüsselsheim Opelwerk"/>
+		<tra t="d" id="-5735429874384650990" ref-from="2732743995215192790-2611201207-2" s="a" o="p"/>
+	</s>
+	<s id="8906990705420263277-2611201246-1">
+		<tl f="D" t="p" o="K4RB" c="HLB" n="63568"/>
+		<dp pt="2611201246" pp="3" l="RB75" fb="RB75" pde="Wiesbaden Hbf" ppth="Stockstadt(Main)"/>
+	</s>
+</timetable>
