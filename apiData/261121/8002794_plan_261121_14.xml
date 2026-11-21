@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<timetable station="Hersbruck(r Pegnitz)">
+	<s id="3794182626854929269-2611211335-10">
+		<tl f="N" t="p" o="800759" c="RE" n="3570"/>
+		<ar pt="2611211458" pp="3" l="RE40" fb="RE40" wings="-381217162976791781-2611211353" ppth="Regensburg Hbf|Regenstauf|Maxhütte-Haidhof|Schwandorf|Amberg|Sulzbach-Rosenberg|Neukirchen(b Sulzb)|Etzelwang|Hartmannshof"/>
+		<dp pt="2611211459" pp="3" l="RE40" fb="RE40" wings="-381217162976791781-2611211353" ppth="Nürnberg Hbf"/>
+		<tra t="v" id="-2482613240992549532" ref-to="-381217162976791781-2611211353" s="a" o="p"/>
+	</s>
+	<s id="-381217162976791781-2611211353-10">
+		<tl f="N" t="p" o="800759" c="RE" n="3470"/>
+		<ar pt="2611211458" pp="3" l="RE41" fb="RE41" ppth="Neustadt(Waldnaab)|Altenstadt(Waldnaab)|Weiden(Oberpf)|Weiherhammer|Freihung|Vilseck|Neukirchen(b Sulzb)|Etzelwang|Hartmannshof"/>
+		<dp pt="2611211459" pp="3" l="RE41" fb="RE41" ppth="Nürnberg Hbf"/>
+		<tra t="v" id="-2482613240992549532" ref-from="3794182626854929269-2611211335" s="a" o="p"/>
+	</s>
+	<s id="2203977915984891453-2611211401-6">
+		<tl f="N" t="p" o="800720" c="RB" n="58532"/>
+		<ar pt="2611211420" pp="3" l="RB30" fb="RB30" ppth="Neuhaus(Pegnitz)|Velden(b Hersbruck)|Rupprechtstegen|Vorra(Pegnitz)|Hohenstadt(Mittelfr)"/>
+		<dp pt="2611211421" pp="3" l="RB30" fb="RB30" ppth="Reichenschwand|Neunkirchen a Sand|Lauf(rechts Pegnitz)|Ludwigshöhe|Rückersdorf(Mfr)|Behringersdorf|Nürnberg-Erlenstegen|Nürnberg Ost|Nürnberg Hbf"/>
+	</s>
+	<s id="-8659576255508072332-2611211404-3">
+		<tl f="N" t="p" o="800759" c="RE" n="3424"/>
+		<ar pt="2611211439" pp="3" l="RE32" fb="RE32" ppth="Bayreuth Hbf|Pegnitz"/>
+		<dp pt="2611211440" pp="3" l="RE32" fb="RE32" ppth="Nürnberg Hbf"/>
+	</s>
+	<s id="-6289128948796429498-2611211405-2">
+		<tl f="N" t="p" o="800759" c="RE" n="3441"/>
+		<ar pt="2611211419" pp="2" l="RE38" fb="RE38" ppth="Nürnberg Hbf"/>
+		<dp pt="2611211421" pp="2" l="RE38" fb="RE38" ppth="Pegnitz|Creußen(Oberfr)|Bayreuth Hbf"/>
+	</s>
+	<s id="-5774075967803210103-2611211408-10">
+		<tl f="N" t="p" o="800720" c="RB" n="58533"/>
+		<ar pt="2611211439" pp="2" l="RB30" fb="RB30" ppth="Nürnberg Hbf|Nürnberg Ost|Nürnberg-Erlenstegen|Behringersdorf|Rückersdorf(Mfr)|Ludwigshöhe|Lauf(rechts Pegnitz)|Neunkirchen a Sand|Reichenschwand"/>
+		<dp pt="2611211439" pp="2" l="RB30" fb="RB30" ppth="Hohenstadt(Mittelfr)|Vorra(Pegnitz)|Rupprechtstegen|Velden(b Hersbruck)|Neuhaus(Pegnitz)"/>
+	</s>
+	<s id="-6991929650772025023-2611211440-2">
+		<tl f="N" t="p" o="800759" c="RE" n="3471"/>
+		<ar pt="2611211455" pp="2" l="RE41" fb="RE41" wings="441453160354953664-2611211440" ppth="Nürnberg Hbf"/>
+		<dp pt="2611211456" pp="2" l="RE41" fb="RE41" wings="441453160354953664-2611211440" ppth="Hartmannshof|Etzelwang|Neukirchen(b Sulzb)|Vilseck|Freihung|Weiherhammer|Weiden(Oberpf)|Altenstadt(Waldnaab)|Neustadt(Waldnaab)"/>
+		<tra t="v" id="3577922080812349025" ref-to="441453160354953664-2611211440" s="a" o="p"/>
+	</s>
+	<s id="441453160354953664-2611211440-2">
+		<tl f="N" t="p" o="800759" c="RE" n="3571"/>
+		<ar pt="2611211455" pp="2" l="RE40" fb="RE40" ppth="Nürnberg Hbf"/>
+		<dp pt="2611211456" pp="2" l="RE40" fb="RE40" ppth="Hartmannshof|Etzelwang|Neukirchen(b Sulzb)|Sulzbach-Rosenberg|Amberg|Schwandorf|Maxhütte-Haidhof|Regenstauf|Regensburg Hbf"/>
+		<tra t="v" id="3577922080812349025" ref-from="-6991929650772025023-2611211440" s="a" o="p"/>
+	</s>
+</timetable>

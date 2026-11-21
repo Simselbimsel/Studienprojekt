@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<timetable station="Eschenlohe">
+	<s id="7389033637485895194-2611211607-4">
+		<tl f="N" t="p" o="800790" c="RB" n="59476"/>
+		<ar pt="2611211620" pp="1" l="RB6" fb="RB6" ppth="Garmisch-Partenkirchen|Farchant|Oberau"/>
+	</s>
+	<s id="4727616872688755737-2611211638-1">
+		<tl f="N" t="p" o="800790" c="RB" n="5526"/>
+		<dp pt="2611211638" pp="1" l="RB60" fb="RB60" wings="7475282189118230659-2611211638" pde="Pfronten-Steinach" ppth="Oberau|Farchant|Garmisch-Partenkirchen|Garmisch-Partenkirchen Hausberg|Untergrainau|Ehrwald Zugspitzbahn"/>
+		<tra t="v" id="-6202605459828884816" ref-to="7475282189118230659-2611211638" s="a" o="p" jt="j"/>
+	</s>
+	<s id="7475282189118230659-2611211638-1">
+		<tl f="N" t="p" o="800790" c="RB" n="5429"/>
+		<dp pt="2611211638" pp="1" l="RB6" fb="RB6" pde="Seefeld in Tirol" ppth="Oberau|Farchant|Garmisch-Partenkirchen|Klais|Mittenwald|Scharnitz"/>
+		<tra t="v" id="-6202605459828884816" ref-from="4727616872688755737-2611211638" s="a" o="p" jt="j"/>
+	</s>
+</timetable>
