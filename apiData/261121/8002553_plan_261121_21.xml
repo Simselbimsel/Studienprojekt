@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<timetable station="Hamburg-Altona">
+	<s id="-6452407069337976676-2611211128-19">
+		<tl f="F" t="p" o="80" c="ICE" n="518"/>
+		<ar pt="2611212131" pp="6" fb="ICE 518" ppth="München Hbf|München-Pasing|Augsburg Hbf|Ulm Hbf|Stuttgart Hbf|Mannheim Hbf|Frankfurt(M) Flughafen Fernbf|Köln Messe/Deutz Gl.11-12|Wuppertal Hbf|Hagen Hbf|Dortmund Hbf|Münster(Westf)Hbf|Rheine|Osnabrück Hbf|Bremen Hbf|Hamburg-Harburg|Hamburg Hbf|Hamburg Dammtor"/>
+	</s>
+	<s id="-8451883838818879990-2611211605-13">
+		<tl f="F" t="p" o="80" c="ICE" n="504"/>
+		<ar pt="2611212141" pp="7" fb="ICE 504" ppth="Nürnberg Hbf|Erlangen|Bamberg|Erfurt Hbf|Leipzig Hbf|Bitterfeld|Lutherstadt Wittenberg Hbf|Berlin Südkreuz|Berlin Hbf|Berlin-Spandau|Hamburg Hbf|Hamburg Dammtor"/>
+	</s>
+	<s id="-393416910456928903-2611211931-7">
+		<tl f="N" t="p" o="8002B5" c="RE" n="11035"/>
+		<ar pt="2611212122" pp="7" l="RE6" fb="RE6" ppth="Husum|Friedrichstadt|Lunden|Heide(Holst)|Itzehoe|Elmshorn"/>
+	</s>
+	<s id="-2167438544370822717-2611212136-1">
+		<tl f="F" t="p" o="80" c="ICE" n="809"/>
+		<dp pt="2611212136" pp="11" fb="ICE 809" ppth="Hamburg Hbf|Büchen|Ludwigslust|Wittenberge|Berlin-Spandau|Berlin Hbf|Berlin Südkreuz"/>
+	</s>
+	<s id="5489382238418385337-2611212156-1">
+		<tl f="F" t="p" o="NZ" c="IC" n="60471"/>
+		<dp pt="2611212156" pp="12" fb="IC 60471" ppth="Hamburg Dammtor|Hamburg Hbf|Hamburg-Harburg|Bremen Hbf|Hannover Hbf|Göttingen|Hanau Hbf|Frankfurt(Main)Süd|Darmstadt Hbf|Heidelberg Hbf|Karlsruhe Hbf|Offenburg|Freiburg(Breisgau) Hbf|Basel Bad Bf|Basel SBB|Zürich HB"/>
+		<tra t="v" id="9189714616421123533" ref-from="-521217330813819261-2611212156" s="a" o="p" jt="j"/>
+	</s>
+	<s id="-521217330813819261-2611212156-1">
+		<tl t="p" o="81" c="NJ" n="471"/>
+		<dp pt="2611212156" pp="12" fb="NJ 471" wings="5489382238418385337-2611212156" ppth="Hamburg Dammtor|Hamburg Hbf|Hamburg-Harburg|Bremen Hbf|Hannover Hbf|Göttingen|Hanau Hbf|Frankfurt(Main)Süd|Darmstadt Hbf|Heidelberg Hbf|Karlsruhe Hbf|Offenburg|Freiburg(Breisgau) Hbf|Basel Bad Bf|Basel SBB|Zürich HB"/>
+		<tra t="v" id="9189714616421123533" ref-to="5489382238418385337-2611212156" s="a" o="p" jt="j"/>
+	</s>
+</timetable>
