@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<timetable station="Garmisch-Partenkirchen">
+	<s id="-5745983461083515430-2611230542-3">
+		<tl f="N" t="p" o="800790" c="RE" n="4876"/>
+		<ar pt="2611230614" pp="2" l="RE61" fb="RE61" ppth="Mittenwald|Klais"/>
+	</s>
+	<s id="39819440432851803-2611230526-5">
+		<tl f="N" t="p" o="800790" c="RB" n="5503"/>
+		<ar pt="2611230623" pp="1" l="RB60" fb="RB60" pde="Reutte in Tirol" ppth="Ehrwald Zugspitzbahn|Griesen(Oberbay)|Untergrainau|Garmisch-Partenkirchen Hausberg"/>
+	</s>
+	<s id="-8173519902613572902-2611230601-1">
+		<tl f="N" t="p" o="800790" c="RB" n="59421"/>
+		<dp pt="2611230601" pp="3" l="RB6" fb="RB6" ppth="Klais|Mittenwald"/>
+	</s>
+	<s id="-81038787873158297-2611230616-4">
+		<tl f="N" t="p" o="800790" c="RB" n="5403"/>
+		<ar pt="2611230630" pp="3" l="RB6" fb="RB6" wings="-7909270677599901997-2611230616" ppth="Eschenlohe|Oberau|Farchant"/>
+		<dp pt="2611230632" pp="3" l="RB6" fb="RB6" pde="Innsbruck Westbahnhof" ppth="Klais"/>
+		<tra t="v" id="8900150015156452845" ref-to="-7909270677599901997-2611230616" s="a" o="p" jt="s"/>
+	</s>
+	<s id="-7909270677599901997-2611230616-4">
+		<tl f="N" t="p" o="800790" c="RB" n="5502"/>
+		<ar pt="2611230630" pp="3" l="RB60" fb="RB60" ppth="Eschenlohe|Oberau|Farchant"/>
+		<dp pt="2611230637" pp="3" l="RB60" fb="RB60" pde="Reutte in Tirol" ppth="Untergrainau|Griesen(Oberbay)|Ehrwald Zugspitzbahn"/>
+		<tra t="v" id="8900150015156452845" ref-from="-81038787873158297-2611230616" s="a" o="p" jt="s"/>
+	</s>
+	<s id="5713924455786277611-2611230617-1">
+		<tl f="N" t="p" o="800790" c="RB" n="59446"/>
+		<dp pt="2611230617" pp="1" l="RB6" fb="RB6" ppth="Farchant|Oberau|Eschenlohe"/>
+	</s>
+	<s id="-81038787873158297-2611230616-4">
+		<tl f="N" t="p" o="800790" c="RB" n="5403"/>
+		<ar pt="2611230630" pp="3" l="RB6" fb="RB6" wings="-7909270677599901997-2611230616" ppth="Eschenlohe|Oberau|Farchant"/>
+		<dp pt="2611230632" pp="3" l="RB6" fb="RB6" pde="Innsbruck Westbahnhof" ppth="Klais"/>
+		<tra t="v" id="8900150015156452845" ref-to="-7909270677599901997-2611230616" s="a" o="p" jt="s"/>
+	</s>
+</timetable>
