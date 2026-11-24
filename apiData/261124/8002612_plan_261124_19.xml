@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<timetable station="Hartmannshof">
+	<s id="-7789350235750578344-2611241840-3">
+		<tl f="N" t="p" o="800759" c="RE" n="3479"/>
+		<ar pt="2611241903" pp="1" l="RE41" fb="RE41" ppth="Nürnberg Hbf|Hersbruck(r Pegnitz)"/>
+		<dp pt="2611241903" pp="1" l="RE41" fb="RE41" ppth="Etzelwang|Neukirchen(b Sulzb)|Vilseck|Freihung|Weiherhammer|Weiden(Oberpf)|Altenstadt(Waldnaab)|Neustadt(Waldnaab)"/>
+		<tra t="v" id="4091016426302496514" ref-from="7851193203785452127-2611241840" s="a" o="p"/>
+	</s>
+	<s id="-3612502831869137896-2611241840-9">
+		<tl f="N" t="p" o="800759" c="RE" n="3580"/>
+		<ar pt="2611241950" pp="2" l="RE40" fb="RE40" ppth="Regensburg Hbf|Regenstauf|Maxhütte-Haidhof|Schwandorf|Amberg|Sulzbach-Rosenberg|Neukirchen(b Sulzb)|Etzelwang"/>
+		<dp pt="2611241951" pp="2" l="RE40" fb="RE40" ppth="Hersbruck(r Pegnitz)|Nürnberg Hbf"/>
+		<tra t="v" id="4409381870254199343" ref-from="-3901756409816523251-2611241853" s="a" o="p"/>
+	</s>
+	<s id="7851193203785452127-2611241840-3">
+		<tl f="N" t="p" o="800759" c="RE" n="3579"/>
+		<ar pt="2611241903" pp="1" l="RE40" fb="RE40" wings="-7789350235750578344-2611241840" ppth="Nürnberg Hbf|Hersbruck(r Pegnitz)"/>
+		<dp pt="2611241903" pp="1" l="RE40" fb="RE40" wings="-7789350235750578344-2611241840" ppth="Etzelwang|Neukirchen(b Sulzb)|Sulzbach-Rosenberg|Amberg|Schwandorf|Maxhütte-Haidhof|Regenstauf|Regensburg Hbf"/>
+		<tra t="v" id="4091016426302496514" ref-to="-7789350235750578344-2611241840" s="a" o="p"/>
+	</s>
+	<s id="-3901756409816523251-2611241853-9">
+		<tl f="N" t="p" o="800759" c="RE" n="3480"/>
+		<ar pt="2611241950" pp="2" l="RE41" fb="RE41" wings="-3612502831869137896-2611241840" ppth="Neustadt(Waldnaab)|Altenstadt(Waldnaab)|Weiden(Oberpf)|Weiherhammer|Freihung|Vilseck|Neukirchen(b Sulzb)|Etzelwang"/>
+		<dp pt="2611241951" pp="2" l="RE41" fb="RE41" wings="-3612502831869137896-2611241840" ppth="Hersbruck(r Pegnitz)|Nürnberg Hbf"/>
+		<tra t="v" id="4409381870254199343" ref-to="-3612502831869137896-2611241840" s="a" o="p"/>
+	</s>
+</timetable>
