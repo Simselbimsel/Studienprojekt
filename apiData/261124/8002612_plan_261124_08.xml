@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<timetable station="Hartmannshof">
+	<s id="1671580502225096708-2611240738-9">
+		<tl f="N" t="p" o="800759" c="RE" n="3558"/>
+		<ar pt="2611240850" pp="2" l="RE40" fb="RE40" ppth="Regensburg Hbf|Regenstauf|Maxhütte-Haidhof|Schwandorf|Amberg|Sulzbach-Rosenberg|Neukirchen(b Sulzb)|Etzelwang"/>
+		<dp pt="2611240851" pp="2" l="RE40" fb="RE40" ppth="Hersbruck(r Pegnitz)|Nürnberg Hbf"/>
+	</s>
+	<s id="7113350740459500162-2611240740-3">
+		<tl f="N" t="p" o="800759" c="RE" n="3457"/>
+		<ar pt="2611240803" pp="1" l="RE41" fb="RE41" ppth="Nürnberg Hbf|Hersbruck(r Pegnitz)"/>
+		<dp pt="2611240803" pp="1" l="RE41" fb="RE41" ppth="Etzelwang|Neukirchen(b Sulzb)|Vilseck|Freihung|Thansüß|Weiherhammer|Weiden(Oberpf)|Altenstadt(Waldnaab)|Neustadt(Waldnaab)"/>
+		<tra t="v" id="-5357794880129392883" ref-from="1760651181840931029-2611240740" s="a" o="p"/>
+	</s>
+	<s id="1760651181840931029-2611240740-3">
+		<tl f="N" t="p" o="800759" c="RE" n="3557"/>
+		<ar pt="2611240803" pp="1" l="RE40" fb="RE40" wings="7113350740459500162-2611240740" ppth="Nürnberg Hbf|Hersbruck(r Pegnitz)"/>
+		<dp pt="2611240803" pp="1" l="RE40" fb="RE40" wings="7113350740459500162-2611240740" ppth="Etzelwang|Neukirchen(b Sulzb)|Sulzbach-Rosenberg|Amberg|Schwandorf|Maxhütte-Haidhof|Regenstauf|Regensburg Hbf"/>
+		<tra t="v" id="-5357794880129392883" ref-to="7113350740459500162-2611240740" s="a" o="p"/>
+	</s>
+	<s id="7690851159434266061-2611240801-7">
+		<tl f="N" t="p" o="800759" c="RE" n="3458"/>
+		<ar pt="2611240850" pp="2" l="RE41" fb="RE41" ppth="Weiden(Oberpf)|Weiherhammer|Freihung|Vilseck|Neukirchen(b Sulzb)|Etzelwang"/>
+		<dp pt="2611240851" pp="2" l="RE41" fb="RE41" ppth="Hersbruck(r Pegnitz)|Nürnberg Hbf"/>
+	</s>
+</timetable>

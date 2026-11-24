@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<timetable station="Neuhaus(Pegnitz)">
+	<s id="-208444141150033841-2611240736-7">
+		<tl f="N" t="p" o="800759" c="RE" n="5280"/>
+		<ar pt="2611240855" pp="1" l="RE33" fb="RE33" ppth="Cheb|Schirnding|Arzberg(Oberfr)|Marktredwitz|Kirchenlaibach|Pegnitz"/>
+		<dp pt="2611240856" pp="1" l="RE33" fb="RE33" ppth="Nürnberg Hbf"/>
+		<tra t="v" id="5563676157618280358" ref-from="4775721178558658779-2611240739" s="a" o="p"/>
+	</s>
+	<s id="4758480531957517514-2611240737-2">
+		<tl f="N" t="p" o="800759" c="RE" n="3823"/>
+		<ar pt="2611240805" pp="2" l="RE31" fb="RE31" ppth="Nürnberg Hbf"/>
+		<dp pt="2611240806" pp="2" l="RE31" fb="RE31" ppth="Pegnitz|Kirchenlaibach|Marktredwitz"/>
+		<tra t="v" id="8858447633657962319" ref-from="7469438209092848329-2611240737" s="a" o="p"/>
+	</s>
+	<s id="7469438209092848329-2611240737-2">
+		<tl f="N" t="p" o="800759" c="RE" n="3023"/>
+		<ar pt="2611240805" pp="2" l="RE30" fb="RE30" wings="4758480531957517514-2611240737" ppth="Nürnberg Hbf"/>
+		<dp pt="2611240806" pp="2" l="RE30" fb="RE30" wings="4758480531957517514-2611240737" ppth="Pegnitz|Bayreuth Hbf|Trebgast|Münchberg|Hof Hbf"/>
+		<tra t="v" id="8858447633657962319" ref-to="4758480531957517514-2611240737" s="a" o="p"/>
+	</s>
+	<s id="4775721178558658779-2611240739-6">
+		<tl f="N" t="p" o="800759" c="RE" n="4880"/>
+		<ar pt="2611240855" pp="1" l="RE31" fb="RE31" wings="-208444141150033841-2611240736" ppth="Hof Hbf|Oberkotzau|Marktredwitz|Kirchenlaibach|Pegnitz"/>
+		<dp pt="2611240856" pp="1" l="RE31" fb="RE31" wings="-208444141150033841-2611240736" ppth="Nürnberg Hbf"/>
+		<tra t="v" id="5563676157618280358" ref-to="-208444141150033841-2611240736" s="a" o="p"/>
+	</s>
+	<s id="-4839438409019464202-2611240801-1">
+		<tl f="N" t="p" o="800720" c="RB" n="58518"/>
+		<dp pt="2611240801" pp="3" l="RB30" fb="RB30" ppth="Velden(b Hersbruck)|Rupprechtstegen|Vorra(Pegnitz)|Hohenstadt(Mittelfr)|Hersbruck(r Pegnitz)|Reichenschwand|Neunkirchen a Sand|Lauf(rechts Pegnitz)|Ludwigshöhe|Rückersdorf(Mfr)|Behringersdorf|Nürnberg-Erlenstegen|Nürnberg Ost|Nürnberg Hbf"/>
+	</s>
+	<s id="4370398531355125130-2611240816-2">
+		<tl f="N" t="p" o="800759" c="RE" n="3080"/>
+		<ar pt="2611240855" pp="1" l="RE30" fb="RE30" pde="Bayreuth Hbf" ppth="Pegnitz"/>
+		<dp pt="2611240856" pp="1" l="RE30" fb="RE30" ppth="Nürnberg Hbf"/>
+	</s>
+	<s id="4370398531355125130-2611240816-2">
+		<tl f="N" t="p" o="800759" c="RE" n="3080"/>
+		<ar pt="2611240855" pp="1" l="RE30" fb="RE30" pde="Bayreuth Hbf" ppth="Pegnitz"/>
+		<dp pt="2611240856" pp="1" l="RE30" fb="RE30" ppth="Nürnberg Hbf"/>
+	</s>
+</timetable>
