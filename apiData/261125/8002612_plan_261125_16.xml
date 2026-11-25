@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<timetable station="Hartmannshof">
+	<s id="-8131025009387873475-2611251535-9">
+		<tl f="N" t="p" o="800759" c="RE" n="3574"/>
+		<ar pt="2611251650" pp="2" l="RE40" fb="RE40" wings="2576751438066209851-2611251552" ppth="Regensburg Hbf|Regenstauf|Maxhütte-Haidhof|Schwandorf|Amberg|Sulzbach-Rosenberg|Neukirchen(b Sulzb)|Etzelwang"/>
+		<dp pt="2611251650" pp="2" l="RE40" fb="RE40" wings="2576751438066209851-2611251552" ppth="Hersbruck(r Pegnitz)|Nürnberg Hbf"/>
+		<tra t="v" id="8244156472098034518" ref-to="2576751438066209851-2611251552" s="a" o="p"/>
+	</s>
+	<s id="1370225861136012701-2611251540-3">
+		<tl f="N" t="p" o="800759" c="RE" n="3473"/>
+		<ar pt="2611251603" pp="1" l="RE41" fb="RE41" ppth="Nürnberg Hbf|Hersbruck(r Pegnitz)"/>
+		<dp pt="2611251603" pp="1" l="RE41" fb="RE41" ppth="Etzelwang|Neukirchen(b Sulzb)|Vilseck|Freihung|Weiherhammer|Weiden(Oberpf)|Altenstadt(Waldnaab)|Neustadt(Waldnaab)"/>
+		<tra t="v" id="-5067479931918503887" ref-from="-2418202888215344797-2611251540" s="a" o="p"/>
+	</s>
+	<s id="-2418202888215344797-2611251540-3">
+		<tl f="N" t="p" o="800759" c="RE" n="3573"/>
+		<ar pt="2611251603" pp="1" l="RE40" fb="RE40" wings="1370225861136012701-2611251540" ppth="Nürnberg Hbf|Hersbruck(r Pegnitz)"/>
+		<dp pt="2611251603" pp="1" l="RE40" fb="RE40" wings="1370225861136012701-2611251540" ppth="Etzelwang|Neukirchen(b Sulzb)|Sulzbach-Rosenberg|Amberg|Freihöls|Schwandorf|Maxhütte-Haidhof|Regenstauf|Regensburg Hbf"/>
+		<tra t="v" id="-5067479931918503887" ref-to="1370225861136012701-2611251540" s="a" o="p"/>
+	</s>
+	<s id="2576751438066209851-2611251552-10">
+		<tl f="N" t="p" o="800759" c="RE" n="3474"/>
+		<ar pt="2611251650" pp="2" l="RE41" fb="RE41" ppth="Neustadt(Waldnaab)|Altenstadt(Waldnaab)|Weiden(Oberpf)|Weiherhammer|Thansüß|Freihung|Vilseck|Neukirchen(b Sulzb)|Etzelwang"/>
+		<dp pt="2611251650" pp="2" l="RE41" fb="RE41" ppth="Hersbruck(r Pegnitz)|Nürnberg Hbf"/>
+		<tra t="v" id="8244156472098034518" ref-from="-8131025009387873475-2611251535" s="a" o="p"/>
+	</s>
+	<s id="-5532573496840889319-2611251625-2">
+		<tl f="N" t="p" o="800759" c="RE" n="3595"/>
+		<ar pt="2611251632" pp="1" l="RE47" fb="RE47" ppth="Hersbruck(r Pegnitz)"/>
+		<dp pt="2611251633" pp="1" l="RE47" fb="RE47" ppth="Etzelwang|Neukirchen(b Sulzb)|Sulzbach-Rosenberg|Amberg|Irrenlohe|Schwandorf|Bodenwöhr Nord|Neubäu|Roding|Pösing|Cham(Oberpf)|Arnschwang|Furth im Wald"/>
+	</s>
+</timetable>

@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<timetable station="Hartmannshof">
+	<s id="5242690601830399544-2611251240-3">
+		<tl f="N" t="p" o="800759" c="RE" n="3467"/>
+		<ar pt="2611251303" pp="1" l="RE41" fb="RE41" wings="-3459443339028170125-2611251240" ppth="Nürnberg Hbf|Hersbruck(r Pegnitz)"/>
+		<dp pt="2611251303" pp="1" l="RE41" fb="RE41" wings="-3459443339028170125-2611251240" ppth="Etzelwang|Neukirchen(b Sulzb)|Vilseck|Freihung|Weiherhammer|Weiden(Oberpf)|Altenstadt(Waldnaab)|Neustadt(Waldnaab)"/>
+		<tra t="v" id="-4263652991779006765" ref-to="-3459443339028170125-2611251240" s="a" o="p"/>
+	</s>
+	<s id="-4368792054554634452-2611251240-9">
+		<tl f="N" t="p" o="800759" c="RE" n="3568"/>
+		<ar pt="2611251350" pp="2" l="RE40" fb="RE40" wings="7548663964315190392-2611251253" ppth="Regensburg Hbf|Regenstauf|Maxhütte-Haidhof|Schwandorf|Amberg|Sulzbach-Rosenberg|Neukirchen(b Sulzb)|Etzelwang"/>
+		<dp pt="2611251351" pp="2" l="RE40" fb="RE40" wings="7548663964315190392-2611251253" ppth="Hersbruck(r Pegnitz)|Nürnberg Hbf"/>
+		<tra t="v" id="-2575617925615389989" ref-to="7548663964315190392-2611251253" s="a" o="p"/>
+	</s>
+	<s id="-3459443339028170125-2611251240-3">
+		<tl f="N" t="p" o="800759" c="RE" n="3567"/>
+		<ar pt="2611251303" pp="1" l="RE40" fb="RE40" ppth="Nürnberg Hbf|Hersbruck(r Pegnitz)"/>
+		<dp pt="2611251303" pp="1" l="RE40" fb="RE40" ppth="Etzelwang|Neukirchen(b Sulzb)|Sulzbach-Rosenberg|Amberg|Freihöls|Schwandorf|Maxhütte-Haidhof|Regenstauf|Regensburg Hbf"/>
+		<tra t="v" id="-4263652991779006765" ref-from="5242690601830399544-2611251240" s="a" o="p"/>
+	</s>
+	<s id="7548663964315190392-2611251253-9">
+		<tl f="N" t="p" o="800759" c="RE" n="3468"/>
+		<ar pt="2611251350" pp="2" l="RE41" fb="RE41" ppth="Neustadt(Waldnaab)|Altenstadt(Waldnaab)|Weiden(Oberpf)|Weiherhammer|Freihung|Vilseck|Neukirchen(b Sulzb)|Etzelwang"/>
+		<dp pt="2611251351" pp="2" l="RE41" fb="RE41" ppth="Hersbruck(r Pegnitz)|Nürnberg Hbf"/>
+		<tra t="v" id="-2575617925615389989" ref-from="-4368792054554634452-2611251240" s="a" o="p"/>
+	</s>
+</timetable>
