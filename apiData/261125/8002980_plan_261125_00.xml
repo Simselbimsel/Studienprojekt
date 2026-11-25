@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<timetable station="Holzkirchen">
+	<s id="-1231994002280017756-2611242333-13">
+		<tl f="D" t="p" o="M8" c="BRB" n="79556"/>
+		<ar pt="2611250013" pp="5" l="RB58" fb="RB58" ppth="Rosenheim|Rosenheim Aicherpark|Kolbermoor|Bad Aibling Kurpark|Bad Aibling|Heufeld|Hinrichssegen|Heufeldmühle|Bruckmühl|Feldolling|Westerham|Kreuzstraße"/>
+	</s>
+	<s id="3513955235624596328-2611250010-5">
+		<tl f="D" t="p" o="T8" c="BRB" n="87025"/>
+		<ar pt="2611250035" pp="1" l="RB57" fb="RB57" wings="-6118306955502080276-2611250010|-3644223346164734892-2611250010" ppth="München Hbf Gl.27-36|München Donnersbergerbrücke|München Harras|München Siemenswerke"/>
+		<dp pt="2611250040" pp="1" l="RB57" fb="RB57" wings="-3644223346164734892-2611250010" ppth="Warngau|Schaftlach|Moosrain|Finsterwald|Gmund(Tegernsee)|Tegernsee"/>
+		<tra t="v" id="-3725257574448605007" ref-to="-6118306955502080276-2611250010" s="a" o="p" jt="s"/>
+		<tra t="v" id="-1024209733244196122" ref-to="-3644223346164734892-2611250010" s="a" o="p"/>
+	</s>
+	<s id="-3644223346164734892-2611250010-5">
+		<tl f="D" t="p" o="T8" c="BRB" n="87005"/>
+		<ar pt="2611250035" pp="1" l="RB56" fb="RB56" wings="-6118306955502080276-2611250010" ppth="München Hbf Gl.27-36|München Donnersbergerbrücke|München Harras|München Siemenswerke"/>
+		<dp pt="2611250040" pp="1" l="RB56" fb="RB56" ppth="Warngau|Schaftlach|Reichersbeuern|Bad Tölz|Gaißach|Obergries|Lenggries"/>
+		<tra t="v" id="-2797202174615348011" ref-to="-6118306955502080276-2611250010" s="a" o="p" jt="s"/>
+		<tra t="v" id="-1024209733244196122" ref-from="3513955235624596328-2611250010" s="a" o="p"/>
+	</s>
+	<s id="-6118306955502080276-2611250010-5">
+		<tl f="D" t="p" o="T8" c="BRB" n="86785"/>
+		<ar pt="2611250035" pp="1" l="RB55" fb="RB55" ppth="München Hbf Gl.27-36|München Donnersbergerbrücke|München Harras|München Siemenswerke"/>
+		<dp pt="2611250037" pp="1" l="RB55" fb="RB55" ppth="Darching|Miesbach|Agatharied|Hausham|Schliersee|Fischhausen-Neuhaus|Fischbachau|Geitau|Osterhofen(Oberbay)|Bayrischzell"/>
+		<tra t="v" id="-3725257574448605007" ref-from="3513955235624596328-2611250010" s="a" o="p" jt="s"/>
+		<tra t="v" id="-2797202174615348011" ref-from="-3644223346164734892-2611250010" s="a" o="p" jt="s"/>
+	</s>
+</timetable>
