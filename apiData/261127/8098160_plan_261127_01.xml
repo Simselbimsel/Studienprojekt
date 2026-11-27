@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<timetable station="Berlin Hbf">
+	<s id="5089820149948252230-2611261645-14">
+		<tl f="F" t="p" o="80" c="ICE" n="592"/>
+		<ar pt="2611270155" pp="7" fb="ICE 592" ppth="München Hbf|München-Pasing|Augsburg Hbf|Ulm Hbf|Stuttgart Hbf|Mannheim Hbf|Frankfurt(Main)Hbf|Fulda|Eisenach Hbf|Erfurt Hbf|Leipzig Hbf|Bitterfeld|Berlin Südkreuz"/>
+	</s>
+	<s id="-5083558051405008269-2611261934-7">
+		<tl f="F" t="p" o="80" c="ICE" n="1500"/>
+		<ar pt="2611270125" pp="5" fb="ICE 1500" ppth="München Hbf|Ingolstadt Hbf|Nürnberg Hbf|Erfurt Hbf|Halle(Saale)Hbf|Berlin Südkreuz"/>
+	</s>
+	<s id="-2451771813568964797-2611261946-10">
+		<tl f="F" t="p" o="80" c="ICE" n="957"/>
+		<ar pt="2611270126" pp="2" fb="ICE 957" wings="3778695356863398992-2611261949" ppth="Köln Hbf|Wuppertal Hbf|Hagen Hbf|Hamm(Westf)Hbf|Bielefeld Hbf|Hannover Hbf|Braunschweig Hbf|Magdeburg Hbf|Potsdam Hbf"/>
+		<dp pt="2611270129" pp="2" fb="ICE 957" hi="1" wings="3778695356863398992-2611261949" ppth="Berlin Südkreuz"/>
+		<tra t="v" id="-6706599453697867347" ref-to="3778695356863398992-2611261949" s="a" o="p"/>
+	</s>
+	<s id="3778695356863398992-2611261949-13">
+		<tl f="F" t="p" o="80" c="ICE" n="947"/>
+		<ar pt="2611270126" pp="2" fb="ICE 947" ppth="Düsseldorf Hbf|Düsseldorf Flughafen|Duisburg Hbf|Essen Hbf|Bochum Hbf|Dortmund Hbf|Hamm(Westf)Hbf|Bielefeld Hbf|Hannover Hbf|Braunschweig Hbf|Magdeburg Hbf|Potsdam Hbf"/>
+		<dp pt="2611270129" pp="2" fb="ICE 947" hi="1" ppth="Berlin Südkreuz"/>
+		<tra t="v" id="-6706599453697867347" ref-from="-2451771813568964797-2611261946" s="a" o="p"/>
+	</s>
+</timetable>
