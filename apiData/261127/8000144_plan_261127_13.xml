@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<timetable station="Türkheim(Bay)Bf">
+	<s id="-4614179009899396245-2611271122-12">
+		<tl t="p" o="GYRE" c="ARV" n="94126"/>
+		<ar pt="2611271319" pp="3" l="RE96" fb="RE96" ppth="Lindau-Reutin|Lindau-Insel|Hergatz|Wangen(Allgäu)|Kißlegg|Leutkirch|Aichstetten|Marstetten-Aitrach|Tannheim(Württ)|Memmingen|Mindelheim"/>
+		<dp pt="2611271320" pp="3" l="RE96" fb="RE96" ppth="Buchloe"/>
+	</s>
+	<s id="3389483054055150182-2611271307-2">
+		<tl f="N" t="p" o="8007D5" c="RE" n="57569"/>
+		<ar pt="2611271314" pp="4" l="RE73" fb="RE73" ppth="Bad Wörishofen"/>
+	</s>
+	<s id="5961243609780422486-2611271307-6">
+		<tl f="N" t="p" o="8007D5" c="RE" n="57511"/>
+		<ar pt="2611271338" pp="3" l="RE71" fb="RE71" ppth="Memmingen|Sontheim(Schwab)|Stetten(Schwab)|Mindelheim|Rammingen(Bay)"/>
+		<dp pt="2611271344" pp="3" l="RE71" fb="RE71" wings="-2233350228678200902-2611271335" ppth="Buchloe|Augsburg Hbf"/>
+		<tra t="v" id="-2694461304898677320" ref-to="-2233350228678200902-2611271335" s="a" o="p" jt="j"/>
+	</s>
+	<s id="-2485606463075627974-2611271312-2">
+		<tl t="p" o="GYRE" c="ARV" n="94133"/>
+		<ar pt="2611271317" pp="1" l="RE72" fb="RE72" ppth="Buchloe"/>
+		<dp pt="2611271320" pp="1" l="RE72" fb="RE72" ppth="Rammingen(Bay)|Mindelheim|Stetten(Schwab)|Sontheim(Schwab)|Memmingen"/>
+	</s>
+	<s id="643424272013029787-2611271322-1">
+		<tl f="N" t="p" o="8007D5" c="RE" n="57568"/>
+		<dp pt="2611271322" pp="4" l="RE73" fb="RE73" ppth="Bad Wörishofen"/>
+	</s>
+	<s id="-2233350228678200902-2611271335-2">
+		<tl f="N" t="p" o="8007D5" c="RE" n="57531"/>
+		<ar pt="2611271341" pp="3" l="RE73" fb="RE73" ppth="Bad Wörishofen"/>
+		<dp pt="2611271344" pp="3" l="RE73" fb="RE73" ppth="Buchloe|Augsburg Hbf"/>
+		<tra t="v" id="-2694461304898677320" ref-from="5961243609780422486-2611271307" s="a" o="p" jt="j"/>
+	</s>
+</timetable>
